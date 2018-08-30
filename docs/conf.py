@@ -129,6 +129,8 @@ html_favicon = 'resources/favicon.ico'
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 
+def setup(app):
+    app.add_stylesheet('css/custom.css')
 
 # -- Options for HTMLHelp output ------------------------------------------
 

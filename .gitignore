@@ -4,7 +4,5 @@ umls/
 .idea/
 .DS_Store
 _build
-_static
-_templates
 .vscode
 venv
