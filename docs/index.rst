@@ -10,7 +10,7 @@
 .. toctree::
     :maxdepth: 2
     :titlesonly:
-    :caption: Table of Contents:
+    :caption: 目录：
 
     tutorials-1.md
     whats-nebulas/README.rst
@@ -20,7 +20,7 @@
     licensing/README.rst
     
 
-Indices and tables
+索引表
 ==================
 
 * :ref:`genindex`
