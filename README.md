@@ -1,5 +1,12 @@
 # nebdocs
 
+## Language version and branch rules:
+1. The multi-language version is managed separately by different branches. The currently supported languages are as follows:
+- master: English version;
+- zh-CN: Simplified Chinese version;
+2. To facilitate document management, the document structure of different branches is as consistent as possible with the main branch;
+3. Each language is allowed to have its own temporary version. It is recommended to add the suffix version number to the version name, for example, en1.0, zh-CN1.1;
+
 ## How to build this project?
 1. clone the project from github, here is for master bratch:
 
