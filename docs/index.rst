@@ -6,6 +6,8 @@
 Welcome to nebulas's documentation!
 ========================================
 
+test for zh-CN
+
 .. toctree::
     :maxdepth: 2
     :titlesonly:
