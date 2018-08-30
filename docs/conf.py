@@ -107,6 +107,7 @@ html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 #
 html_theme_options = {
     'logo_only': True,  # if we have a html_logo below, this shows /only/ the logo with no title text
+    'display_version' : False, 
     'collapse_navigation': False,  # Collapse navigation (False makes it tree-like)
 }
 
