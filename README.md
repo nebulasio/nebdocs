@@ -2,7 +2,7 @@
 
 本项目是通过[sphinx](http://www.sphinx-doc.org/en/master/)创建并上传到[readthedocs](https://readthedocs.org/)上托管, 托管后的在线文档地址：https://nebdocs.readthedocs.io/zh_CN/latest/index.html。
 
-本项目支持如下两种格式的文档：
+本项目支持如下两种格式的文档：
 - markdown（.md）
 - reStructuredText（.rst）
 
@@ -37,9 +37,9 @@ make html
 ## 如何添加新文档？
 ### 如果只是添加文件
 1. 将文件添加到合适的位置；
-2. 在文件所在的目录里找到README.rst文件(项目根目录为index.rst文件)，打开该文件，在'toctree'关键字后面的文件列表添加新加的文件名。例如：
+2. 在文件所在的目录里找到README.rst文件(项目根目录为index.rst文件)，打开该文件，在'toctree'关键字后面的文件列表添加新加的文件名。例如：
 
-对于文件结构：
+对于文件结构：
 ```
 +--folder
    |
@@ -59,9 +59,9 @@ README.rst的内容应该是这样：
     新文件.md
 ```
 ### 如果需要添加新目录
-这种情况需要添加一个README.rst文件用来定义本目录下的文档目录结构，将其他文件名放入'toctree'关键字后面的文件列表中，具体内容可以参照其他README.rst文件，并在上一层目录的README.rst文件里的文件列表加上本目README.rst文件的相对路径，例如：
+这种情况需要添加一个README.rst文件用来定义本目录下的文档目录结构，将其他文件名放入'toctree'关键字后面的文件列表中，具体内容可以参照其他README.rst文件，并在上一层目录的README.rst文件里的文件列表加上本目README.rst文件的相对路径，例如：
 
-对于文件结构：
+对于文件结构：
 ```
 +--folder
    |
