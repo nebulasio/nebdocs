@@ -27,3 +27,31 @@ pip install sphinx==1.5.6 sphinx-autobuild sphinx_rtd_theme recommonmark
 cd nebdocs
 make html
 ```
+
+## How to add a new language version?
+
+1. Create a new branch, for the Chinese version example:
+```bash
+Git checkout -b zh-CN
+```
+2. Modify the github configuration in ./docs/conf.py, find the 'html_context' definition, and change the value of the 'github_version' field to the new branch name 'zh-CN', as follows:
+
+```python
+# VCS options:
+Html_context = {
+     "display_github": True, # Integrate GitHub
+     "github_user": "nebulasio", # Username
+     "github_repo": "nebdocs", # Repo name
+     "github_version": "zh-CN", # Version
+     "conf_py_path": "/", # Path in the checkout to the docs root
+}
+```
+
+3. Replace the documents that you need to translate with the new language version.
+
+4. Submit the files to github:
+
+```bash
+Git push --set-upstream zh-CN
+```
+5. Notify the manager to add a new language version to the readthedocs' online documentation.
