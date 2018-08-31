@@ -2,6 +2,13 @@
 
 This project was created by [sphinx](http://www.sphinx-doc.org/en/master/) and uploaded to [readthedocs](https://readthedocs.org/) for hosting. Url of online documentation after hosting is: https://nebdocs.readthedocs.io/en_US/latest/index.html.
 
+This project supports documents in the following two formats:
+
+- Markdown(.md)
+- reStructuredText(.rst)
+
+The directory structure of the document is defined in the README.rst file in the same directory.
+
 ## Language version and branch rules:
 1. The multi-language version is managed separately by different branches. The currently supported languages are as follows:
 - master: English version;
@@ -27,6 +34,55 @@ pip install sphinx==1.5.6 sphinx-autobuild sphinx_rtd_theme recommonmark
 cd nebdocs
 make html
 ```
+
+## How to add a new document?
+### If just add a file
+1. Add the file to the appropriate directory;
+2. Locate the README.rst file in the directory where the file is located (the project root directory is index.rst file), open the file, and add the newly added file name to the file list after the 'toctree' keyword. E.g:
+
+For this file structure:
+```
++--folder
+   |
+   +--README.rst
+   +--config.md
+   +--contributors.md
+   +--newFile.md
+```
+
+The content of README.rst should look like this:
+```
+.. toctree::
+    :titlesonly:
+
+    Config.md
+    Contributors.md
+    newFile .md
+```
+
+### If you need to add a new directory
+In this case, you need to add a README.rst file to define the document directory structure in this directory. Put other file names in the file list after the 'toctree' keyword. For details, refer to other README.rst files. The file list in the README.rst file of the previous directory should add the relative path of the README.rst file of the current directory, for example:
+
+For this file structure:
+```
++--folder
+   |
+   +--README.rst
+   +--config.md
+   +--contributors.md
+   +--newDirectory
+      |
+      +--README.rst
+      +--newFile.md
+```
+The contents of the folder/README.rst file should be:
+```
+.. toctree::
+    :titlesonly:
+
+    Config.md
+    Contributors.md
+    newDirectory/README.rst
 
 ## How to add a new language version?
 
