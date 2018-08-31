@@ -57,7 +57,7 @@ The content of README.rst should look like this:
 
     Config.md
     Contributors.md
-    newFile .md
+    newFile.md
 ```
 
 ### If you need to add a new directory
@@ -83,6 +83,7 @@ The contents of the folder/README.rst file should be:
     Config.md
     Contributors.md
     newDirectory/README.rst
+```
 
 ## How to add a new language version?
 
