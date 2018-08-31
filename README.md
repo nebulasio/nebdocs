@@ -1,6 +1,6 @@
 # nebdocs
 
-This project was created by [`sphinx`] (http://www.sphinx-doc.org/en/master/) and uploaded to [`readthedocs`] (https://readthedocs.org/) for hosting. Url of online documentation after hosting is: https://nebdocs.readthedocs.io/en_US/latest/index.html.
+This project was created by [sphinx](http://www.sphinx-doc.org/en/master/) and uploaded to [readthedocs](https://readthedocs.org/) for hosting. Url of online documentation after hosting is: https://nebdocs.readthedocs.io/en_US/latest/index.html.
 
 ## Language version and branch rules:
 1. The multi-language version is managed separately by different branches. The currently supported languages are as follows:
