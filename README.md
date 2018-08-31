@@ -28,20 +28,29 @@ cd nebdocs
 make html
 ```
 
-## 如何添加新的语言版本？
-1. 创建新的分支，例如中文版本：
-```bash
-git checkout -b zh-CN
-```
-2. 修改./docs/conf.py里面的github配置, 找到html_context定义，将其github_version字段的值修改为新的分支名zh-CN，如下：
+    ## 如何添加新的语言版本？
+    1. 创建新的分支，例如中文版本：
+    ```bash
+    git checkout -b zh-CN
+    ```
+    2. 修改./docs/conf.py里面的github配置, 找到html_context定义，将其github_version字段的值修改为新的分支名zh-CN，如下：
 
-```python
-# VCS options: 
-html_context = {
-    "display_github": True, # Integrate GitHub
-    "github_user": "nebulasio", # Username
-    "github_repo": "nebdocs", # Repo name
-    "github_version": "zh-CN", # Version
-    "conf_py_path": "/", # Path in the checkout to the docs root
-}
-```
+    ```python
+    # VCS options: 
+    html_context = {
+        "display_github": True, # Integrate GitHub
+        "github_user": "nebulasio", # Username
+        "github_repo": "nebdocs", # Repo name
+        "github_version": "zh-CN", # Version
+        "conf_py_path": "/", # Path in the checkout to the docs root
+    }
+    ```
+
+    3. 将需要翻译的文档替换成新语言版本。
+
+    4. 提交到github：
+
+    ```bash
+    git push --set-upstream zh-CN
+    ```
+    5. 通知管理员在readthedocs的在线文档上添加新的语言版本。
