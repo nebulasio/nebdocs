@@ -1,6 +1,6 @@
 # 星云文档（nebdocs）
 
-本项目是通过[`sphinx`](http://www.sphinx-doc.org/en/master/)创建，并上传到[`readthedocs`](https://readthedocs.org/)上托管, 托管后的在线文档地址：https://nebdocs.readthedocs.io/zh_CN/latest/index.html。
+本项目是通过[`sphinx`](http://www.sphinx-doc.org/en/master/)创建，并上传到[`readthedocs`](https://readthedocs.org/)上托管, 托管后的在线文档地址：https://nebdocs.readthedocs.io/zh_CN/latest/index.html。
 
 ## 语言版本和分支的规则：
 1. 多语言版本通过不同分支来分别管理，当前支持的语言如下：
@@ -33,7 +33,7 @@ make html
     ```bash
     git checkout -b zh-CN
     ```
-    2. 修改./docs/conf.py里面的github配置, 找到html_context定义，将其github_version字段的值修改为新的分支名zh-CN，如下：
+    2. 修改./docs/conf.py里面的github配置, 找到html_context定义，将其github_version字段的值修改为新的分支名zh-CN，如下：
 
     ```python
     # VCS options: 
