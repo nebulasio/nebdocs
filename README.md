@@ -1,6 +1,6 @@
 # 星云文档（nebdocs）
 
-本项目是通过[sphinx](http://www.sphinx-doc.org/en/master/)创建并上传到[readthedocs](https://readthedocs.org/)上托管, 托管后的在线文档地址：https://nebdocs.readthedocs.io/zh_CN/latest/index.html。
+本项目是通过[sphinx](http://www.sphinx-doc.org/en/master/)创建并上传到[readthedocs](https://readthedocs.org/)上托管, 托管后的在线文档地址：[https://nebdocs.readthedocs.io/zh_CN/latest/](https://nebdocs.readthedocs.io/zh_CN/latest/)。
 
 本项目支持如下两种格式的文档：
 - markdown（.md）
