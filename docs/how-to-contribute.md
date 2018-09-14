@@ -41,7 +41,7 @@
 
 下载我们准备好的wiki设计模板 >
 
-下载LOGO素材 >
+[下载LOGO素材 >](https://www.nebulas.io/docs/NEBULAS-LOGO-SVG.zip)
 
 如有问题请直接在github上提issue > (wiki那个库)
 
