@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to nebulas's documentation!
+Nebulas Wiki
 ========================================
 
 .. toctree::
@@ -11,7 +11,8 @@ Welcome to nebulas's documentation!
     :titlesonly:
     :caption: Table of Contents:
 
-    tutorials-1.md
+    overview.md
+    how-to-contribute.md
     whats-nebulas/README.rst
     go-nebulas/README.rst
     dapp-development/README.rst
