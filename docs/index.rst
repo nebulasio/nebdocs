@@ -14,10 +14,12 @@
 
     overview.md
     how-to-contribute.md
-    whats-nebulas/README.rst
-    go-nebulas/README.rst
-    dapp-development/README.rst
-    infrastructure/README.rst
+    wiki-using-guide.md
+    mainnet-guide/README.rst
+    dapps-developing-guide/README.rst
+    community-ecosystem/README.rst
+    useful-links.md
+    frequently-asked-questions.md
     licensing/README.rst
     
 
