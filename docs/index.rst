@@ -12,7 +12,8 @@
     :titlesonly:
     :caption: 目录：
 
-    tutorials-1.md
+    overview.md
+    how-to-contribute.md
     whats-nebulas/README.rst
     go-nebulas/README.rst
     dapp-development/README.rst
