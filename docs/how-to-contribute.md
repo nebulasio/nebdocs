@@ -41,25 +41,27 @@
 
 下载我们准备好的wiki设计模板 >
 
-下载LOGO素材 >
+[下载LOGO素材 >](https://www.nebulas.io/docs/NEBULAS-LOGO-SVG.zip)
 
-如有问题请直接在github上提issue > (wiki那个库)
+[如有问题请直接在github上提issue >](https://github.com/nebulasio/nebdocs.git)
 
 ## User Groups
-当前星云有多个交流平台，参见官网社区板块：[https://nebulas.io/community.html](https://nebulas.io/community.html)
+当前星云有多个交流平台，[参见官网社区板块 >](https://nebulas.io/community.html)
+
 Discord：综合，可以订阅新闻，可以参与分组讨论，推荐使用Discord
-邮件组：核心开发者讨论区，推荐开发者订阅
 
-论坛讨论：Reddit/r/nebulas（综合）、Reddit/r/nasdev（开发者）
+邮件组：[核心开发者讨论区，推荐开发者订阅 >](https://lists.nebulas.io/cgi-bin/mailman/listinfo)
 
-在线交流：Slack（开发者）、Telegram（非开发者）
+论坛讨论：[Reddit/r/nebulas（综合）](https://www.reddit.com/r/nebulas/)、[Reddit/r/nasdev（开发者）](https://www.reddit.com/r/nasdev/)
+
+在线交流：[Slack（开发者）](https://nebulasio.herokuapp.com/)、[Telegram（非开发者）](https://nebulasio.herokuapp.com/)
 
 为方便星云社区开发者之间进行沟通，我们欢迎社区的开发者创建一个IRC。
 
 ## Bounties
 星云悬赏包括多个部分：
 
-开发者悬赏：参见开发者悬赏清单 >
+[开发者悬赏：参见开发者悬赏清单 >](https://www.nebulas.io/cn/developers.html)
 
 wiki悬赏：我们会根据Github提交情况，奖励在一定时间段内对星云wiki做出过巨大贡献的活跃用户。第一次评选截止日期为2018年12月31日，例如，基础奖励金额为独立翻译一篇黄皮书200NAS。具体奖励金额和奖励人数将综合考虑实际情况给出。敬请期待具体细则。
 
