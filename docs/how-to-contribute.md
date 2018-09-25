@@ -1,5 +1,7 @@
 # How to Contribute
-> *Your contribution matters!* Nebulas aims for a continuously improving ecosystem, which means we need everyone's efforts from community. We here call for your contribution. It can be not only programming, bug reporting and tranlating, but also can be talking with others or answering others' questions with your favourite IM tools or email.
+> *Your contribution matters!*
+
+Nebulas aims for a continuously improving ecosystem, which means we need everyone's efforts from community. We here call for your contribution. It can be not only programming, bug reporting and tranlating, but also can be talking with others or answering others' questions with your favourite IM tools or email.
 
 ## 1. Code & Documentation
 ### 1.1. Mainnet Development
@@ -38,6 +40,8 @@ Testnet bug list: [https://lists.nebulas.io/cgi-bin/mailman/listinfo/testnet-bug
 
 ### 1.3.   Translation
 Translation is important to spread Nebulas to the whole world!
+
+
 We welcome community members from around the world to participate in the translation of Nebulas documentation. You can translate everything from the wiki, including mainnet technical development documents, DApp FAQ, official documents about Nebulas whitepaper and Yellow Paper, Nebulas design principle introduction and more. Your contribution significantly helps numerous Nebulas developers and community members.
 Please note that some documents will require a professional background in Math, Computer Science, Cryptography or other specialties.
 
@@ -58,6 +62,8 @@ If you have any question or comments, please do not hesitate to post on our gith
 ## 2. User Groups
 Communication is the key for building community. People need talk with each
 other in the purpose of sharing their ideas or their thinkings of Nebulas.
+
+
 Nebulas utilizes several platforms to connect our global community. Please refer to the “Community” link on official website for more information: [https://nebulas.io/community.html](https://nebulas.io/community.html)
 
 Discord: Available for all community members. You can subscribe to Nebulas News as well as participate in group discussion. Discord is many users first choice.
