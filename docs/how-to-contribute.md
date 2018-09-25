@@ -1,7 +1,7 @@
 # How to Contribute
 > *Your contribution matters!*
 
-Nebulas aims for a continuously improving ecosystem, which means we need everyone's efforts from community. We here call for your contribution. It can be not only programming, bug reporting and tranlating, but also can be talking with others or answering others' questions with your favourite IM tools or email.
+> Nebulas aims for a continuously improving ecosystem, which means we need everyone's efforts from community. We here call for your contribution. It can be not only programming, bug reporting and tranlating, but also can be talking with others or answering others' questions with your favourite IM tools or email.
 
 ## 1. Code & Documentation
 ### 1.1. Mainnet Development
