@@ -70,11 +70,9 @@ Discord: Available for all community members. You can subscribe to Nebulas News,
 
 Mailing lists: Discussion groups for core development and bug reporting. We welcome developers to subscribe.
 
-Forum: [Reddit/r/nebulas(for all)](https://reddit.com/r/nebulas), [Reddit/r/nasdev(for developers)](https://reddit.com/r/nasdev)
-
-Communication: [Slack(for developers)](https://nebulasio.herokuapp.com/), [Telegram(for non-developers)](https://t.me/nebulasio)
-
-We welcome community developers to create an IRC (Internet Relay Chat) channel for better communication among developers.
+Forum: Reddit/r/nebulas (for all), Reddit/r/nasdev(for developers)
+Communication: Slack(for developers), Telegram(for non-developers)
+We welcome community developers to create an IRC(Internet Relay Chat) for better communication with developers.
 
 ## 3. Bounties
 > *Note:* this is temporary since we believe that bounties are helpful only during the
