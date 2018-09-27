@@ -21,29 +21,28 @@ Sempre valorizámos a submissão de bugs!
 
 Se encontrar um bug, por favor submeta um relatório à comunidade Nebulas. Bugs podem ser encontrados na testnet, mainnet, nebPay, neb.js, na web wallet, tal como em outras ferramentas e até documentação. Seguiremos o sistema de avaliação de risco OWASP para calcular a recompensa correspondente, baseada no grau de importância do bug.
 
-<!--Every time we launch a new function, we will first deploy it on our testnet. Currently, we have launched our first new function on the Nebulas testnet and everyone is welcome to try it, report any bugs discovered and receive the corresponding reward. The first of many new functions in public beta on the testnet is the inter-contract function.-->
-If you have suggestions on how to fix bugs, or improve upon an affiliated project, please do not hesitate to let us know. You can also participate in the development and directly protect the onchain assets. Together, let’s make Nebulas even more safe, secure, and robust.
+<!--Cada vez que disponibilizamos uma nova função, ela é primeiro implementada na nossa testnet. De momento temos uma função nova na testnet da Nebulas e convidamos toda a gente a testá-la. Submeta relatórios para os bugs que encontre e receba recompensas proporcionais ao bug. A primeira função de muitas mais a serem implementadas, em beta público, está na testnet e é a função de inter-contractos..-->
+Se tiver sugestões para a resolução de bugs, ou relativamente a melhorias, por favor não hesite em nos contactar. Pode também participar no desenvolvimento directamente, e proteger activos na blockchain. Juntos, vamos tornar a Nebulas mais segura, resiliente, e robusta.
 
-To submit bugs and related information, please post the information in the related Nebulas mail groups. When submitting reports, please be careful and pay attention to the mail group in order to prevent bugs from being exploited or create duplicates. We welcome you to follow the mail group and join the discussion.
+Para submeter relatórios e informação sobre os mesmos bugs, por favor poste no mail group da Nebulas relevante. Quando o fizer, tenha cuidado de modo a prevenir a exploração dos bugs, tal como a submissão de relatórios duplicados. Convidamo-lo a seguir o mail group e a juntar-se à discussão.
 
-Mail group list: [lists.nebulas.io/cgi-bin/mailman/listinfo](https://lists.nebulas.io/cgi-bin/mailman/listinfo)
+Lista dos Mail groups: [https://lists.nebulas.io/cgi-bin/mailman/listinfo](https://lists.nebulas.io/cgi-bin/mailman/listinfo)
 
-Mainnet bug list: [lists.nebulas.io/cgi-bin/mailman/listinfo/mainnet-bugs](https://lists.nebulas.io/cgi-bin/mailman/listinfo/mainnet-bugs)
+Lista dos bugs da Mainnet: [https://lists.nebulas.io/cgi-bin/mailman/listinfo/mainnet-bugs](https://lists.nebulas.io/cgi-bin/mailman/listinfo/mainnet-bugs)
 
-Testnet bug list: [lists.nebulas.io/cgi-bin/mailman/listinfo/testnet-bugs](https://lists.nebulas.io/cgi-bin/mailman/listinfo/testnet-bugs)
+Lista dos bugs da Testnet: [https://lists.nebulas.io/cgi-bin/mailman/listinfo/testnet-bugs](https://lists.nebulas.io/cgi-bin/mailman/listinfo/testnet-bugs)
 
-### 1.3.   Translation
-Translating is important to spread Nebulas to the whole world!
+### 1.3.   Tradução
+A tradução é importante para espalhar Nebulas pelo mundo inteiro!
 
+Todos os membros da comunidade à volta do mundo são encorajados a participar na tradução de documentação da Nebulas. Pode traduzir tudo da wiki, incluíndo documentos técnicos de desenvolvimento da mainnet, FAQ DApp, documentos oficiais como o Livro Branco e o Livro Amarelo, a Introdução aos Princípios de Design da Nebulas, e mais. A sua contribuição tem o potencial de ajudar uma imensidão de desenvolvedores e membros da comunidade.
+Por favor note que alguns documentos vão necessitar de um background profissional em matemática, ciência de computadores, criptografia, e/ou outras especialidades.
 
-We welcome community members from around the world to participate in the translation of Nebulas documentation. You can translate everything from the wiki, including mainnet technical documents, the DApp FAQ, official documents such as the Nebulas White Paper and Yellow Paper, the Nebulas design principle introduction document, and more. Your contribution will significantly help numerous Nebulas developers and community members.
-Please note that some documents will require a professional background in Math, Computer Science, Cryptography, or other specialties.
+### 1.4.  Criação de Documentação
+Desenvolvedores da comunidade da Nebulas precisam de documentação para entender e usar as várias funções disponíveis na Nebulas. A comunidade é encorajada a criar introduções técnicas e FAQs.
+Adicionalmente, membros da comunidade também precisam de introduções de digestão fácil, e guias de utilização das várias ferramentas do ecossistema.
 
-### 1.4.  Documentation Writing
-Developers in the Nebulas community require documentation to help them understand and use the various functions of Nebulas. The community is welcome and encouraged to write technical introductions and FAQs.
-In addition, Nebulas community members will also benefit from easy-to-understand introductory guides and user guides on various ecosystem tools.
-
-Your contribution will be of use to all community developers and members, and may also be translated into multiple languages to benefit an even larger amount of members.
+A sua contribuição será benéfica para todos os desenvolvedores e membros da comunidade, e poderá também ser traduzida para várias línguas de modo a alcançar um maior número de utilizadores.
 
 ### 1.5. Wiki UI Design
 We welcome UI developers to optimize our wiki page and make it more user friendly and easier to read.
