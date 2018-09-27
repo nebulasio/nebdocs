@@ -71,7 +71,7 @@ Mailing lists: Discussion groups for core development and bug reporting. We welc
 
 Forum: Reddit/r/nebulas (for all), Reddit/r/nasdev(for developers)
 Communication: Slack(for developers), Telegram(for non-developers)
-We welcome community developers to create an IRC (Internet Relay Chat) channel for better communication among developers.
+We welcome community developers to create an IRC(Internet Relay Chat) for better communication with developers.
 
 ## 3. Bounties
 > *Note:* this is temporary since we believe that bounties are helpful only during the
