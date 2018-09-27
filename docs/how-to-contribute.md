@@ -79,9 +79,9 @@ We welcome community developers to create an IRC(Internet Relay Chat) for better
 
 We, the Nebulas team, happily introduce several bounties to reward early
 contributors.
-Nebulas Bounty rewards include:
-Developer Bounty：please refer to the Developer Bounty List
-Wiki Bounty: Based on the contribution, we will give different sized rewards to users who greatly contribute to the Nebulas Wiki, based on Github activity. For example, the reward for translating the Nebulas Yellow Paper will be 200 NAS. The deadline of the first evaluation is Dec. 31, 2018. The specific reward amount and number of recipients will be public. Depending on participation, the reward size will be adjusted in the future.
+Nebulas Bounty rewards includes:
+Developer Bounty：please refers to the Developer Bounty List
+Wiki Bounty: Based on the contribution, we will give different sized rewards to the users who greatly contribute to the Nebulas Wiki based on Github activity. For example, the reward for translating Nebulas Yellow Paper will be 200 NAS. The deadline of first evaluation is Dec. 31, 2018. The specific reward amount and number of recipients will be public. Based on the participation, this will help adjust the reward size in the future.
 
 ## 4. Donation
 We welcome donations to develop Nebulas from the community. Both NAS and ETH are accepted. We also welcome community members to support us in material terms. For example, the donation of meetup locations/spaces, local guides, photography, etcetera. We can also make your contribution known to the community if you would like. If you are an enthusiastic community member and are willing to contribute to our community, please send an email to contact@nebulas.io for more details.
