@@ -1,30 +1,25 @@
 # How to Contribute
-> *Your contribution matters!*
+> *A sua contribuição é importante!*
 
-> Nebulas aims for a continuously improving ecosystem, which means we need help from the community. We need your contributions! It is not limited exclusively to programming, but also bug reports and translations, spreading the tenets of Nebulas, answering questions, and so on.
+> Nebulas visa criar um ecossistema de melhoria contínua, o que significa que precisamos da ajuda da comunidade. É aqui que pedimos que contribuam. Não exclusivamente em termos de programação, mas também relatórios de bugs e traduções, e também a nível de comunicação com outros membros da comunidade e esclarecimento de dúvidas com os mais novos.
 
-## 1. Code & Documentation
-### 1.1. Mainnet Development
-<!--Nebulas mainnet development is the most important and challenging portion of Nebulas technical development. -->
-Besides programming, mainnet development is still ongoing and needs the help of the community to tackle challenging problems in the blockchain industry. For instance, we need to
-design manipulation-resistant mechanisms for blockchain, formally verify the
-new consensus algorithm, improve security of the Nebulas mainnet, apply new
-crypto algorithms to Nebulas, etcetera.
+## 1. Código & Documentação
+### 1.1. Desenvolvimento da Mainnet
+<!--O desenvolvimento da mainnet da Nebulas é o aspecto mais importante e desafiante do desenvolvimento técnico da Nebulas. -->
+Para além da programação, o desenvolvimento da mainnet também precisa de enfrentar alguns dos problemas mais desafiantes do mundo da blockchain. Por exemplo, precisamos de engendrar mecanismos resistentes à manipulação para a blockchain, melhorar a segurança da mainnet, implementar novos algoritmos criptograficos, etcetera.
 
-We are so excited to devote ourselves to blockchain and to see how blockchain
-can improve people's lives. We want to share this exciting experience with
-the whole community. Thus, we call upon developers!
+Estamos entusiasmados por podermos dedicar na íntegra à blockchin, e ver como ela melhora a vida de todos nós. Como tal, queremos partilhar esta experiência excitante com a comunidade. Este é o nosso convite para os desenvolvedores!
 
-Learn more:
+Aprenda mais:
 
-Our github：[https://github.com/nebulasio/go-nebulas](https://github.com/nebulasio/go-nebulas)
+O nosso github：[https://github.com/nebulasio/go-nebulas](https://github.com/nebulasio/go-nebulas)
 
-Our Roadmap: [https://nebulas.io/roadmap.html](https://nebulas.io/roadmap.html) (Stay tuned)
+O nosso roteiro: [https://nebulas.io/roadmap.html](https://nebulas.io/roadmap.html) (Stay tuned)
 
-### 1.2. Bug Reporting
-We have always valued bug reporting!
+### 1.2. Relatórios de Bugs
+Sempre valorizámos a submissão de bugs!
 
-If you find a bug, please report it to the Nebulas community. Bugs may be found on the Nebulas testnet, mainnet, nebPay, neb.js, web wallet, as well as other tools and documentation. We will follow the OWASP Risk Assessment System to calculate the corresponding bounty/reward based on the risk degree of the bug.
+Se encontrar um bug, por favor submeta um relatório à comunidade Nebulas. Bugs podem ser encontrados na testnet, mainnet, nebPay, neb.js, na web wallet, tal como em outras ferramentas e até documentação. Seguiremos o sistema de avaliação de risco OWASP para calcular a recompensa correspondente, baseada no grau de importância do bug.
 
 <!--Every time we launch a new function, we will first deploy it on our testnet. Currently, we have launched our first new function on the Nebulas testnet and everyone is welcome to try it, report any bugs discovered and receive the corresponding reward. The first of many new functions in public beta on the testnet is the inter-contract function.-->
 If you have suggestions on how to fix bugs, or improve upon an affiliated project, please do not hesitate to let us know. You can also participate in the development and directly protect the onchain assets. Together, let’s make Nebulas even more safe, secure, and robust.
