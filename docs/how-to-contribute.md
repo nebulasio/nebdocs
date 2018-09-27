@@ -44,38 +44,36 @@ Adicionalmente, membros da comunidade também precisam de introduções de diges
 
 A sua contribuição será benéfica para todos os desenvolvedores e membros da comunidade, e poderá também ser traduzida para várias línguas de modo a alcançar um maior número de utilizadores.
 
-### 1.5. Wiki UI Design
-We welcome UI developers to optimize our wiki page and make it more user friendly and easier to read.
+### 1.5. Design do UI da Wiki
+Convidamos desenvolvedores de UI a optimizar a nossa página de wiki, e a torná-la ainda mais legível e fácil de usar.
 
-Download our wiki > (design template)
+Faça download da nossa wiki > (design template)
 
-Download LOGO material >
-If you have any questions or comments, please do not hesitate to post on our github.
+Faça download do nosso LOGO >
+Se tiver algum questão ou comentário não hesite em postar no nosso github.
 
 ## 2. User Groups
-Communication is key for building a vibrant community. People need to talk with each
-other in order to share their ideas and thoughts on Nebulas.
+Comunicação é chave no que toca à criação de comunidades. As pessoas precisam de falar entre si e partilhar os seus pensamentos e ideias sobre a Nebulas.
 
 
-Nebulas utilizes several platforms to connect our global community. Please refer to the “Community” link on official website for more information: [https://nebulas.io/community.html](https://nebulas.io/community.html)
+A Nebulas utiliza várias plataformas para conectar a nossa comunidade global. Por favor refira-se ao link “Community” no website oficial para obter mais informação: [https://nebulas.io/community.html](https://nebulas.io/community.html)
 
-Discord: Available for all community members. You can subscribe to Nebulas News, as well as participate in group discussions. Discord is many users' first choice.
+Discord: Disponível para todos os membros da comunidade. Pode também subscrever-se ao Nebulas News, e participar na discussão de grupo. Discord é a primeira escolha de muitos utilizadores.
 
-Mailing lists: Discussion groups for core development and bug reporting. We welcome developers to subscribe.
+Mailing lists: Grupo de discussão para desenvolvimento e relatórios de bugs. Desenvolvedores são livres de se subscreverem.
 
-Forum: Reddit/r/nebulas (for all), Reddit/r/nasdev(for developers)
-Communication: Slack(for developers), Telegram(for non-developers)
-We welcome community developers to create an IRC(Internet Relay Chat) for better communication with developers.
+Forum: Reddit/r/nebulas (para todos), Reddit/r/nasdev(para desenvolvedores)
+Comunicação: Slack(para desenvolvedores), Telegram(para utilizadores)
+A comunidade de desenvolvedores é livre de criar um IRC (Internet Relay Chat) para melhor comunicação entre desenvolvedores.
 
-## 3. Bounties
-> *Note:* this is temporary since we believe that bounties are helpful only during the
-> early stages of a community, but can also be harmful in the long-term
+## 3. Recompensas
+> *Nota:* isto é temporário pois apesar de acreditar-mos que recompensas são benéficas
+> num estágio inicial de uma comunidade, podem-se tornar prejudiciais a longo-termo.
 
-We, the Nebulas team, happily introduce several bounties to reward early
-contributors.
-Nebulas Bounty rewards includes:
-Developer Bounty：please refers to the Developer Bounty List
-Wiki Bounty: Based on the contribution, we will give different sized rewards to the users who greatly contribute to the Nebulas Wiki based on Github activity. For example, the reward for translating Nebulas Yellow Paper will be 200 NAS. The deadline of first evaluation is Dec. 31, 2018. The specific reward amount and number of recipients will be public. Based on the participation, this will help adjust the reward size in the future.
+Nós, a equipa da Nebulas, introduzimos então algumas recompensas para premiar contribuidores iniciais.
+As recompensas da Nebulas incluem:
+Recompensa para o Desenvolvedor：Por favor refira-se à lista de recompensas para Desenvolvedores
+Recompensa da Wiki: Baseado na contribuição, iremos distribuir prémios de valor variado, para aqueles que contribuam para a Wiki da Nebulas, dependendo da actividade do Github. Por exemplo, a recompensa pela tradução do Livro Amarelo será 200 NAS. O limite da primeira avaliação será Dez. 31, 2018. A quantidade a ser distribuida e o número de recipientes serão ambos públicos. De acordo com o número de participantes, poderemos ajustar a recompensa no futuro.
 
-## 4. Donation
-We welcome donations to develop Nebulas from the community. Both NAS and ETH are accepted. We also welcome community members to support us in material terms. For example, the donation of meetup locations/spaces, local guides, photography, etcetera. We can also make your contribution known to the community if you would like. If you are an enthusiastic community member and are willing to contribute to our community, please send an email to contact@nebulas.io for more details.
+## 4. Doações
+Apreciamos doações da comunidade para o desenvolvimento da Nebulas. Ambos NAS e ETH são aceites. Também agradecemos ajuda em termos materiais, isto é, a cedência de espaço, guias locais, fotografia, etcetera. Caso queira, terá crédito publicamente pela sua contribuição. Caso seja um membro com entusiasmo da nossa comunidade e queira contribuir, por favor contacte contact@nebulas.io para obter mais detalhes.
