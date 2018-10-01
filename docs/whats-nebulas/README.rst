@@ -7,28 +7,32 @@ Nebulas: Next Generation Public Blockchain
 Nebulas is aiming to build a continuously improving ecosystem.
 --------------------------------------------------------------
 
-Nebulas is a next-generation public blockchain. It introduces Nebulas
-Rank (NR), a new measure of value for every unit of the blockchain
-universe, like addresses, DApps and smart contracts. Based on NR, it
-involves Nebulas Incentive (NI), which motivates developers with
-Developer Incentive Protocol, and users with the Proof of Devotion
-consensus algorithm. Moreover, it proposes Nebulas Force (NF), which
-gives the blockchain and smart contracts within it a self-evolving
-capacity. In unison, NR, NI, and NF produce a continuously improving and
-expanding blockchain ecosystem.
+## Nebulas: Blockchain Pública de Próxima Geração
 
-There are three technical features: value ranking, self-evolution, and
-native incentive.
+### Nebulas visa construir um ecossistema de melhoria contínua {#93bb}
 
-Facing the opportunity and challenge as above, we aim to create a
-self-evolving blockchain system based on value incentive.
+Nebulas é uma blockchain pública de próxima geração. Introduz o Nebulas 
+Rank \(NR\), uma nova medida de valor para qualquer unidade do universo 
+da blockchain, como endereços, DApps, e smart contracts. Baseado no NR,
+ temos o Nebulas Incentive \(NI\), que motiva os desenvolvedores com o
+ Developer Incentive Protocol, e os utilizadores com o algoritmo de 
+consenso Proof of Devotion. Adicionalmente, propõe o Nebulas Force \(NF\),
+ o que atribui à blockchain e respectivos smart contracts uma capacidade 
+auto-evolutiva. Em uníssono, o NR, o NI, e o NF, produzem um ecossistema
+ na blockchain em melhoria continua e expansão.
+
+Existem três características técnicas: classificação de valor, auto-evolução, 
+e o incentivo nativo.
+
+Encarando os desafios e oportunidades acima descritos, visamos criar um 
+sistema blockchain auto-evolutivo baseado em incentivos de valor.
 
 |image0|
 
-Principles
+Princípios
 ----------
 
-The Nebulas blockchain has three major principles:
+A blockchain da Nebulas tem três princípios principais:
 
 .. toctree::
     :maxdepth: 2
