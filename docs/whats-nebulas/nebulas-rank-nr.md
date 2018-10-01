@@ -1,22 +1,21 @@
 # Nebulas Rank \(NR\)
 
-Nebulas Rank \(NR\) is an open source ranking algorithm used to measure the influence of relationships among addresses, smart contracts, and distributed applications \(DApps\). It helps users utilize information within the ever-increasing amount of data on all blockchains, but it also helps developers to use our search framework directly in their own applications.
+O Nebulas Rank \(NR\) é um algoritmo de classificação usado para medir a influência das relações entre endereços, smart contracts, e aplicações distribuídas \(DApps\). Ajuda utilizadores a utilizar informação entre a quantidade sempre crescente de dados na blockchain, e também permite que desenvolvedores usem o nosso motor de busca directamente nas suas aplicações. It helps both users utilize information among the ever-increasing amount of data on all blockchains & developers to use our search framework directly in their own applications.
 
 ![](https://cdn-images-1.medium.com/max/1600/1*xb-MzFJolGOy8VZvdNBIIQ.jpeg)
 
-On Nebulas, we measure value regarding:
+Na Nebulas, medimos o valor relativo a:
 
-* **Liquidity**
+* **Liquidez**
 
-Finance is essentially the social activities which optimize social resources via capital liquidity and in turn promotes economic development. Blockchains establish a value network in which the financial assets can flow. Daily volume of Bitcoin and Ethereum, which are most familiar to us, already exceeds $1 billion. From this data, we can see that the higher the transaction volume and transaction scale, the higher the liquidity. As a consequence of this, higher liquidity will increase the quantity of transactions and enhance the value. That will further strengthen the value of the financial assets, creating a complete positive feedback mechanism. Therefore liquidity, i.e. transaction frequency and scale, is the first dimension that NR measures.
+Finança é essencialmente as actividade sociais que optimizam recursos sociais, através de liquidez de capital, e promovem desenvolvimento económico. As blockchains estabelecem uma rede de valor na qual activos financeiros podem fluir. O volume diário da Bitcoin e do Ethereum, as mais conhecidas de todos nós, já excede $1 bilião. A partir destes dados podemos ver que quanto maior o volume e escala de transações, maior a liquidez. Por sua vez, liquidez mais alta irá aumentar a quantidade de transações e realçar o valor. Isso irá fortalecer cada vez mais o valor dos activos financeiros, criando um mecanismo de feedback positivo. Logo, liquidez, ex. frequência e escala das transações, é a primeira dimensão medida pelo NR.
 
-* **Propagation**
+* **Propagação**
 
-Social platforms like WeChat and Facebook have almost 3 billion active users per month. Social platforms’ rapid user growth is a result of the reflection of existing social networks and stronger viral growth. In particular, viral transmission, i.e. speed, scope, depth of information transmission and linkage, is the key index to monitor the quality of social networks and user growth. In the blockchain world, we can see the same pattern. Powerful viral propagation indicates scope and depth of asset liquidity, which can promote its asset quality and asset scale. Thus, viral transmission, i.e. scope and depth of asset liquidity, is the second dimension that NR measures.
+Plataformas sociais como o WeChat e o Facebook têm quase cerca de 3 biliões de utilizadores activos por mês. O crescimento rápido das plataformas sociais é o resultado da reflexão de plataformas sociais existentes e crescimento viral mais forte. Em particular, transmissão viral, ex. velocidade, alcance, profundidade da transmissão de informação, e ligações., é o índice chave para monitorar a qualidade e crescimento das redes sociais. No mundo da blockchain, podemos observar o mesmo padrão. Propagação viral poderosa indica alcança e profundidade de liquidez de activos, o que pode promover a qualidade e escala dos activos do mundo da blockchain. Logo, transmissão viral, ex. alcança e profundidade de liquidez dos activos, é a segunda dimensão medida pelo NR.
 
-* **Interoperability**
+* **Interopabilidade**
 
-During the early stages of the internet, there were only basic websites and private information. Now, information on different platforms can be forwarded on the network, and isolated data silos are gradually being broken. This trend is the process of identifying higher dimensional information. From our point of view, the world of blockchains shall follow a similar pattern, but its speed will be higher. The information on users’ assets, smart contracts, and DApps will become richer, and the interaction of higher dimensional information shall be more frequent, thus better interoperability shall become more and more important. Therefore, the third dimension measured by the NR is interoperability.
+Durante o período inicial da internet, apenas haviam websites básicos e informação privada. Agora, informação em plataformas diferentes pode ser encaminhada na rede, e silos isolados de dados estão a ser gradualmente desmantelados. Esta moda é o processo de identificar informação de maior dimensão. Do nosso ponto de vista, o mundo da blockchain deverá seguir um padrão semelhante, mas a sua velocidade será mais alta. A informação sobre os activos dos utilizadores, smart contracts, e DApps, tornar-se-à mais rica, e a interacção de informação de dimensões superiores será mais fequente, logo melhor interopabilidade irá-se tornar mais importante. Logo, a terceira dimensão medida pelo NR é a interopabilidade.
 
-Based on the aforementioned dimensions, we started constructing Nebulas’ NR system by drawing from richer data, building a better model, digging up more diversified value dimensions, and establishing a measure of value in the blockchain world.
-
+Baseado nas dimensões acima referidas, construímos o sistema de NR da Nebulas, através de dados mais ricos, construíndo melhores modelos, descobrindo dimensões de valor mais diversificadas, e estabelecendo uma medida de valor no mundo da blockchain.
