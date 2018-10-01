@@ -59,7 +59,7 @@ With forward-looking incentive and consensus mechanisms, the **Nebulas
 Incentive** rewards developers and users who contribute to the
 sustainability and growth of the ecosystem.
 
-This is the except of Nebulas Non-technical Whitepaper.
+This is an excerpt of the Nebulas Non-technical Whitepaper.
 
 If you want to know more about Nebulas, please subscribe this official
 blog, or visit our website: `nebulas.io <https://nebulas.io/>`__. Read
