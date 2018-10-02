@@ -34,7 +34,7 @@ With forward-looking incentives and the consensus mechanisms, the **Nebulas Ince
 
 This is an excerpt of the Nebulas Non-technical Whitepaper.
 
-If you want to know more about Nebulas, please subscribe to this official blog, or visit our website: [nebulas.io](https://nebulas.io/). Read our Non-technical White Paper \([English](https://nebulas.io/docs/NebulasWhitepaper.pdf)\), Technical White Paper \([English](https://nebulas.io/docs/NebulasTechnicalWhitepaper.pdf)\).
+If you want to know more about Nebulas, please subscribe to the official blog, or visit our website: [nebulas.io](https://nebulas.io/). Read our Non-technical White Paper \([English](https://nebulas.io/docs/NebulasWhitepaper.pdf)\), Technical White Paper \([English](https://nebulas.io/docs/NebulasTechnicalWhitepaper.pdf)\).
 
 Thank you.
 
