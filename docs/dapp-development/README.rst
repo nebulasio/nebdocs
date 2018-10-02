@@ -1,4 +1,4 @@
-DApp Development
+Desenvolvimento de DApps
 ================
 
 .. toctree::
