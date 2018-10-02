@@ -61,7 +61,7 @@ sustainability and growth of the ecosystem.
 
 This is an excerpt of the Nebulas Non-technical Whitepaper.
 
-If you want to know more about Nebulas, please subscribe this official
+If you want to know more about Nebulas, please subscribe to the official
 blog, or visit our website: `nebulas.io <https://nebulas.io/>`__. Read
 our Non-technical White Paper
 (`English <https://nebulas.io/docs/NebulasWhitepaper.pdf>`__), Technical
