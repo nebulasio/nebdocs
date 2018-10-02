@@ -1,10 +1,10 @@
-What’s Nebulas
+O que é a Nebulas
 ==============
 
-Nebulas: Next Generation Public Blockchain
+Nebulas: Blockchain Pública de Próxima Geração
 ------------------------------------------
 
-Nebulas is aiming to build a continuously improving ecosystem.
+Nebulas visa construir um ecossistema de melhoria contínua.
 --------------------------------------------------------------
 
 ## Nebulas: Blockchain Pública de Próxima Geração
@@ -42,36 +42,35 @@ A blockchain da Nebulas tem três princípios principais:
     nebulas-force.md
     nebulas-incentive-ni.md
 
-:doc:`Value ranking <nebulas-rank-nr>`
+:doc:`Classificação de valor <nebulas-rank-nr>`
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-To enable value discovery in blockchain, **Nebulas Rank** measures
-multidimensional data in the blockchain world and powers the
-decentralized search framework.
+De modo a possibilitar a descoberta de valor na blockchain, o **Nebulas Rank** 
+analisa dados multidimensionais no mundo da blockchain e torna possível 
+a estructura do motor de busca descentralizado. 
 
-:doc:`Self-evolution <nebulas-force>`
+:doc:`Auto-evolução <nebulas-force>`
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-To avoid the damage caused by forking to the blockchain, **Nebulas
-Force** enables rapid iteration and upgradability to its blockchain
-without the need for hard forks.
+Para prevenir danos causados pela bifurcação da blockchain, o **Nebulas Force** 
+permite actualizações e iterações rápidas da sua blockchain sem necessitar de hard forks. 
 
-:doc:`Native incentives <nebulas-incentive-ni>`
+:doc:`Incentivos nativos <nebulas-incentive-ni>`
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-With forward-looking incentive and consensus mechanisms, the **Nebulas
-Incentive** rewards developers and users who contribute to the
-sustainability and growth of the ecosystem.
+Com mecanismos de incentivo e consenso voltados para o futuro, o **Nebulas Incentive** 
+recompensa desenvolvedores e utilizadores que contribuam para a sustentabilidade 
+e crescimento do ecossistema.
 
-This is an excerpt of the Nebulas Non-technical Whitepaper.
+Isto é um excerto do Livro Branco Não-técnico da Nebulas.
 
-If you want to know more about Nebulas, please subscribe to the official
-blog, or visit our website: `nebulas.io <https://nebulas.io/>`__. Read
-our Non-technical White Paper
-(`English <https://nebulas.io/docs/NebulasWhitepaper.pdf>`__), Technical
-White Paper
+Se quiser saber mais sobre Nebulas, por favor subscreva-se ao blog oficial
+ou visite o nosso website: `nebulas.io <https://nebulas.io/>`__. Leia 
+Livro Branco Não-técnico
+(`Português <https://nebulas.io/docs/NebulasWhitepaperPt.pdf>`__), Livro
+Branco Técnico
 (`English <https://nebulas.io/docs/NebulasTechnicalWhitepaper.pdf>`__).
 
-Thank you.
+Obrigado.
 
 .. |image0| image:: https://cdn-images-1.medium.com/max/1600/1*8YETuI_IvyjXvlvnzbBWnw.png
