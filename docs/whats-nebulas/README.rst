@@ -52,7 +52,7 @@ To avoid the damage caused by forking to the blockchain, **Nebulas
 Force** enables rapid iteration and upgradability to its blockchain
 without the need for hard forks.
 
-:doc:`Nebulas Incentives <nebulas-incentive-ni>`
+:doc:`Native incentives <nebulas-incentive-ni>`
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 With forward-looking incentive and consensus mechanisms, the **Nebulas
