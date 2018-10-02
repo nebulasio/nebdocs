@@ -9,7 +9,7 @@ Nebulas Wiki
 .. toctree::
     :maxdepth: 2
     :titlesonly:
-    :caption: Category:
+    :caption: Índice:
 
     overview.md
     how-to-contribute.md
@@ -22,7 +22,7 @@ Nebulas Wiki
     licensing/README.rst
     
 
-Indices and tables
+Índices e tabelas
 ==================
 
 * :ref:`genindex`
