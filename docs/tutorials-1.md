@@ -1,20 +1,20 @@
-# Category
+# Categoria
 
-Here is all you need to dive into Nebulas.
+Eis tudo o que precisa para se envolver em Nebulas.
 
 ## NebulasIO
 
 * Website：[https://nebulas.io](https://nebulas.io)
-* Non-Tech Whitepaper：[https://nebulas.io/docs/NebulasWhitepaperZh.pdf](https://nebulas.io/docs/NebulasWhitepaper.pdf)
-* Tech Whitepaper：[https://nebulas.io/docs/NebulasTechnicalWhitepaperZh.pdf](https://nebulas.io/docs/NebulasTechnicalWhitepaper.pdf)
+* Livro Branco Não-Técnico：[https://nebulas.io/docs/NebulasWhitepaperPt.pdf](https://nebulas.io/docs/NebulasWhitepaperPt.pdf)
+* Tech Whitepaper：[https://nebulas.io/docs/NebulasTechnicalWhitepaper.pdf](https://nebulas.io/docs/NebulasTechnicalWhitepaper.pdf)
 
 ## Go-Nebulas
 
 * Wiki: [https://github.com/nebulasio/wiki](https://github.com/nebulasio/wiki)
-* Join the Testnet: [https://github.com/nebulasio/wiki/blob/master/testnet.md](https://github.com/nebulasio/wiki/blob/master/testnet.md)
-* Join the Mainnet: [https://github.com/nebulasio/wiki/blob/master/mainnet.md](https://github.com/nebulasio/wiki/blob/master/mainnet.md)
-* Explorer: [https://explorer.nebulas.io](https://explorer.nebulas.io)
-* Tutorials:
+* Ligue-se à Testnet: [https://github.com/nebulasio/wiki/blob/master/testnet.md](https://github.com/nebulasio/wiki/blob/master/testnet.md)
+* Ligue-se à Mainnet: [https://github.com/nebulasio/wiki/blob/master/mainnet.md](https://github.com/nebulasio/wiki/blob/master/mainnet.md)
+* Navegador: [https://explorer.nebulas.io](https://explorer.nebulas.io)
+* Tutoriais:
   * English 101
     * [Installation](https://github.com/nebulasio/wiki/blob/master/tutorials/[English]%20Nebulas%20101%20-%2001%20Installation.md) \(thanks [Victor](https://github.com/victorychain)\)
     * [Sending a Transaction](https://github.com/nebulasio/wiki/blob/master/tutorials/[English]%20Nebulas%20101%20-%2002%20Transaction.md) \(thanks [Victor](https://github.com/victorychain)\)
