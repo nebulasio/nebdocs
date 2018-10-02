@@ -61,5 +61,5 @@ Eis tudo o que precisa para se envolver em Nebulas.
 
 ## Contribuições
 
-Estamos felizes por escreverem tutoriais ou documentos para a Nebulas. Se criou algum, por favor [submeta um pedido](https://github.com/nebulasio/wiki/issues/new) para nos notificar, e adicionaremos o seu nome e URL a esta página o mais rápido poss+ivel.
+Ficariamos felizes se escreverem tutoriais ou documentos para a Nebulas. Se criou algum, por favor [submeta um pedido](https://github.com/nebulasio/wiki/issues/new) para nos notificar, e adicionaremos o seu nome e URL a esta página o mais rápido poss+ivel.
 
