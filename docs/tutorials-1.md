@@ -11,8 +11,8 @@ Here is all you need to dive into Nebulas.
 ## Go-Nebulas
 
 * Wiki: [https://github.com/nebulasio/wiki](https://github.com/nebulasio/wiki)
-* Join Testnet: [https://github.com/nebulasio/wiki/blob/master/testnet.md](https://github.com/nebulasio/wiki/blob/master/testnet.md)
-* Join Mainnet: [https://github.com/nebulasio/wiki/blob/master/mainnet.md](https://github.com/nebulasio/wiki/blob/master/mainnet.md)
+* Join the Testnet: [https://github.com/nebulasio/wiki/blob/master/testnet.md](https://github.com/nebulasio/wiki/blob/master/testnet.md)
+* Join the Mainnet: [https://github.com/nebulasio/wiki/blob/master/mainnet.md](https://github.com/nebulasio/wiki/blob/master/mainnet.md)
 * Explorer: [https://explorer.nebulas.io](https://explorer.nebulas.io)
 * Tutorials:
   * English 101
@@ -61,5 +61,5 @@ Here is all you need to dive into Nebulas.
 
 ## Contribution
 
-We are very glad that you are considering to write tutorials or documents of Nebulas. If you did write something, please [submit a issue](https://github.com/nebulasio/wiki/issues/new) to let us know, we will add your name and url to this page soon.
+We are very glad that you are considering to write tutorials or documents about Nebulas. If you did write something, please [submit an issue](https://github.com/nebulasio/wiki/issues/new) to let us know, and we will add your name and url to this page as soon as possible.
 
