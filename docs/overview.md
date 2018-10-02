@@ -1,28 +1,28 @@
 # Overview
 
 {% hint style="info" %}
-This Guide is in progress. We welcome all to edit it and help more users and developers in the Nebulas ecosystem.
+Este guia está a ser constantemente actualizado. Convidamo-lo a editá-lo e a ajudar os utilizadores e desenvolvedores do ecossistema da Nebulas.
 {% endhint %}
 
-## **Nebulas** is a next-generation public blockchain, aiming for a continuously improving ecosystem. 
+## **Nebulas** é uma blockchain pública de próxima geração, e visa criar um ecossistema de melhoria contínua. 
 
-## Introduction
+## Introdução
 
-This documentation was created and is maintained by Nebulas fans. We welcome everyone to help us.
+Esta documentação foi criada por fans da Nebulas. Convidamos toda a gente a ajudar.
 
-This documentation is divided in three parts:
+Esta documentação está dividida em três partes:
 
-#### 1 Introduction. 
+#### 1 Introdução.
 
-What's Nebulas? Principles, technology features, history, community, Nebulas Foundations, and many other such things. Everything about Nebulas.
+O que é a Nebulas? Princípios, características da tecnologia, história, comunidade, Fundações da Nebulas, e muito mais. Tudo sobre Nebulas.
 
 #### 2 Go-Nebulas.
 
-Roadmap, papers.
+Roteiros, papers.
 
-#### 3 DApp Development.
+#### 3 Desenvolvimento de DApps.
 
-How to build a DApp on Nebulas, tutorials.
+Como criar uma DApp na Nebulas, tutoriais..
 
 
 
