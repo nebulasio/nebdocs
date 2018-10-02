@@ -2,7 +2,7 @@
 
 ## Introdução
 
-Estamos contentes por lançarmos a Mainnet da Nebulas. Junte-se à Mainnet e desfrute!
+Estamos contentes por termos lançado a Mainnet da Nebulas. Junte-se à Mainnet e desfrute!
 
 ```text
 https://github.com/nebulasio/go-nebulas/tree/master
