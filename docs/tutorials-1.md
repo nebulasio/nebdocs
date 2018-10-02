@@ -59,7 +59,7 @@ Eis tudo o que precisa para se envolver em Nebulas.
 * Demo DApp: [https://github.com/15010159959/super-dictionary](https://github.com/15010159959/super-dictionary) \(thanks to [ChengOrangeJu](https://github.com/ChengOrangeJu), [yupnano](https://github.com/yupnano), [Kurry](https://github.com/15010159959)\)
 * Chrome Extension: [https://github.com/ChengOrangeJu/WebExtensionWallet](https://github.com/ChengOrangeJu/WebExtensionWallet) \(thanks to [ChengOrangeJu](https://github.com/ChengOrangeJu), [yupnano](https://github.com/yupnano)\)
 
-## Contribuições
+## Contribuir
 
 Ficariamos felizes se escreverem tutoriais ou documentos para a Nebulas. Se criou algum, por favor [submeta um pedido](https://github.com/nebulasio/wiki/issues/new) para nos notificar, e adicionaremos o seu nome e URL a esta página o mais rápido poss+ivel.
 
