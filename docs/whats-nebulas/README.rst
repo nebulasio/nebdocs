@@ -45,7 +45,7 @@ To enable value discovery in blockchain, **Nebulas Rank** measures
 multidimensional data in the blockchain world and powers the
 decentralized search framework.
 
-:doc:`Native incentives <nebulas-force>`
+:doc:`Self-evolution <nebulas-force>`
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 To avoid the damage caused by forking to the blockchain, **Nebulas
