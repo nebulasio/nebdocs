@@ -87,7 +87,7 @@ The contents of the folder/README.rst file should be:
 
 ## How to add a new language version?
 
-1. Create a new branch, for the Chinese version example:
+1. Create a new branch, for the chinese version, for instance:
 ```bash
 Git checkout -b zh-CN
 ```
