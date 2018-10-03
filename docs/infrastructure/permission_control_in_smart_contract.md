@@ -2,7 +2,7 @@
 
 ## What Is Permission Control Of Smart Contract
 
-The permission control of a smart contract refers to whether the contract caller has permission to invoke the function in the contract. There are two types of permission control: owner permission control and other permission control.
+The permission control of a smart contract refers to whether the contract caller has permission to invoke a given function in the contract. There are two types of permission control: owner permission control, and other permission control.
 
 Owner permissions control: Only the creator of the contract can call this method, other callers can not call the method.
 
@@ -10,7 +10,7 @@ Other permission control: The contract method can be invoked if the contract dev
 
 ## Owner Permission Control
 
-If you want to specify a owner to a small contract and wish if some functions could be called only by the owner and no one else. You can use following lines of code in your smart contract.
+If you want to specify an owner for a small contract and wish that some functions could only be called by the owner and no one else, you can use following lines of code in your smart contract.
 
 ```javascript
 "use strict";
@@ -35,11 +35,11 @@ module.exports = BankVaultContract;
 
 Explanation:
 
-The function init is only called once when the contract is deployed, there you specify the owner of the contract.The onlyOwnerFunctiuon ensures that the function is called by the owner of contact.
+The function init is only called once when the contract is deployed, so it is there that you can specify the owner of the contract.The onlyOwnerFunctiuon ensures that the function is called by the owner of contract.
 
 ## Other Permission Control
 
-In your smart contract, if you need to specify other permission control to a smart contract. For example, in your smart contract, you need to verify the transaction value in your smart contract. you can write your smart contract in the following way.
+In your smart contract, if you needed to specify other permission control, for example, if you needed to verify its transaction value, you could write it the following way.
 
 ```javascript
 'use strict';
@@ -113,10 +113,10 @@ module.exports = SampleContract;
 
 Explanation:
 
-Mixin.UNPAYABLE,Mixin.PAYABLE,Mixin.POSITIVE ,Mixin.UNPOSITIVE are permission control function。The permission control function as follows:
+Mixin.UNPAYABLE,Mixin.PAYABLE,Mixin.POSITIVE ,Mixin.UNPOSITIVE are permission control function。The permission control function is as follows:
 
-* Mixin.UNPAYABLE:  check the transaction sent value, if value is less than 0 return true, otherwise returns false
-* Mixin.UNPAYABLE : check the transaction sent value, if value is greater than 0 return true, otherwise returns false
+* Mixin.UNPAYABLE:  check the transaction sent value, if value is less than 0 return true, otherwise return false
+* Mixin.UNPAYABLE : check the transaction sent value, if value is greater than 0 return true, otherwise return false
 * Mixin.UNPOSITIVE ：output log UNPOSITIVE
 * Mixin.POSITIVE ：output log POSITIVE
 
@@ -128,7 +128,7 @@ Implement permission control in Mixin.decorator：
 
 Permission control tests in smart contracts are as follows:
 
-* The permission control function of the contract1 is Mixin.POSITIVE. If the permission check passes, the output is printed, otherwise the error is thrown by the permission check function.
+* The permission control function of the contract1 is Mixin.POSITIVE. If the permission check passes, the output is printed, otherwise an error is thrown by the permission check function.
 
   ```javascript
         contract1: Mixin.decorator(Mixin.POSITIVE, function (arg) {
@@ -136,7 +136,7 @@ Permission control tests in smart contracts are as follows:
         })
   ```
 
-* The permission control function of the contract2 is Mixin.UNPOSITIVE. If the permission check passes, the output is printed, otherwise the error is thrown by the permission check function.
+* The permission control function of the contract2 is Mixin.UNPOSITIVE. If the permission check passes, the output is printed, otherwise an error is thrown by the permission check function.
 
   ```javascript
         contract2: Mixin.decorator(Mixin.UNPOSITIVE, function (arg) {
@@ -144,7 +144,7 @@ Permission control tests in smart contracts are as follows:
         })
   ```
 
-* The permission control function of the contract3 is Mixin.PAYABLE, Mixin.POSITIVE. If the permission check passes, the output is printed, otherwise the error is thrown by the permission check function.
+* The permission control function of the contract3 is Mixin.PAYABLE, Mixin.POSITIVE. If the permission check passes, the output is printed, otherwise an error is thrown by the permission check function.
 
   ```javascript
        contract3: Mixin.decorator(Mixin.PAYABLE, Mixin.POSITIVE, function (arg) {
@@ -152,7 +152,7 @@ Permission control tests in smart contracts are as follows:
         })
   ```
 
-* The permission control function of the contract4 is Mixin.PAYABLE, Mixin.UNPOSITIVE. If the permission check passes, the output is printed, otherwise the error is thrown by the permission check function.
+* The permission control function of the contract4 is Mixin.PAYABLE, Mixin.UNPOSITIVE. If the permission check passes, the output is printed, otherwise an error is thrown by the permission check function.
 
   ```javascript
         contract4: Mixin.decorator(Mixin.PAYABLE, Mixin.UNPOSITIVE, function (arg) {
@@ -162,7 +162,7 @@ Permission control tests in smart contracts are as follows:
 
 Tips:
 
-With reference to the above example, the developer needs only three steps to implement other permission controls:
+With reference to the above example, the developer needs only three steps in order to implement other permission controls:
 
 * Implement permission control functions.
 * Implement the decorator function, and the permission check is completed by the conditional statement if \(typeof func !== "function" \|\| !func\(\)\).
