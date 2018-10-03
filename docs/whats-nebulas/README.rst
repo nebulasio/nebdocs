@@ -45,23 +45,23 @@ To enable value discovery in blockchain, **Nebulas Rank** measures
 multidimensional data in the blockchain world and powers the
 decentralized search framework.
 
-:doc:`Native incentives <nebulas-force>`
+:doc:`Self-evolution <nebulas-force>`
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 To avoid the damage caused by forking to the blockchain, **Nebulas
 Force** enables rapid iteration and upgradability to its blockchain
 without the need for hard forks.
 
-:doc:`Nebulas Incentives <nebulas-incentive-ni>`
+:doc:`Native incentives <nebulas-incentive-ni>`
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 With forward-looking incentive and consensus mechanisms, the **Nebulas
 Incentive** rewards developers and users who contribute to the
 sustainability and growth of the ecosystem.
 
-This is the except of Nebulas Non-technical Whitepaper.
+This is an excerpt of the Nebulas Non-technical Whitepaper.
 
-If you want to know more about Nebulas, please subscribe this official
+If you want to know more about Nebulas, please subscribe to the official
 blog, or visit our website: `nebulas.io <https://nebulas.io/>`__. Read
 our Non-technical White Paper
 (`English <https://nebulas.io/docs/NebulasWhitepaper.pdf>`__), Technical
