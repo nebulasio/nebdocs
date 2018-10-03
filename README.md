@@ -17,7 +17,7 @@ The directory structure of the document is defined in the README.rst file in the
 3. Each language is allowed to have its own temporary version. It is recommended to add the suffix version number to the version name, for example, en1.0, zh-CN1.1;
 
 ## How to build this project?
-1. clone the project from github, here is for master bratch:
+1. clone the project from github, next command refers to the master branch:
 
 ```bash
 git clone https://github.com/nebulasio/nebdocs.git
