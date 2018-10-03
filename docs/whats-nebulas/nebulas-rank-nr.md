@@ -16,7 +16,7 @@ Social platforms like WeChat and Facebook have almost 3 billion active users per
 
 * **Interoperability**
 
-During the early stages of the internet, there were only basic websites and private information. Now, information on different platforms can be forwarded on the network, and isolated data silos are gradually being broken. This trend is the process of identifying higher dimensional information. From our point of view, the world of blockchains shall follow a similar pattern, but its speed will be higher. The information on users’ assets, smart contracts, and DApps will become richer, and the interaction of higher dimensional information shall be more frequent, thus better interoperability shall become more and more important. Therefore, NR’s third measure dimension is interoperability.
+During the early stages of the internet, there were only basic websites and private information. Now, information on different platforms can be forwarded on the network, and isolated data silos are gradually being broken. This trend is the process of identifying higher dimensional information. From our point of view, the world of blockchains shall follow a similar pattern, but its speed will be higher. The information on users’ assets, smart contracts, and DApps will become richer, and the interaction of higher dimensional information shall be more frequent, thus better interoperability shall become more and more important. Therefore, the third dimension measured by the NR is interoperability.
 
 Based on the aforementioned dimensions, we started constructing Nebulas’ NR system by drawing from richer data, building a better model, digging up more diversified value dimensions, and establishing a measure of value in the blockchain world.
 
