@@ -4,7 +4,7 @@ Similar to Bitcoin and Ethereum, Nebulas also adopted an elliptic curve algorith
 
 ## Hash
 
-Support generic hash functions, like sha256, sha3256 and ripemd160 etc.
+Supports generic hash functions, like sha256, sha3256 and ripemd160 etc.
 
 ## Keystore
 
@@ -18,7 +18,7 @@ The Key interface is designed to support various keys, including symmetric keys 
 
 The Keystore provides different methods to save keys, such as `memory_provider` and `persistence_provider`. Before storage, the key has been encrypted in the keystore.
 
-* `memory provider`: This type of provider keep keys in memory. After the key has been encrypted with the passphrase when the user setkey or loads, it is cached in memory provider.
+* `memory provider`: This type of provider keeps the keys in memory. After the key has been encrypted with the passphrase when the user setkey or loads, it is cached in memory provider.
 * `persistence provider`: This type of provider serializes the encrypted key to the file. The file is compatible with Ethereum's keystore file. Users can back up the address with its privatekey in it.
 
 ### Signature
