@@ -36,7 +36,7 @@ make html
 ```
 
 ## How to add a new document?
-### If just add a file
+### If you need to add a file
 1. Add the file to the appropriate directory;
 2. Locate the README.rst file in the directory where the file is located (the project root directory is index.rst file), open the file, and add the newly added file name to the file list after the 'toctree' keyword. E.g:
 
