@@ -1,46 +1,47 @@
 # nebdocs
 
-This project was created by [sphinx](http://www.sphinx-doc.org/en/master/) and uploaded to [readthedocs](https://readthedocs.org/) for hosting. Url of online documentation after hosting is: [https://nebdocs.readthedocs.io/en/latest/](https://nebdocs.readthedocs.io/en/latest/).
+Este projecto foi criado usando [sphinx](http://www.sphinx-doc.org/en/master/) e carregado para [readthedocs](https://readthedocs.org/) para o alojar. O Url da documentação online depois de ser alojada é: [https://nebdocs.readthedocs.io/en/latest/](https://nebdocs.readthedocs.io/en/latest/).
 
-This project supports documents in the following two formats:
+Este projecto suporta documentos nos seguintes formatos:
 
 - Markdown(.md)
 - reStructuredText(.rst)
 
-The directory structure of the document is defined in the README.rst file in the same directory.
+A estructura do directório do documento está definida no ficheiro README.rst, no mesmo directório.
 
-## Language version and branch rules:
-1. The multi-language version is managed separately by different branches. The currently supported languages are as follows:
-- master: English version;
-- zh-CN: Simplified Chinese version;
-2. To facilitate document management, the document structure of different branches is as consistent as possible with the main branch;
-3. Each language is allowed to have its own temporary version. It is recommended to add the suffix version number to the version name, for example, en1.0, zh-CN1.1;
+	## Regras para versões noutras línguas e branches:
+1. A versão de múltiplas línguas é gerida separadamente por branches diferentes. As línguas presentemente suportadas são:
+- master: versão Inglesa;
+- zh-CN: versão de Chinês Simplificado;
+- pt-PT: versão Portuguea;
+2. De modo a facilitar a gestão de documentos, a estructura das várias branches deve ser o mais consistente possível com a branch principal;
+3. Cada língua pode ter a sua versão temporária. É recomendado adicionar um número sufixo a cada nome, por exemplo, en1.0, zh-CN1.1;
 
-## How to build this project?
-1. clone the project from github, next command refers to the master branch:
+## Como compilar este projecto?
+1. clone o projecto do github, eis a branch principal:
 
 ```bash
 git clone https://github.com/nebulasio/nebdocs.git
 ```
 
-2. install the necessary python components:
+2. instale os componentes do python necessários:
 
 ```bash
 pip install sphinx==1.5.6 sphinx-autobuild sphinx_rtd_theme recommonmark
 ```
-3. build the project:
+3. compile o projecto:
 
 ```bash
 cd nebdocs
 make html
 ```
 
-## How to add a new document?
-### If you need to add a file
-1. Add the file to the appropriate directory;
-2. Locate the README.rst file in the directory where the file is located (the project root directory is index.rst file), open the file, and add the newly added file name to the file list after the 'toctree' keyword. E.g:
+## Como adicionar um documento?
+### Se for um único ficheiro
+1. Adicione o ficheiro ao directório apropriado;
+2. Procure o ficheiro README.rst no directório onde o ficheiro se encontra (para o directório raíz do projecto é o ficheiro index.rst), abra-o, e adicione o novo ficheiro à lista depois da palavra-chave 'toctree'. Por exemplo:
 
-For this file structure:
+Para esta estructura de ficheiros:
 ```
 +--folder
    |
@@ -50,7 +51,7 @@ For this file structure:
    +--newFile.md
 ```
 
-The content of README.rst should look like this:
+Os conteúdos de README.rst devem-se parecer com o seguinte:
 ```
 .. toctree::
     :titlesonly:
@@ -60,10 +61,10 @@ The content of README.rst should look like this:
     newFile.md
 ```
 
-### If you need to add a new directory
-In this case, you need to add a README.rst file to define the document directory structure in this directory. Put other file names in the file list after the 'toctree' keyword. For details, refer to other README.rst files. The file list in the README.rst file of the previous directory should add the relative path of the README.rst file of the current directory, for example:
+### Se precisar de adicionar um directório
+Neste caso, terá de criar um novo ficheiro README.rst para definir a estructura de documentos do novo directório. Adicione o nome de outros ficheiro à lista depois da palavra-chave 'toctree'. Para mais detalhes, refira-se a outros ficheirosREADME.rst. A lista de ficheiros num ficheiro README.rst de um directório prévio deverá conter o caminho relativo da ficheiro README.rst do directório em uso, por exemplo:
 
-For this file structure:
+Para esta estructura de ficheiros:
 ```
 +--folder
    |
@@ -75,7 +76,7 @@ For this file structure:
       +--README.rst
       +--newFile.md
 ```
-The contents of the folder/README.rst file should be:
+Os conteúdos do ficheiro directorio/README.rst deverão ser:
 ```
 .. toctree::
     :titlesonly:
@@ -85,13 +86,13 @@ The contents of the folder/README.rst file should be:
     newDirectory/README.rst
 ```
 
-## How to add a new language version?
+## Como adicionar uma nova língua?
 
-1. Create a new branch, for the chinese version, for instance:
+1. Crie uma nova branch, por exemplo, para a versão Chinesa:
 ```bash
 Git checkout -b zh-CN
 ```
-2. Modify the github configuration in ./docs/conf.py, find the 'html_context' definition, and change the value of the 'github_version' field to the new branch name 'zh-CN', as follows:
+2. Modifique a configuração do github em ./docs/conf.py, procure a definição 'html_context' e mude o valor do campo 'github_version' para o nome do novo branch 'zh-CN', como exemplificado:
 
 ```python
 # VCS options:
@@ -104,20 +105,18 @@ Html_context = {
 }
 ```
 
-3. Replace the documents that you need to translate with the new language version.
+3. Altere os documentos que precisam de ser traduzidos.
 
-4. Submit the files to github:
+4. Submeta os ficheiros para o github:
 
 ```bash
 Git push --set-upstream zh-CN
 ```
 
-**Note:** it is highly likely you will need to rebase master onto that branch in order for the team to be able to merge the pull request cleanly. To do so, and avoid all the conflicts that will certainly come with it, do as follows, from your working branch, after having updated master with ```git pull origin master```:
+**Note:** existe uma probabilidade alta de você ter que fazer um rebase do master para a branch em que está a trabalhar, de modo a facilitar a amalgamação da pull request de forma limpa. Para tal, e para evitar todos os conflictos que isto criará, faça o seguinte, da branch da língua, após ter actualizado o master com ```git pull origin master```:
 ```bash
 git rebase -Xtheirs master
 git push -f
 ```
 
-5. Notify the manager to add a new language version to the readthedocs' online documentation.
-
-
+5. Alerte o gestor do repositório para adicionar a nova versão à documentação online no readthedocs.
