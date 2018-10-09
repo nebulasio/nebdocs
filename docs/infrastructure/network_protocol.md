@@ -1,14 +1,14 @@
 # Network Protocol
 
-For the network protocol, there are lots of existing solution. However, the Nebulas Team finally decides to define our own wire protocol, ensures the following principles to design the protocol:
+For the network protocol, there were a lot of existing solutions. However, the Nebulas Team decided to define their own wire protocol, and ensure the use of the following principles to design it:
 
 * the protocol should be simple and straight.
-* the message can be verified before receiving all package, fail early.
-* the protocol should be debugging friendly, developer can easily understand the raw message.
+* the messages can be verified before receiving all the packets, and fail early.
+* the protocol should be debugging friendly, so that the developer can easily understand the raw message.
 
 ## Protocol
 
-In Nebulas, we define our own wire protocol, as the following:
+In Nebulas, we define our own wire protocol as follows:
 
 ```text
  0               1               2               3              (bytes)
@@ -41,10 +41,10 @@ In Nebulas, we define our own wire protocol, as the following:
 ```
 
 * Magic Number: 32 bits \(4 chars\)
-  * The protocol magic number, A constant numerical or text value used to identify protocol.
+  * The protocol's magic number, a numerical constant or text value used to identify the protocol.
   * Default: 0x4e, 0x45, 0x42, 0x31
 * Chain ID: 32 bits
-  * The Chain ID is used to distinguish the test network and the main network.
+  * The Chain ID is used to distinguish the test network from the main network.
 * Reserved: 24 bits
   * reserved field.
   * The first bit indicates whether the network message is compressed.
@@ -62,13 +62,13 @@ In Nebulas, we define our own wire protocol, as the following:
 * Data: variable length, max 512M.
   * The message data.
 
-We always use Big-Endian in message protocol.
+We always use Big-Endian on the message protocol.
 
 ## Handshaking Messages
 
 * Hello
 
-the handshaking message when peer connect to others.
+the handshaking message when a peer connects to another.
 
 ```text
 version: 0x1
@@ -94,7 +94,7 @@ data: struct {
 
 * Bye
 
-the message to close connection.
+the message to close the connection.
 
 ```text
 version: 0x1

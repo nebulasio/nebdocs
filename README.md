@@ -17,7 +17,7 @@ The directory structure of the document is defined in the README.rst file in the
 3. Each language is allowed to have its own temporary version. It is recommended to add the suffix version number to the version name, for example, en1.0, zh-CN1.1;
 
 ## How to build this project?
-1. clone the project from github, here is for master bratch:
+1. clone the project from github, next command refers to the master branch:
 
 ```bash
 git clone https://github.com/nebulasio/nebdocs.git
@@ -36,7 +36,7 @@ make html
 ```
 
 ## How to add a new document?
-### If just add a file
+### If you need to add a file
 1. Add the file to the appropriate directory;
 2. Locate the README.rst file in the directory where the file is located (the project root directory is index.rst file), open the file, and add the newly added file name to the file list after the 'toctree' keyword. E.g:
 
@@ -87,7 +87,7 @@ The contents of the folder/README.rst file should be:
 
 ## How to add a new language version?
 
-1. Create a new branch, for the Chinese version example:
+1. Create a new branch, for the chinese version, for instance:
 ```bash
 Git checkout -b zh-CN
 ```
