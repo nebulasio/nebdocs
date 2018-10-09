@@ -1,34 +1,34 @@
 # Smart Contract
 
-## Languages
+## Linguagens 
 
-In Nebulas, there are two supported languages for writing smart contracts:
+Na Nebulas suportamos duas linguagens de smart contract:
 
 * [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 * [TypeScript](https://en.wikipedia.org/wiki/TypeScript)
 
-They are supported by the integration of [Chrome V8](https://developers.google.com/v8/), a widely used JavaScript engine developed by The Chromium Project for Google Chrome and Chromium web browsers.
+São suportadas pela integração do [Chrome V8](https://developers.google.com/v8/), um motor de JavaScript desenvolvido pelo The Chromium Project para o Google Chrome e navegadores baseados no Chromium.
 
-## Execution Model
+## Modelo de Execução
 
-The diagram below is the Execution Model of the Smart Contract:
+O diagrama abaixo é o Modelo de Execução do Smart Contract:
 
-![Smart Contract Execution Model](../resources/smart_contract_execution_model.png)
+![Modelo de Execução do Smart Contract](../resources/smart_contract_execution_model.png)
 
-1. The whole src of the Smart Contract and its arguments are packaged in the Transaction and deployed on Nebulas.
-2. The execution of Smart Contract is divided in two phases:
-   1. Preprocess: inject tracing instruction, etc.
-   2. Execute: generate executable src and execute it.
+1. O código fonte do Smart Contract e argumentos serão guardados na transacção e implementados na Nebulas.
+2. The execution of Smart Contract are divided into two phases:
+   1. Preprocesso: injecção de instrução tracing, etcetera.
+   2. Executa: gera src executável e executa-o.
 
-## Contracts
+## Contractos
 
-Contracts in Nebulas are similar to classes in object-oriented languages. They contain persistent data in state variables and functions that can modify these variables.
+Contractos são semelhantes a classes, em linguagens orientadas a objectos. Contêm dados persistentes em variáveis de estado e funções que podem modificar essas variáveis.
 
-### Writing Contract
+### Escrever um Contracto
 
-A contract must be a Prototype Object or Class in JavaScript or TypeScript.
+Um contracto tem de ser um Objecto Protótipo ou Classe em JavaScript ou TypeScript.
 
-A Contract must include an `init` function, it will be executed only once when deploying. Functions whose names start with `_` are `private` and can't be executed in a Transaction. The others are all `public` and can be executed in a Transaction.
+Um contracto tem de incluir uma função `init`, que apenas é executada uma vez após a execução. Functions, named starting with `_` are `private`, can't be executed in Transaction. The others are all `public` and can be executed in Transaction.
 
 Since the Contract is executed on Chrome V8, all instance variables are in memory, it's not wise to save all of them to [state trie](https://github.com/nebulasio/wiki/blob/master/merkle_trie.md) in Nebulas. In Nebulas, we provide `LocalContractStorage` and `GlobalContractStorage` objects to help developers define fields needing to be saved to state trie. And those fields should be defined in `constructor` of the Contract, before other functions.
 
