@@ -44,14 +44,14 @@ Test Endpoint:
 
 * [GetNebState](https://github.com/nebulasio/wiki/blob/master/rpc.md#getnebstate) : returns nebulas client info.
 * [GetAccountState](https://github.com/nebulasio/wiki/blob/master/rpc.md#getaccountstate): returns the account balance and nonce.
-* [LatestIrreversibleBlock](https://github.com/nebulasio/wiki/blob/master/rpc.md#latestirreversibleblock): returns the lastest irreversible block.
-* [Call](https://github.com/nebulasio/wiki/blob/master/rpc.md#call): execute smart contract locally. the tx won't be submitted on chain.
-* [SendRawTransaction](https://github.com/nebulasio/wiki/blob/master/rpc.md#sendrawtransaction): submit signed transaction. The transaction must be signed before send.
-* [GetTransactionReceipt](https://github.com/nebulasio/wiki/blob/master/rpc.md#gettransactionreceipt): get transaction receipt info by tansaction hash.
+* [LatestIrreversibleBlock](https://github.com/nebulasio/wiki/blob/master/rpc.md#latestirreversibleblock): returns the latest irreversible block.
+* [Call](https://github.com/nebulasio/wiki/blob/master/rpc.md#call): execute smart contract locally. The tx won't be submitted on chain.
+* [SendRawTransaction](https://github.com/nebulasio/wiki/blob/master/rpc.md#sendrawtransaction): submit signed transaction. The transaction must be signed before sending.
+* [GetTransactionReceipt](https://github.com/nebulasio/wiki/blob/master/rpc.md#gettransactionreceipt): get transaction receipt info from the transaction hash.
 
 More Nebulas APIs at [RPC](https://github.com/nebulasio/wiki/blob/master/rpc.md).
 
-#### Token Claim
+#### Claim Tokens
 
 Each email can claim tokens every day [here](https://testnet.nebulas.io/claim).
 
@@ -73,7 +73,7 @@ Each email can claim tokens every day [here](https://testnet.nebulas.io/claim).
 4. [智能合约存储区介绍](https://github.com/nebulasio/wiki/blob/master/tutorials/[中文]%20Nebulas%20101%20-%2004%20智能合约存储区.md)
 5. [通过RPC接口与星云链交互](https://github.com/nebulasio/wiki/blob/master/tutorials/[中文]%20Nebulas%20101%20-%2005%20通过RPC接口与星云链交互.md)
 
-## Contribution
+## Contributing
 
 Feel free to join Nebulas Testnet. If you did find something wrong, please [submit an issue](https://github.com/nebulasio/go-nebulas/issues/new) or [submit a pull request](https://github.com/nebulasio/go-nebulas/pulls) to let us know, we will add your name and url to this page as soon as possible.
 
