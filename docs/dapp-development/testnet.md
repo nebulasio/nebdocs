@@ -2,7 +2,7 @@
 
 ## Introduction
 
-We are glad to release Nebulas Testnet here. It simulate the Nebulas network and NVM, and allow developers to interact with Nebulas without paying the cost of gas.
+  We are glad to release the Nebulas Testnet. It simulates the Nebulas network and NVM, and allows developers to interact with Nebulas without paying the cost of gas.
 
 ```text
 https://github.com/nebulasio/go-nebulas/tree/testnet
@@ -10,11 +10,11 @@ https://github.com/nebulasio/go-nebulas/tree/testnet
 
 ### Configuration
 
-The testnet configuration files are in folder [`testnet/conf`](https://github.com/nebulasio/go-nebulas/tree/testnet/testnet/conf) under `testnet` branch, including
+The testnet configuration files are in the folder [`testnet/conf`](https://github.com/nebulasio/go-nebulas/tree/testnet/testnet/conf) under `testnet` branch, including
 
 #### genesis.conf
 
-All configurable information about genesis block is defined in genesis.conf, including
+All configurable information about the genesis block is defined in genesis.conf, including
 
 * **meta.chain\_id:** chain identity
 * **consensus.dpos.dynasty:** the initial dynasty of validators
@@ -53,7 +53,7 @@ More Nebulas APIs at [RPC](https://github.com/nebulasio/wiki/blob/master/rpc.md)
 
 #### Token Claim
 
-Every email can claim some tokens every day at [here](https://testnet.nebulas.io/claim).
+Each email can claim tokens every day [here](https://testnet.nebulas.io/claim).
 
 ## Tutorials
 
@@ -75,5 +75,5 @@ Every email can claim some tokens every day at [here](https://testnet.nebulas.io
 
 ## Contribution
 
-Feel free to join Nebulas Testnet. If you did find something wrong, please [submit a issue](https://github.com/nebulasio/go-nebulas/issues/new) or [submit a pull request](https://github.com/nebulasio/go-nebulas/pulls) to let us know, we will add your name and url to this page soon.
+Feel free to join Nebulas Testnet. If you did find something wrong, please [submit an issue](https://github.com/nebulasio/go-nebulas/issues/new) or [submit a pull request](https://github.com/nebulasio/go-nebulas/pulls) to let us know, we will add your name and url to this page as soon as possible.
 
