@@ -75,4 +75,4 @@ Cada email pode pedir tokens uma vez por dia [aqui](https://testnet.nebulas.io/c
 
 ## Contribuir
 
-Não se iniba e junte-se à Mainnet da Nebulas. Se encontrou algo de errado, por favor submeta [submeta um pedido](https://github.com/nebulasio/go-nebulas/issues/new) ou [uma pull request](https://github.com/nebulasio/go-nebulas/pulls) para estarmos a par, e adicionaremos o seu nome e url a esta página o mais rápido possível.
+Não se iniba e junte-se à Testnet da Nebulas. Se encontrou algo de errado, por favor submeta [submeta um pedido](https://github.com/nebulasio/go-nebulas/issues/new) ou [uma pull request](https://github.com/nebulasio/go-nebulas/pulls) para estarmos a par, e adicionaremos o seu nome e url a esta página o mais rápido possível.
