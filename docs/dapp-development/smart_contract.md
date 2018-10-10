@@ -30,14 +30,14 @@ Um contracto tem de ser um Objecto Protótipo ou Classe em JavaScript ou TypeScr
 
 Um contracto tem de incluir uma função `init`, que apenas é executada uma vez após a execução. Functions, named starting with `_` are `private`, can't be executed in Transaction. The others are all `public` and can be executed in Transaction.
 
-Since the Contract is executed on Chrome V8, all instance variables are in memory, it's not wise to save all of them to [state trie](https://github.com/nebulasio/wiki/blob/master/merkle_trie.md) in Nebulas. In Nebulas, we provide `LocalContractStorage` and `GlobalContractStorage` objects to help developers define fields needing to be saved to state trie. And those fields should be defined in `constructor` of the Contract, before other functions.
+Visto que o Contracto é executado no Chrome V8, todas as instâncias das variáveis estão na memória. Não é aconselhável guardá-las todas no [state trie](https://github.com/nebulasio/wiki/blob/master/merkle_trie.md) da Nebulas. Na Nebulas, fornecemos os objectos  `LocalContractStorage` e `GlobalContractStorage` de modo a permitir que desenvolvedores definam os campos que necessitam de ser guardados no state trie. Estes campos devem ser definidos no `constructor` do Contracto, antes de qualquer outra função.
 
-The following is a sample contract:
+O seguinte é um exemplo de um contracto:
 
 ```javascript
 class Rectangle {
     constructor() {
-        // define fields stored to state trie.
+        // define campos guardados no state trie.
         LocalContractStorage.defineProperties(this, {
             height: null,
             width: null,
@@ -50,7 +50,7 @@ class Rectangle {
         this.width = width;
     }
 
-    // calc area function.
+    // calcula área
     calcArea() {
         return this.height * this.width;
     }
@@ -65,56 +65,56 @@ class Rectangle {
 }
 ```
 
-### Visibility
+### Visibilidade
 
-In JavaScript, there is no function visibility, all functions defined in prototype object are public.
+Em JavaScript, não há visibilidade de funções. Todas as funções definidas no objecto protótipo são públicas.
 
-In Nebulas, we define two kinds of visibility `public` and `private`:
+Na Nebulas, definimos dois tipos de visibilidade, `public` e `private`:
 
-* `public` All functions whose name matches the regexp `^[a-zA-Z$][A-Za-z0-9_$]*$` are public, except `init`. Public functions can be called via Transaction.
-* `private` All functions whose name starts with `_` are private. A private function can only be called by public functions.
+* `public` Todas as funções cujo regexp seja `^[a-zA-Z$][A-Za-z0-9_$]*$` são públicas, excepto o `init`. Funções públicas podem ser chamadas através de Transaction.
+* `private` Todas as funções cujo nome comece por `_` são privadas. Uma função privada apenas pode ser invocada por um função pública.
 
-## Global Objects
+## Objectos Globais
 
-### console
+### linha de comandos
 
-The `console` module provides a simple debugging console that is similar to the JavaScript console mechanism provided by web browsers.
+O módulo `console` fornece uma consola de depuração que é semelhante à do JavaScript fornecida por navegadores web.
 
-The global console can be used without calling `require('console')`.
+A consola global pode ser usada sem usar `require('console')`.
 
 #### console.info\(\[...args\]\)
 
 * `...args <any>`
 
-  The console.info\(\) function is an alias for `console.log()`.
+  A função console.info\(\) é um alias para `console.log()`.
 
 #### console.log\(\[...args\]\)
 
 * `...args <any>`
 
-  Print `args` to Nebulas Logger at level `info`.
+  Print `args` para o Logger da Nebulas, com o nível `info`.
 
 #### console.debug\(\[...args\]\)
 
 * `...args <any>`
 
-  Print `args` to Nebulas Logger at level `debug`.
+  Print `args` para o Logger da Nebulas, com o nível `debug`.
 
 #### console.warn\(\[...args\]\)
 
 * `...args <any>`
 
-  Print `args` to Nebulas Logger at level `warn`.
+  Print `args` para o Logger da Nebulas, com o nível `warn`.
 
 #### console.error\(\[...args\]\)
 
 * `...args <any>`
 
-  Print `args` to Nebulas Logger at level `error`.
+  Print `args` para o Logger da Nebulas, com o nível `error`.
 
 ### LocalContractStorage
 
-The `LocalContractStorage` module provides a state trie based storage capability. It accepts string only key value pairs. And all data is stored to a private state trie associated with the current contract address. Only the contract can access it.
+O módulo `LocalContractStorage` fornece capacidade de armazenamento baseada no state trie. Aceita key value pairs de cadeias de caracteres apenas. Todos os dados são guardados num state trie privado, associado com o endereço do contracto, e apenas este os pode aceder.
 
 ```typescript
 interface Descriptor {
