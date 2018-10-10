@@ -1,40 +1,40 @@
-# How to Join Nebulas Testnet
+# Como se Juntar à Testnet da Nebulas
 
-## Introduction
+## Introducção
 
-  We are glad to release the Nebulas Testnet. It simulates the Nebulas network and NVM, and allows developers to interact with Nebulas without paying the cost of gas.
+Estamos felizes por lançar a Testnet da Nebulas. Ela simula a rede Nebulas e a NVM, e permite a interacção com a Nebulas sem pagamento de custo de gás.
 
 ```text
 https://github.com/nebulasio/go-nebulas/tree/testnet
 ```
 
-### Configuration
+### Configuração
 
-The testnet configuration files are in the folder [`testnet/conf`](https://github.com/nebulasio/go-nebulas/tree/testnet/testnet/conf) under `testnet` branch, including
+Os ficheiros de configuração estão no directório [`testnet/conf`](https://github.com/nebulasio/go-nebulas/tree/testnet/testnet/conf) na branch `testnet`, inclusive
 
 #### genesis.conf
 
-All configurable information about the genesis block is defined in genesis.conf, including
+Toda a informação configurável sobre o genesis block está definida em genesis.conf, inclusive
 
-* **meta.chain\_id:** chain identity
-* **consensus.dpos.dynasty:** the initial dynasty of validators
-* **token\_distribution:** the initial allocation of tokens
+* **meta.chain\_id:** identidade da chain
+* **consensus.dpos.dynasty:** dinastia inicial dos validadores
+* **token\_distribution:** alocação inicial de tokens
 
-> _Attention_: DO NOT change the genesis.conf.
+> _Atenção_: NÃO modifique o ficheiro genesis.conf.
 
 #### config.conf
 
-All configurable information about runtime is defined in config.conf.
+Toda a informação configurável sobre o runtime está definida em config.conf
 
-Please check the [`template.conf`](https://github.com/smalloranges/wiki/tree/887270957eb99d971309610bc1fdafb6a2d9d552/resources/conf/template.conf) to find more details about the runtime configuration.
+Por favor veja o [`template.conf`](https://github.com/smalloranges/wiki/tree/887270957eb99d971309610bc1fdafb6a2d9d552/resources/conf/template.conf) para conhecer mais detalhes sobre a configuração do runtime.
 
-> _Tips_: the official seed node info is as below,
+> _Dica_: a informação do nó-raíz oficial está descrita abaixo,
 
 ```javascript
 seed:["/ip4/52.60.150.236/tcp/8680/ipfs/QmVJikqWQst13QsgdCLBjgcSWwpAAdZjoExGdvK3r2CNhv"]
 ```
 
-#### API List
+#### Lista do API
 
 Test Endpoint:
 
@@ -42,20 +42,20 @@ Test Endpoint:
 | --- | :---: | :---: |
 | RESTful | [https://testnet.nebulas.io/](https://testnet.nebulas.io/) | HTTP |
 
-* [GetNebState](https://github.com/nebulasio/wiki/blob/master/rpc.md#getnebstate) : returns nebulas client info.
-* [GetAccountState](https://github.com/nebulasio/wiki/blob/master/rpc.md#getaccountstate): returns the account balance and nonce.
-* [LatestIrreversibleBlock](https://github.com/nebulasio/wiki/blob/master/rpc.md#latestirreversibleblock): returns the latest irreversible block.
-* [Call](https://github.com/nebulasio/wiki/blob/master/rpc.md#call): execute smart contract locally. The tx won't be submitted on chain.
-* [SendRawTransaction](https://github.com/nebulasio/wiki/blob/master/rpc.md#sendrawtransaction): submit signed transaction. The transaction must be signed before sending.
-* [GetTransactionReceipt](https://github.com/nebulasio/wiki/blob/master/rpc.md#gettransactionreceipt): get transaction receipt info from the transaction hash.
+* [GetNebState](https://github.com/nebulasio/wiki/blob/master/rpc.md#getnebstate) : retorna informação do cliente de Nebulas.
+* [GetAccountState](https://github.com/nebulasio/wiki/blob/master/rpc.md#getaccountstate): retorna o balança e nonce da conta.
+* [LatestIrreversibleBlock](https://github.com/nebulasio/wiki/blob/master/rpc.md#latestirreversibleblock): retorna o último bloco irreverssível.
+* [Call](https://github.com/nebulasio/wiki/blob/master/rpc.md#call): executa o smart contract localmente. A transacção não será submetida na chain.
+* [SendRawTransaction](https://github.com/nebulasio/wiki/blob/master/rpc.md#sendrawtransaction): submete transacção assinada. A transacção tem de ser assinada antes de ser enviada.
+* [GetTransactionReceipt](https://github.com/nebulasio/wiki/blob/master/rpc.md#gettransactionreceipt): receba a factura da transacção através da hash da mesma.
 
-More Nebulas APIs at [RPC](https://github.com/nebulasio/wiki/blob/master/rpc.md).
+Mais APIs Nebulas em [RPC](https://github.com/nebulasio/wiki/blob/master/rpc.md).
 
-#### Claim Tokens
+#### Obtenção de Tokens
 
-Each email can claim tokens every day [here](https://testnet.nebulas.io/claim).
+Cada email pode pedir tokens uma vez por dia [aqui](https://testnet.nebulas.io/claim).
 
-## Tutorials
+## Tutoriais
 
 #### English
 
@@ -73,7 +73,7 @@ Each email can claim tokens every day [here](https://testnet.nebulas.io/claim).
 4. [智能合约存储区介绍](https://github.com/nebulasio/wiki/blob/master/tutorials/[中文]%20Nebulas%20101%20-%2004%20智能合约存储区.md)
 5. [通过RPC接口与星云链交互](https://github.com/nebulasio/wiki/blob/master/tutorials/[中文]%20Nebulas%20101%20-%2005%20通过RPC接口与星云链交互.md)
 
-## Contributing
+## Contribuições
 
 Feel free to join Nebulas Testnet. If you did find something wrong, please [submit an issue](https://github.com/nebulasio/go-nebulas/issues/new) or [submit a pull request](https://github.com/nebulasio/go-nebulas/pulls) to let us know, we will add your name and url to this page as soon as possible.
 
