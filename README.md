@@ -111,4 +111,13 @@ Html_context = {
 ```bash
 Git push --set-upstream zh-CN
 ```
+
+**Note:** it is highly likely you will need to rebase master onto that branch in order for the team to be able to merge the pull request cleanly. To do so, and avoid all the conflicts that will certainly come with it, do as follows, from your working branch, after having updated master with ```git pull origin master```:
+```bash
+git rebase -Xtheirs master
+git push -f
+```
+
 5. Notify the manager to add a new language version to the readthedocs' online documentation.
+
+
