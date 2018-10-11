@@ -2,7 +2,7 @@
 
 ## Languages
 
-In Nebulas, there are two supported smart contract languages:
+In Nebulas, there are two supported languages for writing smart contracts:
 
 * [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 * [TypeScript](https://en.wikipedia.org/wiki/TypeScript)
@@ -11,12 +11,12 @@ They are supported by the integration of [Chrome V8](https://developers.google.c
 
 ## Execution Model
 
-The diagram below is the Execution Model of Smart Contract:
+The diagram below is the Execution Model of the Smart Contract:
 
 ![Smart Contract Execution Model](../resources/smart_contract_execution_model.png)
 
-1. All src of Smart Contract and arguments are packaged in Transaction and deployed on Nebulas.
-2. The execution of Smart Contract are divided into two phases:
+1. The whole src of the Smart Contract and its arguments are packaged in the Transaction and deployed on Nebulas.
+2. The execution of Smart Contract is divided in two phases:
    1. Preprocess: inject tracing instruction, etc.
    2. Execute: generate executable src and execute it.
 
@@ -28,9 +28,9 @@ Contracts in Nebulas are similar to classes in object-oriented languages. They c
 
 A contract must be a Prototype Object or Class in JavaScript or TypeScript.
 
-A Contract must include an `init` function, it will be executed only once when deploying. Functions, named starting with `_` are `private`, can't be executed in Transaction. The others are all `public` and can be executed in Transaction.
+A Contract must include an `init` function, it will be executed only once when deploying. Functions whose names start with `_` are `private` and can't be executed in a Transaction. The others are all `public` and can be executed in a Transaction.
 
-Since Contract is executed in Chrome V8, all instance variables are in memory, it's not wise to save all of them to [state trie](https://github.com/nebulasio/wiki/blob/master/merkle_trie.md) in Nebulas. In Nebulas, we provide `LocalContractStorage` and `GlobalContractStorage` objects to help developers define fields needing to be saved to state trie. And those fields should be defined in `constructor` of Contract, before other functions.
+Since the Contract is executed on Chrome V8, all instance variables are in memory, it's not wise to save all of them to [state trie](https://github.com/nebulasio/wiki/blob/master/merkle_trie.md) in Nebulas. In Nebulas, we provide `LocalContractStorage` and `GlobalContractStorage` objects to help developers define fields needing to be saved to state trie. And those fields should be defined in `constructor` of the Contract, before other functions.
 
 The following is a sample contract:
 
@@ -71,7 +71,7 @@ In JavaScript, there is no function visibility, all functions defined in prototy
 
 In Nebulas, we define two kinds of visibility `public` and `private`:
 
-* `public` All functions whose name matches regexp `^[a-zA-Z$][A-Za-z0-9_$]*$` are public, except `init`. Public functions can be called via Transaction.
+* `public` All functions whose name matches the regexp `^[a-zA-Z$][A-Za-z0-9_$]*$` are public, except `init`. Public functions can be called via Transaction.
 * `private` All functions whose name starts with `_` are private. A private function can only be called by public functions.
 
 ## Global Objects
@@ -114,7 +114,7 @@ The global console can be used without calling `require('console')`.
 
 ### LocalContractStorage
 
-The `LocalContractStorage` module provides a state trie based storage capability. It accepts string only key value pairs. And all data are stored to a private state trie associated with current contract address, only the contract can access them.
+The `LocalContractStorage` module provides a state trie based storage capability. It accepts string only key value pairs. And all data is stored to a private state trie associated with the current contract address. Only the contract can access it.
 
 ```typescript
 interface Descriptor {
@@ -187,7 +187,7 @@ interface StorageMap {
 
 ### BigNumber
 
-The `BigNumber` module use the [bignumber.js](https://github.com/MikeMcl/bignumber.js), a JavaScript library for arbitrary-precision decimal and non-decimal arithmetic. The contract can use `BigNumber` directly to handle the value of the transaction and other values transfer.
+The `BigNumber` module uses the [bignumber.js](https://github.com/MikeMcl/bignumber.js), a JavaScript library for arbitrary-precision decimal and non-decimal arithmetic. The contract can use `BigNumber` directly to handle the value of the transaction and other value transfer.
 
 ```javascript
 var value = new BigNumber(0);
@@ -197,7 +197,7 @@ value.plus(1);
 
 ### Blockchain
 
-The `Blockchain` module provides a object for contracts to obtain transactions and blocks executed by the current contract. Also, the NAS can be transferred from the contract and the address check is provided.
+The `Blockchain` module provides an object for contracts to obtain transactions and blocks executed by the current contract. Also, the NAS can be transferred from the contract and the address check is provided.
 
 Blockchain API:
 
@@ -295,7 +295,7 @@ module.exports = SampleContract;
 
 ### Event
 
-The `Event` module records execution events in contract. The recorded events are stored in the event trie on the chain, which can be fetched by `FetchEvents` method in block with the execution transaction hash. All contract event topics have a `chain.contract.` prefix before the topic they set in contract.
+The `Event` module records execution events in the contract. The recorded events are stored in the event trie on the chain, which can be fetched by `FetchEvents` method in block with the execution transaction hash. All contract event topics have a `chain.contract.` prefix before the topic they set in contract.
 
 ```javascript
 Event.Trigger(topic, obj);
@@ -304,11 +304,11 @@ Event.Trigger(topic, obj);
 * `topic`: user-defined topic
 * `obj`: JSON object
 
-You can see the example in `SampleContract` before.
+You can see the example in `SampleContract` above.
 
 ### Math.random
 
-* `Math.random()` returns a floating-point, pseudo-random number in the range from 0 inclusive up to but not including 1. The typical usage is:
+* `Math.random()` returns a floating-point, pseudo-random number in the range from 0 inclusive, up to, but not including 1. The typical usage is:
 
 ```javascript
 "use strict";
@@ -336,7 +336,7 @@ BankVaultContract.prototype = {
 module.exports = BankVaultContract;
 ```
 
-* `Math.random.seed(myseed)` if needed, you can use this method to reset random seed. The argument `myseed` must be a **string**.
+* `Math.random.seed(myseed)` if needed, you can use this method to reset the random seed. The argument `myseed` must be a **string**.
 
   \`\`\`js
 
@@ -402,7 +402,7 @@ Tips:
 
 ### accept
 
-this method is aimed to make it possible to send a binary transfer to a contract account. As the `to` is a smart contact address, which has declared a function `accept()` and it excutes correctly, the transfer will succeed. If the Tx is a non-binary Tx,it will be treated as a normal function.
+this method aims to make it possible to send a binary transfer to a contract account. As `to` is a smart contact address, which has declared the function `accept()` and it excuted correctly, the transfer will succeed. If the Tx is a non-binary Tx, it will be treated as a normal function.
 
 ```javascript
 "use strict";
