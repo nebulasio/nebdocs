@@ -14,11 +14,11 @@ The Nebulas wiki is a collaboration tool for the community to publish various do
 ## Use Wiki
 
 
-#### [Mainnet](go-nebulas/readme.rst) 
+#### [Mainnet](go-nebulas/README.md) 
 
-#### [Dapps](dapp-development/README.rst)
+#### [Dapps](dapp-development/README.md)
 
-#### [Ecosystem](community-ecosystem/README.rst)
+#### [Ecosystem](community-ecosystem/README.md)
 
 #### [Get Involved](how-to-contribute.md)
 

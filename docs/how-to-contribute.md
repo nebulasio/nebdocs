@@ -53,7 +53,7 @@ Your contribution will be of use to all community developers and members, and ma
 ### 1.5. Wiki UI Design
 We welcome UI developers to optimize our wiki page and make it more user friendly and easier to read.
 
-[Download design template of Nebulas wiki](https://drive.google.com/drive/folders/10ZWW1ygjnLa3VtjJ88fhv1jUai9SXNNz?usp=sharing)
+[Download design template of Nebulas wiki >](https://drive.google.com/drive/folders/10ZWW1ygjnLa3VtjJ88fhv1jUai9SXNNz?usp=sharing)
 
 [Download LOGO material >](https://nebulas.io/docs/NEBULAS-LOGO-SVG.zip)
 
@@ -71,7 +71,9 @@ Discord: Available for all community members. You can subscribe to Nebulas News,
 Mailing lists: Discussion groups for core development and bug reporting. We welcome developers to subscribe.
 
 Forum: [Reddit/r/nebulas(for all)](https://reddit.com/r/nebulas), [Reddit/r/nasdev(for developers)](https://reddit.com/r/nasdev)
+
 Communication: [Slack(for developers)](https://nebulasio.herokuapp.com/), [Telegram(for non-developers)](https://t.me/nebulasio)
+
 We welcome community developers to create an IRC (Internet Relay Chat) channel for better communication among developers.
 
 ## 3. Bounties

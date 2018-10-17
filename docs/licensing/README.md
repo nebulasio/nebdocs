@@ -1,7 +1,5 @@
 # Licensing
 
-All contributions to Nebulas wikis are licensed under the (Creative Commons License SA 4.0)[https://creativecommons.org/licenses/by-nc-sa/4.0/].
-
 ## Nebulas Open Source Project License
 
 The preferred license for the Nebulas Open Source Project is the [GNU Lesser General Public License Version 3.0 \(“LGPL v3”\)](https://www.gnu.org/licenses/lgpl-3.0.en.html), which is commercial friendly, and encourage developers or companies modify and publish their changes.
@@ -12,5 +10,5 @@ In this way, we are still considering the license choice, which kind of license 
 
 ## Contributor License Agreement
 
-TBD.
+All contributions to Nebulas wikis are licensed under the (Creative Commons License SA 4.0)[https://creativecommons.org/licenses/by-nc-sa/4.0/].
 
