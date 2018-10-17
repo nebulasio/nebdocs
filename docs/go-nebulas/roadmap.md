@@ -1,5 +1,7 @@
 # Roadmap of Nebulas
 
+[Please visit our new Roadmap here](https://nebulas.io/roadmap.html).
+
 ## Milestones
 
 * In 2017 December, Nebulas test-net will be online.

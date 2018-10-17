@@ -17,9 +17,9 @@ the whole community. Thus, we call upon developers!
 
 Learn more:
 
-Our github：[https://github.com/nebulasio/go-nebulas](https://github.com/nebulasio/go-nebulas)
+Our github：[github.com/nebulasio/go-nebulas](https://github.com/nebulasio/go-nebulas)
 
-Our Roadmap: [https://nebulas.io/roadmap.html](https://nebulas.io/roadmap.html) (Stay tuned)
+Our Roadmap: [nebulas.io/roadmap.html](https://nebulas.io/roadmap.html) (Stay tuned)
 
 ### 1.2. Bug Reporting
 We have always valued bug reporting!
@@ -31,11 +31,11 @@ If you have suggestions on how to fix bugs, or improve upon an affiliated projec
 
 To submit bugs and related information, please post the information in the related Nebulas mail groups. When submitting reports, please be careful and pay attention to the mail group in order to prevent bugs from being exploited or create duplicates. We welcome you to follow the mail group and join the discussion.
 
-Mail group list: [https://lists.nebulas.io/cgi-bin/mailman/listinfo](https://lists.nebulas.io/cgi-bin/mailman/listinfo)
+Mail group list: [lists.nebulas.io/cgi-bin/mailman/listinfo](https://lists.nebulas.io/cgi-bin/mailman/listinfo)
 
-Mainnet bug list: [https://lists.nebulas.io/cgi-bin/mailman/listinfo/mainnet-bugs](https://lists.nebulas.io/cgi-bin/mailman/listinfo/mainnet-bugs)
+Mainnet bug list: [lists.nebulas.io/cgi-bin/mailman/listinfo/mainnet-bugs](https://lists.nebulas.io/cgi-bin/mailman/listinfo/mainnet-bugs)
 
-Testnet bug list: [https://lists.nebulas.io/cgi-bin/mailman/listinfo/testnet-bugs](https://lists.nebulas.io/cgi-bin/mailman/listinfo/testnet-bugs)
+Testnet bug list: [lists.nebulas.io/cgi-bin/mailman/listinfo/testnet-bugs](https://lists.nebulas.io/cgi-bin/mailman/listinfo/testnet-bugs)
 
 ### 1.3.   Translation
 Translating is important to spread Nebulas to the whole world!
@@ -53,9 +53,10 @@ Your contribution will be of use to all community developers and members, and ma
 ### 1.5. Wiki UI Design
 We welcome UI developers to optimize our wiki page and make it more user friendly and easier to read.
 
-Download our wiki > (design template)
+[Download design template of Nebulas wiki](https://drive.google.com/drive/folders/10ZWW1ygjnLa3VtjJ88fhv1jUai9SXNNz?usp=sharing)
 
-Download LOGO material >
+[Download LOGO material >](https://nebulas.io/docs/NEBULAS-LOGO-SVG.zip)
+
 If you have any questions or comments, please do not hesitate to post on our github.
 
 ## 2. User Groups
@@ -63,14 +64,14 @@ Communication is key for building a vibrant community. People need to talk with 
 other in order to share their ideas and thoughts on Nebulas.
 
 
-Nebulas utilizes several platforms to connect our global community. Please refer to the “Community” link on official website for more information: [https://nebulas.io/community.html](https://nebulas.io/community.html)
+Nebulas utilizes several platforms to connect our global community. Please refer to the [“Community”](https://nebulas.io/community.html) page on official website for more information.
 
 Discord: Available for all community members. You can subscribe to Nebulas News, as well as participate in group discussions. Discord is many users' first choice.
 
 Mailing lists: Discussion groups for core development and bug reporting. We welcome developers to subscribe.
 
-Forum: Reddit/r/nebulas (for all), Reddit/r/nasdev(for developers)
-Communication: Slack(for developers), Telegram(for non-developers)
+Forum: [Reddit/r/nebulas(for all)](https://reddit.com/r/nebulas), [Reddit/r/nasdev(for developers)](https://reddit.com/r/nasdev)
+Communication: [Slack(for developers)](https://nebulasio.herokuapp.com/), [Telegram(for non-developers)](https://t.me/nebulasio)
 We welcome community developers to create an IRC (Internet Relay Chat) channel for better communication among developers.
 
 ## 3. Bounties
@@ -83,5 +84,5 @@ Nebulas Bounty rewards include:
 Developer Bounty：please refer to the Developer Bounty List
 Wiki Bounty: Based on the contribution, we will give different sized rewards to users who greatly contribute to the Nebulas Wiki, based on Github activity. For example, the reward for translating the Nebulas Yellow Paper will be 200 NAS. The deadline of the first evaluation is Dec. 31, 2018. The specific reward amount and number of recipients will be public. Depending on participation, the reward size will be adjusted in the future.
 
-## 4. Donation
-We welcome donations to develop Nebulas from the community. Both NAS and ETH are accepted. We also welcome community members to support us in material terms. For example, the donation of meetup locations/spaces, local guides, photography, etcetera. We can also make your contribution known to the community if you would like. If you are an enthusiastic community member and are willing to contribute to our community, please send an email to contact@nebulas.io for more details.
+## 4. Donations
+We welcome donations to develop Nebulas from the community. Both NAS and ETH are accepted. We also welcome community members to support us in material terms. For example, the donation of meetup locations/spaces, local guides, photography, etcetera. We can also make your contribution known to the community if you would like. If you are an enthusiastic community member and are willing to contribute to our community, please send an email to [contact@nebulas.io](mailto:contact@nebulas.io) for more details.

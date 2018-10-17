@@ -9,14 +9,16 @@ Nebulas Wiki
 .. toctree::
     :maxdepth: 2
     :titlesonly:
-    :caption: Table of Contents:
+    :caption: Category:
 
     overview.md
     how-to-contribute.md
-    whats-nebulas/README.rst
+    wiki-using-guide.md
     go-nebulas/README.rst
     dapp-development/README.rst
-    infrastructure/README.rst
+    community-ecosystem/README.rst
+    useful-links.md
+    frequently-asked-questions.md
     licensing/README.rst
     
 
