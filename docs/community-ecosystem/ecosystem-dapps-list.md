@@ -1,7 +1,7 @@
-# Ecosystem DApps List
+# Lista de DApps do Ecossistema
 
-You can find recommend DApps and monthly/weekly champions in the Nebulas Incentive Program Season 1 here: [Summary](https://incentive.nebulas.io/summary.html)
+Pode encontrar DApps recomendadas e campeãs mensais/semanais da 1ª Temporada do Programa de Incentivos da Nebulas aqui: [Sumário](https://incentive.nebulas.io/summary.html)
 
-Wecome to recommend more DApps!
+Convidamo-lo a adicionar mais à lista!
 
-[Nebulas DApps Store](https://www.nebulasdapps.com/) from the community.
+[Loja de DApps da Nebulas](https://www.nebulasdapps.com/) da comunidade.
