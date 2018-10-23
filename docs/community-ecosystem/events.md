@@ -1,9 +1,9 @@
-# Events
+# Eventos
 
-Since June 2017, the Nebulas meetups and hackathon have been hold in 17 cities, 8 countries around the world. We have visited University of California, Berkeley, New York University, Columbia University, Harvard University, Singapore University of Social Sciences, Tsinghua University, Tongji University and many other universities.
+Desde Junho de 2017, encontros e hackathons foram hospedados em 17 cidades, 8 países à volta do mundo. Visitamos a Universidade da California, Berkeley, a Universidade de Nova Iorque, a Universidade Columbia, a Universidade Harvard, a Universidade da Singapura de Ciências Sociais, a Universidade Tsinghua, a Universidade Tonji, e muitas outras.
 
-[Events History >](https://medium.com/nebulasio/nebulas-events-7a8674690d77)
+[Histórico de Eventos >](https://medium.com/nebulasio/nebulas-events-7a8674690d77)
 
-Welcome to organize local meetups and write the history of Nebulas!
+Pode organizar o seu próprio encontro e participar na história da Nebulas!
 
 ![Nebulas Community](https://nebulas.io/assets/images/community/events.jpg)
