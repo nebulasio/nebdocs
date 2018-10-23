@@ -1,5 +1,5 @@
 # NAS nano
 
-NAS nano is the official wallet. Please download it [here](https://nano.nebulas.io/index_en.html)
+NAS Nano é a carteira oficial. Por favor descarrege-a [aqui](https://nano.nebulas.io/index_en.html)
 
-Help documents for NAS nano is coming soon.
+Documentação está para breve.
