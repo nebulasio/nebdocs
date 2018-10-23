@@ -1,7 +1,7 @@
 # Ecosystem DApps List
 
-You can find recommend DApps and monthly/weekly champions in the Nebulas Incentive Program Season 1 here: [Summary](https://incentive.nebulas.io/summary.html)
+You can find recommended DApps and the monthly/weekly champions of the First Season of the Nebulas Incentive Program here: [Summary](https://incentive.nebulas.io/summary.html)
 
-Wecome to recommend more DApps!
+You are welcome to recommend more DApps!
 
-[Nebulas DApps Store](https://www.nebulasdapps.com/) from the community.
+[The Nebulas DApps Store](https://www.nebulasdapps.com/) by the community.
