@@ -1,3 +1,3 @@
-# Tools
+# Ferramentas
 
-All the developing tools. TBA
+Todas as ferramentas para desenvolvimento da Nebulas. TBA
