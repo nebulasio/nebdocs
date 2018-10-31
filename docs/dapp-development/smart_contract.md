@@ -223,8 +223,8 @@ properties:
   * `height`: block height
 * `transaction`: current transaction for contract execution
   * `hash`: transaction hash
-  * `from`: transaction from address
-  * `to`: transaction to address
+  * `from`: sender address of the transaction
+  * `to`: recipient address of the transaction
   * `value`: transaction value, a BigNumber object for contract use
   * `nonce`: transaction nonce
   * `timestamp`: transaction timestamp
