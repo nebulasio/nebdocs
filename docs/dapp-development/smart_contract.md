@@ -187,7 +187,7 @@ interface StorageMap {
 
 ### BigNumber
 
-The `BigNumber` module uses the [bignumber.js](https://github.com/MikeMcl/bignumber.js), a JavaScript library for arbitrary-precision decimal and non-decimal arithmetic. The contract can use `BigNumber` directly to handle the value of the transaction and other value transfer.
+O modulo `BigNumber` usa [bignumber.js](https://github.com/MikeMcl/bignumber.js), uma biblioteca JavaScript para precisão décimal arbitrária e aritmética não décimal. O contracto pode usar o `BigNumber` directamente para lidar com o valor da transacção e transferências de outros valores.
 
 ```javascript
 var value = new BigNumber(0);
