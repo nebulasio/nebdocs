@@ -225,26 +225,26 @@ properties:
   * `hash`: hash da transacção
   * `from`: endereço do remetente
   * `to`: endereço do destinatário
-  * `value`: transaction value, a BigNumber object for contract use
-  * `nonce`: transaction nonce
-  * `timestamp`: transaction timestamp
-  * `gasPrice`: transaction gasPrice, a BigNumber object for contract use
-  * `gasLimit`: transaction gasLimit, a BigNumber object for contract use
-* `transfer(address, value)`: transfer NAS from contract to address
+  * `value`: valor da transacção, um objecto BigNumber para uso do contracto
+  * `nonce`: nonce da transacção
+  * `timestamp`: marca temporal da transacção
+  * `gasPrice`: gasPrice da transacção, um objecto BigNumber para uso do contracto
+  * `gasLimit`: gasLimit da transacção, um objecto BigNumber para uso do contracto
+* `transfer(address, value)`: transfira NAS do contracto para o endereço
   * params:
-    * `address`: nebulas address to receive NAS
-    * `value`: transfer value, a BigNumber object
+    * `address`: endereço nebulas que vai receber NAS
+    * `value`: valor da transferência, um objecto BigNumber
   * return:
-    * `0`: transfer success
-    * `1`: transfer failed   
-* `verifyAddress(address)`: verify address
+    * `0`: sucesso da transferência
+    * `1`: transferência sem sucesso
+* `verifyAddress(address)`: verifica o endereço
   * params:
-    * `address`: address need to check
+    * `address`: endereço a ser verificado
   * return:
-    * `1`: address is valid
-    * `0`: address is invalid 
+    * `1`: endereço é válido
+    * `0`: endereço é inválido 
 
-Example to use:
+Exemplos de como utilizar:
 
 ```javascript
 'use strict';
@@ -295,7 +295,7 @@ module.exports = SampleContract;
 
 ### Event
 
-The `Event` module records execution events in the contract. The recorded events are stored in the event trie on the chain, which can be fetched by `FetchEvents` method in block with the execution transaction hash. All contract event topics have a `chain.contract.` prefix before the topic they set in contract.
+O modulo `Event` grava execução de eventos no contracto. Os eventos gravados são incluídos na trie de eventos na chain, que podem ser obtidos através do método `FetchEvents` no bloco com a hash da execução da transacção. Todos os tópicos de evento do contracto têm o prefixo `chain.contract.` antes do tópico definido no contracto.
 
 ```javascript
 Event.Trigger(topic, obj);
@@ -304,11 +304,11 @@ Event.Trigger(topic, obj);
 * `topic`: user-defined topic
 * `obj`: JSON object
 
-You can see the example in `SampleContract` above.
+Pode ver um exemplo no `SampleContract` acima.
 
 ### Math.random
 
-* `Math.random()` returns a floating-point, pseudo-random number in the range from 0 inclusive, up to, but not including 1. The typical usage is:
+* `Math.random()` returna um ponto flutuante, um número pseudo-aleatório de domínio de 0, inclusive, até, mas não incluíndo 1. O uso típico é:
 
 ```javascript
 "use strict";
@@ -336,7 +336,7 @@ BankVaultContract.prototype = {
 module.exports = BankVaultContract;
 ```
 
-* `Math.random.seed(myseed)` if needed, you can use this method to reset the random seed. The argument `myseed` must be a **string**.
+* `Math.random.seed(myseed)` se necessário, pode ser usado para fazer reset da semente aleatória. O argumento `myseed` tem de ser uma **string**.
 
   \`\`\`js
 
@@ -396,13 +396,13 @@ module.exports = BankVaultContract;
 
 Tips:
 
-* Unsupported methods：`toDateString()`, `toTimeString()`, `getTimezoneOffset()`, `toLocaleXXX()`.
-* `new Date()`/`Date.now()` returns the timestamp of current block in milliseconds.
-* `getXXX` returns the result of `getUTCXXX`.
+* Métodos não suportados：`toDateString()`, `toTimeString()`, `getTimezoneOffset()`, `toLocaleXXX()`.
+* `new Date()`/`Date.now()` returna a marca temporal do bloco actual em milisegundos.
+* `getXXX` returna o resultado de `getUTCXXX`.
 
 ### accept
 
-this method aims to make it possible to send a binary transfer to a contract account. As `to` is a smart contact address, which has declared the function `accept()` and it excuted correctly, the transfer will succeed. If the Tx is a non-binary Tx, it will be treated as a normal function.
+Este método visa tornar possível o envio de uma transferência binária para a conta do contracto. Como `to` é o endereço do smart contract que foi declarado na função `accept()` e executou correctamente, a transferência irá ser completada com sucesso. Se a transferência não for binária, será tratada como uma função normal.
 
 ```javascript
 "use strict";
