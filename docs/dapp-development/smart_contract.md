@@ -197,9 +197,9 @@ value.plus(1);
 
 ### Blockchain
 
-The `Blockchain` module provides an object for contracts to obtain transactions and blocks executed by the current contract. Also, the NAS can be transferred from the contract and the address check is provided.
+O modulo `Blockchain` fornece um objecto para que os contractos obtenham transacções e blocos executados pelo contracto actual. Adicionalmente, o NAS pode ser transferido do endereço do contracto e verificação do endereço é fornecida.
 
-Blockchain API:
+API Blockchain:
 
 ```javascript
 // current block 
@@ -217,14 +217,14 @@ Blockchain.verifyAddress(address);
 
 properties:
 
-* `block`: current block for contract execution
-  * `timestamp`: block timestamp
-  * `seed`: random seed
-  * `height`: block height
-* `transaction`: current transaction for contract execution
-  * `hash`: transaction hash
-  * `from`: transaction from address
-  * `to`: transaction to address
+* `block`: bloco actual para execução do contracto
+  * `timestamp`: marca temporal do bloco
+  * `seed`: semente aleatória
+  * `height`: altura do bloco
+* `transaction`: transacção actual para execução do contracto
+  * `hash`: hash da transacção
+  * `from`: endereço do remetente
+  * `to`: endereço do destinatário
   * `value`: transaction value, a BigNumber object for contract use
   * `nonce`: transaction nonce
   * `timestamp`: transaction timestamp
