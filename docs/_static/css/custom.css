@@ -28,9 +28,11 @@ h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend {
 
 .wy-side-nav-search>a, .wy-side-nav-search .wy-dropdown>a {
 	padding: 0;
+	margin-bottom: 0;
 }
 .wy-side-nav-search>a img.logo, .wy-side-nav-search .wy-dropdown>a img.logo {
     width: 50%;
+    margin: 0;
 }
 
 .wy-side-nav-search input[type=text] {
@@ -42,6 +44,7 @@ h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend {
 
 .wy-menu-vertical a {
 	color: #757575;
+	padding: 0.5em 1.618em;
 }
 
 .wy-menu-vertical a:hover {
@@ -60,14 +63,32 @@ h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend {
 .wy-menu-vertical li.current a {
 	color: #151515;
 	border-right: 0;
+	padding: 0.5em 2.427em;
+}
+
+.wy-menu-vertical li.on a, .wy-menu-vertical li.current>a {
+	padding: 0.5em 1.618em;
 }
 
 .wy-menu-vertical li.current a:hover {
 	background: #ededed;
 }
 
-.wy-menu-vertical li.toctree-l2.current li.toctree-l3>a {
+.wy-menu-vertical li.toctree-l2.current>a {
+    padding: 0.5em 2.427em;
+}
+
+.wy-menu-vertical li.toctree-l2.current>a, .wy-menu-vertical li.toctree-l2.current li.toctree-l3>a {
 	background: none;
+}
+
+.wy-menu-vertical li.toctree-l2.current li.toctree-l3>a {
+	padding: 0.5em 0.5em 0.5em 4.045em;
+}
+
+.wy-menu-vertical li.toctree-l3.current li.toctree-l4>a {
+	background: none;
+	padding: 0.5em 5.663em;
 }
 
 
@@ -85,14 +106,10 @@ h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend {
 
 .wy-nav-content {
 	padding: 0.5em 0 1.618em 0;
-	max-width: auto;
+	max-width: 100%;
 }
 
 /* right - content */
-
-.wy-nav-content {
-	padding: 0.5em 3.236em 1.618em 3.236em;
-}
 
 hr {
 	margin: 0;
@@ -107,6 +124,11 @@ h1 {
 	background: #2c2c2c;
 	color: #fff;
 	padding: 0.8em 1em;
+	margin-left: -1em;
+}
+
+.wy-plain-list-disc, .rst-content .section ul, .rst-content .toctree-wrapper ul, article ul {
+	line-height: 2em;
 }
 
 /* right - footer */
@@ -114,6 +136,7 @@ h1 {
 footer {
 	padding: 1em;
 	font-size: 1rem;
+	font-size: 0.9em;
 }
 footer p {
 	margin-bottom: 0;
@@ -122,4 +145,21 @@ footer p {
 }
 .rst-footer-buttons {
 	padding-bottom: 1em;
+}
+
+
+/* mobile */
+.wy-nav-top {
+	background: #fafafa;
+	color: #000;
+}
+
+.wy-nav-top a {
+	color: #000;
+}
+
+@media screen and (max-width: 768px) {
+	.wy-nav-content-wrap .wy-nav-content {
+		padding: 0.5em 0 1.618em 0;
+	}
 }
