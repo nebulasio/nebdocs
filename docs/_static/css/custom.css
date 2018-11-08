@@ -1,3 +1,177 @@
-.wy-side-nav-search>a img.logo, .wy-side-nav-search .wy-dropdown>a img.logo{
-    width: 80%;
+/* Global Default Settings */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600');
+
+body, h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend {
+	font-family: 'Open Sans', 'Helvetica Neue',Helvetica,arial,sans-serif;
+}
+
+h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend {
+	font-weight: 600;
+}
+
+
+/* two columns */
+/* left - sidebar */
+
+.wy-nav-side {
+	background: #fafafa;
+	border-right: 1px solid #e6e6e6;
+}
+
+/* left - logo & search bar */
+
+.wy-side-nav-search {
+	margin-bottom: 0;
+	padding: 0.5em;
+	background: #fafafa;
+}
+
+.wy-side-nav-search>a, .wy-side-nav-search .wy-dropdown>a {
+	padding: 0;
+	margin-bottom: 0;
+}
+.wy-side-nav-search>a img.logo, .wy-side-nav-search .wy-dropdown>a img.logo {
+    width: 50%;
+    margin: 0;
+}
+
+.wy-side-nav-search input[type=text] {
+	border-color: #fafafa;
+	border-radius: 0;
+}
+
+/* left - menu */
+
+.wy-menu-vertical a {
+	color: #757575;
+	padding: 0.5em 1.618em;
+}
+
+.wy-menu-vertical a:hover {
+	color: #151515;
+	background: #ededed;
+}
+
+.wy-menu-vertical > ul {
+	padding: 0 1em;
+}
+
+.wy-menu-vertical li.current {
+	background: none;
+}
+
+.wy-menu-vertical li.current a {
+	color: #151515;
+	border-right: 0;
+	padding: 0.5em 2.427em;
+}
+
+.wy-menu-vertical li.on a, .wy-menu-vertical li.current>a {
+	padding: 0.5em 1.618em;
+}
+
+.wy-menu-vertical li.current a:hover {
+	background: #ededed;
+}
+
+.wy-menu-vertical li.toctree-l2.current>a {
+    padding: 0.5em 2.427em;
+}
+
+.wy-menu-vertical li.toctree-l2.current>a, .wy-menu-vertical li.toctree-l2.current li.toctree-l3>a {
+	background: none;
+}
+
+.wy-menu-vertical li.toctree-l2.current li.toctree-l3>a {
+	padding: 0.5em 0.5em 0.5em 4.045em;
+}
+
+.wy-menu-vertical li.toctree-l3.current li.toctree-l4>a {
+	background: none;
+	padding: 0.5em 5.663em;
+}
+
+
+/* right */
+
+.wy-nav-content-wrap {
+	background: #fff;
+}
+
+/* right - top navbar */
+
+.wy-breadcrumbs {
+	padding: 0 1.618em 0.5em 1.618em;
+}
+
+.wy-nav-content {
+	padding: 0.5em 0 1.618em 0;
+	max-width: 100%;
+}
+
+/* right - content */
+
+hr {
+	margin: 0;
+}
+
+.section {
+	padding: 0 1.618em;
+}
+
+h1 {
+	background: #2c2c2c;
+	color: #fff;
+	padding: 0.8em 1em;
+	margin: 0 -1.618em 1rem -1.618rem;
+}
+
+.wy-plain-list-disc, .rst-content .section ul, .rst-content .toctree-wrapper ul, article ul {
+	line-height: 2em;
+}
+
+.rst-content blockquote {
+	border: 1px solid #e6e6e6;
+	background: #f9fafa;
+	padding: 1em;
+	margin-left: 0;
+}
+
+#search-results {
+	padding: 1em 1.618em;
+}
+
+/* right - footer */
+
+footer {
+	padding: 1em;
+	font-size: 1rem;
+	font-size: 0.9em;
+}
+footer p {
+	margin-bottom: 0;
+	margin-top: 12px;
+	font-size: 0.9em;
+}
+.rst-footer-buttons {
+	padding-bottom: 1em;
+}
+
+
+/* mobile */
+/* mobile menu */
+.wy-nav-top {
+	background: #fafafa;
+	color: #000;
+}
+
+.wy-nav-top a {
+	color: #000;
+}
+
+@media screen and (max-width: 768px) {
+	.wy-nav-content-wrap .wy-nav-content {
+		padding: 0.5em 0 1.618em 0;
+	}
 }

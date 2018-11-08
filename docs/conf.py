@@ -120,7 +120,7 @@ html_context = {
     "conf_py_path": "/", # Path in the checkout to the docs root
 }
 
-html_logo = 'resources/nebulas-logo-with-slogan-white.svg'
+html_logo = 'resources/nebulasx60.png'
 
 html_favicon = 'resources/favicon.ico'
 
