@@ -107,6 +107,7 @@ h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend {
 
 .wy-nav-content {
 	padding: 0.5em 0 1.618em 0;
+	max-width: 100%;
 }
 
 /* right - content */
@@ -123,7 +124,7 @@ h1 {
 	background: #2c2c2c;
 	color: #fff;
 	padding: 0.8em 1em;
-	margin: 0 -1em 1rem -1rem;
+	margin: 0 -1.618em 1rem -1.618rem;
 }
 
 .wy-plain-list-disc, .rst-content .section ul, .rst-content .toctree-wrapper ul, article ul {
@@ -135,6 +136,10 @@ h1 {
 	background: #f9fafa;
 	padding: 1em;
 	margin-left: 0;
+}
+
+#search-results {
+	padding: 1em 1.618em;
 }
 
 /* right - footer */
