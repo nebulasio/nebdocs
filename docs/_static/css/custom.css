@@ -304,14 +304,18 @@ span#overview {
 @media (-webkit-min-device-pixel-ratio: 2) {
 	#use-wiki.section #mainnet.section {
 		background-image: url(https://raw.githubusercontent.com/nebulasio/nebdocs/master/docs/resources/overview/icon-mainnet@2x.png);
+	    background-size: 165px 165px;
 	}
 	#use-wiki.section #dapps.section {
 		background-image: url(https://raw.githubusercontent.com/nebulasio/nebdocs/master/docs/resources/overview/icon-dapps@2x.png);
+	    background-size: 165px 165px;
 	}
 	#use-wiki.section #ecosystem.section {
 		background-image: url(https://raw.githubusercontent.com/nebulasio/nebdocs/master/docs/resources/overview/icon-eco@2x.png);
+	    background-size: 165px 165px;
 	}
 	#use-wiki.section #get-involved.section {
 		background-image: url(https://raw.githubusercontent.com/nebulasio/nebdocs/master/docs/resources/overview/icon-contribute@2x.png?raw=ture);
+	    background-size: 411px 190px;
 	}
 }
