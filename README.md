@@ -1,4 +1,19 @@
-# nebdocs
+# Welcome to the open-source Nebulas Wiki!
+
+Nebulas community is open and everyone can be a contributor and build a decentralized world with us.
+
+The Nebulas wiki is a collaboration tool for the community to publish various documents in a collaborative manner. Include using guides, developing guides, learning resources, and other useful documents. 
+
+The mainnet development part in this Nebulas Wiki bases on [https://github.com/nebulasio/wiki](https://github.com/nebulasio/wiki)("the wiki"). 
+
+
+# How to Contribute
+
+Nebulas aims for a continuously improving ecosystem, which means we need help from the community. We need your contributions! It is not limited exclusively to programming, but also bug reports and translations, spreading the tenets of Nebulas, answering questions, and so on.
+
+[Learn more about how to contribute](https://wiki.nebulas.io/en/latest/how-to-contribute.html)
+
+# Get Started
 
 This project was created by [sphinx](http://www.sphinx-doc.org/en/master/) and uploaded to [readthedocs](https://readthedocs.org/) for hosting. Url of online documentation after hosting is: [https://nebdocs.readthedocs.io/en/latest/](https://nebdocs.readthedocs.io/en/latest/).
 
