@@ -189,14 +189,13 @@ span#overview {
 	float: left;
 	font-size: 2.5em;
 	max-width: 40%;
-	padding-right: 2.5em;
-	padding-bottom: 3em;
+	padding-right: 2.5rem;
+	padding-bottom: 3rem;
 }
 
 #use-wiki.section {
-	max-width: 1920px;
 	margin: 0 auto;
-	padding-top: 3em;
+	padding-top: 3rem;
 }
 
 #use-wiki.section #mainnet.section, #use-wiki.section #dapps.section, #use-wiki.section #ecosystem.section {
