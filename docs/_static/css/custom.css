@@ -175,3 +175,98 @@ footer p {
 		padding: 0.5em 0 1.618em 0;
 	}
 }
+
+
+
+/* homepage */
+#overview.section {
+	padding: 0;
+}
+
+span#overview {
+	display: none;
+}
+
+#overview h1 {
+	display: none;
+}
+
+#welcome-to-the-open-source-nebulas-wiki {
+	background: #000 url(https://raw.githubusercontent.com/nebulasio/nebdocs/master/docs/resources/overview/bg.png) no-repeat 50% 0;
+	color: #9b9b9b;
+	max-width: 1920px;
+	margin: 0 auto;
+	padding: 2em 1.618em;
+}
+
+#welcome-to-the-open-source-nebulas-wiki h2 {
+	color: #fff;
+	float: left;
+	font-size: 2.5em;
+	max-width: 40%;
+	padding-right: 2.5em;
+	padding-bottom: 3em;
+}
+
+#use-wiki.section {
+	max-width: 1920px;
+	margin: 0 auto;
+	padding-top: 3em;
+}
+
+#use-wiki.section #mainnet.section, #use-wiki.section #dapps.section, #use-wiki.section #ecosystem.section {
+    width: 30%;
+    display: block;
+    border: 1px solid #cbcbcb;
+    padding: 240px 0 20px 0;
+    float: left;
+    margin-right: 3%;
+    margin-bottom: 2rem;
+}
+
+#use-wiki.section .section:hover {
+	box-shadow: 0 0 45px 0 rgba(14,15,18,0.13);
+}
+
+#use-wiki.section .section h3 {
+	padding: 0 2rem;
+}
+
+#use-wiki.section .section a.reference {
+    display: block;
+    border: 1px solid #000;
+    height: 2.6rem;
+    line-height: 2.6rem;
+    text-align: center;
+    color: #000;
+    font-weight: normal;
+    font-size: 1rem;
+}
+
+#use-wiki.section .section a.reference:hover {
+	background: #000;
+	color: #fff;
+}
+
+#use-wiki.section .section a.headerlink {
+	display: none;
+}
+
+#use-wiki.section #mainnet.section {
+	background: #fff url(https://raw.githubusercontent.com/nebulasio/nebdocs/master/docs/resources/overview/icon-mainnet.png) no-repeat 50% 19px;
+}
+
+#use-wiki.section #dapps.section {
+	background: #fff url(https://raw.githubusercontent.com/nebulasio/nebdocs/master/docs/resources/overview/icon-dapps.png) no-repeat 50% 19px;
+}
+
+#use-wiki.section #ecosystem.section {
+	background: #fff url(https://raw.githubusercontent.com/nebulasio/nebdocs/master/docs/resources/overview/icon-eco.png) no-repeat 50% 19px;
+}
+
+#use-wiki.section #get-involved.section {
+    clear: left;
+    background: #f7f7f7 url(https://github.com/nebulasio/nebdocs/blob/master/docs/resources/overview/icon-contribute.png) no-repeat 100% 0;
+    padding: 2em 1.618em;
+    margin: 2em -1.618em 0 -1.618em;
+}
