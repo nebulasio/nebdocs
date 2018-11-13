@@ -4,7 +4,8 @@
    contain the root `toctree` directive.
 
 
-# Nebulas Wiki
+Nebulas Wiki
+============
 
 .. toctree::
     :maxdepth: 2
@@ -22,7 +23,8 @@
     licensing/README.rst
     
 
-# Indices and tables
+Indices and tables
+==================
 
 * :ref:`genindex`
 * :ref:`modindex`
