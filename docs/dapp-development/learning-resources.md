@@ -41,6 +41,8 @@ All learning resources. Videos and documents.
 - [New Nebulas Smart Contract feature](https://medium.com/nebulasio/new-nebulas-smart-contract-feature-e15046804b3c)
 - [Claim Nebulas Testnet Token Step by Step](https://medium.com/nebulasio/claim-nebulas-testnet-token-step-by-step-6156400fdd38)
 - [Why Choose Nebulas at a Hackathon?](https://medium.com/nebulasio/why-choose-nebulas-at-a-hackathon-562ab8065a30)
+- [How to architect a DApp using Nuxt.js and Nebulas](https://medium.freecodecamp.org/architecting-dapp-using-nuxt-js-nebulas-fc00712ae341) by [Honey Thakuria](https://medium.com/@HoneyThakuria)
+- [Nebulas: JavaScript Meets Smart Contracts —— An Intro to Nebulas for Ethereum Smart Contract Developers](https://www.tooploox.com/blog/nebulas-javascript-meets-smart-contracts) by Michal Zalecki
 
 ## How to use Nebulas Wallet
 
