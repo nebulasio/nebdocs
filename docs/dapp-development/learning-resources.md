@@ -1,6 +1,6 @@
 # Learning Resources
 
-All learning resources. Videos and documents.
+All learning resources. Videos and documents. Welcome to recommend more resources from the community, and you can edit this page on Github directly. Help others and learn things together.
 
 
 ## Official Nebulas Documents
