@@ -7,13 +7,22 @@ There will be three parts:
 
 TBA
 
-## Editing pages on github
+## Editing pages on Github
 
-[How to use Markdown](https://daringfireball.net/projects/markdown/syntax)
+You should use reST to edit .rst file, and Pandoc Markdown to edit .md file. 
 
-You should use reST to edit .rst file, and Pandoc Markdown to edit .md file. [Click here to learn the different between Markdown and reST](http://www.unexpected-vortices.com/doc-notes/markdown-and-rest-compared.html). 
+[Click here to learn the different between Markdown and reST](http://www.unexpected-vortices.com/doc-notes/markdown-and-rest-compared.html). 
+
+These are some learning resources:
+
+- [How to use Markdown](https://daringfireball.net/projects/markdown/syntax) by John Gruber
+- [Markdown Guide](https://ia.net/writer/support/general/markdown-guide) by iA Writer
+
+When you edit pages on Github, you can click "Preview changes" to view the results.
+
 
 ## Tracking changes
 
 TBA
+
 
