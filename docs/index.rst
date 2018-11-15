@@ -16,12 +16,13 @@
     how-to-contribute.md
     wiki-using-guide.md
     mainnet-guide/README.rst
+    infrastructure/README.rst
     dapps-developing-guide/README.rst
     community-ecosystem/README.rst
     useful-links.md
     frequently-asked-questions.md
     licensing/README.rst
-    
+
 
 索引表
 ==================
