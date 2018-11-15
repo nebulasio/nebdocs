@@ -10,3 +10,5 @@ Infrastructure
     llvm_engine.md
     permission_control_in_smart_contract.md
     NBRE-Overview.md
+    JIT.md
+    IPC.md
