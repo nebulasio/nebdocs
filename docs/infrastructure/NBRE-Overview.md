@@ -1,6 +1,9 @@
 # NBRE框架
 NBRE（Nebulas Runtime Environment）是星云链执行环境，其总框架如下图所示：
+
 ![](https://github.com/nebulasio/nebdocs/blob/zh-CN/docs/resources/NBRE-Overview.png)
+
+
 当外部需要调用一个接口功能和算法时，NEB向NBRE提出执行申请，NBRE执行对应程序并返回结果给NEB，最后NEB返回结果给外部。
 具体执行流程如图中标号所示，对应详细内容如下：
 1. NEB向NBRE提出执行请求，传递给IPC的server；
