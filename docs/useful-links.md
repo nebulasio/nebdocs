@@ -1,18 +1,27 @@
 # Useful Links
 
+
 tutorials made by the nebulas community
-https://medium.freecodecamp.org/architecting-dapp-using-nuxt-js-nebulas-fc00712ae341
 
-https://medium.com/coinmonks/setup-nebulas-development-environment-b8f8f022b170
+[How to architect a DApp using Nuxt.js and Nebulas](https://medium.freecodecamp.org/architecting-dapp-using-nuxt-js-nebulas-fc00712ae341
+)
 
-http://nebulearn.com/official-docs/installation
+[A walkthrough to your first deployed dApp](https://medium.com/coinmonks/setup-nebulas-development-environment-b8f8f022b170
+)
 
-https://www.youtube.com/watch?v=cQBM4xwcGZw&t=1095s
+[Nebulearn](http://nebulearn.com/official-docs/installation
 
-https://www.youtube.com/watch?v=wwJz3TEf_2Y
 
-https://medium.com/coinmonks/dapp-tutorial-72f0ae39f538
+[Nebulas Smart Contract Tutorial](https://www.youtube.com/watch?v=cQBM4xwcGZw&t=1095s
+)
 
-https://medium.com/nebulasio/new-nebulas-smart-contract-feature-e15046804b3c
+[Nebulas Dapp Tutorial: WebExtensionWallet and NebPay.js](https://www.youtube.com/watch?v=wwJz3TEf_2Y
+)
 
-https://medium.com/nebulasio/creating-a-nas-wallet-9d01b5fa2df6
+[Nebulas Dapp tutorial](https://medium.com/coinmonks/dapp-tutorial-72f0ae39f538
+)
+
+[NNew Nebulas Smart Contract feature](https://medium.com/nebulasio/new-nebulas-smart-contract-feature-e15046804b3c
+)
+
+[Creating A NAS Wallet](https://medium.com/nebulasio/creating-a-nas-wallet-9d01b5fa2df6)
