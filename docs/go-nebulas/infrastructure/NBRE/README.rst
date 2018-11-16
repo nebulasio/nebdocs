@@ -36,5 +36,5 @@ The specfic execution process is shown in the above figure, and the correspondin
 .. toctree::
     :titlesonly:
 
-    IPC.md
-    JIT.md
+    IPC.rst
+    JIT.rst
