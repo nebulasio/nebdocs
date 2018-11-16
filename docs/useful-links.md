@@ -1,7 +1,7 @@
 # Useful Links
 
 
-tutorials made by the nebulas community
+Tutorials made by the nebulas community:
 
 [How to architect a DApp using Nuxt.js and Nebulas](https://medium.freecodecamp.org/architecting-dapp-using-nuxt-js-nebulas-fc00712ae341
 )
@@ -9,7 +9,7 @@ tutorials made by the nebulas community
 [A walkthrough to your first deployed dApp](https://medium.com/coinmonks/setup-nebulas-development-environment-b8f8f022b170
 )
 
-[Nebulearn](http://nebulearn.com/official-docs/installation
+[Nebulearn](http://nebulearn.com/official-docs/installation)
 
 
 [Nebulas Smart Contract Tutorial](https://www.youtube.com/watch?v=cQBM4xwcGZw&t=1095s
