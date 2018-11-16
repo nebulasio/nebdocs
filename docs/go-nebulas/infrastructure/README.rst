@@ -9,3 +9,4 @@ Infrastructure
     nebulas_v8.md
     llvm_engine.md
     permission_control_in_smart_contract.md
+    NBRE/README.md
