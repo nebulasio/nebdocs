@@ -8,7 +8,7 @@ There are two sub-threads, a server and a client, inside IPC. The server listens
 ### Framework
 The framework of IPC is shown as below.
 
-![](https://github.com/nebulasio/nebdocs/blob/master/docs/resources/NBRE-IPC.png)
+![](https://github.com/nebulasio/nebdocs/blob/master/docs/resources/NBRE-IPC.png =400x)
 
 1. NEB calls a function, and the server receives the request and sends it to the client.
 
