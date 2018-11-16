@@ -22,7 +22,7 @@ At regular intervals, the JIT decrements the corresponding count of each loaded 
 ### Framework
 The JIT framework is shown as below.
 
-![](https://github.com/nebulasio/nebdocs/blob/master/docs/resources/NBRE-JIT.png =400x)
+![](https://github.com/nebulasio/nebdocs/blob/master/docs/resources/NBRE-JIT.png)
 
 1. One interface is requested from outside.
 2. JIT queries the corresponding function program from the database.
