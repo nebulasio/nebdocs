@@ -4,7 +4,7 @@ NBRE Design Doc
 NBRE (Nebulas Runtiome Environment) is the Nebulas chain execution environment.
 Its framework is shown as follows.
 
-.. |image0| image:: https://github.com/nebulasio/nebdocs/blob/master/docs/resources/NBRE-Overview.png
+.. |image0| image:: ../../../resources/NBRE-Overview.png
 
 When an external interface function and algorithm need to be called, the NEB submits an execution request to the NBRE.
 Then, the NBRE executes the corresponding program and returns the result to the NEB, and finally the NEB returns the result to the outside.
