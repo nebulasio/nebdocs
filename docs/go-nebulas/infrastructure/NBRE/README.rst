@@ -11,11 +11,11 @@ NBRE contains two main processes, which provide the methods how to update algori
 The updating process provides how to upload algorithms and core protocols.
 It includes the following steps:
 
-A) The algorithms are implemented with the languages supported by LLVM. Then, their codes are handled by the NASIR tool, which are translated to bitcode.
+	- A) The algorithms are implemented with the languages supported by LLVM. Then, their codes are handled by the NASIR tool, which are translated to bitcode.
 
-B) The bitcode streams are coded with base64, which are translated to payload of transaction data. The transaction data is uploaded to the online chain.
+	- B) The bitcode streams are coded with base64, which are translated to payload of transaction data. The transaction data is uploaded to the online chain.
 
-C) After that, the transaction data will be packed and varified. Then, the related bitcode will stored into the RocksDB.
+	- C) After that, the transaction data will be packed and varified. Then, the related bitcode will stored into the RocksDB.
 
 The execution process exhibits the processes from request to results.
 The corresponding details are as follows.
