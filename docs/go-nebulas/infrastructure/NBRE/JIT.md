@@ -1,5 +1,6 @@
 # JIT
-JIT is a concurrent virtual machine that run programs providing algorithms and interfaces for NBRE, which is the key of the dynamic update for NBRE.
+JIT is a concurrent virtual machine based on LLVM, which runs ir programs providing algorithms and interfaces for NBRE.
+It is the key of the dynamic update for NBRE.
 
 ### Features
 
