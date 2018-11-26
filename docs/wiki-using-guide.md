@@ -18,7 +18,7 @@ These are some learning resources:
 - [How to use Markdown](https://daringfireball.net/projects/markdown/syntax) by John Gruber
 - [Markdown Guide](https://ia.net/writer/support/general/markdown-guide) by iA Writer
 
-When you edit pages on Github, you can click "Preview changes" to view the results.
+When you edit pages on Github, you can click "Preview changes" to view the results. You can check the building processing [here](https://readthedocs.org/projects/nebdocs/builds/).
 
 
 ## Tracking changes
