@@ -20,7 +20,7 @@
 5. time window for DIP should be much more larger than the time window of NR, for now, we suggests 7 days
 
 ### 3. How much NAS for DIP & how to distribute NAS for DIP
-1. For each month, we suggest around 500 NAS in total, the winners shall be relatively stable, so a winner will get reward in several months.
+1. For each month, we suggest around 500 NAS in total for now, and adjust the amount subject to the DIP feedback in the future,  the winners shall be relatively stable, so a winner will get reward in several months.
 2. We will have a special account for distributing NAS for DIP. The account can only send special transactions for DIP.
 
 ***About Nebulas Technical Committee***
