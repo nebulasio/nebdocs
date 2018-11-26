@@ -24,7 +24,7 @@ Our Roadmap: [nebulas.io/roadmap.html](https://nebulas.io/roadmap.html) (Stay tu
 ### 1.2. Bug Reporting
 We have always valued bug reporting!
 
-If you find a bug, please report it to the Nebulas community. Bugs may be found on the Nebulas testnet, mainnet, nebPay, neb.js, web wallet, as well as other tools and documentation. We will follow the [OWASP Risk Assessment System](https://www.owasp.org/index.php/OWASP_Risk_Rating_Methodology) to calculate the corresponding bounty/reward based on the risk degree of the bug.
+If you find a bug, please report it to the Nebulas community. Bugs may be found on the Nebulas testnet, mainnet, nebPay, neb.js, web wallet, as well as other tools and documentation. We will follow the [OWASP Risk Assessment System](https://www.owasp.org/index.php/OWASP_Risk_Rating_Methodology) to calculate the corresponding bounty/reward based on the risk degree of the bug. More TBA.
 
 <!--Every time we launch a new function, we will first deploy it on our testnet. Currently, we have launched our first new function on the Nebulas testnet and everyone is welcome to try it, report any bugs discovered and receive the corresponding reward. The first of many new functions in public beta on the testnet is the inter-contract function.-->
 If you have suggestions on how to fix bugs, or improve upon an affiliated project, please do not hesitate to let us know. You can also participate in the development and directly protect the onchain assets. Together, let’s make Nebulas even more safe, secure, and robust.
