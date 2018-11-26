@@ -14,6 +14,7 @@
 
     overview.md
     how-to-contribute.md
+    星云漏洞悬赏计划.md
     wiki-using-guide.md
     mainnet-guide/README.rst
     infrastructure/README.rst
