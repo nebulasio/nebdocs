@@ -1,4 +1,4 @@
-# 【Meeting minutes】 Nebulas Nova Tech Tradeoffs(11.21.2018)
+# Nebulas Nova Tech Tradeoffs(11.21.2018)
 
 ## Summary
 1. The process to submit IR (LLVM Intermediate Representation) and who can submit IR  (LLVM Intermediate Representation)
@@ -24,8 +24,9 @@
 2. We will have a special account for distributing NAS for DIP. The account can only send special transactions for DIP.
 
 ***About Nebulas Technical Committee***
-*The Nebulas Technical Committee adheres to the spirit of openness, sharing, and transparency, and is committed to promoting the decentralization, and the community of the research and development of the Nebulas technology. Blockchain technology opens up possibilities for building new and self-motivated open source communities. Nebulas’ technical concepts unclude mechanisms for evaluation, self-evolution, and self-incentives, which provide a guarantee for building a world of decentralized collaboration. The Nebulas Technical Committee will fully promote the realization of the Nebulas vision.
 
-Subscribe to nebulas mailing list and learn the latest progress of Nebulas: [mailing list](lists.nebulas.io/cgi-bin/mailman/listinfo)
+*The Nebulas Technical Committee adheres to the spirit of openness, sharing, and transparency, and is committed to promoting the decentralization, and the community of the research and development of the Nebulas technology. Blockchain technology opens up possibilities for building new and self-motivated open source communities. Nebulas’ technical concepts unclude mechanisms for evaluation, self-evolution, and self-incentives, which provide a guarantee for building a world of decentralized collaboration. The Nebulas Technical Committee will fully promote the realization of the Nebulas vision.*
+
+*Subscribe to nebulas mailing list and learn the latest progress of Nebulas: [mailing list](lists.nebulas.io/cgi-bin/mailman/listinfo)
 For more info, please visit [Nebulas official website](nebulas.io).*
 
