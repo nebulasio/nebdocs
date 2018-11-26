@@ -8,7 +8,7 @@ Learn more about Nebulas Technical Committee, please [visit Nebulas website](htt
 
 ## Meeting Mins
 
-[Meeting Mins 1: Nebulas Nova Tech Tradeoffs](meeting-mins/meeting-mins-1.md) Nov, 21, 2018
+[Meeting Mins 1: Nebulas Nova Tech Tradeoffs](meeting-mins/meeting-mins-1.html) Nov, 21, 2018
 
 
 
