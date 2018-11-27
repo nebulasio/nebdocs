@@ -19,7 +19,8 @@ Nebulas Wiki
     wiki-using-guide.md
     go-nebulas/README.rst
     dapp-development/README.rst
-    community-ecosystem/README.rst
+    community/README.rst
+    ecosystem/README.rst
     useful-links.md
     frequently-asked-questions.md
     licensing/README.rst
