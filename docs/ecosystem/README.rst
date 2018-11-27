@@ -1,4 +1,4 @@
-Community & Ecosystem
+Ecosystem
 =====================
 
 .. toctree::
@@ -7,5 +7,4 @@ Community & Ecosystem
 
     nas-nano.md
     ecosystem-dapps-list.md
-    events.md
-    weekly-report.md
+    
