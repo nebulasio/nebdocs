@@ -14,6 +14,7 @@ Nebulas Wiki
     overview.md
     how-to-contribute.md
     bounty/README.rst
+    metanet/README.rst
     wiki-using-guide.md
     go-nebulas/README.rst
     dapp-development/README.rst
