@@ -1,4 +1,4 @@
-# What's Nebulas
+# Autonomous Metanet
 
 ## Nebuas: autonomous metanet
 
