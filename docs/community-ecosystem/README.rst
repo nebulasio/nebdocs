@@ -8,4 +8,4 @@ Community & Ecosystem
     nas-nano
     ecosystem-dapps-list
     events
-    weekly-report
+    weeklyreport
