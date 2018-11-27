@@ -1,10 +1,10 @@
-What’s Nebulas
+Autonomous Metanet
 ==============
 
-Nebulas: Next Generation Public Blockchain
+Nebulas: Autonomous Metanet
 ------------------------------------------
 
-Nebulas is aiming to build a continuously improving ecosystem.
+Nebuas is an autonomous metanet. The future of collaborating is coming.
 --------------------------------------------------------------
 
 Nebulas is a next-generation public blockchain. It introduces Nebulas
