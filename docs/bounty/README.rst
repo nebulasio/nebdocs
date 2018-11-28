@@ -6,4 +6,4 @@ Bounty Program
 
 
     bug-bounty.md
-    dev-bounty.md
+   
