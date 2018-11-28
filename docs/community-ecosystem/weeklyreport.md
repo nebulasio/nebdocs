@@ -40,7 +40,7 @@
 - 星云周报-第20期(3/5-3/11)-[在develop和PEE两个分支上齐头并进，在安全和性能上都取得了不小突破](https://blog.nebulas.io/2018/03/13/nebulas-weekly-report-20/)
 - 星云周报-第19期(2/26-3/4)-[星云宣布了与海豚浏览器的战略合作关系，开启全球路演，发布了完整版双语Reddit答疑回顾](https://blog.nebulas.io/2018/03/05/nebulas-weekly-report-19/)
 - 星云周报-第18期(2/19-2/25)-[星云创始人徐义吉首次Reddit在线答疑,星云举办的征文比赛也完美收官](https://blog.nebulas.io/2018/02/26/nebulas-weekly-report-18/)
-- 星云周报-第17期(2/12-2/18)-[星云区块链征文比赛即将结束]（https://blog.nebulas.io/2018/02/19/nebulas-weekly-report-17/）
+- 星云周报-第17期(2/12-2/18)-[星云区块链征文比赛即将结束](https://blog.nebulas.io/2018/02/19/nebulas-weekly-report-17/)
 - 星云周报-第16期(2/5-2/11)-[星云第三期AMA视频发布,聚焦于Go-Nebulas的性能和稳定性](https://blog.nebulas.io/2018/02/12/nebulas-weekly-report-16/)
 - 星云周报-第15期(1/29-2/4)-[星云硅谷线下活动圆满成功,星云区块链征文大赛正式开始](https://blog.nebulas.io/2018/02/05/nebulas-weekly-report-15/)
 - 星云周报-第14期(1/22-1/28)-[星云在达沃斯获得中国区块链应用研究中心颁发的“优秀项目奖”，核心技术团队开启了星云硅谷行](https://blog.nebulas.io/2018/01/29/nebulas-weekly-report14/)
@@ -50,12 +50,10 @@
 - 星云周报-第10期(12/18-12/24)-[预售提前结束，星云币恢复交易，为测试网上线做最后准备](https://blog.nebulas.io/2017/12/25/nebulas-weekly-no-10/)
 - 星云周报-第9期(12/11-12/17)-[星云币预售圆满结束，实现了DPos共识算法](https://blog.nebulas.io/2017/12/18/nebulas-weekly-no-9/)
 - 星云周报-第8期(12/4-12/11)-[星云币锁仓配币（锁1换2）计划圆满成功，并开始着手准备测试网环境](https://blog.nebulas.io/2017/12/11/nebulas-weekly-no-8/)
-- 星云周报-第7期(11/27-12/3)-[星云路演首次登陆充满活力和潜力的深圳，受到热烈欢迎](https://blog.nebulas.io/2017/12/04/nebulas-weekly-no-7/）
+- 星云周报-第7期(11/27-12/3)-[星云路演首次登陆充满活力和潜力的深圳，受到热烈欢迎](https://blog.nebulas.io/2017/12/04/nebulas-weekly-no-7/)
 - 星云周报-第6期(11/20-11/26)-[启动了星云币（NAS）锁仓配币（锁1换2）计划](https://blog.nebulas.io/2017/11/27/nebulas-weekly-no-6/)
 - 星云周报-第5期(11/23-11/19)-[星云纽约行：接触纽约社区，洽谈合作及寻觅优秀项目](https://blog.nebulas.io/2017/11/20/nebulas-weekly-no-5/)
 - 星云周报-第4期(11/6-11/13)-[上周纽约哥伦比亚大学分享会活动回顾，0.4版本开发进行中](https://blog.nebulas.io/2017/11/13/nebulas-weekly-no-4/)
 - 星云周报-第3期(10/30-11/5)-[星云0.3.0版本开发进展,星云支持使用JavaScript编写和部署智能合约](https://blog.nebulas.io/2017/11/06/nebulas-weekly-no-3/)
 - 星云周报-第2期(10/23-10/29)-[星云0.3.0版本开发进展](https://blog.nebulas.io/2017/10/30/nebulas-weekly-no-2/)
 - 星云周报-第1期(10/17)-[正在开发0.2.0版本，重点在核心模块的实现](https://blog.nebulas.io/2017/10/17/nebulas-weekly-no-1/)
-
-]()
