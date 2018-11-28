@@ -12,7 +12,7 @@ The Bug Bounty Program divides the bug bounties into 2 categories, common bug bo
 
 The Nebulas Technical Committee will evaluate reward sizes according to the severity calculated by [OWASP](https://www.owasp.org/index.php/OWASP_Risk_Rating_Methodology) Risk Rating Method based on **Impact** and **Likelihood**. However, final rewards are determined at the sole discretion of the committee. 
 
-![图1](http://imgsrc.baidu.com/forum/pic/item/9e5f7091f603738dd997106abe1bb051f919ec7c.jpg)
+![图1](https://cdn-images-1.medium.com/max/1600/1*rR7P3JTHT2KFAYTDodsilw.jpeg)
 
 **Impact:**
 - High: Bugs affecting asset security.
