@@ -1,6 +1,6 @@
 # Bug Bounty
 
-# Nebulas Bug Bounty Program
+## Nebulas Bug Bounty Program
 
 The Nebulas Bug Bounty aims to improve the security of Nebulas Ecosystem, ensuring the establishing for benign Nebulas ecosystem. The Nebulas Bug Bounty Program provides bounties for the discovered vulnerabilities. This bounty program is initiated and implemented by the Nebulas Technical Committee (NTC), joined by the Nebulas technical team and community members. NTC encourages the community to disclose security vulnerabilities via the process described below, and play a role in building Nebulas ecosystem, thereby receiving bounties, and partake in the establishing of Nebulas ecosystem.
 
