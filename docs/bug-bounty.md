@@ -10,7 +10,7 @@ The Bug Bounty Program divides the bug bounties into 2 categories, common bug bo
 
 ## Eligibility 
 
-The Nebulas Technical Committee will evaluate reward sizes according to the severity calculated by [OWASP](https://www.owasp.org/index.php/OWASP_Risk_Rating_Methodology "OWASP") Risk Rating Method based on **Impact** and **Likelihood**. However, final rewards are determined at the sole discretion of the committee. 
+The Nebulas Technical Committee will evaluate reward sizes according to the severity calculated by [OWASP](https://www.owasp.org/index.php/OWASP_Risk_Rating_Methodology) Risk Rating Method based on **Impact** and **Likelihood**. However, final rewards are determined at the sole discretion of the committee. 
 
 ![图1](http://imgsrc.baidu.com/forum/pic/item/9e5f7091f603738dd997106abe1bb051f919ec7c.jpg)
 
@@ -37,8 +37,7 @@ The reward amount is divided into 5 categories:
 Note: The Nebulas testnet special vulnerability reward (such as one for testnet inter-contract call function) has been increased accordingly, and the equivalent US dollars are issued in NAS.
 
 ## Report A Bug
-Please send your bug report via this link:
-[https://goo.gl/forms/5ysl61Mjpn6yDEuN2](https://goo.gl/forms/5ysl61Mjpn6yDEuN2 "https://goo.gl/forms/5ysl61Mjpn6yDEuN2")
+Please send your bug report via [this link](https://goo.gl/forms/5ysl61Mjpn6yDEuN2).
 
 **Notes:**
 
@@ -50,4 +49,4 @@ Please send your bug report via this link:
 > 2.The Nebulas Technical Committee will confirm and evaluate the bug report after its submission. The evaluation time will depend on the severity of the problem and the difficulty of fixing it. The evaluation result will be sent to its reporter by email as soon as possible. 
 >3.To avoid bugs being exploited, reporters are required to submit the bug bounty application to bug report entrance. 
 >4.Reporters shall keep the bugs non-public and confidential until 30 days after submitting the bugs to Nebulas, and shall not disclose the bugs to any third party.  Such confidentiality timeline can be extended by Nebulas unilaterally. If reporters disclose the bugs to any third party which cause any harm to Nebulas or Nebulas’ users, reporters shall be responsible of the compensation for all the losses.
->5.The Nebulas Technical Committee encourages community member to discuss with the Nebulas technical team and other community members in the Nebulas public discussion group. We also encourage our community members to join us in fixing these bugs. Welcome to join our Nebulas maillist for discussion: [https://lists.nebulas.io/cgi-bin/mailman/listinfo.](https://lists.nebulas.io/cgi-bin/mailman/listinfo. "https://lists.nebulas.io/cgi-bin/mailman/listinfo.")
+>5.The Nebulas Technical Committee encourages community member to discuss with the Nebulas technical team and other community members in the Nebulas public discussion group. We also encourage our community members to join us in fixing these bugs. Welcome to [join our Nebulas maillist](https://lists.nebulas.io/cgi-bin/mailman/listinfo) for discussion.
