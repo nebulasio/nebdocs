@@ -5,8 +5,7 @@
 
 欢迎使用星云文档！
 ========================================
-
-
+  
 .. toctree::
     :maxdepth: 2
     :titlesonly:
@@ -24,7 +23,6 @@
     useful-links.md
     frequently-asked-questions.md
     licensing/README.rst
-
 
 索引表
 ==================
