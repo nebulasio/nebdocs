@@ -1,11 +1,11 @@
-Community & Ecosystem
+Community
 =====================
 
 .. toctree::
     :titlesonly:
 
 
-    nas-nano
-    ecosystem-dapps-list
-    events
-    weeklyreport
+    events.md
+    weekly-report.md
+    ama.md
+    interviews.md
