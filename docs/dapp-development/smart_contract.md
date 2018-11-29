@@ -1,4 +1,4 @@
-# Smart Contract
+# 智能合约
 
 ## Languages
 
