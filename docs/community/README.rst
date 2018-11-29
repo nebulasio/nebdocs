@@ -1,4 +1,4 @@
-Community-esecosystem
+Community
 =====================
 
 .. toctree::
