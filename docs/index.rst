@@ -19,8 +19,7 @@
     mainnet-guide/README.rst
     infrastructure/README.rst
     dapps-developing-guide/README.rst
-    community/README.rst
-    esecosystem/README.rst
+    community-esecosystem/README.rst
     useful-links.md
     frequently-asked-questions.md
     licensing/README.rst
