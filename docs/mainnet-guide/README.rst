@@ -1,4 +1,4 @@
-Mainnet Guide
+Metanet
 =============
 
 .. toctree::
