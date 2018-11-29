@@ -1,4 +1,4 @@
-# How to Join Nebulas Testnet
+# 加入星云测试网
 
 ## Introduction
 
