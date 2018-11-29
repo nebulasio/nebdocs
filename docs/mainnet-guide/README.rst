@@ -1,4 +1,4 @@
-Metanet
+Autonomous Metanet
 =============
 
 .. toctree::
