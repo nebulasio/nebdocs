@@ -1,33 +1,49 @@
-# Nebulas Nova Tech Tradeoffs(11.21.2018)
+# 星云技术委员会会议纪要-2018.11.21
 
-## Summary
-1. The process to submit IR (LLVM Intermediate Representation) and who can submit IR  (LLVM Intermediate Representation)
-2. The time window for NR & DIP
-3. How much NAS for DIP & how to distribute NAS for DIP
+随着星云新星的开发进展不断前进，为了推动星云社区进一步开放透明，让更多的开发者了解Nebulas NOVA开发进展的细节，以及让社区成员们更顺利地参与进星云生态的建设，星云技术委员会决定公开Nebulas NOVA 技术要点的会议纪要。欢迎社区成员们持续关注星云技术委员会的会议纪要披露，并通过星云公共邮件组（Mailing List）向星云团队提出更多有建设性的意见。
 
-## Detailed minutes：
-### 1. The process to submit IR and who can submit IR 
-1. Nebulas Nova will use an auth_table to decide whose IR can be executed and the lifetime of each IR.
-2. auth_table is a set of tuples, and each tuple includes IR name, submitter’s address, the valid start and end height for the submitter.
-3. Only the auth_admin’s auth_table can update in Nebulas Nova. The auth_admin account should be created by a cold wallet. Each IR should be managed by different accounts. Nebulas Technical Committee will further discuss the community governance details with the community. Before the we finalized the governance details , the Nebulas team will not recklessly open the IR submission access.The NBRE only executes several predefined IRs, like checking the auth_table, and the IRs defined in auth_table. Other IRs will not be executed
-4. However, each node may change the code. And that could be the auth_admin account, and the auth_table. Consequently, it may change the behaviors in NBRE, and the node shall fail to sync data with the main-net
+## 会议概要
 
-### 2. The time window for NR &DIP
-1. In the yellow paper introducing Nebulas Rank, we have mentioned that to avoid the affect of loop attack, we will remove the forwarding loop before we calculate the In-and-Out degree for the transaction graph, thus the time-window is important for anti-manipulation.
-2. If the time-window is too short, there may be more cheating.
-3. For now, we suggest the time window in several days.
-4. We should monitor the cheating status, and adjust the time-window if necessary.
-5. time window for DIP should be much more larger than the time window of NR, for now, we suggests 7 days
+1.在NBRE中，如何提交IR (LLVM IR) 及IR (LLVM IR) 的提交权限
 
-### 3. How much NAS for DIP & how to distribute NAS for DIP
-1. For each month, we suggest around 500 NAS in total for now, and adjust the amount subject to the DIP feedback in the future,  the winners shall be relatively stable, so a winner will get reward in several months.
-2. We will have a special account for distributing NAS for DIP. The account can only send special transactions for DIP.
+2. NR & DIP的时窗
 
-***About Nebulas Technical Committee***
+3. DIP的奖励量级和分发方式
 
-*The Nebulas Technical Committee adheres to the spirit of openness, sharing, and transparency, and is committed to promoting the decentralization, and the community of the research and development of the Nebulas technology. Blockchain technology opens up possibilities for building new and self-motivated open source communities. Nebulas’ technical concepts unclude mechanisms for evaluation, self-evolution, and self-incentives, which provide a guarantee for building a world of decentralized collaboration. The Nebulas Technical Committee will fully promote the realization of the Nebulas vision.*
+ 
 
-*Subscribe to nebulas mailing list and learn the latest progress of Nebulas: [mailing list](https://lists.nebulas.io/cgi-bin/mailman/listinfo)*
+## 详细纪要
 
-*For more info, please visit [Nebulas official website](https://www.nebulas.io/index.html).*
+1. 在NBRE中，如何提交IR (LLVM IR) 及IR (LLVM IR) 的提交权限
+
+（1）Nebulas Nova将会通过 auth_table 来决定谁可以提交IR，NBRE将执行哪些IR以及每个IR的有效时间；
+
+（2）auth_table 将由一系列的tuples组成，每个tuple将由IR名称，IR提交者的地址，IR的有效的起始和结束区块高度构成；
+
+（3）只有由auth_admin 提交的IR才会被Nebulas NOVA接受，auth_admin 的账户需要由一个冷钱包地址创建，但是每个IR可以由不同的账户来管理。星云技术委员会将会进一步与社区讨论共同治理的方案，在社区治理方案和社区沟通确定之前，星云开发团队不会将IR的提交权限轻易开放。Nebulas NOVA的NBRE将只会执行提前定义好的几组IR，如检查auth_table以及在auth_table 中定义好的IR等，其他的IR将不会被执行；
+
+（4）然而，Nebulas主网中的每个节点可以改变其节点的代码，如定义auth_admin 账户及auth_table，这样NBRE在此节点下的行为将被改变，但同时此节点今后也将不能和Nebulas 主网同步数据。
+
+2. NR&DIP的时窗
+
+（1）在黄皮书中我们提过为了保证NR的公平性，我们在统计出入度时候进行了去环处理，因此NR的时窗对抗攻击有很大的影响；
+
+（2）如果时窗太短，更容易产生作弊行为；
+
+（3）在现阶段我们认为应该将NR的时窗定在几天的量级；
+
+（4）我们会在Nebulas NOVA上线之后持续关注作弊和NR抗作弊的情况，并根据情况调整统计频率；
+
+（5）DIP的时窗应该明显大于NR的时窗，目前我们将DIP的时窗定为7天的量级。
+
+3. DIP的奖励量级和分发方式
+
+（1）DIP的奖励暂定在每月总计约500 NAS左右的量级，后续会根据情况调整增加，DIP对奖励获得者的评定方式将会相对稳定，所以一个优秀应用的开发者将每月持续的获得奖励；
+
+（2）我们将会为DIP的奖励发放构建一个特殊的账户，这个账户只能用于发放DIP的奖励。
+
+ 
+关于星云技术委员会
+
+星云技术委员会秉持着开放、共享、透明的精神，致力于推动星云链技术研发逐步去中心化、社区化。区块链技术为建设全新的、自激励的开源社区带来可能性。星云链的价值发现体系、自进化和自激励的技术理念为构建去中心化协作的世界提供了保障。星云技术委员会将全力推动星云愿景的实现。
 
