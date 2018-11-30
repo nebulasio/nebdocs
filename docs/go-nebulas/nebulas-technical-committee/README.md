@@ -8,6 +8,7 @@
 
 ## 会议记录
 
+-- [星云技术委员会会议记录-2018.11.29-明确星云主网的优化和目标](https://mp.weixin.qq.com/s/ydJqljGmNwXkIssvlq1sOw)
+
 - [星云技术委员会会议记录-2018.11.21-NR&DIP时窗，DIP的奖励及分发方式](https://mp.weixin.qq.com/s/Cl5VVgWMOBtRajOPl2Ph9Q) 
 
-- [星云技术委员会会议记录-2018.11.29-明确星云主网的优化和目标](https://mp.weixin.qq.com/s/ydJqljGmNwXkIssvlq1sOw)
