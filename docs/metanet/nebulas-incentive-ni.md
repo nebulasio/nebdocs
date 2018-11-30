@@ -1,4 +1,4 @@
-# Nebulas Incentive \(NI\)
+# 星云激励 \(NI\)
 
 Nebulas Incentive include Proof of Devotion \(PoD\) and Developer Incentive Protocol \(DIP\).
 

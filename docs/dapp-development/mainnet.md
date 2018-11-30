@@ -1,4 +1,4 @@
-# How to Join Nebulas Mainnet
+# 加入星云主网
 
 ## Introduction
 

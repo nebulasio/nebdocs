@@ -1,5 +1,5 @@
-Ecosystem
-==============
+生态
+=====================
 
 .. toctree::
     :titlesonly:
@@ -7,4 +7,3 @@ Ecosystem
 
     nas-nano.md
     ecosystem-dapps-list.md
-    README.rst
