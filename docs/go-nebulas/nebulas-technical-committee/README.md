@@ -8,6 +8,7 @@ Learn more about Nebulas Technical Committee, please [visit Nebulas website](htt
 
 ## Meeting Mins
 
+[Meeting Mins 2: Nebulas Nova Tech Tradeoffs](https://medium.com/nebulasio/ntc-s-meeting-for-optimizing-nebulas-mainnet-improving-tps-for-performance-cad299d0dcd6) Nov, 29, 2018
 [Meeting Mins 1: Nebulas Nova Tech Tradeoffs](meeting-mins/meeting-mins-1.html) Nov, 21, 2018
 
 
