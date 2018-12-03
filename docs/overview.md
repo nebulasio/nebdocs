@@ -3,13 +3,12 @@
 ## 欢迎来到星云wiki!
 
 
-Nebulas is the next-generation public blockchain, aiming for a continuously improving ecosystem. Based on its blockchain valuation mechanism, Nebulas proposes future-oriented incentive and consensus systems, and the ability to self-evolve without forking.
+星云链是致力于构建可持续升级良性生态的下一代公链，具有独创的区块链价值发现体系、前瞻性的激励和共识机制、避免硬分叉的自进化能力。
 
-Nebulas community is open and everyone can be a contributor and build a decentralized world with us.
+星云社区秉承开放的姿态，每个人可以成为贡献者，和我们一起构建去中心化协作世界。
 
-The Nebulas wiki is a collaboration tool for the community to publish various documents in a collaborative manner. Include [using guides](wiki-using-guide.html), [developing guides](dapp-development/README.html), [learning resources](dapp-development/learning-resources.html), and other useful documents. 
+星云wiki是社区的一种协作工具，社区成员可以协作发布各种文档。 
 
- 
 
 ## 使用 Wiki
 
