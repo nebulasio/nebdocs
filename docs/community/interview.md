@@ -9,4 +9,4 @@
 
 - **专访星云研究院资深研究员曾驭龙博士：[星云链，清华博士毕业后的第一份工作](https://blog.nebulas.io/2018/12/03/my-first-job-at-nebulas/)**
 
-- **专访星云研究院实习生戴小海博士：[在星云，我看到了区块链世界的美妙风景](https://mp.weixin.qq.com/s/8Cc1-gU9fOIAeoQK8MPqmw)
+- **专访星云研究院实习生戴小海博士：[在星云，我看到了区块链世界的美妙风景](https://mp.weixin.qq.com/s/8Cc1-gU9fOIAeoQK8MPqmw)**
