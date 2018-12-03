@@ -8,4 +8,4 @@
     events.md
     weekly-report.md
     ama.md
-    interviews.md
+    interview.md
