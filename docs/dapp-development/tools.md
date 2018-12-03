@@ -69,7 +69,7 @@ Users can use it in browser on both PC and mobile. Users can do NAS payment thro
 NebulasDB is a nebulas-based, decentralized, non-relational database, and provides JS-SDK, client
 - **[The console is easy to develop for data operations](https://github.com/antgan/nebulasdb-sdk)**
 - **[Nebulas-Utils is an utiliy package for Nebulas Chain Development](https://github.com/iHamburg/nebulas-utils)**
-- **[Base on Nebulas Js API, put nebulas.js and nebpay.js on one package](https://github.com/xuelabi123/nebrella)
+- **[Base on Nebulas Js API, put nebulas.js and nebpay.js on one package](https://github.com/xuelabi123/nebrella)**
 
 
 
