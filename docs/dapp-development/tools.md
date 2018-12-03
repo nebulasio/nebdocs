@@ -1,6 +1,6 @@
 # 工具
 
-All the developing tools: official dev tools and tools from the community. Welcome to build the Nebulas ecosystem together. You can recommend more tools and edit this page on Github directly.
+所有开发工具：来自社区的官方开发工具。您可以直接在Github上推荐更多工具并编辑此页面。
 
 - **[Cross-platform Nebulas smart contract IDE](https://nebide.block2100.com/)**
 
@@ -12,15 +12,16 @@ Local NVM: Mac OS, Windows, Linux
 - **[nebPay](https://github.com/nebulasio/nebPay)**
 
 Nebulas payment JavaScript API. 
-Users can use it in browser on both PC and mobile. Users can do NAS payment through Chrome extension and iOS/Android wallet with it.
+用户可以在PC和移动设备上的浏览器中使用它。 用户可以通过Chrome扩展程序和iOS / Android钱包进行NAS支付。
 
-- **[Development Environment for Nebulas](https://github.com/mirei83/NebuEnv)**
+### 开发环境安装
+- **[开发环境安装](https://github.com/mirei83/NebuEnv)**
 
-### JavaScript development tools
+### JavaScript开发工具
 - **[VS Code](https://code.visualstudio.com/)**
 - **[sublime](https://www.sublimemerge.com/download)**
 
-### DApp development framework
+### DApp开发框架
 - **[Nasa.js](https://github.com/NasaTeam/Nasa.js)**
   The acclaimed Nebulas DApp client development framework, lightweight and easy to use.
 - **[Nebulas DApp Local Development Debugging Tool](https://www.sublimemerge.com/download)**
