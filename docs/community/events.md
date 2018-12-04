@@ -26,7 +26,12 @@
 - [公链将成区块链游戏主战场，星云携手金山云提前布局](https://mp.weixin.qq.com/s/E-MYKFFpSIhOGcpi_ydoCg)
 - [星云“牵手”Egretia “领先公链+垂直领域”合作释放更多价值](https://mp.weixin.qq.com/s/GBR-AlcFMYIRJuey4KCCVg)
 - [《星云指数黄皮书》重磅发布 重塑区块链世界价值衡量体系](https://mp.weixin.qq.com/s/2qEz3YbCvbg7ZQDNMLh-XQ)
-- [星云与优达学城合作 助力区块链行业人才培养]
+- [星云与优达学城合作 助力区块链行业人才培养](https://mp.weixin.qq.com/s/SijEpSFWi8P5TA47o33q5Q)
+- [《细胞进化》获500万联合投资，区块链游戏巨大价值再获确认](https://mp.weixin.qq.com/s/WY2InEIAvxqJBxn6IPyZCw)
+- [首届“硅谷区块链周”的黑客马拉松，星云承包了！](https://mp.weixin.qq.com/s/LjU53j5ico62l7m4Nl7qOw)
+- [星云666！NAS位列工信部公链评估全球第6](https://mp.weixin.qq.com/s/-GDsCsd9tmJ4mOSahtvtTg)
+- [星云和CertiK达成战略合作 形式化安全验证为区块链保驾护航](https://mp.weixin.qq.com/s/8CS5xru_arrLg7cWFoQaOA)
+
 
 
 
