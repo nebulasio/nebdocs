@@ -26,4 +26,4 @@
 
 - **专访激励计划第二周周冠吴啸（Ling）：[手游大佬告别以太坊，转粉星云链](https://mp.weixin.qq.com/s/uXIOGda8e3YK1viS96zRpQ)**
 
-- **专访激励计划首周周冠冥王星&xuxue：[你的同龄人正开着特斯拉抛弃你，90后少年10天喜提1万NAS](https://mp.weixin.qq.com/s/cYMF_p-bj_F3pisBMbxdIw）**
+- **专访激励计划首周周冠冥王星&xuxue：[你的同龄人正开着特斯拉抛弃你，90后少年10天喜提1万NAS](https://mp.weixin.qq.com/s/cYMF_p-bj_F3pisBMbxdIw)**
