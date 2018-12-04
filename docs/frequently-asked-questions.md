@@ -30,8 +30,11 @@ TXID就是我们常说的交易ID，可以用它来查看交易的最新状况�
 虚拟机
 
 10.我如何搭建星云开发环境?
+
 [您可以使用DOCKER快速搭建开发环境](https://github.com/nebulasio/go-nebulas#docker)
+
 [如果您不会使用DOCKER，那么您可以使用星云钱包搭建（非官方教程)]( https://www.jianshu.com/p/6a296bceb816)
+
 接收地址需要填写的是星云主网钱包地址，您需要下载星云主网钱包获取星云主网钱包地址
 [下载地址](https://github.com/nebulasio/web-wallet)
 
