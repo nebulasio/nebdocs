@@ -13,4 +13,9 @@
 - *[未发放星云币锁仓地址公示](https://mp.weixin.qq.com/s/Plu2liej0aBXAXm_PoA-BA)*
 - *[合约间调用功能测试网公测悬赏通缉令！](https://mp.weixin.qq.com/s/qVsPol3yhT1fFr6TrR1Q8w)*
 - *[星云链合约间调用功能开启测试网公测](https://mp.weixin.qq.com/s/wJ9YBAMyWxVY7dT7AXZ6-w)*
-- *[]
+- *[关于团队预留星云币发放方式调整公告](https://mp.weixin.qq.com/s/Ia_PkcTUyhicEdEO6l6qSA)*
+- *[关于星云主网上DApp的免责声明](https://mp.weixin.qq.com/s/CU85S40If6ZXNl9qqzcdVA)*
+- *[月度大奖评审团名单调整公告](https://mp.weixin.qq.com/s/vnG7SzgLZPbyazGbbdyvVw)*
+- *[星云激励计划6月月度大奖评选规则公布](https://mp.weixin.qq.com/s/cVBaXi5k7mWpCma5yHKn0w)*
+- *[主网升级公告](https://mp.weixin.qq.com/s/tFd8a6KH74tTHgdk-itfRQ)*
+- *[]()*
