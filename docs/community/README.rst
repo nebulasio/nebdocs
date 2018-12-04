@@ -7,6 +7,7 @@
 
     events.md
     weekly-report.md
+    announcement.md
     ama.md
     interviews.md
     
