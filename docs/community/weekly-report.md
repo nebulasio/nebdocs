@@ -2,25 +2,11 @@
 
 You can take a quick look for all the Nebulas weekly reports here.
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 - Community Weekly Report #57 -[Nebulas Technical Committee Meeting Minutes (2018.11.21)](https://medium.com/nebulasio/nebulas-bi-weekly-community-dynamic-57-5c2bd5e55123)-11/26/2018
-=======
-=======
 - Weekly Report #58 (12/3/2018) -[Nebulas Bi-Weekly Development Commits #58](https://medium.com/@bitsclubPCTA/6319876bde9d)
->>>>>>> 71fd0bc... updated
-=======
 - Weekly Report #58 (12/3/2018) -[Nebulas Bi-Weekly Development Commits #58](https://medium.com/@bitsclubPCTA/6319876bde9d)
->>>>>>> 71fd0bc... updated
-=======
 - Weekly Report #58 (12/3/2018) -[Nebulas Bi-Weekly Development Commits #58](https://medium.com/@bitsclubPCTA/6319876bde9d)
->>>>>>> 71fd0bc... updated
-=======
 - Weekly Report #58 (12/3/2018) -[Nebulas Bi-Weekly Development Commits #58](https://medium.com/@bitsclubPCTA/6319876bde9d)
->>>>>>> 71fd0bc... updated
 - Weekly Report #57 (11/26/2018) -[Community : Nebulas Technical Committee Meeting Minutes(2018.11.21)](https://medium.com/nebulasio/nebulas-bi-weekly-community-dynamic-57-5c2bd5e55123)
 - Weekly Report #56 (11/19/2018) -[Development : NBRE Has New Development](https://medium.com/nebulasio/nebulas-bi-weekly-development-commits-56-7e460344860)
 - Weekly Report #55 (11/12/2018) -[Community : PCTA Launch Press Conference Successfully Held](https://medium.com/nebulasio/nebulas-bi-weekly-community-dynamics-55-1dd219375baf)
@@ -38,7 +24,6 @@ You can take a quick look for all the Nebulas weekly reports here.
 - Weekly Report #43 (08/20/2018) -[Community : Nebulas Inter-contract Call Function Starts Open Beta](https://medium.com/nebulasio/nebulas-weekly-updates-community-dynamics-e398478f2480)
 - Weekly Report #42 (08/13/2018) -[Announcing the Adjustment of Reserved NAS Distribution to the Nebulas Team](https://medium.com/nebulasio/nebulas-weekly-report-42-dbdd2f4868f5)
 - Weekly Report #41 (08/06/2018) -[Nebulas Founders Initiate Bitsclub Vision Program](https://medium.com/nebulasio/weekly-report-41-nebulas-founders-initiate-bitsclub-vision-program-b6781b7d8d22)
-<<<<<<< HEAD
 - Weekly Report #40 (11/19/2018) -[Nebulas Incentive Program Season 1 Recap](https://medium.com/nebulasio/nebulas-weekly-report-40-b363ff6de7be)
 - Weekly Report #39 (11/19/2018) -[Nebulas in the Top Three of MIIT’s Public Blockchain Evaluation list](https://medium.com/nebulasio/nebulas-weekly-report-39-5179cd127ec9)
 - Weekly Report #38 (11/19/2018) -[The 50 Monthly Super Contributors Were Announced](https://medium.com/nebulasio/nebulas-weekly-report-38-8b5b504ba843)
@@ -80,8 +65,6 @@ You can take a quick look for all the Nebulas weekly reports here.
 - Weekly Report #02 (11/19/2018) -[]()
 - Weekly Report #01 (11/19/2018) -[]()
 - Weekly Report #57 -[]()
->>>>>>> 236b273... Update weekly-report.md
-=======
 - Weekly Report #40 (07/31/2018) -[Nebulas Incentive Program Season 1 Recap](https://medium.com/nebulasio/nebulas-weekly-report-40-b363ff6de7be)
 - Weekly Report #39 (07/24/2018) -[Nebulas in the Top Three of MIIT’s Public Blockchain Evaluation list](https://medium.com/nebulasio/nebulas-weekly-report-39-5179cd127ec9)
 - Weekly Report #38 (07/17/2018) -[The 50 Monthly Super Contributors Were Announced](https://medium.com/nebulasio/nebulas-weekly-report-38-8b5b504ba843)
@@ -122,4 +105,3 @@ You can take a quick look for all the Nebulas weekly reports here.
 - Weekly Report #03 (11/6/2017) -[Developing v0.3.0 and improving the Go-nebulas](https://medium.com/nebulasio/nebulas-weekly-report-3-772c2f5ca328)
 - Weekly Report #02 (10/30/2017) -[Singapore Fintech Festival](https://medium.com/nebulasio/nebulas-weekly-report-2-oct-30th-2017-3aaba19e4303)
 - Weekly Report #01 (10/16/2017) -[Welcome to the #1 of Nebulas Weekly Report](https://medium.com/nebulasio/nebulas-weekly-report-1-oct-16th-2017-2d227914e80c)
->>>>>>> 8e1be9a... Update weekly-report.md
