@@ -6,9 +6,7 @@ Desde Junho de 2017, foram organizadas reuniões e hackathons da Nebulas em 17 c
 
 São bem vindos a organizarem reuniões locais e a participar na história da Nebulas!
 
-<<<<<<< HEAD
 ![Comunidade da Nebulas](https://nebulas.io/assets/images/community/events.jpg)
-=======
 ![Nebulas Community](https://nebulas.io/assets/images/community/events.jpg)
 
 ## Dynamics
