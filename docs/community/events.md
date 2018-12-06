@@ -1,4 +1,6 @@
 # 动态
+
+- [星云公布自治元网络路线图，2019将实现链上原生激励](https://mp.weixin.qq.com/s/0Usd_V4hiJzk2-IymByLwg)
 - [Nebulas NOVA研发，这些国内外顶级院校前来助阵](https://mp.weixin.qq.com/s/LJ7edynrMvbE5aZuNcX19w)
 - [星云链正式入驻币安“金标计划”](https://mp.weixin.qq.com/s/k32R-pcCVGmmcuRsnxi9iQ)
 - [星云链参与“公有链技术联盟”话题讨论获得超万人关注](https://blog.nebulas.io/2018/11/22/the-discussion-of-the-nebulas-participating-in-the-topic-of-public-chain-technology-alliance-has-attracted-more-than-10000-people/)
