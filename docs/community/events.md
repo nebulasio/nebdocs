@@ -1,15 +1,6 @@
-# Events
-
-Since June 2017, the Nebulas meetups and hackathons have been held in 17 cities, 8 countries around the world. We have visited the University of California, Berkeley, the New York University, Columbia University, Harvard University, the Singapore University of Social Sciences, Tsinghua University, Tongji University, and many others.
-
-[Events History >](https://medium.com/nebulasio/nebulas-events-7a8674690d77)
-
-You are welcome to organize local meetups and participate in the history of Nebulas!
-
-![Nebulas Community](https://nebulas.io/assets/images/community/events.jpg)
-
-## Dynamics
-- Nebulas Collaborates with Key Universities at Home and Abroad - [Sharing the Nebulas Wisdom](https://medium.com/nebulasio/sharing-the-nebulas-wisdom-d8658c38502d)
+# Dynamics
+- [Behold: The Age of Nebulas NOVA is Upon Us!](https://medium.com/nebulasio/behold-the-age-of-nebulas-nova-is-upon-us-2d425661425b)
+- [Nebulas Collaborates with Key Universities at Home and Abroad - Sharing the Nebulas Wisdom](https://medium.com/nebulasio/sharing-the-nebulas-wisdom-d8658c38502d)
 - [Public Chain Technology — the future of blockchain?](https://medium.com/nebulasio/public-chain-technology-the-future-of-blockchain-997a0a5fc5f9)
 - [Exploring the Public Chain Technology Alliance — Blockchain’s bridge from concept to creation!](https://medium.com/nebulasio/exploring-the-public-chain-technology-alliance-blockchains-bridge-from-concept-to-creation-2614fd86800)
 - [To Introduce 100 Million Incremental Users to the Blockchain World](https://medium.com/nebulasio/set-a-small-goal-first-to-introduce-100-million-incremental-users-to-the-blockchain-world-f6bb6114dfed)
@@ -65,3 +56,14 @@ You are welcome to organize local meetups and participate in the history of Nebu
 - [Decentralization is the Essence of Blockchain](https://medium.com/nebulasio/decentralization-is-the-essence-of-blockchain-ccc9e7ba839c)
 - [Crypto bubble 2018: Things we can do before it bursts](https://medium.com/nebulasio/crypto-bubble-2018-things-we-can-do-before-it-bursts-3a0d86fcd117)
 - [Nebulas Partners with GIFTO to Organize Blockchain Virtual Gifts for 30 Million Users](https://medium.com/nebulasio/nebulas-partners-with-gifto-to-organize-blockchain-virtual-gifts-for-30-million-users-645ecb02b546)
+
+
+# Events
+
+Since June 2017, the Nebulas meetups and hackathons have been held in 17 cities, 8 countries around the world. We have visited the University of California, Berkeley, the New York University, Columbia University, Harvard University, the Singapore University of Social Sciences, Tsinghua University, Tongji University, and many others.
+
+[Events History >](https://medium.com/nebulasio/nebulas-events-7a8674690d77)
+
+You are welcome to organize local meetups and participate in the history of Nebulas!
+
+![Nebulas Community](https://nebulas.io/assets/images/community/events.jpg)
