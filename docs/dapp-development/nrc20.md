@@ -108,7 +108,7 @@ MUST trigger when tokens are transferred, including zero value transfers.
 A token contract which creates new tokens SHOULD trigger a Transfer event with the `from` address set to `totalSupply` when tokens are created.
 
 ```javascript
-function transferEvent: function(status, from, to, value)
+function_transferEvent: function(status, from, to, value)
 ```
 
 #### approveEvent
@@ -116,7 +116,7 @@ function transferEvent: function(status, from, to, value)
 MUST trigger on any call to `approve(spender, currentValue, value)`.
 
 ```javascript
-function approveEvent: function(status, from, spender, value)
+function_approveEvent: function(status, from, spender, value)
 ```
 
 ## Implementation
