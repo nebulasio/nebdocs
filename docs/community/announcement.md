@@ -1,5 +1,6 @@
 # 公告
 
+- *[星云wiki悬赏计划](https://mp.weixin.qq.com/s/w5D5JOTy3YlTIeCFajXqTg)*(2018-12-7)
 - *[星云测试网维护通告](https://mp.weixin.qq.com/s/XK0WyZFYHvtoqttDWgaqQg)*(2018-12-5)
 - *[星云漏洞悬赏计划正式升级](https://mp.weixin.qq.com/s/MqrhfTiggklBx83KwzuXhg)*(2018-11-27)
 - *[ATP智能空投申领开启通告](https://mp.weixin.qq.com/s/3AdjQa7G_1dVTY-XUoFgaA)*(2018-10-17)
