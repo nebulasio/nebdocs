@@ -2,8 +2,8 @@
 
 You can take a quick look for all the Nebulas weekly reports here.
 
-- Weekly Report #59 (12/10/2018) -[Nebulas Bi-Weekly Community Dynamics #59-The Roadmap of Autonomous Metanet was Officially Released](https://medium.com/nebulasio/nebulas-bi-weekly-community-dynamics-59-f580bdc554e2)
-- Weekly Report #58 (12/3/2018) -[Nebulas Bi-Weekly Development Commits #58](https://medium.com/@bitsclubPCTA/6319876bde9d)
+- Weekly Report #59 (12/10/2018) -[Community ：The Roadmap of Autonomous Metanet was Officially Released](https://medium.com/nebulasio/nebulas-bi-weekly-community-dynamics-59-f580bdc554e2)
+- Weekly Report #58 (12/03/2018) -[Development ：Community can now submit their NRC 20 project to NAS nano](https://medium.com/@bitsclubPCTA/6319876bde9d)
 - Weekly Report #57 (11/26/2018) -[Community : Nebulas Technical Committee Meeting Minutes(2018.11.21)](https://medium.com/nebulasio/nebulas-bi-weekly-community-dynamic-57-5c2bd5e55123)
 - Weekly Report #56 (11/19/2018) -[Development : NBRE Has New Development](https://medium.com/nebulasio/nebulas-bi-weekly-development-commits-56-7e460344860)
 - Weekly Report #55 (11/12/2018) -[Community : PCTA Launch Press Conference Successfully Held](https://medium.com/nebulasio/nebulas-bi-weekly-community-dynamics-55-1dd219375baf)
