@@ -1,4 +1,5 @@
 # Dynamics
+- (12/11/2018) - [Nebulers’ Thoughts on the Future of Blockchain](https://medium.com/nebulasio/in-blockchain-we-trust-ade18da5c34b)
 - (12/06/2018) - [Behold: The Age of Nebulas NOVA is Upon Us!](https://medium.com/nebulasio/behold-the-age-of-nebulas-nova-is-upon-us-2d425661425b)
 - (11/28/2018) - [Nebulas Collaborates with Key Universities at Home and Abroad - Sharing the Nebulas Wisdom](https://medium.com/nebulasio/sharing-the-nebulas-wisdom-d8658c38502d)
 - (11/22/2018) - [Public Chain Technology — the future of blockchain?](https://medium.com/nebulasio/public-chain-technology-the-future-of-blockchain-997a0a5fc5f9)
