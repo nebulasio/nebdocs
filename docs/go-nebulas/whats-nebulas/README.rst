@@ -68,6 +68,6 @@ our Non-technical White Paper
 White Paper
 (`English <https://nebulas.io/docs/NebulasTechnicalWhitepaper.pdf>`__).
 
-Thank you.
+Thank you!
 
 .. |image0| image:: https://cdn-images-1.medium.com/max/1600/1*8YETuI_IvyjXvlvnzbBWnw.png
