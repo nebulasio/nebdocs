@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Events
 
 Desde Junho de 2017, foram organizadas reuniões e hackathons da Nebulas em 17 cidades, 8 países à volta do mundo. Visitámos a Universidade da California, Berkeley, a Universidade de Nova Iorque, a Universidade Columbia, a Universidade Harvard, a Universidade de Ciências Sociais da Singapura, a Universidade de Tsinghua, a Universidade de Tongji, e muitas mais.
@@ -12,9 +11,6 @@ São bem vindos a organizarem reuniões locais e a participar na história da Ne
 
 ## Dynamics
 - Nebulas Collaborates with Key Universities at Home and Abroad - [Sharing the Nebulas Wisdom](https://medium.com/nebulasio/sharing-the-nebulas-wisdom-d8658c38502d)
-<<<<<<< HEAD
->>>>>>> 1c85797... Update dynamics under Events
-=======
 - [Public Chain Technology — the future of blockchain?](https://medium.com/nebulasio/public-chain-technology-the-future-of-blockchain-997a0a5fc5f9)
 - [Exploring the Public Chain Technology Alliance — Blockchain’s bridge from concept to creation!](https://medium.com/nebulasio/exploring-the-public-chain-technology-alliance-blockchains-bridge-from-concept-to-creation-2614fd86800)
 - [To Introduce 100 Million Incremental Users to the Blockchain World](https://medium.com/nebulasio/set-a-small-goal-first-to-introduce-100-million-incremental-users-to-the-blockchain-world-f6bb6114dfed)
@@ -53,8 +49,6 @@ São bem vindos a organizarem reuniões locais e a participar na história da Ne
 - [Nebulas and Udacity partner to create the Global Blockchain Talent Scholarship](https://medium.com/nebulasio/nebulas-and-udacity-partner-to-create-the-global-blockchain-talent-scholarship-1ac652ec16f9)
 - [Nebulas mainnet transaction volume exceeds Ethereum, reaching nearly 700,000 for the first time](https://medium.com/nebulasio/nebulas-mainnet-transaction-volume-exceeds-ethereum-reaching-nearly-700-000-for-the-first-time-6128bda020b8)
 - [Cell Evolution raises 5 million RMB at more than $4.5 million USD valuation](https://medium.com/nebulasio/cell-evolution-raises-5-million-rmb-at-more-than-4-5-million-usd-valuation-1f034ba963ee)
->>>>>>> 56ca698... update events
-=======
 # Dynamics
 - (12/06/2018) - [Behold: The Age of Nebulas NOVA is Upon Us!](https://medium.com/nebulasio/behold-the-age-of-nebulas-nova-is-upon-us-2d425661425b)
 - (11/28/2018) - [Nebulas Collaborates with Key Universities at Home and Abroad - Sharing the Nebulas Wisdom](https://medium.com/nebulasio/sharing-the-nebulas-wisdom-d8658c38502d)
@@ -124,4 +118,3 @@ Since June 2017, the Nebulas meetups and hackathons have been held in 17 cities,
 You are welcome to organize local meetups and participate in the history of Nebulas!
 
 ![Nebulas Community](https://nebulas.io/assets/images/community/events.jpg)
->>>>>>> a728e75... article dates
