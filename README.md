@@ -31,7 +31,7 @@ The directory structure of the document is defined in the README.rst file in the
 2. To facilitate document management, the document structure of different branches is as consistent as possible with the main branch;
 3. Each language is allowed to have its own temporary version. It is recommended to add the suffix version number to the version name, for example, en1.0, zh-CN1.1;
 
-## How to build this project?
+## How to build
 1. clone the project from github, next command refers to the master branch:
 
 ```bash
@@ -50,7 +50,7 @@ cd nebdocs
 make html
 ```
 
-## How to add a new document?
+## How to add a new document
 ### If you need to add a file
 1. Add the file to the appropriate directory;
 2. Locate the README.rst file in the directory where the file is located (the project root directory is index.rst file), open the file, and add the newly added file name to the file list after the 'toctree' keyword. E.g:
@@ -100,7 +100,7 @@ The contents of the folder/README.rst file should be:
     newDirectory/README.rst
 ```
 
-## How to add a new language version?
+## How to add a new language version
 
 1. Create a new branch, for the chinese version, for instance:
 ```bash
@@ -134,5 +134,3 @@ git push -f
 ```
 
 5. Notify the manager to add a new language version to the readthedocs' online documentation.
-
-
