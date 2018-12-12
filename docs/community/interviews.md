@@ -1,6 +1,9 @@
 # Nebulas Interviews
 ## Interviews with Nebulas Team
-- Interview with Nebulas Team - [Nebulers' Thoughts on the Future of Blockchain](https://medium.com/nebulasio/in-blockchain-we-trust-ade18da5c34b)
+- Interview with Nebulas Team Series 1 - Nebulers' Thoughts on the Future of Blockchain
+[![](https://blog.nebulas.io/wp-content/uploads/2018/12/hitters-%E6%80%9D%E8%80%83-960x540.jpg)](https://youtu.be/PNycEpiOBkE)
+
+
 ## Interviews with Members of Nebulas Research Institute
 - Interview with the leader of Nebulas Research Institute Dr. Xuepeng Fan - [Take the Lead to Set Up Nebulas Research Institute](https://medium.com/nebulasio/take-the-lead-to-set-up-nebulas-research-institute-658073d64ee3)
 - Interview with Nebulas Mainnet Development Lead Dr. Congming Chen - [Let Nebulas Fly Higher and Farther!](https://medium.com/nebulasio/nebulas-researcher-dr-congming-chen-let-nebulas-fly-higher-and-farther-ea67c31954)
