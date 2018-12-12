@@ -1,13 +1,9 @@
 # Wiki Using Guide
 
+## How to edit on Wiki page
+[Nebulas Wiki User Guide](https://medium.com/nebulasio/nebulas-wiki-user-guide-5418715c6988)
 
-There will be three parts:
-
-## How to use this wiki
-
-TBA
-
-## Editing pages on Github
+## Edit Language
 
 You should use reST to edit .rst file, and Pandoc Markdown to edit .md file. 
 
