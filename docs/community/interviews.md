@@ -27,3 +27,8 @@
 - **专访激励计划第二周周冠吴啸（Ling）：[手游大佬告别以太坊，转粉星云链](https://mp.weixin.qq.com/s/uXIOGda8e3YK1viS96zRpQ)**
 
 - **专访激励计划首周周冠冥王星&xuxue：[你的同龄人正开着特斯拉抛弃你，90后少年10天喜提1万NAS](https://mp.weixin.qq.com/s/cYMF_p-bj_F3pisBMbxdIw)**
+
+## 星云团队专访视频
+
+### 星云团队人物访谈系列视频第一弹- 星云人眼中的真实区块链
+[![](https://blog.nebulas.io/wp-content/uploads/2018/12/hitters-%E6%80%9D%E8%80%83-960x540.jpg)](https://youtu.be/PNycEpiOBkE)
