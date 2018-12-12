@@ -56,11 +56,11 @@ https://www.mdeditor.com/
 ![](https://blog.nebulas.io/wp-content/uploads/2018/12/p13-1200x466.jpg)
 
 
-嗯，还没完。还需要点击“creat pull request”,提交推送请求。
+嗯，还没完。还需要点击“create pull request”,提交推送请求。
 ![](https://blog.nebulas.io/wp-content/uploads/2018/12/p15-1200x551.jpg)
 
 
-最后再确认一下，再次点击“creat pull request”。
+最后再确认一下，再次点击“create pull request”。
 ![](https://blog.nebulas.io/wp-content/uploads/2018/12/P17-1200x723.jpg)
 
 
