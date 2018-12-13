@@ -8,7 +8,7 @@
 
 ## 如何参与Wiki维护：
 首先你得有个[GitHub账号](https://github.com/)。注册流程非常简单，1分钟内即可搞定。
-![](https://blog.nebulas.io/wp-content/uploads/2018/12/P1-1200x611.jpg)
+![](https://blog.nebulas.io/wp-content/uploads/2018/12/%E6%9B%BF%E6%8D%A21-1200x642.jpg)
 ![](https://blog.nebulas.io/wp-content/uploads/2018/12/P6-1200x579.jpg)
 
 
