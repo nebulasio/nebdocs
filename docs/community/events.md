@@ -1,5 +1,5 @@
 # 动态
-
+- [星云指数查询功能上线，你的NR值一查就知道！](https://mp.weixin.qq.com/s/VxIuZBVy8HL0WY_qds5A8Q)
 - [星云访问学者张金波博士参与度小满金融区块链白皮书撰写](https://mp.weixin.qq.com/s/S0O8gydwokBmoaUDXESIEA)
 - [星云公布自治元网络路线图，2019将实现链上原生激励](https://mp.weixin.qq.com/s/0Usd_V4hiJzk2-IymByLwg)
 - [Nebulas NOVA研发，这些国内外顶级院校前来助阵](https://mp.weixin.qq.com/s/LJ7edynrMvbE5aZuNcX19w)
