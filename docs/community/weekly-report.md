@@ -1,5 +1,6 @@
 # 星云周报
-
+- 星云周报-第60期(18/12/3-12/16)-[星云周报第60期：链上NR算法的开发已完成](https://blog.nebulas.io/2018/12/17/nebulas-bi-weekly-development-commits-60/)
+- 星云周报-第59期(18/11/26-12/9)-[星云周报第59期：星云官网公布“自治元网络”路线图](https://blog.nebulas.io/2018/12/10/nebulas-bi-weekly-community-dynamics-59/)
 - 星云周报-第58期(18/11/19-12/2)-[技术双周报:NAS nano 接受社区NRC20项目](https://blog.nebulas.io/2018/12/03/nebulas-bi-weekly-development-commits-58/)
 - 星云周报-第57期(18/11/12-25)-[社区双周报:星云技术委员会公开会议纪要](https://blog.nebulas.io/2018/11/26/nebulas-bi-weekly-community-dynamics-57/)
 - 星云周报-第56期(11/5-11/18)-[技术双周报:完成了星云区块链可执行环境（NBRE）的开发](https://blog.nebulas.io/2018/11/19/nebulas-bi-weekly-development-commits-update-56/)
