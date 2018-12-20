@@ -2,6 +2,7 @@
 
 You can take a quick look for all the Nebulas weekly reports here.
 
+- Weekly Report #60 (12/17/2018) -[Development: The implementation and integration testing of the on-chain NR algorithm have been completed](https://medium.com/nebulasio/nebulas-bi-weekly-development-commits-60-62557de76f08)
 - Weekly Report #59 (12/10/2018) -[Community ：The Roadmap of Autonomous Metanet was Officially Released](https://medium.com/nebulasio/nebulas-bi-weekly-community-dynamics-59-f580bdc554e2)
 - Weekly Report #58 (12/03/2018) -[Development ：Community can now submit their NRC 20 project to NAS nano](https://medium.com/@bitsclubPCTA/6319876bde9d)
 - Weekly Report #57 (11/26/2018) -[Community : Nebulas Technical Committee Meeting Minutes(2018.11.21)](https://medium.com/nebulasio/nebulas-bi-weekly-community-dynamic-57-5c2bd5e55123)
