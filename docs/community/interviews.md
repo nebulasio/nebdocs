@@ -1,6 +1,14 @@
+<<<<<<< HEAD
 # Entrevistas da Nebulas
 ## Entrevistas com a Equipa da Nebulas
 - Entrevista com a Equipa da Nebulas, Série 1 - Opiniões de Nebulers sobre o Futuro da Blockchain
+=======
+# Nebulas Interviews
+## Interviews with Nebulas Team
+- Interview with Nebulas Team Series 2 - Why Join Nebulas
+[![](https://cdn-images-1.medium.com/max/1200/1*exJ9m-BQqd28sTDhJYRkxQ.png)](https://youtu.be/xYRFGSDVFyA)
+- Interview with Nebulas Team Series 1 - Nebulers' Thoughts on the Future of Blockchain
+>>>>>>> 08feeb1... update interview
 [![](https://blog.nebulas.io/wp-content/uploads/2018/12/hitters-%E6%80%9D%E8%80%83-960x540.jpg)](https://youtu.be/PNycEpiOBkE)
 
 ## Entrevistas com Membros do Instituto de Investigação da Nebulas
