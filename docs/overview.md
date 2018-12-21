@@ -18,7 +18,7 @@ The Nebulas wiki is a collaboration tool for the community to publish various do
 
 #### [Dapps](dapp-development/README.html)
 
-#### [Ecosystem](community-ecosystem/README.html)
+#### [Ecosystem](ecosystem/README.html)
 
 #### [Get Involved](how-to-contribute.html)
 

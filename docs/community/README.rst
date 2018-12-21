@@ -6,6 +6,7 @@ Community
 
 
     events.md
+    announcement.md
     weekly-report.md
     ama.md
     interviews.md
