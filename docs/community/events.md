@@ -1,4 +1,5 @@
 # Dynamics
+
 - (12/20/2018) - [Let’s Check Your Core Nebulas Rank!](https://medium.com/nebulasio/lets-check-your-core-nebulas-rank-8ede72783e1c)
 - (12/11/2018) - [Nebulers’ Thoughts on the Future of Blockchain](https://medium.com/nebulasio/in-blockchain-we-trust-ade18da5c34b)
 - (12/06/2018) - [Behold: The Age of Nebulas NOVA is Upon Us!](https://medium.com/nebulasio/behold-the-age-of-nebulas-nova-is-upon-us-2d425661425b)
@@ -60,6 +61,7 @@
 - (01/18/2018) - [Nebulas Partners with GIFTO to Organize Blockchain Virtual Gifts for 30 Million Users](https://medium.com/nebulasio/nebulas-partners-with-gifto-to-organize-blockchain-virtual-gifts-for-30-million-users-645ecb02b546)
 
 
+
 # Events
 
 Since June 2017, the Nebulas meetups and hackathons have been held in 17 cities, 8 countries around the world. We have visited the University of California, Berkeley, the New York University, Columbia University, Harvard University, the Singapore University of Social Sciences, Tsinghua University, Tongji University, and many others.
@@ -69,3 +71,4 @@ Since June 2017, the Nebulas meetups and hackathons have been held in 17 cities,
 You are welcome to organize local meetups and participate in the history of Nebulas!
 
 ![Nebulas Community](https://nebulas.io/assets/images/community/events.jpg)
+
