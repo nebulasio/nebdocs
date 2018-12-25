@@ -32,3 +32,6 @@
 
 ### 星云团队人物访谈系列视频第一弹 - 星云人眼中的真实区块链
 [![](https://blog.nebulas.io/wp-content/uploads/2018/12/hitters-%E6%80%9D%E8%80%83-960x540.jpg)](https://v.youku.com/v_show/id_XMzk1ODE2MTY4MA==.html?spm=a2h3j.8428770.3416059.1)
+### 星云团队人物访谈系列视频第二弹 - 我为什么加入星云
+[![](https://blog.nebulas.io/wp-content/uploads/2018/12/%E8%81%AA%E6%98%8E-960x540.png)]
+(https://v.youku.com/v_show/id_XMzk2ODcxMzcxNg==.html?spm=a2hzp.8244740.0.0)
