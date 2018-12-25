@@ -1,4 +1,5 @@
 # 星云周报
+- 星云周报-第60期(18/12/10-12/23)-[星云周报第61期：开发者激励协议加入火币DApp开发课程内容](https://blog.nebulas.io/2018/12/24/nebulas-bi-weekly-community-dynamics-61/)
 - 星云周报-第60期(18/12/3-12/16)-[星云周报第60期：链上NR算法的开发已完成](https://blog.nebulas.io/2018/12/17/nebulas-bi-weekly-development-commits-60/)
 - 星云周报-第59期(18/11/26-12/9)-[星云周报第59期：星云官网公布“自治元网络”路线图](https://blog.nebulas.io/2018/12/10/nebulas-bi-weekly-community-dynamics-59/)
 - 星云周报-第58期(18/11/19-12/2)-[技术双周报:NAS nano 接受社区NRC20项目](https://blog.nebulas.io/2018/12/03/nebulas-bi-weekly-development-commits-58/)
