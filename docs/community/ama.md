@@ -11,5 +11,6 @@
 
 ## 公有链技术联盟Reddit AMA
 - [BCH分叉，公链技术联盟的大佬们怎么看？](https://www.huoxing24.com/newsdetail/20181127115458380113.html)
+- [行业大牛如何看待公链在2018年从爆发到寒冬？](https://www.huoxing24.com/newsdetail/20181224114531788805.html)
 
 
