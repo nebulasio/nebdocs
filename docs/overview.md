@@ -1,14 +1,10 @@
 # Overview
 
-{% hint style="info" %}
-Este guia está a ser constantemente actualizado. Convidamo-lo a editá-lo e a ajudar os utilizadores e desenvolvedores do ecossistema da Nebulas.
-{% endhint %}
-
 ## Bem vindo(a) à Wiki Open-Source da Nebulas!
 
-**Nebulas** é uma blockchain pública de próxima geração, e visa criar um ecossistema de melhoria contínua. Com base no seu mecanismos de avaliação, a Nebulas propõe incentivos orientados para o futuro, sistemas de consenso, e a habilidade de auto-evolução sem biforcação.
+Nebulas é uma blockchain pública de próxima geração, e visa criar um ecossistema de melhoria contínua. Com base no seu mecanismos de avaliação, a Nebulas propõe incentivos orientados para o futuro, sistemas de consenso, e a habilidade de auto-evolução sem biforcação.
 
-Esta documentação foi criada por fans da Nebulas e está dividida. Convidamos toda a gente a ajudar.
+Esta documentação foi criada por fans da Nebulas. Convidamos toda a gente a ajudar.
 
 #### Introdução
 
