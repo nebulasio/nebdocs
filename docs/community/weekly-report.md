@@ -1,17 +1,8 @@
-Weekly Report
+eport
 
 You can take a quick look at all the Nebulas weekly reports here.
 
-- Community Weekly Report #57 -[Nebulas Technical Committee Meeting Minutes (2018.11.21)](https://medium.com/nebulasio/nebulas-bi-weekly-community-dynamic-57-5c2bd5e55123)-11/26/2018
-- Weekly Report #58 (12/3/2018) -[Nebulas Bi-Weekly Development Commits #58](https://medium.com/@bitsclubPCTA/6319876bde9d)
-- Weekly Report #58 (12/3/2018) -[Nebulas Bi-Weekly Development Commits #58](https://medium.com/@bitsclubPCTA/6319876bde9d)
-- Weekly Report #58 (12/3/2018) -[Nebulas Bi-Weekly Development Commits #58](https://medium.com/@bitsclubPCTA/6319876bde9d)
-- Weekly Report #59 (12/10/2018) -[Nebulas Bi-Weekly Community Dynamics #59-The Roadmap of Autonomous Metanet was Officially Released](https://medium.com/nebulasio/nebulas-bi-weekly-community-dynamics-59-f580bdc554e2)
-- Weekly Report #58 (12/3/2018) -[Nebulas Bi-Weekly Development Commits #58](https://medium.com/@bitsclubPCTA/6319876bde9d)
-- Weekly Report #60 (12/17/2018) -[Development: The implementation and integration testing of the on-chain NR algorithm have been completed](https://medium.com/nebulasio/nebulas-bi-weekly-development-commits-60-62557de76f08)
-=======
 - Weekly Report #62 (12/31/2018) -[Development : We finished all developments of Nebulas Nova features](https://medium.com/nebulasio/nebulas-bi-weekly-development-commits-62-dbd919193806)
->>>>>>> 42292d0... Update weekly-report.md
 - Weekly Report #61 (12/24/2018) -[Community : Interview with Nebulas Team Series](https://medium.com/nebulasio/nebulas-bi-weekly-community-dynamics-61-e209af7a1ef2)
 - Weekly Report #60 (12/17/2018) -[Development : The implementation and integration testing of the on-chain NR algorithm have been completed](https://medium.com/nebulasio/nebulas-bi-weekly-development-commits-60-62557de76f08)
 - Weekly Report #59 (12/10/2018) -[Community ：The Roadmap of Autonomous Metanet was Officially Released](https://medium.com/nebulasio/nebulas-bi-weekly-community-dynamics-59-f580bdc554e2)
@@ -33,17 +24,6 @@ You can take a quick look at all the Nebulas weekly reports here.
 - Weekly Report #43 (08/20/2018) -[Community : Nebulas Inter-contract Call Function Starts Open Beta](https://medium.com/nebulasio/nebulas-weekly-updates-community-dynamics-e398478f2480)
 - Weekly Report #42 (08/13/2018) -[Announcing the Adjustment of Reserved NAS Distribution to the Nebulas Team](https://medium.com/nebulasio/nebulas-weekly-report-42-dbdd2f4868f5)
 - Weekly Report #41 (08/06/2018) -[Nebulas Founders Initiate Bitsclub Vision Program](https://medium.com/nebulasio/weekly-report-41-nebulas-founders-initiate-bitsclub-vision-program-b6781b7d8d22)
-- Weekly Report #40 (11/19/2018) -[Nebulas Incentive Program Season 1 Recap](https://medium.com/nebulasio/nebulas-weekly-report-40-b363ff6de7be)
-- Weekly Report #39 (11/19/2018) -[Nebulas in the Top Three of MIIT’s Public Blockchain Evaluation list](https://medium.com/nebulasio/nebulas-weekly-report-39-5179cd127ec9)
-- Weekly Report #38 (11/19/2018) -[The 50 Monthly Super Contributors Were Announced](https://medium.com/nebulasio/nebulas-weekly-report-38-8b5b504ba843)
-- Weekly Report #37 (11/19/2018) -[Official Interpretation of the Nebulas Rank Yellow Paper](https://medium.com/nebulasio/nebulas-weekly-report-37-b4d3af075f35)
-- Weekly Report #36 (11/19/2018) -[The “Nebulas Rank” Yellow Paper is now public](https://medium.com/nebulasio/nebulas-weekly-report-36-dd5d032cf5bb)
-- Weekly Report #35 (11/19/2018) -[Nebulas participates in the Silicon Valley Blockchain Week hackathon](https://medium.com/nebulasio/nebulas-weekly-report-35-e777842bc617)
-- Weekly Report #34 (11/19/2018) -[Dapp built on Nebulas wins Beijing hackathon](https://medium.com/nebulasio/nebulas-weekly-report-34-strengthened-partnership-with-certik-and-nebulas-included-in-miits-d4d0491f4e54)
-- Weekly Report #33 (11/19/2018) -[NIP gets upgraded with Super Contributors](https://medium.com/nebulasio/nebulas-weekly-report-33-2ef8898c4287)
-- Weekly Report #32 (11/19/2018) -[NAS Nano update features a built-in Dapp Store](https://medium.com/nebulasio/nebulas-weekly-report-31-742f70b25f63)
-- Weekly Report #31 (11/19/2018) -[NAS Nano, the official Nebulas mobile wallet, launches on Android and iOS](https://medium.com/nebulasio/nebulas-weekly-report-31-5562228fdb5f)
-- Weekly Report #30 (11/19/2018) -[the winners for Week 1 of NIP and awarded nearly $350,000 USD in NAS](https://medium.com/nebulasio/nebulas-weekly-report-30-11eb2c0955ec)
 - Weekly Report #40 (07/31/2018) -[Nebulas Incentive Program Season 1 Recap](https://medium.com/nebulasio/nebulas-weekly-report-40-b363ff6de7be)
 - Weekly Report #39 (07/24/2018) -[Nebulas in the Top Three of MIIT’s Public Blockchain Evaluation list](https://medium.com/nebulasio/nebulas-weekly-report-39-5179cd127ec9)
 - Weekly Report #38 (07/17/2018) -[The 50 Monthly Super Contributors Were Announced](https://medium.com/nebulasio/nebulas-weekly-report-38-8b5b504ba843)

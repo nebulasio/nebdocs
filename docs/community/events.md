@@ -1,22 +1,18 @@
 # Eventos
 Desde Junho de 2017, foram organizadas reuniões e hackathons da Nebulas em 17 cidades, 8 países à volta do mundo. Visitámos a Universidade da California, Berkeley, a Universidade de Nova Iorque, a Universidade Columbia, a Universidade Harvard, a Universidade de Ciências Sociais da Singapura, a Universidade de Tsinghua, a Universidade de Tongji, e muitas mais.
 
-<<<<<<< HEAD
 [Historial de Eventos >](https://medium.com/nebulasio/nebulas-events-7a8674690d77)
 
 São bem vindos a organizarem reuniões locais e a participar na história da Nebulas!
 
 ![Comunidade da Nebulas](https://nebulas.io/assets/images/community/events.jpg)
-![Nebulas Community](https://nebulas.io/assets/images/community/events.jpg)
 
 ## Dynamics
-=======
 - (12/31/2018) - [Nebulas NOVA Testnet Released, Public Beta Testing Begins!](https://medium.com/nebulasio/nebulas-nova-testnet-released-public-beta-testing-begins-c50869636d9b)
 - (12/29/2018) - [The Nebulas That I’m Looking Forward to](https://medium.com/nebulasio/the-nebulas-that-im-looking-forward-to-4ce3b05c177d)
 - (12/27/2018) - [NAS nano has been upgraded to NAS nano pro](https://medium.com/nebulasio/nas-nano-has-been-upgraded-to-nas-nano-pro-ec9a2115eede)
 - (12/22/2018) - [The Inspiration Behind the Nebulas NOVA Design](https://medium.com/nebulasio/the-inspiration-behind-the-nebulas-nova-design-5f8e327486e8)
 - (12/21/2018) - [Why Join Nebulas](https://medium.com/nebulasio/why-join-nebulas-eeda9a8c397c)
->>>>>>> f3a1401... Update events.md
 - (12/20/2018) - [Let’s Check Your Core Nebulas Rank!](https://medium.com/nebulasio/lets-check-your-core-nebulas-rank-8ede72783e1c)
 - (12/11/2018) - [Nebulers’ Thoughts on the Future of Blockchain](https://medium.com/nebulasio/in-blockchain-we-trust-ade18da5c34b)
 - (12/06/2018) - [Behold: The Age of Nebulas NOVA is Upon Us!](https://medium.com/nebulasio/behold-the-age-of-nebulas-nova-is-upon-us-2d425661425b)
