@@ -2,6 +2,7 @@ Weekly Report
 
 You can take a quick look at all the Nebulas weekly reports here.
 
+<<<<<<< HEAD
 - Community Weekly Report #57 -[Nebulas Technical Committee Meeting Minutes (2018.11.21)](https://medium.com/nebulasio/nebulas-bi-weekly-community-dynamic-57-5c2bd5e55123)-11/26/2018
 - Weekly Report #58 (12/3/2018) -[Nebulas Bi-Weekly Development Commits #58](https://medium.com/@bitsclubPCTA/6319876bde9d)
 - Weekly Report #58 (12/3/2018) -[Nebulas Bi-Weekly Development Commits #58](https://medium.com/@bitsclubPCTA/6319876bde9d)
@@ -9,6 +10,9 @@ You can take a quick look at all the Nebulas weekly reports here.
 - Weekly Report #59 (12/10/2018) -[Nebulas Bi-Weekly Community Dynamics #59-The Roadmap of Autonomous Metanet was Officially Released](https://medium.com/nebulasio/nebulas-bi-weekly-community-dynamics-59-f580bdc554e2)
 - Weekly Report #58 (12/3/2018) -[Nebulas Bi-Weekly Development Commits #58](https://medium.com/@bitsclubPCTA/6319876bde9d)
 - Weekly Report #60 (12/17/2018) -[Development: The implementation and integration testing of the on-chain NR algorithm have been completed](https://medium.com/nebulasio/nebulas-bi-weekly-development-commits-60-62557de76f08)
+=======
+- Weekly Report #62 (12/31/2018) -[Development : We finished all developments of Nebulas Nova features](https://medium.com/nebulasio/nebulas-bi-weekly-development-commits-62-dbd919193806)
+>>>>>>> 42292d0... Update weekly-report.md
 - Weekly Report #61 (12/24/2018) -[Community : Interview with Nebulas Team Series](https://medium.com/nebulasio/nebulas-bi-weekly-community-dynamics-61-e209af7a1ef2)
 - Weekly Report #60 (12/17/2018) -[Development : The implementation and integration testing of the on-chain NR algorithm have been completed](https://medium.com/nebulasio/nebulas-bi-weekly-development-commits-60-62557de76f08)
 - Weekly Report #59 (12/10/2018) -[Community ：The Roadmap of Autonomous Metanet was Officially Released](https://medium.com/nebulasio/nebulas-bi-weekly-community-dynamics-59-f580bdc554e2)
