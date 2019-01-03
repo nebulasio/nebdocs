@@ -1,4 +1,5 @@
 # 动态
+- [Nebulas NOVA核心功能解读 （上）](https://mp.weixin.qq.com/s/fi9vmovtrq3k-d8TDxMgMA)
 - [Nebulas NOVA 正式发布，上线测试网公测！](https://mp.weixin.qq.com/s/VfRzXNIktyJTOzJ-D7h1Bw)
 - [NAS nano pro发布，请iOS用户重新下载并导入钱包](https://mp.weixin.qq.com/s/WGGrvX833A38dudhe6RUKQ)
 - [星云指数查询功能上线，你的NR值一查就知道！](https://mp.weixin.qq.com/s/VxIuZBVy8HL0WY_qds5A8Q)
