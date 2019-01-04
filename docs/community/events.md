@@ -1,4 +1,5 @@
 # 动态
+- [【视频】9.2万行代码的Nebulas NOVA，你了解多少？](https://mp.weixin.qq.com/s/UP7zhVev2aK0eUk85xa3AQ)
 - [Nebulas NOVA核心功能解读 （上）](https://mp.weixin.qq.com/s/fi9vmovtrq3k-d8TDxMgMA)
 - [Nebulas NOVA 正式发布，上线测试网公测！](https://mp.weixin.qq.com/s/VfRzXNIktyJTOzJ-D7h1Bw)
 - [NAS nano pro发布，请iOS用户重新下载并导入钱包](https://mp.weixin.qq.com/s/WGGrvX833A38dudhe6RUKQ)
