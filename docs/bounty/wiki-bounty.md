@@ -1,4 +1,4 @@
-# Bug Bounty
+# Wiki Bounty
 
 ## Nebulas Bug Bounty Program
 
