@@ -1,5 +1,7 @@
 # Dynamics
 
+- (01/04/2018) - [How well do you know Nebulas NOVA?](https://medium.com/nebulasio/about-nebulas-nova-how-well-do-you-know-ca0418181c1b)
+- (01/03/2018) - [Understanding Nebulas NOVA (Part 1)](https://medium.com/nebulasio/understanding-nebulas-nova-part-1-c0e2dc831da1)
 - (12/31/2018) - [Nebulas NOVA Testnet Released, Public Beta Testing Begins!](https://medium.com/nebulasio/nebulas-nova-testnet-released-public-beta-testing-begins-c50869636d9b)
 - (12/29/2018) - [The Nebulas That I’m Looking Forward to](https://medium.com/nebulasio/the-nebulas-that-im-looking-forward-to-4ce3b05c177d)
 - (12/27/2018) - [NAS nano has been upgraded to NAS nano pro](https://medium.com/nebulasio/nas-nano-has-been-upgraded-to-nas-nano-pro-ec9a2115eede)
