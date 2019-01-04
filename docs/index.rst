@@ -14,7 +14,7 @@ Nebulas Wiki
 
     overview.md
     how-to-contribute.md
-    bug-bounty.md
+    bounty/README.rst
     wiki-using-guide.md
     metanet/README.rst
     go-nebulas/README.rst
