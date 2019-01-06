@@ -1,6 +1,6 @@
 # Tools
 
-All the developing tools: official dev tools and tools from the community. Welcome to build the Nebulas ecosystem together. You can recommend more tools and edit this page on Github directly.
+All the developing tools: official dev tools and tools from the community. We welcome you to join us and build the Nebulas ecosystem together. You can recommend more tools and edit this page on Github directly.
 
 
 - **[Cross-platform Nebulas smart contract IDE](https://nebide.block2100.com/)**
@@ -13,7 +13,7 @@ Local NVM: Mac OS, Windows, Linux
 - **[nebPay](https://github.com/nebulasio/nebPay)**
 
 Nebulas payment JavaScript API. 
-Users can use it in browser on both PC and mobile. Users can do NAS payment through Chrome extension and iOS/Android wallet with it.
+Users can use it in browser on both PC and mobile. Users can make NAS payments through the Chrome extension and the iOS/Android wallet.
 
 - **[Development Environment for Nebulas](https://github.com/mirei83/NebuEnv)**
 
@@ -60,10 +60,10 @@ Users can use it in browser on both PC and mobile. Users can do NAS payment thro
 - **[NebTest will automate unit testing of nebulas smart contracts](https://github.com/Ideas2IT/nebtest)**
 
 ### other
-NebulasDB is a nebulas-based, decentralized, non-relational database, and provides JS-SDK, client
-- **[The console is easy to develop for data operations](https://github.com/antgan/nebulasdb-sdk)**
+NebulasDB is a nebulas-based, decentralized, non-relational database, and provides a JS-SDK client
+- **[The console is easy to use to develop for data operations](https://github.com/antgan/nebulasdb-sdk)**
 - **[Nebulas-Utils is an utiliy package for Nebulas Chain Development](https://github.com/iHamburg/nebulas-utils)**
-- **[Base on Nebulas Js API, put nebulas.js and nebpay.js on one package](https://github.com/xuelabi123/nebrella)**
+- **[Based on Nebulas JS API; puts nebulas.js and nebpay.js in one package](https://github.com/xuelabi123/nebrella)**
 
 
 
