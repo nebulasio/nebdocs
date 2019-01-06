@@ -1,8 +1,6 @@
 # Ferramentas
 
-Todas as ferramentas para desenvolvimento da Nebulas. TBA
-All the developing tools: official dev tools and tools from the community. Welcome to build the Nebulas ecosystem together. You can recommend more tools and edit this page on Github directly.
-
+Todas as ferramentas para desenvolvimento da Nebulas, da comunidade e desenvolvedores.
 
 - **[Cross-platform Nebulas smart contract IDE](https://nebide.block2100.com/)**
 
@@ -13,8 +11,8 @@ Local NVM: Mac OS, Windows, Linux
 
 - **[nebPay](https://github.com/nebulasio/nebPay)**
 
-Nebulas payment JavaScript API. 
-Users can use it in browser on both PC and mobile. Users can do NAS payment through Chrome extension and iOS/Android wallet with it.
+API JavaScript de pagamentos da Nebulas.
+Utilizadores podem utilizá-lo no explorador, no PC e em móvel. Podem fazer pagamentos NAS através da extensão do Chrome e das carteiras de iOS e Android.
 
 - **[Development Environment for Nebulas](https://github.com/mirei83/NebuEnv)**
 
@@ -55,13 +53,13 @@ Users can use it in browser on both PC and mobile. Users can do NAS payment thro
 - **[Nebulas javascript/typescript smart contract static check tool](https://github.com/zoowii/nebstaticcheck)**
 
 ### Command line tool
-- **[A CLI Tool for Nebulas](https://github.com/5sWind/nebCli)**
+- **[Ferramenta CLI para a Nebulas](https://github.com/5sWind/nebCli)**
 
 ### test tools
-- **[NebTest will automate unit testing of nebulas smart contracts](https://github.com/Ideas2IT/nebtest)**
+- **[NebTest visa fazer a automatização e teste unitário de smart contracts da Nebulas](https://github.com/Ideas2IT/nebtest)**
 
 ### other
-NebulasDB is a nebulas-based, decentralized, non-relational database, and provides JS-SDK, client
-- **[The console is easy to develop for data operations](https://github.com/antgan/nebulasdb-sdk)**
-- **[Nebulas-Utils is an utiliy package for Nebulas Chain Development](https://github.com/iHamburg/nebulas-utils)**
-- **[Base on Nebulas Js API, put nebulas.js and nebpay.js on one package](https://github.com/xuelabi123/nebrella)**
+NebulasDB é uma base de dados baseada na Nebulas, descentralizada, nao-relacional, e fornece um cliente JS-SDK
+- **[A consola é de fácil desenvolvimento para operações em dados](https://github.com/antgan/nebulasdb-sdk)**
+- **[Nebulas-Utils é um pacote para desenvolvimento da Chain da Nebulas](https://github.com/iHamburg/nebulas-utils)**
+- **[Com base no API JS da Nebulas, põe nebulas.js e o nebpay.js num só pacote](https://github.com/xuelabi123/nebrella)**
