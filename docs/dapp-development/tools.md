@@ -1,8 +1,6 @@
 # Ferramentas
 
-<<<<<<< HEAD
 Todas as ferramentas para desenvolvimento da Nebulas. TBA
-=======
 All the developing tools: official dev tools and tools from the community. Welcome to build the Nebulas ecosystem together. You can recommend more tools and edit this page on Github directly.
 
 
@@ -19,9 +17,6 @@ Nebulas payment JavaScript API.
 Users can use it in browser on both PC and mobile. Users can do NAS payment through Chrome extension and iOS/Android wallet with it.
 
 - **[Development Environment for Nebulas](https://github.com/mirei83/NebuEnv)**
-<<<<<<< HEAD
->>>>>>> 854dd3f... update tools
-=======
 
 ### JavaScript development tools
 - **[VS Code](https://code.visualstudio.com/)**
@@ -70,9 +65,3 @@ NebulasDB is a nebulas-based, decentralized, non-relational database, and provid
 - **[The console is easy to develop for data operations](https://github.com/antgan/nebulasdb-sdk)**
 - **[Nebulas-Utils is an utiliy package for Nebulas Chain Development](https://github.com/iHamburg/nebulas-utils)**
 - **[Base on Nebulas Js API, put nebulas.js and nebpay.js on one package](https://github.com/xuelabi123/nebrella)**
-
-
-
-
-
->>>>>>> e47f604... update  tools
