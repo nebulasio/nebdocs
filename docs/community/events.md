@@ -1,4 +1,8 @@
 # 动态
+
+- [新版星云区块链浏览器上线官网！](https://mp.weixin.qq.com/s/UesMT26ZJO-AFCOu7Kr4Xw)
+- [有奖问答 | 星云新星测试网开发者激励活动答疑](https://mp.weixin.qq.com/s/Er15ODZfNN-hdkXqvofxeg)
+- [星云新星测试网开发者激励（DIP）活动规则](https://mp.weixin.qq.com/s/NKP6DPGorRdfHhnxib8RaA)
 - [【视频】9.2万行代码的Nebulas NOVA，你了解多少？](https://mp.weixin.qq.com/s/UP7zhVev2aK0eUk85xa3AQ)
 - [Nebulas NOVA核心功能解读 （上）](https://mp.weixin.qq.com/s/fi9vmovtrq3k-d8TDxMgMA)
 - [Nebulas NOVA 正式发布，上线测试网公测！](https://mp.weixin.qq.com/s/VfRzXNIktyJTOzJ-D7h1Bw)
