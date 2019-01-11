@@ -1,4 +1,5 @@
 # Eventos
+
 Desde Junho de 2017, foram organizadas reuniões e hackathons da Nebulas em 17 cidades, 8 países à volta do mundo. Visitámos a Universidade da California, Berkeley, a Universidade de Nova Iorque, a Universidade Columbia, a Universidade Harvard, a Universidade de Ciências Sociais da Singapura, a Universidade de Tsinghua, a Universidade de Tongji, e muitas mais.
 
 [Historial de Eventos >](https://medium.com/nebulasio/nebulas-events-7a8674690d77)
@@ -7,7 +8,8 @@ São bem vindos a organizarem reuniões locais e a participar na história da Ne
 
 ![Comunidade da Nebulas](https://nebulas.io/assets/images/community/events.jpg)
 
-## Dynamics
+# Dynamics
+
 - (01/11/2019) - [Understanding Nebulas NOVA (Part 2)](https://medium.com/nebulasio/understanding-nebulas-nova-part-2-884d77959f75)
 - (01/11/2019) - [Nebulas New Explorer Goes Live](https://medium.com/nebulasio/nebulas-new-explorer-goes-live-fb30b27fc590)
 - (01/10/2019) - [AMA on Nebulas NOVA Developer Incentive Program](https://medium.com/nebulasio/ama-on-nebulas-nova-developer-incentive-program-8b7aabef0a0e)
