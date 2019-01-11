@@ -1,5 +1,6 @@
 # 动态
 
+- [有了星云NBRE，公链主网或可无缝升级](https://mp.weixin.qq.com/s/xjTA_yi-vAAVYwB-W9ZIvg)
 - [新版星云区块链浏览器上线官网！](https://mp.weixin.qq.com/s/UesMT26ZJO-AFCOu7Kr4Xw)
 - [有奖问答 | 星云新星测试网开发者激励活动答疑](https://mp.weixin.qq.com/s/Er15ODZfNN-hdkXqvofxeg)
 - [星云新星测试网开发者激励（DIP）活动规则](https://mp.weixin.qq.com/s/NKP6DPGorRdfHhnxib8RaA)
