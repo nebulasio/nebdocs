@@ -1,5 +1,10 @@
 # Dynamics
 
+- (01/11/2018) - [Understanding Nebulas NOVA (Part 2)](https://medium.com/nebulasio/understanding-nebulas-nova-part-2-884d77959f75)
+- (01/11/2018) - [Nebulas New Explorer Goes Live](https://medium.com/nebulasio/nebulas-new-explorer-goes-live-fb30b27fc590)
+- (01/10/2018) - [AMA on Nebulas NOVA Developer Incentive Program](https://medium.com/nebulasio/ama-on-nebulas-nova-developer-incentive-program-8b7aabef0a0e)
+- (01/09/2018) - [Nebulas Testnet Developer Incentive Program Event Guide](https://medium.com/nebulasio/nebulas-testnet-developer-incentive-program-dip-event-guide-26a0d69ec76d)
+- (01/05/2018) - [Nebulas 2018; the year in review!](https://medium.com/nebulasio/nebulas-2018-the-year-in-review-917df986bda7)
 - (01/04/2018) - [How well do you know Nebulas NOVA?](https://medium.com/nebulasio/about-nebulas-nova-how-well-do-you-know-ca0418181c1b)
 - (01/03/2018) - [Understanding Nebulas NOVA (Part 1)](https://medium.com/nebulasio/understanding-nebulas-nova-part-1-c0e2dc831da1)
 - (12/31/2018) - [Nebulas NOVA Testnet Released, Public Beta Testing Begins!](https://medium.com/nebulasio/nebulas-nova-testnet-released-public-beta-testing-begins-c50869636d9b)
