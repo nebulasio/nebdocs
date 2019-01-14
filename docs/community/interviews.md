@@ -1,10 +1,15 @@
 # Nebulas Interviews
 ## Interviews with Nebulas Team
+- Interview with Nebulas Team Series 3 - The Nebulas That I’m Looking Forward to
+[![](https://cdn-images-1.medium.com/max/640/1*MUcRYdZWaNOjroaykw5VYA.jpeg)](https://www.youtube.com/watch?time_continue=4&v=OzyP-gaveCA)
 - Interview with Nebulas Team Series 2 - Why Join Nebulas
 [![](https://cdn-images-1.medium.com/max/1200/1*exJ9m-BQqd28sTDhJYRkxQ.png)](https://youtu.be/xYRFGSDVFyA)
 - Interview with Nebulas Team Series 1 - Nebulers' Thoughts on the Future of Blockchain
 [![](https://blog.nebulas.io/wp-content/uploads/2018/12/hitters-%E6%80%9D%E8%80%83-960x540.jpg)](https://youtu.be/PNycEpiOBkE)
 
+## 6 Minutes Learning Nebuals NOVA with 92k Lines of Codes
+Nebulas team just released the Nebulas NOVA on testnet. We invited the Nebulas Chief Architect, PhD. Chen, to introduce Nebulas NOVA Github code for community. You can go to Nebulas Github to check out the code and find bugs, you have chance to get NAS reward. And also welcome to participate in Nebulas Bounty program. 
+[![](https://cdn-images-1.medium.com/max/640/1*i1327on2KON9vMEFMHNrPQ.jpeg)](https://www.youtube.com/watch?v=lT0yKkNdO48)
 
 ## Interviews with Members of Nebulas Research Institute
 - Interview with the leader of Nebulas Research Institute Dr. Xuepeng Fan - [Take the Lead to Set Up Nebulas Research Institute](https://medium.com/nebulasio/take-the-lead-to-set-up-nebulas-research-institute-658073d64ee3)
