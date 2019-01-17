@@ -1,5 +1,6 @@
 # 动态
 
+- [公布啦！首期星云Wiki悬赏计划获奖名单](https://mp.weixin.qq.com/s/DQcoNKzOtSocJ8XatyuD_w)
 - [有了星云NBRE，公链主网或可无缝升级](https://mp.weixin.qq.com/s/xjTA_yi-vAAVYwB-W9ZIvg)
 - [新版星云区块链浏览器上线官网！](https://mp.weixin.qq.com/s/UesMT26ZJO-AFCOu7Kr4Xw)
 - [有奖问答 | 星云新星测试网开发者激励活动答疑](https://mp.weixin.qq.com/s/Er15ODZfNN-hdkXqvofxeg)
