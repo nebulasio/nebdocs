@@ -116,7 +116,7 @@ html_context = {
     "display_github": True, # Integrate GitHub
     "github_user": "nebulasio", # Username
     "github_repo": "nebdocs", # Repo name
-    "github_version": "master", # Version
+    "github_version": "es", # Version
     "conf_py_path": "/", # Path in the checkout to the docs root
 }
 
