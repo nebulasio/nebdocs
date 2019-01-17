@@ -25,6 +25,7 @@ This project supports documents in the following two formats:
 The directory structure of the document is defined in the README.rst file in the same directory.
 
 ## Language version and branch rules:
+
 1. The multi-language version is managed separately by different branches. The currently supported languages are as follows:
 - master: English version;
 - zh-CN: Simplified Chinese version;
