@@ -6,7 +6,7 @@ Nebulas community is open and everyone can be a contributor and build a decentra
 
 The Nebulas wiki is a collaboration tool for the community to publish various documents in a collaborative manner. Include using guides, developing guides, learning resources, and other useful documents. 
 
-The mainnet development part of this Nebulas Wiki was based on [https://github.com/nebulasio/wiki](https://github.com/nebulasio/wiki)("the wiki"). 
+The mainnet development part of this Nebulas Wiki was based on ["the wiki"](https://github.com/nebulasio/wiki). 
 
 
 # How to Contribute
@@ -30,6 +30,9 @@ The directory structure of the document is defined in the README.rst file in the
 1. The multi-language version is managed separately by different branches. The currently supported languages are as follows:
 - master: English version;
 - zh-CN: Simplified Chinese version;
+- pt-PT: Portuguese version;
+- es-ES: Spanish version;
+- ko-KR: Korean version.
 2. To facilitate document management, the document structure of different branches is as consistent as possible with the main branch;
 3. Each language is allowed to have its own temporary version. It is recommended to add the suffix version number to the version name, for example, en1.0, zh-CN1.1;
 
