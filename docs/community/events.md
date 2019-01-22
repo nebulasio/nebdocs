@@ -1,5 +1,6 @@
 # Dynamics
 
+- (01/22/2019) - [Nebulas NOVA Testnet Developer Incentive Program Launches Today](https://medium.com/nebulasio/nebulas-nova-testnet-developer-incentive-program-launches-today-59bbb58db940)
 - (01/17/2019) - [The First Winners of Nebulas Wiki Bounty Program](https://medium.com/nebulasio/the-first-winners-of-nebulas-wiki-bounty-program-f6e1806aeb1)
 - (01/11/2019) - [Understanding Nebulas NOVA (Part 2)](https://medium.com/nebulasio/understanding-nebulas-nova-part-2-884d77959f75)
 - (01/11/2019) - [Nebulas New Explorer Goes Live](https://medium.com/nebulasio/nebulas-new-explorer-goes-live-fb30b27fc590)
