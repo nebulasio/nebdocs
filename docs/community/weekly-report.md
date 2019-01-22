@@ -1,6 +1,7 @@
 # 星云周报
 
-- 星云周报-第63期(1/1-1/13)-[星云周报第64期：Nebulas NOVA测试网运行良好](https://blog.nebulas.io/2019/01/14/nebulas-bi-weekly-development-commits-64/)
+- 星云周报-第65期(1/7-1/20)-[星云周报第65期：来测试网部署智能合约，DIP星云币奖励提前拿](https://blog.nebulas.io/2019/01/21/nebulas-bi-weekly-community-dynamics-65/)
+- 星云周报-第64期(1/1-1/13)-[星云周报第64期：Nebulas NOVA测试网运行良好](https://blog.nebulas.io/2019/01/14/nebulas-bi-weekly-development-commits-64/)
 - 星云周报-第63期(2018/12/24-2019/01/06)-[星云周报第63期: Nebulas NOVA发布，已在测试网进行公测](https://blog.nebulas.io/2019/01/07/nebulas-bi-weekly-community-dynamics-63/)
 - 星云周报-第62期(12/17-12/31)-[星云周报第62期：Nebulas NOVA的全部功能均开发完成](https://blog.nebulas.io/2018/12/31/nebulas-bi-weekly-development-commits-62/)
 - 星云周报-第61期(12/10-12/23)-[社区双周报:开发者激励协议加入火币DApp开发课程内容](https://blog.nebulas.io/2018/12/24/nebulas-bi-weekly-community-dynamics-61/)
