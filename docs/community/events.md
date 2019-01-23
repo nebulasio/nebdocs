@@ -1,5 +1,6 @@
 # 动态
 
+- [来星云社区论坛，一不小心中了5NAS!](https://blog.nebulas.io/2019/01/22/winners-of-nebulas-nova-developer-incentive-program-ama/)
 - [公布啦！首期星云Wiki悬赏计划获奖名单](https://mp.weixin.qq.com/s/DQcoNKzOtSocJ8XatyuD_w)
 - [有了星云NBRE，公链主网或可无缝升级](https://mp.weixin.qq.com/s/xjTA_yi-vAAVYwB-W9ZIvg)
 - [新版星云区块链浏览器上线官网！](https://mp.weixin.qq.com/s/UesMT26ZJO-AFCOu7Kr4Xw)
