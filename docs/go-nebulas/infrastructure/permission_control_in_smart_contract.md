@@ -45,10 +45,10 @@ In your smart contract, if you needed to specify other permission control, for e
 'use strict';
 var Mixin = function () {};
 Mixin.UNPAYABLE = function () {
-   if (Blockchain.transaction.value.gt(0)) {
-       return false;
+   if (Blockchain.transaction.value.lt(0)) {
+       return true;
    }
-   return true;
+   return false;
 };
 Mixin.PAYABLE = function () {
    if (Blockchain.transaction.value.gt(0)) {
@@ -116,7 +116,7 @@ Explanation:
 Mixin.UNPAYABLE,Mixin.PAYABLE,Mixin.POSITIVE ,Mixin.UNPOSITIVE are permission control function。The permission control function is as follows:
 
 * Mixin.UNPAYABLE:  check the transaction sent value, if value is less than 0 return true, otherwise return false
-* Mixin.UNPAYABLE : check the transaction sent value, if value is greater than 0 return true, otherwise return false
+* Mixin.PAYABLE : check the transaction sent value, if value is greater than 0 return true, otherwise return false
 * Mixin.UNPOSITIVE ：output log UNPOSITIVE
 * Mixin.POSITIVE ：output log POSITIVE
 
