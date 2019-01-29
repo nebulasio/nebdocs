@@ -1,4 +1,5 @@
 # 动态
+- [Nebulas NOVA测试网开发者激励活动首周单日最高交易量达3万笔](https://blog.nebulas.io/2019/01/29/week-1-winners-of-nebulas-nova-testnet-developer-incentive-program/)
 - [星云新星测试网开发者激励今日启动！](https://blog.nebulas.io/2019/01/21/nebuals-testnet-developer-incentive-program-launches-today/)
 - [来星云社区论坛，一不小心中了5NAS!](https://blog.nebulas.io/2019/01/22/winners-of-nebulas-nova-developer-incentive-program-ama/)
 - [公布啦！首期星云Wiki悬赏计划获奖名单](https://mp.weixin.qq.com/s/DQcoNKzOtSocJ8XatyuD_w)
