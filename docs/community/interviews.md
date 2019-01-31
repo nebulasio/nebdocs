@@ -11,6 +11,10 @@
 Nebulas team just released the Nebulas NOVA on testnet. We invited the Nebulas Chief Architect, PhD. Chen, to introduce Nebulas NOVA Github code for community. You can go to Nebulas Github to check out the code and find bugs, you have chance to get NAS reward. And also welcome to participate in Nebulas Bounty program. 
 [![](https://cdn-images-1.medium.com/max/640/1*i1327on2KON9vMEFMHNrPQ.jpeg)](https://www.youtube.com/watch?v=lT0yKkNdO48)
 
+## Nebulas NOVA, To Discover Data Value In the Blockchain World
+- [Nebulas NOVA, To Discover Data Value In the Blockchain World](https://medium.com/nebulasio/nebulas-nova-to-discover-data-value-in-the-blockchain-world-83bbb5cde05c)
+[![](https://cdn-images-1.medium.com/max/800/1*T8j5ROOUJCb5Kv1FA7LJKA.jpeg)(https://www.youtube.com/watch?v=jLIYkG35Ljo)
+
 ## Interviews with Members of Nebulas Research Institute
 - Interview with the leader of Nebulas Research Institute Dr. Xuepeng Fan - [Take the Lead to Set Up Nebulas Research Institute](https://medium.com/nebulasio/take-the-lead-to-set-up-nebulas-research-institute-658073d64ee3)
 - Interview with Nebulas Mainnet Development Lead Dr. Congming Chen - [Let Nebulas Fly Higher and Farther!](https://medium.com/nebulasio/nebulas-researcher-dr-congming-chen-let-nebulas-fly-higher-and-farther-ea67c31954)
