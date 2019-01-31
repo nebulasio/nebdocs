@@ -1,5 +1,6 @@
 # Dynamics
 
+- (01/31/2019) - [Nebulas Had A Fruitful Trip to Korea!](https://medium.com/nebulasio/nebulas-had-a-fruitful-trip-to-korea-aa293a4aa179)
 - (01/29/2019) - [Week 1 Winners of Nebulas NOVA Testnet Developer Incentive Program](https://medium.com/nebulasio/week-1-winners-of-nebulas-nova-testnet-developer-incentive-program-f854518aeafa)
 - (01/23/2019) - [Game of Chains 2019: An Interview with Dr. Chen of Nebulas](https://medium.com/nebulasio/game-of-chains-2019-an-interview-with-dr-chen-of-nebulas-b836336c66e1)
 - (01/23/2019) - [Winners of Nebulas NOVA Developer Incentive Program AMA](https://medium.com/nebulasio/winners-of-nebulas-nova-developer-incentive-program-ama-c745b5ea7ce5)
