@@ -1,4 +1,5 @@
 # 动态
+- [Nebulas NOVA邀请您进行视频通话](https://blog.nebulas.io/2019/01/30/nebulas-nova-invites-you-to-make-a-video-call/)
 - [Nebulas NOVA测试网开发者激励活动首周单日最高交易量达3万笔](https://blog.nebulas.io/2019/01/29/week-1-winners-of-nebulas-nova-testnet-developer-incentive-program/)
 - [星云新星测试网开发者激励今日启动！](https://blog.nebulas.io/2019/01/21/nebuals-testnet-developer-incentive-program-launches-today/)
 - [来星云社区论坛，一不小心中了5NAS!](https://blog.nebulas.io/2019/01/22/winners-of-nebulas-nova-developer-incentive-program-ama/)
