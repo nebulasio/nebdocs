@@ -1,9 +1,15 @@
 # Entrevistas da Nebulas
 ## Entrevistas com a Equipa da Nebulas
+- Entrevista com a Equipa da Nebulas, Série 3 - A Nebulas Pela Qual Estou Ansioso
+[![](https://cdn-images-1.medium.com/max/640/1*MUcRYdZWaNOjroaykw5VYA.jpeg)](https://www.youtube.com/watch?time_continue=4&v=OzyP-gaveCA)
 - Entrevista com a Equipa da Nebulas, Série 2 - Porquê Colaborar com a Nebulas
 [![](https://cdn-images-1.medium.com/max/1200/1*exJ9m-BQqd28sTDhJYRkxQ.png)](https://youtu.be/xYRFGSDVFyA)
 - Entrevista com a Equipa da Nebulas, Série 1 - Opiniões de Nebulers Sobre o Futuro da Blockchain
 [![](https://blog.nebulas.io/wp-content/uploads/2018/12/hitters-%E6%80%9D%E8%80%83-960x540.jpg)](https://youtu.be/PNycEpiOBkE)
+
+## Nebulas NOVA, Para Descobrir o Valor dos Dados no Mundo da Blockchain
+- [Nebulas NOVA, Para Descobrir o Valor dos Dados no Mundo da Blockchain](https://medium.com/nebulasio/nebulas-nova-to-discover-data-value-in-the-blockchain-world-83bbb5cde05c)
+[![](https://cdn-images-1.medium.com/max/800/1*T8j5ROOUJCb5Kv1FA7LJKA.jpeg)(https://www.youtube.com/watch?v=jLIYkG35Ljo)
 
 ## Entrevistas com Membros do Instituto de Investigação da Nebulas
 - Entrevista com o Líder do Instituto de Investigação da Nebulas, o Dr. Xuepeng Fan - [Tomar as Rédeas para a Criação do Instituto de Investigação da Nebulas](https://medium.com/nebulasio/take-the-lead-to-set-up-nebulas-research-institute-658073d64ee3)
