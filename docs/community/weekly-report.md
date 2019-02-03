@@ -2,11 +2,26 @@
 
 You can take a quick look for all the Nebulas weekly reports here.
 
+- Weekly Report #64 (01/15/2019) -[Development : Deployed Nebulas Nova on the testnet](https://medium.com/nebulasio/nebulas-bi-weekly-development-commits-64-ff633d06833a)
+- Weekly Report #63 (01/08/2019) -[Community : Nebulas NOVA testnet released, public testing begin!](https://medium.com/nebulasio/nebulas-bi-weekly-community-dynamics-63-63938b990745)
+- Weekly Report #62 (12/31/2018) -[Development : Released new version of NAS wallet, NAS nano pro](https://medium.com/nebulasio/nebulas-bi-weekly-development-commits-62-dbd919193806)
+- Weekly Report #61 (12/25/2018) -[Development : Nebulas Wiki User Guide Was Released](https://medium.com/nebulasio/nebulas-bi-weekly-community-dynamics-61-e209af7a1ef2)
+- Weekly Report #60 (12/18/2018) -[Development : Finished the implementation and integration testing of the on-chain NR algorithm](https://medium.com/nebulasio/nebulas-bi-weekly-development-commits-60-62557de76f08)
+- Weekly Report #59 (12/11/2018) -[Community: Nebulas Wiki Bounty Program](https://medium.com/nebulasio/nebulas-bi-weekly-community-dynamics-59-f580bdc554e2)
+- Weekly Report #58 (12/04/2018) -[Development : Integration testing of NBRE](https://medium.com/nebulasio/nebulas-bi-weekly-development-commits-58-9a9988b5e330)
+- Weekly Report #57 (11/27/2018) -[Community : Nebulas Technical Committee Meeting Minutes (2018.11.21)](https://medium.com/nebulasio/nebulas-bi-weekly-community-dynamic-57-5c2bd5e55123)
+- Weekly Report #56 (11/20/2018) -[Development : Nebulas Blockchain Runtime Environment (NBRE)](https://medium.com/nebulasio/nebulas-bi-weekly-development-commits-56-7e460344860)
 - Weekly Report #55 (11/12/2018) -[Community : PCTA Launch Press Conference Successfully Held](https://medium.com/nebulasio/nebulas-bi-weekly-community-dynamics-55-1dd219375baf)
 - Weekly Report #54 (11/05/2018) -[Development : Adding ATP Transfer Support](https://medium.com/nebulasio/nebulas-bi-weekly-development-commits-update-54-402bf9f34f2f)
 - Weekly Report #53 (10/29/2018) -[Community : Nebulas Joined PCTA As One of Its First Partners](https://medium.com/nebulasio/nebulas-bi-weekly-community-dynamics-53-3b6fb628e472)
 - Weekly Report #52 (10/22/2018) -[Development : Improving Some Functionalities of NBRE](https://medium.com/nebulasio/nebulas-bi-weekly-development-commits-update-52-bbea4b1e3fc2)
-- s-bi-weekly-community-dynamics-45-d41536ed183c)
+- Weekly Report #51 (10/16/2018) -[Community : NAS token swap via NAS nano (v2.2.0) has ended](https://medium.com/nebulasio/nebulas-bi-weekly-community-dynamics-51-8b6681d6e4da)
+- Weekly Report #50 (10/09/2018) -[Development : Nebulas Blockchain Runtime Environment（NBRE）](https://medium.com/nebulasio/nebulas-bi-weekly-development-commits-update-50-262e9661c9da)
+- Weekly Report #49 (10/02/2018) -[Community : ATP Smartdrop by Nebulas and Atlas Protocol is Coming Soon](https://medium.com/nebulasio/nebulas-bi-weekly-community-dynamics-49-5245f26d998e)
+- Weekly Report #48 (09/25/2018) -[Development : Nebulas Blockchain Runtime Environment（NBRE)](https://medium.com/nebulasio/nebulas-bi-weekly-development-commits-update-48-e57a9951fa55)]
+- Weekly Report #47 (09/17/2018) -[Community : Nebulas Team Announcing the Establishment of Nebulas Technical Committee（NTC)](https://medium.com/nebulasio/nebulas-bi-weekly-community-dynamics-47-75f14a9164aa)
+- Weekly Report #46 (09/11/2018) -[Development : Nebulas Rank Has Been Realized and Open Sourced](https://medium.com/nebulasio/nebulas-bi-weekly-development-commits-update-46-14ecfde311ae)
+- Weekly Report #45 (09/04/2018) -[Community : Atlas Protocol (ATP) Raises Million Seed-round Investment](https://medium.com/nebulasio/nebulas-bi-weekly-community-dynamics-45-d41536ed183c)
 - Weekly Report #44 (08/27/2018) -[Development : NAS nano is Back to Apple Store Again](https://medium.com/nebulasio/nebulas-bi-weekly-development-commits-update-44-eae480493bc3)
 - Weekly Report #43 (08/20/2018) -[Community : Nebulas Inter-contract Call Function Starts Open Beta](https://medium.com/nebulasio/nebulas-weekly-updates-community-dynamics-e398478f2480)
 - Weekly Report #42 (08/13/2018) -[Announcing the Adjustment of Reserved NAS Distribution to the Nebulas Team](https://medium.com/nebulasio/nebulas-weekly-report-42-dbdd2f4868f5)
