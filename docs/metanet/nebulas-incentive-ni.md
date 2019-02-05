@@ -1,3 +1,7 @@
+**¡Atención!** Este artículo está en traducción. Es posible que encuentres lagunas de contenido o bien secciones y subsecciones en otro idioma.
+
+-----------------------
+
 # Nebulas Incentive \(NI\)
 
 The Nebulas Incentive includes Proof of Devotion \(PoD\) and the Developer Incentive Protocol \(DIP\).

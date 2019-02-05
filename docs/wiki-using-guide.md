@@ -1,23 +1,22 @@
-# Wiki Usage Guide
+# Guía de utilización de la wiki
 
-## How to edit a Wiki page
-[Nebulas Wiki User Guide](https://medium.com/nebulasio/nebulas-wiki-user-guide-5418715c6988)
+## Cómo editar un artículo de la wiki
+Por favor, lee la [guía para usuarios de la Wiki de Nebulas](https://medium.com/nebulasio/nebulas-wiki-user-guide-5418715c6988)
 
-## Edit Language
-You should use reST to edit .rst files, and Pandoc Markdown for .md files.
+## Traducir la wiki
+A grandes rasgos, necesitarás utilizar reST para editar los archivos .rst y Pandoc Markdown para editar los archivos .md.
 
-[Click here to learn the different between Markdown and reST](http://www.unexpected-vortices.com/doc-notes/markdown-and-rest-compared.html). 
+[Haz clic aquí para conocer la diferencia entre ambos formatos](http://www.unexpected-vortices.com/doc-notes/markdown-and-rest-compared.html).
 
-These are some learning resources:
+### Recursos adicionales
 
-- [How to use Markdown](https://daringfireball.net/projects/markdown/syntax) by John Gruber
-- [Markdown Guide](https://ia.net/writer/support/general/markdown-guide) by iA Writer
+* [Cómo utilizar Markdown](https://daringfireball.net/projects/markdown/syntax), guía escrita por John Gruber.
+* [Guía técnica de la sintaxis Markdown](https://ia.net/writer/support/general/markdown-guide), escrita por iA Writer.
 
-When you edit pages on Github, you can click "Preview changes" to view the results. You can check the building process [here](https://readthedocs.org/projects/nebdocs/builds/).
+Cuando estés editando alguna página en Github, puedes hacer clic en «Vista previa de los cambios» para ver el resultado de los cambios. Puedes ver el proceso de cambios [aquí](https://readthedocs.org/projects/nebdocs/builds/).
 
+## Seguimiento de los cambios
 
-## Tracking changes
-
-TBA
+(en desarrollo)
 
 

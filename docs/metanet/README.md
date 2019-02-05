@@ -1,39 +1,35 @@
-# Autonomous Metanet
+# Red autónoma _Metanet_
 
-## Nebuas: autonomous metanet
+Nebulas, la nueva generación de blockchain público, desarrolló _Nebulas Rank_ (NR), un nuevo instrumento destinado a ponderar cualquier elemento del universo blockchain: direcciones, _DApps_ y contratos inteligentes. Con base en esta nueva tecnología se creó el Incentivo Nebulas (_Nebulas Incentive_, NI), cuyo propósito es el de motivar a los desarrolladores —mediante el Protocolo de Incentivos para Desarrolladores (_Developer Incentive Protocol_, DIP)— y a los usuarios —a través del algoritmo de consenso llamado Prueba de Devoción (_Proof of Devotion_)—.
 
-### Nebuas is an autonomous metanet. The future of collaborating is coming.. {#93bb}
+Por otro lado, se ha propuesto la creación de _Nebulas Force_ (NF), un instrumento que le otorga a los blockchains y contratos inteligentes contenidos en él la capacidad de auto-evolucionar. Al unísono, tanto _Nebulas Rank_, _Nebulas Incentive_ y _Nebulas Force_ logran un ecosistema en permanente expansión y mejora.
 
-Nebulas is a next-generation public blockchain. It introduces the Nebulas Rank \(NR\), a new measure of value for every unit of the blockchain universe, like addresses, DApps and smart contracts. Based on the NR, the Nebulas Incentive \(NI\) was created, whose goal is to motivate developers with the Developer Incentive Protocol, and users with the Proof of Devotion consensus algorithm. Moreover, it proposes Nebulas Force \(NF\), which gives the blockchain and smart contracts within it a self-evolving capacity. In unison, the NR, the NI, and the NF produce a continuously improving and expanding blockchain ecosystem.
+La red autónoma _Metanet_ provee tres características técnicas: **ranking de valor**, **auto-evolución** e **incentivos innatos**.
 
-There are three technical features: value ranking, self-evolution, and native incentive.
+Frente a estos desafíos y oportunidades, nuestro objetivo es el de crear un blockchain auto-evolutivo basado en incentivos innatos.
 
-Facing the aforementioned challenges and opportunities, we aim to create a self-evolving blockchain system based on value incentive.
+![](https://cdn-images-1.medium.com/max/800/1*8YETuI_IvyjXvlvnzbBWnw.png)
 
-![](https://cdn-images-1.medium.com/max/1600/1*8YETuI_IvyjXvlvnzbBWnw.png)
+## Principios
 
-## Principles
+El blockchain de Nebulas se basa en tres principios fundamentales:
 
-The Nebulas blockchain has three major principles:
+### Ranking de valor
 
-### Value ranking
+Para lograr el descubrimiento de valor en los distintos blockchains, **Nebulas Rank** realiza una medición multidimensional de los datos almacenados en ellos, alimentando así el marco descentralizado de búsqueda.
 
-To enable value discovery on the blockchain, the **Nebulas Rank** measures multidimensional data in the blockchain world and powers the decentralized search framework.
+### Auto-evolución
 
-### Self-evolution
+Para evitar el daño causado por los _forks_, **Nebulas Force** permite una rápida iteración y escalabilidad en su blockchain. Para más información, consulta [este artículo](nebulas-force.md).
 
-To avoid the damage caused by the forking of the blockchain, **Nebulas Force** enables rapid iteration and upgradability to its blockchain without the need for hard forks.
+### Incentivos innatos
 
-### Native incentives
+Nuestro programa **Nebulas Incentive** recompensa a aquellos usuarios y desarrolladores que contribuyan a la sustentabilidad y al crecimiento de nuestro ecosistema. Para más información, consulta [este artículo](nebulas-incentive-ni.md).
 
-With forward-looking incentives and the consensus mechanisms, the **Nebulas Incentive** rewards developers and users who contribute to the sustainability and growth of the ecosystem.
+-------------------
 
+Si deseas conocer más acerca de Nebulas, suscríbete a nuestro [blog oficial en Medium](https://medium.com/nebulasio) o visita [nuestro sitio web](https://nebulas.io/).
 
+También puedes consultar nuestro [whitepaper para el público en general](https://nebulas.io/docs/NebulasWhitepaper.pdf) o bien nuestro [whitepaper técnico](https://nebulas.io/docs/NebulasTechnicalWhitepaper.pdf).
 
-
-
-This is an excerpt of the Nebulas Non-technical Whitepaper.
-
-If you want to know more about Nebulas, please subscribe to the official blog, or visit our website: [nebulas.io](https://nebulas.io/). Read our Non-technical White Paper \([English](https://nebulas.io/docs/NebulasWhitepaper.pdf)\), Technical White Paper \([English](https://nebulas.io/docs/NebulasTechnicalWhitepaper.pdf)\).
-
-Thank you.
+¡Gracias!
