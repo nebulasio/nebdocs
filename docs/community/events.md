@@ -1,4 +1,5 @@
 # 动态
+- [大年初一，看谁拿走了上周NOVA开发者激励95%奖金](https://blog.nebulas.io/2019/02/06/on-new-years-day-see-who-took-the-95-bonus-from-nebulas-nova-testnet-developers-last-week/)
 - [Nebulas NOVA邀请您进行视频通话](https://blog.nebulas.io/2019/01/30/nebulas-nova-invites-you-to-make-a-video-call/)
 - [Nebulas NOVA测试网开发者激励活动首周单日最高交易量达3万笔](https://blog.nebulas.io/2019/01/29/week-1-winners-of-nebulas-nova-testnet-developer-incentive-program/)
 - [星云新星测试网开发者激励今日启动！](https://blog.nebulas.io/2019/01/21/nebuals-testnet-developer-incentive-program-launches-today/)
