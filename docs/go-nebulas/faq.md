@@ -1,23 +1,23 @@
-# Frequently Asked Questions
+# Preguntas frecuentes
 
-This document will focus on the technology behind the Nebulas platform. For broader questions, please view the [Reddit FAQ](https://www.reddit.com/r/nebulas/comments/7nt5y0/frequently_asked_questionsfaq/).
+Este documento hará foco en la tecnología detrás de la plataforma Nebulas. Para preguntas más generales, por favor, visita este hilo en nuestro [subreddit](https://www.reddit.com/r/nebulas/comments/7nt5y0/frequently_asked_questionsfaq/).
 
-For a better understanding of the Nebulas platform it's highly recommended to read the [Nebulas Technical Whitepaper](https://nebulas.io/docs/NebulasTechnicalWhitepaper.pdf).
+Para una mejor comprensión de la plataforma Nebulas se recomienda leer nuestro [whitepaper técnico](https://nebulas.io/docs/NebulasTechnicalWhitepaper.pdf).
 
-Table of Contents
+## Tabla de contenidos
 
 1. [Nebulas Rank \(NR\)](faq.md#nebulas-rank-nr)
-2. [Nebulas Force \(NF\)](faq.md#nebulas-force-nf)
-3. [Developer Incentive Protocol \(DIP\)](faq.md#developer-incentive-protocol-dip)
-4. [Proof of Devotion \(PoD\) Consensus Algorithm](faq.md#proof-of-devotion-pod-consensus-algorithm)
-5. [Nebulas Search Engine](faq.md#nebulas-search-engine)
-6. [Fundamentals](faq.md#fundamentals)
-   1. [Nebulas Name Service \(NNS\)](faq.md#nebulas-name-service-nns)
-   2. [Lightning Network](faq.md#lightning-network)
-   3. [Nebulas Token \(NAS\)](faq.md#nebulas-token-nas)
-   4. [Smart Contracts](faq.md#smart-contracts)
-      1. [Language Support](faq.md#what-languages-will-be-supported-when-main-net-launches)
-      2. [Ethereum Compatibility](faq.md#will-ethereum-smart-contracts-solidity-be-fully-supported)
+1. [Nebulas Force \(NF\)](faq.md#nebulas-force-nf)
+1. [Developer Incentive Protocol \(DIP\)](faq.md#developer-incentive-protocol-dip)
+1. [Proof of Devotion \(PoD\) Consensus Algorithm](faq.md#proof-of-devotion-pod-consensus-algorithm)
+1. [Nebulas Search Engine](faq.md#nebulas-search-engine)
+1. [Fundamentals](faq.md#fundamentals)
+    1. [Nebulas Name Service \(NNS\)](faq.md#nebulas-name-service-nns)
+    1. [Lightning Network](faq.md#lightning-network)
+    1. [Nebulas Token \(NAS\)](faq.md#nebulas-token-nas)
+    1. [Smart Contracts](faq.md#smart-contracts)
+        1. [Language Support](faq.md#what-languages-will-be-supported-when-main-net-launches)
+        1. [Ethereum Compatibility](faq.md#will-ethereum-smart-contracts-solidity-be-fully-supported)
 
 ## Nebulas Rank \(NR\)
 

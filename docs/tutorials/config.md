@@ -1,13 +1,15 @@
-# Config
+# Archivos de configuración
 
-There are four types of configuration files in Nebulas.
+Existen cuatro tipos de archivos de configuración en Nebulas:
 
-* Normal node.
-* Miner node.\(Miner - related configuration is increased relative to normal nodes\)
-* Super node.\(Some connection limits are higher than normal nodes\) 
-* Sign node. \(Do not synchronize information with any node, only do signature and unlock\)
+* Nodos normales.
+* Nodos para minería: el archivo tiene más entradas que el destinado a nodos normales.
+* Super nodo: algunos límites de conexiones son mayores.
+* Nodos de firmas: no sincroniza información con ningún nodo; sólo se dedica a realizar firmas y a desbloquear.
 
-## Normal node
+A continuación se ofrecen los contenidos de esos cuatro tipos de archivo, a modo de ejemplo.
+
+## Nodos normales
 
 ```text
 network {
@@ -43,7 +45,7 @@ stats {
 }
 ```
 
-## Miner node
+## Nodos para minería
 
 ```text
 network {
@@ -84,7 +86,7 @@ stats {
 }
 ```
 
-## Super node
+## Super nodos
 
 ```text
 network {
@@ -126,7 +128,7 @@ stats {
 }
 ```
 
-## Sign node
+## Nodos de firmas
 
 ```text
 network {
@@ -163,4 +165,3 @@ stats {
     enable_metrics: false
 }
 ```
-

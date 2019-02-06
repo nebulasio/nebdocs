@@ -1,14 +1,14 @@
-# Licensing
+# Acuerdo de licencia
 
-## Nebulas Open Source Project License
+## Licencia del proyecto de código abierto Nebulas
 
-The preferred license for the Nebulas Open Source Project is the [GNU Lesser General Public License Version 3.0 \(“LGPL v3”\)](https://www.gnu.org/licenses/lgpl-3.0.en.html), which is commercial friendly, and encourage developers or companies modify and publish their changes.
+La licencia preferida para el proyecto de código abierto Nebulas es la [Licencia Pública General Reducida de GNU Versión 3.0 \(“LGPL v3”\)](https://www.gnu.org/licenses/lgpl-3.0.en.html), que permite la comercialización y alienta a los desarrolladores o a las empresas a modificar el producto y publicar sus cambios.
 
-However, we also aware that big corporations is favoured by other licenses, for example, [Apache Software License 2.0 \(“Apache v2.0”\)](https://www.apache.org/licenses/LICENSE-2.0), which is more commercial friendly. For the Nebulas Team, we are very glad to see the source code and protocol of Nebulas is widely used both in open source applications and non-open source applications.
+No obstante, también hemos notado que existen otras licencias aun más amigables con el comercio —como por ejemplo la licencia [Licencia de Software de Apache 2.0 \(“Apache v2.0”\)](https://www.apache.org/licenses/LICENSE-2.0)—. Desde el equipo de Nebulas estamos muy satisfechos al ver que se genera código tanto abierto como propietario dentro de nuestro ecosistema.
 
-In this way, we are still considering the license choice, which kind of license is the best for nebulas ecosystem. We expect to select one of the LGPL v3, the Apache v2.0 or the MIT license. If the latter is chosen, it will come with an amendment allowing it to be used more widely.
+Ante esta perspectiva, todavía estamos decidiendo cuál es la mejor licencia para el ecosistema de Nebulas. Los candidatos son LGPL v3, Apache v2.0 y la licencia MIT. Si se elige esta última, añadiremos una enmienda para permitir que nuestros productos se utilicen con más libertad.
 
-## Contributor License Agreement
+## Acuerdo de licencia para colaboradores
 
-All contributions to Nebulas wikis are licensed under the (Creative Commons License SA 4.0)[https://creativecommons.org/licenses/by-nc-sa/4.0/].
+Todas las contribuciones a la wiki de Nebulas se harán bajo la licencia [Creative Commons License SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
