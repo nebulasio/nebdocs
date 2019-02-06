@@ -2,25 +2,32 @@
 
 -----------------------
 
-# Nebulas Rank \(NR\)
+# Nebulas Rank (NR)
 
-Nebulas Rank \(NR\) is an open source ranking algorithm used to measure the influence of relationships among addresses, smart contracts, and distributed applications \(DApps\). It helps users utilize information within the ever-increasing amount of data on all blockchains, but it also helps developers to use our search framework directly in their own applications.
+**_Nebulas Rank_** es un algoritmo de valoración (_ranking_), de código abierto, utilizado para ponderar la influencia de las relaciones entre direcciones, contratos inteligentes y aplicaciones distribuidas (_DApps_).
+
+Sirve para que los usuarios puedan utilizar la creciente cantidad de información disponible en los blockchains; además, es de utilidad para que los desarrolladores utilicen el _framework_ de búsqueda directamente en sus aplicaciones.
 
 ![](https://cdn-images-1.medium.com/max/1600/1*xb-MzFJolGOy8VZvdNBIIQ.jpeg)
 
-On Nebulas, we measure value regarding:
+En Nebulas, medimos el valor de acuerdo a estos parámetros:
 
-* **Liquidity**
+* Liquidez
 
-Finance is essentially the social activities which optimize social resources via capital liquidity and in turn promotes economic development. Blockchains establish a value network in which the financial assets can flow. Daily volume of Bitcoin and Ethereum, which are most familiar to us, already exceeds $1 billion. From this data, we can see that the higher the transaction volume and transaction scale, the higher the liquidity. As a consequence of this, higher liquidity will increase the quantity of transactions and enhance the value. That will further strengthen the value of the financial assets, creating a complete positive feedback mechanism. Therefore liquidity, i.e. transaction frequency and scale, is the first dimension that NR measures.
+Las finanzas son una actividad social que permite optimizar los recursos sociales a través de la liquidez de capitales y a su vez promover el desarrollo económico.
 
-* **Propagation**
+Los blockchains son, esencialmente, una red de valores en la que los activos financieros pueden moverse libremente. Los volúmenes diarios de criptodivisas como Bitcoin y Ethereum (las más conocidas actualmente), son de mil millones de dólares o más. A partir de esta información, podemos ver que, a mayor volumen de transacciones y mayor escala, mayor es la liquidez. Como consecuencia de ello, esa mayor liquidez genera una mayor calidad en las transacciones y aumenta el valor de esos activos. Este concepto, el de liquidez, es la primera dimensión que _Nebulas Rank_ toma en cuenta en su ponderación.
 
-Social platforms like WeChat and Facebook have almost 3 billion active users per month. Social platforms’ rapid user growth is a result of the reflection of existing social networks and stronger viral growth. In particular, viral transmission, i.e. speed, scope, depth of information transmission and linkage, is the key index to monitor the quality of social networks and user growth. In the blockchain world, we can see the same pattern. Powerful viral propagation indicates scope and depth of asset liquidity, which can promote its asset quality and asset scale. Thus, viral transmission, i.e. scope and depth of asset liquidity, is the second dimension that NR measures.
+* Propagación
 
-* **Interoperability**
+Las plataformas sociales tales como WeChat y Facebook cuentan ya con más de tres mil millones de usuarios activos, y su base de usuarios crece mensualmente. Este crecimiento es el resultado del reflejo de las redes sociales existentes, y de un fuerte crecimiento viral. En particular, la llamada _transmisión viral_ (compuesta de vectores como velocidad, alcance, vinculación y profundidad de la transmisión de información), es un indicador clave para monitorear la calidad de las redes sociales y el crecimiento de sus bases de usuarios.
 
-During the early stages of the internet, there were only basic websites and private information. Now, information on different platforms can be forwarded on the network, and isolated data silos are gradually being broken. This trend is the process of identifying higher dimensional information. From our point of view, the world of blockchains shall follow a similar pattern, but its speed will be higher. The information on users’ assets, smart contracts, and DApps will become richer, and the interaction of higher dimensional information shall be more frequent, thus better interoperability shall become more and more important. Therefore, the third dimension measured by the NR is interoperability.
+En el mundo blockchain podemos observar este mismo patrón. Una propagación viral intensa usualmente es una buena indicación del alcance y la profundidad del activo digital; esto puede ayudar a promover la calidad y la escala del activo. De este modo, la transmisión viral del activo (su alcance y profundidad), son en conjunto la segunda dimensión que _Nebulas Rank_ toma en cuenta en su ponderación.
 
-Based on the aforementioned dimensions, we started constructing Nebulas’ NR system by drawing from richer data, building a better model, digging up more diversified value dimensions, and establishing a measure of value in the blockchain world.
+* Interoperabilidad
 
+Durante la infancia de internet sólo existían sitios web rudimentarios, con información privada. En la actualidad es posible reenviar o copiar la información de distintas plataformas en la red, con lo que los silos de información privada son cada vez más escasos.
+
+Esta tendencia es el proceso de identificación de información de mayor dimensión. Desde nuestro punto de vista, el mundo de los blockchains debería seguir un patrón similar, aunque a una velocidad mucho mayor. La información de los activos de los usuarios, de los contratos inteligentes y de las aplicaciones distribuidas (_DApps_) estará cada vez más enriquecida, y la interacción de la información de mayor dimensión será más frecuente, haciendo que una mejor interoperabilidad sea cada vez más necesaria. Este indicador (interoperabilidad) es la tercera dimensión que _Nebulas Rank_ toma en cuenta en su ponderación.
+
+Basándonos en las tres dimensiones mencionadas, hemos iniciado la construcción del sistema _Nebulas Rank_, buscando el enriquecimiento de los datos, construyendo un mejor modelo, desempolvando valores dimensionales más diversificados y estableciendo un sistema de ponderación en el mundo blockchain.

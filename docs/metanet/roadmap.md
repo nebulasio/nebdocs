@@ -4,25 +4,25 @@
 
 # Hoja de ruta de la red autónoma Metanet
 
-[Please visit our new Roadmap here](https://nebulas.io/roadmap.html).
+Para una versión más actualizada, visita [esta página](https://nebulas.io/roadmap.html).
 
-## Milestones
+## Hitos
 
-* In 2017 December, Nebulas test-net will be online.
-* In 2018 Q1, Nebulas v1.0 will be released and main-net will be online \(ahead of the original schedules\).
+* En diciembre de 2017 la testnet de Nebulas entrará en línea.
+* El primer trimestre de 2018, la versión 1.0 de Nebulas será lanzada y la mainnet estará en línea.
 
-### v1.0 \(2018 Q1\)
+### Versión 1.0 (primer trimestre de 2018)
 
-* Fully functional blockchain, with JavaScript and TypeScript as the languages of Smart Contract.
+* Blockchain completamente funcional, con JavaScript y TypeScript como lenguajes para los contratos inteligentes.
 * A user-friendly Nebulas Wallet for both desktop and mobile device to manage their own assets on Nebulas.
 * A web-based Nebulas Block Explorer to let developers and users search and view all the data on Nebulas.
 
-### v2.0 \(2018 Q4\)
+### v2.0 (2018 Q4)
 
 * Add Nebulas Rank \(NR\) to each addresses on Nebulas, help users and developers finding more values inside.
 * Implement Developer Incentive Protocol \(DIP\) to encourage developers build more valuable decentralized applications on Nebulas.
 
-### v3.0 \(2019 Q4\)
+### v3.0 (2019 Q4)
 
 * Fully functional Nebulas Force and PoD implementation.
 
@@ -34,7 +34,7 @@
 
 ## Versions
 
-### v0.1.0 \[done\]
+### v0.1.0 [done]
 
 Goals
 
@@ -44,11 +44,11 @@ Goals
 
 Download [here](https://github.com/nebulasio/go-nebulas/releases/tag/v0.1.0).
 
-### v0.2.0 \[done\]
+### v0.2.0 [done]
 
 Goals
 
-* Provide \(RPC\) API to submit/query transaction externally.
+* Provide (RPC) API to submit/query transaction externally.
 * Implement Sync Protocol to bootstrap any nodes that join into nebulas network at any time, from any tail.
 
 Core
@@ -76,7 +76,7 @@ Crypto
 
 Download [here](https://github.com/nebulasio/go-nebulas/releases/tag/v0.2.0).
 
-### v0.3.0 \[done\]
+### v0.3.0 [done]
 
 Goals
 
