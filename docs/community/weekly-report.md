@@ -1,6 +1,7 @@
 # 星云周报
 
 - 星云技术委员会月报(1/1-1/31)-[星云技术委员会月报](https://blog.nebulas.io/2019/02/03/nebulas-technical-committee-monthly-report/)
+- 星云周报-第67期(1/21-2/3)-[星云周报第67期：星云新星测试网开发者激励活动正式启动！](https://blog.nebulas.io/2019/02/04/nebulas-bi-weekly-community-dynamics-67/)
 - 星云周报-第66期(1/14-1/27)-[星云周报第66期：新版本NR，DIP以及NBRE已部署到测试网](https://blog.nebulas.io/2019/01/28/nebulas-bi-weekly-development-commits-66/)
 - 星云周报-第65期(1/7-1/20)-[星云周报第65期：来测试网部署智能合约，DIP星云币奖励提前拿](https://blog.nebulas.io/2019/01/21/nebulas-bi-weekly-community-dynamics-65/)
 - 星云周报-第64期(1/1-1/13)-[星云周报第64期：Nebulas NOVA测试网运行良好](https://blog.nebulas.io/2019/01/14/nebulas-bi-weekly-development-commits-64/)
