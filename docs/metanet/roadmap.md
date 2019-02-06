@@ -1,7 +1,3 @@
-**¡Atención!** Este artículo está en traducción. Es posible que encuentres lagunas de contenido o bien secciones y subsecciones en otro idioma.
-
------------------------
-
 # Hoja de ruta de la red autónoma Metanet
 
 Para una versión más actualizada, visita [esta página](https://nebulas.io/roadmap.html).
@@ -14,209 +10,230 @@ Para una versión más actualizada, visita [esta página](https://nebulas.io/roa
 ### Versión 1.0 (primer trimestre de 2018)
 
 * Blockchain completamente funcional, con JavaScript y TypeScript como lenguajes para los contratos inteligentes.
-* A user-friendly Nebulas Wallet for both desktop and mobile device to manage their own assets on Nebulas.
-* A web-based Nebulas Block Explorer to let developers and users search and view all the data on Nebulas.
+* Una cartera Nebulas amigable con el usuario, tanto para escritorio como para dispositivos móviles, que permita administrar los activos en Nebulas.
+* Un explorador web de bloques, que le permita a los desarrolladores y al usuario en general buscar y visualizar todos los datos en Nebulas.
 
-### v2.0 (2018 Q4)
+### Versión 2.0 (cuarto trimestre de 2018)
 
-* Add Nebulas Rank \(NR\) to each addresses on Nebulas, help users and developers finding more values inside.
-* Implement Developer Incentive Protocol \(DIP\) to encourage developers build more valuable decentralized applications on Nebulas.
+* Agregar _Nebulas Rank_ (NR) a cada dirección en Nebulas, ayudando así a los usuarios y desarrolladores a encontrar valor en los datos.
+* Implementar el Protocolo de Incentivos para Desarrolladores (_Developer Incentive Protocol_, DIP) para alentar a que los desarrolladores construyan aplicaciones de valor en Nebulas.
 
-### v3.0 (2019 Q4)
+### Versión 3.0 (cuarto trimestre de 2019)
 
-* Fully functional Nebulas Force and PoD implementation.
+* _Nebulas Force_ totalmente funcional.
+* Implementación de _Proof of Devotion_.
 
-## Long term goals
+## Metas de largo plazo
 
-* Scalability for large transaction volume.
-* Subchain support.
-* Zero-knowledge Proof integration.
+* Escalabilidad para altos volúmenes de transacciones.
+* Soporte _subchain_.
+* Integración con _Zero-knowledge Proof_.
 
-## Versions
+## Versiones
 
-### v0.1.0 [done]
+### Versión 0.1.0
 
-Goals
+Hecha
 
-* Implement a nebulas kernel.
-* In-memory blockchain with PoW consensus.
-* Fully P2P network support.
+#### Metas
 
-Download [here](https://github.com/nebulasio/go-nebulas/releases/tag/v0.1.0).
+* Implementar un kernel en Nebulas.
+* Blockchain en memoria con implementación del consenso _PoW_.
+* Soporte de red P2P completo.
 
-### v0.2.0 [done]
+Puedes descargarla [desde este enlace](https://github.com/nebulasio/go-nebulas/releases/tag/v0.1.0).
 
-Goals
+### v0.2.0
 
-* Provide (RPC) API to submit/query transaction externally.
-* Implement Sync Protocol to bootstrap any nodes that join into nebulas network at any time, from any tail.
+Hecha.
 
-Core
+#### Metas
 
-* Implement transaction pool.
-* Prevent record-replay attack of transaction.
-* Integrate Protocol Buffer for serialization.
+* Proveer llamadas RPC API para realizar consultas y transacciones de forma externa.
+* Implementar _Sync Protocol_ para ayudar al lanzamiento de cualquier nodo que se una a la red de Nebulas en cualquier momento.
 
-Net
+#### Núcleo
 
-* Refactor the design of network.
-* Implement Sync Protocol.
-* Implement Broadcast and Relay function.
+* Implementar un pool de transacciones.
+* Impedir ataques de tipo _record-replay_ en las transacciones.
+* Integrar un _Protocol Buffer_ para la serialización.
 
-API
+#### Red
 
-* Add Balance API.
-* Add Transaction API.
-* Add some debugging API, eg “Dump Chain”, “Dump Block”.
+* Refactorear el diseño de la red.
+* Implementar _Sync Protocol_.
+* Implementar una función de _Broadcast and Relay_.
 
-Crypto
+#### API
 
-* Support Ethereum-keystore file.
-* Support multi key files management in KeyStore.
+* Añadir _Balance API_.
+* Añadir _Transaction API_.
+* Añadir una API para depuración; ejemplos: «Dump Chain» o «Dump Block».
 
-Download [here](https://github.com/nebulasio/go-nebulas/releases/tag/v0.2.0).
+#### Crypto
 
-### v0.3.0 [done]
+* Brindar soporte a los archivos Ethereum-keystore.
+* Brindar soporte a los archivos _multi key management_ en KeyStore.
 
-Goals
+Puedes descargarla [desde este enlace](https://github.com/nebulasio/go-nebulas/releases/tag/v0.2.0).
 
-* Support disk storage for all blockchain data.
-* Add smart contract execution engine, based on Chrome V8.
+### v0.3.0
 
-Core
+Hecha.
 
-* Add disk storage with a middleware of storage.
-* Implement smart contract transaction.
+#### Metas
 
-NVM
+* Soporte de almacenamiento en disco disk storage para todos los datos de blockchain.
+* Añadir un motor de ejecución de contratos inteligentes basado en Chrome V8.
 
-* Integrate Chrome V8 as Smart Contract execution engine.
+#### Núcleo
 
-Download [here](https://github.com/nebulasio/go-nebulas/releases/tag/v0.3.0).
+* Agregar almacenamiento en disco por medio de _middleware_.
+* Implementar transacciones de contratos inteligentes.
 
-### v0.4.0 \[done\]
+#### NVM
 
-Goals
+* Integrar Chrome V8 como motor de ejecución de contratos inteligentes.
 
-* Implement Gas calculating in Smart Contract Execution Engine.
-* Support more API.
-* Add repl in neb application.
-* Add metrics and reporting capability.
+Puedes descargarla [desde este enlace](https://github.com/nebulasio/go-nebulas/releases/tag/v0.3.0).
 
-Core
+### Versión 0.4.0
 
-* Add Gas related fields in Transaction.
-* Implemented Gas calculation mechanism.
+Hecha.
 
-NVM
+#### Metas
 
-* Add execution limits to V8 Engine.
-* Add Gas calculation mechanism.
+* Implementar cálculo de costos de gas en el motor de ejecución de contratos inteligentes.
+* Brindar soporte a más APIs.
+* Añadir _repl_ a las aplicaciones neb.
+* Añadir métricas y capacidad de generar reportes.
 
-CMD
+#### Núcleo
 
-* Add repl in neb application
+* Añadir campos relacionados al gas en Transacciones.
+* Implementar un mecanismo de cálculo de gas.
 
-Misc
+#### NVM
 
-* Add more API.
-* Add metrics and reporting capability.
+* Añadir límites de ejecución al motor V8.
+* Implementar un mecanismo de cálculo de gas.
 
-Download [here](https://github.com/nebulasio/go-nebulas/releases/tag/v0.4.0).
+#### CMD
 
-### v0.5.0 \[done\]
+* Añadir _repl_ a las aplicaciones neb.
 
-Goals
+#### Misceláneos
 
-* Prepare for test-net releasing, improve stability.
+* Crear más API.
+* Añadir métricas y capacidad de generar reportes.
 
-Core
+Puedes descargarla [desde este enlace](https://github.com/nebulasio/go-nebulas/releases/tag/v0.4.0).
 
-* Improve stability and missing functions if we miss anything.
+### Versión 0.5.0
 
-Consensus
+Hecha.
 
-* Implement DPoS consensus algorithm and keep developing PoD algorithm.
+#### Metas
 
-NVM
+* Preparar todo para el lanzamiento de la _testnet_.
+* Mejorar la estabilidad.
 
-* Finalize the Gas Cost Matrix.
-* Support Event liked pubsub functionality.
+#### Núcleo
 
-Misc
+* Mejorar la estabilidad
+* Añadir cualquier funcionalidad que falte.
 
-* Add more metrics to monitor the stability of neb applications.
+#### Consenso
 
-Download [here](https://github.com/nebulasio/go-nebulas/releases/tag/v0.5.0).
+* Implementar el algoritmo de consenso _DPoS_.
+* Continuar el desarrollo del algoritmo _PoD_.
 
-### v0.6.0 \[done\]
+#### NVM
 
-Goals
+* Completar la matriz de costos de gas.
+* Brindar soporte a la funcionalidad _Event liked pubsub_.
 
-* Stability improvement, performance optimization.
-* Reconstruct P2P network.
-* Redesign block sync logic.
+#### Misceláneos
 
-Testnet
+* Añadir más métricas para monitorizar la estabilidad de las aplicaciones neb.
 
-* Fix bugs & improv the performance.
+Puedes descargarla [desde este enlace](https://github.com/nebulasio/go-nebulas/releases/tag/v0.5.0).
 
-Network
+### Versión 0.6.0
 
-* Add _Stream_ for single connection management.
-* Add _StreamManager_ for connections management.
-* Implement priority message _chan_.
-* Add route table persistence strategy.
-* Improve strategy to process TCP packet splicing.
+Hecha.
 
-Log
+#### Metas
 
-* Add console log\(CLog\), printing log to both console & log files, to inform developers what’s happening in Neb.
-* Add verbose log\(VLog\), printing log to log files, to inform devs how Neb works in details.
-* Log adjustment.
+* Mejoras en la estabilidad y la performance.
+* Reconstruir la red P2P.
+* Rediseñar la lógica _block sync_.
 
-Sync
+#### Testnet
 
-* Use chunk header hash to boost the sync performance.
-* Adjust the synchronous retry logic and timeout configuration.
-* Fix bugs in synchronization and add more metrics statistics.
+* Corregir errores y mejorar la performance.
 
-Download [here](https://github.com/nebulasio/go-nebulas/releases/tag/v0.6.0).
+#### Red
 
-### v0.6.1 \[done\]
+* Añadir _Stream_ para la administración de conexiones simples.
+* Añadir _StreamManager_ para la administración de conexiones.
+* Implementar mensajes prioritarios _chan_.
+* Añadir una estrategia de persistencia de tablas de enrutamiento.
+* Mejorar la estrategia para procesar el empalme de paquetes TCP.
 
-Goals
+#### Registro
 
-* Improve test net compatibility.
+* Añadir funcionalidad de registro de consola (CLog), con salida a consola y archivo, para que los desarrolladores puedan saber qué sucede en Neb.
+* Añadir un registro _verbose_ (VLog),con salida a consola y archivo, para brindar más detalles en la depuración de Neb.
+* Ajuste de registros.
 
-Core
+#### Sincronización
 
-* Upgrade the storage structure of the block
+* Utilizar un _chunk header hash_ para incrementar la performance de sincronización.
+* Ajustar la lógica de reintentos síncronos y la configuración para eventos _timeout_.
+* Corregir errores en la sincronización y añadir más métricas de estadísticas.
 
-Download [here](https://github.com/nebulasio/go-nebulas/releases/tag/v0.6.1).
+Puedes descargarla [desde este enlace](https://github.com/nebulasio/go-nebulas/releases/tag/v0.6.0).
 
-### v0.8.0 \[done\]
+### Versión 0.6.1
 
-Goals
+Hecha.
 
-* New Nebulas Block Explorer.
-* New Nebulas Wallet.
-* New web-based Playground tools to interactive with Nebulas.
+#### Metas
 
-### v1.0.0 \[done\]
+* Mejorar la compatibilidad de la _testnet_.
 
-Goals
+#### Núcleo
 
-* Ready for main-net.
-* Support JavaScript and TypeScript as Smart Contract Language.
-* Stable and high performance blockchain system.
-* Release new Nebulas Block Explorer.
-* Release new Nebulas Wallet for both desktop and mobile device.
-* A web-based playground tools for developer.
+* Actualizar la estructura de almacenamiento de los bloques.
 
-Download [explorer](https://github.com/nebulasio/explorer/releases/tag/explorer-tag-1.0.0).
+Puedes descargarla [desde este enlace](https://github.com/nebulasio/go-nebulas/releases/tag/v0.6.1).
 
-Download [wallet](https://github.com/nebulasio/web-wallet).
+### Versión 0.8.0
 
-Download [neb.js](https://github.com/nebulasio/neb.js).
+Hecha.
 
+#### Metas
+
+* Implementar el nuevo explorador de bloques.
+* Lanzar la nueva cartera.
+* Implementar nuevas herramientas web _Playground_ para interactuar con Nebulas.
+
+### Versión 1.0.0
+
+Hecha.
+
+#### Metas
+
+* Preparar todo para lanzar la _mainnet_.
+* Brindar soporte a JavaScript y TypeScript en los contratos inteligentes.
+* Lograr un sistema de blockchain estable y de alta performance.
+* Lanzar el nuevo explorador de bloques de Nebulas.
+* Lanzar la nueva cartera de Nebulas, tanto para escritorio como para móviles.
+* Crear herramientas de desarrollo basadas en web.
+
+Descarga el [explorador de bloques](https://github.com/nebulasio/explorer/releases/tag/explorer-tag-1.0.0).
+
+Descarga la [cartera](https://github.com/nebulasio/web-wallet).
+
+Descarga la librería [neb.js](https://github.com/nebulasio/neb.js).
