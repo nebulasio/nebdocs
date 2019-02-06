@@ -1,26 +1,23 @@
 # Overview
 
-## Welcome to the open-source Nebulas wiki!
+# Introducción
 
+## ¡Bienvenido a la wiki de Nebulas!
 
-Nebulas is the next-generation public blockchain, aiming for a continuously improving ecosystem. Based on its blockchain valuation mechanism, Nebulas proposes future-oriented incentive and consensus systems, and the ability to self-evolve without forking.
+Nebulas es una nueva generación de blockchain público que apunta a mejorar el ecosistema cripto de forma sostenida. Basándose en su mecanismo de valuación del blockchain, Nebulas introduce conceptos tales como _incentivos orientados a futuro_, _sistemas consensuales_ y la habilidad de evolucionar su propio código sin necesidad de realizar _forks_.
 
-Nebulas community is open and everyone can be a contributor and build a decentralized world with us.
+La comunidad de Nebulas es abierta; cualquier persona puede colaborar en su crecimiento y ayudarnos a crear un mundo descentralizado.
 
-The Nebulas wiki is a collaboration tool for the community to publish various documents in a collaborative manner. Include [using guides](wiki-using-guide.html), [developing guides](dapp-development/README.html), [learning resources](dapp-development/learning-resources.html), and other useful documents. 
+La wiki de Nebulas es una herramienta para la comunidad, que permite publicar documentos en forma colaborativa. Esto incluye [las guías de uso](wiki-using-guide.html), [las guías de desarrollo](dapp-development/README.html), [los recursos de aprendizaje](dapp-development/learning-resources.html) y otros documentos útiles.
 
- 
+## Guías generales
 
-## Use Wiki
-
-
-#### [Mainnet](go-nebulas/README.html) 
+#### [Mainnet](go-nebulas/README.html)
 
 #### [Dapps](dapp-development/README.html)
 
-#### [Ecosystem](ecosystem/README.html)
+#### [Ecosistema](community-ecosystem/README.html)
 
-#### [Get Involved](how-to-contribute.html)
-
+#### [Cómo colaborar](how-to-contribute.html)
 
 

@@ -1,4 +1,8 @@
-# Roadmap of Autonomous Metanet
+**¡Atención!** Este artículo está en traducción. Es posible que encuentres lagunas de contenido o bien secciones y subsecciones en otro idioma.
+
+-----------------------
+
+# Hoja de ruta de la red autónoma Metanet
 
 [Please visit our new Roadmap here](https://nebulas.io/roadmap.html).
 

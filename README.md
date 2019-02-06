@@ -15,6 +15,12 @@ La sección de desarrollo en _mainnet_ que citamos aquí está basada en [esta w
 * [zh-CN](https://github.com/nebulasio/nebdocs/tree/zh-CN)
 * [ko-KR](https://github.com/nebulasio/nebdocs/tree/ko-KR)
 
+## Licencia
+
+Esta wiki se publicó bajo los términos y condiciones de la **Licencia Pública General Reducida de GNU**, cuyo contenido original puede leerse [aquí](https://github.com/nebulasio/nebdocs/tree/es/LICENSE).
+
+[Debido a los propios términos y condiciones](https://www.gnu.org/licenses/translations.es.html) de la Fundación GNU, nos vemos obligados a ofrecer la misma en el idioma original (inglés).
+
 ## Cómo colaborar
 
 En Nebulas apuntamos a ofrecer un ecosistema en permanente mejora, lo cual significa que necesitamos la colaboración de nuestra comunidad. ¡Necesitamos tus contribuciones!

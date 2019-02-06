@@ -1,5 +1,5 @@
-# Frequently Asked Questions
+# Preguntas frecuentes
 
-TBA
+(en desarrollo)
 
-Please visit [here](https://nebulas.io/faq.html) and you can also get more information on [Reddit](https://reddit.com/r/nebulas)
+Por favor, lee [este artículo](https://nebulas.io/faq.html); también puedes obtener más información en [nuestro subreddit](https://reddit.com/r/nebulas).

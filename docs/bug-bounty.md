@@ -1,52 +1,76 @@
-# Bug Bounty
+# Recompensas para _bug hunters_
 
-## Nebulas Bug Bounty Program
+## Programa de recompensas por errores de Nebulas
 
-The Nebulas Bug Bounty aims to improve the security of Nebulas Ecosystem, ensuring the establishing for benign Nebulas ecosystem. The Nebulas Bug Bounty Program provides bounties for the discovered vulnerabilities. This bounty program is initiated and implemented by the Nebulas Technical Committee (NTC), joined by the Nebulas technical team and community members. NTC encourages the community to disclose security vulnerabilities via the process described below, and play a role in building Nebulas ecosystem, thereby receiving bounties, and partake in the establishing of Nebulas ecosystem.
+El programa **Nebulas Bug Bounty** apunta a consolidar en Nebulas un ecosistema saludable y seguro. Para ello, hemos puesto a disposición de los _buscadores de errores_ una serie de recompensas que premian cada error que se encuentre.
 
-## Bug Category
+Este programa está implementado por el Comité Técnico de Nebulas (_Nebulas Technical Committee_, o NTC), en unión con el equipo técnico de Nebulas y los miembros de su comunidad.
 
-The Bug Bounty Program divides the bug bounties into 2 categories, common bug bounty and special bug bounty. The common bugs include vulnerabilities discovered in Nebulas mainnet, Nebulas testnet, nebPay, Web wallet, neb.js and others, while the special bugs include vulnerabilities found in the inter-contract call function and others.
+NTC alienta a su comunidad a informar de cualquier tipo de vulnerabilidad a través del proceso que se describe más abajo; de ese modo, cada miembro de la comunidad tiene la chance de participar en la construcción del ecosistema de Nebulas y de recibir a cambio una o más recompensas.
 
-## Eligibility 
+## Categorías
 
-The Nebulas Technical Committee will evaluate reward sizes according to the severity calculated by [OWASP](https://www.owasp.org/index.php/OWASP_Risk_Rating_Methodology) Risk Rating Method based on **Impact** and **Likelihood**. However, final rewards are determined at the sole discretion of the committee. 
+El programa divide las recompensas en dos categorías: recompensas por errores comunes (_common bug bounty_) y recompensas por errores especiales (_special bug bounty_).
 
-![图1](https://cdn-images-1.medium.com/max/1600/1*rR7P3JTHT2KFAYTDodsilw.jpeg)
+### Recompensas por errores comunes
 
-**Impact:**
-- High: Bugs affecting asset security.
-- Medium: Bugs affecting system stability.
-- Low: Other bugs that do not affect asset security and do not affect system stability.
+Serán otorgadas a todas aquellas personas que encuentren vulnerabilidades en la mainnet de Nebulas, en la testnet de Nebulas, en nebPay, en la cartera web, en la librería neb.js y en otros componentes similares.
 
-**Likelihood:**
-- High: The bug can be discovered by anyone who performs an operation, regardless of whether or not the bug has been found.
-- Medium: Only certain people can discover it (such as a bug that only developers encounter, ordinary users are not affected.)
-- Low: Covers less than 1% specific population, such as certain rare Android models; or any other exceptional cases. 
+### Recompensas por errores especiales
 
-## Amount:
-To ensure the bug reporter obtains a stable expected reward, the amount in US dollars will be issued in equivalent NAS.
-The reward amount is divided into 5 categories:
+Se otorgarán a quienes descubran vulnerabilidades en las llamadas a funciones inter-contratos (_inter-contract call functions_) y similares.
 
-> -  Critical:US$1,000 or more (No upper limit)
-> - High: US$500 or more
-> - Medium: US$250 or more
-> - Low: US$100 or more
-> - Improvement: US$30 or more
+## Determinación de las recompensas
 
-Note: The Nebulas testnet special vulnerability reward (such as one for testnet inter-contract call function) has been increased accordingly, and the equivalent US dollars are issued in NAS.
+El Comité Técnico de Nebulas (_Nebulas Technical Committee_) determinará el monto de las recompensas de acuerdo a la gravedad de la vulnerabilidad descubierta, de acuerdo al método de evaluación de riesgos [OWASP](https://www.owasp.org/index.php/OWASP_Risk_Rating_Methodology), basándose dos criterios:  **impacto** y **probabilidad**. No obstante, el valor final de las recompensas estarán sujetas a la decisión del comité.
 
-## Report A Bug
-Please send your bug report via [this link](https://goo.gl/forms/5ysl61Mjpn6yDEuN2).
+![1](https://cdn-images-1.medium.com/max/800/1*rR7P3JTHT2KFAYTDodsilw.jpeg)
 
-**Notes:**
+### Criterios
+#### Impacto
 
-> 1.Please ensure the accuracy and clarity of the content, because the reward evaluation will be based on the content submitted in this form.
-> 2.If many people discover the same bug, then their report submissions in chronological order will determine their reward. Community users are welcome to discuss the issues of bugs, but the discussion itself is not considered a report, therefore a report form must still be submitted. 
+* Alto: errores que afectan la seguridad de los activos.
+* Medio: errores que afectan la estabilidad del sistema.
+* Bajo: otros errores que no afectan la seguridad de los activos ni la estabilidad del sistema.
 
-## Notes:
-> 1.The Nebulas Bug Bounty Program is long-standing. The Nebulas Technical Committee reserves the right to final interpretation of this program, and the rights to adjust or cancel the reward scope, eligibility and amount.
-> 2.The Nebulas Technical Committee will confirm and evaluate the bug report after its submission. The evaluation time will depend on the severity of the problem and the difficulty of fixing it. The evaluation result will be sent to its reporter by email as soon as possible. 
->3.To avoid bugs being exploited, reporters are required to submit the bug bounty application to bug report entrance. 
->4.Reporters shall keep the bugs non-public and confidential until 30 days after submitting the bugs to Nebulas, and shall not disclose the bugs to any third party.  Such confidentiality timeline can be extended by Nebulas unilaterally. If reporters disclose the bugs to any third party which cause any harm to Nebulas or Nebulas’ users, reporters shall be responsible of the compensation for all the losses.
->5.The Nebulas Technical Committee encourages community member to discuss with the Nebulas technical team and other community members in the Nebulas public discussion group. We also encourage our community members to join us in fixing these bugs. Welcome to [join our Nebulas maillist](https://lists.nebulas.io/cgi-bin/mailman/listinfo) for discussion.
+#### Probabilidad
+
+* Alta: el error podría ser descubierto por cualquier persona que realice una operación determinada, independientemente de si el error fue reportado o no.
+* Media: sólo algunas personas podrían encontrar el error (tales como desarrolladores que analicen el código); los usuarios comunes no podrían desencadenar el problema.
+* Baja: cubre sólo el 1% (o menos) de la base de usuarios de Nebulas —por ejemplo, propietarios de un modelo poco usual de dispositivo Android— o cualquier otro caso excepcional.
+
+### Montos
+
+Para asegurar que la persona que reporta el error obtenga una recompensa adecuada, estable en el tiempo y proporcional al error hallado, el valor en NAS se ajustará según la paridad con el dólar estadounidense.
+
+Los montos de las recompensas se dividen en cinco categorías:
+
+* Errores críticos: US$ 1000 o más (sin límite superior)
+* Errores de probabilidad alta: US$ 500 o más
+* Errores de probabilidad media: US$ 250 o más
+* Errores de probabilidad baja: US$ 100 o más
+* Mejoras: US$30 o más
+
+#### Testnet
+
+Las recompensas para aquellos errores especiales que se encuentren en la testnet (como por ejemplo los vinculados a las llamadas de funciones inter-contratos) se han incrementado de forma acorde, y los montos, en NAS, estarán expresados en dólares estadounidenses.
+
+## Reporta un error
+
+Por favor, envíanos tu reporte a través de [este enlace](https://goo.gl/forms/5ysl61Mjpn6yDEuN2).
+
+## Notas
+
+1. Por favor, revisa que tu reporte sea lo más claro y conciso posible, ya que la evaluación de la recompensa estará basada en el contenido del formulario.
+
+1. En el caso de que varias personas descubran un error al mismo tiempo, se valorarán los reportes de acuerdo a su orden cronológico. Los usuarios de la comunidad son libres de discutir acerca de los errores, pero la discusión en sí misma no se considera como reporte; por ello, debe utilizarse el formulario mencionado anteriormente.
+
+1. El programa de recompensas (_Nebulas Bug Bounty Program_) es de largo plazo. El Comité Técnico de Nebulas se reserva el derecho a la interpretación final de este programa, y el derecho de ajustar o cancelar el alcance de las recompensas, el monto y el criterio de selección.
+
+1. El Comité Técnico de Nebulas evaluará y confirmará los reportes de errores en forma posterior a su envío. Los tiempos de evaluación dependerán de la severidad del problema y la dificultad resultante para solucionarlos. El resultado de la evaluación se enviará a quien lo reportó lo antes posible.
+
+1. Para evitar que los errores reportados puedan ser explotados por personas inescrupulosas, quienes reporten un error deben hacerlo únicamente a través del [formulario mencionado más arriba](https://goo.gl/forms/5ysl61Mjpn6yDEuN2).
+
+1. Quienes reporten errores deben mantener los mismos en total confidencialidad al menos hasta pasados 30 días luego de enviar el reporte a Nebulas, y no deben revelar su naturaleza a terceros. Tal periodo de confidencialidad podrá ser extendido de forma unilateral por el equipo de Nebulas. Si quien reporta el error lo revela a terceros, de tal suerte que Nebulas o sus usuarios se vean perjudicados, tal persona deberá costear los gastos derivados del perjuicio a cada una de las partes involucradas.
+
+1. El Comité Técnico de Nebulas alienta a los miembros de la comunidad a discutir cualquier otro tópico en el grupo público de discusión de Nebulas; asimismo, alentamos a la comunidad a unirse a nuestro esfuerzo por solucionar los problemas que se presenten. Siéntete libre de unirte a nuestra [lista de correo de Nebulas](https://lists.nebulas.io/cgi-bin/mailman/listinfo).
