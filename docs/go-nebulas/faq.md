@@ -159,74 +159,78 @@ Hemos pensado en distintas formas de realizar búsquedas en el blockchain:
 
 ### Fundamentos
 
-#### Nebulas Name Service \(NNS\)
+#### Nebulas Name Service (NNS)
 
-By using smart contracts, the Nebulas development team will implement a DNS-like domain system named Nebulas Name Service \(NNS\) on the chain while ensuring that it is unrestricted, free and open. Any third-party developers can implement their own domain name resolution services independently or based on NNS.
+El equipo de Nebulas implementará en su blockchain un sistema de dominios similar al DNS —llamado _Nebulas Name Service_, o NNS—, que será abierto, gratuito e irrestricto. Cualquier desarrollador podrá implementar su propio sistema de resolución de nombres de dominio de forma independiente o bien basado en NNS.
 
-##### When will the Nebulas Name Service be ready?
-
-(en desarrollo).
-
-##### When a name is bid on, how long do others have to place their bid?
+##### ¿Cuándo estará listo este servicio?
 
 (en desarrollo).
 
-##### How do others get notified that a name is being bid on?
+##### Cuando un nombre de dominio recibe una oferta, ¿cuánto tiempo deben mantener las demás personas las suya?
 
 (en desarrollo).
 
-##### When a name is reserved who gets the bid amount?
+##### ¿Cómo serán las notificaciones cuando un nombre de dominio reciba una oferta?
 
 (en desarrollo).
 
-##### If I want to renew my name after one year will I need to deposit more NAS?
+##### Cuando se reserva un nombre de dominio, ¿quién recibe el monto ofertado?
 
 (en desarrollo).
 
-##### Will we be able to reserve names prior to the launch of NNS?
+##### Si deseo renovar mi nombre de dominio luego de un año, ¿debo depositar más NAS?
 
 (en desarrollo).
 
-#### Lightning Network
-
-Nebulas implements the lightning network as the infrastructure of blockchains and offers flexible design. Any third-party developers can use the basic service of lightning network to develop applications for frequent transaction scenarios on Nebulas. In addition, Nebulas will launch the world’s first wallet app that supports the lightning network.
-
-##### When will lightning network be supported?
+##### ¿Será posible reservar nombres de dominio antes del lanzamiento de NNS?
 
 (en desarrollo).
 
-#### The Nebulas Token \(NAS\)
+#### _Lightning Network_
 
-The Nebulas network has its own built-in token, NAS. NAS plays two roles in the network. First, as the original money in the network, NAS provides asset liquidity among users, and functions as the incentive token for PoD bookkeepers and DIP. Second, NAS will be charged as the calculation fee for running smart contracts. The minimum unit of NAS is 10−18 NAS.
+Nebulas implementa _lightning network_ como la infraestructura de su blockchain, ofreciendo un diseño flexible. Cualquier desarrollador puede utilizar el servicio básico de _lightning network_ para desarrollar aplicaciones que trabajen en un escenario de transacciones frecuentes. Además, Nebulas lanzará la primera cartera que da soporte a _lightning network_.
 
-##### What will happen to the Nebulas ERC20 tokens when NAS is launched?
-
-(en desarrollo).
-
-##### Will dApps on the Nebulas platform be able to issue their owns ICOs and tokens?
+##### ¿Cuándo se implementará _lightning network_?
 
 (en desarrollo).
 
-#### Smart Contracts
+#### El token Nebulas (NAS)
 
-##### What languages will be supported when Main-net launches?
+La red de Nebulas posee un token nativo, NAS, que juega dos roles: por un lado, como la divisa original de la red, provee liquidez entre los activos de los usuarios, y funciona como un incentivo para los _contables_ (_bookkeepers_) y para el programa _Developer Incentive Protocol_; por otro lado, NAS será utilizado para realizar el cálculo de las tarifas a pagar para ejecutar contratos inteligentes.
 
-(en desarrollo).
+La unidad mínima de NAS es 1E-18 (0,000000000000000001 NAS).
 
-##### Will Ethereum Smart Contracts \(Solidity\) be fully supported?
 
-(en desarrollo).
-
-##### What other language support will follow \(and when\)?
+##### ¿Qué sucederá con el token ERC20 cuando se lance NAS?
 
 (en desarrollo).
 
-##### binary storage
+##### ¿Los desarrolladores de dApps podrán acuñar tokens y lanzar ICO?
+
+(en desarrollo).
+
+#### Contratos inteligentes
+
+##### ¿Qué lenguajes de programación serán soportados una vez que se lance la mainnet?
+
+(en desarrollo).
+
+##### ¿Habrá soporte completo para Solidity?
+
+(en desarrollo).
+
+##### ¿Qué otros lenguajes de programación recibirán soporte, y cuándo?
+
+(en desarrollo).
+
+<!--
+##### Almacenamiento binario
 
 What is recommended way to store binary data in Nebulas blockchain? Is it possible at all? Do you encourage such use of blockchain? Also, i couldn't find information regarding GlobalContractStorage mentioned in docs, what is it?
 
 > Currently binary data can be stored on chain by binary transaction. The limit size of binary is 128k. But we don’t encourage storing data on the chain because the user might store some illegal data.
->
+
 > `GlobalContractStorage`not currently implemented. It provides support for multiple contract sharing data for the same developer.
 
 ##### ChainID & connect
@@ -259,3 +263,5 @@ Our smart contract deployment, I think is to submit all contract code directly, 
 We don't have any other smart contract ides, like solidity's "Remix"? Or is there documentation detailing which contract parameters can be obtained? \(because I need to implement the random number and realize the logic, I calculate the final random number according to the parameters of the network, so I may need some additional network parameters that will not be manipulated.\)
 
 > You can use [web-wallet](https://github.com/nebulasio/web-wallet) to deploy the contract, it has test function to check the parameters and contract execution result.
+
+-->
