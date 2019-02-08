@@ -8,16 +8,15 @@ Para una mejor comprensión de la plataforma Nebulas se recomienda leer nuestro 
 
 1. [_Nebulas Rank_ \(NR\)](faq.md#nebulas-rank-nr)
 1. [_Nebulas Force_ \(NF\)](faq.md#nebulas-force-nf)
-1. [Protocolo de Incentivo a Desarrolladores \(_Developer Incentive Protocol_, DIP\)](faq.md#developer-incentive-protocol-dip)
-1. [Prueba de Devoción \(_Proof of Devotion_, PoD\)](faq.md#proof-of-devotion-pod-consensus-algorithm)
-1. [Motor de búsqueda Nebulas](faq.md#nebulas-search-engine)
-1. [Fundamentos](faq.md#fundamentals)
-    1. [_Nebulas Name Service_ \(NNS\)](faq.md#nebulas-name-service-nns)
-    1. [Red _Lightning_](faq.md#lightning-network)
-    1. [Token _Nebulas_ \(NAS\)](faq.md#nebulas-token-nas)
-    1. [Contratos inteligentes](faq.md#smart-contracts)
-        1. [Lenguajes soportados](faq.md#what-languages-will-be-supported-when-main-net-launches)
-        1. [Compatibilidad con Ethereum](faq.md#will-ethereum-smart-contracts-solidity-be-fully-supported)
+1. [Protocolo de Incentivo a Desarrolladores](faq.md#protocolo-de-incentivo-a-desarrolladores)
+1. [Prueba de Devoción](faq.md#prueba-de-devocion)
+1. [Motor de búsqueda de Nebulas](faq.md#motor-de-busqueda-de-nebulas)
+1. [Fundamentos](faq.md#fundamentos)
+    1. [Nebulas Name Service](faq.md#nebulas-name-service)
+    1. [Lightning Network](faq.md#lightning-network)
+    1. [Token Nebulas \(NAS\)](faq.md#token-nebulas-nas)
+    1. [Contratos inteligentes](faq.md#contratos-inteligentes)
+    1. [Almacenamiento binario](faq.md#almacenamiento-binario)
 
 ### Nebulas Rank (NR)
 
@@ -71,7 +70,7 @@ Sí.
 
 Sí.
 
-### Protocolo de Incentivo a Desarrolladores (_Developer Incentive Protocol_, DIP)
+### Protocolo de Incentivo a Desarrolladores
 
 Diseñado para mejorar la contrucción de nuestro ecosistema, los incentivos en el token NAS ayudarán a los desarrolladores a crear mayor valor en Nebulas.
 
@@ -101,7 +100,7 @@ La forma en que el sistema está pensado hace realmente difícil manipularlo. Co
 
 Puedes obtener información más detallada en nuestro [whitepaper técnico](https://nebulas.io/docs/NebulasTechnicalWhitepaper.pdf).
 
-### Prueba de Devoción (_Proof of Devotion_, PoD)
+### Prueba de Devoción
 
 Para construir un ecosistema saludable Nebulas propone tres puntos clave en su algoritmo de consenso: rapidez, irreversibilidad y equidad. Al adoptar las ventajas de _Proof of Stake_ y _Proof of Importance_ y al aprovechar _Nebulas Rank_, nuestro algoritmo _Proof of Devotion_ se convertirá en el sistema de consenso más elegido por otros proyectos.
 
@@ -159,7 +158,7 @@ Hemos pensado en distintas formas de realizar búsquedas en el blockchain:
 
 ### Fundamentos
 
-#### Nebulas Name Service (NNS)
+#### Nebulas Name Service
 
 El equipo de Nebulas implementará en su blockchain un sistema de dominios similar al DNS —llamado _Nebulas Name Service_, o NNS—, que será abierto, gratuito e irrestricto. Cualquier desarrollador podrá implementar su propio sistema de resolución de nombres de dominio de forma independiente o bien basado en NNS.
 
@@ -187,7 +186,7 @@ El equipo de Nebulas implementará en su blockchain un sistema de dominios simil
 
 (en desarrollo).
 
-#### _Lightning Network_
+#### Lightning Network
 
 Nebulas implementa _lightning network_ como la infraestructura de su blockchain, ofreciendo un diseño flexible. Cualquier desarrollador puede utilizar el servicio básico de _lightning network_ para desarrollar aplicaciones que trabajen en un escenario de transacciones frecuentes. Además, Nebulas lanzará la primera cartera que da soporte a _lightning network_.
 
@@ -195,7 +194,7 @@ Nebulas implementa _lightning network_ como la infraestructura de su blockchain,
 
 (en desarrollo).
 
-#### El token Nebulas (NAS)
+#### Token Nebulas (NAS)
 
 La red de Nebulas posee un token nativo, NAS, que juega dos roles: por un lado, como la divisa original de la red, provee liquidez entre los activos de los usuarios, y funciona como un incentivo para los _contables_ (_bookkeepers_) y para el programa _Developer Incentive Protocol_; por otro lado, NAS será utilizado para realizar el cálculo de las tarifas a pagar para ejecutar contratos inteligentes.
 
