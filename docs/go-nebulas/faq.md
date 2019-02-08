@@ -224,44 +224,41 @@ La unidad mínima de NAS es 1E-18 (0,000000000000000001 NAS).
 
 (en desarrollo).
 
-<!--
-##### Almacenamiento binario
+#### Almacenamiento binario
 
-What is recommended way to store binary data in Nebulas blockchain? Is it possible at all? Do you encourage such use of blockchain? Also, i couldn't find information regarding GlobalContractStorage mentioned in docs, what is it?
+##### ¿Cuál es la forma recomendada para almacenar datos binarios en el blockchain de Nebulas? ¿Es algo posible? ¿Es recomendable hacerlo? Además, no pude hallar información sobre la función _GlobalContractStorage_ que se menciona en los documentos; ¿de qué se trata?
 
-> Currently binary data can be stored on chain by binary transaction. The limit size of binary is 128k. But we don’t encourage storing data on the chain because the user might store some illegal data.
+Actualmente, se pueden almacenar datos binarios en el blockchain mediante una «transacción binaria». El tamaño máximo para dicha transacción es de 128k. Sin embargo, no aconsejamos el almacenamiento de datos binarios ya que se podría almacenar información ilegal.
 
-> `GlobalContractStorage`not currently implemented. It provides support for multiple contract sharing data for the same developer.
+Si bien `GlobalContractStorage` no se ha implementado aún, podemos decir que permitirá compartir datos entre distintos contratos del mismo desarrollador.
 
-##### ChainID & connect
+#### ChainID y conexión
 
-Can you tell us what the chainID of Mainnet and Testnet is? I have compiled the source code of our nebulas, but not even our test network?
+##### ¿Cuál es el _chainID_ de las redes testnet y mainnet? ¿Cómo configuro la conexión de red?
 
-> chainID of Nebulas:
+###### ChainID de Nebulas:
 
 * Mainnet: 1
 * Testnet: 1001
-* private: default 100, users can customize the values.
+* Private: 100 por defecto, los usuarios pueden personalizar este valor.
 
-> The network connection:
+###### Conexión de red:
 
-* Mainnet:
-  * source code:[master](https://github.com/nebulasio/go-nebulas/tree/master)
-  * wiki:[Mainnet](https://github.com/nebulasio/wiki/blob/master/mainnet.md)
-* Testnet:
-  * source code:[testnet](https://github.com/nebulasio/go-nebulas/tree/testnet)
-  * wiki:[Testnet](https://github.com/nebulasio/wiki/blob/master/testnet.md)
+* Mainnet
+    * [Código fuente](https://github.com/nebulasio/go-nebulas/tree/master)
+    * [Wiki](https://github.com/nebulasio/wiki/blob/master/mainnet.md)
+* Testnet
+    * [Código fuente](https://github.com/nebulasio/go-nebulas/tree/testnet)
+    * [Wiki](https://github.com/nebulasio/wiki/blob/master/testnet.md)
 
-##### smart contract deploy
+#### Implementación de contratos inteligentes
 
-Our smart contract deployment, I think is to submit all contract code directly, is the deployment method like this?
+##### ¿Es posible implementar contratos inteligentes?
 
-> Yeah, We can deploy the contract code directly, just as it is to release code to the NPM repository, which is very simple and convenient.
+> Sí, es totalmente posible implementarlo directamente, tal como harías con un NPM, lo cual es muy sencillo y conveniente.
 
-##### smart contract IDE
+#### IDE para contratos inteligentes
 
-We don't have any other smart contract ides, like solidity's "Remix"? Or is there documentation detailing which contract parameters can be obtained? \(because I need to implement the random number and realize the logic, I calculate the final random number according to the parameters of the network, so I may need some additional network parameters that will not be manipulated.\)
+¿Existe algún IDE (similar a Remix, de Solidity) para Nebulas, o alguna manera de explorar los parámetros de los contratos inteligentes?
 
-> You can use [web-wallet](https://github.com/nebulasio/web-wallet) to deploy the contract, it has test function to check the parameters and contract execution result.
-
--->
+Puedes utilizar nuestra [cartera web](https://github.com/nebulasio/web-wallet) para implementar el contrato; ésta provee una serie de funciones de depuración sobre la testnet y permite inspeccionar los resultados.
