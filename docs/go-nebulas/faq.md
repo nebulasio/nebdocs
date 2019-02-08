@@ -6,255 +6,258 @@ Para una mejor comprensión de la plataforma Nebulas se recomienda leer nuestro 
 
 ## Tabla de contenidos
 
-1. [Nebulas Rank \(NR\)](faq.md#nebulas-rank-nr)
-1. [Nebulas Force \(NF\)](faq.md#nebulas-force-nf)
-1. [Developer Incentive Protocol \(DIP\)](faq.md#developer-incentive-protocol-dip)
-1. [Proof of Devotion \(PoD\) Consensus Algorithm](faq.md#proof-of-devotion-pod-consensus-algorithm)
-1. [Nebulas Search Engine](faq.md#nebulas-search-engine)
-1. [Fundamentals](faq.md#fundamentals)
-    1. [Nebulas Name Service \(NNS\)](faq.md#nebulas-name-service-nns)
+1. [_Nebulas Rank_ \(NR\)](faq.md#nebulas-rank-nr)
+1. [_Nebulas Force_ \(NF\)](faq.md#nebulas-force-nf)
+1. [Protocolo de Incentivo a Desarrolladores](faq.md#protocolo-de-incentivo-a-desarrolladores)
+1. [Prueba de Devoción](faq.md#prueba-de-devocion)
+1. [Motor de búsqueda de Nebulas](faq.md#motor-de-busqueda-de-nebulas)
+1. [Fundamentos](faq.md#fundamentos)
+    1. [Nebulas Name Service](faq.md#nebulas-name-service)
     1. [Lightning Network](faq.md#lightning-network)
-    1. [Nebulas Token \(NAS\)](faq.md#nebulas-token-nas)
-    1. [Smart Contracts](faq.md#smart-contracts)
-        1. [Language Support](faq.md#what-languages-will-be-supported-when-main-net-launches)
-        1. [Ethereum Compatibility](faq.md#will-ethereum-smart-contracts-solidity-be-fully-supported)
+    1. [Token Nebulas \(NAS\)](faq.md#token-nebulas-nas)
+    1. [Contratos inteligentes](faq.md#contratos-inteligentes)
+    1. [Almacenamiento binario](faq.md#almacenamiento-binario)
 
-## Nebulas Rank \(NR\)
+### Nebulas Rank (NR)
 
-Measures value by considering liquidity and propagation of the address. Nebulas Ranking tries to establish a trustful, computable and deterministic measurement approach. With the value ranking system, we will see more and more outstanding applications surfacing on the Nebulas platform.
+Pondera valor a través de los parámetros de liquidez y propagación de la dirección. _Nebulas Ranking_ apunta a establecer un enfoque de medición confiable, computable y determinístico. Con este sistema de valoración veremos más y más aplicaciones descollantes en la plataforma Nebulas.
 
-#### When will Nebulas Rank \(NR\) be ready?
+#### ¿Cuándo estará listo el sistema _Nebulas Rank_?
 
-> answer here
+(en desarrollo).
 
-#### Will dApps with more transactions naturally be ranked higher?
+#### ¿Tendrán más peso las DApps que contengan más transacciones?
 
-> answer here
+(en desarrollo).
 
-#### How does the Nebulas Rank \(NR\) separate quality dApps from highly transacted dApps?
+#### ¿Cómo logra diferenciar _Nebulas Rank_ entre DApps de calidad y DApps con muchas transacciones?
 
-> answer here
+(en desarrollo).
 
-#### Is the Nebulas Ranking algorithm open-source?
+#### ¿El algoritmo de _Nebulas Ranking_ es de código abierto?
 
-> Yes
+Sí.
 
-#### Who can contribute to the algorithm?
+#### ¿Quiénes pueden colaborar en el desarrollo del algoritmo?
 
-> At this time the Nebulas core team is responsible for the development of the algorithm. Over time we will open it up to the community to contribute and vote to determine the future of the algorithm.
+En esta etapa es el equipo de Nebulas el responsable de ese desarrollo. Con el tiempo el código se abrirá a las colaboraciones comunitarias, lo que permitirá que la comunidad tome decisiones y vote para determinar el futuro del algoritmo.
 
-#### Can the Nebulas Rank \(NR\) algorithm be cheated?
+#### ¿Es posible engañar a _Nebulas Rank_?
 
-> We will implement strict manipulation controls, and of course the Nebulas Rank \(NR\) will continually be evolving to meet the needs of the community.
+Implementaremos controles estrictos para evitar la manipulación; por supuesto, _Nebulas Rank_ evolucionará continuamente para cubrir las necesidades de la comunidad.
 
-## Nebulas Force \(NF\)
+### Nebulas Force (NF)
 
-Supports upgrading core protocols and smart contracts on the chains. It provides self-evolving capabilities to Nebulas system and its applications. With Nebulas Force, developers can build rich applications in fast iterations, and the applications can dynamically adapt to community or market changes.
+Ofrece soporte para la actualización de protocolos centrales y contratos inteligentes en los blockchains. Provee la capacidad de auto-evolución que caracteriza a Nebulas y sus aplicaciones. Con este sistema, los desarrolladores pueden construir aplicaciones enriquecidas en lapsos reducidos; al mismo tiempo, permite que esas aplicaciones se pueden adaptar dinámicamente a los cambios de mercado.
 
-#### When will Nebulas Force \(NF\) be ready?
+#### ¿Cuándo estará disponible _Nebulas Force_?
 
-> answer here
+(en desarrollo).
 
-#### Can smart contracts be upgraded?
+#### ¿Es posible actualizar los contratos inteligentes?
 
-> Yes, \[short summary explaining how it works\]
+Si.
 
-#### How is Nebulas Force \(NF\) smart contract upgrading better than other solutions that are currently or soon-to-be available?
+#### ¿De qué manera el sistema de actualización de contratos inteligentes de _Nebulas Force_ es mejor que otras soluciones ya disponibles o que están próximas a lanzarse?
 
-> answer here
+(en desarrollo).
 
-#### Can the Nebulas blockchain protocol code be upgraded without forking?
+#### ¿Es posible actualizar el protocolo del blockchain de Nebulas sin realizar un _fork_?
 
-> Yes, \[short summary explaining how it works\]
+Sí.
 
-#### Can the Nebulas Virtual Machine \(NVM\) be upgraded?
+#### ¿Es posible actualizar el código de la máquina virtual _Nebulas Virtual Machine_?
 
-> Yes, \[short summary explaining how it works\]
+Sí.
 
-## Developer Incentive Protocol \(DIP\)
+### Protocolo de Incentivo a Desarrolladores
 
-Designed to build the blockchain ecosystem in a better way. The Nebulas token incentives will help top developers to create more values in Nebulas.
+Diseñado para mejorar la contrucción de nuestro ecosistema, los incentivos en el token NAS ayudarán a los desarrolladores a crear mayor valor en Nebulas.
 
-#### When will the Developer Incentive Protocol \(DIP\) be ready?
+#### ¿Cuándo estará disponible este protocolo?
 
-> answer here
+(en desarrollo).
 
-#### Will there be a limit as to how many rewards one dApp can receive?
+#### ¿Habrá un límite en la cantidad de recompensas que una sola dApp puede recibir?
 
-> answer here
+(en desarrollo).
 
-#### Will developers still be able to do their own ICOs?
+#### ¿Los desarrolladores podrán lanzar sus propias Ofertas Iniciales de Criptodivisa (ICO)?
 
-> answer here
+(en desarrollo).
 
-#### Will only the top Nebulas Rank \(NR\) dApps receive rewards?
+#### ¿Recibirán recompensas únicamente las dApp mejor posicionadas en _Nebulas Rank_?
 
-> answer here
+(en desarrollo).
 
-#### How often will rewards be given?
+#### ¿Con cuánta frecuencia se entregarán las recompensas?
 
-> answer here
+(en desarrollo).
 
-#### How will you stop cheaters?
+#### ¿Cómo harán para impedir las trampas en este sistema?
 
-> The way the DIP is is designed makes it very hard for cheaters to be successful. Since smart contracts can only be called passively, it would be highly cost ineffective for a user to try to cheat the system. More about this topic can be read in the Technical Whitepaper.
+La forma en que el sistema está pensado hace realmente difícil manipularlo. Como los contratos inteligentes sólo se pueden llamar de forma pasiva, sería muy ineficiente para un usuario, en términos de costos, intentar manipular el sistema.
 
-## Proof of Devotion \(PoD\) Consensus Algorithm
+Puedes obtener información más detallada en nuestro [whitepaper técnico](https://nebulas.io/docs/NebulasTechnicalWhitepaper.pdf).
 
-To build a healthy ecosystem, Nebulas proposes three key points for consensus algorithm: speediness, irreversibility and fairness. By adopting the advantages of PoS and PoI, and leveraging NR, PoD will take the lead in consensus algorithms.
+### Prueba de Devoción
 
-#### When will the Proof of Devotion \(PoD\) Consensus Algorithm be ready?
+Para construir un ecosistema saludable Nebulas propone tres puntos clave en su algoritmo de consenso: rapidez, irreversibilidad y equidad. Al adoptar las ventajas de _Proof of Stake_ y _Proof of Importance_ y al aprovechar _Nebulas Rank_, nuestro algoritmo _Proof of Devotion_ se convertirá en el sistema de consenso más elegido por otros proyectos.
 
-> answer here
+#### ¿Cuándo se implementará el algoritmo _Proof of Devotion_?
 
-#### What consensus algorithm will be used until PoD is ready?
+(en desarrollo).
 
-> answer here
+#### ¿Qué algoritmo de consenso se utilizará mientras se desarrolla _Proof of Devotion_?
 
-#### How are bookkeepers chosen?
+(en desarrollo).
 
-> The PoD consensus algorithm uses the Nebulas Rank \(NR\) to qualify nodes to be eligible. One node from the set is randomly chosen to propose the new block and the rest will become the validators.
+#### ¿Cómo se eligen los _contables_?
 
-#### Do bookkeepers still have to stake?
+El algoritmo _Proof of Devotion_ PoD hace uso de _Nebulas Rank_ para determinar qué nodos son elegibles. A partir de esa preselección, se elige un nodo al azar que realizará la proposición del nuevo bloque; los demás nodos pre-seleccionados realizarán la validación.
 
-> Yes, once chosen to be a validator for a new block, the validator will need to place a deposit to continue.
+#### ¿Los _contables_ tendrán que realizar un depósito?
 
-#### How many validators will there be in each set?
+Sí: una vez que un nodo se elige para realizar una validación, debe realizar un depósito para completar la operación.
 
-> answer here
+#### ¿Cuántos validadores habrá por vez?
 
-#### What anti-cheating mechanisms are there?
+(en desarrollo).
 
-> answer here
+#### ¿Qué tipo de mecanismos anti-fraude se implementarán?
 
-## Nebulas Search Engine
+(en desarrollo).
 
-Nebulas constructs a search engine for decentralized applications based on Nebulas value ranking. Using this engine, users can easily find desired decentralized applications from the massive market.
+### Motor de búsqueda de Nebulas
 
-#### When will the Nebulas Search Engine be ready?
+Nebulas desarrolló un motor de búsqueda para aplicaciones descentralizadas, basado en su sistema de ranking de valor. Al usar este motor, los usuarios podrán encontrar fácilmente distintas aplicaciones descentralizadas en el mercado.
 
-> answer here
+#### ¿Cuándo estará disponible este sistema?
 
-#### Will you be able to search dApps not on the Nebulas platform?
+(en desarrollo).
 
-> answer here
+#### ¿Será posible buscar dApps que no están en la plataforma Nebulas?
 
-#### Will the Nebulas Search Engine also be decentralized?
+(en desarrollo).
 
-> answer here
+#### ¿El motor de búsqueda estará también descentralizado?
 
-#### Will the Nebulas Rank \(NR\) control the search results ranking?
+(en desarrollo).
 
-> answer here
+#### ¿Habrá un control de _Nebulas Rank_ sobre los resultados de la búsqueda?
 
-#### What data will you be able to search?
+(en desarrollo).
 
-> We plan many different ways to be able to search the blockchain:
->
-> * crawl relevant webpages and establish mapping between them and the smart contracts
-> * analyze the code of open-source smart contracts
-> * establish contract standards that enable easier searching
+#### ¿Qué tipo de información se podrá buscar?
 
-## Fundamentals
+Hemos pensado en distintas formas de realizar búsquedas en el blockchain:
 
-### Nebulas Name Service \(NNS\)
+* Indizar sitios web relevantes y establecer un mapeo entre ellos y los contratos inteligentes.
+* Analizar el código de los contratos inteligentes de código abierto.
+* Establecer estándares para los contratos inteligentes, de modo que la búsqueda resulte más sencilla.
 
-By using smart contracts, the Nebulas development team will implement a DNS-like domain system named Nebulas Name Service \(NNS\) on the chain while ensuring that it is unrestricted, free and open. Any third-party developers can implement their own domain name resolution services independently or based on NNS.
+### Fundamentos
 
-#### When will the Nebulas Name Service be ready?
+#### Nebulas Name Service
 
-> answer here
+El equipo de Nebulas implementará en su blockchain un sistema de dominios similar al DNS —llamado _Nebulas Name Service_, o NNS—, que será abierto, gratuito e irrestricto. Cualquier desarrollador podrá implementar su propio sistema de resolución de nombres de dominio de forma independiente o bien basado en NNS.
 
-#### When a name is bid on, how long do others have to place their bid?
+##### ¿Cuándo estará listo este servicio?
 
-> answer here
+(en desarrollo).
 
-#### How do others get notified that a name is being bid on?
+##### Cuando un nombre de dominio recibe una oferta, ¿cuánto tiempo deben mantener las demás personas las suya?
 
-> answer here
+(en desarrollo).
 
-#### When a name is reserved who gets the bid amount?
+##### ¿Cómo serán las notificaciones cuando un nombre de dominio reciba una oferta?
 
-> answer here
+(en desarrollo).
 
-#### If I want to renew my name after one year will I need to deposit more NAS?
+##### Cuando se reserva un nombre de dominio, ¿quién recibe el monto ofertado?
 
-> answer here
+(en desarrollo).
 
-#### Will we be able to reserve names prior to the launch of NNS?
+##### Si deseo renovar mi nombre de dominio luego de un año, ¿debo depositar más NAS?
 
-> answer here
+(en desarrollo).
 
-### Lightning Network
+##### ¿Será posible reservar nombres de dominio antes del lanzamiento de NNS?
 
-Nebulas implements the lightning network as the infrastructure of blockchains and offers flexible design. Any third-party developers can use the basic service of lightning network to develop applications for frequent transaction scenarios on Nebulas. In addition, Nebulas will launch the world’s first wallet app that supports the lightning network.
+(en desarrollo).
 
-#### When will lightning network be supported?
+#### Lightning Network
 
-> answer here
+Nebulas implementa _lightning network_ como la infraestructura de su blockchain, ofreciendo un diseño flexible. Cualquier desarrollador puede utilizar el servicio básico de _lightning network_ para desarrollar aplicaciones que trabajen en un escenario de transacciones frecuentes. Además, Nebulas lanzará la primera cartera que da soporte a _lightning network_.
 
-### The Nebulas Token \(NAS\)
+##### ¿Cuándo se implementará _lightning network_?
 
-The Nebulas network has its own built-in token, NAS. NAS plays two roles in the network. First, as the original money in the network, NAS provides asset liquidity among users, and functions as the incentive token for PoD bookkeepers and DIP. Second, NAS will be charged as the calculation fee for running smart contracts. The minimum unit of NAS is 10−18 NAS.
+(en desarrollo).
 
-#### What will happen to the Nebulas ERC20 tokens when NAS is launched?
+#### Token Nebulas (NAS)
 
-> answer here
+La red de Nebulas posee un token nativo, NAS, que juega dos roles: por un lado, como la divisa original de la red, provee liquidez entre los activos de los usuarios, y funciona como un incentivo para los _contables_ (_bookkeepers_) y para el programa _Developer Incentive Protocol_; por otro lado, NAS será utilizado para realizar el cálculo de las tarifas a pagar para ejecutar contratos inteligentes.
 
-#### Will dApps on the Nebulas platform be able to issue their owns ICOs and tokens?
+La unidad mínima de NAS es 1E-18 (0,000000000000000001 NAS).
 
-> answer here
 
-### Smart Contracts
+##### ¿Qué sucederá con el token ERC20 cuando se lance NAS?
 
-#### What languages will be supported when Main-net launches?
+(en desarrollo).
 
-> answer here
+##### ¿Los desarrolladores de dApps podrán acuñar tokens y lanzar ICO?
 
-#### Will Ethereum Smart Contracts \(Solidity\) be fully supported?
+(en desarrollo).
 
-> answer here
+#### Contratos inteligentes
 
-#### What other language support will follow \(and when\)?
+##### ¿Qué lenguajes de programación serán soportados una vez que se lance la mainnet?
 
-> answer here
+(en desarrollo).
 
-#### binary storage
+##### ¿Habrá soporte completo para Solidity?
 
-What is recommended way to store binary data in Nebulas blockchain? Is it possible at all? Do you encourage such use of blockchain? Also, i couldn't find information regarding GlobalContractStorage mentioned in docs, what is it?
+(en desarrollo).
 
-> Currently binary data can be stored on chain by binary transaction. The limit size of binary is 128k. But we don’t encourage storing data on the chain because the user might store some illegal data.
->
-> `GlobalContractStorage`not currently implemented. It provides support for multiple contract sharing data for the same developer.
+##### ¿Qué otros lenguajes de programación recibirán soporte, y cuándo?
 
-#### ChainID & connect
+(en desarrollo).
 
-Can you tell us what the chainID of Mainnet and Testnet is? I have compiled the source code of our nebulas, but not even our test network?
+#### Almacenamiento binario
 
-> chainID of Nebulas:
+##### ¿Cuál es la forma recomendada para almacenar datos binarios en el blockchain de Nebulas? ¿Es algo posible? ¿Es recomendable hacerlo? Además, no pude hallar información sobre la función _GlobalContractStorage_ que se menciona en los documentos; ¿de qué se trata?
+
+Actualmente, se pueden almacenar datos binarios en el blockchain mediante una «transacción binaria». El tamaño máximo para dicha transacción es de 128k. Sin embargo, no aconsejamos el almacenamiento de datos binarios ya que se podría almacenar información ilegal.
+
+Si bien `GlobalContractStorage` no se ha implementado aún, podemos decir que permitirá compartir datos entre distintos contratos del mismo desarrollador.
+
+#### ChainID y conexión
+
+##### ¿Cuál es el _chainID_ de las redes testnet y mainnet? ¿Cómo configuro la conexión de red?
+
+###### ChainID de Nebulas:
 
 * Mainnet: 1
 * Testnet: 1001
-* private: default 100, users can customize the values.
+* Private: 100 por defecto, los usuarios pueden personalizar este valor.
 
-> The network connection:
+###### Conexión de red:
 
-* Mainnet:
-  * source code:[master](https://github.com/nebulasio/go-nebulas/tree/master)
-  * wiki:[Mainnet](https://github.com/nebulasio/wiki/blob/master/mainnet.md)
-* Testnet:
-  * source code:[testnet](https://github.com/nebulasio/go-nebulas/tree/testnet)
-  * wiki:[Testnet](https://github.com/nebulasio/wiki/blob/master/testnet.md)
+* Mainnet
+    * [Código fuente](https://github.com/nebulasio/go-nebulas/tree/master)
+    * [Wiki](https://github.com/nebulasio/wiki/blob/master/mainnet.md)
+* Testnet
+    * [Código fuente](https://github.com/nebulasio/go-nebulas/tree/testnet)
+    * [Wiki](https://github.com/nebulasio/wiki/blob/master/testnet.md)
 
-#### smart contract deploy
+#### Implementación de contratos inteligentes
 
-Our smart contract deployment, I think is to submit all contract code directly, is the deployment method like this?
+##### ¿Es posible implementar contratos inteligentes?
 
-> Yeah, We can deploy the contract code directly, just as it is to release code to the NPM repository, which is very simple and convenient.
+> Sí, es totalmente posible implementarlo directamente, tal como harías con un NPM, lo cual es muy sencillo y conveniente.
 
-#### smart contract IDE
+#### IDE para contratos inteligentes
 
-We don't have any other smart contract ides, like solidity's "Remix"? Or is there documentation detailing which contract parameters can be obtained? \(because I need to implement the random number and realize the logic, I calculate the final random number according to the parameters of the network, so I may need some additional network parameters that will not be manipulated.\)
+¿Existe algún IDE (similar a Remix, de Solidity) para Nebulas, o alguna manera de explorar los parámetros de los contratos inteligentes?
 
-> You can use [web-wallet](https://github.com/nebulasio/web-wallet) to deploy the contract, it has test function to check the parameters and contract execution result.
-
+Puedes utilizar nuestra [cartera web](https://github.com/nebulasio/web-wallet) para implementar el contrato; ésta provee una serie de funciones de depuración sobre la testnet y permite inspeccionar los resultados.
