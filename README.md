@@ -6,7 +6,7 @@ Nebulas community is open and everyone can be a contributor and build a decentra
 
 The Nebulas wiki is a collaboration tool for the community to publish various documents in a collaborative manner. Include using guides, developing guides, learning resources, and other useful documents. 
 
-The mainnet development part of this Nebulas Wiki was based on ["the wiki"](https://github.com/nebulasio/wiki). 
+The mainnet development part of this Nebulas Wiki was based on ["the wiki."](https://github.com/nebulasio/wiki) 
 
 
 # How to Contribute
