@@ -1,61 +1,64 @@
-# Logs
+# Registros
 
-## Introduction
+## Introducción
 
-Nebulas provides two kinds of logs: console log & verbose log.
+Nebulas provee dos tipos de registro: registro de consola & registro _verbose_.
 
-### Console Log
+### Registro de consola
 
-Console Log\(CLog\) is used to help you understand which job **Neb** is working on now, including start/stop components, receive new blocks on chain, do synchronization and so on.
+El **registro de consola** (Console Log o CLog) se usa para para ayudar a los desarrolladores a comprender qué tipo de trabajo **Neb** se está ejecutando, incluyendo inicios y paradas de componentes, recepción de nuevos bloques en el _blockchain_, sincronización, etc.
 
-* CLog will print all logs to stdout & log files both. You can check them in your standard output directly.
+CLog escribirá todos sus registros en stdout y en archivos de registro al mismo tiempo. Puedes ver ese registro directamente por la salida estándar.
 
-Nebulas console log statements
+Instrucciones de la consola de registros Nebulas
 
 ```text
-// log level can be `Info`,`Warning`,`Error`
+// el nivel de registro puede ser `Info`, `Warning` y `Error`
 logging.CLog().Info("")
 ```
 
-#### Startup specifications
+#### Especificaciones de inicio de servicios
 
-Nebulas start service should give a console log, the logs should before the service start. The log format just like this:
-
-```text
-logging.CLog().Info("Starting xxx...")
-```
-
-#### Stopping specifications
-
-Nebulas stop service should give a console log, the logs should before the service stoped. The log format just like this:
+Al iniciarse un servicio Nebulas se debería crear un registro de consola, que se debe emitir inmediatamente antes de iniciar el servicio. Para ello, basta con ejecutar el siguiente comando:
 
 ```text
-logging.CLog().Info("Stopping xxx...")
+logging.CLog().Info("Iniciando servicio xxxxxx...")
 ```
 
-### Verbose Log
+#### Especificaciones de parada de servicios
 
-Verbose Log\(VLog\) is used to help you understant how **Neb** works on current job, including how to verifiy new blocks, how to discover new nodes, how to mint and so on.
+Al detenerse un servicio Nebulas se debería crear un registro de consola, que se debe emitir inmediatamente antes de detener el servicio. Para ello, basta con ejecutar el siguiente comando:
 
-* VLog will print logs to log files only. You can check them in your log folders if needed.
+```text
+logging.CLog().Info("Deteniendo servicio xxx...")
+```
 
-What'r more, you can set your concerned level to VLog to filter informations. The level filter follows the priority as **Debug &lt; Info &lt; Warn &lt; Error &lt; Fatal.**
+### Registro _verbose_
 
-## Hookers
+Este tipo de registro (Verbose Log, o VLog) es útil para depurar cualquier trabajo **Neb**, o para entender su funcionamiento; esto incluye la verificación de bloques, el descubrimiento de nuevos nodos, emisión de tokens, etc.
 
-By default, Function hookers & FileRotate hookers are added to CLog & VLog both.
+* VLog escribirá sus registros únicamente en archivos de registro. Puedes consultarlos en tu carpeta de registro si lo deseas.
 
-### FunctionNameHooker
+Es posible filtrar el nivel de _verbosidad_ de este registro; los niveles son **Debug &lt; Info &lt; Warn &lt; Error &lt; Fatal.**
 
-FunctionHooker will append current caller's function name & code line to the loggers. The result looks like this,
+## _Hooking_
 
-> time="2018-01-03T20:20:52+08:00" level=info msg="node init success" file=net\_service.go **func=p2p.NewNetManager** **line=137** node.listen="\[0.0.0.0:10001\]"
+Por defecto, los _hooks_ Function y FileRotate se añaden a la salida de CLog y VLog.
 
-### FileRotateHooker
+### _FunctionNameHooker_
 
-FileRotateHooker will split logs into many smaller segments by time. By default, all logs will be rotated every 1 hour. The log folder looks like this,
+Este _hook_ escribirá en los registros el nombre de la función llamante y su correspondiente número de línea en el código fuente. El resultado se vería así:
 
+```text
+time="2018-01-03T20:20:52+08:00" level=info msg="node init success" file=net\_service.go **func=p2p.NewNetManager** **line=137** node.listen="\[0.0.0.0:10001\]"
+```
+
+### _FileRotateHooker_
+
+Este _hook_ dividirá los registros en pequeñas secciones encabezadas por _fecha_. Por defecto, todos los registros se reemplazarán una vez por hora. La carpeta de registros debería verse de forma similar a esta:
+
+```text
 > neb-2018010415.log neb-2018010416.log neb.log -&gt; /path/to/neb-2018010415.log
+```
 
-If you have any suggestions about logs, please feel free to submit issues on our [wiki](https://github.com/nebulasio/wiki) repo. Thanks!
-
+Si tienes alguna sugerencia con respecto a los registros, siéntete libre de enviar un issue a nuestro [repositorio wiki](https://github.com/nebulasio/wiki). ¡Gracias!
