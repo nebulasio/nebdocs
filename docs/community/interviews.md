@@ -1,5 +1,9 @@
 # 人物专访
 
+## 星云联合创始人王冠
+
+- **[王冠：今年Nebulas NOVA将助力星云从公司化向社区化转型](https://mp.weixin.qq.com/s/j_jmWMkFIDLY2wcT8PBStw)**(2019-2-15)
+
 ## 星云研究院
 
 - **专访星云研究院院长范学鹏：[组建星云研究院，一个“学鹏”就够了](https://blog.nebulas.io/2018/12/03/take-the-lead-to-set-up-nebulas-research-institute/)**
