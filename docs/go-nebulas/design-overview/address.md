@@ -1,50 +1,53 @@
-# Nebulas Address Design
+# Sistema de direcciones Nebulas
 
-Nebulas address system is carefully designed. As you will see below, both account and smart contract address are strings starting with a "n", which could be thought of as our faith Nebulas/NAS.
+El sistema de direcciones Nebulas fue diseñado cuidadosamente. Como puedes ver más abajo, las direcciones de cuentas y contratos inteligentes comienzan con una letra "n".
 
-## Account Address
+## Direcciones de cuentas
 
-Similar to Bitcoin and Ethereum, Nebulas also adopts elliptic curve algorithm as its basic encryption algorithm for Nebulas accounts. The address is derived from **public key**, which is in turn derived from the **private key** that encrypted with user's **passphrase**.Also we have the checksum design aiming to prevent a user from sending _Nas_ to a wrong user account accidentally due to entry of several incorrect characters.
+De una forma similar a Bitcoin y Ethereum, Nebulas adopta el algoritmo de curvas elípticas como su sistema básico de encriptación para las cuentas Nebulas. La dirección se deriva de una clave pública que a su vez deriva de una clave privada, encriptada con la contraseña del usuario. Además, nuestro diseño de _checksum_ apunta a prevenir que un usuario accidentalmente envíe _NAS_ a la cuenta incorrecta debido a un error de tipeo.
 
-The specific calculation formula is as follows:
+La fórmula específica de cálculo de direcciones es la siguiente:
 
 ```text
-1.  content = ripemd160(sha3_256(public key))
-    length: 20 bytes
+1.  contenido = ripemd160(sha3_256(clave pública))
+    longitud: 20 bytes
                          +--------+--------+------------------+
-2.  checksum = sha3_256( |  0x19  +  0x57  |      content     | )[:4]
+2.  checksum = sha3_256( |  0x19  +  0x57  |      contenido   | )[:4]
                          +--------+--------+------------------+
-    length: 4 bytes
+    longitud: 4 bytes
 
                         +--------+---------+-----------------+------------+
-3.  address = base58( |    0x19  |  0x57   |     content     |  checksum  | ）
+3.  dirección = base58( |    0x19  |  0x57   |     contenido |  checksum  | ）
                         +--------+---------+-----------------+------------+
-    length: 35 chars
+    longitud: 35 caracteres
 ```
 
-**0x57** is a one-byte "type code" for account address, **0x19** is a one-byte fixed "padding"
+**0x57** es un _type code_ de un byte que indica que la dirección es de una cuenta; **0x19** es un _relleno_ de un byte.
 
-At this stage, Nebulas just adopts the normal bitcoin [base58](https://en.wikipedia.org/wiki/Base58) encoding schema. A valid address is like: _n1TV3sU6jyzR4rJ1D7jCAmtVGSntJagXZHC_
+En esta etapa, Nebulas adopta el estándar de codificación [base58](https://en.wikipedia.org/wiki/Base58), similar al de Bitcoin.
 
-## Smart Contract Address
+Una dirección válida se ve así: _n1TV3sU6jyzR4rJ1D7jCAmtVGSntJagXZHC_.
 
-Calculating contract address differs slightly from account, passphrase of contract sender is not required but address & nonce. For more information, please check [smart contract](https://github.com/nebulasio/wiki/blob/master/tutorials/[English]%20Nebulas%20101%20-%2003%20Smart%20Contracts%20JavaScript.md) and [rpc.sendTransaction](https://github.com/nebulasio/wiki/blob/master/rpc.md#sendtransaction). Calculation formula is as follows:
+## Direcciones de contratos inteligentes
+
+El cálculo de estas direcciones varía ligeramente del cálculo anterior. Para más información, véase [contratos inteligentes](https://github.com/nebulasio/wiki/blob/master/tutorials/[English]%20Nebulas%20101%20-%2003%20Smart%20Contracts%20JavaScript.md) y [rpc.sendTransaction](https://github.com/nebulasio/wiki/blob/master/rpc.md#sendtransaction).
+
+La fórmula específica de cálculo de contratos inteligentes es la siguiente:
 
 ```text
 1.  content = ripemd160(sha3_256(tx.from, tx.nonce))
     length: 20 bytes
                          +--------+--------+------------------+
-2.  checksum = sha3_256( |  0x19  |  0x58  +      content     | )[:4]
+2.  checksum = sha3_256( |  0x19  |  0x58  +      contenido   | )[:4]
                          +--------+--------+------------------+
-    length: 4 bytes
+    longitud: 4 bytes
 
-                      +--------+---------+-----------------+------------+
-3.  address = base58( |  0x19  |  0x58   |     content     |  checksum  | ）
-                      +--------+---------+-----------------+------------+
-    length: 35 chars
+                         +--------+---------+-----------------+------------+
+3.  dirección = base58 ( |  0x19  |  0x58   |     contenido   |  checksum  | ）
+                         +--------+---------+-----------------+------------+
+    longitud: 35 caracteres
 ```
 
-**0x58** is a one-byte "type code" for smart contract address, **0x19** is a one-byte fixed "padding"
+**0x58** es un _type code_ de un byte que indica que la dirección es de un contrato inteligente; **0x19** es un _relleno_ de un byte.
 
-A valid address is like: _n1sLnoc7j57YfzAVP8tJ3yK5a2i56QrTDdK_
-
+Una dirección de contrato inteligente válida es, por ejemplo: _n1sLnoc7j57YfzAVP8tJ3yK5a2i56QrTDdK_
