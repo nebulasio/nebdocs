@@ -1,4 +1,6 @@
 # 动态
+
+- [种子选手纷纷掉队，黑马包揽全部NAS奖励（有视频彩蛋)](https://blog.nebulas.io/2019/02/19/the-seed-players-have-fallen-behind-and-the-dark-horses-have-all-the-nas-rewards-there-are-video-eggs/)
 - [王冠：今年Nebulas NOVA将助力星云从公司化向社区化转型](https://blog.nebulas.io/2019/02/15/nebulas-nova-will-play-a-key-role-in-transforming-nebulas-from-a-corporate-model-to-a-community-model/)
 - [第二名奋起直追，Nebulas NOVA DIP开发者博弈初现](https://blog.nebulas.io/2019/02/12/the-second-place-to-catch-up-the-nebulas-nova-dip-developer-game-is-beginning-to-appear/)
 - [大年初一，看谁拿走了上周NOVA开发者激励95%奖金](https://blog.nebulas.io/2019/02/06/on-new-years-day-see-who-took-the-95-bonus-from-nebulas-nova-testnet-developers-last-week/)
