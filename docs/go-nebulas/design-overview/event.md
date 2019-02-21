@@ -1,6 +1,6 @@
-# Event functionality
+# Funcionalidad de los eventos
 
-The `Event` functionality is used to make users or developers subscribe interested events. These events are generated during the execution of the blockchain, and they record the key execution steps and execution results of the chain. To query and verify the execution results of transactions and smart contracts, we record these two types of events into a trie and save them to the chain.
+La funcionalidad `Event` se utiliza para que los desarrolladores y los usuarios puedan suscribirse a eventos de su interés. Estos eventos se generan durante la ejecución del _blockchain_, y almacenan los pasos de la ejecución y sus resultados en el _chain_. To query and verify the execution results of transactions and smart contracts, we record these two types of events into a trie and save them to the chain.
 
 Event structure:
 
@@ -99,4 +99,3 @@ Only events recorded on the chain can be queried using the RPC interface [GetEve
 
 * [TopicTransactionExecutionResult](event.md#topictransactionexecutionresult)
 * [EventNameSpaceContract](event.md#eventnamespacecontract)
-

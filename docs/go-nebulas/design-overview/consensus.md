@@ -1,32 +1,33 @@
-# Consensus
+# Consenso
 
-We think each consensus algorithm can be described as the combination of State Machine and Fork Choice Rules.
+Cada algoritmo de consenso puede ser descripto como una combinación de _State Machine_ y _Fork Choice Rules_.
 
-## DPoS\(Delegate Proof-of-Stake\)
+## DPoS (Delegate Proof-of-Stake)
 
-> **Notice** For Nebulas, the primary consensus algorithm should be PoD, the DPoS algorithm is just a temporary solution. After the formal verification of PoD algorithm, we will transition mainnet to PoD. All witness \(bookkeeper/miner\) of DPoS are now accounts officially maintained by Nebulas. We will make sure a smooth transition from DPoS to PoD. We will create new funds to manage all the rewards of bookkeeping. And we will NOT sell those NAS on exchanges. All NAS will be used for building the Nebulas ecosystem, for example, rewarding DApp developers on Nebulas. And we will provide open access to all the spending of these rewards periodically.
+DPoS puede ser descrita como una _state machine_ o máquina de estado finito.
 
-As for the DPoS in Nebulas, it can also be decribed as a state machine.
+### Advertencia
 
-### State Machine
+El consenso en Nebulas será _PoD_; la elección del algoritmo DPoS es sólo una solución temporaria. Luego de la verificación formal del algoritmo _PoD_, haremos la transición de la _mainnet_ a ese algoritmo definitivo. Todos los _testigos_ (contables y mineros) de DPoS son, por ahora, cuantas mantenidas oficialmente por Nebulas; nos encargaremos de realizar una transición suave de DPoS a PoD y crearemos un nuevo fondo para administrar todas las recompensas para los contables y para incentivar el crecimiento de nuestro ecosistema.
+
+### _State Machine_
 
 ![](../../resources/dpos.png)
 
-### Fork Choice Rules
+### _Fork Choice Rules_
 
-1. Always choose the longest chain as the canonical chain.
-2. If A and B has the same length, we choose the one with smaller hash.
+1. Se debe elegir la ruta más larga como la ruta canónica.
+1. Si las rutas A y B tienen la misma longitud, se debe elegir aquella con el menor _hash_.
 
-## PoD \(Proof-of-Devotion\)
+## PoD (Proof-of-Devotion), o Prueba de Devoción
 
-Here is a draft of PoD. The research on PoD is ongoing [here](https://github.com/nebulasio/research/tree/master/pod).
+Actualmente este algoritmo se encuentra en desarrollo; puedes encontrar una versión [aquí](https://github.com/nebulasio/research/tree/master/pod).
 
-### State Machine
+### _State Machine_
 
 ![](../../resources/pod.png)
 
-### Fork Choice Rules
+### _Fork Choice Rules_
 
-1. Always to choose the chain with highest sum of commit votes.
-2. If A and B has the same length, we choose the one with smaller hash.
-
+1. Se debe elegir la cadena (chain) con la mayor cantidad de votos.
+1. Si los _chains_ A y B tienen la misma cantidad de votos, se debe elegir aquel con el menor _hash_.
