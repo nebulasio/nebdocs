@@ -1,6 +1,6 @@
 # Blockchain
 
-## Model
+## Modelo
 
 Nebulas use accounts model instead of UTXO model. The execution of transactions will consume gas.
 
@@ -169,4 +169,3 @@ This procedure will repeat until A catch up with the canonical chain.
 Here is a diagram of this download procedure:
 
 ![](../../resources/the-diagram-of-download-process.png)
-
