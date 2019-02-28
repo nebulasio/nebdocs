@@ -6,6 +6,8 @@ Cuando se envía una transacción es necesario chequear el chain correspondiente
 
 ### Vía RPC u otro nodo de _broadcasting_
 
+<!-- From here on, instructions are not clear, so I'm unable to perform a full translation -->
+
 * Api SendRawTransaction Verification below steps when exist fail, then return err
 * check whether fromAddr and toAddr is valid \(tx proto verification\)
 * check len of Payload <= MaxDataPayLoadLength \(tx proto verification\)
