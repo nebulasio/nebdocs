@@ -1,6 +1,7 @@
 # 动态
 
 - [星云研究院关于DAG最新研究：Avalanche论文解读（一）](https://blog.nebulas.io/2019/02/27/nebulas-research-teams-latest-research-on-dag-interpretation-of-avalanches-paper-1/)
+- [出人意料！第二名强势反击几近赢得全部NAS奖励(Nebulas NOVA测试网激励计划第5周数据总结）](https://mp.weixin.qq.com/s/TZcH-2eNYU6_4ZHhOge7LA)
 - [种子选手纷纷掉队，黑马包揽全部NAS奖励（有视频彩蛋)](https://blog.nebulas.io/2019/02/19/the-seed-players-have-fallen-behind-and-the-dark-horses-have-all-the-nas-rewards-there-are-video-eggs/)
 - [王冠：今年Nebulas NOVA将助力星云从公司化向社区化转型](https://blog.nebulas.io/2019/02/15/nebulas-nova-will-play-a-key-role-in-transforming-nebulas-from-a-corporate-model-to-a-community-model/)
 - [第二名奋起直追，Nebulas NOVA DIP开发者博弈初现](https://blog.nebulas.io/2019/02/12/the-second-place-to-catch-up-the-nebulas-nova-dip-developer-game-is-beginning-to-appear/)
