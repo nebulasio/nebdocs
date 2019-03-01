@@ -2,170 +2,190 @@
 
 ## Modelo
 
-Nebulas use accounts model instead of UTXO model. The execution of transactions will consume gas.
+Nebulas utiliza un modelo de cuentas en vez del modelo UTXO (_[Unspent Transaction Output](https://en.wikipedia.org/wiki/Unspent_transaction_output)_). La ejecución de transacciones requiere el consumo de _gas_.
 
-## Data Structure
+## Estructura de datos
+
+### Estructura de los bloques
 
 ```text
-Block Structure
 +---------------+----------------+--------------+
-|  blockHeader  |  transactions  |  dependency  |
+|  blockHeader  |  transacciones | dependencias |
 +---------------+----------------+--------------+
-blockHeader: header info
-transactions: transactions array
-dependency: the dependency relationship among transactions
+```
 
-Block Header Structure
+* blockHeader: información de encabezado
+* transactions: matriz de transacciones
+* dependency: relación de dependencias entre transacciones
+
+### Estructura del encabezado de los bloques
+
+```text
 +-----------+--------+--------------+------------+-------------+-------+--------+
 |  chainid  |  hash  |  parentHash  |  coinbase  |  timestamp  |  alg  |  sign  |
 +-----------+--------+--------------+------------+-------------+-------+--------+
 +-------------+-----------+--------------+-----------------+
 |  stateRoot  |  txsRoot  |  eventsRoot  |  consensusRoot  |
 +-------------+-----------+--------------+-----------------+
-chainid: chain identity the block belongs to
-hash: block hash
-parentHash: parent block hash
-coinbase: account to receive the mint reward
-timestamp: the number of nanoseconds elapsed since January 1, 1970 UTC
-alg: the type of signature algorithm
-sign: the signature of block hash
-stateRoot: account state root hash
-txsRoot: transactions state root hash
-eventsRoot: events state root hash
-consensusRoot: consensus state, including proposer and the dynasty of validators
+```
 
+* chainid: identificador de la cadena a la que pertenece el bloque
+* hash: hash del bloque
+* parentHash: hash del bloque padre
+* coinbase: cuenta que recibirá la _recompensa de acuñación_ (minting reward)
+* timestamp: el número de nanosegundos transcurridos desde el 1 de enero de 1970, UTC
+* alg: algoritmo de firma (_signature_) utilizado
+* sign: firma del hash del bloque
+* stateRoot: hash raíz del estado de cuenta
+* txsRoot: hash raíz del estado de la transacción
+* eventsRoot: hash raíz del estado de los eventos
+* consensusRoot: estado del consenso, incluyendo proponente y dinastía de validadores
 
-Transaction Structure
+### Estructura de las transacciones
+
+```text
 +-----------+--------+--------+------+---------+---------+-------------+
 |  chainid  |  hash  |  from  |  to  |  value  |  nonce  |  timestamp  |
 +-----------+--------+--------+------+---------+---------+-------------+
 +--------+------------+------------+
 |  data  |  gasPrice  |  gasLimit  |
 +--------+------------+------------+
-chainid: chain identity the block belongs to
-hash: transaction hash
-from: sender's wallet address
-to: receiver's wallet address
-value: transfer value
-nonce: transaction nonce
-timestamp: the number of seconds elapsed since January 1, 1970 UTC
-alg: the type of signature algorithm
-sign: the signature of block hash
-data: transaction data, including the type of transaction(binary transfer/deploy smart contracts/call smart contracts) and payload
-gasPrice: the price of each gas consumed by the transaction
-gasLimit: the max gas that can be consumed by the transaction
 ```
 
-## Blockchain Update
+* chainid: identificador de la cadena a la que pertenece el bloque
+* hash: hash de la transacción
+* from: dirección de la cartera del emisor
+* to: dirección de la cartera del receptor
+* value: monto transferido
+* nonce: _nonce_ de la transacción
+* timestamp: el número de nanosegundos transcurridos desde el 1 de enero de 1970, UTC
+* alg: algoritmo de firma (_signature_) utilizado
+* sign: firma del hash del bloque
+* data: datos de la transacción, incluyendo el tipo de transacción (binaria, implementación de contrato inteligente, llamada a contrato inteligente) y su _payload_.
+* gasPrice: el precio unitario del gas consumido por la transacción
+* gasLimit: la cantidad máxima permitida de gas a consumir en la transacción
 
-In our opinion, **Blockchain** only needs to care about how to process new blocks to grow up safely and efficiently. What's more, **Blockchain** can only get new blocks in the following two channels.
+## Actualización del blockchain
 
-### A new block from network
+En nuestra opinión, un blockchain debería ocuparse únicamente de procesar nuevos bloques para lograr un crecimiento seguro y eficiente. Aun más: un blockchain sólo puede obtener nuevos bloques a través de dos canales, que detallamos a continuación.
 
-Because of the unstable network latency, we cannot make sure any new block received can be linked to our current **Chain** directly. Thus, we need the **Blocks Pool** to cache new blocks.
+### Desde la red
 
-### A new block from local miner
+A causa de la inestabilidad en la latencia de la red, es imposible asegurar directamente que los nuevos bloques recibidos se puedan vincular a la cadena actual. Así, se hace necesaria la implementación de _pozos de bloque_ (_blocks pool_) para almacenar los nuevos bloques.
 
-At first, we need the **Transactions Pool** to cache transactions from network. Then, we wait for a new block created by local **Consensus** component, such as DPoS.
+### Desde un minero local
 
-No matter where a new block comes from, we use the same steps to process it as following.
+En principio, necesitamos que el **pozo de transacciones** almacene las transacciones recibidas desde la red. A partir de ello, es necesario esperar a que se genere un nuevo bloque a través de un componente local de consenso, tal como _DPoS_.
+
+Sin importar la procedencia del nuevo bloque, Nebulas utiliza los mismos pasos para procesarlo; veamos esos pasos en detalle.
 
 ![](../../resources/blockpool.png)
 
-## World State
+## Estado global
 
-Every block contains the current world state, consist of following four states. They are all maintained as [Merkle Trees](merkle_trie.md).
+Cada bloque contiene el estado global, que se compone del estado de cuatro componentes que detallamos abajo. Todos ellos son mantenidos mediante [Merkle Trees](merkle_trie.md).
 
-### Accounts State
+### Estado de cuentas
 
-All accounts in current block are stored in Accounts State. Accounts are divided into two kinds, normal account & smart contract account.
+Todas las cuentas del bloque actual se almacenan en Estados de Cuentas.
 
-Normal Account, including
+Las cuentas se dividen en dos tipos: normales, y contratos inteligentes.
 
-* **wallet address**
-* **balance**
-* **nonce**: account's nonce, it will increment in steps of 1
+#### Normales
 
-Smart Contract Account， including
+Incluye:
 
-* **contract address**
-* **balance**
-* **birth place**: the transaction hash where the contract is deployed
-* **variables**: contains all variables' values in the contract
+* **Direcciones de carteras**
+* **Balance**
+* **_nonce_**: el _nonce_ de cada cuenta, cuyo valor se incrementa de 1 en 1.
 
-### Transactions State
+#### Contratos Inteligentes
 
-All transactions submitted on chain are storage in Transactions State.
+Incluye:
 
-### Events State
+* **Direcciones de contratos inteligentes**
+* **Balance**
+* **Lugar de nacimiento**: el _hash_ de la transacción en la que tuvo lugar la implementación del contrato.
+* **Variables**: Contiene todos los valores de las variables del contrato.
 
-While transactions are executed, many events will be triggered. All events triggered by transactions on chain are stored in Events State.
+### Estados de transacciones
 
-### Consensus State
+Todas las transacciones enviadas al blockchain se almacenan en Estados de Transacciones.
 
-The context of consensus algorithm is stored in consensus state.
+### Estados de eventos
 
-As for DPoS, the consensus state includes
+Mientras se ejecutan las transacciones, es posible que se disparen múltiples eventos. Todos los eventos disparados por transacciones en el blockchain se almacenan en Estados de Eventos.
 
-* **timestamp**: current slot of timestamp
-* **proposer**: current proposer
-* **dynasty**: current dynasty of validators
+### Estado del Consenso
 
-### Serialization
+El contexto del algoritmo de consenso se almacena en Estado de Consenso.
 
-We choose Protocol Buffers to do general serialization in consideration of the following benefits:
+Con respecto a DPoS, el estado del consenso incluye:
 
-* Large scale proven.
-* Efficiency. It omits key literals and use varints encoding.
-* Multi types and multilangue client support. Easy to use API.
-* Schema is good format for communication.
-* Schema is good for versioning/extension, i.e., adding new message fields or deprecating unused ones.
+* **timestamp**: el timestamp actual.
+* **proposer**: propositor actual.
+* **dynasty**: dinastía de validadores actual.
 
-Specially, we use json to do serialization in smart contract codes instead of protobuf for the sake of readability.
+### Serialización
 
-## Synchronization
+Elegimos utilizar Protocol Buffers para la serialización general, en vista de los siguientes beneficios que otorga:
 
-Sometimes we will receive a block with height much higher than its current tail block. When the gap appears, we need to sync blocks from peer nodes to catch up with them.
+* Solidez comprobada a gran escala.
+* Eficiencia. Omite _key literals_ y en su lugar utiliza codificación _varint_.
+* Brinda soporte a multi-tipos.
+* Brinda soporte a clientes multilenguaje.
+* API fácil de utilizar.
+* Su _schema_ es ideal para las comunicaciones.
+* Su _schema_ es ideal para hacer versionado y extensiones; por ejemplo, para añadir nuevos campos de mensaje o para dejar otros en desuso.
 
-Nebulas provides two method to sync blocks from peers: Chunks Downloader and Block Downloader. If the gap is bigger than 32 blocks, we'll choose Chunk Downloader to download a lot of blocks in chunks. Otherwise, we choose Block Downloader to download block one by one.
+En especial y para mejorar la legibilidad del código de los contratos inteligentes, utilizamos JSON en vez de _protobuf_ para su codificación.
 
-### Chunks Downloader
+## Sincronización
 
-Chunk is a collection of 32 successive blocks. Chunks Downloader allows us to download at most 10 chunks following our current tail block each time. This chunk-based mechanism could help us minimize the number of network packets and achieve better safety.
+En ocasiones recibiremos un bloque cuya altura es mucho mayor que la del último bloque de la cadena. Cuando esto ocurre, necesitamos sincronizar los bloques desde los nodos de pares para estar a tono con ellos.
 
-The procedure is as following,
+Nebulas provee dos métodos para la sincronización de bloques con nodos de pares: _Chunks Downloader_ y _Block Downloader_. Si la diferencia es mayor a 32 bloques, debemos elegir Chunk Downloader para descargar gran cantidad de bloques en trozos. Si no, elegiremos _Block Downloader_ para descargar los bloques uno a la vez.
+
+### _Chunks Downloader_
+
+El _chunk_ es una colección de 32 bloques sucesivos. _Chunks Downloader_ nos permite descargar, cada vez, un máximo de 10 chunks que suceden a nuestro último bloque. Este mecanismo nos ayuda a minimizar el número de paquetes de red y a lograr una mayor seguridad.
+
+#### Procedimiento
 
 ```text
-1. A sends its tail block to N remote peers.
-2. The remote peers locate the chunk C that contains A's tail block.
-   Then they will send back the headers of 10 chunks, including the chunk C and 9 C's subsequent chunks, and the hash H of the 10 headers.
-3. If A receives >N/2 same hash H, A will try to sync the chunks represented by H.
-4. If A has fetched all chunks represented by H and linked them on chain successfully, Jump to 1.
+1. **A** envía su último bloque a una cantidad _n_ de pares remotos.
+2. Los pares remotos localizan el _chunk_ **C** que contiene el último bloque de **A**.
+3. Los pares remotos le envían a **A** el encabezado de **C**, los encabezados de los siguientes 9 _chunks_ después de **C**, y los hashes de todos esos encabezados.
+4. Si **A** recibe más de la mitad de los mismos encabezados **H**, **A** intentará sincronizar los _chunks_ representados por **H**.
+5. Si **A** recibió todos los chunks representados por **H** y los enlazó correctamente a su cadena, se repite todo el proceso desde el punto 1.
 ```
 
-In steps 1~3, we use majority decision to confirm the chunks on canonical chain. Then we download the blocks in the chunks in step 4.
+En los pasos 1 a 3, utilizamos la decisión mayoritaria para confirmar los _chunks_ en la cadena canónica. Luego, descargamos los bloques en los _chunks_ del paso 4.
 
-**Note:** `ChunkHeader` contains an array of 32 block hash and the hash of the array. `ChunkHeaders` contains an array of 10 `ChunkHeaders` and the hash of the array.
+##### Nota
 
-Here is a diagram of this sync procedure:
+* `ChunkHeader` contiene una matriz de 32 bloques hash más el hash de la matriz.
+* `ChunkHeaders` contiene una matriz de 10 `ChunkHeaders` más el hash de la matriz.
+
+Aquí podemos observar un diagrama de este procedimiento de sincronización:
 
 ![](../../resources/the-diagram-of-sync-process.png)
 
-### Block Downloader
+### _Block Downloader_
 
-When the length gap between our local chain with the canonical chain is smaller than 32, we'll use Block downloader to download the missing blocks one by one.
+Cuando la diferencia de longitud entre nuestra cadena local y la cadena canónica es menor a 32, utilizaremos _Block Downloader_ para descargar los bloques faltantes, uno a la vez.
 
-The procedure is as following,
+#### Procedimiento
 
 ```text
-1. C relays the newest block B to A and A finds B's height is bigger than current tail block's.
-2. A sends the hash of block B back to C to download B's parent block.
-3. If A received B's parent block B', A will try to link B' with A's current tail block.
-   If failed again, A will come back to step 2 and continue to download the parent block of B'. Otherwise, finished.
+1. **C** transfiere el nuevo bloque **B** a **A** y **A** encuentra que la altura de **B** es mayor que la del último bloque actual.
+2. **A** reenvía el hash del bloque **B** a **C** para descargar el bloque padre de **B**.
+3. Si **A** recibe el bloque padre de **B**, **A** intentará enlazar el bloque **B** con el último bloque de la cadena de **A**.
+4. Si falla, **A** volverá al paso 2 y continuará descargando el bloque padre de **B**. Si no falla, el proceso termina.
 ```
 
-This procedure will repeat until A catch up with the canonical chain.
+El procedimiento se repite hasta que **A** queda totalmente sincronizado con la cadena canónica.
 
-Here is a diagram of this download procedure:
+Aquí podemos ver un diagrama de este procedimiento:
 
 ![](../../resources/the-diagram-of-download-process.png)
