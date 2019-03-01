@@ -1,5 +1,6 @@
 # 公告
 
+- *[Nebulas NOVA 2019|星云链将实现完全社区化](https://mp.weixin.qq.com/s/rDmPCHmbPpkk6f8znZCUnA)*(2019-3-1)
 - *[星云wiki悬赏计划](https://mp.weixin.qq.com/s/w5D5JOTy3YlTIeCFajXqTg)*(2018-12-7)
 - *[星云测试网维护通告](https://mp.weixin.qq.com/s/XK0WyZFYHvtoqttDWgaqQg)*(2018-12-5)
 - *[星云漏洞悬赏计划正式升级](https://mp.weixin.qq.com/s/MqrhfTiggklBx83KwzuXhg)*(2018-11-27)
