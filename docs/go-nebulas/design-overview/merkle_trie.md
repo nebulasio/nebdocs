@@ -1,69 +1,66 @@
-# Merkle Patricia Tree
+# _Merkle Patricia Tree_
 
-## Basic: Radix Tree
+## Introducción: _Radix Tree_
 
-> Reference: [https://en.wikipedia.org/wiki/Radix\_tree](https://en.wikipedia.org/wiki/Radix_tree)
+> [Referencia](https://en.wikipedia.org/wiki/Radix_tree)
 
-A Radix Tree using address as the key looks like below:
+Un Radix Tree que utiliza una dirección a modo de clave tendrá las siguientes características:
 
-* Addresses are represented as Hex Characters
-* Each node in the Tree is a 16-elements array,  16 branch-slots\(0123...def\)
-* leaf node: value can be any binary data carried by the address
-* non-leaf node: value is the hash value calculated based on the children’s data
+* Las direcciones se representan mediante caracteres hexadecimales.
+* Cada nodo del árbol es una matriz de 16 elementos (0123...def).
+* Nodos _leaf_: su valor puede ser cualquier dato binario.
+* non-leaf node: su valor es un hash calculado en base a los datos de sus nodos __children_.
 
-As for a 160-bits address, the max height of the tree is 40
+Para una dirección de 160-bits, la altura máxima del árbol es 40.
 
 ![](../../resources/radix_tree.png)
 
-**Problems:** much space for a single entry 40 steps for each lookup
+**Problemas:** mucho espacio para una entrada sencilla; 40 pasos para cada _lookup_
 
-## Advanced: Merkle Patricia Tree
+## Avanzado: _Merkle Patricia Tree_
 
-> Reference: [https://github.com/ethereum/wiki/wiki/Patricia-Tree](https://github.com/ethereum/wiki/wiki/Patricia-Tree), [http://gavwood.com/Paper.pdf](http://gavwood.com/Paper.pdf)
+> [Referencia](https://github.com/ethereum/wiki/wiki/Patricia-Tree), [http://gavwood.com/Paper.pdf](http://gavwood.com/Paper.pdf)
 
-In order to reduce the storage of Radix Tree. The nodes in Merkle Patricia Tree are divided into three kinds,
+Para reducir el espacio de almacenamiento de Radix Tree, los nodos en _Merkle Patricia Tree_ se dividen en tres tipos:
 
-* extension node: compress nodes using common prefix
-* leaf node: compress nodes using unique suffix
-* branch node: same as node in Radix Tree
+* nodo de extensión: comprime los nodos utilizando prefijos comunes.
+* nodo hoja: comprime los nodos utilizando prefijos únicos
+* nodo rama: ídem a los nodos en el Radix Tree.
 
 ![](../../resources/merkle_tree.png)
 
-## How to store Merkle Patricia Tree
+## Cómo almacenar _Merkle Patricia Tree_
 
-**Key/Value Storage**
+### Almacenamiento de los pares clave/valor
 
-hash\(value\) = sha3\(serialize\(value\)\)
+hash(value) = sha3(serialize(value))
 
-key = hash\(value\)
+key = hash(value)
 
-## How to update Merkle Patricia Tree
+## Cómo actualizar _Merkle Patricia Tree_
 
-**Query**
+### Consulta
 
-DFS from top to bottom
+DFS de arriba hacia abajo
 
-**Update, Delete or Insert**
+#### Actualizar, Eliminar o Añadir
 
-1.Query the node from top to bottom
-
-2.update the hash along the path from bottom to top
+1. Realizar consultas en el nodo, desde arriba hacia abajo.
+1. Actualizar el hash y el path desde abajo hacia arriba.
 
 ![](../../resources/merkle_tree_update.png)
 
-**Performance** Each operation costs O\(log\(n\)\)
+**Performance** Cada operación cuesta O (log (n)).
 
-## How to verify using Merkle Patricia Tree
+## Cómo realizar verificaciones usando _Merkle Patricia Tree_
 
-**Theorems**
+### Teoremas
 
-1.Same merkle trees must have same root hash.
+1. Los _Merkle Trees_ iguales deben tener el mismo _root hash_.
+1. Los _Merkle Trees_ distintos deben tener distintos _root hash_.
 
-2.Different merkle trees must have different root hash.
+Usando los teoremas se puede verificar el resultado de la ejecución de las transacciones.
 
-Using the theorems, we can verify the result of the execution of transactions.
+### Verificación rápida
 
-**Quick Verification**
-
-A light client, without sync huge transactions, can immediately determine the exact balance and status of any account by simply asking the network for a path from the root to the account node.
-
+Un cliente _lightweight_, sin necesidad de sincronizar enormes bloques de transacciones, puede determinar inmediatamente el estado y el balance exacto de cualquier cuenta simplemente consultando la red para buscar una ruta desde la raíz hasta la cuenta nodo.
