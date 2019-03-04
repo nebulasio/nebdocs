@@ -1,8 +1,8 @@
 # Funcionalidad de los eventos
 
-La funcionalidad `Event` se utiliza para que los desarrolladores y los usuarios puedan suscribirse a eventos de su interés. Estos eventos se generan durante la ejecución del _blockchain_, y almacenan los pasos de la ejecución y sus resultados en el _chain_. To query and verify the execution results of transactions and smart contracts, we record these two types of events into a trie and save them to the chain.
+La funcionalidad `Event` se utiliza para que los desarrolladores y los usuarios puedan suscribirse a eventos de su interés. Estos eventos se generan durante la ejecución del _blockchain_, y almacenan los pasos de la ejecución y sus resultados en el _chain_. Para consultar y verificar los resultados de la ejecución de transacciones y contratos inteligentes, se almacenan esos dos tipos de eventos en un _trie_ en el _chain_.
 
-Event structure:
+Estructura **evento**:
 
 ```go
 type Event struct {
@@ -11,9 +11,11 @@ type Event struct {
 }
 ```
 
-After a event is generated, it will be collected for processing in [eventEmitter](https://github.com/nebulasio/go-nebulas/blob/master/core/event.go). Users can use the emitter subscription event. If the event is not subscribed, it will be discarded, and for the event that has been subscribed, the new event will be discarded because of the non-blocking mechanism, if the channel is not blocked in time.
+Al generarse un evento, se debe procesar con [eventEmitter](https://github.com/nebulasio/go-nebulas/blob/master/core/event.go). Los usuarios pueden suscribirse al emisor del evento.
 
-## Events list:
+Si no hay suscripción al evento, este se descartará. Para todo nueva suscripción, si el canal no se bloquea a tiempo, se descartará el evento debido al mecanismo _non-blocking_.
+
+## Lista de eventos:
 
 * [TopicNewTailBlock](event.md#topicnewtailblock)
 * [TopicRevertBlock](event.md#topicrevertblock)
@@ -22,80 +24,84 @@ After a event is generated, it will be collected for processing in [eventEmitter
 * [TopicTransactionExecutionResult](event.md#topictransactionexecutionresult)
 * [EventNameSpaceContract](event.md#eventnamespacecontract)
 
-## Event Reference
+### Referencia
 
-### TopicNewTailBlock
+#### TopicNewTailBlock
 
-This event occurs when the tail block of the chain is updated.
+Este evento se dispara cuando el último bloque de la cadena se actualiza.
 
-* Topic:`chain.newTailBlock`
-* Data:
-  * `height`: block height
-  * `hash`: block hash
-  * `parent_hash`: block parent hash
-  * `acc_root`: account state root hash
-  * `timestamp`: block timestamp
-  * `tx`: transaction state root hash
-  * `miner`: block miner
+* Tópico:`chain.newTailBlock`
+* Datos:
+  * `height`: altura del bloque
+  * `hash`: hash del bloque
+  * `parent_hash`: hash del bloque padre
+  * `acc_root`: hash raíz del estado de la cuenta
+  * `timestamp`: timestamp del bloque
+  * `tx`: hash raíz del estado de la transacción
+  * `miner`: minero del bloque
 
-### TopicRevertBlock
+#### TopicRevertBlock
 
-This event occurs when a block is revert on the chain.
+Este evento ocurre cuando se revierte un bloque en la cadena.
 
-* Topic:`chain.revertBlock`
-* Data: The content of this topic is like [TopicNewTailBlock](event.md#topicnewtailblock) data.
+* Tópico:`chain.revertBlock`
+* Datos: El contenido del tópico es similar a los datos de [TopicNewTailBlock](event.md#topicnewtailblock).
 
-### TopicLibBlock
+#### TopicLibBlock
 
-This event occurs when the latest irreversible block change.
+Este evento se dispara cuando el último bloque irreversible sufre un cambio.
 
-* Topic:`chain.latestIrreversibleBlock`
-* Data: The content of this topic is like [TopicNewTailBlock](event.md#topicnewtailblock) data.
+* Tópico:`chain.latestIrreversibleBlock`
+* Dato: El contenido del tópico es similar a los datos de [TopicNewTailBlock](event.md#topicnewtailblock).
 
-### TopicPendingTransaction
+#### TopicPendingTransaction
 
-This event occurs when a transaction is pushed into the transaction pool.
+Este evento se dispara cuando se introduce una transacción en el pozo de transacciones (_transaction pool_).
 
-* Topic:`chain.pendingTransaction`
-* Data:
-  * `chainID`: transaction chain id
-  * `hash`: transaction hash
-  * `from`: transaction from address string
-  * `to`: transaction to address string
-  * `nonce`: transaction nonce
-  * `value`: transaction value
-  * `timestamp`: transaction timestamp
-  * `gasprice`: transaction gas price
-  * `gaslimit`: transaction gas limit
-  * `type`: trsnaction type
+* Tópico:`chain.pendingTransaction`
+* Datos:
+  * `chainID`: id de cadena
+  * `hash`: hash de la transacción
+  * `from`: cadena que indica la dirección origen de la transacción
+  * `to`: cadena que indica la dirección destino de la transacción
+  * `nonce`: nonce de la transacción
+  * `value`: valor de la transacción
+  * `timestamp`: timestamp de la transacción
+  * `gasprice`: precio del gas para la transacción
+  * `gaslimit`: límite de gas para la transacción
+  * `type`: tipo de transacción
 
-### TopicTransactionExecutionResult
+#### TopicTransactionExecutionResult
 
-This event occurs when the end of a transaction is executed. This event will be recorded on the chain, and users can query with RPC interface [GetEventsByHash](https://github.com/nebulasio/wiki/blob/master/rpc.md#geteventsbyhash).
+Este evento ocurre cuando se ejecuta el final de una transacción. This event will be recorded on the chain, and users can query with RPC interface [GetEventsByHash](https://github.com/nebulasio/wiki/blob/master/rpc.md#geteventsbyhash).
 
-This event records the execution results of the transaction and is very important.
+Este evento registra los resultados de la ejecución de la transacción, y es sumamente importante.
 
-* Topic:`chain.transactionResult`
-* Data:
-  * `hash`: transaction hash
-  * `status`: transaction status, 0 failed, 1success, 2 pending
-  * `gasUsed`: transaction gas used
-  * `error`: transaction execution error. If the transaction is executed successfully, the field is empty.
+* Tópico:`chain.transactionResult`
+* Datos:
+  * `hash`: hash de la transacción
+  * `status`: estado de la transacción; 0: falló, 1: sin errores, 2: pendiente
+  * `gasUsed`: gas usado para la transacción
+  * `error`: error de ejecución de la transacción. Si no hubo errores, este campo estará vacío.
 
-### EventNameSpaceContract
+#### EventNameSpaceContract
 
-This event occurs when the contract is executed. When the contract is executed, the contract can record several events in the execution process. If the contract is successful, these events will be recorded on the chain and can be subscribed, and the event of the contract will not be recorded at the time of the failure. This event will also be recorded on the chain, and users can query with RPC interface [GetEventsByHash](https://github.com/nebulasio/wiki/blob/master/rpc.md#geteventsbyhash).
+Este evento ocurre cuando se ejecuta un contrato inteligente. Si la ejecución ocurre exitosamente, los eventos quedarán registrados en el chain y pueden ser suscritos; por el contrario, si ocurre un error en la ejecución, el evento no se registrará.
 
-* Topic:`chain.contract.[topic]` The topic of the contract event has a prefix `chain.contract.`, the content is defined by the contract writer.
-* Data: The content of contract event is defined by contract writer.
+Este evento también se registrará en el chain, donde los usuarios lo pueden consultar mediante la interfaz RPC[GetEventsByHash](https://github.com/nebulasio/wiki/blob/master/rpc.md#geteventsbyhash).
 
-## Subscribe
+* Tópico: `chain.contract.[topic]` El tópico del evento del contrato tiene el prefijo `chain.contract.`, El contenido es definido por quien escribe el contrato.
+* Datos: El contenido es definido por quien escribe el contrato.
 
-All events can be subscribed and the cloud chain provides a subscription RPC interface [Subscribe](https://github.com/nebulasio/wiki/blob/master/rpc.md#subscribe). It should be noted that the event subscription is a non-blocking mechanism. New events will be discarded when the RPC interface is not handled in time.
+### Suscripción
 
-## Query
+Es posible suscribirse a todos los eventos, y el _cloud chain_ expone una interfaz RPC de suscripción llamada [Subscribe](https://github.com/nebulasio/wiki/blob/master/rpc.md#subscribe). Es importante notar que la suscripción a los eventos es un mecanismo ajeno al blockchain. Los nuevos eventos se descartarán si la interfaz RPC no se maneja a tiempo.
 
-Only events recorded on the chain can be queried using the RPC interface [GetEventsByHash](https://github.com/nebulasio/wiki/blob/master/rpc.md#geteventsbyhash). Current events that can be queried include:
+### Consultas
+
+Sólo es posible consultar los eventos registrados en el chain, mediante el uso de la interfaz RPC [GetEventsByHash](https://github.com/nebulasio/wiki/blob/master/rpc.md#geteventsbyhash).
+
+Al momento, es posible consultar los siguientes eventos:
 
 * [TopicTransactionExecutionResult](event.md#topictransactionexecutionresult)
 * [EventNameSpaceContract](event.md#eventnamespacecontract)
