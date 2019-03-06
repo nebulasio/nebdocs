@@ -1,8 +1,9 @@
 # Nebulas Force \(NF\)
 
-A series of basic protocols such as the NR, the PoD, and the DIP shall become a part of the blockchain data. With the growth of data on Nebulas, these basic protocols will be upgraded, which will avoid fractures between developers and community, as well as a “fork”. We call this fundamental capability of our blockchain “Nebulas Force” \(NF\).
+Uma série de protocolos básicos, como o NR, o PoD e o DIP, devem se tornar parte dos dados do blockchain. Com o crescimento dos dados da Nebulas, esses protocolos básicos serão atualizados, o que evitará fraturas entre desenvolvedores e comunidade, bem como um “fork”. Nós chamamos essa capacidade fundamental de nosso blockchain “Nebulas Force” (NF).
 
-As the Nebulas community grows, NF and basic protocols’ update ability shall be open to the community. According to users’ NR weight and the community voting mechanism, Nebulas’ evolution direction and its update objectives will be determined by the community. With the help of NF’s core technology and its openness, Nebulas will have an ever-growing evolutive potential and infinite evolving possibilities.
+À medida que a comunidade de Nebulas cresce, a capacidade de atualização de NF e protocolos básicos devem ser abertos à comunidade. De acordo com o peso dos usuários NR e o mecanismo de votação da comunidade, a direção da evolução de Nebulas e seus objetivos de atualização serão determinados pela comunidade. Com a ajuda da tecnologia central da NF e sua abertura, a Nebulas terá um potencial evolutivo crescente e infinitas possibilidades de evolução.
 
-#### ![](https://cdn-images-1.medium.com/max/1600/1*nCY3t7JRHxTf73mXuRdI0w.png) 
+
+#### ![](https://nebulas.io/assets/images/tech/nbre.png) 
 

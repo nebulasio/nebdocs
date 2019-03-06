@@ -1,12 +1,13 @@
 # Nebulas Incentive \(NI\)
 
-The Nebulas Incentive includes Proof of Devotion \(PoD\) and the Developer Incentive Protocol \(DIP\).
+O Incentivo de Nebulosas inclui Proof of Devotion (PoD) e o Protocolo de Incentivo ao Desenvolvedor (DIP).
 
-## **Proof-of-Devotion \(PoD\)**
+## Prova de Devoção (PoD) 
 
-Based on Nebulas’ NR system, we shall adopt the PoD \(Proof-of-Devotion\) consensus algorithm. PoD gives an “influential” user of the Nebulas Blockchain an opportunity to become a bookkeeper and receive Nebulas’ block rewards and transaction fees as revenues, which will in turn encourage them to continuously contribute to Nebulas’ stability and security.
+Com base no sistema NR de Nebulas, adotaremos o algoritmo de consenso PoD (Prova de Devoção). O PoD dá a um usuário “influente” da Blockchain de Nebulos uma oportunidade de se tornar um contador e receber recompensas de bloco e taxas de transação de Nebulas como receita, o que por sua vez os encorajará a contribuir continuamente para a estabilidade e segurança de Nebulas.
 
-## **Developer Incentive Protocol \(DIP\)**
+## Protocolo de Incentivo ao Desenvolvedor (DIP) 
 
-On Nebulas, we proposed the concept of DIP \(Developer Incentive Protocol\) for developers of smart contracts and DApps. DIP’s core concept: in the interval of pre-specified blocks, for those developers whose smart contracts and DApps were deployed online during the most recent interval, with a NR value higher than a specified threshold, DIP shall reward them the corresponding developer incentives \(NAS token\), and these incentives shall be recorded on blocks by bookkeepers. With the DIP’s positive incentive mechanism, more and more developers will get incentives to create valuable smart contracts and DApps, which will help to build a positive feedback ecosystem for the developer community.
+Em Nebulas, propusemos o conceito de DIP (Developer Incentive Protocol) para desenvolvedores de Smart Contract e DApps. O conceito principal do DIP: no intervalo de blocos pré-especificados, para aqueles desenvolvedores cujos contratos inteligentes e DApps foram implantados on-line durante o intervalo mais recente, com um valor de NR maior que um limite especificado, o DIP deve recompensá-los pelos incentivos correspondentes do desenvolvedor token), e esses incentivos devem ser registrados em blocos por escriturários. Com o mecanismo de incentivo positivo do DIP, mais e mais desenvolvedores receberão incentivos para criar valiosos contratos inteligentes e DApps, o que ajudará a criar um ecossistema de feedback positivo para a comunidade de desenvolvedores.
+
 
