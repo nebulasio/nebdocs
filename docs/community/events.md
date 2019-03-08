@@ -1,5 +1,6 @@
 # 动态
 
+- [第二期星云Wiki悬赏计划获奖名单公布啦，每个人都可参与](https://mp.weixin.qq.com/s/sKfy5viS_FQCCiG_Ze5tDw)
 - [Nebulas NOVA测试网开发者激励活动单日交易量达历史新高](https://blog.nebulas.io/2019/03/05/nebulas-nova-testnet-developer-incentive-program-single-day-transaction-volume-reached-a-record-high/)
 - [星云研究院关于DAG最新研究：Avalanche论文解读（一）](https://blog.nebulas.io/2019/02/27/nebulas-research-teams-latest-research-on-dag-interpretation-of-avalanches-paper-1/)
 - [出人意料！第二名强势反击几近赢得全部NAS奖励(Nebulas NOVA测试网激励计划第5周数据总结）](https://mp.weixin.qq.com/s/TZcH-2eNYU6_4ZHhOge7LA)
