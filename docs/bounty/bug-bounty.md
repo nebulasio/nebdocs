@@ -41,12 +41,12 @@ Please send your bug report via [this link](https://goo.gl/forms/5ysl61Mjpn6yDEu
 
 **Notes:**
 
-> 1.Please ensure the accuracy and clarity of the content, because the reward evaluation will be based on the content submitted in this form.
-> 2.If many people discover the same bug, then their report submissions in chronological order will determine their reward. Community users are welcome to discuss the issues of bugs, but the discussion itself is not considered a report, therefore a report form must still be submitted. 
+> 1. Please ensure the accuracy and clarity of the content, because the reward evaluation will be based on the content submitted in this form.
+> 2. If many people discover the same bug, then their report submissions in chronological order will determine their reward. Community users are welcome to discuss the issues of bugs, but the discussion itself is not considered a report, therefore a report form must still be submitted. 
 
 ## Notes:
-> 1.The Nebulas Bug Bounty Program is long-standing. The Nebulas Technical Committee reserves the right to final interpretation of this program, and the rights to adjust or cancel the reward scope, eligibility and amount.
-> 2.The Nebulas Technical Committee will confirm and evaluate the bug report after its submission. The evaluation time will depend on the severity of the problem and the difficulty of fixing it. The evaluation result will be sent to its reporter by email as soon as possible. 
->3.To avoid bugs being exploited, reporters are required to submit the bug bounty application to bug report entrance. 
->4.Reporters shall keep the bugs non-public and confidential until 30 days after submitting the bugs to Nebulas, and shall not disclose the bugs to any third party.  Such confidentiality timeline can be extended by Nebulas unilaterally. If reporters disclose the bugs to any third party which cause any harm to Nebulas or Nebulas’ users, reporters shall be responsible of the compensation for all the losses.
->5.The Nebulas Technical Committee encourages community member to discuss with the Nebulas technical team and other community members in the Nebulas public discussion group. We also encourage our community members to join us in fixing these bugs. Welcome to [join our Nebulas maillist](https://lists.nebulas.io/cgi-bin/mailman/listinfo) for discussion.
+> 1. The Nebulas Bug Bounty Program is long-standing. The Nebulas Technical Committee reserves the right to final interpretation of this program, and the rights to adjust or cancel the reward scope, eligibility and amount.
+> 2. The Nebulas Technical Committee will confirm and evaluate the bug report after its submission. The evaluation time will depend on the severity of the problem and the difficulty of fixing it. The evaluation result will be sent to its reporter by email as soon as possible. 
+>3. To avoid bugs being exploited, reporters are required to submit the bug bounty application to bug report entrance. 
+>4. Reporters shall keep the bugs non-public and confidential until 30 days after submitting the bugs to Nebulas, and shall not disclose the bugs to any third party.  Such confidentiality timeline can be extended by Nebulas unilaterally. If reporters disclose the bugs to any third party which cause any harm to Nebulas or Nebulas’ users, reporters shall be responsible of the compensation for all the losses.
+>5. The Nebulas Technical Committee encourages community member to discuss with the Nebulas technical team and other community members in the Nebulas public discussion group. We also encourage our community members to join us in fixing these bugs. Welcome to [join our Nebulas maillist](https://lists.nebulas.io/cgi-bin/mailman/listinfo) for discussion.
