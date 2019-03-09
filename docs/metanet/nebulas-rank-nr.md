@@ -20,3 +20,4 @@ During the early stages of the internet, there were only basic websites and priv
 
 Based on the aforementioned dimensions, we started constructing Nebulas’ NR system by drawing from richer data, building a better model, digging up more diversified value dimensions, and establishing a measure of value in the blockchain world.
 
+For a more thorough explanation of the algorithm consider reading the [Yellow Paper](https://nebulas.io/docs/NebulasYellowpaper.pdf).
