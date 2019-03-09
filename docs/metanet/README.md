@@ -1,6 +1,6 @@
 # What's Nebulas
 
-## Nebuas: autonomous metanet
+## Nebulas: autonomous metanet
 
 ### Nebuas is an autonomous metanet. The future of collaborating is coming.. {#93bb}
 
