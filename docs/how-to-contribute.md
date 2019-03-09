@@ -8,7 +8,7 @@
 <!--O desenvolvimento da mainnet da Nebulas é o aspecto mais importante e desafiante do desenvolvimento técnico da Nebulas. -->
 Para além da programação, o desenvolvimento da mainnet também precisa de enfrentar alguns dos problemas mais desafiantes do mundo da blockchain. Por exemplo, precisamos de engendrar mecanismos resistentes à manipulação para a blockchain, melhorar a segurança da mainnet, implementar novos algoritmos criptograficos, etcetera.
 
-Estamos entusiasmados por podermos dedicar na íntegra à blockchin, e ver como ela melhora a vida de todos nós. Como tal, queremos partilhar esta experiência excitante com a comunidade. Este é o nosso convite para os desenvolvedores!
+Estamos entusiasmados por podermo-nos dedicar na íntegra à blockchain, e ver como ela melhora a vida de todos nós. Como tal, queremos partilhar esta experiência excitante com a comunidade. Este é o nosso convite para os desenvolvedores!
 
 Aprenda mais:
 
