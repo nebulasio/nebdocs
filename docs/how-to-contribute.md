@@ -1,4 +1,4 @@
-# How to Contribute
+# Como Contribuir 
 > *A sua contribuição é importante!*
 
 > Nebulas visa criar um ecossistema de melhoria contínua, o que significa que precisamos da ajuda da comunidade. É aqui que pedimos que contribuam. Não exclusivamente em termos de programação, mas também relatórios de bugs e traduções, e também a nível de comunicação com outros membros da comunidade e esclarecimento de dúvidas com os mais novos.
@@ -12,7 +12,7 @@ Estamos entusiasmados por podermos dedicar na íntegra à blockchin, e ver como 
 
 Aprenda mais:
 
-O nosso github：[https://github.com/nebulasio/go-nebulas](https://github.com/nebulasio/go-nebulas)
+O nosso github: [https://github.com/nebulasio/go-nebulas](https://github.com/nebulasio/go-nebulas)
 
 O nosso roteiro: [https://nebulas.io/roadmap.html](https://nebulas.io/roadmap.html) (Stay tuned)
 
@@ -22,7 +22,7 @@ Sempre valorizámos a submissão de bugs!
 Se encontrar um bug, por favor submeta um relatório à comunidade Nebulas. Bugs podem ser encontrados na testnet, mainnet, nebPay, neb.js, na web wallet, tal como em outras ferramentas e até documentação. Seguiremos o sistema de avaliação de risco OWASP para calcular a recompensa correspondente, baseada no grau de importância do bug.
 
 <!--Cada vez que disponibilizamos uma nova função, ela é primeiro implementada na nossa testnet. De momento temos uma função nova na testnet da Nebulas e convidamos toda a gente a testá-la. Submeta relatórios para os bugs que encontre e receba recompensas proporcionais ao bug. A primeira função de muitas mais a serem implementadas, em beta público, está na testnet e é a função de inter-contractos..-->
-Se tiver sugestões para a resolução de bugs, ou relativamente a melhorias, por favor não hesite em nos contactar. Pode também participar no desenvolvimento directamente, e proteger activos na blockchain. Juntos, vamos tornar a Nebulas mais segura, resiliente, e robusta.
+Se tiver sugestões para a resolução de bugs, ou relativamente a melhorias, por favor não hesite em entrar em contacto connosco. Pode também participar no desenvolvimento directamente, e proteger activos na blockchain. Juntos, vamos tornar a Nebulas mais segura, resiliente, e robusta.
 
 Para submeter relatórios e informação sobre os mesmos bugs, por favor poste no mail group da Nebulas relevante. Quando o fizer, tenha cuidado de modo a prevenir a exploração dos bugs, tal como a submissão de relatórios duplicados. Convidamo-lo a seguir o mail group e a juntar-se à discussão.
 
