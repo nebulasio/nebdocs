@@ -24,27 +24,26 @@ O Comité Técnico da Nebulas irá avaliar o tamanho das recompensas de acordo c
 - Média: Apenas um grupo selecto consegue descobri-los (tal como um bug que apenas pode ser encontrado por desenvolvedores, e utilizadores ditos normais não são afectados.)
 - Baixa: Cobre menos de 1% de uma população específica, como por exemplo problemas em modelos de Android raros, ou outros casos excepcionais. 
 
-## Amount:
-To ensure the bug reporter obtains a stable expected reward, the amount in US dollars will be issued in equivalent NAS.
-The reward amount is divided into 5 categories:
+## Quantidade:
+De modo a assegurar que a recompensa do denunciador do bug seja o esperado, a quantidade em dolares Americanos será atribuída em NAS. A quantidade da recompensa está dividida em 5 categorias:
 
-> -  Critical:US$1,000 or more (No upper limit)
-> - High: US$500 or more
-> - Medium: US$250 or more
-> - Low: US$100 or more
-> - Improvement: US$30 or more
+> - Critica: US$1,000 ou mais (Sem limite máximo)
+> - High: US$500 ou mais
+> - Medium: US$250 ou mais
+> - Low: US$100 ou mais
+> - Improvement: US$30 ou mais
 
-Note: The Nebulas testnet special vulnerability reward (such as one for testnet inter-contract call function) has been increased accordingly, and the equivalent US dollars are issued in NAS.
+Nota: A recompensa especial da testnet da Nebulas (como uma relacionada com a chamada da função inter-contracts) foi aumentada de acordo com as nossas prioridades, e a quantidade de dolares equivalentes serão atribuídos em NAS.
 
-## Report A Bug
-Please send your bug report via [this link](https://goo.gl/forms/5ysl61Mjpn6yDEuN2).
+## Denuncie um Bug
+Por favor faça o seu relato aqui, através [deste link](https://goo.gl/forms/5ysl61Mjpn6yDEuN2).
 
-**Notes:**
+**Notas:**
 
-> 1.Please ensure the accuracy and clarity of the content, because the reward evaluation will be based on the content submitted in this form.
-> 2.If many people discover the same bug, then their report submissions in chronological order will determine their reward. Community users are welcome to discuss the issues of bugs, but the discussion itself is not considered a report, therefore a report form must still be submitted. 
+> 1. Por favor assegure-se do rigor e claridade do conteúdo, porque a avaliação da recompensa será baseada no conteúdo submetido aqui.
+> 2. Se muita gente descobrir o mesmo bug, a ordem cronológica irá ser usada para determinar o vencedor da recompensa. Utilizadores da comunidade são bem vindos a discutir os bugs, mas a discussão em si só não é considerada um relato, logo um relato tem de ser submetido. 
 
-## Notes:
+## Notas adicionais:
 > 1.The Nebulas Bug Bounty Program is long-standing. The Nebulas Technical Committee reserves the right to final interpretation of this program, and the rights to adjust or cancel the reward scope, eligibility and amount.
 > 2.The Nebulas Technical Committee will confirm and evaluate the bug report after its submission. The evaluation time will depend on the severity of the problem and the difficulty of fixing it. The evaluation result will be sent to its reporter by email as soon as possible. 
 >3.To avoid bugs being exploited, reporters are required to submit the bug bounty application to bug report entrance. 
