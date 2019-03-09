@@ -2,4 +2,4 @@
 
 TBA
 
-You can download PDF [here](https://nebulas.io/docs/DAppDesignGuidelines.pdf).
+Pode fazer download do PDF [aqui](https://nebulas.io/docs/DAppDesignGuidelines.pdf).
