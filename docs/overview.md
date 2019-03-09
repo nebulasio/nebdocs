@@ -10,7 +10,7 @@ Esta documentação foi criada pela comunidade da Nebulas e qualquer um pode con
 A Wiki da Nebulas é uma ferramenta de colaboração para a comunidade, para que esta seja capaz de publicar vários documentos. Estes incluem roteiros, livros brancos, [guias](wiki-using-guide.html), [guias de desenvolvimento](dapp-development/README.html), [recursos de aprendizagem](dapp-development/learning-resources.html), e outros documentos úteis.
 
 
-## Uso da Wiki
+## Como Usar a Wiki
 
 #### [Mainnet](go-nebulas/README.html) 
 
