@@ -1,6 +1,6 @@
 # Recursos para aprendizagem
 
-Todos os recursos de aprendizagem, vídeos e documentos. Será bem-vindo a recomendar mais recursos da comunidade. Pode editar esta página directamente no Github. Ajude os outros e aprenda em conjunto!.
+Todos os recursos de aprendizagem, vídeos e documentos. Será bem-vindo a recomendar mais recursos da comunidade. Pode editar esta página directamente no Github. Ajude os outros e aprenda em conjunto!
 
 
 ## Documentos oficiais da Nebulas
@@ -43,9 +43,9 @@ Todos os recursos de aprendizagem, vídeos e documentos. Será bem-vindo a rec
 
 ## Como usar a Nebulas Wallet
 
-1. [Criando uma carteira de Nebulas de carteira NAS](https://medium.com/nebulasio/creating-a-nas-wallet-9d01b5fa2df6)
-2. [Enviando NAS da sua Carteira de Nebulas](https://medium.com/nebulasio/sending-nas-from-your-wallet-be1b958c4e5d)
-3. [Assinatura de uma transação offline da Nebulas Wallet](https://medium.com/nebulasio/signing-a-transaction-offline-ae8278f45201)
+1. [Criação de uma carteira NAS](https://medium.com/nebulasio/creating-a-nas-wallet-9d01b5fa2df6)
+2. [Envio de NAS da sua carteira de Nebulas](https://medium.com/nebulasio/sending-nas-from-your-wallet-be1b958c4e5d)
+3. [Assinatura de uma transacção offline da Nebulas Wallet](https://medium.com/nebulasio/signing-a-transaction-offline-ae8278f45201)
 4. [Ver Carteira Informativa Nebulas Wallet](https://medium.com/nebulasio/view-wallet-information-fcea3ea35d94)
 5. [Verifique o estado da transacção na Nebulas Wallet](https://medium.com/nebulasio/check-tx-status-8dc7dd9b79de)
 6. [Implementar uma carteira de nebulas Smart Contract](https://medium.com/nebulasio/deploy-a-smart-contract-1e781e13c22e)
