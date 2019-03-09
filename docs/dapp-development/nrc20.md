@@ -2,7 +2,7 @@
 
 ## Resumo 
 
-O seguinte padrão permite a implementação de uma API padrão para tokens em contratos inteligentes. Este padrão fornece funcionalidade básica para transferir tokens, bem como permite que os tokens sejam aprovados para que possam ser gastos por outro terceiro na cadeia.
+O seguinte padrão permite a implementação de uma API padrão para tokens em contratos inteligentes. Este padrão fornece funcionalidade básica para a transferência de tokens, bem como permite que os tokens sejam aprovados para que possam ser gastos por terceiros na cadeia.
 
 ## Motivação 
 
