@@ -57,12 +57,10 @@ function balanceOf(address)
 
 #### transfer
 
-Transferência. Transfere a `value` quantidade de tokens para `address`e deve disparar o `Transfer`
-evento. A função deve `throw`se o `from`saldo da conta não tiver tokens suficientes para gastar.
+Transferência. Transfere a quantidade de tokens `value` para o endereço `address`e deve disparar o evento `Transfer`. A função deve disparar `throw`se o saldo da conta `from` não tiver tokens suficientes para gastar.
 
-> _Nota:_ Transferências de 0 valores DEVEM ser tratadas como transferências normais e disparar o `Transfer` evento.
+> _Nota:_ Transferências de 0 valores DEVEM ser tratadas como transferências normais e disparar o evento `Transfer`.
 
-Transfers `value` amount of tokens from address `from` to address `to`, and MUST fire the `Transfer` event.
 
 ```javascript
 // returns `true`, if transfer success, else throw error
@@ -71,9 +69,9 @@ function transfer(address, value)
 
 #### transferFrom
 
-Transfere a `value` quantidade de tokens do endereço `from` para o endereço `to`e DEVE disparar o `Transfer`evento.
+Transfere a quantidade `value` de tokens do endereço `from` para o endereço `to` e DEVE disparar o evento `Transfer`.
 
-O `transferFrom` método é usado para um fluxo de trabalho de retirada, permitindo que contratos transfiram tokens em seu nome. Isso pode ser usado, por exemplo, para permitir que um contrato transfira tokens em seu nome e / ou cobrar taxas em sub-moedas. A função deve `throw`, a menos que a `from` conta deliberadamente autorizou o remetente da mensagem através de algum mecanismo.
+O método `transferFrom` é usado para um fluxo de trabalho de retirada, permitindo que contratos transfiram tokens em seu nome. Isso pode ser usado, por exemplo, para permitir que um contrato transfira tokens em seu nome e / ou cobrar taxas em sub-moedas. A função deve `throw`, a menos que a `from` conta deliberadamente autorizou o remetente da mensagem através de algum mecanismo.
 
 > _Nota:_ Transferências de 0 valores DEVEM ser tratadas como transferências normais e disparar o `Transfer` evento.
 
@@ -85,9 +83,9 @@ function transferFrom(from, to, value)
 
 #### approve
 
-Aprovar. Permite `spender` retirar sua conta várias vezes, até `currentValue`o `value` montante. Se esta função for chamada novamente, ela sobrescreve a permissão atual com `value`.
+Aprovar. Permite que o `spender` retire da sua conta várias vezes, até `currentValue` do montante `value`. Se esta função for chamada novamente, ela sobrescreve a permissão atual com `value`.
 
-> _Nota:_ Para evitar vetores de ataque, o utilizador precisa de fornecer um valor de aprovação anterior e o valor padrão de não aprovado é 0.
+> _Nota:_ Para evitar vectores de ataque, o utilizador precisa de fornecer um valor de aprovação anterior e o valor padrão de não aprovado é 0.
 
 ```javascript
 // returns `true`, if approve success, else throw error
@@ -96,7 +94,7 @@ function approve(spender, currentValue, value)
 
 #### allowance
 
-Subsídio. Retorna o valor que `spender` ainda pode ser retirado `owner`.
+Subsídio. Retorna o valor que o `spender` ainda pode ser retirado do `owner`.
 
 ```javascript
 // returns string, the value allowed to withdraw from `owner`.
@@ -107,9 +105,9 @@ function allowance(owner, spender)
 
 #### transferEvent
 
-DEVE ser acionado quando tokens são transferidos, incluindo transferências de valor zero.
+DEVE ser accionado quando tokens são transferidos, incluindo transferências de valor zero.
 
-Um contrato de token que cria novos tokens DEVE acionar um evento de transferência com o `from` endereço definido `totalSupply` quando os tokens são criados.
+Um contrato de token que cria novos tokens DEVE accionar um evento de transferência com o endereço `from` definido para o fornecimento total `totalSupply` quando os tokens são criados.
 
 ```javascript
 function transferEvent: function(status, from, to, value)
@@ -117,7 +115,7 @@ function transferEvent: function(status, from, to, value)
 
 #### approveEvent
 
-DEVE acionar em qualquer chamada para. `approve(spender, currentValue, value)`.
+DEVE acionar em qualquer chamada para `approve(spender, currentValue, value)`.
 
 ```javascript
 function approveEvent: function(status, from, spender, value)
