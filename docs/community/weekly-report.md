@@ -2,7 +2,6 @@
 
 Pode ver todos os relatórios semanais da Nebulas aqui.
 
-- Weekly Report #63 (01/07/2018) -[Community : Nebulas Bi-Weekly Community Dynamics#63](https://medium.com/p/63938b990745/edit)
 - Weekly Report # 66 (01/29/2019) - [Development: Nebulas Bi-Weekly Development Commits #66](https://medium.com/nebulasio/nebulas-bi-weekly-development-commits-66-c681d87f5302)
 - Weekly Report # 65 (01/22/2019) - [Community: Nebulas Bi-Weekly Community Dynamics#65](https://medium.com/nebulasio/nebulas-bi-weekly-community-dynamics-65-53ae6210faae)
 - Weekly Report #64 (01/15/2019) -[Development : We are currently working on new API features and more test cases via the testnet](https://medium.com/nebulasio/nebulas-bi-weekly-development-commits-64-ff633d06833a)
