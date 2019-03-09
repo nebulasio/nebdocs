@@ -62,6 +62,6 @@ Mais APIs Nebulas em [RPC](https://github.com/nebulasio/wiki/blob/master/rpc.md)
 ## Contribuição
 
 
-Sinta-se livre para se juntar ao Nebulas Mainnet. Se você encontrou algo errado, [envie o problema ou envie uma](https://github.com/nebulasio/go-nebulas/issues/new) ou [envie uma solicitação de recebimento](https://github.com/nebulasio/go-nebulas/pulls) para nos informar, e adicionaremos seu nome e seu URL a essa página o mais rápido possível.
+Sinta-se livre para se juntar à Mainnet Nebulas. Se encontrar algo errado, [submeta um relatório](https://github.com/nebulasio/go-nebulas/issues/new) ou [envie uma solicitação de recebimento](https://github.com/nebulasio/go-nebulas/pulls) para nos informar, e adicionaremos seu nome e seu URL a esta página o mais rápido possível.
 
 
