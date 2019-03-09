@@ -1,12 +1,69 @@
-# Nebulas Incentive \(NI\)
+# Transparency
 
-The Nebulas Incentive includes Proof of Devotion \(PoD\) and the Developer Incentive Protocol \(DIP\).
+#### Distribution
+100M Fixed Total Supply of NAS
+NAS is the native (utility) token of Nebulas, viable for payment of transaction fees and the computing service charge.
 
-## **Proof-of-Devotion \(PoD\)**
+Current circulating:45,000,000 NAS (45%)
+Unreleased:55,000,000 NAS (55%):
 
-Based on Nebulas’ NR system, we shall adopt the PoD \(Proof-of-Devotion\) consensus algorithm. PoD gives an “influential” user of the Nebulas Blockchain an opportunity to become a bookkeeper and receive Nebulas’ block rewards and transaction fees as revenues, which will in turn encourage them to continuously contribute to Nebulas’ stability and security.
+![](https://nebulas.io/assets/images/transparency/distribution.png)
 
-## **Developer Incentive Protocol \(DIP\)**
 
-On Nebulas, we proposed the concept of DIP \(Developer Incentive Protocol\) for developers of smart contracts and DApps. DIP’s core concept: in the interval of pre-specified blocks, for those developers whose smart contracts and DApps were deployed online during the most recent interval, with a NR value higher than a specified threshold, DIP shall reward them the corresponding developer incentives \(NAS token\), and these incentives shall be recorded on blocks by bookkeepers. With the DIP’s positive incentive mechanism, more and more developers will get incentives to create valuable smart contracts and DApps, which will help to build a positive feedback ecosystem for the developer community.
+**1 NAS Reserved for the Nebulas Team**
+
+>Unlock Method:
+>Founders: gradually unlocked over the course of 10 years
+>
+>Staff: gradually unlocked over the course of 3 years
+
+>The specific unlocking time will be publicly disclosed at least one month in advance.
+
+Locked Addresses:
+
+n1YuDetHCjhzynuEJnPjQZBeVcbEh1ufrAg
+
+n1ZbXBzCqmSRsidsD27RL2qcJa4DdwghX5t
+
+n1X3imkL6ZtHYJvHZdTuhBAGafYCj6cqnY6
+
+n1VjCXwMdKisAzpCoGCPEWW23c8xoFcCaYE
+
+**2 NAS Reserved for Community Ecosystem**
+
+>Unlock Method:
+>In accordance with the development of Nebulas community ecosystem later.
+>
+>The specific unlocking time will be publicly disclosed at least one month in advance.
+
+Locked Addresses:
+
+n1TjEVnZ78QQTqCiZLtoqfvuZVJjTRcFHnh
+
+n1VY4PBGCC4iFRKKLTGwYkt3sWRjvsBCYoK
+
+n1TvofXcxE6tCiSZgWTTfeEv6ptcjEWV4NJ
+
+n1QuydnXjEmFpvJ5MgzGVwbDZz1sxavZB8X
+
+n1cEbPWr27ssqxh8AB8o1Z7mDwbtcHQgUCz
+
+n1XpXbCpLU4WKqVudntVtkkn5HyrfEPP9sb
+
+n1VNXoyH2fVywLtKZUEqTfJkFJEtdzcLGBu
+
+**Bookkeeping Rewards From Temporary Consensus (DPoS)**
+**Income: 8,219.1744 NAS daily**
+
+Time of Duration: Commenced on March 30, 2018, the date that the mainnet was officially launched, until Proof of Devotion (PoD) mechanism is officially launched.
+
+ 
+Before Proof of Devotion (PoD), the consensus mechanism originally invented by Nebulas, is officially launched, the Nebulas mainnet is employing Delegated Proof of Stake (DPoS) as a transition consensus mechanism. Nebulas has set up a Nebulas Incentive Special Fund to manage all the income arising from DPoS bookkeeping. Such income will be only used to motivate the developers and contributors of Nebulas community ecosystem and will not be sold on any exchangers. We will publish the announcement to the community before using these funds.
+
+Bookkeeping Addresses: 1
+n1cwsE8w4m6cRkr14R5c4hK3Lb9wPsUHhY9
+
+Old Address (abandoned): 2
+n1dZZnqKGEkb1LHYsZRei1CH6DunTio1j1q
+
 
