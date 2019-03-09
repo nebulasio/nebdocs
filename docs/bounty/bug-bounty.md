@@ -28,7 +28,7 @@ The Nebulas Technical Committee will evaluate reward sizes according to the seve
 To ensure the bug reporter obtains a stable expected reward, the amount in US dollars will be issued in equivalent NAS.
 The reward amount is divided into 5 categories:
 
-> -  Critical:US$1,000 or more (No upper limit)
+> - Critical: US$1,000 or more (No upper limit)
 > - High: US$500 or more
 > - Medium: US$250 or more
 > - Low: US$100 or more
