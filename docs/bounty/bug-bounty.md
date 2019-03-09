@@ -1,28 +1,28 @@
 # Bug Bounty
 
-## Nebulas Bug Bounty Program
+## Programa de Recompensa de Bugs da Nebulas
 
 O programa de Recompensa de Bugs da Nebulas visa melhorar a segurança do ecossístema de Nebulas, assegurando a estabilidade do mesmo. O programa de Recompensa de Bugs recompensa vulnerabilidades descobertas. Este programa de recompensas foi criado e implementado pelo Comité Técnico da Nebulas (NTC), em conjunto com a equipa técnica da Nebulas, e com a comunidade. NTC encoraja a comunidade a fornecer informação sobre vulnerabilidades de segurança através do processo descrito abaixo, e a ter uma participação activa na criação do ecossístema da Nebulas, e ao mesmo tempo ser recompensado.
 
-## Bug Category
+## Categorias de Bugs
 
-The Bug Bounty Program divides the bug bounties into 2 categories, common bug bounty and special bug bounty. The common bugs include vulnerabilities discovered in Nebulas mainnet, Nebulas testnet, nebPay, Web wallet, neb.js and others, while the special bugs include vulnerabilities found in the inter-contract call function and others.
+O Programa de Recompensa de Bugs divide as recompensas em 2 categorias, recompensa de bugs comuns e de bugs especiais. Os bugs comuns incluem vulnerabilidades descobertas na mainnet da Nebulas, na testnet, no nebPay, na Web wallet, no web.js e outros, enquanto que os bugs especiais incluem vulnerabilidades descobertas na função de invocação inter-contractuais e outras.
 
-## Eligibility 
+## Elegibilidade
 
-The Nebulas Technical Committee will evaluate reward sizes according to the severity calculated by [OWASP](https://www.owasp.org/index.php/OWASP_Risk_Rating_Methodology) Risk Rating Method based on **Impact** and **Likelihood**. However, final rewards are determined at the sole discretion of the committee. 
+O Comité Técnico da Nebulas irá avaliar o tamanho das recompensas de acordo com a gravidade do bug, de acordo com o Método de Avaliação de Risco [OWASP](https://www.owasp.org/index.php/OWASP_Risk_Rating_Methodology) baseado no **Impacto** e **Probabilidade**. No entanto, as recompensas são determinados e estão exclusivamente ao critério do comité. 
 
 ![图1](https://cdn-images-1.medium.com/max/1600/1*rR7P3JTHT2KFAYTDodsilw.jpeg)
 
-**Impact:**
-- High: Bugs affecting asset security.
-- Medium: Bugs affecting system stability.
-- Low: Other bugs that do not affect asset security and do not affect system stability.
+**Impacto:**
+- Alto: Bugs que afectam a segurança de activos.
+- Médio: Bugs que afectam a estabilidade do sistema.
+- Baixo: Outros bugs que nem afeitam a segurança de activos, nem do sistema.
 
-**Likelihood:**
-- High: The bug can be discovered by anyone who performs an operation, regardless of whether or not the bug has been found.
-- Medium: Only certain people can discover it (such as a bug that only developers encounter, ordinary users are not affected.)
-- Low: Covers less than 1% specific population, such as certain rare Android models; or any other exceptional cases. 
+**Probabilidade:**
+- Alta: O bug pode ser descoberto por qualquer um que efectue uma dada operação, independentemente do bug ter sido descoberto.
+- Média: Apenas um grupo selecto consegue descobri-los (tal como um bug que apenas pode ser encontrado por desenvolvedores, e utilizadores ditos normais não são afectados.)
+- Baixa: Cobre menos de 1% de uma população específica, como por exemplo problemas em modelos de Android raros, ou outros casos excepcionais. 
 
 ## Amount:
 To ensure the bug reporter obtains a stable expected reward, the amount in US dollars will be issued in equivalent NAS.
