@@ -1,6 +1,6 @@
 # Nebulas Rank \(NR\)
 
-O Nebulas Rank (NR) é um algoritmo de classificação de código aberto usado para medir a influência de relacionamentos entre endereços, contratos inteligentes e aplicações distribuídas (DApps). Ajuda os utilizadores a utilizar informações dentro da quantidade cada vez maior de dados em todas as blockchains, mas também ajuda os desenvolvedores a usar nossa estrutura de pesquisa directamente nas suas próprias aplicações.
+O Nebulas Rank \(NR\) é um algoritmo de classificação usado para medir a influência das relações entre endereços, smart contracts, e aplicações distribuídas \(DApps\). Ajuda utilizadores a utilizar informação entre a quantidade sempre crescente de dados na blockchain, e também permite que desenvolvedores usem o nosso motor de busca directamente nas suas aplicações.
 
 ![](https://cdn-images-1.medium.com/max/1600/1*xb-MzFJolGOy8VZvdNBIIQ.jpeg)
 
@@ -12,13 +12,13 @@ A finança é essencialmente o conjunto das actividades sociais que optimizam os
 
 * **Propagação**
 
-Plataformas sociais como o WeChat e o Facebook têm quase 3 biliões de utilizadores activos por mês. O crescimento rápido de utilizadores nas plataformas sociais é o resultado da reflexão das redes sociais existentes e de um crescimento viral mais forte. Em particular, a transmissão viral, ou seja, velocidade, escopo, profundidade de transmissão de informações e linkage, é o principal índice para monitorar a qualidade das redes sociais e o crescimento dos utilizadores. No mundo blockchain, podemos observar o mesmo padrão. A propagação viral poderosa indica o escopo e a profundidade da liquidez dos ativos, o que pode promover a qualidade de seus ativos e a escala de ativos. Assim, a transmissão viral, ou seja, o escopo e a profundidade da liquidez dos ativos, é a segunda dimensão que a NR mede.
-
+Plataformas sociais como o WeChat e o Facebook têm quase 3 biliões de utilizadores activos por mês. O crescimento rápido de utilizadores nas plataformas sociais é o resultado da reflexão das redes sociais existentes e de um crescimento viral mais forte. Em particular, a transmissão viral, ou seja, velocidade, alcance, profundidade de transmissão de informações e número de ligações, é o principal índice para monitorar a qualidade das redes sociais e o crescimento dos utilizadores. No mundo blockchain, podemos observar o mesmo padrão. A propagação viral poderosa indica o alcance e a profundidade da liquidez dos ativos, o que pode promover a qualidade de seus ativos e a escala de ativos. Assim, a transmissão viral, ou seja, o escopo e a profundidade da liquidez dos ativos, é a segunda dimensão que a NR mede.
 
 * **Interoperabilidade**
 
-Durante os primeiros estágios da internet, apenas existiam sites básicos e informação privada. Agora, informações em plataformas diferentes podem ser encaminhadas na rede, e silos de dados estão sendo gradualmente quebrados. Essa tendência é o processo de identificação de informações de maior dimensão. Do nosso ponto de vista, o mundo da blockchains deve seguir um padrão semelhante, mas a sua velocidade será superior. As informações sobre os ativos dos utilizadores, contratos inteligentes e DApps ficarão mais ricas, e a interacção de informações de maior dimensão será mais frequente, e assim uma interoperabilidade melhor tornar-se-à cada vez mais importante. Portanto, a terceira dimensão medida pela NR é a interoperabilidade.
+Durante o período inicial da internet, apenas haviam websites básicos e informação privada. Agora, informação em plataformas diferentes pode ser encaminhada na rede, e silos isolados de dados estão a ser gradualmente desmantelados. Esta moda é o processo de identificar informação de maior dimensão. Do nosso ponto de vista, o mundo da blockchain deverá seguir um padrão semelhante, mas a sua velocidade será mais alta. A informação sobre os activos dos utilizadores, smart contracts, e DApps, tornar-se-à mais rica, e a interacção de informação de dimensões superiores será mais fequente, logo melhor interopabilidade irá-se tornar mais importante. Logo, a terceira dimensão medida pelo NR é a interopabilidade.
 
-Com base nas dimensões acima mencionadas, começamos a construir o sistema NR de Nebulas usando dados mais ricos, construindo um modelo melhor, desenterrando dimensões de valor mais diversificadas e estabelecendo uma medida de valor no mundo blockchain.
+Baseado nas dimensões acima referidas, construímos o sistema de NR da Nebulas, através de dados mais ricos, construíndo melhores modelos, descobrindo dimensões de valor mais diversificadas, e estabelecendo uma medida de valor no mundo da blockchain.
+
 
 Para uma análise mais detalhada, veja o nosso [Livro Amarelo](https://nebulas.io/docs/NebulasYellowpaperPt.pdf).
