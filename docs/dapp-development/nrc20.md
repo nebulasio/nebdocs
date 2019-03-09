@@ -30,7 +30,7 @@ function symbol()
 
 #### decimals
 
-Decimais. Retorna o número de decimais que o token usa - por exemplo `8`, significa dividir o valor do token `100000000` para obter sua representação do usuário.
+Decimais. Retorna o número de decimais que o token usa - por exemplo `8`, significa dividir o valor do token `100000000` para obter sua representação do utilizador.
 
 ```javascript
 // returns number, the number of decimals the token uses
@@ -87,7 +87,7 @@ function transferFrom(from, to, value)
 
 Aprovar. Permite `spender` retirar sua conta várias vezes, até `currentValue`o `value` montante. Se esta função for chamada novamente, ela sobrescreve a permissão atual com `value`.
 
-> _Nota:_ Para evitar vetores de ataque, o usuário precisa fornecer um valor de aprovação anterior e o valor padrão que não é aprovado é 0.
+> _Nota:_ Para evitar vetores de ataque, o utilizador precisa de fornecer um valor de aprovação anterior e o valor padrão de não aprovado é 0.
 
 ```javascript
 // returns `true`, if approve success, else throw error
