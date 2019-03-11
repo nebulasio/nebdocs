@@ -1,5 +1,6 @@
 # 星云周报
 
+- 星云周报-第72期(2/15-3/10)-[星云周报第72期：星云项目制平台正在开发中](https://blog.nebulas.io/2019/03/11/nebulas-bi-weekly-development-commits-72/)
 - 星云周报-第71期(2/18-3/03)-[星云周报第71期：星云链将在2019年完全实现社区化](https://blog.nebulas.io/2019/03/04/nebulas-bi-weekly-community-dynamics-71/)
 - 星云周报-第70期(2/11-2/24)-[星云周报第70期：nonce自动分配机制上线Nebulas NOVA测试网](https://blog.nebulas.io/2019/02/25/nebulas-bi-weekly-development-commits-70/)
 - 星云周报-第69期(2/4-2/17)-[星云链新年积极探索日本&香港市场](https://blog.nebulas.io/2019/02/18/nebulas-bi-weekly-community-dynamics-69/)
