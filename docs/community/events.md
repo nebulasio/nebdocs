@@ -1,4 +1,6 @@
 # 动态
+
+- [组团冲奖！NASxBITRUN开发者训练营开练](https://mp.weixin.qq.com/s/1Hge4H25g01B3k7-iKqp7Q)
 - [DIP活动头部效应愈加明显，优秀应用可持续获得原生激励](https://blog.nebulas.io/2019/03/12/dip-program-head-effect-is-more-and-more-obvious-excellent-applications-can-continue-to-obtain-native-incentives/)
 - [第二期星云Wiki悬赏计划获奖名单公布啦，每个人都可参与](https://mp.weixin.qq.com/s/sKfy5viS_FQCCiG_Ze5tDw)
 - [星云生态拓展总监Ruby Wu:Nebulas NOVA如何激发生态，助力社区治理](https://blog.nebulas.io/2019/03/07/how-nebulas-nova-stimulates-ecology-and-helps-community-governance/)
