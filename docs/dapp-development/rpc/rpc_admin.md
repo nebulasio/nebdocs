@@ -1,62 +1,57 @@
 # Management RPC
 
-Beside the [NEB API RPC](https://github.com/nebulasio/wiki/blob/master/rpc.md) interface nebulas provides additional management APIs. Neb console supports both API and management interfaces. Management RPC uses the same gRPC and HTTP port, which also binds [NEB API RPC](https://github.com/nebulasio/wiki/blob/master/rpc.md) interfaces.
+Además de la interfaz [Neb API RPC](rpc.md), Nebulas ofrece otras API de administración. La consola Neb da soporte tanto para API como para interfaces administrativas. _Management RPC_ hace uso de gRPC y HTTP, lo que permite vincular, además, las interfaces [Neb API RPC](rpc.md).
 
-Nebulas provide both [gRPC](https://grpc.io) and RESTful management APIs for users to interact with Nebulas. Our admin [proto](https://github.com/nebulasio/go-nebulas/blob/develop/rpc/pb/rpc.proto) file defines all admin APIs. **We recommend using the console access admin interfaces, or restricting the admin RPC to local access.**
+Nebulas brinda tanto [gRPC](https://grpc.io) como RESTful API para que sus usuarios interactuen con el sistema.
 
-Default management RPC Endpoint:
+Nuestro [archivo proto de administración](https://github.com/nebulasio/go-nebulas/blob/develop/rpc/pb/rpc.proto) define todas las API administrativas. **Recomendamos usar las interfaces de acceso vía consola, o restringir la RPC administrativa sólo para acceso local**.
+
+Endpoint administrativo por defecto del RPC:
 
 | API | URL | Protocol |
 | --- | :---: | :---: |
 | gRPC | [http://localhost:8684](http://localhost:8684) | Protobuf |
 | RESTful | [http://localhost:8685](http://localhost:8685) | HTTP |
 
-## Management RPC methods
+## Referencia
 
-* [NodeInfo](rpc_admin.md#nodeinfo)
-* [Accounts](rpc_admin.md#accounts)
-* [NewAccount](rpc_admin.md#newaccount)
-* [UnLockAccount](rpc_admin.md#unlockaccount)
-* [LockAccount](rpc_admin.md#lockaccount)
-* [SignTransactionWithPassphrase](rpc_admin.md#signtransactionwithpassphrase)
-* [SendTransactionWithPassphrase](rpc_admin.md#sendtransactionwithpassphrase)
-* [SendTransaction](rpc_admin.md#sendtransaction)
-* [SignHash](rpc_admin.md#signhash)
-* [StartPprof](rpc_admin.md#startpprof)
-* [GetConfig](rpc_admin.md#getconfig)
+### Índice
 
-## Management RPC API Reference
+* [NodeInfo](#nodeinfo)
+* [Accounts](#accounts)
+* [NewAccount](#newaccount)
+* [UnLockAccount](#unlockaccount)
+* [LockAccount](#lockaccount)
+* [SignTransactionWithPassphrase](#signtransactionwithpassphrase)
+* [SendTransactionWithPassphrase](#sendtransactionwithpassphrase)
+* [SendTransaction](#sendtransaction)
+* [SignHash](#signhash)
+* [StartPprof](#startpprof)
+* [GetConfig](#getconfig)
 
 ### NodeInfo
 
-Return the p2p node info.
+Devuelve información del nodo p2p.
 
 | Protocol | Method | API |
 | --- | --- | --- |
 | gRpc |  | NodeInfo |
 | HTTP | GET | /v1/user/nodeinfo |
 
-**Parameters**
+#### Parámetros
 
-none
+Ninguno.
 
-**Returns**
+#### Devuelve
 
-`id` the node ID.
-
-`chain_id` the block chainID.
-
-`coninbase` coinbase
-
-`peer_count` Number of peers currenly connected.
-
-`synchronized` the node synchronized status.
-
-`bucket_size` the node route table bucket size.
-
-`protocol_version` the network protocol version.
-
-`RouteTable*[] route_table` the network routeTable
+* `id`: ID del nodo.
+* `chain_id`: ID del blockchain.
+* `coinbase`: Coinbase.
+* `peer_count`: Número de pares conectados al momento de la consulta.
+* `synchronized`: Estado de sincronización del nodo.
+* `bucket_size`: El tamaño del _bucket_ de la tabla de rutas del nodo.
+* `protocol_version`: Versión del protocolo de red.
+* `RouteTable*[] route_table`: Matriz routeTable de la red.
 
 ```js
 message RouteTable {
@@ -65,13 +60,14 @@ message RouteTable {
 }
 ```
 
-**HTTP Example**
+#### Ejemplo HTTP
 
 ```bash
-# Request
+
+// Petición
 curl -i -H 'Content-Type: application/json' -X GET http://localhost:8685/v1/admin/nodeinfo
 
-# Result
+// Resultado
 {
     "result":{
         "id":"QmP7HDFcYmJL12Ez4ZNVCKjKedfE7f48f1LAkUc3Whz4jP",
@@ -98,32 +94,34 @@ curl -i -H 'Content-Type: application/json' -X GET http://localhost:8685/v1/admi
         ]
     }
 }
+
 ```
 
 ### Accounts
 
-Return account list.
+Devuelve una lista de cuentas.
 
 | Protocol | Method | API |
 | --- | --- | --- |
 | gRpc |  | Accounts |
 | HTTP | GET | /v1/admin/accounts |
 
-#### Parameters
+#### Parámetros
 
-none
+Ninguno.
 
-#### Returns
+#### Devuelve
 
-`addresses` account list
+* `addresses`: Lista de cuentas.
 
-#### HTTP Example
+#### Ejemplo HTTP
 
 ```bash
-# Request
+
+// Petición
 curl -i -H 'Content-Type: application/json' -X GET http://localhost:8685/v1/admin/accounts
 
-# Result
+// Resultado
 {
     "result":{
         "addresses":[
@@ -139,32 +137,33 @@ curl -i -H 'Content-Type: application/json' -X GET http://localhost:8685/v1/admi
         ]
     }
 }
+
 ```
 
 ### NewAccount
 
-NewAccount create a new account with passphrase.
+Crea una nueva cuenta protegida con una _passphrase_.
 
 | Protocol | Method | API |
 | --- | --- | --- |
 | gRpc |  | NewAccount |
 | HTTP | POST | /v1/admin/account/new |
 
-**Parameters**
+#### Parámetros
 
-`passphrase` New account passphrase.
+* `passphrase`: La _passphrase_ de la cuenta a crear.
 
-**Returns**
+#### Devuelve
 
-`address` New Account address.
+* `address`: Dirección de la cuenta creada.
 
-**HTTP Example**
+#### Ejemplo HTTP
 
 ```bash
-# Request
+// Petición
 curl -i -H 'Content-Type: application/json' -X POST http://localhost:8685/v1/admin/account/new -d '{"passphrase":"passphrase"}'
 
-# Result
+// Resultado
 
 {
     "result":{
@@ -175,63 +174,63 @@ curl -i -H 'Content-Type: application/json' -X POST http://localhost:8685/v1/adm
 
 ### UnLockAccount
 
-UnlockAccount unlock account with passphrase. After the default unlock time, the account will be locked.
+Desbloquea una cuenta protegida con _passphrase_. Transcurrido el tiempo de desbloqueo por defecto, la cuenta se bloqueará nuevamente.
 
 | Protocol | Method | API |
 | --- | --- | --- |
 | gRpc |  | UnLockAccount |
 | HTTP | POST | /v1/admin/account/unlock |
 
-**Parameters**
+#### Parámetros
 
-`address` UnLock account address.
+* `address`: Dirección de la cuenta a desbloquear.
+* `passphrase`: _Passphrase_ de la cuenta a desbloquear.
+* `duration`: Duración del desbloqueo, en nanosegundos.
 
-`passphrase` UnLock account passphrase.
+#### Devuelve
 
-`duration` Unlock accoutn duration.
+* `result`: Boolean con el resultado del desbloqueo.
 
-**Returns**
-
-`result` UnLock account result, unit is ns.
-
-**HTTP Example**
+#### Ejemplo HTTP
 
 ```bash
-# Request
+
+// Petición
 curl -i -H 'Content-Type: application/json' -X POST http://localhost:8685/v1/admin/account/unlock -d '{"address":"n1czGUvbQQton6KUWga4wKDLLKYDEn39mEk","passphrase":"passphrase","duration":"1000000000"}'
 
-# Result
+// Resultado
 {
     "result":{
         "result":true
     }
 }
+
 ```
 
 ### LockAccount
 
-LockAccount lock account.
+Bloquea una cuenta dada.
 
 | Protocol | Method | API |
 | --- | --- | --- |
 | gRpc |  | LockAccount |
 | HTTP | POST | /v1/admin/account/lock |
 
-**Parameters**
+#### Parámetros
 
-`address` Lock account address.
+* `address`: Dirección de la cuenta a bloquear.
 
-**Returns**
+#### Devuelve
 
-`result` Lock account result.
+* `result`: Boolean que indica el resultado del bloqueo.
 
-**HTTP Example**
+#### Ejemplo HTTP
 
 ```bash
-# Request
+// Petición
 curl -i -H 'Content-Type: application/json' -X POST http://localhost:8685/v1/admin/account/lock -d '{"address":"n1czGUvbQQton6KUWga4wKDLLKYDEn39mEk"}'
 
-# Result
+// Resultado
 {
     "result":{
         "result":true
@@ -241,30 +240,29 @@ curl -i -H 'Content-Type: application/json' -X POST http://localhost:8685/v1/adm
 
 ### SignTransactionWithPassphrase
 
-SignTransactionWithPassphrase sign transaction. The transaction's from addrees must be unlocked before sign call.
+Firma una transacción utilizando una _passphrase_. La cuenta de la dirección del emisor debe estar desbloqueada antes de realizar esta llamada.
 
 | Protocol | Method | API |
 | --- | --- | --- |
 | gRpc |  | SignTransactionWithPassphrase |
 | HTTP | POST | /v1/admin/sign |
 
-**Parameters**
+#### Parámetros
 
-`transaction` this is the same as the [SendTransaction](https://github.com/nebulasio/wiki/blob/master/rpc_admin.md#sendtransaction) parameters.
+* `passphrase`: _passphrase_ de la cuenta de origen.
+* `transaction`: ídem a [SendTransaction](#sendtransaction).
 
-`passphrase` from account passphrase
+#### Devuelve
 
-**Returns**
+* `data`: Datos de la transacción firmada.
 
-`data` Signed transaction data.
-
-**sign normal transaction Example**
+#### Ejemplo HTTP
 
 ```bash
-# Request
+// Petición
 curl -i -H 'Content-Type: application/json' -X POST http://localhost:8685/v1/admin/sign -d '{"transaction":{"from":"n1QZMXSZtW7BUerroSms4axNfyBGyFGkrh5","to":"n1QZMXSZtW7BUerroSms4axNfyBGyFGkrh5", "value":"1000000000000000000","nonce":1,"gasPrice":"1000000","gasLimit":"2000000"}, "passphrase":"passphrase"}'
 
-# Result
+// Resultado
 {
     "result":{
         "data":"CiBOW15yoZ+XqQbMNr4bQdJCXrBTehJKukwjcfW5eASgtBIaGVduKnw+6lM3HBXhJEzzuvv3yNdYANelaeAaGhlXbip8PupTNxwV4SRM87r798jXWADXpWngIhAAAAAAAAAAAA3gtrOnZAAAKAEwucHt1QU6CAoGYmluYXJ5QGRKEAAAAAAAAAAAAAAAAAAPQkBSEAAAAAAAAAAAAAAAAAAehIBYAWJB/BwhwhqUkp/gEJtE4kndoc7NdSgqD26IQqa0Hjbtg1JaszAvHZiW+XH7C+Ky9XTKRJKuTOc446646d/Sbz/nxQE="
@@ -274,32 +272,30 @@ curl -i -H 'Content-Type: application/json' -X POST http://localhost:8685/v1/adm
 
 ### SendTransactionWithPassphrase
 
-SendTransactionWithPassphrase send transaction with passphrase.
+Envía una transacción ya firmada con el método [SignTransactionWithPassphrase](#signtransactionwithpassphrase).
 
 | Protocol | Method | API |
 | --- | --- | --- |
 | gRpc |  | SendTransactionWithPassphrase |
 | HTTP | POST | /v1/admin/transactionWithPassphrase |
 
-**Parameters**
+#### Parámetros
 
-`transaction` transaction parameters, which is the same as the [SendTransaction](https://github.com/nebulasio/wiki/blob/master/rpc_admin.md#sendtransaction) parameters.
+* `passphrase`: _Passphrase_ de la cuenta origen.
+* `transaction`: Ídem a [SendTransaction](#sendtransaction).
 
-`passphrase` From address passphrase.
+#### Devuelve
 
-**Returns**
+* `txhash`: Hash de la transacción.
+* `contract_address`: Dirección del contrato inteligente.
 
-`txhash` transaction hash.
-
-`contract_address` returns only for deploy contract transaction.
-
-**Example**
+#### Ejemplo HTTP
 
 ```bash
-# Request
+// Petición
 curl -i -H 'Content-Type: application/json' -X POST http://localhost:8685/v1/admin/transactionWithPassphrase -d '{"transaction":{"from":"n1QZMXSZtW7BUerroSms4axNfyBGyFGkrh5","to":"n1QZMXSZtW7BUerroSms4axNfyBGyFGkrh5", "value":"1000000000000000000","nonce":1,"gasPrice":"1000000","gasLimit":"2000000"},"passphrase":"passphrase"}'
 
-# Result
+// Resultado
 {
     "result":{
         "hash":"143eac221da8079f017bd6fd6b6a08ea0623114c93c638b94334d16aae109666",
@@ -310,118 +306,109 @@ curl -i -H 'Content-Type: application/json' -X POST http://localhost:8685/v1/adm
 
 ### SendTransaction
 
-Send the transaction. Parameters `from`, `to`, `value`, `nonce`, `gasPrice` and `gasLimit` are required. If the transaction is to send contract, you must specify the `contract`.
+Envía una transacción. Los parámetros `from`, `to`, `value`, `nonce`, `gasPrice` y `gasLimit` son obligatorios.
 
 | Protocol | Method | API |
 | --- | --- | --- |
 | gRpc |  | SendTransaction |
 | HTTP | POST | /v1/user/transaction |
 
-**Parameters**
+#### Parámetros
 
-`from` Hex string of the sender account addresss.
+* `from`: Requerido. Cadena hexadecimal que representa la dirección de la cuenta origen.
+* `to`: Requerido. Cadena hexadecimal que representa la dirección de la cuenta destino.
+* `value`: Requerido. Valor a enviar junto a esta transacción.
+* `nonce`: Requerido. Nonce de la transacción.
+* `gas_price`: Requerido. Precio del gas para esta transacción.
+* `gas_limit`: Requerido. Límite de gas para esta transacción.
+* `binary`: Opcional. Cualquier tipo de datos binarios con un tamaño máximo de 64 bytes.
+* `type`: Opcional. Tipo de payload para la transacción. Si se especifica un tipo, el necesario pasar el parámetro correspondiente; si no se especifica, el tipo se determinará de acuerdo al contrato y a sus datos binarios. Enumeración de tipos:
+    * `binary`: Transacción normal con datos binarios.
+    * `deploy`: Implementación de contrato inteligente.
+    * `call`: Llamada a función de contrato inteligente.
+* `contract`: Opcional. Objeto que contiene el contrato a implementar o la función a llamar mediante esta transacción. Propiedades:
+    * `source`: Código fuente del contrato a implementar.
+    * `sourceType`: Abreviatura del lenguaje del código fuente a implementar. Acepta los siguientes valores:
+        * `js`: Cóigo fuente en Javascript.
+        * `ts`: Código fuente en Typescript.
+    * `function`: La llamada a función del contrato inteligente.
+    * `args`: Parámetros para el contrato inteligente. El contenido es una matriz de cadenas codificada en un objeto JSON.
 
-`to` Hex string of the receiver account addresss.
+##### Importante
 
-`value` Amount of value sending with this transaction.
+* Al implementar un contrato inteligente, los parámetros `to` y `from` deben ser idénticos, y deben corresponder a la dirección del contrato inteligente.
+* `nonce`: Para obtener el valor correcto, debe sumarse 1 al nonce actual de la dirección asignada al contrato inteligente. El valor actual del nonce se puede obtener mediante [GetAccountState](rpc.md/#getaccountstate).
+* Los parámetros `gasPrice` y `gasLimit` son necesarios para cada transacción. Recomendamos hacer uso de los métodos [GetGasPrice](rpc.md/#getgasprice) y [EstimateGas](rpc.md/#estimategas) para obtener los valores actuales.
+* El parámetro `contract` sólo se requiere para las implementaciones (o llamadas a funciones) de contratos inteligentes.
+* Cuando se implementa un contrato inteligente, los parámetros `source` y `sourceType` deben especificarse; `args` en este contexto es opcional y se usa únicamente cuando la función de inicialización lo requiere.
+* El campo `function` se usa para llamar a un método de un contrato inteligente.
 
-`nonce` Transaction nonce.
+#### Devuelve
 
-`gas_price` gasPrice sending with this transaction.
+* `txhash`: Hash de la transacción.
+* `contract_address`: Valor devuelto únicamente al implementar un contrato inteligente.
 
-`gas_limit` gasLimit sending with this transaction.
-
-`type` transaction payload type. If the type is specified, the transaction type is determined and the corresponding parameter needs to be passed in, otherwise the transaction type is determined according to the contract and binary data. \[optional\]
-
-* type enum:
-  * `binary`: normal transaction with binary 
-  * `deploy`: deploy smart contract 
-  * `call`: call smart contract function
-
-`contract` transaction contract object for deploy/call smart contract. \[optional\]
-
-* Sub properties:
-  * `source` contract source code for deploy contract.
-  * `sourceType` contract source type for deploy contract. Currently support `js` and `ts`
-    * `js` the contract source write with javascript.
-    * `ts` the contract source write with typescript. 
-  * `function` the contract call function for call contarct function.
-  * `args` the params of contract. The args content is JSON string of parameters array.
-
-`binary` any binary data with a length limit = 64bytes. \[optional\]
-
-Notice:
-
-* `from = to` when deploy a contract, the `to` address must be equal to `from` address.
-* `nonce` the value is **plus one**\(+1\) on the nonce value of the current from address. Current nonce can get from [GetAccountState](https://github.com/nebulasio/wiki/blob/master/rpc.md/#getaccountstate).
-* `gasPrice` and `gasLimit` need for every transaction. We recommend taking them use [GetGasPrice](https://github.com/nebulasio/wiki/blob/master/rpc.md/#getgasprice) and [EstimateGas](https://github.com/nebulasio/wiki/blob/master/rpc.md/#estimategas).
-* `contract` parameter only need for smart contract deploy and call. When a smart contract is deployed, the `source` and `sourceType` must be specified, the `args` is optional and passed in when the initialization function takes a parameter. The `function` field is used to call the contract method.
-
-**Returns**
-
-`txhash` transaction hash.
-
-`contract_address` returns only for deploying contract transaction.
-
-**Normal Transaction Example**
+#### Ejemplo para una transacción corriente
 
 ```bash
-# Request
+
+// Petición
 curl -i -H 'Content-Type: application/json' -X POST http://localhost:8685/v1/admin/transaction -d '{"from":"n1QZMXSZtW7BUerroSms4axNfyBGyFGkrh5","to":"n1SAeQRVn33bamxN4ehWUT7JGdxipwn8b17", "value":"1000000000000000000","nonce":1000,"gasPrice":"1000000","gasLimit":"2000000"}'
 
-# Result
+// Resultado
 {
     "result":{
       "txhash":"fb5204e106168549465ea38c040df0eacaa7cbd461454621867eb5abba92b4a5",
       "contract_address":""
     }
 }
+
 ```
 
-**Deploy Smart Contract Example**
+#### Ejemplo para una implementación de contrato inteligente
 
 ```bash
-# Request
+
+// Petición
 curl -i -H 'Content-Type: application/json' -X POST http://localhost:8685/v1/admin/transaction -d '{"from":"n1QZMXSZtW7BUerroSms4axNfyBGyFGkrh5","to":"n1QZMXSZtW7BUerroSms4axNfyBGyFGkrh5", "value":"0","nonce":2,"gasPrice":"1000000","gasLimit":"2000000","contract":{
 "source":"\"use strict\";var BankVaultContract=function(){LocalContractStorage.defineMapProperty(this,\"bankVault\")};BankVaultContract.prototype={init:function(){},save:function(height){var deposit=this.bankVault.get(Blockchain.transaction.from);var value=new BigNumber(Blockchain.transaction.value);if(deposit!=null&&deposit.balance.length>0){var balance=new BigNumber(deposit.balance);value=value.plus(balance)}var content={balance:value.toString(),height:Blockchain.block.height+height};this.bankVault.put(Blockchain.transaction.from,content)},takeout:function(amount){var deposit=this.bankVault.get(Blockchain.transaction.from);if(deposit==null){return 0}if(Blockchain.block.height<deposit.height){return 0}var balance=new BigNumber(deposit.balance);var value=new BigNumber(amount);if(balance.lessThan(value)){return 0}var result=Blockchain.transfer(Blockchain.transaction.from,value);if(result>0){deposit.balance=balance.dividedBy(value).toString();this.bankVault.put(Blockchain.transaction.from,deposit)}return result}};module.exports=BankVaultContract;","sourceType":"js", "args":""}}'
 
-# Result
+// Resultado
 {
     "result":{
         "txhash":"3a69e23903a74a3a56dfc2bfbae1ed51f69debd487e2a8dea58ae9506f572f73",
         "contract_address":"n21Y7arNbUfLGL59xgnA4ouinNxyvz773NW"
     }
 }
+
 ```
 
 ### SignHash
 
-SignHash sign the hash of a message.
+Permite firmar el hash de un mensaje.
 
 | Protocol | Method | API |
 | --- | --- | --- |
 | gRpc |  | SignHash |
 | HTTP | POST | /v1/admin/sign/hash |
 
-**Parameters**
+#### Parámetros
 
-`address` Sign address
+* `address`: Dirección del emisor.
+* `hash`: Hash del mensaje, utilizando el algoritmo sha3-256.
+* `alg`: Algoritmo a emplear para la firma.
 
-`hash` A sha3256 hash of the message
+#### Devuelve
 
-`alg` Sign algorithm
+* `data`: Datos de la transacción firmada.
 
-**Returns**
-
-`data` Signed transaction data.
-
-**sign normal transaction Example**
+#### Ejemplo de una transacción corriente
 
 ```bash
-# Request
+// Petición
 curl -i -H 'Content-Type: application/json' -X POST http://localhost:8685/v1/admin/sign/hash -d '{"address":"n1QZMXSZtW7BUerroSms4axNfyBGyFGkrh5","hash":"W+rOKNqs/tlvz02ez77yIYMCOr2EubpuNh5LvmwceI0=","alg":1}'
 
-# Result
+// Resultado
 {
     "result":{
         "data":"a7HHsLRvKTNazD1QEogY+Fre8KmBIyK+lNa4zv0Z72puFVkY9uZD6nGixGx/6s1x6Baq7etGwlDNxVvHsoGWbAA="
@@ -431,28 +418,28 @@ curl -i -H 'Content-Type: application/json' -X POST http://localhost:8685/v1/adm
 
 ### StartPprof
 
-StartPprof starts pprof
+Inicia pprof.
 
 | Protocol | Method | API |
 | --- | --- | --- |
 | gRpc |  | Pprof |
 | HTTP | POST | /v1/admin/pprof |
 
-**Parameters**
+#### Parámetros
 
-`listen` the address to listen
+* `listen`: IP y puerto a monitorear.
 
-**Returns**
+#### Devuelve
 
-`result` start pprof result
+* `result`: Boolean que indica si pprof se inició correctamente.
 
-**Example**
+#### Ejemplo HTTP
 
 ```bash
-# Request
+// Petición
 curl -i -H 'Content-Type: application/json' -X POST http://localhost:8685/v1/admin/pprof -d '{"listen":"0.0.0.0:1234"}'
 
-# Result
+// Resultado
 {
     "result":{
         "result":true
@@ -462,28 +449,28 @@ curl -i -H 'Content-Type: application/json' -X POST http://localhost:8685/v1/adm
 
 ### GetConfig
 
-GetConfig return the config current neb is using
+Devuelve los parámetros de configuración en uso por la consola Neb.
 
 | Protocol | Method | API |
 | --- | --- | --- |
 | gRpc |  | GetConfig |
 | HTTP | GET | /v1/admin/getConfig |
 
-**Parameters**
+#### Parámetros
 
-none
+Ninguno.
 
-**Returns**
+#### Devuelve
 
-`config` neb config
+* `config`: Matriz con los parámetros de configuración.
 
-**Example**
+#### Ejemplo HTTP
 
 ```bash
-# Request
+// Petición
 curl -i -H 'Content-Type: application/json' -X GET http://localhost:8685/v1/admin/getConfig
 
-# Result
+// Resultado
 {
     "result":{
         "config":{
@@ -546,4 +533,3 @@ curl -i -H 'Content-Type: application/json' -X GET http://localhost:8685/v1/admi
     }
 }
 ```
-
