@@ -15,7 +15,7 @@ Nebulas is the next-generation public blockchain, aiming for a continuously impr
 
 Nebulas community is open and everyone can be a contributor and build a decentralized world with us.
 
-The Nebulas wiki is a collaboration tool for the community to publish various documents in a collaborative manner. Include `using guides <wiki-using-guide.html>`_, `developing guides <dapp-development/README.html>`_, `learning resources <dapp-development/learning-resources.html>`_, and other useful documents. 
+The Nebulas wiki is a collaboration tool for the community to publish various documents in a collaborative manner. Include `usage guides <wiki-using-guide.html>`_, `development guides <dapp-development/README.html>`_, `learning resources <dapp-development/learning-resources.html>`_, and other useful documents. 
 
  
 
