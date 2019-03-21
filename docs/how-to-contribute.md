@@ -17,7 +17,7 @@ the whole community. Thus, we call upon developers!
 
 Learn more:
 
-Our github：[github.com/nebulasio/go-nebulas](https://github.com/nebulasio/go-nebulas)
+Our github: [github.com/nebulasio/go-nebulas](https://github.com/nebulasio/go-nebulas)
 
 Our Roadmap: [nebulas.io/roadmap.html](https://nebulas.io/roadmap.html) (Stay tuned)
 
@@ -46,7 +46,7 @@ Please note that some documents will require a professional background in Math, 
 
 ### 1.4.  Documentation Writing
 Developers in the Nebulas community require documentation to help them understand and use the various functions of Nebulas. The community is welcome and encouraged to write technical introductions and FAQs.
-In addition, Nebulas community members will also benefit from easy-to-understand introductory guides and user guides on various ecosystem tools.
+In addition, Nebulas' community members will also benefit from easy-to-understand introductory guides and user guides on various ecosystem tools.
 
 Your contribution will be of use to all community developers and members, and may also be translated into multiple languages to benefit an even larger amount of members.
 
@@ -64,7 +64,7 @@ Communication is key for building a vibrant community. People need to talk with 
 other in order to share their ideas and thoughts on Nebulas.
 
 
-Nebulas utilizes several platforms to connect our global community. Please refer to the [“Community”](https://nebulas.io/community.html) page on official website for more information.
+Nebulas uses several platforms to connect our global community. Please refer to the [“Community”](https://nebulas.io/community.html) page on official website for more information.
 
 Discord: Available for all community members. You can subscribe to Nebulas News, as well as participate in group discussions. Discord is many users' first choice.
 
@@ -74,7 +74,7 @@ Forum: [Reddit/r/nebulas(for all)](https://reddit.com/r/nebulas), [Reddit/r/nasd
 
 Communication: [Slack(for developers)](https://nebulasio.herokuapp.com/), [Telegram(for non-developers)](https://t.me/nebulasio)
 
-We welcome community developers to create an IRC (Internet Relay Chat) channel for better communication among developers.
+Community developers are welcome to create an IRC (Internet Relay Chat) channel for better communication among developers.
 
 ## 3. Bounties
 
@@ -82,4 +82,4 @@ We, the Nebulas team, happily introduce several bounties to reward early contrib
 - [Nebulas Wiki Bounty Program](https://medium.com/nebulasio/nebulas-wiki-bounty-program-32048077e16c)
 
 ## 4. Donations
-We welcome donations to develop Nebulas from the community. Both NAS and ETH are accepted. We also welcome community members to support us in material terms. For example, the donation of meetup locations/spaces, local guides, photography, etcetera. We can also make your contribution known to the community if you would like. If you are an enthusiastic community member and are willing to contribute to our community, please send an email to [contact@nebulas.io](mailto:contact@nebulas.io) for more details.
+Donations to the Nebulas Foundation to further the development of Nebulas are greatly appreciated. Both NAS and ETH are accepted. We also welcome community members to support us in material terms. For instance, the donation of meetup locations/venues, local guides, photography, etcetera. We can also make your contribution known to the community if you would like. If you are an enthusiastic community member and are willing to contribute to our community, email [contact@nebulas.io](mailto:contact@nebulas.io) for more details.
