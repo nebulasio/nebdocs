@@ -1,5 +1,5 @@
 # DApps Design Guide
 
-TBA
+[en construcción]
 
-You can download PDF [here](https://nebulas.io/docs/DAppDesignGuidelines.pdf).
+Mientras tanto, [puedes leer la guía en PDF](https://nebulas.io/docs/DAppDesignGuidelines.pdf).

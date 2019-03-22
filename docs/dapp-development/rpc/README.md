@@ -71,7 +71,7 @@ Si ocurre un error de grpc, la respuesta se verá así:
 }
 ```
 
-## Referencia de la API RPC API
+## Referencia
 
 ### Índice
 
