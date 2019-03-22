@@ -48,6 +48,8 @@ git clone https://github.com/nebulasio/nebdocs.git
 ```bash
 pip install sphinx==1.5.6 sphinx-autobuild sphinx_rtd_theme recommonmark
 ```
+**Note:** installing sphinx via pip is not reliable. Use your distribution's package manager if possible.
+
 3. build the project:
 
 ```bash
