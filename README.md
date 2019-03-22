@@ -18,7 +18,7 @@ A estructura do directório do documento está definida no ficheiro README.rst, 
 3. Cada língua pode ter a sua versão temporária. É recomendado adicionar um número sufixo a cada nome, por exemplo, en1.0, zh-CN1.1;
 
 ## Como compilar este projecto?
-1. clone o projecto do github, eis a branch principal:
+1. clone o projecto do github:
 
 ```bash
 git clone https://github.com/nebulasio/nebdocs.git
