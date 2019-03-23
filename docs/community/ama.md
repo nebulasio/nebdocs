@@ -13,4 +13,7 @@
 - [BCH分叉，公链技术联盟的大佬们怎么看？](https://www.huoxing24.com/newsdetail/20181127115458380113.html)
 - [行业大牛如何看待公链在2018年从爆发到寒冬？](https://www.huoxing24.com/newsdetail/20181224114531788805.html)
 
+## 其他
+- [公链那么多，为什么Dapp开发者偏爱星云链](https://mp.weixin.qq.com/s/mDVO1r510q0ngFmb2jDVtQ)
+
 
