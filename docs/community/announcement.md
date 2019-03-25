@@ -1,5 +1,5 @@
 # 公告
-
+- *[Go Nebulas社区化平台 · 协作的未来](https://blog.nebulas.io/2019/03/25/go-nebulas-the-future-of-collaboration/)*(2019-3-25)
 - *[Nebulas NOVA 2019|星云链将实现完全社区化](https://mp.weixin.qq.com/s/rDmPCHmbPpkk6f8znZCUnA)*(2019-3-1)
 - *[星云wiki悬赏计划](https://mp.weixin.qq.com/s/w5D5JOTy3YlTIeCFajXqTg)*(2018-12-7)
 - *[星云测试网维护通告](https://mp.weixin.qq.com/s/XK0WyZFYHvtoqttDWgaqQg)*(2018-12-5)
