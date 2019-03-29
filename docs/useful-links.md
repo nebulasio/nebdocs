@@ -21,7 +21,7 @@ Tutorials made by the nebulas community:
 [Nebulas Dapp tutorial](https://medium.com/coinmonks/dapp-tutorial-72f0ae39f538
 )
 
-[NNew Nebulas Smart Contract feature](https://medium.com/nebulasio/new-nebulas-smart-contract-feature-e15046804b3c
+[New Nebulas Smart Contract feature](https://medium.com/nebulasio/new-nebulas-smart-contract-feature-e15046804b3c
 )
 
 [Creating A NAS Wallet](https://medium.com/nebulasio/creating-a-nas-wallet-9d01b5fa2df6)
