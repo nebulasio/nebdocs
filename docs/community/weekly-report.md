@@ -1,5 +1,6 @@
 # 星云周报
 
+- 星云周报-第75期(3/18-3/31)-[星云周报第75期：星云在今年会基本完成白皮书的技术要件](https://mp.weixin.qq.com/s/kiFDChyeaeHqHr1vCEm9xg)
 - 星云周报-第74期(3/11-3/24)-[星云周报第74期：Nebulas NOVA上线准备工作开展中](https://blog.nebulas.io/2019/03/25/nebulas-bi-weekly-development-commits-74/)
 - 星云周报-第73期(3/04-3/17)-[星云周报第73期：社区成员可申领项目参与星云生态建设](https://blog.nebulas.io/2019/03/18/nebulas-bi-weekly-community-dynamics-73/)
 - 星云周报-第72期(2/15-3/10)-[星云周报第72期：星云项目制平台正在开发中](https://blog.nebulas.io/2019/03/11/nebulas-bi-weekly-development-commits-72/)
