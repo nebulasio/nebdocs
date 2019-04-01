@@ -32,7 +32,7 @@ The directory structure of the document is defined in the README.rst file in the
 - zh-CN: Simplified Chinese version;
 - pt-PT: Portuguese version;
 - es-ES: Spanish version;
-- ko-KR: Korean version.
+- ko-KR: Korean version (very incomplete, pull requests welcome).
 2. To facilitate document management, the document structure of different branches is as consistent as possible with the main branch;
 3. Each language is allowed to have its own temporary version. It is recommended to add the suffix version number to the version name, for example, en1.0, zh-CN1.1;
 
@@ -48,7 +48,7 @@ git clone https://github.com/nebulasio/nebdocs.git
 ```bash
 pip install sphinx==1.5.6 sphinx-autobuild sphinx_rtd_theme recommonmark
 ```
-**Note:** installing sphinx via pip is not reliable. Use your distribution's package manager if possible.
+**Note:** installing sphinx via pip is unreliable. Use your distribution's package manager if possible.
 
 3. build the project:
 
