@@ -1,4 +1,6 @@
 # 公告
+
+- *[用NAT，共同决策星云生态的发展](https://blog.nebulas.io/2019/04/10/together-lets-decide-the-future-of-the-nebulas-ecosystem/)*(2019-4-10)
 - *[星云治理的关键时刻已来](https://blog.nebulas.io/2019/04/03/the-milestore-of-nebulas-governance-is-coming/)*(2019-4-3)
 - *[Go Nebulas社区化平台 · 协作的未来](https://blog.nebulas.io/2019/03/25/go-nebulas-the-future-of-collaboration/)*(2019-3-25)
 - *[Nebulas NOVA 2019|星云链将实现完全社区化](https://mp.weixin.qq.com/s/rDmPCHmbPpkk6f8znZCUnA)*(2019-3-1)
