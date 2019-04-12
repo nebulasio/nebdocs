@@ -1,5 +1,6 @@
 # 动态
 
+- [Nebulas NOVA即将上线 共启协作的未来](https://blog.nebulas.io/2019/04/12/nebulas-nova-is-coming-soon-opening-the-future-of-collaboration/)
 - [星云链联合主办方公有链技术联盟共同发起“the Voice of Blockchain”活动](https://blog.nebulas.io/2019/04/09/nebulas-x-pcta-the-voice-of-blockchain/)
 - [Nebulas NOVA测试网开发者激励活动圆满结束！](https://blog.nebulas.io/2019/04/02/nebulas-nova-testnet-developer-incentives-program-have-come-to-an-end/)
 - [Nebulas NOVA测试网地址涨幅创八周新高](https://blog.nebulas.io/2019/03/19/nebulas-nova-testnet-address-rose-to-an-eight-week-high/)
