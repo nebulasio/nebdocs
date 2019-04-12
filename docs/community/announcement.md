@@ -1,4 +1,10 @@
 # Announcement
+- (04/08/2019) - [Nebulas Community Group (community consultation draft)](https://medium.com/nebulasio/nebulas-community-group-community-consultation-draft-3fe20bf682bb)
+- (04/03/2019) - [The Declaration of Nebulas Independence: Nebulas Governance is Approaching](https://medium.com/nebulasio/the-declaration-of-nebulas-independence-nebulas-governance-is-approaching-f772a4175761)
+- (03/25/2019) - [Go Nebulas: the future of collaboration!](https://medium.com/nebulasio/go-nebulas-the-future-of-collaboration-7a747177660f)
+- (01/29/2019) - [Nebulas NOVA Testnet Developer Incentive Program Launches Today](https://medium.com/nebulasio/nebulas-nova-testnet-developer-incentive-program-launches-today-59bbb58db940)
+- (12/27/2018) - [NAS nano has been upgraded to NAS nano pro](https://medium.com/nebulasio/nas-nano-has-been-upgraded-to-nas-nano-pro-ec9a2115eede)
+- (12/07/2018) - [Nebulas Wiki Bounty Program](https://medium.com/nebulasio/nebulas-wiki-bounty-program-32048077e16c)
 - (12/05/2018) - [Announcement: Nebulas Testnet Operation Maintenance](https://medium.com/nebulasio/announcement-nebulas-testnet-operation-maintenance-2e6992795ee5)
 - (11/27/2018) - [Nebulas Bug Bounty Improvement](https://medium.com/nebulasio/nebulas-bug-bounty-program-c026e63d8a20)
 - (10/17/2018) - [ATP Smartdrop Applying Process Begins](https://medium.com/nebulasio/atp-smartdrop-applying-process-begins-1a51a72a1e79)
