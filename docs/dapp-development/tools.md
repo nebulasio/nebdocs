@@ -1,9 +1,9 @@
 # Tools
 
-All the developing tools: official dev tools and tools from the community. We welcome you to join us and build the Nebulas ecosystem together. You can recommend more tools and edit this page on Github directly.
+All the development tools: official dev tools and tools from the community. We welcome you to join us and build the Nebulas ecosystem together. You can recommend more tools and edit this page on Github directly.
 
 
-- **[Cross-platform Nebulas smart contract IDE](https://nebide.block2100.com/)**
+- **[Cross-platform Nebulas Smart Contract IDE](https://nebide.block2100.com/)**
 
 Full functions: web
 
@@ -17,20 +17,20 @@ Users can use it in browser on both PC and mobile. Users can make NAS payments t
 
 - **[Development Environment for Nebulas](https://github.com/mirei83/NebuEnv)**
 
-### JavaScript development tools
+### JavaScript Development Tools
 - **[VS Code](https://code.visualstudio.com/)**
 - **[sublime](https://www.sublimemerge.com/download)**
 
-### DApp development framework
+### DApp Development Framework
 - **[Nasa.js](https://github.com/NasaTeam/Nasa.js)**
   The acclaimed Nebulas DApp client development framework, lightweight and easy to use.
 - **[Nebulas DApp Local Development Debugging Tool](https://www.sublimemerge.com/download)**
 
-### Contract development tools
-- **[Smart contract integrated development environment](https://nebide.block2100.com/)**
-- **[Nebulas smart contract ide](https://github.com/cailuxianggg/nebulas-ide)**
+### Contract Development Tools
+- **[Smart Contract Integrated Development Environment](https://nebide.block2100.com/)**
+- **[Nebulas smart contract IDE](https://github.com/cailuxianggg/nebulas-ide)**
 
-### Contract deployment tool
+### Contract Deployment Tools
 - **[Web-wallet](https://github.com/nebulasio/web-wallet)**
 - **[WebExtensionWallet](https://github.com/ChengOrangeJu/WebExtensionWallet)**
 
@@ -50,18 +50,18 @@ Users can use it in browser on both PC and mobile. Users can make NAS payments t
 - **[unity3d](https://github.com/xbhuang1994/nebulas-unity-sdk)**
 - **[swift](https://github.com/ZJJeffery/swiftSDK)**
 
-### Static scan tool
+### Static Scanning Tools
 - **[Nebulas Smart Contract Code Checker](https://github.com/NasaTeam/naslint)**
 - **[Nebulas Smart Contract Lint Tool](https://github.com/jnoodle/nebulasLint)**
 - **[Nebulas javascript/typescript smart contract static check tool](https://github.com/zoowii/nebstaticcheck)**
 
-### Command line tool
+### Command Line Tools
 - **[A CLI Tool for Nebulas](https://github.com/5sWind/nebCli)**
 
-### test tools
+### Testing Tools
 - **[NebTest will automate unit testing of nebulas smart contracts](https://github.com/Ideas2IT/nebtest)**
 
-### other
+### Others
 NebulasDB is a nebulas-based, decentralized, non-relational database, and provides a JS-SDK client
 - **[The console is easy to use to develop for data operations](https://github.com/antgan/nebulasdb-sdk)**
 - **[Nebulas-Utils is an utiliy package for Nebulas Chain Development](https://github.com/iHamburg/nebulas-utils)**
