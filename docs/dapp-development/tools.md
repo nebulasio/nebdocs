@@ -2,11 +2,11 @@
 
 Todas as ferramentas para desenvolvimento da Nebulas, da comunidade e desenvolvedores.
 
-- **[Cross-platform Nebulas smart contract IDE](https://nebide.block2100.com/)**
+- **[IDE multiplataforma para Smart Contracts da Nebulas](https://nebide.block2100.com/)**
 
-Full functions: web
+Funções Completas: web
 
-Local NVM: Mac OS, Windows, Linux
+NVM Local: Mac OS, Windows, Linux
 
 
 - **[nebPay](https://github.com/nebulasio/nebPay)**
@@ -14,52 +14,54 @@ Local NVM: Mac OS, Windows, Linux
 API JavaScript de pagamentos da Nebulas.
 Utilizadores podem utilizá-lo no explorador, no PC e em móvel. Podem fazer pagamentos NAS através da extensão do Chrome e das carteiras de iOS e Android.
 
-- **[Development Environment for Nebulas](https://github.com/mirei83/NebuEnv)**
+- **[Ambiente de Desenvolvimento para a Nebulas](https://github.com/mirei83/NebuEnv)**
 
-### JavaScript development tools
+### Ferramentas para Desenvolvimento para JavaScript
 - **[VS Code](https://code.visualstudio.com/)**
 - **[sublime](https://www.sublimemerge.com/download)**
 
-### DApp development framework
+### Framework para Desenvolvimento de DApps
 - **[Nasa.js](https://github.com/NasaTeam/Nasa.js)**
-  The acclaimed Nebulas DApp client development framework, lightweight and easy to use.
-- **[Nebulas DApp Local Development Debugging Tool](https://www.sublimemerge.com/download)**
+  A prezada framework do desenvolvimento de cliente de DApps da Nebulas, leve e de fácil utilização.
+- **[Ferramenta de Debugging Local de DApps da Nebulas](https://www.sublimemerge.com/download)**
 
-### Contract development tools
-- **[Smart contract integrated development environment](https://nebide.block2100.com/)**
-- **[Nebulas smart contract ide](https://github.com/cailuxianggg/nebulas-ide)**
+### Ferramentas para Desenvolvimento de Contractos
+- **[Ambiente de Desenvolvimento Integrado para Smart Contracts](https://nebide.block2100.com/)**
+- **[IDE para Smart Contracts da Nebulas](https://github.com/cailuxianggg/nebulas-ide)**
 
-### Contract deployment tool
+### Ferramenta para Implantação de Contractos
 - **[Web-wallet](https://github.com/nebulasio/web-wallet)**
 - **[WebExtensionWallet](https://github.com/ChengOrangeJu/WebExtensionWallet)**
 
 ### Nebpay
-- **[JavaScript SDK](https://github.com/nebulasio/nebPay)**
-- **[iOS SDK](https://github.com/nebulasio/neb.iOS)**
-- **[Android SDK](https://github.com/nebulasio/neb.android)**
+- **[SDK JavaScript](https://github.com/nebulasio/nebPay)**
+- **[SDK iOS](https://github.com/nebulasio/neb.iOS)**
+- **[SDK Android](https://github.com/nebulasio/neb.android)**
 
-### Nebulas API
+### API Nebulas
 - **[Go](https://github.com/nebulasio/go-nebulas)**
 - **[Python](https://github.com/nebulasio/neb.py)**
+- **[Java](https://github.com/nebulasio/neb.java)**
+- **[JavaScript](https://github.com/nebulasio/neb.js)**
 - **[PHP](https://github.com/nebulasio/neb.php)**
 - **[ruby](https://github.com/simlegate/nebulas.rb)**
 - **[NET](https://github.com/johnetran/neb.net)**
 - **[unity3d](https://github.com/xbhuang1994/nebulas-unity-sdk)**
 - **[swift](https://github.com/ZJJeffery/swiftSDK)**
 
-### Static scan tool
+### Analisador Estático de Código
 - **[Nebulas Smart Contract Code Checker](https://github.com/NasaTeam/naslint)**
 - **[Nebulas Smart Contract Lint Tool](https://github.com/jnoodle/nebulasLint)**
 - **[Nebulas javascript/typescript smart contract static check tool](https://github.com/zoowii/nebstaticcheck)**
 
-### Command line tool
+### Ferramentas CLI
 - **[Ferramenta CLI para a Nebulas](https://github.com/5sWind/nebCli)**
 
-### test tools
+### Ferramentas para Testes
 - **[NebTest visa fazer a automatização e teste unitário de smart contracts da Nebulas](https://github.com/Ideas2IT/nebtest)**
 
-### other
-NebulasDB é uma base de dados baseada na Nebulas, descentralizada, nao-relacional, e fornece um cliente JS-SDK
+### Outras
+NebulasDB é uma base de dados baseada na Nebulas, descentralizada, não-relacional, e disponibiliza um cliente JS-SDK
 - **[A consola é de fácil desenvolvimento para operações em dados](https://github.com/antgan/nebulasdb-sdk)**
 - **[Nebulas-Utils é um pacote para desenvolvimento da Chain da Nebulas](https://github.com/iHamburg/nebulas-utils)**
 - **[Com base no API JS da Nebulas, põe nebulas.js e o nebpay.js num só pacote](https://github.com/xuelabi123/nebrella)**
