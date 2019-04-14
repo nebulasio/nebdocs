@@ -2,8 +2,18 @@
 
 You can take a quick look at all the Nebulas weekly reports here.
 
-- Weekly Report # 66 (01/29/2019) - [Development: Nebulas Bi-Weekly Development Commits #66](https://medium.com/nebulasio/nebulas-bi-weekly-development-commits-66-c681d87f5302)
-- Weekly Report # 65 (01/22/2019) - [Community: Nebulas Bi-Weekly Community Dynamics#65](https://medium.com/nebulasio/nebulas-bi-weekly-community-dynamics-65-53ae6210faae)
+- Weekly Report #75 (04/08/2019) - [Nebulas Bi-Weekly Development Commits #76](https://medium.com/nebulasio/nebulas-bi-weekly-development-commits-76-d499defe8c6d)
+- Weekly Report #75 (04/01/2019) - [Nebulas Weekly Report #75 Go Nebulas has Liftoff!](https://medium.com/nebulasio/nebulas-weekly-report-73-go-nebulas-has-liftoff-99bcf7bfb2a9)
+- Weekly Report #74 (03/25/2019) - [Nebulas Bi-Weekly Development Commits #74](https://medium.com/nebulasio/nebulas-bi-weekly-development-commits-74-26f865e399a0)
+- Weekly Report #73 (03/18/2019) - [Nebulas Weekly Report #73: PCTA meetup and AMA sessions](https://medium.com/nebulasio/nebulas-weekly-report-73-pcta-meetup-and-ama-sessions-e0493e5b6f1a)
+- Weekly Report #72 (03/11/2019) - [Nebulas Bi-Weekly Development Commits #72](https://medium.com/nebulasio/nebulas-bi-weekly-development-commits-72-b1306160bbfa)
+- Weekly Report #71 (03/04/2019) - [Nebulas Weekly Report #71: Nebulas community development roadmap officially released](https://medium.com/nebulasio/nebula-weekly-report-71-nebulas-community-development-roadmap-officially-released-e61397c3e477)
+- Weekly Report #70 (02/25/2019) - [Nebulas Bi-Weekly Development Commits #70](https://medium.com/nebulasio/nebulas-bi-weekly-development-commits-70-83c3c859a7a4)
+- Weekly Report #69 (02/19/2019) - [Nebula Weekly Report #69: Nebulas Actively Explore Japan & Hong Kong Market in The New Year](https://medium.com/nebulasio/nebula-weekly-report-69-nebulas-actively-explore-japan-hong-kong-market-in-the-new-year-8c98562475fc)
+- Weekly Report #68 (02/12/2019) - [Nebulas Bi-Weekly Development Commits #68](https://medium.com/nebulasio/nebulas-bi-weekly-development-commits-68-e817b18c8af7)
+- Weekly Report #67 (02/04/2019) - [Nebulas Bi-Weekly Community Dynamics#67](https://medium.com/nebulasio/nebulas-bi-weekly-community-dynamics-67-c2a27ae98149)
+- Weekly Report #66 (01/29/2019) - [Development: Nebulas Bi-Weekly Development Commits #66](https://medium.com/nebulasio/nebulas-bi-weekly-development-commits-66-c681d87f5302)
+- Weekly Report #65 (01/22/2019) - [Community: Nebulas Bi-Weekly Community Dynamics#65](https://medium.com/nebulasio/nebulas-bi-weekly-community-dynamics-65-53ae6210faae)
 - Weekly Report #64 (01/15/2019) -[Development : We are currently working on new API features and more test cases via the testnet](https://medium.com/nebulasio/nebulas-bi-weekly-development-commits-64-ff633d06833a)
 - Weekly Report #63 (01/07/2019) -[Community : Nebulas Bi-Weekly Community Dynamics#63](https://medium.com/p/63938b990745/edit)
 - Weekly Report #62 (12/31/2018) -[Development : We finished all developments of Nebulas Nova features](https://medium.com/nebulasio/nebulas-bi-weekly-development-commits-62-dbd919193806)
