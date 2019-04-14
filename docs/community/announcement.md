@@ -1,5 +1,17 @@
 # Anúncios
 
+(04/08/2019) - [Grupo da Comunidade da Nebulas](https://medium.com/nebulasio/nebulas-community-group-community-consultation-draft-3fe20bf682bb)
+
+(04/03/2019) - [A Declaração de Independência da Nebulas: A Governação da Nebulas Aproxima-se](https://medium.com/nebulasio/the-declaration-of-nebulas-independence-nebulas-governance-is-approaching-f772a4175761)
+
+(03/25/2019) - [Go Nebulas: o Futuro da Colaboração!](https://medium.com/nebulasio/go-nebulas-the-future-of-collaboration-7a747177660f)
+
+(01/29/2019) - [Programa de Incentivos ao Desenvolvedor da Nebulas NOVA Começa Hoje, na Testnet](https://medium.com/nebulasio/nebulas-nova-testnet-developer-incentive-program-launches-today-59bbb58db940)
+
+(12/27/2018) - [NAS nano Foi Actualizado Para Nas Nano Pro](https://medium.com/nebulasio/nas-nano-has-been-upgraded-to-nas-nano-pro-ec9a2115eede)
+
+(12/07/2018) - [Programa de Recompensas da Nebulas Wiki](https://medium.com/nebulasio/nebulas-wiki-bounty-program-32048077e16c)
+
 (12/05/2018) - [Anúncio: Operação de Manutenção da Testnet da Nebulas](https://medium.com/nebulasio/announcement-nebulas-testnet-operation-maintenance-2e6992795ee5)
 
 (11/27/2018) - [Melhoria da Recompensa por Bug da Nebulas](https://medium.com/nebulasio/nebulas-bug-bounty-program-c026e63d8a20)
