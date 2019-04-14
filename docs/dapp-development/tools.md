@@ -42,6 +42,8 @@ Users can use it in browser on both PC and mobile. Users can make NAS payments t
 ### Nebulas API
 - **[Go](https://github.com/nebulasio/go-nebulas)**
 - **[Python](https://github.com/nebulasio/neb.py)**
+- **[Java](https://github.com/nebulasio/neb.java)**
+- **[JavaScript](https://github.com/nebulasio/neb.js)**
 - **[PHP](https://github.com/nebulasio/neb.php)**
 - **[ruby](https://github.com/simlegate/nebulas.rb)**
 - **[NET](https://github.com/johnetran/neb.net)**
