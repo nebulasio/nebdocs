@@ -328,5 +328,5 @@ takeout: function (value) {
 
 ### 下一章
 
-[智能合约存储区](https://github.com/nebulasio/wiki/blob/master/tutorials/[中文]%20Nebulas%20101%20-%2004%20智能合约存储区.md)
+[智能合约存储区](04-smart-contract-storage.md)
 

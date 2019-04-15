@@ -133,5 +133,5 @@ if err != nil {
 
 恭喜你成功走完了整个教程! 欢迎阅读下列指南来加入官方的测试网和主网，探索更加广阔的区块链世界。
 
-[Join to Testnet](https://github.com/nebulasio/wiki/blob/master/testnet.md) [Join to Mainnet](https://github.com/nebulasio/wiki/blob/master/mainnet.md)
+[加入测试网](../testnet.md) & [加入主网](../mainnet.md)
 

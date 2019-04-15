@@ -202,5 +202,5 @@ cp /path/to/keystore.json /path/to/keydir/
 
 ### 下一章
 
-[编写并运行智能合约](https://github.com/nebulasio/wiki/blob/master/tutorials/[中文]%20Nebulas%20101%20-%2003%20编写智能合约.md)
+[编写并运行智能合约](03-smart-contracts-javascript.md)
 
