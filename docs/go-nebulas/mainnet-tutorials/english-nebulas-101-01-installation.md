@@ -325,5 +325,5 @@ After the node starts, if the connection with the seed node is successful, you c
 
 ### Next step: Tutorial 2
 
-[Sending Transactions on Nebulas](https://github.com/nebulasio/wiki/blob/master/tutorials/[English]%20Nebulas%20101%20-%2002%20Transaction.md)
+[Sending Transactions on Nebulas](english-nebulas-101-02-transaction.md)
 

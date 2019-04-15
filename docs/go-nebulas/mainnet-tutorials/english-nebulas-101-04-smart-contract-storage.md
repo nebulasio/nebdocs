@@ -256,5 +256,5 @@ module.exports = SampleContract;
 
 ### Next step: Tutorial 5
 
-[Interacting with Nebulas by RPC API](https://github.com/nebulasio/wiki/blob/master/tutorials/[English]%20Nebulas%20101%20-%2005%20Interacting%20with%20Nebulas%20by%20RPC%20API.md)
+[Interacting with Nebulas by RPC API](english-nebulas-101-05-interacting-with-nebulas-by-rpc-api.md)
 

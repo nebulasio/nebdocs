@@ -203,5 +203,5 @@ Here you should see a balance that is the total of all the successful transfers 
 
 ### Next step: Tutorial 3
 
-[Write and run a smart contract with JavaScript](https://github.com/nebulasio/wiki/blob/master/tutorials/[English]%20Nebulas%20101%20-%2003%20Smart%20Contracts%20JavaScript.md)
+[Write and run a smart contract with JavaScript](english-nebulas-101-03-smart-contracts-javascript.md)
 

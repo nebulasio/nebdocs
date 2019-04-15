@@ -329,5 +329,5 @@ Call the smart contract method `balanceOf`:
 
 ### Next step: Tutorial 4
 
-[Smart Contract Storage](https://github.com/nebulasio/wiki/blob/master/tutorials/[English]%20Nebulas%20101%20-%2004%20Smart%20Contract%20Storage.md)
+[Smart Contract Storage](english-nebulas-101-04-smart-contract-storage.md)
 
