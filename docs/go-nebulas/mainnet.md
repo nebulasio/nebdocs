@@ -6,9 +6,9 @@
 
 We are glad to release Nebulas Mainnet here. Please join and enjoy Nebulas Mainnet.
 
-```text
-[https://github.com/nebulasio/go-nebulas/tree/master](https://github.com/nebulasio/go-nebulas/tree/master)
-```
+
+> [https://github.com/nebulasio/go-nebulas/tree/master](https://github.com/nebulasio/go-nebulas/tree/master)
+
 
 ### Configuration
 
