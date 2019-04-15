@@ -6,9 +6,9 @@
 
 We are glad to release Nebulas Testnet here. It simulate the Nebulas network and NVM, and allow developers to interact with Nebulas without paying the cost of gas.
 
-```text
-https://github.com/nebulasio/go-nebulas/tree/testnet
-```
+
+> [https://github.com/nebulasio/go-nebulas/tree/testnet](https://github.com/nebulasio/go-nebulas/tree/testnet)
+
 
 ### Configuration
 
