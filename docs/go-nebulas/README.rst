@@ -10,7 +10,7 @@ Go-Nebulas
     mainnet.md
     testnet.md
     How to Develop <develop/README.md>
-    Tutorials <mainnet-tutorials/README.md>
+    tutorials/README.md
     Todo List <todo/README.md>
     Roadmap of Nebulas <roadmap.md>
     Frequently Asked Questions <faq.md>

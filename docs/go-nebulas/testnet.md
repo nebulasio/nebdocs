@@ -1,5 +1,7 @@
 # How to Join Nebulas Testnet
 
+> _Tips_: the tutorial below is for Eagle Nebula. The new tutorial for Nebulas NOVA is coming soon.
+
 ## Introduction
 
   We are glad to release the Nebulas Testnet. It simulates the Nebulas network and NVM, and allows developers to interact with Nebulas without paying the cost of gas.
@@ -59,11 +61,11 @@ Each email can claim tokens every day [here](https://testnet.nebulas.io/claim).
 
 #### English
 
-1. [Installation](https://github.com/nebulasio/wiki/blob/master/tutorials/[English]%20Nebulas%20101%20-%2001%20Installation.md) \(thanks [Victor](https://github.com/victorychain)\)
-2. [Sending a Transaction](https://github.com/nebulasio/wiki/blob/master/tutorials/[English]%20Nebulas%20101%20-%2002%20Transaction.md) \(thanks [Victor](https://github.com/victorychain)\)
-3. [Writing Smart Contract in JavaScript](https://github.com/nebulasio/wiki/blob/master/tutorials/[English]%20Nebulas%20101%20-%2003%20Smart%20Contracts%20JavaScript.md) \(thanks [otto](https://github.com/ottokafka)\)
-4. [Introducing Smart Contract Storage](https://github.com/nebulasio/wiki/blob/master/tutorials/[English]%20Nebulas%20101%20-%2004%20Smart%20Contract%20Storage.md) \(thanks [Victor](https://github.com/victorychain)\)
-5. [Interacting with Nebulas by RPC API](https://github.com/nebulasio/wiki/blob/master/tutorials/[English]%20Nebulas%20101%20-%2005%20Interacting%20with%20Nebulas%20by%20RPC%20API.md) \(thanks [Victor](https://github.com/victorychain)\)
+1. [Installation](tutorials/01-installation.md) \(thanks [Victor](https://github.com/victorychain)\)
+2. [Sending a Transaction](tutorials/02-transaction.md) \(thanks [Victor](https://github.com/victorychain)\)
+3. [Writing Smart Contract in JavaScript](tutorials/03-smart-contracts-javascript.md) \(thanks [otto](https://github.com/ottokafka)\)
+4. [Introducing Smart Contract Storage](tutorials/04-smart-contract-storage.md) \(thanks [Victor](https://github.com/victorychain)\)
+5. [Interacting with Nebulas by RPC API](tutorials/05-interacting-with-nebulas-by-rpc-api.md) \(thanks [Victor](https://github.com/victorychain)\)
 
 
 ## Contributing

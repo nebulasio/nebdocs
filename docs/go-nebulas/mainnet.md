@@ -1,11 +1,13 @@
 # How to Join Nebulas Mainnet
 
+> _Tips_: the tutorial below is for Eagle Nebula. The new tutorial for Nebulas NOVA is coming soon.
+
 ## Introduction
 
 We are glad to release Nebulas Mainnet here. Please join and enjoy Nebulas Mainnet.
 
 ```text
-https://github.com/nebulasio/go-nebulas/tree/master
+[https://github.com/nebulasio/go-nebulas/tree/master](https://github.com/nebulasio/go-nebulas/tree/master)
 ```
 
 ### Configuration
@@ -54,11 +56,11 @@ More Nebulas APIs at [RPC](https://github.com/nebulasio/wiki/blob/master/rpc.md)
 
 ### English
 
-1. [Installation](mainnet-tutorials/english-nebulas-101-01-installation.md) \(thanks [Victor](https://github.com/victorychain)\)
-2. [Sending a Transaction](mainnet-tutorials/english-nebulas-101-02-transaction.md) \(thanks [Victor](https://github.com/victorychain)\)
-3. [Writing Smart Contract in JavaScript](mainnet-tutorials/english-nebulas-101-03-smart-contracts-javascript.md) \(thanks [otto](https://github.com/ottokafka)\)
-4. [Introducing Smart Contract Storage](mainnet-tutorials/english-nebulas-101-04-smart-contract-storage.md) \(thanks [Victor](https://github.com/victorychain)\)
-5. [Interacting with Nebulas by RPC API](mainnet-tutorials/english-nebulas-101-05-interacting-with-nebulas-by-rpc-api.md) \(thanks [Victor](https://github.com/victorychain)\)
+1. [Installation](tutorials/01-installation.md) \(thanks [Victor](https://github.com/victorychain)\)
+2. [Sending a Transaction](tutorials/02-transaction.md) \(thanks [Victor](https://github.com/victorychain)\)
+3. [Writing Smart Contract in JavaScript](tutorials/03-smart-contracts-javascript.md) \(thanks [otto](https://github.com/ottokafka)\)
+4. [Introducing Smart Contract Storage](tutorials/04-smart-contract-storage.md) \(thanks [Victor](https://github.com/victorychain)\)
+5. [Interacting with Nebulas by RPC API](tutorials/05-interacting-with-nebulas-by-rpc-api.md) \(thanks [Victor](https://github.com/victorychain)\)
 
 
 ## Contribution

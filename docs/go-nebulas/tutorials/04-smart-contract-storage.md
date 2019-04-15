@@ -1,43 +1,45 @@
-# Nebulas 101 - 04 智能合约存储区
+# Nebulas 101 - 04 Smart Contract Storage
 
-前面我们介绍了怎么编写智能合约以及怎样在星云链部署和调用智能合约。
+[YouTube Tutorial](https://www.youtube.com/watch?v=Ofs4AyRaSlw)
 
-今天我们来详细的介绍有关星云链智能合约的存储。星云链智能合约\(smart contract\)提供了链上数据存储功能。类似于传统的key-value存储系统（eg:redis），可以付费（消耗gas）将数据存储到星云链上。
+Earlier we covered how to write smart contracts and how to deploy and invoke smart contracts in the Nebulas.
+
+Now we introduce in detail the storage of the smart contract. Nebulas smart contracts provide on-chain data storage capabilities. Similar to the traditional key-value storage system \(eg: redis\), smart contracts can be stored on the Nebulas by paying with \(gas\).
 
 ## LocalContractStorage
 
-星云链的智能合约运行环境内置了存储对象`LocalContractStorage`，可以存储数字，字符串，JavaScript对象，存储数据只能在智能合约内使用，其他合约不能读取存储的内容。
+Nebulas' Smart Contract environment has built-in storage object `LocalContractStorage`, which can store numbers, strings, and JavaScript objects. The stored data can only be used in smart contracts. Other contracts can not read the stored data.
 
-#### 基础用法
+### Basics
 
-`LocalContractStorage`的简单接口包括`set`,`get`,`del`接口，实现了存储，读取，删除数据功能。存储可以是数字，字符串，对象。
+The `LocalContractStorage` API includes `set`, `get` and `del`, which allow you to store, read, and delete data. Storage can be numbers, strings, objects
 
-**LocalContractStorage存储数据**
+#### Storing `LocalContractStorage` Data：
 
 ```javascript
-// 存储数据，数据会被json序列化成字符串保存
+// store data. The data will be stored as JSON strings
 LocalContractStorage.put(key, value);
-// 或者
+// Or
 LocalContractStorage.set(key, value);
 ```
 
-**LocalContractStorage读取数据**
+#### Reading `LocalContractStorage` Data：
 
 ```javascript
-// 获取数据
+// get the value from key
 LocalContractStorage.get(key);
 ```
 
-**LocalContractStorage删除数据**
+#### Deleting `LocalContractStorage` Data：
 
 ```javascript
-// 删除数据, 数据删除后无法读取
+// delete data, data can not be read after deletion
 LocalContractStorage.del(key);
-// 或者
+// Or
 LocalContractStorage.delete(key);
 ```
 
-下面是一个具体在合约中使用`LocalContractStorage`的实例：
+Examples:
 
 ```javascript
 'use strict';
@@ -49,39 +51,39 @@ SampleContract.prototype = {
     init: function () {
     },
     set: function (name, value) {
-        // 存储字符串
+        // Storing a string
         LocalContractStorage.set("name",name);
-        // 存储数字
+        // Storing a number (value)
         LocalContractStorage.set("value", value);
-        // 存储对象
-        LocalContractStorage.set("obj", {name:name,value:value});
+        // Storing an objects
+        LocalContractStorage.set("obj", {name:name, value:value});
     },
     get: function () {
         var name = LocalContractStorage.get("name");
-        console.log("name:"+name)
+        console.log("name:" + name)
         var value = LocalContractStorage.get("value");
-        console.log("value:"+value)
+        console.log("value:" + value)
         var obj = LocalContractStorage.get("obj");
-        console.log("obj:"+JSON.stringify(obj))
+        console.log("obj:" + JSON.stringify(obj))
     },
     del: function () {
         var result = LocalContractStorage.del("name");
-        console.log("del result:"+result)
+        console.log("del result:" + result)
     }
 };
 
 module.exports = SampleContract;
 ```
 
-### 高级用法
+### Advanced
 
-`LocalContractStorage`除了基本的`set`,`get`,`del`方法，还提供方法来绑定合约属性。对绑定过的合约属性的读写将直接在`LocalContractStorage`上读写，而无需调用`get`和`set`方法。
+In addition to the basic `set`, `get`, and `del` methods, `LocalContractStorage` also provides methods to bind properties of smart contracts. We could read and write binded properties directly without invoking `LocalContractStorage` interfaces to `get` and `set`.
 
-#### 绑定属性
+#### Binding Properties
 
-在绑定一个合约属性时，需要提供对象实例，属性名和序列化方法。
+Object instance, field name and descriptor should be provided to bind properties.
 
-**绑定接口**
+**Binding Interface**
 
 ```javascript
 // define a object property named `fieldname` to `obj` with descriptor.
@@ -95,18 +97,18 @@ defineProperty(obj, fieldName, descriptor);
 defineProperties(obj, descriptorMap);
 ```
 
-下面是一个在合约中使用`LocalContractStorage`绑定属性的例子:
+Here is an example to bind properties in a smart contract.
 
 ```javascript
 'use strict';
 
 var SampleContract = function () {
-    // SampleContract的`size`属性为存储属性，对`size`的读写会存储到链上，
-    // 此处的`descriptor`设置为null，将使用默认的JSON.stringify()和JSON.parse()
-    LocalContractStorage.defineMapProperty(this, "size", null);
+    // The SampleContract `size` property is a storage property. Reads and writes to` size` will be stored on the chain.
+    // The `descriptor` is set to null here, the default JSON.stringify () and JSON.parse () will be used.
+    LocalContractStorage.defineMapProperty(this, "size");
 
-    // SampleContract的`value`属性为存储属性，对`value`的读写会存储到链上，
-    // 此处的`descriptor`自定义实现，存储时直接转为字符串，读取时获得Bignumber对象
+    // The SampleContract `value` property is a storage property. Reads and writes to` value` will be stored on the chain.
+    // Here is a custom `descriptor` implementation, storing as a string, and returning Bignumber object during parsing. 
     LocalContractStorage.defineMapProperty(this, "value", {
         stringify: function (obj) {
             return obj.toString();
@@ -115,29 +117,30 @@ var SampleContract = function () {
             return new BigNumber(str);
         }
     });
-    // SampleContract的多个属性批量设置为存储属性，对应的descriptor默认使用JSON序列化
+    // Multiple properties of SampleContract are set as storage properties in batches, and the corresponding descriptors use JSON serialization by default
     LocalContractStorage.defineProperties(this, {
         name: null,
         count: null
     });
 };
+
 module.exports = SampleContract;
 ```
 
-然后，我们可以如下在合约里直接读写这些属性。
+Then, we can read and write these properties directly as the following example.
 
 ```javascript
 SampleContract.prototype = {
-    // 合约部署时调用，部署后无法二次调用
+    // Used when the contract first deploys, can not be used a second after the first deploy.
     init: function (name, count, size, value) {
-        // 在部署合约时将数据存储到链上
+        // Store the data on the chain when deploying the contract
         this.name = name;
         this.count = count;
         this.size = size;
         this.value = value;
     },
     testStorage: function (balance) {
-        // 使用value时会从存储中读取链上数据，并根据descriptor设置自动转换为Bignumber
+        // value will be read from the storage data on the chain, and automatically converted to Bignumber set according to the descriptor
         var amount = this.value.plus(new BigNumber(2));
         if (amount.lessThan(new BigNumber(balance))) {
             return 0
@@ -146,20 +149,18 @@ SampleContract.prototype = {
 };
 ```
 
-#### 绑定Map属性
+#### Binding Map Properties
 
-`LocalContractStorage`还提供了对合约中map属性的绑定方法。
-
-下面是一个绑定map属性的例子：
+What's more, `LocalContractStorage` also provides methods to bind map properties. Here is an example to bind map properties and use them in a smart contract.
 
 ```javascript
 'use strict';
 
 var SampleContract = function () {
-    // 为`SampleContract`定义`userMap`的属性集合，数据可以通过`userMap`存储到链上
+    // Set `SampleContract`'s property to `userMap`. Map data then can be stored onto the chain using `userMap`
     LocalContractStorage.defineMapProperty(this, "userMap");
 
-    // 为`SampleContract`定义`userBalanceMap`的属性集合，并且存储和读取序列化方法自定义
+    // Set `SampleContract`'s property to `userBalanceMap`, and custom define the storing and serializtion reading functions.
     LocalContractStorage.defineMapProperty(this, "userBalanceMap", {
         stringify: function (obj) {
             return obj.toString();
@@ -169,7 +170,7 @@ var SampleContract = function () {
         }
     });
 
-    // 为`SampleContract`定义多个集合
+    // Set `SampleContract`'s properties to mulitple map batches
     LocalContractStorage.defineMapProperties(this,{
         key1Map: null,
         key2Map: null
@@ -180,13 +181,13 @@ SampleContract.prototype = {
     init: function () {
     },
     testStorage: function () {
-        // 将数据存储到userMap中，并序列化到链上
+        // Store the data in userMap and serialize the data onto the chain
         this.userMap.set("robin","1");
-        // 将数据存储到userBalanceMap中，使用自定义序列化函数，保存到链上
+        // Store the data into userBalanceMap and save the data onto the chain using a custom serialization function
         this.userBalanceMap.set("robin",new BigNumber(1));
     },
     testRead: function () {
-        //读取存储数据
+        //Read and store data
         var balance = this.userBalanceMap.get("robin");
         this.key1Map.set("robin", balance.toString());
         this.key2Map.set("robin", balance.toString());
@@ -196,10 +197,9 @@ SampleContract.prototype = {
 module.exports = SampleContract;
 ```
 
-##### 遍历map数据
-**Map数据遍历**
+**Iterate Map**
 
-在智能合约中如果需要遍历map集合，可以采用如下方式：定义两个map,分别是arrayMap,dataMap，arrayMap采用严格递增的计数器作为key,dataMap采用data的key作为key,详细参见set方法。遍历实现参见forEach,先遍历arrayMap,得到dataKey,再对dataMap遍历。Tip：由于Map遍历性能开销比较大，不建议对大数据量map进行遍历，建议按照limit,offset形式进行遍历，否者可能会由于数据过多，导致调用超时。
+In contract, map does't support iterator. if you need to iterate the map, you can use the following way: define two map, arrayMap, dataMap, arrayMap with a strictly increasing counter as key, dataMap with data key as key.
 
 ```javascript
 "use strict";
@@ -230,7 +230,7 @@ SampleContract.prototype = {
       return this.size;
     },
 
-    forEach: function(limit, offset){
+    iterate: function(limit, offset){
         limit = parseInt(limit);
         offset = parseInt(offset);
         if(offset>this.size){
@@ -248,10 +248,13 @@ SampleContract.prototype = {
         }
         return result;
     }
+
 };
 
 module.exports = SampleContract;
 ```
 
-[通过RPC API和星云链交互](https://github.com/nebulasio/wiki/blob/master/tutorials/[中文]%20Nebulas%20101%20-%2005%20通过RPC接口与星云链交互.md)
+### Next step: Tutorial 5
+
+[Interacting with Nebulas by RPC API](05-interacting-with-nebulas-by-rpc-api.md)
 
