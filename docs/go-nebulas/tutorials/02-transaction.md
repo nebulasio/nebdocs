@@ -2,7 +2,7 @@
 
 [Youtube Tutorial](https://www.youtube.com/watch?v=_Njq8LX2r-4)
 
-> For this portion of the tutorial we will pick up where we left off in the [Installation tutorial](https://github.com/nebulasio/wiki/blob/master/tutorials/[English]%20Nebulas%20101%20-%2001%20Installation.md).
+> For this portion of the tutorial we will pick up where we left off in the [Installation tutorial](https://github.com/nebulasio/nebdocs/blob/master/docs/go-nebulas/tutorials/02-transaction.md).
 
 Nebulas provides three methods to send transactions：
 
