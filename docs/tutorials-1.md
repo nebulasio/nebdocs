@@ -4,9 +4,9 @@ Eis tudo o que precisa para se envolver em Nebulas.
 
 ## NebulasIO
 
-* Website：[https://nebulas.io](https://nebulas.io)
-* Livro Branco Não-Técnico：[https://nebulas.io/docs/NebulasWhitepaperPt.pdf](https://nebulas.io/docs/NebulasWhitepaperPt.pdf)
-* Tech Whitepaper：[https://nebulas.io/docs/NebulasTechnicalWhitepaper.pdf](https://nebulas.io/docs/NebulasTechnicalWhitepaper.pdf)
+* Website: [https://nebulas.io](https://nebulas.io)
+* Livro Branco Não-Técnico: [https://nebulas.io/docs/NebulasWhitepaperPt.pdf](https://nebulas.io/docs/NebulasWhitepaperPt.pdf)
+* Tech Whitepaper: [https://nebulas.io/docs/NebulasTechnicalWhitepaper.pdf](https://nebulas.io/docs/NebulasTechnicalWhitepaper.pdf)
 
 ## Go-Nebulas
 
