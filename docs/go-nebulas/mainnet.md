@@ -2,16 +2,16 @@
 
 ## Introduction
 
-The Nebulas Mainnet 2.0 (Nebulas Nova) was released, this tutorial will guide you to join and enjoy Nebulas Mainnet.
+The Nebulas Mainnet 2.0 (Nebulas Nova) has been released. This tutorial will teach you how to join and work with the Nebulas Mainnet.
 
 > [https://github.com/nebulasio/go-nebulas/tree/master](https://github.com/nebulasio/go-nebulas/tree/master)
 
 ### Build
 
-The Nebulas Mainnet executable file and dependant libraries need to be built firstly. Several important modules are highlighted below:
+The Nebulas Mainnet's executable file and dependant libraries need to be built first. Several important modules are highlighted below:
 
-* **NBRE:** The Nebulas Blockchain Runtime Environment, which is the platform for running Nebulas Protocol Representation, such as: DIP, NR etc. 
-* **NEB:** The main process of Nebulas Mainnet, `NEB` and `NBRE` are running in standalone processes, while communicating through IPC
+* **NBRE:** The Nebulas Blockchain Runtime Environment is the platform for running Nebulas Protocol Representation, such as the DIP, the NR, etcetera. 
+* **NEB:** The main process of the Nebulas Mainnet. `NEB` and `NBRE` run in standalone processes, and communicate through IPC.
 
 Details of building the modules can be found in [tutorials](http://wiki.nebulas.io/en/latest/go-nebulas/tutorials/01-installation.html#compile-nebulas).
 
@@ -36,7 +36,7 @@ All configurable information about runtime is defined in config.conf.
 
 Please check the [`template.conf`](https://github.com/nebulasio/nebdocs/blob/master/docs/resources/conf/template.conf) to find more details about the runtime configuration.
 
-> _Tips_: the official seed node info is as below,
+> _Tips_: the official seed node info is as follows,
 
 ```javascript
 seed:["/ip4/52.2.205.12/tcp/8680/ipfs/QmQK7W8wrByJ6So7rf84sZzKBxMYmc1i4a7JZsne93ysz5","/ip4/52.56.55.238/tcp/8680/ipfs/QmVy9AHxBpd1iTvECDR7fvdZnqXeDhnxkZJrKsyuHNYKAh","/ip4/13.251.33.39/tcp/8680/ipfs/QmVm5CECJdPAHmzJWN2X7tP335L5LguGb9QLQ78riA9gw3"]
@@ -71,5 +71,5 @@ More Nebulas APIs at [RPC](https://github.com/nebulasio/wiki/blob/master/rpc.md)
 
 ## Contribution
 
-Feel free to join the Nebulas Mainnet. If you have found something wrong, please [submit an issue](https://github.com/nebulasio/go-nebulas/issues/new) or [submit a pull request](https://github.com/nebulasio/go-nebulas/pulls) to let us know, and we will add your name and url to this page as soon as possible.
+Feel free to join the Nebulas Mainnet. If you have found something wrong, please [submit an issue](https://github.com/nebulasio/go-nebulas/issues/new) or [submit a pull request](https://github.com/nebulasio/go-nebulas/pulls) to let us know, and we will add your name and URL to this page as soon as possible.
 
