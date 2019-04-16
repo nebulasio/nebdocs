@@ -81,14 +81,16 @@ Fetch the state of sender's account `n1FF1nz6tarkDVwWQkMnnwFPuPKUaQTdptE` with `
 
 {
     "result": {
-        "balance": "67066180000000000000",
+        "balance": "5000000000000000000000000",
         "nonce": "0",
-        "type": 87
+        "type": 87,
+        "height":"1",
+        "pending":"0"
     }
 }
 ```
 
-> **Note** Type is used to check if this account is a smart contract account. `88` represents smart contract account and `87` means a non-contract account.
+> **Note** Type is used to check if this account is a smart contract account. `88` represents smart contract account and `87` means a non-contract account. Hight is used to indicate the current height of the blockchain when API is called. Pending is used to show how many pending transactions of your address in the Tx Pool.
 
 As we see, the receiver has been rewarded some tokens for mining new blocks.
 
@@ -102,7 +104,9 @@ Then let's check the receiver's account state.
     "result": {
         "balance": "0",
         "nonce": "0",
-        "type": 87
+        "type": 87,
+        "height":"1",
+        "pending":"0"
     }
 }
 ```
