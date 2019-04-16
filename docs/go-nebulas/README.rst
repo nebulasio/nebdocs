@@ -4,13 +4,14 @@ Go-Nebulas
 .. toctree::
     :titlesonly:
 
-    What's Nebulas <whats-nebulas/README.md>
-    Nebulas Technical Committee <nebulas-technical-committee/README.md>
-    Papers <papers/README.rst>
-    Design Overview <overview/README.md>
-    How to Develop <develop/README.md>
-    Tutorials <tutorials/README.md>
-    Todo List <todo/README.md>
-    Roadmap of Nebulas <roadmap.md>
-    Frequently Asked Questions <faq.md>
-    Infrastructure <infrastructure/README.rst>
+    whats-nebulas/README.md
+    papers/README.rst
+    overview/README.md
+    mainnet.md
+    testnet.md
+    develop/README.md
+    入门教程 <tutorials/README.md>
+    todo/README.md
+    roadmap.md
+    常见问题 <faq.md>
+    infrastructure/README.rst
