@@ -1,13 +1,19 @@
 # How to Join Nebulas Mainnet
 
-> _Tips_: the tutorial below is for Eagle Nebula. The new tutorial for Nebulas NOVA is coming soon.
-
 ## Introduction
 
-We are glad to release Nebulas Mainnet here. Please join and enjoy Nebulas Mainnet.
-
+The Nebulas Mainnet 2.0 (Nebulas Nova) was released, this tutorial will guide you to join and enjoy Nebulas Mainnet.
 
 > [https://github.com/nebulasio/go-nebulas/tree/master](https://github.com/nebulasio/go-nebulas/tree/master)
+
+### Build
+
+The Nebulas Mainnet executable file and dependant libraries need to be built firstly. Several important modules are highlighted below:
+
+* **NBRE:** The Nebulas Blockchain Runtime Environment, which is the platform for running Nebulas Protocol Representation, such as: DIP, NR etc. 
+* **NEB:** The main process of Nebulas Mainnet, `NEB` and `NBRE` are running in standalone processes, while communicating through IPC
+
+Details of building the modules can be found in [tutorials](http://wiki.nebulas.io/en/latest/go-nebulas/tutorials/01-installation.html#compile-nebulas).
 
 
 ### Configuration
@@ -28,7 +34,7 @@ All configurable information about genesis block is defined in genesis.conf, inc
 
 All configurable information about runtime is defined in config.conf.
 
-Please check the [`template.conf`](https://github.com/smalloranges/wiki/tree/887270957eb99d971309610bc1fdafb6a2d9d552/resources/conf/template.conf) to find more details about the runtime configuration.
+Please check the [`template.conf`](https://github.com/nebulasio/nebdocs/blob/master/docs/resources/conf/template.conf) to find more details about the runtime configuration.
 
 > _Tips_: the official seed node info is as below,
 
