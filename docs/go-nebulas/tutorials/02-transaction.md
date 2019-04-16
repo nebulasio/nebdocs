@@ -90,9 +90,9 @@ Fetch the state of sender's account `n1FF1nz6tarkDVwWQkMnnwFPuPKUaQTdptE` with `
 }
 ```
 
-> **Note** Type is used to check if this account is a smart contract account. `88` represents smart contract account and `87` means a non-contract account. Hight is used to indicate the current height of the blockchain when API is called. Pending is used to show how many pending transactions of your address in the Tx Pool.
+> **Note** Type is used to check if this account is a smart contract account. `88` represents a smart contract account and `87` a non-contract account. Height is used to indicate the current height of the blockchain when the API is called. Pending is used to show how many pending transactions your address has in the Tx Pool.
 
-As we see, the receiver has been rewarded some tokens for mining new blocks.
+As you can see, the receiver has been rewarded with some tokens for mining new blocks.
 
 Then let's check the receiver's account state.
 
