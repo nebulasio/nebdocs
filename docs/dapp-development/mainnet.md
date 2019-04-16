@@ -2,10 +2,17 @@
 
 ## Introdução
 
-Estamos contentes por termos lançado a Mainnet da Nebulas. Junte-se à Mainnet e desfrute!
+A Mainnet 2.0 da Nebulas (Nebulas Nova) foi lançada. Este tutorial visa explicar como utilizá-la. Junte-se à Mainnet e desfrute!
 
 > [https://github.com/nebulasio/go-nebulas/tree/master](https://github.com/nebulasio/go-nebulas/tree/master)
 
+### Compilação
+
+O ficheiro executável da Mainnet da Nebulas e as suas bibliotecas têm de ser compilados primeiro. Modulos de alta importância estão listados abaixo:
+
+* **NBRE:** O Ambiente de Execução da Nebulas é a plataforma que corre o Protocolo de Representação da Nebulas, como o DIP, o NR, etcetera.
+* **NEB:** O processo principal da Mainnet da Nebulas, o `NEB` e o `NBRE` correm em processos individuais, e comunicam através de IPC
+  
 ## Configuração
 
 Os ficheiros de configuração da Mainnet estão no directório [`mainnet/conf`](https://github.com/nebulasio/go-nebulas/tree/master/mainnet/conf), incluíndo
