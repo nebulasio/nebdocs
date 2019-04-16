@@ -253,5 +253,5 @@ SampleContract.prototype = {
 module.exports = SampleContract;
 ```
 
-[通过RPC API和星云链交互](https://github.com/nebulasio/wiki/blob/master/tutorials/[中文]%20Nebulas%20101%20-%2005%20通过RPC接口与星云链交互.md)
+[通过RPC API和星云链交互](05-interacting-with-nebulas-by-rpc-api.md)
 
