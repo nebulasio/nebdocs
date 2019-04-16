@@ -1,75 +1,75 @@
-# How to Join Nebulas Mainnet
+# Como se Juntar à Mainnet da Nebulas
 
-## Introduction
+## Introdução
 
-The Nebulas Mainnet 2.0 (Nebulas Nova) was released, this tutorial will guide you to join and enjoy Nebulas Mainnet.
+A Mainnet 2.0 da Nebulas (Nebulas Nova) foi lançada. Este tutorial visa explicar como utilizá-la. Junte-se à Mainnet e desfrute!
 
 > [https://github.com/nebulasio/go-nebulas/tree/master](https://github.com/nebulasio/go-nebulas/tree/master)
 
-### Build
+### Compilação
 
-The Nebulas Mainnet executable file and dependant libraries need to be built firstly. Several important modules are highlighted below:
+O ficheiro executável da Mainnet da Nebulas e as suas bibliotecas têm de ser compilados primeiro. Modulos de alta importância estão listados abaixo:
 
-* **NBRE:** The Nebulas Blockchain Runtime Environment, which is the platform for running Nebulas Protocol Representation, such as: DIP, NR etc. 
-* **NEB:** The main process of Nebulas Mainnet, `NEB` and `NBRE` are running in standalone processes, while communicating through IPC
+* **NBRE:** O Ambiente de Execução da Nebulas é a plataforma que corre o Protocolo de Representação da Nebulas, como o DIP, o NR, etcetera.
+* **NEB:** O processo principal da Mainnet da Nebulas, o `NEB` e o `NBRE` correm em processos individuais, e comunicam através de IPC
 
-Details of building the modules can be found in [tutorials](http://wiki.nebulas.io/en/latest/go-nebulas/tutorials/01-installation.html#compile-nebulas).
+Detalhes sobre a compilação dos modulos pode ser encontrada em [tutoriais](http://wiki.nebulas.io/en/latest/go-nebulas/tutorials/01-installation.html#compile-nebulas).
+  
+## Configuração
 
-
-### Configuration
-
-The Mainnet configuration files are in folder [`mainnet/conf`](https://github.com/nebulasio/go-nebulas/tree/master/mainnet/conf), including
+Os ficheiros de configuração da Mainnet estão no directório [`mainnet/conf`](https://github.com/nebulasio/go-nebulas/tree/master/mainnet/conf), incluíndo
 
 ### genesis.conf
 
-All configurable information about genesis block is defined in genesis.conf, including
+Toda a informação da configuração do bloco genesis está definida em genesis.conf, incluíndo
 
-* **meta.chain\_id:** chain identity
-* **consensus.dpos.dynasty:** the initial dynasty of validators
-* **token\_distribution:** the initial allocation of tokens
+* **meta.chain\_id:** cadeia de identidade
+* **consensus.dpos.dynasty:** a dinastia inicial dos validadores
+* **token\_distribution:** a alocação inicial de tokens
 
-> _Attention_: DO NOT change the genesis.conf.
+> _Atenção_: NÃO altere o genesis.conf.
 
 ### config.conf
 
-All configurable information about runtime is defined in config.conf.
+Toda a informação da configuração sobre o runtime está definida em config.conf.
 
-Please check the [`template.conf`](https://github.com/nebulasio/nebdocs/blob/master/docs/resources/conf/template.conf) to find more details about the runtime configuration.
+Por favor, verifique o [`template.conf`](https://github.com/smalloranges/wiki/tree/887270957eb99d971309610bc1fdafb6a2d9d552/resources/conf/template.conf) para encontrar mais detalhes sobre a configuração do tempo de execução.
 
-> _Tips_: the official seed node info is as below,
+> _Nota_: a informação do nó da raíz oficial está descrita em baixo,
 
 ```javascript
 seed:["/ip4/52.2.205.12/tcp/8680/ipfs/QmQK7W8wrByJ6So7rf84sZzKBxMYmc1i4a7JZsne93ysz5","/ip4/52.56.55.238/tcp/8680/ipfs/QmVy9AHxBpd1iTvECDR7fvdZnqXeDhnxkZJrKsyuHNYKAh","/ip4/13.251.33.39/tcp/8680/ipfs/QmVm5CECJdPAHmzJWN2X7tP335L5LguGb9QLQ78riA9gw3"]
 ```
 
-### API List
+## Lista do API
 
-Main Endpoint:
+Ponto final principal:
 
 | API | URL | Protocol |
 | --- | :---: | :---: |
 | RESTful | [https://mainnet.nebulas.io/](https://mainnet.nebulas.io/) | HTTP |
 
-* [GetNebState](https://github.com/nebulasio/wiki/blob/master/rpc.md#getnebstate) : returns nebulas client info.
-* [GetAccountState](https://github.com/nebulasio/wiki/blob/master/rpc.md#getaccountstate): returns the account balance and nonce.
-* [Call](https://github.com/nebulasio/wiki/blob/master/rpc.md#call): execute smart contract local, don't submit on chain.
-* [SendRawTransaction](https://github.com/nebulasio/wiki/blob/master/rpc.md#sendrawtransaction): submit the signed transaction.
-* [GetTransactionReceipt](https://github.com/nebulasio/wiki/blob/master/rpc.md#gettransactionreceipt): get transaction receipt info by tansaction hash.
+* [GetNebState](https://github.com/nebulasio/wiki/blob/master/rpc.md#getnebstate) : retorna a informação do cliente Nebulas.
+* [GetAccountState](https://github.com/nebulasio/wiki/blob/master/rpc.md#getaccountstate): retorna o saldo da conta e o nonce.
+* [Call](https://github.com/nebulasio/wiki/blob/master/rpc.md#call): executa o smart contract local, sem o submeter na chain.
+* [SendRawTransaction](https://github.com/nebulasio/wiki/blob/master/rpc.md#sendrawtransaction): submete a transação assinada.
+* [GetTransactionReceipt](https://github.com/nebulasio/wiki/blob/master/rpc.md#gettransactionreceipt): obtém a factura da transacção através da sua hash.
 
-More Nebulas APIs at [RPC](https://github.com/nebulasio/wiki/blob/master/rpc.md).
+Mais APIs Nebulas em [RPC](https://github.com/nebulasio/wiki/blob/master/rpc.md).
 
-## Tutorials
+## Tutoriais
 
-### English
+### Português
 
-1. [Installation](tutorials/01-installation.md) \(thanks [Victor](https://github.com/victorychain)\)
-2. [Sending a Transaction](tutorials/02-transaction.md) \(thanks [Victor](https://github.com/victorychain)\)
-3. [Writing Smart Contract in JavaScript](tutorials/03-smart-contracts-javascript.md) \(thanks [otto](https://github.com/ottokafka)\)
-4. [Introducing Smart Contract Storage](tutorials/04-smart-contract-storage.md) \(thanks [Victor](https://github.com/victorychain)\)
-5. [Interacting with Nebulas by RPC API](tutorials/05-interacting-with-nebulas-by-rpc-api.md) \(thanks [Victor](https://github.com/victorychain)\)
+1. [Instalação](https://github.com/nebulasio/wiki/blob/master/tutorials/%5BPortugues%5D%20Nebulas%20101%20-%2001%20Instalacao.md) \(obrigado [Cristiano](https://github.com/crisbrm)\)
+2. [Envio de Transacções](https://github.com/nebulasio/wiki/blob/master/tutorials/%5BPortugues%5D%20Nebulas%20101%20-%2002%20Transacao.md) \(obrigado [Cristiano](https://github.com/crisbrm)\)
+3. [Criar Smart Contract em JavaScript](https://github.com/nebulasio/wiki/blob/master/tutorials/%5BPortugues%5D%20Nebulas%20101%20-%2003%20Smart%20Contracts%20JavaScript.md) \(obrigado [Cristiano](https://github.com/crisbrm)\)
+4. [Introdução de Armazenamento em Smart Contracts](https://github.com/nebulasio/wiki/blob/master/tutorials/%5BPortugues%5D%20Nebulas%20101%20-%2004%20Armazenamento%20Smart%20Contract.md) \(obrigado [Cristiano](https://github.com/crisbrm)\)
+5. [Interacção com Nebulas através do API RPC](https://github.com/nebulasio/wiki/blob/master/tutorials/%5BPortugues%5D%20Nebulas%20101%20-%2005%20Interacao%20com%20Nebulas%20por%20API%20RPC.md) \(obrigado [Cristiano](https://github.com/crisbrm)\)
 
 
-## Contribution
+## Contribuição
 
-Feel free to join the Nebulas Mainnet. If you have found something wrong, please [submit an issue](https://github.com/nebulasio/go-nebulas/issues/new) or [submit a pull request](https://github.com/nebulasio/go-nebulas/pulls) to let us know, and we will add your name and url to this page as soon as possible.
+Sinta-se livre de se juntar à Mainnet Nebulas. Se encontrar algo errado, [submeta um relatório](https://github.com/nebulasio/go-nebulas/issues/new) ou [envie uma solicitação de recebimento](https://github.com/nebulasio/go-nebulas/pulls) para nos informar, e adicionaremos seu nome e seu URL a esta página o mais rápido possível.
+
 
