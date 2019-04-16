@@ -12,6 +12,8 @@ O ficheiro executável da Mainnet da Nebulas e as suas bibliotecas têm de ser c
 
 * **NBRE:** O Ambiente de Execução da Nebulas é a plataforma que corre o Protocolo de Representação da Nebulas, como o DIP, o NR, etcetera.
 * **NEB:** O processo principal da Mainnet da Nebulas, o `NEB` e o `NBRE` correm em processos individuais, e comunicam através de IPC
+
+Detalhes sobre a compilação dos modulos pode ser encontrada em [tutoriais](http://wiki.nebulas.io/en/latest/go-nebulas/tutorials/01-installation.html#compile-nebulas).
   
 ## Configuração
 
@@ -33,7 +35,7 @@ Toda a informação da configuração sobre o runtime está definida em config.c
 
 Por favor, verifique o [`template.conf`](https://github.com/smalloranges/wiki/tree/887270957eb99d971309610bc1fdafb6a2d9d552/resources/conf/template.conf) para encontrar mais detalhes sobre a configuração do tempo de execução.
 
-> _Conselhos_: a informação do nó raiz oficial é como abaixo descrito,
+> _Nota_: a informação do nó da raíz oficial está descrita em baixo,
 
 ```javascript
 seed:["/ip4/52.2.205.12/tcp/8680/ipfs/QmQK7W8wrByJ6So7rf84sZzKBxMYmc1i4a7JZsne93ysz5","/ip4/52.56.55.238/tcp/8680/ipfs/QmVy9AHxBpd1iTvECDR7fvdZnqXeDhnxkZJrKsyuHNYKAh","/ip4/13.251.33.39/tcp/8680/ipfs/QmVm5CECJdPAHmzJWN2X7tP335L5LguGb9QLQ78riA9gw3"]
@@ -68,7 +70,6 @@ Mais APIs Nebulas em [RPC](https://github.com/nebulasio/wiki/blob/master/rpc.md)
 
 ## Contribuição
 
-
-Sinta-se livre para se juntar à Mainnet Nebulas. Se encontrar algo errado, [submeta um relatório](https://github.com/nebulasio/go-nebulas/issues/new) ou [envie uma solicitação de recebimento](https://github.com/nebulasio/go-nebulas/pulls) para nos informar, e adicionaremos seu nome e seu URL a esta página o mais rápido possível.
+Sinta-se livre de se juntar à Mainnet Nebulas. Se encontrar algo errado, [submeta um relatório](https://github.com/nebulasio/go-nebulas/issues/new) ou [envie uma solicitação de recebimento](https://github.com/nebulasio/go-nebulas/pulls) para nos informar, e adicionaremos seu nome e seu URL a esta página o mais rápido possível.
 
 
