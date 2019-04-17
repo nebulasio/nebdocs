@@ -200,7 +200,7 @@ Let's double check the receiver's balance.
 ```bash
 > curl -i -H Accept:application/json -X POST http://localhost:8685/v1/user/accountstate -d '{"address":"n1QZMXSZtW7BUerroSms4axNfyBGyFGkrh5"}'
 
-{"result":{"balance":"3000000000000000000","nonce":"0","type":87}}
+{"result":{"balance":"3000000000000000000","nonce":"0","type":87,"height":"10","pending":"0"}}
 ```
 
 Here you should see a balance that is the total of all the successful transfers that you executed.
