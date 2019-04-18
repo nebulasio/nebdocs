@@ -82,15 +82,17 @@ Adquira o estado da conta do remetente `n1FF1nz6tarkDVwWQkMnnwFPuPKUaQTdptE` com
 
 {
     "result": {
-        "balance": "67066180000000000000",
+        "balance": "5000000000000000000000000",
         "nonce": "0",
         "type": 87
+	"height": 1
+	"pending": 0
     }
 }
 ```
 
 > **Nota**
-> O tipo é usado para verificar se esta conta é uma conta de smart contract. `88` representa uma conta do tipo smart contract, e `87` uma conta non-contract.
+> O tipo é usado para verificar se esta conta é uma conta de smart contract. `88` representa uma conta do tipo smart contract, e `87` uma conta non-contract. Height é usado para indicar a altura actual da blockchain quando o API é chamado. Pending é usado para determinar o número de transacções pendentes se encontram na sua pool de transacções. 
 
 Como pode ver, o destinatário foi recompensado com alguns tokens por ter minerado novos blocos.
 
@@ -105,6 +107,8 @@ Então vamos verificar o estado da conta do destinatário/recipiente.
         "balance": "0",
         "nonce": "0",
         "type": 87
+	"height": 1
+	"pending": 0
     }
 }
 ```
