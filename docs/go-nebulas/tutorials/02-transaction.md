@@ -85,8 +85,8 @@ Adquira o estado da conta do remetente `n1FF1nz6tarkDVwWQkMnnwFPuPKUaQTdptE` com
         "balance": "5000000000000000000000000",
         "nonce": "0",
         "type": 87
-	"height": 1
-	"pending": 0
+	"height": "1"
+	"pending": "0"
     }
 }
 ```
@@ -107,8 +107,8 @@ Então vamos verificar o estado da conta do destinatário/recipiente.
         "balance": "0",
         "nonce": "0",
         "type": 87
-	"height": 1
-	"pending": 0
+	"height": "1"
+	"pending": "0"
     }
 }
 ```
