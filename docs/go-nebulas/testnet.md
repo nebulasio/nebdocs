@@ -6,6 +6,15 @@ Estamos contentes por lançar a Testnet da Nebulas. Ela simula a rede Nebulas e 
 
 > [https://github.com/nebulasio/go-nebulas/tree/testnet](https://github.com/nebulasio/go-nebulas/tree/testnet)
 
+### Compilação
+
+O ficheiro executável da Testnet da Nebulas e as suas bibliotecas têm de ser compilados primeiro. Modulos de alta importância estão listados abaixo:
+
+* **NBRE:** O Ambiente de Execução da Nebulas é a plataforma que corre o Protocolo de Representação da Nebulas, como o DIP, o NR, etcetera.
+* **NEB:** O processo principal da Mainnet da Nebulas, o `NEB` e o `NBRE` correm em processos individuais, e comunicam através de IPC
+
+Detalhes sobre a compilação dos modulos pode ser encontrada em [tutoriais](http://wiki.nebulas.io/en/latest/go-nebulas/tutorials/01-installation.html#compile-nebulas).
+
 ## Configuração
 
 Os ficheiros de configuração estão no directório [`testnet/conf`](https://github.com/nebulasio/go-nebulas/tree/testnet/testnet/conf) na branch `testnet`, inclusive
