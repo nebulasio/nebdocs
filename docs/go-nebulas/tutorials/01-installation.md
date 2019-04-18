@@ -13,7 +13,7 @@ To learn about Nebulas, please read the Nebulas [Non-Technical White Paper](http
 
 To learn about the technology, please read the Nebulas [Technical White Paper](https://nebulas.io/docs/NebulasTechnicalWhitepaper.pdf) and the Nebulas [github code](https://github.com/nebulasio/go-nebulas).
 
-> Nebulas can only runs on Mac and Linux at this stage. The Windows version will be coming later.
+> At present, Nebulas can only run on Mac and Linux at this stage. The Windows version will be coming later.
 
 ## Golang Environment
 
@@ -36,7 +36,7 @@ brew install go
 export GOPATH=/path/to/workspace
 ```
 
-> Notice:GOPATH is a local golang working directory which could be decided by youself. After GOPATH is configured, your go projects need to be placed in GOPATH directory.
+> Note: GOPATH is a local golang working directory which could be decided by youself. After GOPATH is configured, your go projects need to be placed in GOPATH directory.
 
 ### Linux
 
@@ -75,9 +75,9 @@ git checkout master
 
 ### Build NBRE
 
-NBRE is short for Nebulas Blockchain Runtime Environment, which is the platform for running the core protocols and algorithms. 
+NBRE is short for Nebulas Blockchain Runtime Environment, which is the platform that runs the core protocols and algorithms. 
 
-To build NBRE
+To build NBRE:
 
 ```bash
 cd $GOPATH/src/github.com/nebulasio/go-nebulas/nbre
@@ -95,12 +95,12 @@ cd build & cmake -DRelease=1 ..
 make
 ```
 
-The preparation step listed above may take some time to complete. 
+The preparation steps listed above may take some time to complete. 
 
 
 ### Install Go Dependencies
 
-Go dependencies in Go-Nebulas is managed by [Dep](https://github.com/golang/dep).
+Go dependencies in Go-Nebulas are managed by [Dep](https://github.com/golang/dep).
 
 | Components | Version | Description |
 | --- | --- | --- |
@@ -292,7 +292,7 @@ nbre {
     # related documents.
     admin_address: "n1S9RrRPC46T9byYBS868YuZgzqGuiPCY1m"
 
-    # Height when DIP take effects
+    # Height when the DIP takes effect
     start_height: 2307000
 
     # NEB and NBRE inter-process communication socket
