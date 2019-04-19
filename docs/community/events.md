@@ -1,5 +1,6 @@
 # 动态
 
+- [星云研究院院长范学鹏：区块链需要更快的进化能力](https://blog.nebulas.io/2019/04/17/blockchain-needs-faster-evolution/)
 - [Nebulas NOVA即将上线 共启协作的未来](https://blog.nebulas.io/2019/04/12/nebulas-nova-is-coming-soon-opening-the-future-of-collaboration/)
 - [第三期星云Wiki悬赏计划获奖名单公布啦](https://blog.nebulas.io/2019/04/11/the-third-winners-of-nebulas-wiki-bounty-program/)
 - [星云研究院成员将出席巴黎区块链周峰会](https://blog.nebulas.io/2019/04/11/members-of-the-nebulas-research-team-will-attend-the-paris-blockchain-week-summit/)
