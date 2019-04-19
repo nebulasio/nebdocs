@@ -1,5 +1,6 @@
 # 星云周报
 
+- 星云周报-第77期(4/1-4/14)-[星云周报第77期：Nebulas NOVA，共启协作的未来](https://blog.nebulas.io/2019/04/17/nebulas-bi-weekly-community-dynamics-77/)
 - 星云周报-第76期(3/25-4/7)-[星云周报第76期：Go Nebulas正在开发社区链上投票功能](https://blog.nebulas.io/2019/04/08/nebulas-bi-weekly-development-commits-76/)
 - 星云周报-第75期(3/18-3/31)-[星云周报第75期：星云在今年会基本完成白皮书的技术要件](https://mp.weixin.qq.com/s/kiFDChyeaeHqHr1vCEm9xg)
 - 星云周报-第74期(3/11-3/24)-[星云周报第74期：Nebulas NOVA上线准备工作开展中](https://blog.nebulas.io/2019/03/25/nebulas-bi-weekly-development-commits-74/)
