@@ -1,5 +1,6 @@
 # 动态
 
+- [首届星云理事会选举即日启动，报名进行中！](https://blog.nebulas.io/2019/04/20/the-first-nebulas-council-election-launched-and-the-application-is-in-progress/)
 - [星云研究院院长范学鹏：区块链需要更快的进化能力](https://blog.nebulas.io/2019/04/17/blockchain-needs-faster-evolution/)
 - [Nebulas NOVA即将上线 共启协作的未来](https://blog.nebulas.io/2019/04/12/nebulas-nova-is-coming-soon-opening-the-future-of-collaboration/)
 - [第三期星云Wiki悬赏计划获奖名单公布啦](https://blog.nebulas.io/2019/04/11/the-third-winners-of-nebulas-wiki-bounty-program/)
