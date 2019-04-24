@@ -79,12 +79,16 @@ Address: n1SQe5d1NKHYFMKtJ5sNHPsSPVavGzW71Wy
 ```bash
 > curl -i -H Accept:application/json -X POST http://localhost:8685/v1/user/accountstate -d '{"address":"n1FF1nz6tarkDVwWQkMnnwFPuPKUaQTdptE"}'
 
-{"result":{"balance":"5000000000000000000000000","nonce":"0","type":87}}
+{"result":{"balance":"5000000000000000000000000","nonce":"0","type":87,"height":"10","pending":"0"}}
 ```
 
 > 提示：`Type`用于标记账户类型。88表示该账户为智能合约账户，部署一个合约之后，就可以得到一个合约账户。87表示非合约账户，我们通过`./neb account new`创建的账户就是非合约账户，用户存储链上资产。
 >
 > 提示：`Nonce`用于标记账户发起的所有交易的顺序。同一个账户，每发起一个新的交易，`Nonce`就加一，初始为0，第一个交易的`Nonce`为1。
+>
+> 提示：`Height`表示Api调用时区块链当前高度。
+>
+> 提示：`Pending`表示当前交易池中pending的该地址的交易数目。
 
 如我们所见，发送者账户在预分配后拥有5000000000000000000000000\(5 \* 10\^24\)个代币，1个NAS是1000000000000000000（10\^18）个代币，用于支付交易上链的手续费绰绰有余。
 
@@ -93,7 +97,7 @@ Address: n1SQe5d1NKHYFMKtJ5sNHPsSPVavGzW71Wy
 ```bash
 > curl -i -H Accept:application/json -X POST http://localhost:8685/v1/user/accountstate -d '{"address":"n1SQe5d1NKHYFMKtJ5sNHPsSPVavGzW71Wy"}'
 
-{"result":{"balance":"0","nonce":"0","type":87}}
+{"result":{"balance":"0","nonce":"0","type":87,"height":"10","pending":"0"}}
 ```
 
 如我们期望的那样，新账户没有任何代币。
@@ -195,7 +199,7 @@ cp /path/to/keystore.json /path/to/keydir/
 ```bash
 > curl -i -H Accept:application/json -X POST http://localhost:8685/v1/user/accountstate -d '{"address":"n1QZMXSZtW7BUerroSms4axNfyBGyFGkrh5"}'
 
-{"result":{"balance":"3000000000000000000","nonce":"0","type":87}}
+{"result":{"balance":"3000000000000000000","nonce":"0","type":87，"height":"15","pending":"0"}}
 ```
 
 我们用三种方式分别发送了一笔转账，每笔转一个NAS，所以这里看到接受者账户中已经有了3个NAS，即3000000000000000000个代币。
