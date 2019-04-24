@@ -1,5 +1,6 @@
 # 动态
-
+- [在Go Nebulas平台上项目发起规则及投票流程说明](https://blog.nebulas.io/2019/04/22/rules-for-starting-a-project-on-the-go-nebulas-platform-and-understanding-the-voting-process/)
+- [查询你的NR值，看看你能获得多少NAT的空投](https://blog.nebulas.io/2019/04/23/check-your-nr-and-see-how-many-nat-airdrop-you-can-get/)
 - [首届星云理事会选举即日启动，报名进行中！](https://blog.nebulas.io/2019/04/20/the-first-nebulas-council-election-launched-and-the-application-is-in-progress/)
 - [星云研究院院长范学鹏：区块链需要更快的进化能力](https://blog.nebulas.io/2019/04/17/blockchain-needs-faster-evolution/)
 - [Nebulas NOVA即将上线 共启协作的未来](https://blog.nebulas.io/2019/04/12/nebulas-nova-is-coming-soon-opening-the-future-of-collaboration/)
