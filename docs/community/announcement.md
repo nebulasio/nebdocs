@@ -1,4 +1,7 @@
 # 公告
+
+- *[星云治理橙皮书重磅发布！](https://blog.nebulas.io/2019/05/01/orange-papernebulas-community-governance-autonomous-metanet-published/)* (2019-4-30)
+- *[首届星云基金会主席选举结束，徐义吉当选星云基金会主席](https://blog.nebulas.io/2019/04/26/the-election-of-the-first-chairman-of-the-nebulas-foundation-is-over-hitters-xu-has-been-chosen-as-the-chairman-of-the-first-nebulas-foundation/)* (2019-4-26)
 - *[星云链将首次使用链上投票决定主网核心功能升级](https://blog.nebulas.io/2019/04/18/nebulas-will-first-time-upgrade-the-mainnet-core-function-by-on-chain-voting/)* (2019-4-18)
 - *[星云临时技术委员会成立公告](https://blog.nebulas.io/2019/04/17/temporary-nebulas-technical-committee/)* (2019-4-17)
 - *[协作的未来 · Nebulas NOVA 已正式上线主网](https://blog.nebulas.io/2019/04/15/the-future-of-collaboration-nebulas-nova-was-officially-launched-on-nebulas-mainnet/)* (2019-4-15)
