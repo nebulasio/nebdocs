@@ -1,4 +1,11 @@
 # 动态
+- [亚瑟提案投票升级成功，链上NR开始计算](https://blog.nebulas.io/2019/05/06/the-arthur-proposal-upgraded-successfully-and-the-nr-began-to-calculate/)
+- [如何质押NAS获得NAT（1）：在线版质押教程](https://blog.nebulas.io/2019/05/05/how-to-obtain-nat%e2%80%8a-%e2%80%8apart-1-how-to-pledge-your-nas/)
+- [小明一家玩NAT的故事](https://blog.nebulas.io/2019/04/29/xiao-mings-story-of-getting-nat/)
+- [视频|3分钟快速了解Nebulas NOVA提案升级流程](https://blog.nebulas.io/2019/04/28/understanding-nebulas-nova-upgrades-in-3-minutes/)
+- [参与星云生态投票，获得NAT激励](https://blog.nebulas.io/2019/04/26/participate-in-the-nebulas-eco-voting-and-get-nat-incentives/)
+- [没有NR，我该如何获得NAT](https://blog.nebulas.io/2019/04/24/no-nr-how-can-i-get-nat/)
+- [关于星云双周报将更改为技术委员会周报的公告](https://blog.nebulas.io/2019/04/23/nebulas-bi-weekly-report-will-now-be-the-nebulas-technical-committee-weekly-report/)
 - [在Go Nebulas平台上项目发起规则及投票流程说明](https://blog.nebulas.io/2019/04/22/rules-for-starting-a-project-on-the-go-nebulas-platform-and-understanding-the-voting-process/)
 - [查询你的NR值，看看你能获得多少NAT的空投](https://blog.nebulas.io/2019/04/23/check-your-nr-and-see-how-many-nat-airdrop-you-can-get/)
 - [首届星云理事会选举即日启动，报名进行中！](https://blog.nebulas.io/2019/04/20/the-first-nebulas-council-election-launched-and-the-application-is-in-progress/)
