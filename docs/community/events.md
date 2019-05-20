@@ -1,4 +1,12 @@
 # 动态
+- [星云首次NAT链上投票正式启动](https://blog.nebulas.io/2019/05/19/nat-on-chain-voting-starts/)
+- [Dapp开发正式进入链上自动化激励新时代！](https://blog.nebulas.io/2019/05/14/dapp-development-officially-enters-the-new-era-of-on-chain-automation-incentives/)
+- [新|如何质押NAS获得NAT（1）：在线版质押教程](https://blog.nebulas.io/2019/05/14/%ef%bc%88new%ef%bc%89how-to-obtain-nat-part-1-how-to-pledge-your-nas/)
+- [星云首批NAT开始发放](https://blog.nebulas.io/2019/05/13/the-first-batch-of-nat-began-to-distribute/)
+- [视频教程|如何质押NAS获得NAT](https://blog.nebulas.io/2019/05/12/how-to-pledge-your-nas-to-get-nat/)
+- [第四期星云Wiki悬赏计划获奖名单公布啦](https://blog.nebulas.io/2019/05/09/the-fourth-winners-of-nebulas-wiki-bounty-program/)
+- [0513不只有NAT，还有首次开发者原生激励](https://blog.nebulas.io/2019/05/08/not-only-nat-on-may-13-but-also-the-developers-incentives/)
+- [如何质押NAS获得NAT（2）：离线版质押教程](https://blog.nebulas.io/2019/05/07/how-to-obtain-nat%e2%80%8a-%e2%80%8apart-2-how-to-pledge-your-nas-via-offline-mode/)
 - [亚瑟提案投票升级成功，链上NR开始计算](https://blog.nebulas.io/2019/05/06/the-arthur-proposal-upgraded-successfully-and-the-nr-began-to-calculate/)
 - [如何质押NAS获得NAT（1）：在线版质押教程](https://blog.nebulas.io/2019/05/05/how-to-obtain-nat%e2%80%8a-%e2%80%8apart-1-how-to-pledge-your-nas/)
 - [小明一家玩NAT的故事](https://blog.nebulas.io/2019/04/29/xiao-mings-story-of-getting-nat/)
