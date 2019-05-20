@@ -1,7 +1,9 @@
 # 星云周报
 
-- 星云技术委员会周报（4.24-4.30）-[星云技术委员会周报（4.24-4.30）](https://blog.nebulas.io/2019/05/07/nebulas-technical-committee-weekly-update%EF%BC%884-24-4-30%EF%BC%89/)
-- 星云技术委员会周报（4.17-4.23）-[星云技术委员会周报（4.17-4.23）](https://blog.nebulas.io/2019/04/26/nebulas-technical-committee-weekly-update%EF%BC%884-17-4-23%EF%BC%89/)
+- 星云技术委员会周报（5/11-5/16）-[星云技术委员会周报（5.11-5.16）](https://blog.nebulas.io/2019/05/17/nebulas-technical-committee-weekly-update%EF%BC%885-11-5-16%EF%BC%89/)
+- 星云技术委员会周报（5/1-5/10）-[星云技术委员会周报（5.1-5.10）](https://blog.nebulas.io/2019/05/12/nebulas-technical-committee-weekly-update%EF%BC%885-1-5-10%EF%BC%89/)
+- 星云技术委员会周报（4/24-4/30）-[星云技术委员会周报（4.24-4.30）](https://blog.nebulas.io/2019/05/07/nebulas-technical-committee-weekly-update%EF%BC%884-24-4-30%EF%BC%89/)
+- 星云技术委员会周报（4/17-4/23）-[星云技术委员会周报（4.17-4.23）](https://blog.nebulas.io/2019/04/26/nebulas-technical-committee-weekly-update%EF%BC%884-17-4-23%EF%BC%89/)
 - 星云周报-第77期(4/1-4/14)-[星云周报第77期：Nebulas NOVA，共启协作的未来](https://blog.nebulas.io/2019/04/17/nebulas-bi-weekly-community-dynamics-77/)
 - 星云周报-第76期(3/25-4/7)-[星云周报第76期：Go Nebulas正在开发社区链上投票功能](https://blog.nebulas.io/2019/04/08/nebulas-bi-weekly-development-commits-76/)
 - 星云周报-第75期(3/18-3/31)-[星云周报第75期：星云在今年会基本完成白皮书的技术要件](https://mp.weixin.qq.com/s/kiFDChyeaeHqHr1vCEm9xg)
