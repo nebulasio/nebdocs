@@ -1,4 +1,7 @@
 # 动态
+- [部署智能合约，NAS奖励连周拿！](https://blog.nebulas.io/2019/05/27/deploy-smart-contracts-nas-rewards-for-weeks/)
+- [Go Nebulas首批优秀项目评选中](https://blog.nebulas.io/2019/05/22/go-nebulass-first-outstanding-project-selection/)
+- [链上自动化激励进入正轨，开发者入场正当时！](https://blog.nebulas.io/2019/05/21/weekly-data-report%EF%BC%885-13-5-19%EF%BC%89/)
 - [星云首次NAT链上投票正式启动](https://blog.nebulas.io/2019/05/19/nat-on-chain-voting-starts/)
 - [Dapp开发正式进入链上自动化激励新时代！](https://blog.nebulas.io/2019/05/14/dapp-development-officially-enters-the-new-era-of-on-chain-automation-incentives/)
 - [新|如何质押NAS获得NAT（1）：在线版质押教程](https://blog.nebulas.io/2019/05/14/%ef%bc%88new%ef%bc%89how-to-obtain-nat-part-1-how-to-pledge-your-nas/)
