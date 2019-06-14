@@ -7,7 +7,7 @@ Nebulas é uma blockchain pública de próxima geração, e visa criar um ecossi
 
 Esta documentação foi criada pela comunidade da Nebulas e qualquer um pode contribuir e construir um mundo descentralizado connosco. Convidamos toda a gente a ajudar.
 
-A Wiki da Nebulas é uma ferramenta de colaboração para a comunidade, para que esta seja capaz de publicar vários documentos. Estes incluem roteiros, livros brancos, [guias](wiki-using-guide.html), [guias de desenvolvimento](dapp-development/README.html), [recursos de aprendizagem](dapp-development/learning-resources.html), e outros documentos úteis.
+A Wiki da Nebulas é uma ferramenta de colaboração para a comunidade, para que esta seja capaz de publicar vários documentos. Estes incluem roteiros, livros brancos, [guias de utilização da wiki](wiki-usage-guide.html), [guias de desenvolvimento](dapp-development/README.html), [recursos de aprendizagem](dapp-development/learning-resources.html), e outros documentos úteis.
 
 
 ## Como Usar a Wiki
