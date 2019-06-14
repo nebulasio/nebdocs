@@ -5,6 +5,7 @@ Go-Nebulas
     :titlesonly:
 
     What's Nebulas <whats-nebulas/README.md>
+    Nebulas Technical Committee <nebulas-technical-committee/README.md>
     Papers <papers/README.rst>
     Design Overview <overview/README.md>
     mainnet.md
