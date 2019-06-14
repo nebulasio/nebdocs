@@ -1,8 +1,8 @@
-# How to Join Nebulas Testnet
+# How to Join the Nebulas Testnet
 
 ## Introduction
 
-  We are glad to release the Nebulas Testnet. It simulates the Nebulas network and NVM, and allows developers to interact with Nebulas without paying the cost of gas.
+We are glad to release the Nebulas Testnet. It simulates the Nebulas network and NVM, and allows developers to interact with Nebulas without paying the cost of gas.
 
 > [https://github.com/nebulasio/go-nebulas/tree/testnet](https://github.com/nebulasio/go-nebulas/tree/testnet)
 

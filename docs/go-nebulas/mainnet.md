@@ -1,4 +1,4 @@
-# How to Join Nebulas Mainnet
+# How to Join the Nebulas Mainnet
 
 ## Introduction
 
