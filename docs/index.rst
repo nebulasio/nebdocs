@@ -45,7 +45,7 @@ Use Wiki
     overview.md
     how-to-contribute.md
     bounty/README.rst
-    wiki-using-guide.md
+    wiki-usage-guide.md
     metanet/README.rst
     go-nebulas/README.rst
     dapp-development/README.rst
