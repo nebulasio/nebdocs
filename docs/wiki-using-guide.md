@@ -7,14 +7,14 @@
 
 Deverá utilizar reST para editar o ficheiro .rst, e Pandoc Markdown para editar ficheiros .md. 
 
-[Clique aqui para aprender a diferença entre Markdown e reST](http://www.unexpected-vortices.com/doc-notes/markdown-and-rest-compared.html). 
+Clique [aqui](http://www.unexpected-vortices.com/doc-notes/markdown-and-rest-compared.html) para aprender a diferença entre Markdown e reST.
 
 Eis alguns recursos de aprendizagem:
 
 - [Como Utilizar Markdown](https://daringfireball.net/projects/markdown/syntax) por John Gruber
 - [Guia Markdown](https://ia.net/writer/support/general/markdown-guide) or iA Writer
 
-Quando modificar páginas no Github, pode clicar em "Preview changes" para ver os resultados. Pode verficar o processo de compilação [aqui](https://readthedocs.org/projects/nebdocs/builds/).
+Quando modificar páginas no Github, deve clicar em "Preview changes" para visualizar as suas modificações. Pode verficar o processo de compilação [aqui](https://readthedocs.org/projects/nebdocs/builds/).
 
 
 ## Ver Modificações
