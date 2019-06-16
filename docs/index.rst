@@ -39,7 +39,7 @@ Use Wiki
     :titlesonly:
     :caption: Category:
 
-    overview.md
+    whats-nebulas/README.rst
     how-to-contribute.md
     bounty-program.md
     wiki-usage-guide.md
