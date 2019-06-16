@@ -23,7 +23,7 @@ The Bug Bounty Program divides the bug bounties into 2 categories, common bug bo
 
 The Nebulas Technical Committee will evaluate reward sizes according to the severity calculated by [OWASP](https://www.owasp.org/index.php/OWASP_Risk_Rating_Methodology) Risk Rating Method based on **Impact** and **Likelihood**. However, final rewards are determined at the sole discretion of the committee. 
 
-![图1](https://cdn-images-1.medium.com/max/1600/1*rR7P3JTHT2KFAYTDodsilw.jpeg)
+![Image 1](https://cdn-images-1.medium.com/max/1600/1*rR7P3JTHT2KFAYTDodsilw.jpeg)
 
 **Impact:**
 - High: Bugs affecting asset security.
@@ -65,3 +65,13 @@ Please send your bug report via [this link](https://goo.gl/forms/5ysl61Mjpn6yDEu
 ## The Nebulas NAT Bug Bounty Program
 NAT includes about 7 different smart contracts.
 For bugs pertaining the NAT smart contracts, you may go [here](https://go.nebulas.io/project/147) to claim your bounty. Do note that you will still have to fill in the following [form](https://docs.google.com/forms/d/e/1FAIpQLScaCeODU26maPJIuyCkX6Lsa0A5Xi2AZ_z-mvKlHmd89_CaXQ/viewform) detailing your bug, after claiming, in order to become elligible for the bounty.
+
+The smart contracts can be updated at any time. They are listed below:
+
+> multisig: n1orrpFGmcQSvGrbKTD7RHweTPe61ut7svw
+> NAT NRC20: n1mpgNi6KKdSzr7i5Ma7JsG5yPY9knf9He7
+> distribute: n1uBbtFZK3Acs2T6JUMv6bSAvS6U6nnur6j
+> pledge_proxy: n1obU14f6Cp4Wv7zANVbtmXKNkpKCqQDgDM
+> pledge: n1zmbyLPCt2i8biKm1tNRwgAW3mhyKUtEpW
+> vote: n1pADU7jnrvpPzcWusGkaizZoWgUywMRGMY
+> NR_DATA: n21KaJxgFw7gTHR9A5VFYHsQrWdL61dCqvK
