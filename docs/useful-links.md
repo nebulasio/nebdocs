@@ -1,20 +1,3 @@
 # Enlaces útiles
 
-## Tutoriales creados por la comunidad de Nebulas
-
-**Nota**: estos recursos están en inglés; pronto se crearán las traducciones pertinentes.
-
-* [How to architect a DApp using Nuxt.js and Nebulas](https://medium.freecodecamp.org/architecting-dapp-using-nuxt-js-nebulas-fc00712ae341
-)
-* [A walkthrough to your first deployed dApp](https://medium.com/coinmonks/setup-nebulas-development-environment-b8f8f022b170
-)
-* [Nebulearn](http://nebulearn.com/official-docs/installation)
-* [Nebulas Smart Contract Tutorial](https://www.youtube.com/watch?v=cQBM4xwcGZw&t=1095s
-)
-* [Nebulas Dapp Tutorial: WebExtensionWallet and NebPay.js](https://www.youtube.com/watch?v=wwJz3TEf_2Y
-)
-* [Nebulas Dapp tutorial](https://medium.com/coinmonks/dapp-tutorial-72f0ae39f538
-)
-* [New Nebulas Smart Contract feature](https://medium.com/nebulasio/new-nebulas-smart-contract-feature-e15046804b3c
-)
-* [Creating A NAS Wallet](https://medium.com/nebulasio/creating-a-nas-wallet-9d01b5fa2df6)
+[![](/resources/nebulas_square_logo128.png)](https://community.nebulas.io/) [![](/resources/github_square_logo128.png)](https://github.com/nebulasio) [![](/resources/reddit_square_logo128.png)](https://www.reddit.com/r/nebulas/) [![](/resources/twitter_square_logo128.png)](https://twitter.com/nebulasio) [![](/resources/telegram_square_logo128.png)](https://t.me/nebulasen) 
