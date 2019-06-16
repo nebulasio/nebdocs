@@ -4,7 +4,7 @@
 Por favor, lee la [guía para usuarios de la Wiki de Nebulas](https://medium.com/nebulasio/nebulas-wiki-user-guide-5418715c6988)
 
 ## Traducir la wiki
-A grandes rasgos, necesitarás utilizar reST para editar los archivos .rst y Pandoc Markdown para editar los archivos .md.
+Para editar localmente, necesitarás utilizar reST para los archivos .rst y Pandoc Markdown para editar los archivos .md.
 
 [Haz clic aquí para conocer la diferencia entre ambos formatos](http://www.unexpected-vortices.com/doc-notes/markdown-and-rest-compared.html).
 
@@ -13,10 +13,7 @@ A grandes rasgos, necesitarás utilizar reST para editar los archivos .rst y Pan
 * [Cómo utilizar Markdown](https://daringfireball.net/projects/markdown/syntax), guía escrita por John Gruber.
 * [Guía técnica de la sintaxis Markdown](https://ia.net/writer/support/general/markdown-guide), escrita por iA Writer.
 
-Cuando estés editando alguna página en Github, puedes hacer clic en «Vista previa de los cambios» para ver el resultado de los cambios. Puedes ver el proceso de cambios [aquí](https://readthedocs.org/projects/nebdocs/builds/).
+## Después
+Cuando estés editando alguna página en Github, debes hacer clic en «Preview changes» para ver el resultado de los cambios. 
 
-## Seguimiento de los cambios
-
-(en desarrollo)
-
-
+Después de que su contribución ha sido aceptada, puede ver el proceso de compilación [aquí](https://readthedocs.org/projects/nebdocs/builds/).
