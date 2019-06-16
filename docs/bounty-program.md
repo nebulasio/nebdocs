@@ -50,12 +50,12 @@ Note: The Nebulas testnet special vulnerability reward (such as one for testnet 
 ### Report A Bug
 Please send your bug report via [this link](https://goo.gl/forms/5ysl61Mjpn6yDEuN2).
 
-**Notes:**
+**Things to keep in mind:**
 
 > 1. Please ensure the accuracy and clarity of the content, because the reward evaluation will be based on the content submitted in this form.
 > 2. If many people discover the same bug, then their report submissions in chronological order will determine their reward. Community users are welcome to discuss the issues of bugs, but the discussion itself is not considered a report, therefore a report form must still be submitted. 
 
-### Notes:
+### Additional notes:
 > 1. The Nebulas Bug Bounty Program is long-standing. The Nebulas Technical Committee reserves the right to final interpretation of this program, and the rights to adjust or cancel the reward scope, eligibility, and amount.
 > 2. The Nebulas Technical Committee will confirm and evaluate the bug report after its submission. The evaluation time will depend on the severity of the problem and the difficulty of its resolution. The result of the evaluation will be sent to its reporter by email as soon as possible. 
 > 3. To avoid the exploitation of bugs, reporters are required to submit the bug bounty application using the [proper forms](https://docs.google.com/forms/d/e/1FAIpQLScaCeODU26maPJIuyCkX6Lsa0A5Xi2AZ_z-mvKlHmd89_CaXQ/viewform). 
