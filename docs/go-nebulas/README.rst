@@ -13,5 +13,4 @@ Go-Nebulas
     Tutoriais <tutorials/README.md>
     Lista de Afazeres <todo/README.md>
     Roteiro da Nebulas <roadmap.md>
-    FAQ <faq.md>
     Infrastrutura <infrastructure/README.rst>
