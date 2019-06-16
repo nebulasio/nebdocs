@@ -7,7 +7,7 @@
 Nebulas wiki
 ============
 
-Welcome to the open-source Nebulas wiki!
+Seja bem vindo à Wiki da Nebulas!
 ----------------------------------------
 
 
