@@ -17,7 +17,7 @@ The Nebulas Bug Bounty aims to improve the security of Nebulas Ecosystem, ensuri
 
 ### Bug Category
 
-The Bug Bounty Program divides the bug bounties into 2 categories, common bug bounty and special bug bounty. The common bugs include vulnerabilities discovered in Nebulas mainnet, Nebulas testnet, nebPay, Web wallet, neb.js and others, while the special bugs include vulnerabilities found in the inter-contract call function, etcetera..
+The Bug Bounty Program divides the bug bounties into 2 categories, common bug bounty and special bug bounty. The common bugs include vulnerabilities discovered in Nebulas mainnet, Nebulas testnet, nebPay, Web wallet, neb.js and others, while the special bugs include vulnerabilities found in the inter-contract call function, etcetera.
 
 ### Eligibility 
 
@@ -64,6 +64,7 @@ Please send your bug report via [this link](https://goo.gl/forms/5ysl61Mjpn6yDEu
 
 ## The Nebulas NAT Bug Bounty Program
 NAT includes about 7 different smart contracts.
+
 For bugs pertaining the NAT smart contracts, you may go [here](https://go.nebulas.io/project/147) to claim your bounty. Do note that you will still have to fill in the following [form](https://docs.google.com/forms/d/e/1FAIpQLScaCeODU26maPJIuyCkX6Lsa0A5Xi2AZ_z-mvKlHmd89_CaXQ/viewform) detailing your bug, after claiming, in order to become elligible for the bounty.
 
 The smart contracts can be updated at any time. They are listed below:
