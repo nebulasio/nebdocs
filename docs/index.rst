@@ -44,7 +44,7 @@ Use Wiki
 
     overview.md
     how-to-contribute.md
-    bounty/README.rst
+    bounty-program.md
     wiki-usage-guide.md
     metanet/README.rst
     go-nebulas/README.rst
