@@ -4,7 +4,6 @@ Go-Nebulas
 .. toctree::
     :titlesonly:
 
-    O que são Nebulas <whats-nebulas/README.md>
     Comité Técnico da Nebulas <nebulas-technical-committee/README.md>
     Livros Brancos <papers/README.rst>
     Visão Global do Design
