@@ -24,10 +24,10 @@ All learning resources. Videos and documents. Welcome to recommend more resource
 
 ## Dive into Nebulas
 
-- [Dive into Nebulas 1 — An Introduction](https://medium.com/nebulasio/dive-into-nebulas-1-introduction-3ec8bc73571c)
-- [Dive into Nebulas 2 — A Quick Start](https://medium.com/nebulasio/dive-into-nebulas-2-quick-start-105da9df80e1)
-- [Dive into Nebulas 3 — Managing Accounts](https://medium.com/nebulasio/dive-into-nebulas-3-accounts-3ebd208858d6)
-- [Dive into Nebulas 4— Transactions](https://medium.com/nebulasio/dive-into-nebulas-4-transactions-2a13845e1d03)
+- [Dive into Nebulas 1—An Introduction](https://medium.com/nebulasio/dive-into-nebulas-1-introduction-3ec8bc73571c)
+- [Dive into Nebulas 2—A Quick Start](https://medium.com/nebulasio/dive-into-nebulas-2-quick-start-105da9df80e1)
+- [Dive into Nebulas 3—Managing Accounts](https://medium.com/nebulasio/dive-into-nebulas-3-accounts-3ebd208858d6)
+- [Dive into Nebulas 4—Transactions](https://medium.com/nebulasio/dive-into-nebulas-4-transactions-2a13845e1d03)
 
 ## How to build a DApp on Nebulas
 
