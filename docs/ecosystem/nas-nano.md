@@ -1,6 +1,8 @@
 # NAS Nano
 NAS Nano es la cartera oficial. Hace download [aquí](https://nano.nebulas.io/index_en.html).
 
+![](/resources/nano_app_capture_en.png)
+
 # Nebulas Web Wallet Tutorial 
 - Part 1 - [Crear una Cartera de NAS](https://medium.com/nebulasio/creating-a-nas-wallet-9d01b5fa2df6)
 - Part 2 - [Envío de NAS de su Cartera](https://medium.com/nebulasio/sending-nas-from-your-wallet-be1b958c4e5d)
