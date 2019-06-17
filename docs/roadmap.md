@@ -1,4 +1,4 @@
-# Roadmap of Autonomous Metanet
+# Roadmap
 
 [Please visit our new Roadmap here](https://nebulas.io/roadmap.html).
 
