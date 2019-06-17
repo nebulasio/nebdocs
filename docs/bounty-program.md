@@ -4,7 +4,7 @@ Hoy en día casi todos los proyectos son publicados en la [Página de Proyecto d
 ## Programa de Recompensas de la Wiki de Nebulas
 Anteriormente, los usuarios que creaban o modificaban el contenido de la Wiki de Nebulas tenían derecho a ganar una recompensa en forma de NAS. Hoy en día, el proceso es muy diferente.
 
-Para calificar para la recompensa de wiki, vaya a la página de proyecto mencionada y busque "wiki", o simplemente haga clic en [aquí] (https://go.nebulas.io/search?q=wiki) para ver todos los resultados disponibles.
+Para calificar para la recompensa de wiki, vaya a la página de proyecto mencionada y busque "wiki", o simplemente haga clic en [aquí](https://go.nebulas.io/search?q=wiki) para ver todos los resultados disponibles.
 
 ## Programa de Recompensas para Bug Hunters de Nebulas
 El programa **Nebulas Bug Bounty** apunta a consolidar en Nebulas un ecosistema saludable y seguro. Para ello, hemos puesto a disposición de los _buscadores de errores_ una serie de recompensas que premian cada error que se encuentre.
