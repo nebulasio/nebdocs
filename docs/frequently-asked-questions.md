@@ -4,7 +4,7 @@ This document will focus on the technology behind the Nebulas platform. For broa
 
 For a better understanding of the Nebulas platform it's highly recommended to read the [Nebulas Technical Whitepaper](https://nebulas.io/docs/NebulasTechnicalWhitepaper.pdf).
 
-Table of Contents
+**Table of Contents**
 
 1. [Nebulas Rank \(NR\)](faq.md#nebulas-rank-nr)
 2. [Nebulas Force \(NF\)](faq.md#nebulas-force-nf)

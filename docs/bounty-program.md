@@ -1,26 +1,21 @@
 # Bounty Program
-
 Nearly all projects are posted on the [Nebulas Project Page](go.nebulas.io) along with their corresponding bounties, and users are expected to apply in order to claim a project or parts of it. This process applies to the wiki and to the NAT Bug Bounty Program. For now, the Nebulas Bug Bounty Program only requires you to submit a [form](https://docs.google.com/forms/d/e/1FAIpQLScaCeODU26maPJIuyCkX6Lsa0A5Xi2AZ_z-mvKlHmd89_CaXQ/viewform) with the relevant information.
 
 Below you will find in-depth information about all the Bounty Programs so you can get started on contributing to the flourishing Nebulas ecossystem and get rewarded for it!
 
 ## The Nebulas Wiki Bounty Program
-
 Previously users who created or modified content on the Nebulas Wiki were entitled to potentially win a bounty in the form of NAS. Nowadays, the process is quite different.
 
 To qualify for the wiki bounty, go to the aforementioned project page and search for "wiki," or simply click [here](https://go.nebulas.io/search?q=wiki) to see all the available listings.
 
 
 ## The Nebulas Bug Bounty Program
-
 The Nebulas Bug Bounty aims to improve the security of Nebulas Ecosystem, ensuring the establishment of a benign Nebulas ecosystem. The Nebulas Bug Bounty Program provides bounties for the discovered vulnerabilities. This bounty program was initiated and implemented by the Nebulas Technical Committee (NTC), in conjunction with the Nebulas technical team, and community members. NTC encourages the community to disclose security vulnerabilities via the process described below, and play a role in building the Nebulas ecosystem, thereby receiving bounties, and partaking in the evolution of the Nebulas ecosystem.
 
 ### Bug Category
-
 The Bug Bounty Program divides the bug bounties into 2 categories, common bug bounty and special bug bounty. The common bugs include vulnerabilities discovered in Nebulas mainnet, Nebulas testnet, nebPay, Web wallet, neb.js and others, while the special bugs include vulnerabilities found in the inter-contract call function, etcetera.
 
 ### Eligibility 
-
 The Nebulas Technical Committee will evaluate reward sizes according to the severity calculated by [OWASP](https://www.owasp.org/index.php/OWASP_Risk_Rating_Methodology) Risk Rating Method based on **Impact** and **Likelihood**. However, final rewards are determined at the sole discretion of the committee. 
 
 ![Image 1](https://cdn-images-1.medium.com/max/1600/1*rR7P3JTHT2KFAYTDodsilw.jpeg)
@@ -70,9 +65,15 @@ For bugs pertaining the NAT smart contracts, you may go [here](https://go.nebula
 The smart contracts can be updated at any time. They are listed below:
 
 > multisig: n1orrpFGmcQSvGrbKTD7RHweTPe61ut7svw
+
 > NAT NRC20: n1mpgNi6KKdSzr7i5Ma7JsG5yPY9knf9He7
+
 > distribute: n1uBbtFZK3Acs2T6JUMv6bSAvS6U6nnur6j
+
 > pledge_proxy: n1obU14f6Cp4Wv7zANVbtmXKNkpKCqQDgDM
+
 > pledge: n1zmbyLPCt2i8biKm1tNRwgAW3mhyKUtEpW
+
 > vote: n1pADU7jnrvpPzcWusGkaizZoWgUywMRGMY
+
 > NR_DATA: n21KaJxgFw7gTHR9A5VFYHsQrWdL61dCqvK
