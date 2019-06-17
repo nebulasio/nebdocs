@@ -42,13 +42,13 @@ Use Wiki
     :titlesonly:
     :caption: Category:
 
-    whats-nebulas/README.rst
+    wiki-usage-guide.md
     how-to-contribute.md
     bounty-program.md
-    wiki-usage-guide.md
-    metanet/README.rst
+    whats-nebulas/README.rst
     go-nebulas/README.rst
     dapp-development/README.rst
+    tutorials.md
     community/README.rst
     ecosystem/README.rst
     useful-links.md
