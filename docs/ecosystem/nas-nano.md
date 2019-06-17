@@ -1,7 +1,5 @@
 # NAS nano
-NAS nano is the official wallet. You may download it [here](https://nano.nebulas.io/index_en.html). 
-
-NAS Nano is developed by the Nebulas team. It has a beautiful, easy-to-use interface, and implements all the features of a robust cryptocurrency wallet, as well as multiple security policies, so that users can easily manage their NAS assets without a steep learning curve.
+NAS nano is the official wallet, developed by the Nebulas team. You may download it [here](https://nano.nebulas.io/index_en.html). It has a beautiful, easy-to-use interface, and implements all the features of a robust cryptocurrency wallet, as well as multiple security policies, so that users can easily manage their NAS assets without a steep learning curve.
 
 The NAS nano wallet comes with four main features:
 
