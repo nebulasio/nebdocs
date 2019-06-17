@@ -1,5 +1,7 @@
-# NAS nano
-NAS Nano is the official wallet. You may download it [here](https://nano.nebulas.io/index_en.html).
+# NAS Nano
+NAS Nano is the official wallet. You may download it [here](https://nano.nebulas.io/index_en.html). 
+
+![](/resources/nano_app_capture_en.png)
 
 # Nebulas Web Wallet Tutorial 
 - Part 1 - [Creating A NAS Wallet](https://medium.com/nebulasio/creating-a-nas-wallet-9d01b5fa2df6)
