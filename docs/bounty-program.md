@@ -1,28 +1,23 @@
 # Programa de Recompensas
-
 Practicamente todos os projectos são postados na [Página de Projectos da Nebulas](go.nebulas.io) juntamente com as suas recompensas correspondentes, e os utilizadores têm a obrigação de se candidatar de medida a candidatarem-se a um projecto ou partes dele. Este processo aplica-se aos Programas de Recompensas da Wiki e do NAT. Para já o Programa de Recompensa de Bugs da Nebulas apenas requere que [preencha um inquérito](https://docs.google.com/forms/d/e/1FAIpQLScaCeODU26maPJIuyCkX6Lsa0A5Xi2AZ_z-mvKlHmd89_CaXQ/viewform) sobre o bug em questão.
 
 Abaixo encontrará informação detalhada sobre todos os Programas de Recompensa da Nebulas para que possa começar a contribuir para a prosperidade do ecossístema da Nebulas!
 
 ## Programa de Recompensa da Wiki da Nebulas
-
 Préviamente utilizadores que tomassem parte na criação ou modificação de conteúdo da Wiki da Nebulas tinham direito a potencialmente receberem recompensas na forma de NAS. Hoje em dia, o processo é bastante diferente.
 
 Para se qualificar para receber recompensas, vá ao página do projecto acima mencionada e use o motor de busca para procurar por "wiki", ou simplesmente clique [aqui](https://go.nebulas.io/search?q=wiki) para ver todos os projectos relacionados com a wiki que estão disponíveis.
 
 ## Programa de Recompensa de Bugs da Nebulas
-
 O programa de Recompensa de Bugs da Nebulas visa melhorar a segurança do ecossístema de Nebulas, assegurando a estabilidade do mesmo. O programa de Recompensa de Bugs recompensa vulnerabilidades descobertas. Este programa de recompensas foi criado e implementado pelo Comité Técnico da Nebulas (NTC), em conjunto com a equipa técnica da Nebulas, e com a comunidade. NTC encoraja a comunidade a fornecer informação sobre vulnerabilidades de segurança através do processo descrito abaixo, e a ter uma participação activa na criação do ecossístema da Nebulas, e ao mesmo tempo ser recompensado.
 
 ### Categorias de Bugs
-
 O Programa de Recompensa de Bugs divide as recompensas em 2 categorias, recompensa de bugs comuns e de bugs especiais. Os bugs comuns incluem vulnerabilidades descobertas na mainnet da Nebulas, na testnet, no nebPay, na Web wallet, no web.js e outros, enquanto que os bugs especiais incluem vulnerabilidades descobertas na função de invocação inter-contractuais e outras.
 
 ### Elegibilidade
-
 O Comité Técnico da Nebulas irá avaliar o tamanho das recompensas de acordo com a gravidade do bug, de acordo com o Método de Avaliação de Risco [OWASP](https://www.owasp.org/index.php/OWASP_Risk_Rating_Methodology) baseado no **Impacto** e **Probabilidade**. No entanto, as recompensas são determinados e estão exclusivamente ao critério do comité. 
 
-![图1](https://cdn-images-1.medium.com/max/1600/1*rR7P3JTHT2KFAYTDodsilw.jpeg)
+![Figura 1](https://cdn-images-1.medium.com/max/1600/1*rR7P3JTHT2KFAYTDodsilw.jpeg)
 
 **Impacto:**
 - Alto: Bugs que afectam a segurança de activos.
@@ -61,7 +56,6 @@ Por favor faça o seu relato aqui, através [deste link](https://goo.gl/forms/5y
 > 5. O Comité Tecnico da Nebulas encoraja membros da comunidade a conversar com a Equipa Tecnica da Nebulas e outros membros da comunidade nos grupos de discussão públicos. Também aceitamos ajuda na resolução dos bugs. [Junte-se à maillist da Nebulas](https://lists.nebulas.io/icgi-bin/mailman/listinfo).
 
 ## Programa de Recompensa de Bugs no NAT da Nebulas
-
 O NAT inclui cerca de 7 smart contracts.
 
 Para bugs relacionados com os smart contracts do NAT, pode ir [aqui](https://go.nebulas.io/project/147) para reivindicar a sua recompensa. Note que também terá que preencher o [inquérito](https://docs.google.com/forms/d/e/1FAIpQLScaCeODU26maPJIuyCkX6Lsa0A5Xi2AZ_z-mvKlHmd89_CaXQ/viewform) a detalhar o seu bug, depois de se candidatar na página de projectos da Nebulas, para se tornar elegível.
@@ -69,10 +63,16 @@ Para bugs relacionados com os smart contracts do NAT, pode ir [aqui](https://go.
 Os smart contracts podem ser actualizados a qualquer momento, e encontram-se disponíveis nos seguintes links:
 
 > multisig: n1orrpFGmcQSvGrbKTD7RHweTPe61ut7svw
+
 > NAT NRC20: n1mpgNi6KKdSzr7i5Ma7JsG5yPY9knf9He7
+
 > distribute: n1uBbtFZK3Acs2T6JUMv6bSAvS6U6nnur6j
+
 > pledge_proxy: n1obU14f6Cp4Wv7zANVbtmXKNkpKCqQDgDM
+
 > pledge: n1zmbyLPCt2i8biKm1tNRwgAW3mhyKUtEpW
+
 > vote: n1pADU7jnrvpPzcWusGkaizZoWgUywMRGMY
+
 > NR_DATA: n21KaJxgFw7gTHR9A5VFYHsQrWdL61dCqvK
 
