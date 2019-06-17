@@ -1,6 +1,8 @@
 # NAS Nano
 NAS Nano é a carteira oficial da Nebulas. Pode-a obter [aqui](https://nano.nebulas.io/index_en.html).
 
+![](/resources/nano_app_capture_en.png)
+
 # Nebulas Web Wallet Tutorial 
 - Part 1 - [Criar uma Carteira de NAS](https://medium.com/nebulasio/creating-a-nas-wallet-9d01b5fa2df6)
 - Part 2 - [Envio de NAS da sua Carteira](https://medium.com/nebulasio/sending-nas-from-your-wallet-be1b958c4e5d)
