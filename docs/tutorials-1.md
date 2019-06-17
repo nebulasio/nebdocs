@@ -4,9 +4,9 @@ Here is all you need to dive into Nebulas.
 
 ## NebulasIO
 
-* Website：[https://nebulas.io](https://nebulas.io)
-* Non-Tech Whitepaper：[https://nebulas.io/docs/NebulasWhitepaperZh.pdf](https://nebulas.io/docs/NebulasWhitepaper.pdf)
-* Tech Whitepaper：[https://nebulas.io/docs/NebulasTechnicalWhitepaperZh.pdf](https://nebulas.io/docs/NebulasTechnicalWhitepaper.pdf)
+* Website:[https://nebulas.io](https://nebulas.io)
+* Non-Tech Whitepaper:[https://nebulas.io/docs/NebulasWhitepaperZh.pdf](https://nebulas.io/docs/NebulasWhitepaper.pdf)
+* Tech Whitepaper:[https://nebulas.io/docs/NebulasTechnicalWhitepaperZh.pdf](https://nebulas.io/docs/NebulasTechnicalWhitepaper.pdf)
 
 ## Go-Nebulas
 
