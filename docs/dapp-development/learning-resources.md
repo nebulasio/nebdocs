@@ -8,7 +8,7 @@ Recibiremos con agrado todas las contribuciones que surjan de nuestra comunidad.
 
 * [Introducción a Nebulas](#introduccion-a-nebulas).
 * [Cómo usar la cartera de Nebulas](#como-usar-la-cartera-de-nebulas).
-* [Cómo crear una dApp](#aplicaciones descentralizadas).
+* [Cómo crear una dApp](#aplicaciones-descentralizadas).
 * [Documentos oficiales de Nebulas](#documentos-oficiales-de-nebulas).
 * [Preguntas y respuestas en Reddit](#preguntas-y-respuestas-en-reddit).
 
