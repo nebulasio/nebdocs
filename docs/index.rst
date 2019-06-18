@@ -43,8 +43,8 @@ Use Wiki
     how-to-contribute.md
     bounty-program.md
     wiki-usage-guide.md
-    metanet/README.rst
     go-nebulas/README.rst
+    roadmap.md
     dapp-development/README.rst
     community/README.rst
     ecosystem/README.rst
