@@ -2,24 +2,23 @@ Other versions: [[zh-CN](https://github.com/nebulasio/nebdocs/tree/zh-CN)] [[pt-
 
 # Welcome to the open-source Nebulas Wiki!
 
-Nebulas community is open and everyone can be a contributor and build a decentralized world with us.
+The Nebulas community is open and anyone can contribute and build a decentralized world with us.
 
-The Nebulas wiki is a collaboration tool for the community to publish various documents in a collaborative manner. Include using guides, developing guides, learning resources, and other useful documents. 
+The Nebulas wiki is a collaboration tool for the community to publish various documents in a collaborative manner. It includes usage guides, developing guides, learning resources, and other useful documents. 
 
 The mainnet development part of this Nebulas Wiki was based on ["the wiki."](https://github.com/nebulasio/wiki) 
 
-
 # How to Contribute
 
-Nebulas aims for a continuously improving ecosystem, which means we need help from the community. We need your contributions! It is not limited exclusively to programming, but also bug reports and translations, spreading the tenets of Nebulas, answering questions, and so on.
+Nebulas aims for a continuously improving ecosystem. This means we need help from the community. We need your contribution! It is not limited exclusively to programming, but also bug reports, translations, spreading the tenets of Nebulas, answering questions, and so on.
 
-[Learn more about how to contribute](https://wiki.nebulas.io/en/latest/how-to-contribute.html)
+[Learn more about how to contribute](https://wiki.nebulas.io/en/latest/how-to-contribute.html).
 
 # Get Started
 
-This project was created by [sphinx](http://www.sphinx-doc.org/en/master/) and uploaded to [readthedocs](https://readthedocs.org/) for hosting. Url of online documentation after hosting is: [https://nebdocs.readthedocs.io/en/latest/](https://nebdocs.readthedocs.io/en/latest/).
+This project was created by [sphinx](http://www.sphinx-doc.org/en/master/) and uploaded to [readthedocs](https://readthedocs.org/) for hosting. The URL for the online documentation after hosting is: [https://nebdocs.readthedocs.io/en/latest/](https://nebdocs.readthedocs.io/en/latest/).
 
-This project supports documents in the following two formats:
+This project supports documents in the following formats:
 
 - Markdown(.md)
 - reStructuredText(.rst)
