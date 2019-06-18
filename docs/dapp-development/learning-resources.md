@@ -25,7 +25,7 @@ Todos os recursos de aprendizagem, vídeos e documentos. Será bem-vindo a rec
 
 - Como construir uma DAPP em Nebulas: [[Parte 1]](https://medium.com/nebulasio/how-to-build-a-dapp-on-nebulas-part-1-da4eaf9399bc), [[Parte 2]](https://medium.com/nebulasio/how-to-build-a-dapp-on-nebulas-part-2-5424789f7417), [[Parte 3]](https://medium.com/nebulasio/how-to-build-a-dapp-on-nebulas-part3-3586126aa124)
 
-- Detalhes sobre o Algoritmo de classificação de smart contracts: [[Parte 1](https://medium.com/nebulasio/details-on-the-smart-contract-ranking-algorithm-part-1-723143c689c3), [[Parte 2]](https://medium.com/nebulasio/details-on-the-smart-contract-ranking-algorithm-part-2-64341011e5e5)
+- Detalhes sobre o Algoritmo de classificação de smart contracts: [[Parte 1]](https://medium.com/nebulasio/details-on-the-smart-contract-ranking-algorithm-part-1-723143c689c3), [[Parte 2]](https://medium.com/nebulasio/details-on-the-smart-contract-ranking-algorithm-part-2-64341011e5e5)
 
 - [Recurso Smart New Nebulas Contract](https://medium.com/nebulasio/new-nebulas-smart-contract-feature-e15046804b3c)
 - [Reivindicar Nebulas Testnet Token Passo a Passo](https://medium.com/nebulasio/claim-nebulas-testnet-token-step-by-step-6156400fdd38)
