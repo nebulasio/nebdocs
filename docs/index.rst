@@ -50,7 +50,7 @@ Use Wiki
     ecosystem/README.rst
     useful-links.md
     frequently-asked-questions.md
-    licensing/README.rst
+    licenses/README.rst
     
 
 * :ref:`genindex`

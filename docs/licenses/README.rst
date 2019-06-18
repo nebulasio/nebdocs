@@ -31,5 +31,4 @@ All contributions to Nebulas wikis are licensed under the `Creative Commons Lice
 .. toctree::
     :titlesonly:
 
-    config.md
     contributors.md
