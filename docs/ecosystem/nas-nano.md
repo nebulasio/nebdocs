@@ -1,5 +1,12 @@
-# NAS Nano
-NAS Nano es la cartera oficial. Hace download [aquí](https://nano.nebulas.io/index_en.html).
+# NAS nano
+NAS nano es la cartera oficial, creada por el equipo de Nebulas.  Hace download [aquí](https://nano.nebulas.io/index_en.html). Cuenta con una interfaz hermosa y fácil de usar, e implementa todas las características de una cartera sólida de criptomonedas, así como múltiples políticas de seguridad, para que los usuarios puedan administrar fácilmente sus activos NAS sin una curva de aprendizaje pronunciada.
+
+La cartera tiene cuatro características principales:
+
+* Cree, importe y administre carteras rápida y fácilmente.
+* Compruebe el progreso de la transacció.
+* Proporcionar tres tipos de copias de seguridad de cartera, incluidas las copias de seguridad mnemotécnicas, de almacenamiento de claves, de claves privadas, para minimizar la pérdida y el robo de activos.
+* Admite NAS, así como otros tokens NRC20, como NAT y ATP.
 
 ![](/resources/nano_app_capture_en.png)
 
