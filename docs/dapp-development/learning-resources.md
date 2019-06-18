@@ -53,18 +53,11 @@ Recibiremos con agrado todas las contribuciones que surjan de nuestra comunidad.
 
 ## Documentos oficiales de Nebulas
 
-* [Mauve Paper: Protocolo de Incentivo para Desarrolladores (en inglés)](https://nebulas.io/docs/NebulasMauvepaper.pdf).
-* [Nebulas Mauve Paper: Developer Incentive Protocol (en chino)](https://nebulas.io/docs/NebulasMauvepaperZh.pdf).
-* [Acerca de Mauve Paper y el Protocolo de Incentivo para Desarrolladores](https://medium.com/nebulasio/nebulas-mauve-paper-developer-incentive-protocol-37bb90e52a20).
-* [Yellow Paper: Nebulas Rank (en inglés)](https://nebulas.io/docs/NebulasYellowpaper.pdf).
-* [Yellow Paper: Nebulas Rank (en chino)](https://nebulas.io/docs/NebulasYellowpaperZh.pdf).
-* [Yellow Paper: Nebulas Rank (en coreano)](https://nebulas.io/docs/NebulasYellowpaperKr.pdf).
-* [Yellow Paper: Nebulas Rank (en portugués)](https://nebulas.io/docs/NebulasYellowpaperPt.pdf).
-* [Interpretación oficial de “Nebulas Rank: Yellow Paper”](https://medium.com/nebulasio/official-interpretation-of-nebulas-rank-yellow-paper-dd18293cd9a9).
-* [Whitepaper técnico (en inglés)](https://nebulas.io/docs/NebulasTechnicalWhitepaper.pdf).
-* [Whitepaper técnico (en chino)](https://nebulas.io/docs/NebulasTechnicalWhitepaperZh.pdf).
-* [Whitepaper divulgativo (en inglés)](https://nebulas.io/docs/NebulasWhitepaper.pdf).
-* [Whitepaper divulgativo (en chino)](https://nebulas.io/docs/NebulasWhitepaperZh.pdf).
+* Mauve Paper: Protocolo de Incentivo para Desarrolladores: [[Inglés]](https://nebulas.io/docs/NebulasMauvepaper.pdf), [[Chino]](https://nebulas.io/docs/NebulasMauvepaperZh.pdf)
+* [Acerca de Mauve Paper y el Protocolo de Incentivo para Desarrolladores](https://medium.com/nebulasio/nebulas-mauve-paper-developer-incentive-protocol-37bb90e52a20)
+* Yellow Paper: Nebulas Rank: [[Inglés]](https://nebulas.io/docs/NebulasYellowpaper.pdf), [[Chino]](https://nebulas.io/docs/NebulasYellowpaperZh.pdf), [[Coreano]](https://nebulas.io/docs/NebulasYellowpaperKr.pdf), [[Portugués]](https://nebulas.io/docs/NebulasYellowpaperPt.pdf)
+* [Interpretación oficial de “Nebulas Rank: Yellow Paper”](https://medium.com/nebulasio/official-interpretation-of-nebulas-rank-yellow-paper-dd18293cd9a9)
+* Whitepaper técnico: [[Inglés]](https://nebulas.io/docs/NebulasTechnicalWhitepaper.pdf), [[Chino]](https://nebulas.io/docs/NebulasTechnicalWhitepaperZh.pdf)
 
 ## Preguntas y respuestas en Reddit
 
