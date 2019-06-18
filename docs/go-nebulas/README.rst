@@ -7,8 +7,9 @@ Go-Nebulas
     Comité Técnico da Nebulas <nebulas-technical-committee/README.md>
     Livros Brancos <papers/README.rst>
     Visão Global do Design
-    Ligação à mainnet <mainnet.md>
-    Ligação à testnet <testnet.md>
+    Ligação à Mainnet <mainnet.md>
+    Ligação à Testnet <testnet.md>
+    Ficheiros de Configuração <config.md>
     Desenvolvimento <develop/README.md>
     Tutoriais <tutorials/README.md>
     Lista de Afazeres <todo/README.md>
