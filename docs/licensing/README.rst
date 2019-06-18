@@ -26,7 +26,7 @@ widely.
 Contributor License Agreement
 -----------------------------
 
-TBD.
+All contributions to Nebulas wikis are licensed under the `Creative Commons License SA 4.0 <https://creativecommons.org/licenses/by-nc-sa/4.0/>`_.
 
 .. toctree::
     :titlesonly:
