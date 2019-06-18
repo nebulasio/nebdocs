@@ -49,6 +49,7 @@ Use Wiki
     metanet/README.rst
     go-nebulas/README.rst
     dapp-development/README.rst
+    tutorials.md
     community/README.rst
     ecosystem/README.rst
     useful-links.md
