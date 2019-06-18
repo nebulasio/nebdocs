@@ -8,7 +8,7 @@ All learning resources. Videos and documents. Welcome to recommend more resource
 - Nebulas Mauve Paper: Developer Incentive Protocol: [[English]](https://nebulas.io/docs/NebulasMauvepaper.pdf), [[Chinese]](https://nebulas.io/docs/NebulasMauvepaperZh.pdf)
 - [About the Nebulas Mauve Paper: Developer Incentive Protocol](https://medium.com/nebulasio/nebulas-mauve-paper-developer-incentive-protocol-37bb90e52a20)
 
-- Nebulas Rank Yellow Paper: [[English]](https://nebulas.io/docs/NebulasYellowpaper.pdf), [[Chinese]](https://nebulas.io/docs/NebulasYellowpaperZh.pdf), [Korean](https://nebulas.io/docs/NebulasYellowpaperKr.pdf), [[Portuguese]](https://nebulas.io/docs/NebulasYellowpaperPt.pdf)
+- Nebulas Rank Yellow Paper: [[English]](https://nebulas.io/docs/NebulasYellowpaper.pdf), [[Chinese]](https://nebulas.io/docs/NebulasYellowpaperZh.pdf), [[Korean]](https://nebulas.io/docs/NebulasYellowpaperKr.pdf), [[Portuguese]](https://nebulas.io/docs/NebulasYellowpaperPt.pdf)
 - [Official Interpretation of the “Nebulas Rank Yellow Paper”](https://medium.com/nebulasio/official-interpretation-of-nebulas-rank-yellow-paper-dd18293cd9a9)
 
 - Technical Whitepaper: [[English]](https://nebulas.io/docs/NebulasTechnicalWhitepaper.pdf), [[Chinese]](https://nebulas.io/docs/NebulasTechnicalWhitepaperZh.pdf)
@@ -17,19 +17,16 @@ All learning resources. Videos and documents. Welcome to recommend more resource
 
 ## Dive into Nebulas
 
-- [Dive into Nebulas 1—An Introduction](https://medium.com/nebulasio/dive-into-nebulas-1-introduction-3ec8bc73571c)
-- [Dive into Nebulas 2—A Quick Start](https://medium.com/nebulasio/dive-into-nebulas-2-quick-start-105da9df80e1)
-- [Dive into Nebulas 3—Managing Accounts](https://medium.com/nebulasio/dive-into-nebulas-3-accounts-3ebd208858d6)
-- [Dive into Nebulas 4—Transactions](https://medium.com/nebulasio/dive-into-nebulas-4-transactions-2a13845e1d03)
+- [Dive into Nebulas 1 - An Introduction](https://medium.com/nebulasio/dive-into-nebulas-1-introduction-3ec8bc73571c)
+- [Dive into Nebulas 2 - A Quick Start](https://medium.com/nebulasio/dive-into-nebulas-2-quick-start-105da9df80e1)
+- [Dive into Nebulas 3 - Managing Accounts](https://medium.com/nebulasio/dive-into-nebulas-3-accounts-3ebd208858d6)
+- [Dive into Nebulas 4 - Transactions](https://medium.com/nebulasio/dive-into-nebulas-4-transactions-2a13845e1d03)
 
 ## How to build a DApp on Nebulas
 
-- [How to build a DApp on Nebulas (Part 1)](https://medium.com/nebulasio/how-to-build-a-dapp-on-nebulas-part-1-da4eaf9399bc)
-- [How to build a DApp on Nebulas (Part 2)](https://medium.com/nebulasio/how-to-build-a-dapp-on-nebulas-part-2-5424789f7417)
-- [How to build a DApp on Nebulas (Part 3)](https://medium.com/nebulasio/how-to-build-a-dapp-on-nebulas-part3-3586126aa124)
+- How to build a DApp on Nebulas: [[Part 1]](https://medium.com/nebulasio/how-to-build-a-dapp-on-nebulas-part-1-da4eaf9399bc), [[Part 2]](https://medium.com/nebulasio/how-to-build-a-dapp-on-nebulas-part-2-5424789f7417), [[Part 3]](https://medium.com/nebulasio/how-to-build-a-dapp-on-nebulas-part3-3586126aa124)
 
-- [Details on the Smart Contract Ranking Algorithm Part 1](https://medium.com/nebulasio/details-on-the-smart-contract-ranking-algorithm-part-1-723143c689c3)
-- [Details on the Smart Contract Ranking Algorithm Part 2](https://medium.com/nebulasio/details-on-the-smart-contract-ranking-algorithm-part-2-64341011e5e5)
+- Details on the Smart Contract Ranking Algorithm: [[Part 1]](https://medium.com/nebulasio/details-on-the-smart-contract-ranking-algorithm-part-1-723143c689c3), [[Part 2]](https://medium.com/nebulasio/details-on-the-smart-contract-ranking-algorithm-part-2-64341011e5e5)
 
 - [New Nebulas Smart Contract feature](https://medium.com/nebulasio/new-nebulas-smart-contract-feature-e15046804b3c)
 - [Claim Nebulas Testnet Token Step by Step](https://medium.com/nebulasio/claim-nebulas-testnet-token-step-by-step-6156400fdd38)
