@@ -1,30 +1,25 @@
-# Recursos para aprendizagem
+# Recursos de aprendizagem
 
 Todos os recursos de aprendizagem, vídeos e documentos. Será bem-vindo a recomendar mais recursos da comunidade. Pode editar esta página directamente no Github. Ajude os outros e aprenda em conjunto!
 
-
 ## Documentos oficiais da Nebulas
 
-- [Papel Mauve Nebulas: Protocolo de Incentivo ao Desenvolvedor (em Inglês)](https://nebulas.io/docs/NebulasMauvepaper.pdf)
-- [Nebulas Mauve Paper: Protocolo de Incentivo ao Desenvolvedor (em Chinês)](https://nebulas.io/docs/NebulasMauvepaperZh.pdf)
+- Papel Mauve Nebulas: Protocolo de Incentivo ao Desenvolvedor:  [[Inglês]](https://nebulas.io/docs/NebulasMauvepaper.pdf), [[Chinês]](https://nebulas.io/docs/NebulasMauvepaperZh.pdf)
 - [Sobre o Papel Mauve da Nebulas: Protocolo de Incentivo ao Desenvolvedor](https://medium.com/nebulasio/nebulas-mauve-paper-developer-incentive-protocol-37bb90e52a20)
 
-- [Nebulas Rank Yellow Paper (Português)](https://nebulas.io/docs/NebulasYellowpaperPt.pdf)
+- Nebulas Rank Yellow Paper [[Português]](https://nebulas.io/docs/NebulasYellowpaperPt.pdf)
 - [Interpretação Oficial do “Nebulas Rank Yellow Paper”](https://medium.com/nebulasio/official-interpretation-of-nebulas-rank-yellow-paper-dd18293cd9a9)
 
-- [Whitepaper Técnico (Inglês)](https://nebulas.io/docs/NebulasTechnicalWhitepaper.pdf)
-- [Whitepaper Técnico (Chinês)](https://nebulas.io/docs/NebulasTechnicalWhitepaperZh.pdf)
+- [Whitepaper Técnico: [[Inglês]](https://nebulas.io/docs/NebulasTechnicalWhitepaper.pdf), [[Chinês]](https://nebulas.io/docs/NebulasTechnicalWhitepaperZh.pdf)
 
-- [Artigo não técnico (Português)](https://nebulas.io/docs/NebulasWhitepaperPt.pdf)
-- [Artigo não técnico (Chinês)](https://nebulas.io/docs/NebulasWhitepaperZh.pdf)
-
+- Artigo não técnico [[Português]](https://nebulas.io/docs/NebulasWhitepaperPt.pdf)
 
 ## Mergulhe nas Nebulas
 
 - [Mergulhe na Nebulas 1 - Uma Introdução](https://medium.com/nebulasio/dive-into-nebulas-1-introduction-3ec8bc73571c)
 - [Mergulhe na Nebulas 2 — Um Início Rápido](https://medium.com/nebulasio/dive-into-nebulas-2-quick-start-105da9df80e1)
 - [Mergulhe na Nebulas 3 — Gerência de Contas](https://medium.com/nebulasio/dive-into-nebulas-3-accounts-3ebd208858d6)
-- [Mergulhe na Nebulas 4— Transações](https://medium.com/nebulasio/dive-into-nebulas-4-transactions-2a13845e1d03)
+- [Mergulhe na Nebulas 4— Transacções](https://medium.com/nebulasio/dive-into-nebulas-4-transactions-2a13845e1d03)
 
 ## Como construir uma DAPP em Nebulas
 
