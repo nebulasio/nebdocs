@@ -5,22 +5,15 @@ All learning resources. Videos and documents. Welcome to recommend more resource
 
 ## Official Nebulas Documents
 
-- [Nebulas Mauve Paper: Developer Incentive Protocol (English)](https://nebulas.io/docs/NebulasMauvepaper.pdf)
-- [Nebulas Mauve Paper: Developer Incentive Protocol (Chinese)](https://nebulas.io/docs/NebulasMauvepaperZh.pdf)
-- [About Nebulas Mauve Paper: Developer Incentive Protocol](https://medium.com/nebulasio/nebulas-mauve-paper-developer-incentive-protocol-37bb90e52a20)
+- Nebulas Mauve Paper: Developer Incentive Protocol: [English](https://nebulas.io/docs/NebulasMauvepaper.pdf), [Chinese](https://nebulas.io/docs/NebulasMauvepaperZh.pdf)
+- [About the Nebulas Mauve Paper: Developer Incentive Protocol](https://medium.com/nebulasio/nebulas-mauve-paper-developer-incentive-protocol-37bb90e52a20)
 
-- [Nebulas Rank Yellow Paper (English)](https://nebulas.io/docs/NebulasYellowpaper.pdf)
-- [Nebulas Rank Yellow Paper (Chinese)](https://nebulas.io/docs/NebulasYellowpaperZh.pdf)
-- [Nebulas Rank Yellow Paper (Korean)](https://nebulas.io/docs/NebulasYellowpaperKr.pdf)
-- [Nebulas Rank Yellow Paper (Portuguese)](https://nebulas.io/docs/NebulasYellowpaperPt.pdf)
-- [Official Interpretation of “Nebulas Rank Yellow Paper”](https://medium.com/nebulasio/official-interpretation-of-nebulas-rank-yellow-paper-dd18293cd9a9)
+- Nebulas Rank Yellow Paper: [English](https://nebulas.io/docs/NebulasYellowpaper.pdf), [Chinese](https://nebulas.io/docs/NebulasYellowpaperZh.pdf), [Korean](https://nebulas.io/docs/NebulasYellowpaperKr.pdf), [Portuguese](https://nebulas.io/docs/NebulasYellowpaperPt.pdf)
+- [Official Interpretation of the “Nebulas Rank Yellow Paper”](https://medium.com/nebulasio/official-interpretation-of-nebulas-rank-yellow-paper-dd18293cd9a9)
 
-- [Technical Whitepaper (English)](https://nebulas.io/docs/NebulasTechnicalWhitepaper.pdf)
-- [Technical Whitepaper (Chinese)](https://nebulas.io/docs/NebulasTechnicalWhitepaperZh.pdf)
+- Technical Whitepaper: [(English](https://nebulas.io/docs/NebulasTechnicalWhitepaper.pdf), [Chinese](https://nebulas.io/docs/NebulasTechnicalWhitepaperZh.pdf)
 
-- [Non-technical Whitepaper (English)](https://nebulas.io/docs/NebulasWhitepaper.pdf)
-- [Non-technical Whitepaper (Chinese)](https://nebulas.io/docs/NebulasWhitepaperZh.pdf)
-
+- Non-technical Whitepaper: [English](https://nebulas.io/docs/NebulasWhitepaper.pdf), [Chinese](https://nebulas.io/docs/NebulasWhitepaperZh.pdf)
 
 ## Dive into Nebulas
 
