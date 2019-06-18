@@ -17,9 +17,9 @@ Todos os recursos de aprendizagem, vídeos e documentos. Será bem-vindo a rec
 ## Mergulhe nas Nebulas
 
 - [Mergulhe na Nebulas 1 - Uma Introdução](https://medium.com/nebulasio/dive-into-nebulas-1-introduction-3ec8bc73571c)
-- [Mergulhe na Nebulas 2 — Um Início Rápido](https://medium.com/nebulasio/dive-into-nebulas-2-quick-start-105da9df80e1)
-- [Mergulhe na Nebulas 3 — Gerência de Contas](https://medium.com/nebulasio/dive-into-nebulas-3-accounts-3ebd208858d6)
-- [Mergulhe na Nebulas 4— Transacções](https://medium.com/nebulasio/dive-into-nebulas-4-transactions-2a13845e1d03)
+- [Mergulhe na Nebulas 2 - Um Início Rápido](https://medium.com/nebulasio/dive-into-nebulas-2-quick-start-105da9df80e1)
+- [Mergulhe na Nebulas 3 - Gerência de Contas](https://medium.com/nebulasio/dive-into-nebulas-3-accounts-3ebd208858d6)
+- [Mergulhe na Nebulas 4 - Transacções](https://medium.com/nebulasio/dive-into-nebulas-4-transactions-2a13845e1d03)
 
 ## Como construir uma DAPP em Nebulas
 
