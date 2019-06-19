@@ -944,4 +944,5 @@ GetDynasty get dpos dynasty.
 .. toctree::
     :titlesonly:
 
+    rpc.md
     rpc_admin.md
