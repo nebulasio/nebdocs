@@ -343,7 +343,7 @@ of**\ ``to``\ \*\* is a contract address.*\*
 .. code:: text
 
    // Request
-   curl -i -H 'Content-Type: application/json' -X POST http://localhost:8685/v1/user/call -d '{"from":"n1Z6SbjLuAEXfhX1UJvXT6BB5osWYxVg3F3","to":"n1mL2WCZyRi1oELEugfCZoNAW3dt8QpHtJw","value":"0","nonce":3,"gasPrice":"1000000","gasLimit":"2000000","contract":{"function":"transferValue","args":"[500]"}}'
+   curl -i -H 'Content-Type: application/json' -X POST http://localhost:8685/v1/user/call -d '{"from":"n1Z6SbjLuAEXfhX1UJvXT6BB5osWYxVg3F3","to":"n1mL2WCZyRi1oELEugfCZoNAW3dt8QpHtJw","value":"0","nonce":3,"gasPrice":"20000000000","gasLimit":"2000000","contract":{"function":"transferValue","args":"[500]"}}'
 
    // Result
    {
@@ -466,7 +466,7 @@ See `LatestIrreversibleBlock <./#latestirreversibleblock>`__ response.
                "timestamp":"1522220087",
                "type":"binary",
                "data":null,
-               "gas_price":"1000000",
+               "gas_price":"20000000000",
                "gas_limit":"2000000",
                "contract_address":"",
                "status":1,
@@ -535,7 +535,7 @@ See `LatestIrreversibleBlock <./#latestirreversibleblock>`__ response.
                "timestamp":"1522220087",
                "type":"binary",
                "data":null,
-               "gas_price":"1000000",
+               "gas_price":"20000000000",
                "gas_limit":"2000000",
                "contract_address":"",
                "status":1,
@@ -612,7 +612,7 @@ error.
            "timestamp":"1521964742",
            "type":"binary",
            "data":null,
-           "gas_price":"1000000",
+           "gas_price":"20000000000",
            "gas_limit":"20000",
            "contract_address":"",
            "status":1,
@@ -669,7 +669,7 @@ HTTP Example
            "timestamp":"1521964742",
            "type":"deploy",
            "data":"eyJTb3VyY2VUeXBlIjoianMiLCJTb3VyY2UiOiJcInVzZSBzdHJpY3RcIjtcblxudmFyIENvbnRyYWN0ID0gZnVuY3VuY3Rpb24oKSB7XG5cbiAgICAgICAgRXZlbnQuVHJpZ2dlcih......UmFuZG9tMlwiOiByMTIsXG4gImRlZmF1bHRTZWVkUmFuZG9tM1wiOiByMTMsXG4gICAgICAgICAgICBcInVzZXJTZWVkUmFuZG9tXCI6IHIyXG4gICAgICAgIH0pO1xuICAgIH1cbn07XG5cbm1vZHVsZS5leHBvcnRzID0gQ29udHJhY3Q7IiwiQXJncyI6IiJ9",
-           "gas_price":"1000000",
+           "gas_price":"20000000000",
            "gas_limit":"20000",
            "contract_address":"n1sqDHGjYtX6rMqFoq5Tow3s3LqF4ZxBvE3",
            "status":1,
@@ -741,7 +741,7 @@ HTTP Example
                     \"nonce\":6,
                     \"value\":\"0\",
                     \"timestamp\":1522215320,
-                    \"gasprice\": \"1000000\", 
+                    \"gasprice\": \"20000000000\", 
                     \"gaslimit\":\"20000000\",
                     \"type\":\"deploy\"}"
        }
@@ -792,7 +792,7 @@ HTTP Example
    // Result
    {
        "result":{
-           "gas_price":"1000000"
+           "gas_price":"20000000000"
        }
    }
 
@@ -834,7 +834,7 @@ HTTP Example
 .. code:: text
 
    // Request
-   curl -i -H 'Content-Type: application/json' -X POST http://localhost:8685/v1/user/estimateGas -d '{"from":"n1QZMXSZtW7BUerroSms4axNfyBGyFGkrh5","to":"n1SAeQRVn33bamxN4ehWUT7JGdxipwn8b17", "value":"1000000000000000000","nonce":1,"gasPrice":"1000000","gasLimit":"2000000"}'
+   curl -i -H 'Content-Type: application/json' -X POST http://localhost:8685/v1/user/estimateGas -d '{"from":"n1QZMXSZtW7BUerroSms4axNfyBGyFGkrh5","to":"n1SAeQRVn33bamxN4ehWUT7JGdxipwn8b17", "value":"1000000000000000000","nonce":1,"gasPrice":"20000000000","gasLimit":"2000000"}'
 
    // Result
    {

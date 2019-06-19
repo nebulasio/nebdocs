@@ -4,13 +4,14 @@ Go-Nebulas
 .. toctree::
     :titlesonly:
 
-    What's Nebulas <whats-nebulas/README.md>
-    Nebulas Technical Committee <nebulas-technical-committee/README.md>
-    Papers <papers/README.rst>
-    Design Overview <overview/README.md>
-    How to Develop <develop/README.md>
-    Tutorials <tutorials/README.md>
-    Todo List <todo/README.md>
-    Roadmap of Nebulas <roadmap.md>
-    Frequently Asked Questions <faq.md>
-    Infrastructure <infrastructure/README.rst>
+    Comité Técnico da Nebulas <nebulas-technical-committee/README.md>
+    Livros Brancos <papers/README.rst>
+    Visão Global do Design
+    Ligação à Mainnet <mainnet.md>
+    Ligação à Testnet <testnet.md>
+    Ficheiros de Configuração <config.md>
+    Desenvolvimento <develop/README.md>
+    Tutoriais <tutorials/README.md>
+    Lista de Afazeres <todo/README.md>
+    Roteiro da Nebulas <roadmap.md>
+    Infrastrutura <infrastructure/README.rst>

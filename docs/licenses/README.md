@@ -10,5 +10,5 @@ In this way, we are still considering the license choice, which kind of license 
 
 ## Contributor License Agreement
 
-All contributions to Nebulas wikis are licensed under the (Creative Commons License SA 4.0)[https://creativecommons.org/licenses/by-nc-sa/4.0/].
+All contributions to Nebulas wikis are licensed under the [Creative Commons License SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 

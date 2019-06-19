@@ -1,18 +1,18 @@
 # NRC20
 
-## Abstract
+## Resumo 
 
-The following standard allows for the implementation of a standard API for tokens within smart contracts. This standard provides basic functionality to transfer tokens, as well as allows tokens to be approved so they can be spent by another on-chain third party.
+O seguinte padrão permite a implementação de uma API padrão para tokens em contratos inteligentes. Este padrão fornece funcionalidade básica para a transferência de tokens, bem como permite que os tokens sejam aprovados para que possam ser gastos por terceiros na cadeia.
 
-## Motivation
+## Motivação 
 
-A standard interface allows that a new token can be created by any application easily : from wallets to decentralized exchanges.
+Uma interface padrão permite que um novo token seja facilmente criado por qualquer aplicativo: desde carteiras até trocas descentralizadas.
 
-## Methods
+## Métodos 
 
 #### name
 
-Returns the name of the token - e.g. `"MyToken"`.
+Nome. Retorna o nome do token - por exemplo `"MyToken"`.
 
 ```javascript
 // returns string, the name of the token.
@@ -21,7 +21,7 @@ function name()
 
 #### symbol
 
-Returns the symbol of the token. E.g. "TK".
+Símbolo. Retorna o símbolo do token. Por exemplo, `"TK"`.
 
 ```javascript
 // returns string, the symbol of the token 
@@ -30,7 +30,7 @@ function symbol()
 
 #### decimals
 
-Returns the number of decimals the token uses - e.g. `8`, means to divide the token amount by `100000000` to get its user representation.
+Decimais. Retorna o número de decimais que o token usa - por exemplo `8`, significa dividir o valor do token `100000000` para obter sua representação do utilizador.
 
 ```javascript
 // returns number, the number of decimals the token uses
@@ -39,7 +39,7 @@ function decimals()
 
 #### totalSupply
 
-Returns the total token supply.
+Retorna o fornecimento total de token.
 
 ```javascript
 // returns string, the total token supply, the decimal value is decimals* total.
@@ -48,7 +48,7 @@ function totalSupply()
 
 #### balanceOf
 
-Returns the account balance of a address.
+Retorna o saldo da conta de um endereço.
 
 ```javascript
 // returns string, the account balance of another account with address
@@ -57,9 +57,10 @@ function balanceOf(address)
 
 #### transfer
 
-Transfers `value` amount of tokens to `address`, and MUST fire the `Transfer` event. The function SHOULD `throw` if the `from` account balance does not have enough tokens to spend.
+Transferência. Transfere a quantidade de tokens `value` para o endereço `address`e deve disparar o evento `Transfer`. A função deve disparar `throw`se o saldo da conta `from` não tiver tokens suficientes para gastar.
 
-_Note_ Transfers of 0 values MUST be treated as normal transfers and fire the `Transfer` event.
+> _Nota:_ Transferências de 0 valores DEVEM ser tratadas como transferências normais e disparar o evento `Transfer`.
+
 
 ```javascript
 // returns `true`, if transfer success, else throw error
@@ -68,11 +69,12 @@ function transfer(address, value)
 
 #### transferFrom
 
-Transfers `value` amount of tokens from address `from` to address `to`, and MUST fire the `Transfer` event.
+Transfere a quantidade `value` de tokens do endereço `from` para o endereço `to` e DEVE disparar o evento `Transfer`.
 
-The `transferFrom` method is used for a withdraw workflow, allowing contracts to transfer tokens on your behalf. This can be used for example to allow a contract to transfer tokens on your behalf and/or to charge fees in sub-currencies. The function SHOULD `throw` unless the `from` account has deliberately authorized the sender of the message via some mechanism.
+O método `transferFrom` é usado para um fluxo de trabalho de retirada, permitindo que contratos transfiram tokens em seu nome. Isso pode ser usado, por exemplo, para permitir que um contrato transfira tokens em seu nome e / ou cobrar taxas em sub-moedas. A função deve `throw`, a menos que a `from` conta deliberadamente autorizou o remetente da mensagem através de algum mecanismo.
 
-_Note_ Transfers of 0 values MUST be treated as normal transfers and fire the `Transfer` event.
+> _Nota:_ Transferências de 0 valores DEVEM ser tratadas como transferências normais e disparar o `Transfer` evento.
+
 
 ```javascript
 // returns `true`, if transfer success, else throw error
@@ -81,9 +83,9 @@ function transferFrom(from, to, value)
 
 #### approve
 
-Allows `spender` to withdraw from your account multiple times, up the `currentValue` to the `value` amount. If this function is called again it overwrites the current allowance with `value`.
+Aprovar. Permite que o `spender` retire da sua conta várias vezes, até `currentValue` do montante `value`. Se esta função for chamada novamente, ela sobrescreve a permissão atual com `value`.
 
-**NOTE**: To prevent attack vectors, the user needs to give a previous approve value, and the default value that is not approve is 0.
+> _Nota:_ Para evitar vectores de ataque, o utilizador precisa de fornecer um valor de aprovação anterior e o valor padrão de não aprovado é 0.
 
 ```javascript
 // returns `true`, if approve success, else throw error
@@ -92,20 +94,20 @@ function approve(spender, currentValue, value)
 
 #### allowance
 
-Returns the amount which `spender` is still allowed to withdraw from `owner`.
+Subsídio. Retorna o valor que o `spender` ainda pode ser retirado do `owner`.
 
 ```javascript
 // returns string, the value allowed to withdraw from `owner`.
 function allowance(owner, spender)
 ```
 
-### Events
+## Events
 
 #### transferEvent
 
-MUST trigger when tokens are transferred, including zero value transfers.
+DEVE ser accionado quando tokens são transferidos, incluindo transferências de valor zero.
 
-A token contract which creates new tokens SHOULD trigger a Transfer event with the `from` address set to `totalSupply` when tokens are created.
+Um contrato de token que cria novos tokens DEVE accionar um evento de transferência com o endereço `from` definido para o fornecimento total `totalSupply` quando os tokens são criados.
 
 ```javascript
 function transferEvent: function(status, from, to, value)
@@ -113,15 +115,15 @@ function transferEvent: function(status, from, to, value)
 
 #### approveEvent
 
-MUST trigger on any call to `approve(spender, currentValue, value)`.
+DEVE acionar em qualquer chamada para `approve(spender, currentValue, value)`.
 
 ```javascript
 function approveEvent: function(status, from, spender, value)
 ```
 
-## Implementation
+## Implementação 
 
-#### Example implementations are available at
+Exemplos de implementações estão disponíveis em
 
 * [NRC20.js](https://github.com/nebulasio/go-nebulas/blob/master/nf/nvm/test/NRC20.js)
 

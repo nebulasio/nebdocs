@@ -2,13 +2,20 @@
 
 ## Introducção
 
-Estamos felizes por lançar a Testnet da Nebulas. Ela simula a rede Nebulas e a NVM, e permite a interacção com a Nebulas sem pagamento de custo de gás.
+Estamos contentes por lançar a Testnet da Nebulas. Ela simula a rede Nebulas e a NVM, e permite a interacção com a Nebulas sem o pagamento do custo de gás.
 
-```text
-https://github.com/nebulasio/go-nebulas/tree/testnet
-```
+> [https://github.com/nebulasio/go-nebulas/tree/testnet](https://github.com/nebulasio/go-nebulas/tree/testnet)
 
-### Configuração
+### Compilação
+
+O ficheiro executável da Testnet da Nebulas e as suas bibliotecas têm de ser compilados primeiro. Modulos de alta importância estão listados abaixo:
+
+* **NBRE:** O Ambiente de Execução da Nebulas é a plataforma que corre o Protocolo de Representação da Nebulas, como o DIP, o NR, etcetera.
+* **NEB:** O processo principal da Mainnet da Nebulas, o `NEB` e o `NBRE` correm em processos individuais, e comunicam através de IPC
+
+Detalhes sobre a compilação dos modulos pode ser encontrada em [tutoriais](http://wiki.nebulas.io/en/latest/go-nebulas/tutorials/01-installation.html#compile-nebulas).
+
+## Configuração
 
 Os ficheiros de configuração estão no directório [`testnet/conf`](https://github.com/nebulasio/go-nebulas/tree/testnet/testnet/conf) na branch `testnet`, inclusive
 
@@ -34,7 +41,7 @@ Por favor veja o [`template.conf`](https://github.com/smalloranges/wiki/tree/887
 seed:["/ip4/52.60.150.236/tcp/8680/ipfs/QmVJikqWQst13QsgdCLBjgcSWwpAAdZjoExGdvK3r2CNhv"]
 ```
 
-#### Lista do API
+### Lista do API
 
 Test Endpoint:
 
@@ -65,13 +72,6 @@ Cada email pode pedir tokens uma vez por dia [aqui](https://testnet.nebulas.io/c
 4. [Introdução de Armazenamento em Smart Contracts](https://github.com/nebulasio/wiki/blob/master/tutorials/%5BPortugues%5D%20Nebulas%20101%20-%2004%20Armazenamento%20Smart%20Contract.md) \(obrigado [Cristiano](https://github.com/crisbrm)\)
 5. [Interacção com Nebulas através do API RPC](https://github.com/nebulasio/wiki/blob/master/tutorials/%5BPortugues%5D%20Nebulas%20101%20-%2005%20Interacao%20com%20Nebulas%20por%20API%20RPC.md) \(obrigado [Cristiano](https://github.com/crisbrm)\)
 
-### 中文
-
-1. [编译安装及运行neb](https://github.com/nebulasio/wiki/blob/master/tutorials/[中文]%20Nebulas%20101%20-%2001%20编译安装.md)
-2. [在星云链上发送交易](https://github.com/nebulasio/wiki/blob/master/tutorials/[中文]%20Nebulas%20101%20-%2002%20发送交易.md)
-3. [使用JavaScript编写智能合约](https://github.com/nebulasio/wiki/blob/master/tutorials/[中文]%20Nebulas%20101%20-%2003%20编写智能合约.md)
-4. [智能合约存储区介绍](https://github.com/nebulasio/wiki/blob/master/tutorials/[中文]%20Nebulas%20101%20-%2004%20智能合约存储区.md)
-5. [通过RPC接口与星云链交互](https://github.com/nebulasio/wiki/blob/master/tutorials/[中文]%20Nebulas%20101%20-%2005%20通过RPC接口与星云链交互.md)
 
 ## Contribuir
 

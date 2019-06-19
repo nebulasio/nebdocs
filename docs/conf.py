@@ -60,7 +60,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'docs'
-copyright = u'2018, nebulas'
+copyright = u'2017-2019, nebulas'
 author = u'nebulas'
 
 # The version info for the project you're documenting, acts as replacement for
