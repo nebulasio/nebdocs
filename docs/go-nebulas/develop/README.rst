@@ -1,6 +1,6 @@
 .. _How to Develop:
 
-How to Develop
+如何开发
 ==============
 
 .. toctree::

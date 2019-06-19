@@ -5,8 +5,7 @@
 
 欢迎使用星云文档！
 ========================================
-
-
+  
 .. toctree::
     :maxdepth: 2
     :titlesonly:
@@ -14,15 +13,16 @@
 
     overview.md
     how-to-contribute.md
+    bug-bounty.md
     wiki-using-guide.md
-    mainnet-guide/README.rst
-    infrastructure/README.rst
-    dapps-developing-guide/README.rst
-    community-ecosystem/README.rst
+    metanet/README.rst
+    go-nebulas/README.rst
+    dapp-development/README.rst
+    community/README.rst
+    ecosystem/README.rst
     useful-links.md
     frequently-asked-questions.md
     licensing/README.rst
-
 
 索引表
 ==================

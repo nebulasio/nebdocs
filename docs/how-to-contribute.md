@@ -1,4 +1,4 @@
-# How to Contribute
+# 如何作出贡献
 
 ## Code & Documentation
 

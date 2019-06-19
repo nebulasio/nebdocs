@@ -126,12 +126,12 @@ if err != nil {
 
 更多的接口列表请参考官方文档。
 
-* [API Module](https://github.com/nebulasio/wiki/blob/master/rpc.md)
-* [Admin Module](https://github.com/nebulasio/wiki/blob/master/rpc_admin.md).
+* [API Module](../../dapp-development/rpc/rpc.md)
+* [Admin Module](../../dapp-development/rpc/rpc_admin.md).
 
 ### 完成
 
 恭喜你成功走完了整个教程! 欢迎阅读下列指南来加入官方的测试网和主网，探索更加广阔的区块链世界。
 
-[Join to Testnet](https://github.com/nebulasio/wiki/blob/master/testnet.md) [Join to Mainnet](https://github.com/nebulasio/wiki/blob/master/mainnet.md)
+[加入测试网](../testnet.md) & [加入主网](../mainnet.md)
 

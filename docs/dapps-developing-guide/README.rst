@@ -4,7 +4,6 @@ DApps Developing Guide
 .. toctree::
     :titlesonly:
 
-    testnet.md
     smart-contract.md
     nrc20.md
     rpc-overview.md

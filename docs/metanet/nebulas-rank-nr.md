@@ -1,4 +1,4 @@
-# Nebulas Rank \(NR\)
+# 星云指数\(NR\)
 
 Nebulas Rank \(NR\) is an open sourced ranking algorithm used to measure the influence of relationships among addresses, smart contracts, and distributed applications \(DApps\). It helps both users utilize information among the ever-increasing amount of data on all blockchains & developers to use our search framework directly in their own applications.
 

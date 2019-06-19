@@ -1,4 +1,4 @@
-# Nebulas Force \(NF\)
+# 星云原力 \(NF\)
 
 A series of basic protocols such as NR, PoD, DIP shall become a part of blockchain data. With the growth of data on Nebulas, these basic protocols will upgrade, and this will avoid fracture between developers and community as well as the “fork”. We call this fundamental capability of blockchain “Nebulas Force” \(NF\).
 

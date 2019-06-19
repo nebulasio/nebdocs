@@ -151,10 +151,10 @@ cd $GOPATH/src/github.com/nebulasio/go-nebulas
 make dep
 ```
 
-> 提示: `make dep`将会下载很多依赖库。在部分地区，这个过程可能比较耗时。所以，我们提供了依赖库的压缩包[vendor.tar.gz](http://ory7cn4fx.bkt.clouddn.com/vendor.tar.gz)。可以使用下列指令通过压缩包来安装GO依赖库。
+> 提示: `make dep`将会下载很多依赖库。在部分地区，这个过程可能比较耗时。所以，我们提供了依赖库的压缩包[vendor.tar.gz](http://develop-center.oss-cn-zhangjiakou.aliyuncs.com/setup/vendor/vendor.tar.gz)。可以使用下列指令通过压缩包来安装GO依赖库。
 >
 > ```bash
-> wget http://ory7cn4fx.bkt.clouddn.com/vendor.tar.gz
+> wget http://develop-center.oss-cn-zhangjiakou.aliyuncs.com/setup/vendor/vendor.tar.gz
 > cd $GOPATH/src/github.com/nebulasio/go-nebulas
 > tar zxf vendor.tar.gz
 > ```
@@ -355,5 +355,5 @@ cd $GOPATH/src/github.com/nebulasio/go-nebulas
 
 ### 下一章
 
-[在星云链上发送交易](https://github.com/nebulasio/wiki/blob/master/tutorials/[中文]%20Nebulas%20101%20-%2002%20发送交易.md)
+[在星云链上发送交易](01-installation.md)
 
