@@ -12,10 +12,10 @@ Nebulas provides both [gRPC](https://grpc.io) and RESTful API for users to inter
 
 Default endpoints:
 
-| API | URL | Protocol |
-|-------|:------------:|:------------:|
-| gRPC |  http://localhost:8684 | Protobuf|
-| RESTful |http://localhost:8685 | HTTP |
+|  API      | URL                       | Protocol      |
+|-----------|---------------------------|---------------|
+| gRPC      | http://localhost:8684     | Protobuf      |
+| RESTful   | http://localhost:8685     | HTTP          |
 
 ##### gRPC API
 
@@ -90,10 +90,10 @@ Or, there is error form grpc, repose will carry the error message
 
 Return the state of the neb.
 
-| Protocol | Method | API |
-|----------|--------|-----|
-| gRpc |  |  GetNebState |
-| HTTP | GET |  /v1/user/nebstate |
+| Protocol  | Method    | API           |
+|-----------|-----------|---------------|
+| gRpc      |           | GetNebState   |
+| HTTP      | GET       | /v1/user/nebstate |
 
 ###### Parameters
 
