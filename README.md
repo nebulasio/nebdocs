@@ -27,7 +27,7 @@ git clone https://github.com/nebulasio/nebdocs.git
 2. instale os componentes do python necessários:
 
 ```bash
-pip install sphinx==1.5.6 sphinx-autobuild sphinx_rtd_theme recommonmark
+pip install sphinx==1.5.6 sphinx-autobuild sphinx_rtd_theme recommonmark sphinx_markdown_tables
 ```
 3. compile o projecto:
 

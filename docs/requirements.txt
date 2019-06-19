@@ -2,3 +2,4 @@ restructuredtext-lint==1.1.3
 Pigments==1.6
 sphinx-rtd-theme==0.2.4
 Sphinx==1.5.6
+sphinx_markdown_tables
