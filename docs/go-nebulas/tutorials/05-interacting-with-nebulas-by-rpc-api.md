@@ -128,8 +128,8 @@ if err != nil {
 
 Para mais interfaces, refira-se à documentação oficial:
 
-- [Mõdulo API](https://github.com/nebulasio/wiki/blob/master/rpc.md)
-- [Módulo Admin](https://github.com/nebulasio/wiki/blob/master/rpc_admin.md).
+* [API Module](../../dapp-development/rpc/rpc.md)
+* [Admin Module](../../dapp-development/rpc/rpc_admin.md).
 
 ### Próximo
 
