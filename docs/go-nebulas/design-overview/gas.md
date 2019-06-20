@@ -1,89 +1,97 @@
-# Transaction Gas
+# _Gas_ para transacciones (_Transaction Gas_)
 
-In Nebulas, either a normal transaction which transfer balance or a smart contract deploy & call burns gas, and charged from the balance of `from` address. A transaction contains two gas parameters `gasPrice` and `gasLimit` :
+En Nebulas, tanto una transacción normal en la que se transfiere balance, o un contrato inteligente, utilizan _gas_, cuyo costo se deduce del balance de la dirección que origina la transacción o que hace uso del contrato.
 
-* `gasPrice`: the price of per gas.
-* `gasLimit`: the limit of gas use.
+Una transacción contiene dos parámetros: `gasPrice` y `gasLimit`.
 
-The actual gas consumption of a transaction is the value: `gasPrice` \* `gasUsed`, which will be the reward to the miner coinbase. The `gasUsed` value must less than or equal to the `gasLimit`. Transaction's `gasUsed` can be estimate by RPC interface [estimategas](https://github.com/nebulasio/wiki/blob/master/rpc.md#estimategas) and store in transaction's execution result event.
+* `gasPrice`: el valor de la unidad de _gas_.
+* `gasLimit`: el límite máximo de uso de _gas_.
 
-## Design reason
+El valor del consumo de _gas_ en una transacción está dado por la fórmula:
 
-Users want to avoid gas costs when the transaction is packaged. Like Bitcoin and Ethereum, Nebulas GAS is used for transaction fee, it have two major purposes:
+`gasPrice` * `gasUsed`
 
-* As a rewards for minter, to incentive them to pack transactions. The packaging of the transaction costs the computing resources, especially the execution of the contract, so the user needs to pay for the transaction.
-* As a cost for attackers. The DDOS attach is quite cheap in Internet, black hackers hijack user's computer to send large network volume to target server. In Bitcoin and Ethereum network, each transaction must be paid, that significant raise the cost of attack.
+que será la recompensa otorgada a los mineros. El valor `gasUsed` debe ser igual o menor a `gasLimit`. El posible valor de `gasUsed` se p
+uede estimar a través de la interfaz RPC [_estimategas_](https://github.com/nebulasio/wiki/blob/master/rpc.md#estimategas); el mismo se almacenará en el evento de resultado de la ejecución de la transacción.
 
-## Gas constitution
+## Razones para este diseño
 
-When users submit a transaction, gas will be burned at these aspects:
+Tal como Bitcoin y Ethereum, el _gas_ en Nebulas se utiliza para pagar el costo de las transacciones. Tiene dos propósitos fundamentales:
 
-* `transaction submition`
-* `transaction data storage`
-* `transaction payload addition` 
-* `transaction payload execution`\(smart contract execution\) 
+* Como recompensa para mineros, para incentivarlos a empaquetar transacciones. El empaquetamiento de esas transacciones conlleva un costo computacional —en especial la ejecución de contratos inteligentes— por lo que los usuarios deben pagar por ese servicio.
+* Como deterrente costoso para los atacantes. El ataque _DDoS_ (Distributed Denial of Service) es bastante económico en internet, y cualquier hacker inescrupuloso podría enviar volúmenes muy elevados de transacciones al servidor objeto de sus ataques. En las redes Bitcoin y Ethereum, cada transacción tiene un costo económico, lo que incrementa significativamente el costo de un ataque de este tipo, haciéndolos imprácticos.
 
-In all these aspects, the power and resources of the net will be consumed and the miners will need to be paid.
+## Constitución del _gas_
 
-### Transaction submition
+Cuando un usuario emite una transacción, el _gas_ se utilizará del siguiente modo:
 
-A transaction's submition will add a transaction to the tail block. Miners use resources to record the deal and need to be paid. It will burn a fixed number of gas, that would be defined in code as the following:
+* `Emisión de la transacción`
+* `Almacenamiento de los datos de la transacción`
+* `Inserción del _payload_`
+* `Ejecución del _payload_ (contrato inteligente)`
+
+En todos estos puntos se consumen recursos de la red Nebulas, y por ende es necesario pagar por ellos.
+
+### Envío de transacciones
+
+Al enviar una transacción esta se añadirá al final del bloque al que fue asignada. Los mineros se encargarán de realizar el proceso, por el cual deben recibir una recompensa; para ello, se usará una cantidad determinada de _gas_, que se calcula del siguiente modo:
 
 ```text
-// TransactionGas default gas for normal transaction
+// TransactionGas: gas consumido en una transacción normal
 TransactionGas = 20000
 ```
 
-If the transaction verifies failed, the gas and value transfer will rollback.
+Si la verificación de la transacción falla, el gas se devolverá al emisor.
 
-### Transaction data storage
+### Almacenamiento de datos de transacción
 
-When deploying a contract or call contract's method, the raw data of contract execution save in the transaction's data filed, which cost the storage of resources on the chain. A formula to calculate gas:
+Al implementar un contrato —o una llamada al mismo—, los datos de su ejecución se almacenan en el blockchain, lo que también tiene un costo. La fórmula del costo asociado de _gas_ es la siguiente:
 
 ```text
 TransactionDataGas = 1
 
 len(data) * TransactionDataGas
-```
+```8
 
-The `TransactionDataGas` is a fixed number of gas defined in code.
+El campo `TransactionDataGas` es un número fijo definido en el código.
 
-Different types of transactions' payload have different gas consumption when executed. The types of transactions currently supported by nebulas are as follows:
+Para cada tipo de _payload_ en una transacción existen diferentes consumos de gas al momento de su ejecución. Los tipos de transacción soportados por Nebulas en este momento son los siguientes:
 
-* `binary`: The `binary` type of transaction allows users to attach binary data to transaction execution. These binary data do not do any processing when the transaction is executed.
-  * The fixed number of gas defined **0**. 
-* `deploy & call`: The `deploy` and `call` type of transaction allows users to deploy smart contract on nebulas. Nebulas must start `nvm` to execute the contract, so these types of transction must paid for the nvm start.
-  * The fixed number of gas defined **60**. 
+* `binary`: permite a los usuarios adjuntar datos binarios durante la ejecución del contrato inteligente. Estos datos no se procesan durante la ejecución. En este caso `TransactionDataGas` es 0.
+* `deploy` y `call`: Los tipos `deploy` y `call` les permiten a los usuarios implementar contratos inteligentes en Nebulas. Nebulas debe correr su máquina virtual `nvm` para ejecutar el contrato, por lo que se debe pagar por el derecho de uso de ese recurso. En este caso `TransactionDataGas` es 60.
 
-### Transaction payload execution\(Smart contract deploy & call\)
+### Ejecución de los _payloads_ (Smart contract deploy & call)
 
-The `binary` type of transaction do not do any processing when the transaction is executed, so the execution need not be paid.
+Como el tipo de transacción `binary` no realiza ningún tipo de procesamiento al momento de ejecutar la transacción, la ejecución no requiere _gas_. Por el contrario, cuando un contrato inteligente implementa una llamada al momento de la emisión de la transacción, la ejecución consumirá recursos de la computadora de los mineros, y probablemente se haga uso también del almacenamiento de datos en el blockchain.
 
-When a smart contract deploys or call in transaction submition, the contract execution will consume miner's computer resources and may store data on the chain.
+#### Ejecución de instrucciones
 
-* **execution instructions**: Every contract execution cost the miner's computer resources, the v8 instruction counter calculates the execution instructions. The limit of execution instructions will prevent the excessive consumption of computer computing power and the generation of the death cycle.
-* **contract storage**: The smart contract's `LocalContractStorage` which storage contract objects also burn gas. Only one gas per 32 bytes is consumed when stored\(`set`/`put`\), `get` or `delete` not burns gas.
+Cada ejecución de un contrato utiliza recursos de los mineros, que se deben pagar. El contador de instrucciones V8 realiza el cálculo del número de instrucciones a procesar. El límite de número de instrucciones a ejecutar impide el uso excesivo de recursos y la generación de _deadlocks_.
 
-The limit of **contract execution** is:
+#### Almacenamiento de contratos
+
+La característica `LocalContractStorage`, que permite almacenar objetos de los contratos inteligentes, utiliza una unidad de _gas_ cada 32 bytes que se almacenan. La lectura de esos objetos no consume gas.
+
+El límite para la ejecución de contratos está dada por:
 
 ```text
     gasLimit - TransactionGas - len(data) * TransactionDataGas - TransactionPayloadGasCount[type]
 ```
 
-## Gas Count Matrix
+## Matriz de conteo de _gas_
 
-The gas count matrix of smart contract execution
+La matriz de conteo de _gas_ para la ejecución de los contratos inteligentes está dada por:
 
-| Operator | Gas Count/Opt. | Description |
+| Operador | Conteo de gas/operador | Descripción |
 | --- | ---: | :--- |
-| Binary | 1 | Binary & logical operator |
-| Load | 2 | Load from memory |
-| Store | 2 | Save to memory |
-| Return | 2 | Return value, save to memory |
-| Call \(inner\) | 4 | Call functions in the same Smart Contract |
-| Call \(external\) | 100 | Call functions from other Smart Contract |
+| Binario | 1 | Operador binario y lógico |
+| Carga | 2 | Carga desde memoria |
+| Almacenamiento | 2 | Almacenamiento a memoria |
+| Retorno | 2 | Devolución de valor, almacenamiento a memoria |
+| Llamada (interna) | 4 | Llamada a funciones del mismo contrato inteligente |
+| Llamada (externa) | 100 | Llamada a funciones de otro contrato inteligente |
 
-| Expression | Sample Code | Binary Opt. | Load Opt. | Store Opt. | Return Opt. | Call \(inner\) Opt. | Gas Count |  |  |
+| Expresión | Código de ejemplo | Op. binario | Op. de carga | Op. de almacenamiento | Op. de devolución | Op. llamada interna | Conteo de gas |  |  |
 | --- | :--- | ---: | ---: | ---: | ---: | ---: | ---: |
 | CallExpression | a\(x, y\) | 0 | 0 | 1 | 1 | 1 | 8 |  |  |
 | AssignmentExpression | x&=y | 1 | 0 | 1 | 0 | 0 | 3 |  |  |
@@ -100,16 +108,20 @@ The gas count matrix of smart contract execution
 | Event |  | 0 | 0 | 0 | 0 | 0 | 20 |  |  |
 | Storage |  | 0 | 0 | 0 | 0 | 0 | 1 gas/bit |  |  |
 
-## Tips
+## Consejos
 
-In nebulas, the transaction pool of each node has a minimum and maximum `gasPrice` and maximum `gasLimit` value. If transaction's `gasPrice` is not in the range of the pool's `gasPrice` or the `gasLimit` greater than the pool's gasLimit the transaction will be refused.
+En Nebulas, el _pozo_ de transacciones de cada nodo tiene un valor mínimo y máximo para `gasPrice` y un valor máximo para `gasLimit`. Si el valor de `gasPrice` en la transacción no está en el rango del parámetro `gasPrice` definido en el pozo de transacciones, o el valor para `gasLimit` es mayor que el definido en ese pozo, la transacción será rechazada.
 
-Transaction pool gasPrice and gasLimit configuration:
+Configuración de los parámetros gasPrice y gasLimit:
 
-* `gasPrice`
-  * minimum: The minimum gasPrice can be set in the configuration file. If the minimum value is not configured, the default value is `1000000`\(10^6\).
-  * maximum: The maximum gasPrice is `1000000000000`\(10^12\), transaction pool's maximum configuration and transaction's `gasPrice` can't be overflow.
-* `gasLimit`
-  * minimum: The transaction's minimum gasLimit must greater than zero.
-  * maximum: The maximum gasPrice is `50000000000`\(50\*10^9\), transaction pool's maximum configuration and transaction's `gasLimit` can't be overflow.
+### `gasPrice`
+* mínimo: el valor mínimo de `gasPrice` se puede establecer en el archivo de configuración. Si no está configurado, el valor por defecto es `1000000` (10^6).
+* máximo: el valor máximo para `gasPrice` es de `1000000000000` (10^12).
 
+No se debe superar los valores máximos y mínimos en la configuración del pozo de transacciones.
+
+### `gasLimit`
+* mínimo: debe ser mayor a cero.
+* máximo: su valor máximo es de `50000000000` (50 * 10^9).
+
+No se debe superar los valores máximos y mínimos en la configuración del pozo de transacciones.

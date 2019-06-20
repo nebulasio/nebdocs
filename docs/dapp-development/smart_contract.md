@@ -1,253 +1,266 @@
 # Smart Contract
 
-## Languages
+## Lenguajes
 
-In Nebulas, there are two supported languages for writing smart contracts:
+Los contratos inteligentes en la plataforma Nebulas pueden ser escritos en dos lenguajes:
 
 * [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 * [TypeScript](https://en.wikipedia.org/wiki/TypeScript)
 
-They are supported by the integration of [Chrome V8](https://developers.google.com/v8/), a widely used JavaScript engine developed by The Chromium Project for Google Chrome and Chromium web browsers.
+Ambos lenguajes están integrados mediante [Chrome V8](https://developers.google.com/v8/), un motor javascript desarrollado por el proyecto Chromium (Google Chrome y navegadores Chromium derivados).
 
-## Execution Model
+## Modelo de ejecución
 
-The diagram below is the Execution Model of the Smart Contract:
+El diagrama de aquí abajo representa el modelo de ejecución de los contratos inteligentes:
 
 ![Smart Contract Execution Model](../resources/smart_contract_execution_model.png)
 
-1. The whole src of the Smart Contract and its arguments are packaged in the Transaction and deployed on Nebulas.
-2. The execution of Smart Contract is divided in two phases:
-   1. Preprocess: inject tracing instruction, etc.
-   2. Execute: generate executable src and execute it.
+1. El código completo del contrato inteligente, junto a sus argumentos, son empaquetados en la transacción e implementados en Nebulas.
+2. La ejecución de todo contrato inteligente se divide en dos fases:
+   1. Pre-proceso: inyectar traceo de ejecuciones y otras medidas de seguridad similares.
+   2. Ejecución: generar el código ejecutable y lanzarlo.
 
-## Contracts
+## Contratos
 
-Contracts in Nebulas are similar to classes in object-oriented languages. They contain persistent data in state variables and functions that can modify these variables.
+Los contratos en Nebulas son similares a las clases en el contexto de lenguajes de programación orientados a objetos. Contienen datos persistentes en variables de estado y funciones que pueden modificar dichas variables.
 
-### Writing Contract
+### Escribir un contrato
 
-A contract must be a Prototype Object or Class in JavaScript or TypeScript.
+Un contrato, tanto en JavaScript como en TypeScript, debe ser siempre un prototipo de objeto o bien una clase.
 
-A Contract must include an `init` function, it will be executed only once when deploying. Functions whose names start with `_` are `private` and can't be executed in a Transaction. The others are all `public` and can be executed in a Transaction.
+Todo contrato debe incluir una función `init`, que se ejecutará por única vez durante la implementación en el blockchain.
 
-Since the Contract is executed on Chrome V8, all instance variables are in memory, it's not wise to save all of them to [state trie](https://github.com/nebulasio/wiki/blob/master/merkle_trie.md) in Nebulas. In Nebulas, we provide `LocalContractStorage` and `GlobalContractStorage` objects to help developers define fields needing to be saved to state trie. And those fields should be defined in `constructor` of the Contract, before other functions.
+Las funciones cuyo nombre lleva el prefijo `_` son de tipo `private` y no se pueden ejecutar directamente en una transacción (ya que están fuera de scope). Todas las demás se consideran `public` y se pueden ejecutar directamente en una transacción.
 
-The following is a sample contract:
+Debido a que los contratos se ejecutan en Chrome V8, las variables de instancia se cargan en memoria, por lo que no es recomendable guardarlas a todas en un [state trie](https://github.com/nebulasio/wiki/blob/master/merkle_trie.md). Con este fin, Nebulas expone los objetos `LocalContractStorage` y `GlobalContractStorage` que les permiten a los desarrolladores definir cuáles son los campos que se requiere almacenar en un _state trie_. Estos campos se deben definir en el `constructor` del contrato, antes de cualquier otra función.
+
+El siguiente es un ejemplo de contrato inteligente:
 
 ```javascript
+
 class Rectangle {
-    constructor() {
-        // define fields stored to state trie.
-        LocalContractStorage.defineProperties(this, {
-            height: null,
-            width: null,
-        });
-    }
+	constructor() {
+		// define fields stored to state trie.
+		LocalContractStorage.defineProperties(this, {
+			height: null,
+			width: null,
+		});
+	}
 
-    // init function.
-    init(height, width) {
-        this.height = height;
-        this.width = width;
-    }
+	// init function.
+	init(height, width) {
+		this.height = height;
+		this.width = width;
+	}
 
-    // calc area function.
-    calcArea() {
-        return this.height * this.width;
-    }
+	// calc area function.
+	calcArea() {
+		return this.height * this.width;
+	}
 
-    // verify function.
-    verify(expected) {
-        let area = this.calcArea();
-        if (expected != area) {
-            throw new Error("Error: expected " + expected + ", actual is " + area + ".");
-        }
-    }
+	// verify function.
+	verify(expected) {
+		let area = this.calcArea();
+		if (expected != area) {
+			throw new Error("Error: expected " + expected + ", actual is " + area + ".");
+		}
+	}
 }
+
 ```
 
-### Visibility
+### Alcance
 
-In JavaScript, there is no function visibility, all functions defined in prototype object are public.
+En Nebulas se definen dos tipos de alcance: `public` y `private`:
 
-In Nebulas, we define two kinds of visibility `public` and `private`:
+* `public`: toda función cuyo nombre coincide con la expresión regular `^[a-zA-Z$][A-Za-z0-9_$]*$` es pública —con excepción de `init`—. Las funciones públicas se pueden llamar directamente desde `Transaction`.
+* `private`: toda función cuyo nombre coincide con el prefijo `_` es privada. Una función privada sólo puede ser llamada por una función pública, u otra función privada, pero nunca directamente desde `Transaction`.
 
-* `public` All functions whose name matches the regexp `^[a-zA-Z$][A-Za-z0-9_$]*$` are public, except `init`. Public functions can be called via Transaction.
-* `private` All functions whose name starts with `_` are private. A private function can only be called by public functions.
-
-## Global Objects
+## Objetos globales
 
 ### console
 
-The `console` module provides a simple debugging console that is similar to the JavaScript console mechanism provided by web browsers.
+El módulo `console` brinda una consola de depuración similar a la de JavaScript que poseen los navegadores modernos.
 
-The global console can be used without calling `require('console')`.
+La consola global se puede utilizar sin necesidad de realizar una llamada a `require('console')`.
 
 #### console.info\(\[...args\]\)
 
 * `...args <any>`
 
-  The console.info\(\) function is an alias for `console.log()`.
+  La función console.info\(\) es un alias de `console.log()`.
 
 #### console.log\(\[...args\]\)
 
 * `...args <any>`
 
-  Print `args` to Nebulas Logger at level `info`.
+  Imprime los parámetros `args` en el registro de Nebulas, a nivel de `info`.
 
 #### console.debug\(\[...args\]\)
 
 * `...args <any>`
 
-  Print `args` to Nebulas Logger at level `debug`.
+  Imprime los parámetros `args` en el registro de Nebulas, a nivel de `debug`.
 
 #### console.warn\(\[...args\]\)
 
 * `...args <any>`
 
-  Print `args` to Nebulas Logger at level `warn`.
+  Imprime los parámetros `args` en el registro de Nebulas, a nivel de `warn`.
 
 #### console.error\(\[...args\]\)
 
 * `...args <any>`
 
-  Print `args` to Nebulas Logger at level `error`.
+  Imprime los parámetros `args` en el registro de Nebulas, a nivel de `error`.
 
 ### LocalContractStorage
 
-The `LocalContractStorage` module provides a state trie based storage capability. It accepts string only key value pairs. And all data is stored to a private state trie associated with the current contract address. Only the contract can access it.
+El módulo `LocalContractStorage` provee un _state trie_ basado en la capacidad de almacenamiento. Acepta sólo pares de valores clave de tipo cadena.
+
+Todos los datos se almacenan en un state trie privado, asociado a la dirección del contrato actual. Únicamente el contrato puede acceder a la misma.
 
 ```typescript
-interface Descriptor {
-    // serialize value to string;
-    stringify?(value: any): string;
 
-    // deserialize value from string;
-    parse?(value: string): any;
+interface Descriptor {
+	// serializar el valor a una cadena;
+	stringify?(value: any): string;
+
+	// de-serializar el valor desde una cadena;
+	parse?(value: string): any;
 }
 
 interface DescriptorMap {
-    [fieldName: string]: Descriptor;
+	[fieldName: string]: Descriptor;
 }
 
 interface ContractStorage {
-    // get and return value by key from Native Storage.
-    rawGet(key: string): string;
-    // set key and value pair to Native Storage,
-    // return 0 for success, otherwise failure.
-    rawSet(key: string, value: string): number;
+	//obtener y devolver el valor de una clave desde Native Storage.
+	rawGet(key: string): string;
+	// establecer clave y par de valores en Native Storage,
+	// devolver 0 si no hay errores.
+	rawSet(key: string, value: string): number;
 
-    // define a object property named `fieldname` to `obj` with descriptor.
-    // default descriptor is JSON.parse/JSON.stringify descriptor.
-    // return this.
-    defineProperty(obj: any, fieldName: string, descriptor?: Descriptor): any;
+	// definir una propiedad llamada `fieldname` para el objeto `obj` con descriptor.
+	// el descriptor por defecto es JSON.parse/JSON.stringify.
+	// devolver lo siguiente:
+	defineProperty(obj: any, fieldName: string, descriptor?: Descriptor): any;
 
-    // define object properties to `obj` from `props`.
-    // default descriptor is JSON.parse/JSON.stringify descriptor.
-    // return this.
-    defineProperties(obj: any, props: DescriptorMap): any;
+	// definir las propiedades del objeto `obj` desde `props`.
+	// el descriptor por defecto es JSON.parse/JSON.stringify.
+	// devolver lo siguiente:
+	defineProperties(obj: any, props: DescriptorMap): any;
 
-    // define a StorageMap property named `fieldname` to `obj` with descriptor.
-    // default descriptor is JSON.parse/JSON.stringify descriptor.
-    // return this.
-    defineMapProperty(obj: any, fieldName: string, descriptor?: Descriptor): any;
+	// define a StorageMap property named `fieldname` to `obj` with descriptor.
+	// el descriptor por defecto es JSON.parse/JSON.stringify.
+	// devolver lo siguiente:
+	defineMapProperty(obj: any, fieldName: string, descriptor?: Descriptor): any;
 
-    // define StorageMap properties to `obj` from `props`.
-    // default descriptor is JSON.parse/JSON.stringify descriptor.
-    // return this.
-    defineMapProperties(obj: any, props: DescriptorMap): any;
+	// define StorageMap properties to `obj` from `props`.
+	// el descriptor por defecto es JSON.parse/JSON.stringify.
+	// devolver lo siguiente:
+	defineMapProperties(obj: any, props: DescriptorMap): any;
 
-    // delete key from Native Storage.
-    // return 0 for success, otherwise failure.
-    del(key: string): number;
+	// borrar una clave en Native Storage.
+	// devolver 0 si no hay errores.
+	del(key: string): number;
 
-    // get value by key from Native Storage,
-    // deserialize value by calling `descriptor.parse` and return.
-    get(key: string): any;
+	// obtener un valor mediante una clave desde Native Storage,
+	// de-serializar el valor llamando al método `descriptor.parse`.
+	get(key: string): any;
 
-    // set key and value pair to Native Storage,
-    // the value will be serialized to string by calling `descriptor.stringify`.
-    // return 0 for success, otherwise failure.
-    set(key: string, value: any): number;
+	// establecer clave y par de valores en Native Storage,
+	// el valor debe serializarse a una cadena mediante una llamada a `descriptor.stringify`.
+	// devolver 0 si no hay errores.
+	set(key: string, value: any): number;
 }
 
 interface StorageMap {
-    // delete key from Native Storage, return 0 for success, otherwise failure.
-    del(key: string): number;
+	// borrar clave desde Native Storage, devolver 0 si no hay errores.
+	del(key: string): number;
 
-    // get value by key from Native Storage,
-    // deserialize value by calling `descriptor.parse` and return.
-    get(key: string): any;
+	// obtener valor mediante clave desde Native Storage,
+	// de-serializar el valor mediante una llamada a `descriptor.parse`.
+	get(key: string): any;
 
-    // set key and value pair to Native Storage,
-    // the value will be serialized to string by calling `descriptor.stringify`.
-    // return 0 for success, otherwise failure.
-    set(key: string, value: any): number;
+	// establecer clave y par de valores en Native Storage,
+	// el valor debe serializarse a una cadena mediante una llamada a `descriptor.stringify`.
+	// devolver 0 si no hay errores.
+	set(key: string, value: any): number;
 }
+
 ```
 
 ### BigNumber
 
-The `BigNumber` module uses the [bignumber.js](https://github.com/MikeMcl/bignumber.js), a JavaScript library for arbitrary-precision decimal and non-decimal arithmetic operations. The contract can use `BigNumber` directly to handle the value of the transaction and other value transfers.
+El módulo `BigNumber` hace uso de [bignumber.js](https://github.com/MikeMcl/bignumber.js), una librería JavaScript para realizar operaciones aritméticas sobre números decimales y no decimales de precisión arbitraria.
+
+El contrato inteligente puede hacer uso de este módulo `BigNumber` para calcular directamente el valor de una transacción, o para cualquier otra operación que requiera el manejo de grandes números de precisión arbitraria.
 
 ```javascript
+
 var value = new BigNumber(0);
 value.plus(1);
-...
+// ...
+
 ```
 
 ### Blockchain
 
-The `Blockchain` module provides an object for contracts to obtain transactions and blocks executed by the current contract. Also, the NAS can be transferred from the contract and the address check is provided.
+El módulo `Blockchain` expone un objeto que permite obtener las transacciones y los bloques ejecutados por el contrato inteligente que realiza la llamada. Also, the NAS can be transferred from the contract and the address check is provided.
 
 Blockchain API:
 
 ```javascript
-// current block 
+
+// current block
 Blockchain.block;
 
-// current transaction, transaction's value/gasPrice/gasLimit auto change to BigNumber object
+// transacción actual; el valor de la transacción/gasPrice/gasLimit se convierte automáticamente en un objeto BigNumber.
 Blockchain.transaction;
 
-// transfer NAS from contract to address
+// transferir NAS desde un contrato inteligente a una dirección dada
 Blockchain.transfer(address, value);
 
-// verify address
+// verificar la dirección
 Blockchain.verifyAddress(address);
+
 ```
 
-properties:
+#### Propiedades
 
-* `block`: current block for contract execution
-  * `timestamp`: block timestamp
-  * `seed`: random seed
-  * `height`: block height
-* `transaction`: current transaction for contract execution
-  * `hash`: transaction hash
-  * `from`: sender address of the transaction
-  * `to`: recipient address of the transaction
-  * `value`: transaction value, a BigNumber object for contract use
-  * `nonce`: transaction nonce
-  * `timestamp`: transaction timestamp
-  * `gasPrice`: transaction gasPrice, a BigNumber object for contract use
-  * `gasLimit`: transaction gasLimit, a BigNumber object for contract use
-* `transfer(address, value)`: transfer NAS from contract to address
-  * params:
-    * `address`: nebulas address to receive NAS
-    * `value`: transfer value, a BigNumber object
+* `block`: bloque actual para la ejecución del contrato
+  * `timestamp`: timestamp del bloque
+  * `seed`: semilla aleatoria
+  * `height`: altura del bloque
+* `transaction`: transacción actual para la ejecución del contrato
+  * `hash`: hash de la transacción
+  * `from`: dirección del emisor de la transacción
+  * `to`: dirección del destinatario de la transacción
+  * `value`: valor de la transacción (objeto BigNumber)
+  * `nonce`: nonce de la transacción
+  * `timestamp`: timestamp de la transacción
+  * `gasPrice`: gasPrice de la transacción (objeto BigNumber)
+  * `gasLimit`: gasLimit de la transacción, (objeto BigNumber)
+* `transfer(address, value)`: transferir NAS desde un contrato inteligente a una dirección
+  * parámetros:
+    * `address`: dirección Nebulas en donde se recibirán los NAS
+    * `value`: valor a transferir (objeto BigNumber)
+  * valor devuelto:
+    * `0`: transferencia exitosa
+    * `1`: transferencia fallida
+* `verifyAddress(address)`: verificar dirección
+  * parámetros:
+    * `address`: dirección que se desea chequear
   * return:
-    * `0`: transfer success
-    * `1`: transfer failed   
-* `verifyAddress(address)`: verify address
-  * params:
-    * `address`: address need to check
-  * return:
-    * `1`: address is valid
-    * `0`: address is invalid 
+    * `1`: dirección válida
+    * `0`: dirección inválida
 
-Example to use:
+Ejemplo de uso:
 
 ```javascript
-'use strict';
+
+"use strict";
 
 var SampleContract = function () {
     LocalContractStorage.defineProperties(this, {
@@ -293,24 +306,29 @@ SampleContract.prototype = {
 module.exports = SampleContract;
 ```
 
-### Event
+### Evento
 
-The `Event` module records execution events in the contract. The recorded events are stored in the event trie on the chain, which can be fetched by `FetchEvents` method in block with the execution transaction hash. All contract event topics have a `chain.contract.` prefix before the topic they set in contract.
+El módulo `Event` almacena los eventos de la ejecución de un contrato inteligente dado. Los eventos registrados se almacenan en el _trie_ de eventos en la cadena, desde donde se pueden recuperar por medio del método `FetchEvents` utilizando para ello el hash de la transacción.
+
+Todos los tópicos de evento de contrato llevan el prefijo `chain.contract.` antes del tópico asociado al contrato.
 
 ```javascript
+
 Event.Trigger(topic, obj);
+
 ```
 
-* `topic`: user-defined topic
-* `obj`: JSON object
+* `topic`: tópico definido por el usuario
+* `obj`: objeto JSON
 
-You can see the example in `SampleContract` above.
+Véase el ejemplo en `SampleContract` (más arriba).
 
 ### Math.random
 
-* `Math.random()` returns a floating-point, pseudo-random number in the range from 0 inclusive, up to, but not including 1. The typical usage is:
+* `Math.random()` devuelve un número pseudoaleatorio de coma flotante en el intervalo (0, 1]. El uso típico es:
 
 ```javascript
+
 "use strict";
 
 var BankVaultContract = function () {};
@@ -334,50 +352,49 @@ BankVaultContract.prototype = {
     },
 };
 module.exports = BankVaultContract;
+
 ```
 
-* `Math.random.seed(myseed)` if needed, you can use this method to reset the random seed. The argument `myseed` must be a **string**.
+* `Math.random.seed(myseed)`: si es necesario, se puede utilizar este método para reinicializar la semilla de números aleatorios. **El argumento `myseed` debe ser de tipo string**.
 
-  \`\`\`js
+```js
 
-  "use strict";
-
+"use strict";
 var BankVaultContract = function \(\) {};
 
 BankVaultContract.prototype = {
+	init: function () {},
 
-```text
-init: function () {},
+	game:function(subscript, myseed){
 
-game:function(subscript, myseed){
+		 var arr =[1,2,3,4,5,6,7,8,9,10,11,12,13];
 
-    var arr =[1,2,3,4,5,6,7,8,9,10,11,12,13];
+		 console.log(Math.random());
 
-    console.log(Math.random());
+		 for(var i = 0;i < arr.length; i++){
 
-    for(var i = 0;i < arr.length; i++){
+			  if (i == 8) {
+					// reinicializar la semilla de aleatorios con `myseed`
+					Math.random.seed(myseed);
+			  }
 
-        if (i == 8) {
-            // reset random seed with `myseed`
-            Math.random.seed(myseed);
-        }
-
-        var rand = parseInt(Math.random()*arr.length);
-        var t = arr[rand];
-        arr[rand] =arr[i];
-        arr[i] = t;
-    }
-    return arr[parseInt(subscript)];
-},
-```
-
+			  var rand = parseInt(Math.random()*arr.length);
+			  var t = arr[rand];
+			  arr[rand] =arr[i];
+			  arr[i] = t;
+		 }
+		 return arr[parseInt(subscript)];
+	},
 };
 
 module.exports = BankVaultContract;
 
-```text
-### Date 
+```
+
+### Date
+
 ```js
+
 "use strict";
 
 var BankVaultContract = function () {};
@@ -392,24 +409,28 @@ BankVaultContract.prototype = {
 };
 
 module.exports = BankVaultContract;
+
 ```
 
-Tips:
+#### Notas
 
-* Unsupported methods：`toDateString()`, `toTimeString()`, `getTimezoneOffset()`, `toLocaleXXX()`.
-* `new Date()`/`Date.now()` returns the timestamp of current block in milliseconds.
-* `getXXX` returns the result of `getUTCXXX`.
+* Métodos no soportados: `toDateString()`, `toTimeString()`, `getTimezoneOffset()`, `toLocaleXXX()`.
+* `new Date()` y `Date.now()` devuelven el timestamp del bloque actual en milisegundos.
+* `getXXX` devuelve el resultado de `getUTCXXX`.
 
 ### accept
 
-this method aims to make it possible to send a binary transfer to a contract account. As `to` is a smart contact address, which has declared the function `accept()` and it excuted correctly, the transfer will succeed. If the Tx is a non-binary Tx, it will be treated as a normal function.
+Este método permite realizar una transferencia binaria hacia un contrato inteligente.
+
+Siempre y cuando `to` sea una dirección de contrato inteligente que declara el método `accept()` y se ejecuta correctamente, la transferencia se realizará sin errores.
 
 ```javascript
+
 "use strict";
 var DepositeContent = function (text) {
     if(text){
             var o = JSON.parse(text);
-            this.balance = new BigNumber(o.balance);//余额信息
+            this.balance = new BigNumber(o.balance);// información de balance
             this.address = o.address;
     }else{
             this.balance = new BigNumber(0);
@@ -465,5 +486,5 @@ BankVaultContract.prototype = {
 
 };
 module.exports = BankVaultContract;
-```
 
+```

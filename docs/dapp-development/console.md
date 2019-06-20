@@ -1,34 +1,36 @@
-# REPL console
+# Consola REPL
 
-Nebulas provide an interactive javascript console, which can invoke all API and management RPC methods. The console is connected to the local node by default without specifying host.
+Nebulas brinda una consola Javascript interactiva, capaz de invocar todas las funciones de la API y de administrar métodos RPC. Se conecta al nodo local por defecto, sin que sea necesario especificar el host.
 
-## start console
+## Iniciar la consola
 
-Start console using the command:
+Utilice el comando:
 
 ```bash
 ./neb console
 ```
 
-In the case of not specifying the configuration file, the terminal's startup defaults to the configuration of `conf/default/config.conf`. If the local configuration file is not available or you want to specify the configuration file, the terminal starts like this:
+En caso de no especificar ningún archivo de configuración, el sistema de arranque leerá el archivo `conf/default/config.conf`. Si ese archivo no está disponible, o si es necesario especificar un archivo de configuración distinto, debe iniciar la terminal con este comando:
 
 ```bash
 ./neb -c <config file> console
 ```
 
-### console interaction
+### Interacción con la consola
 
-The console can use the `admin.setHost` interface to specify the nodes that are connected. When the console is started or the host is not specified, the terminal is interacting with the local node. **Therefore, you need to start a local node before starting the console.**
+La consola puede utilizar la interfaz `admin.setHost` para especificar los nodos a los que se conecta. Cuando recién se inicia la consola, o cuando no se especifica un host, la terminal interactúa por defecto con el nodo local. **De esa manera, es necesario iniciar un nodo local antes de iniciar la consola.**
 
 ```javascript
 > admin.setHost("https://testnet.nebulas.io")
 ```
 
-_Tips: The Testnet only starts the RPC interface of the API, so only the api scheme is available._
+#### Consejos
 
-## console usage
+La _testnet_ sólo iniciará la interfaz RPC de la API, de modo que sólo estarán disponibles los esquemas API.
 
-We have API and admin two schemes to access the console cmds. Users can quickly enter instructions using the `TAB` key.
+## Uso de la consola
+
+Tenemos dos esquemas, API y admin, con los cuales acceder a los comandos de la consola. Los usuarios pueden acelerar el ingreso de comandos usando la tecla `TAB`, tal como en una shell de linux.
 
 ```javascript
 > api.
@@ -46,9 +48,9 @@ admin.lockAccount                   admin.sendTransactionWithPassphrase admin.st
 admin.newAccount                    admin.setHost                       admin.unlockAccount
 ```
 
-Some management methods may require passphrase. The user can pass in the password when the interface is called, or the console prompts the user for input when the password is not entered. **We recommend using a console prompt to enter your password because it is not visible.**
+Algunos métodos de carácter administrativo requieren el ingreso de una contraseña. El usuario puede ingresar la contraseña en la misma línea de comandos o bien aguardar a que el proceso lo requiera. **Se recomienda esperar a que el comando lo solicite, ya que de este modo no será visible en la línea de comandos.**
 
-Enter the password directly:
+Ingresar la contraseña directamente:
 
 ```javascript
 > admin.unlockAccount("n1UWZa8yuvRgePRPgp8a2jX4J9UwGXfHp6i", "passphrase")
@@ -59,7 +61,7 @@ Enter the password directly:
 }
 ```
 
-Use terminal prompt:
+Esperar a que el proceso la solicite:
 
 ```javascript
 > admin.unlockAccount("n1UWZa8yuvRgePRPgp8a2jX4J9UwGXfHp6i")
@@ -72,7 +74,7 @@ Passphrase:
 }
 ```
 
-The interfaces with passphrase prompt:
+Interfaces que solicitan contraseña:
 
 ```javascript
 admin.newAccount
@@ -82,9 +84,13 @@ admin.signTransactionWithPassphrase
 admin.sendTransactionWithPassphrase
 ```
 
-The command parameters of the command line are consistent with the parameters of the RPC interface. [NEB RPC](https://github.com/nebulasio/wiki/blob/master/rpc.md) and [NEB RPC\_Admin](https://github.com/nebulasio/wiki/blob/master/rpc_admin.md).
+Los parámetros de la línea de comandos son consistentes con los parámetros de la interfaz RPC.
 
-## console exit
+Véase:
 
-The console can exit with the `ctrl-C` or `exit` command.
+* [NEB RPC](https://github.com/nebulasio/wiki/blob/master/rpc.md)
+* [NEB RPC\_Admin](https://github.com/nebulasio/wiki/blob/master/rpc_admin.md)
 
+## Salir de la consola
+
+Para salir de la consola, sólo basta con presionar `ctrl-C` o tipear el comando `exit`.

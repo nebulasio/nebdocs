@@ -1,34 +1,33 @@
-# Design Overview
+# Resumen de diseño
 
 ![](../../.gitbook/assets/overview.png)
 
-> TODO: More features described in our [whitepaper](https://nebulas.io/docs/NebulasTechnicalWhitepaper.pdf), such as NR, PoD, DIP and NF, will be integrated into the framework in later versions very soon.
+> PARA HACER: Existen más características descriptas en nuestro [whitepaper](https://nebulas.io/docs/NebulasTechnicalWhitepaper.pdf), tales como NR, PoD, DIP y NF, que serán integradas en el _framework_ en futuras versiones.
 
-## Core Dataflow
+## _Core Dataflow_
 
-Here is a core workflow example to explain how Nebulas works in current version. For each Nebulas node, it keeps receiving blocks or transactions from network and mining new block locally.
+Aquí hay un ejemplo de _core workflow_ que muestra la forma en la que trabaja Nebulas en la versión actual. Por cada nodo Nebulas, el _core workflow_ recibe bloques o transacciones desde la red, y mina nuevos bloques de forma local.
 
 ![](../../.gitbook/assets/workflow.png)
 
-## More Details
+## Más detalles
 
-[`Blockchain`](blockchain.md)
+[_Blockchain_](blockchain.md)
 
-[`Consensus`](consensus.md)
+[Consenso](consensus.md)
 
-[`Crypto`](../../infrastructure/crypto/)
+[Cripto](../../infrastructure/crypto/)
 
-[`Network`](../../infrastructure/network_protocol.md)
+[Red](../../infrastructure/network_protocol.md)
 
-[`Smart Contract`](../../dapp-development/smart_contract.md)
+[Contrato inteligente](../../dapp-development/smart_contract.md)
 
-[`NVM`](../../infrastructure/crypto/nvm.md)
+[Máquina virtual Nebulas](../../infrastructure/crypto/nvm.md)
 
-[`RPC`](../../dapp-development/rpc/)
+[_Remote Procedure Call_](../../dapp-development/rpc/)
 
-[`NR`](https://github.com/nebulasio/research/tree/master/nr)
+[_Nebulas Rank_](https://github.com/nebulasio/research/tree/master/nr)
 
-[`PoD`](https://github.com/nebulasio/research/tree/master/pod)
+[_Proof of Devotion_](https://github.com/nebulasio/research/tree/master/pod)
 
-DIP \(TBD\)
-
+DIP (A ser definido)

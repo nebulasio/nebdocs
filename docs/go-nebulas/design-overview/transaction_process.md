@@ -1,10 +1,12 @@
-# Transaction Process Diagram
+# Diagrama de proceso de transacciones
 
-When a transaction is submitted, it is necessary to check the chain in the transaction. Transactions that are submitted externally or have been packaged into the block are somewhat different when doing validation.
+Cuando se envía una transacción es necesario chequear el chain correspondiente. Las transacciones enviadas de forma externa o aquellas que se han empaquetado en el bloque tienen algunas diferencias a la hora de realizar su validación.
 
-## New Transaction Process \(from network, rpc\)
+## Procedimiento para realizar nuevas transacciones
 
-Transactions submitted through an RPC or other node broadcast.
+### Vía RPC u otro nodo de _broadcasting_
+
+<!-- From here on, instructions are not clear, so I'm unable to perform a full translation -->
 
 * Api SendRawTransaction Verification below steps when exist fail, then return err
 * check whether fromAddr and toAddr is valid \(tx proto verification\)
@@ -12,7 +14,7 @@ Transactions submitted through an RPC or other node broadcast.
 * 0 < gasPrice  <= TransactionMaxGasPrice and 0 < gasLimit <= TransactionMaxGas \(tx proto verification\)
 * check Alg is SECP256K1 \(tx proto verification\)
 * chainID Equals, Hash Equals, Sign verify??; fail and drop;
-* check nonceOfTx > nonceOfFrom 
+* check nonceOfTx > nonceOfFrom
 * check Contract status is ExecutionSuccess if type of tx is TxPayloadCallType, check toAddr is equal to fromAddr if type of tx is TxPayloadDeployType
 * Transaction pool Verification
 * gasPrice >= minGasPriceOfTxPool & 0 < gasLimit <= maxGasLimitOfTxPool??; fail and drop;
@@ -32,11 +34,10 @@ The transaction has been packaged into the block, and the transaction is verifie
 * transfer value from SubBalance and to AddBalance ??;fail and submit; gasConsumed is txBaseGas + payloadsBaseGas
 * check gasLimit >= txBaseGas + payloadsBaseGas + gasExecution ??;fail and submit; gasConsumed is txGasLimit
 * success submit gasConsumed is txBaseGas + payloadsBaseGas + gasExecution
-* Verify 
-* check whether fromAddr and toAddr is valid \(tx proto verification\) ??; fail and submit; 
-* check len of Payload <= MaxDataPayLoadLength \(tx proto verification\) ??; fail and submit; 
+* Verify
+* check whether fromAddr and toAddr is valid \(tx proto verification\) ??; fail and submit;
+* check len of Payload <= MaxDataPayLoadLength \(tx proto verification\) ??; fail and submit;
 * 0 < gasPrice  <= TransactionMaxGasPrice and 0 < gasLimit <= TransactionMaxGas \(tx proto verification\)
-* check Alg is SECP256K1 \(tx proto verification\) ??; fail and submit; 
+* check Alg is SECP256K1 \(tx proto verification\) ??; fail and submit;
 * chainID Equals, Hash Equals, Sign verify??; fail and drop;
 * Next steps like Transaction Packed in Block Process.
-

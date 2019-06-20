@@ -8,4 +8,3 @@ Autonomous Metanet
     nebulas-force.md
     nebulas-incentive-ni.md
     nebulas-rank-nr.md
-    roadmap.md
