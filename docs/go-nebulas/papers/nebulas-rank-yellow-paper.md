@@ -1,5 +1,7 @@
 # Nebulas Rank Yellow Paper
 
-You can download PDF [here](https://nebulas.io/docs/NebulasYellowPaper.pdf).
+You can download the PDF [here](https://nebulas.io/docs/NebulasYellowPaper.pdf).
 
-Welcome to translate Yellow Paper on Nebulas wiki. [Learn more](../../how-to-contribute.html) about how to contribute.
+Translations and bug reports are always appreciated. You can access the repository [here](https://github.com/nebulasio/nr-report).
+
+ [Learn more](../../how-to-contribute.html) about how to contribute.

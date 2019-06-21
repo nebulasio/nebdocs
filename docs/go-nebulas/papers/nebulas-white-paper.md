@@ -1,4 +1,3 @@
+# Nebulas Non-technical White Paper
 
-# Nebulas White Paper
--[Nebulas White Paper](https://nebulas.io/docs/NebulasWhitepaper.pdf)
-
+You can download the pdf [here](https://nebulas.io/docs/NebulasWhitepaper.pdf).
