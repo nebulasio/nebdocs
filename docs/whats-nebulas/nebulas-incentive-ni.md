@@ -4,7 +4,7 @@ The Nebulas Incentive includes Proof of Devotion \(PoD\) and the Developer Incen
 
 ## **Proof-of-Devotion \(PoD\)**
 
-Based on Nebulas’ NR system, we shall adopt the PoD \(Proof-of-Devotion\) consensus algorithm. PoD gives an “influential” user of the Nebulas Blockchain an opportunity to become a bookkeeper and receive Nebulas’ block rewards and transaction fees as revenues, which will in turn encourage them to continuously contribute to Nebulas’ stability and security.
+Based on the Nebulas’ NR system, we shall adopt the PoD \(Proof-of-Devotion\) consensus algorithm. PoD gives an “influential” user of the Nebulas blockchain an opportunity to become a bookkeeper and receive Nebulas’ block rewards and transactional fees as revenue, which will in turn encourage them to continuously contribute to the stability and security of Nebulas.
 
 ## **Developer Incentive Protocol \(DIP\)**
 
