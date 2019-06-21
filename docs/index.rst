@@ -8,7 +8,7 @@ Nebulas wiki
 ============
 
 Seja bem vindo à Wiki da Nebulas!
-----------------------------------------
+---------------------------------
 
 
 Nebulas é uma blockchain pública de próxima geração, e visa criar um ecossistema de melhoria contínua. Com base no seu mecanismos de avaliação, a Nebulas propõe incentivos orientados para o futuro, sistemas de consenso, e a habilidade de auto-evolução sem biforcação.
