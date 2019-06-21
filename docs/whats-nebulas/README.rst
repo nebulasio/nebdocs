@@ -41,6 +41,7 @@ A blockchain da Nebulas tem três princípios principais:
     nebulas-rank-nr.md
     nebulas-force.md
     nebulas-incentive-ni.md
+    nebulas-governance/README.rst
 
 :doc:`Classificação de valor <nebulas-rank-nr>`
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
