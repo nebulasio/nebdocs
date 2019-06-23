@@ -17,26 +17,26 @@ For more in-depth information, read the [Nebulas Governance Orange Paper](https:
 ## How to Obtain NAT
 There are a myriad of ways to obtain NAT.
 
-* Via airdrops: NAT airdrops are conducted every week and are based on one's Nebulas Rank. To calculate how many tokens you will receive from the airdrops consider reading [this article](https://medium.com/nebulasio/check-your-nr-see-how-many-tokens-you-can-receive-from-the-nat-airdrop-a45b0efdd697). 
-* Via pledging: pledging NAS will allow you to receive NAT tokens for as long as the NAS tokens are locked in a smart contract. Cancelling your pledge will return your NAS tokens back to your wallet but you will stop receiving NAT.
-* Via voting or Nebulas Rank: if you have a non-zero Nebulas Rank you are elligible to receive voting incentives. Currently, the incentive index is set at 10. Thus, the number of voting incentives you will receive is equal to 10 times your Nebulas Rank that week, or 10 times the number of NAT that was sent out of that address for the week, whichever is lower.
+* ***Via airdrops:*** NAT airdrops are conducted every week and are based on one's Nebulas Rank. To calculate how many tokens you will receive from the airdrops consider reading [this article](https://medium.com/nebulasio/check-your-nr-see-how-many-tokens-you-can-receive-from-the-nat-airdrop-a45b0efdd697). 
+* ***Via pledging:*** pledging NAS will allow you to receive NAT tokens for as long as the NAS tokens are locked in a smart contract. Cancelling your pledge will return your NAS tokens back to your wallet but you will stop receiving NAT.
+* ***Via voting or Nebulas Rank:*** if you have a non-zero Nebulas Rank you are elligible to receive voting incentives. Currently, the incentive index is set at 10. Thus, the number of voting incentives you will receive is equal to 10 times your Nebulas Rank that week, or 10 times the number of NAT that was sent out of that address for the week, whichever is lower.
 
 ## Learn More
 ### Where to vote
 [Go.Nebulas.io Proposals](https://go.nebulas.io/votes?page=1&byCategory=0&byStatus=0&bySort=0).
 
-[Active nebulas.io ballots](https://nebulas.io/nat-vote.html).
+[Active nebulas.io Ballots](https://nebulas.io/nat-vote.html).
 
 ### Useful Links
-[https://nebulas.io/nat.html](https://nebulas.io/nat.html).
+[nebulas.io NAT's Main Page](https://nebulas.io/nat.html).
 
 [Why NAT is a fundamental component of the Nebulas ecosystem](https://medium.com/nebulasio/why-nat-is-a-fundamental-component-of-the-nebulas-ecosystem-1a8b07c0cf58).
 
-[NAS on-chain voting starts!](https://medium.com/nebulasio/nat-onchain-voting-starts-1d193c974f7a).
+[NAS on-chain voting starts!](https://medium.com/nebulasio/nat-onchain-voting-starts-1d193c974f7a)
 
 [Three minutes to take you into the world of NAT](https://www.reddit.com/r/nebulas/comments/bv3t3j/three_minutes_to_take_you_into_the_world_of_nat/?ref=readnext).
 
-[Participate in Nebulas ecosystem voting & receive NAT incentives!](https://medium.com/nebulasio/participate-in-nebulas-ecosystem-voting-receive-nat-incentives-7235fdc65439).
+[Participate in Nebulas ecosystem voting & receive NAT incentives!](https://medium.com/nebulasio/participate-in-nebulas-ecosystem-voting-receive-nat-incentives-7235fdc65439)
 
 [How to obtain NAT — Part 1: How to Pledge your NAS](https://medium.com/nebulasio/want-to-get-nat-you-need-to-prepare-the-following-on-may-5th-part-1-465224f23af5).
 
