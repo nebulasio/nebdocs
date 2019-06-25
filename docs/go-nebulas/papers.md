@@ -2,9 +2,9 @@
 
 * [O Livro Branco Técnico da Nebulas](https://nebulas.io/docs/NebulasTechnicalWhitepaper.pdf).
 
-* [O Livro Branco Não Técnico da Nebulas](https://nebulas.io/docs/NebulasWhitepaper.pdf).
+* [O Livro Branco Não Técnico da Nebulas](https://nebulas.io/docs/NebulasWhitepaperPt.pdf).
 
-* [O Livro Amarelo da Nebulas — o Nebulas Rank](https://nebulas.io/docs/NebulasYellowPaper.pdf). Pode aceder ao repositório [aqui](https://github.com/nebulasio/nr-report).
+* [O Livro Amarelo da Nebulas — o Nebulas Rank](https://nebulas.io/docs/NebulasYellowPaperPt.pdf). Pode aceder ao repositório [aqui](https://github.com/nebulasio/nr-report).
 
 * [O Livro Malva da Nebulas — o Developer Incentive Protocol](https://nebulas.io/docs/NebulasMauvePaper.pdf). Pode aceder ao repositório [aqui](https://github.com/nebulasio/dip-report).
 
