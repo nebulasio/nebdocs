@@ -1,15 +1,44 @@
-Autonomous Metanet
+What’s Nebulas
 ==============
 
+Nebulas: Next Generation Public Blockchain
+------------------------------------------
+
+Nebulas is aiming to build a continuously improving ecosystem.
+--------------------------------------------------------------
+
+Nebulas is a next-generation public blockchain. It introduces Nebulas
+Rank (NR), a new measure of value for every unit of the blockchain
+universe, like addresses, DApps and smart contracts. Based on NR, it
+involves Nebulas Incentive (NI), which motivates developers with
+Developer Incentive Protocol, and users with the Proof of Devotion
+consensus algorithm. Moreover, it proposes Nebulas Force (NF), which
+gives the blockchain and smart contracts within it a self-evolving
+capacity. In unison, NR, NI, and NF produce a continuously improving and
+expanding blockchain ecosystem, using the principles contained in the
+`Nebulas Governance <nebulas-governance/README.html>`_  
+article to guide its evolution. 
+
+There are three technical features: value ranking, self-evolution, and
+native incentive.
+
+Facing the opportunity and challenge as above, we aim to create a
+self-evolving blockchain system based on value incentive.
+
+|image0|
+
+Principles
+----------
+
+The Nebulas blockchain has three major principles:
+
 .. toctree::
+    :maxdepth: 2
     :titlesonly:
 
-
+    nebulas-rank-nr.md
     nebulas-force.md
     nebulas-incentive-ni.md
-<<<<<<< HEAD
-    nebulas-rank-nr.md
-=======
     nebulas-governance/README.rst
 
 :doc:`Value ranking <nebulas-rank-nr>`
@@ -42,7 +71,5 @@ our Non-technical White Paper
 White Paper
 (`English <https://nebulas.io/docs/NebulasTechnicalWhitepaper.pdf>`__).
 
-Thank you.
-
 .. |image0| image:: https://cdn-images-1.medium.com/max/1600/1*8YETuI_IvyjXvlvnzbBWnw.png
->>>>>>> 772d4f6... adds nebulas governance and nat placeholder
+
