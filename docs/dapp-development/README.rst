@@ -1,5 +1,5 @@
 Desenvolvimento de DApps
-================
+========================
 
 .. toctree::
     :titlesonly:

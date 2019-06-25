@@ -1,5 +1,5 @@
 Autonomous Metanet
-==============
+==================
 
 .. toctree::
     :titlesonly:
