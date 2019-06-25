@@ -15,7 +15,9 @@ Developer Incentive Protocol, and users with the Proof of Devotion
 consensus algorithm. Moreover, it proposes Nebulas Force (NF), which
 gives the blockchain and smart contracts within it a self-evolving
 capacity. In unison, NR, NI, and NF produce a continuously improving and
-expanding blockchain ecosystem.
+expanding blockchain ecosystem, using the principles contained in the
+`Nebulas Governance <nebulas-governance/README.html>`_ Nebulas Governance 
+article to guide its evolution. 
 
 There are three technical features: value ranking, self-evolution, and
 native incentive.
