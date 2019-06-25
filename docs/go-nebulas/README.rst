@@ -5,7 +5,7 @@ Go-Nebulas
     :titlesonly:
 
     Nebulas Technical Committee <nebulas-technical-committee/README.md>
-    Papers <papers/README.rst>
+    Papers <papers.md>
     Design Overview <overview/README.md>
     Joining the Mainnet <mainnet.md>
     Joining the Testnet <testnet.md>
