@@ -6,7 +6,7 @@
 
 * [O Livro Amarelo da Nebulas — o Nebulas Rank](https://nebulas.io/docs/NebulasYellowPaper.pdf). Pode aceder ao repositório [aqui](https://github.com/nebulasio/nr-report).
 
-* [O Livro Mauve da Nebulas — o Developer Incentive Protocol](https://nebulas.io/docs/NebulasMauvePaper.pdf). Pode aceder ao repositório [aqui](https://github.com/nebulasio/dip-report).
+* [O Livro Malva da Nebulas — o Developer Incentive Protocol](https://nebulas.io/docs/NebulasMauvePaper.pdf). Pode aceder ao repositório [aqui](https://github.com/nebulasio/dip-report).
 
 * [O Livro Laranja da Nebulas — Nebulas Governance](https://nebulas.io/docs/NebulasOrangepaper.pdf). Pode aceder ao repositório [aqui](https://github.com/nebulasio/governance-paper).
 
