@@ -70,6 +70,4 @@ Livro Branco Não-técnico
 Branco Técnico
 (`English <https://nebulas.io/docs/NebulasTechnicalWhitepaper.pdf>`__).
 
-Obrigado.
-
 .. |image0| image:: https://cdn-images-1.medium.com/max/1600/1*8YETuI_IvyjXvlvnzbBWnw.png
