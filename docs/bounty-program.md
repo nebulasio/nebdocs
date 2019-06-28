@@ -1,5 +1,5 @@
 # Programa de Recompensas
-Practicamente todos os projectos são postados na [Página de Projectos da Nebulas](go.nebulas.io) juntamente com as suas recompensas correspondentes, e os utilizadores têm a obrigação de se candidatar de medida a candidatarem-se a um projecto ou partes dele. Este processo aplica-se aos Programas de Recompensas da Wiki e do NAT. Para já o Programa de Recompensa de Bugs da Nebulas apenas requere que [preencha um inquérito](https://docs.google.com/forms/d/e/1FAIpQLScaCeODU26maPJIuyCkX6Lsa0A5Xi2AZ_z-mvKlHmd89_CaXQ/viewform) sobre o bug em questão.
+Practicamente todos os projectos são postados na [Página de Projectos da Nebulas](https://go.nebulas.io) juntamente com as suas recompensas correspondentes, e os utilizadores têm a obrigação de se candidatar de medida a candidatarem-se a um projecto ou partes dele. Este processo aplica-se aos Programas de Recompensas da Wiki e do NAT. Para já o Programa de Recompensa de Bugs da Nebulas apenas requere que [preencha um inquérito](https://docs.google.com/forms/d/e/1FAIpQLScaCeODU26maPJIuyCkX6Lsa0A5Xi2AZ_z-mvKlHmd89_CaXQ/viewform) sobre o bug em questão.
 
 Abaixo encontrará informação detalhada sobre todos os Programas de Recompensa da Nebulas para que possa começar a contribuir para a prosperidade do ecossístema da Nebulas!
 
