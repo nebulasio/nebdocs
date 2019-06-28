@@ -11,6 +11,6 @@ Go-Nebulas
     Joining the Testnet <testnet.md>
     Configuration files <config.md>
     Development <develop/README.md>
-    Tutorials <tutorials/README.md>
+    Tutorials <tutorials/README.rst>
     ToDo List <todo/README.md>
     Infrastructure <infrastructure/README.rst>
