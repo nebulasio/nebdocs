@@ -25,27 +25,27 @@ Measures value by considering liquidity and propagation of the address. Nebulas 
 
 #### When will Nebulas Rank \(NR\) be ready?
 
-> answer here
+> The Nebulas Rank was released in December of 2018. At the time of writing this, June 28th of 2019, the NR Query Server is not online since the NR algorithm was updated, as it needs to be refactored. You are welcome to claim this project [here](https://go.nebulas.io/project/130).
 
 #### Will dApps with more transactions naturally be ranked higher?
 
-> answer here
+> Not necessarily, as transaction count would only increase the in-and-out degree over a period of time, up to a certain point. The way the Nebulas Rank is calculated uses, among many other variables, one's median account stake. The median account stake is the median of the account balance over a period of time.
 
 #### How does the Nebulas Rank \(NR\) separate quality dApps from highly transacted dApps?
 
-> answer here
+> By utilizing the Median Account Stake in its calculations, the NR ensures fairness and resists manipulation to a reasonable degree, ensuring the likelihood of high quality dApps floating to the top of the hierarchy.
 
 #### Is the Nebulas Ranking algorithm open-source?
 
-> Yes
+> Yes.
 
 #### Who can contribute to the algorithm?
 
-> At this time the Nebulas core team is responsible for the development of the algorithm. Over time we will open it up to the community to contribute and vote to determine the future of the algorithm.
+> At this time the Nebulas core team is responsible for the development of the algorithm. However, anyone is free to make suggestions, bug reports, and contribute with code. The SDK's repository can be accessed [here](https://github.com/nebulasio/nebnr), and the Nebulas Rank Offline Service can be accessed [here](https://github.com/nebulasio/nr-service).
 
 #### Can the Nebulas Rank \(NR\) algorithm be cheated?
 
-> We will implement strict manipulation controls, and of course the Nebulas Rank \(NR\) will continually be evolving to meet the needs of the community.
+> Nothing is impervious to manipulation, but our goal is to make manipulation of the algorithm as expensive and difficult as possible.
 
 ## Nebulas Force \(NF\)
 
@@ -53,7 +53,7 @@ Supports upgrading core protocols and smart contracts on the chains. It provides
 
 #### When will Nebulas Force \(NF\) be ready?
 
-> answer here
+> As per the [roadmap](https://wiki.nebulas.io/en/latest/roadmap.html), Nebulas Force is poised to be released at the end of 2019.
 
 #### Can smart contracts be upgraded?
 
