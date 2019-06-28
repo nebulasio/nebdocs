@@ -77,7 +77,7 @@ Designed to build the blockchain ecosystem in a better way. The Nebulas token in
 
 #### When will the Developer Incentive Protocol \(DIP\) be ready?
 
-> answer here
+> The Developer Incentive Protocol was deployed on the Nebulas Testnet in January of 2019. It was formally deployed on the Mainnet in May of 2019.
 
 #### Will there be a limit as to how many rewards one dApp can receive?
 
@@ -149,9 +149,9 @@ Nebulas constructs a search engine for decentralized applications based on Nebul
 
 #### What data will you be able to search?
 
-> We plan many different ways to be able to search the blockchain:
+> We plan on developing many different ways to be able to search the blockchain:
 >
-> * crawl relevant webpages and establish mapping between them and the smart contracts
+> * crawl relevant webpages and establish a map between them and the smart contracts
 > * analyze the code of open-source smart contracts
 > * establish contract standards that enable easier searching
 
@@ -199,7 +199,7 @@ The Nebulas network has its own built-in token, NAS. NAS plays two roles in the 
 
 #### What will happen to the Nebulas ERC20 tokens when NAS is launched?
 
-> answer here
+> The ERC20 tokens were swapped by its owners and exchanges that held them at a 1 to 1 rate.
 
 #### Will dApps on the Nebulas platform be able to issue their owns ICOs and tokens?
 
@@ -241,12 +241,12 @@ Can you tell us what the chainID of Mainnet and Testnet is? I have compiled the 
 
 * Mainnet:
   * source code:[master](https://github.com/nebulasio/go-nebulas/tree/master)
-  * wiki:[Mainnet](https://github.com/nebulasio/wiki/blob/master/mainnet.md)
+  * wiki:[Mainnet](https://github.com/nebulasio/nebdocs/blob/master/docs/go-nebulas/mainnet.md)
 * Testnet:
   * source code:[testnet](https://github.com/nebulasio/go-nebulas/tree/testnet)
-  * wiki:[Testnet](https://github.com/nebulasio/wiki/blob/master/testnet.md)
+  * wiki:[Testnet](https://github.com/nebulasio/nebdocs/blob/master/docs/go-nebulas/testnet.md)
 
-#### smart contract deploy
+#### Smart Contract Deployment
 
 Our smart contract deployment, I think is to submit all contract code directly, is the deployment method like this?
 
