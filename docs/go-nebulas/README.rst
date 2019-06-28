@@ -11,7 +11,7 @@ Go-Nebulas
     Ligação à Testnet <testnet.md>
     Ficheiros de Configuração <config.md>
     Desenvolvimento <develop/README.md>
-    Tutoriais <tutorials/README.md>
+    Tutoriais <tutorials/README.rst>
     Lista de Afazeres <todo/README.md>
     Roteiro da Nebulas <roadmap.md>
     Infrastrutura <infrastructure/README.rst>
