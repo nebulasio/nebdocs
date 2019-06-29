@@ -73,7 +73,7 @@ Supports upgrading core protocols and smart contracts on the chains. It provides
 
 ## Developer Incentive Protocol \(DIP\)
 
-Designed to build the blockchain ecosystem in a better way. The Nebulas token incentives will help top developers to create more values in Nebulas.
+Designed to build the blockchain ecosystem in a better way. The Nebulas token incentives will help top developers to add more value to the Nebulas blockchain.
 
 #### When will the Developer Incentive Protocol \(DIP\) be ready?
 
