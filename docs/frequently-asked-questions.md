@@ -1,10 +1,10 @@
 # Frequently Asked Questions
 
-This document will focus on the technology behind the Nebulas platform. For broader questions, please view the [Reddit FAQ](https://www.reddit.com/r/nebulas/comments/7nt5y0/frequently_asked_questionsfaq/).
+Este documento irá focar-se na tecnologia por trás da plataforma da Nebulas. Para perguntas mais gerais, por favor veja o [FAQ do Reddit](https://www.reddit.com/r/nebulas/comments/7nt5y0/frequently_asked_questionsfaq/).
 
-For a better understanding of the Nebulas platform it's highly recommended to read the [Nebulas Technical Whitepaper](https://nebulas.io/docs/NebulasTechnicalWhitepaper.pdf).
+Para uma compreensão melhor da plataforma da Nebulas, o [Livro Branco Técnico da Nebulas](https://nebulas.io/docs/NebulasTechnicalWhitepaper.pdf) é recomendado.
 
-Table of Contents
+Índice
 
 1. [Nebulas Rank \(NR\)](faq.md#nebulas-rank-nr)
 2. [Nebulas Force \(NF\)](faq.md#nebulas-force-nf)
@@ -21,39 +21,39 @@ Table of Contents
 
 ## Nebulas Rank \(NR\)
 
-Measures value by considering liquidity and propagation of the address. Nebulas Ranking tries to establish a trustful, computable and deterministic measurement approach. With the value ranking system, we will see more and more outstanding applications surfacing on the Nebulas platform.
+Mede o valor ao considerar liquidez e propagação de um endereço. O Nebulas Ranking tenta estabelecer uma abordagem fidedígna, computacional, e determinística. Com o sistema de classificação de valor, iremos ver mais dApps excepcionais na plataforma da Nebulas.
 
 #### When will Nebulas Rank \(NR\) be ready?
 
-> answer here
+> O Nebulas Rank foi lançado em Dezembro de 2018. No momento da escrita deste artigo, o servidor NR Query está offline, desde a actualização do algoritmo. Pode contribuir para o projecto de refatoração do código [aqui](https://go.nebulas.io/project/130).
 
 #### Will dApps with more transactions naturally be ranked higher?
 
-> answer here
+> Não necessariamente, visto que o número de transacções apenas aumenta o grau de in-and-out durante um período de tempo, até um valor predeterminado. A maneira em que o Nebulas Rank é calculado usa, entre várias outras variaveis, a median account stake. A median account stake é o balanço mediano de um endereço durante um certo período de tempo.
 
 #### How does the Nebulas Rank \(NR\) separate quality dApps from highly transacted dApps?
 
-> answer here
+> Ao utilizar o Median Account Stake para calcular o NR, o Nebulas Rank garante justiça e resiste manipulação a um grau elevado, garantindo a probabilidade de dApps de alta qualidade flutuarem para o topo da hierarquia.
 
 #### Is the Nebulas Ranking algorithm open-source?
 
-> Yes
+> Sim.
 
 #### Who can contribute to the algorithm?
 
-> At this time the Nebulas core team is responsible for the development of the algorithm. Over time we will open it up to the community to contribute and vote to determine the future of the algorithm.
+> De momento, a equipa da Nebulas está responsável pelo desenvolvimento do algoritmo. No entanto, todos podem fazer sugestões, relatórios de bugs, e contribuições de código. O repositório do SDK encontra-se [aqui](https://github.com/nebulasio/nebnr), e o do Nebulas Rank Offline Service [aqui](https://github.com/nebulasio/nr-service).
 
 #### Can the Nebulas Rank \(NR\) algorithm be cheated?
 
-> We will implement strict manipulation controls, and of course the Nebulas Rank \(NR\) will continually be evolving to meet the needs of the community.
+> Nada é invulnerável, mas o objectivo é tornar a manipulação do algoritmo bastante cara e o mais difícil possível.
 
 ## Nebulas Force \(NF\)
 
-Supports upgrading core protocols and smart contracts on the chains. It provides self-evolving capabilities to Nebulas system and its applications. With Nebulas Force, developers can build rich applications in fast iterations, and the applications can dynamically adapt to community or market changes.
+Suporte a actualização dos protocolos centrais e smart contracts nas blockchains. Confere a habilidade de auto-evolução ao sístema da Nebulas e às suas aplicações. Com o Nebulas Force, desenvolvedores podem criar várias iterações de aplicações complexas, e essas mesmas podem-se adaptar dinamicamente à comunidade ou variações do mercado.
 
 #### When will Nebulas Force \(NF\) be ready?
 
-> answer here
+> De acordo com o [roadmap](https://wiki.nebulas.io/en/latest/roadmap.html) o Nebulas Force será lançado no quarto trimestre de 2019.
 
 #### Can smart contracts be upgraded?
 
