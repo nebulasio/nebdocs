@@ -1,28 +1,28 @@
 # The NAT Token
-NAT is Nebulas' governance NRC20 token derived from the Nebulas Rank and powers the Nebulas on-chain voting system. Its total supply is capped at 100 billion.
+NAT é o token NRC20 da Nebulas, derivado do Nebulas Rank, e é parte integral do sístema de voto da blockchain. A oferta total está limitada a 100 biliões.
 
-Initially, 0 NAS voting was used. One address would be created per voting option, and a user would transfer 0 NAS to the corresponding address in order to vote. To count the votes for referenda where a wallet can only vote a single time, the transfers are parsed, duplicate addresses are merged, and then the number of transactions are counted. It is a very limited voting system.
+Inicialmente, o sistema de voto 0 NAS foi utilizado. Um endereço é criado por opção de voto, e o utilizador transfere 0 NAS para o endereço referente à opção escolhida. Para contar os votos das referenda onde cada pessoa apenas tem direito a um voto, as transferências são analizadas e endereços duplicados são eliminados, e o número de transacções são contadas. É um sistema bastante limitado.
 
-The NAT on-chain voting system has several ways to target the weaknesses of the 0 NAS voting system.
+O sistema de votação de NAT tem várias formas de combater as fraquezas do sistema de voto 0 NAS.
 
-* Introduces the possibility of weighted voting for special types of elections.
-* Creates incentives to voting in the form of NAT rewards.
-* Individuals' voting power is determined by their Nebulas Rank and their involvement with the Nebulas community and ecosystem.   
-* Protection from bad actors due to vastly higher supply (compared to NAS).
+* Introduz a possibilidade de "Peso dos Votos" para tipos especiais de eleições.
+* Cria incentivos para votar em forma de recompensas NAT.
+* O poder de voto individual é determinado pelo Nebulas Rank e o seu involvimento com a comunidade e ecossistema da Nebulas.   
+* Protecção contra fraudes devido à oferta total em comparação com NAS.
 
-**Note:** NAT transferred will be burned.
+**Observação:** NAT transferido será queimado.
 
-For more in-depth information, read the [Nebulas Governance Orange Paper](https://nebulas.io/docs/NebulasOrangepaper.pdf).
+Para informação mais detalhada, leia o [Livro Laranja da Governação da Nebulas](https://nebulas.io/docs/NebulasOrangepaper.pdf).
 
-## How to Obtain NAT
-There are a myriad of ways to obtain NAT.
+## Como Obter NAT
+Existem várias maneiras para obter NAT.
 
 * ***Via airdrops:*** NAT airdrops are conducted every week and are based on one's Nebulas Rank. To calculate how many tokens you will receive from the airdrops consider reading [this article](https://medium.com/nebulasio/check-your-nr-see-how-many-tokens-you-can-receive-from-the-nat-airdrop-a45b0efdd697). 
 * ***Via pledging:*** pledging NAS will allow you to receive NAT tokens for as long as the NAS tokens are locked in a smart contract. Cancelling your pledge will return your NAS tokens back to your wallet but you will stop receiving NAT.
 * ***Via voting or Nebulas Rank:*** if you have a non-zero Nebulas Rank you are elligible to receive voting incentives. Currently, the incentive index is set at 10. Thus, the number of voting incentives you will receive is equal to 10 times your Nebulas Rank that week, or 10 times the number of NAT that was sent out of that address for the week, whichever is lower.
 
-## Learn More
-### Where to vote
+## Aprenda Mais 
+### Onde Votar
 [Go.Nebulas.io Proposals](https://go.nebulas.io/votes?page=1&byCategory=0&byStatus=0&bySort=0).
 
 [Active nebulas.io Ballots](https://nebulas.io/nat-vote.html).
