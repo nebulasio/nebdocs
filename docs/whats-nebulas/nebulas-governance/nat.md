@@ -17,9 +17,9 @@ Para informação mais detalhada, leia o [Livro Laranja da Governação da Nebul
 ## Como Obter NAT
 Existem várias maneiras para obter NAT.
 
-* ***Via airdrops:*** NAT airdrops are conducted every week and are based on one's Nebulas Rank. To calculate how many tokens you will receive from the airdrops consider reading [this article](https://medium.com/nebulasio/check-your-nr-see-how-many-tokens-you-can-receive-from-the-nat-airdrop-a45b0efdd697). 
-* ***Via pledging:*** pledging NAS will allow you to receive NAT tokens for as long as the NAS tokens are locked in a smart contract. Cancelling your pledge will return your NAS tokens back to your wallet but you will stop receiving NAT.
-* ***Via voting or Nebulas Rank:*** if you have a non-zero Nebulas Rank you are elligible to receive voting incentives. Currently, the incentive index is set at 10. Thus, the number of voting incentives you will receive is equal to 10 times your Nebulas Rank that week, or 10 times the number of NAT that was sent out of that address for the week, whichever is lower.
+* ***Via airdrops:*** Airdrops NAT ocorrem uma vez por semana e são baseados no Nebulas Rank de um endereço. Para calcular a quantidade de tokens que pode receber através dos airdrops, considere ler [este artigo](https://medium.com/nebulasio/check-your-nr-see-how-many-tokens-you-can-receive-from-the-nat-airdrop-a45b0efdd697). 
+* ***Via pledging:*** pledging NAS permite que um individuo receba NAT tokens pela quantidade de tempo que o NAS esteja bloqueado num endereço. Cancelar o seu pledge fará com que você volte a receber as suas NAS, mas irá parar de receber NAT.
+* ***Via Votação ou Nebulas Rank:*** se tiver um Nebulas Rank diferente de zero, estará elegível para receber incentivos de voto. De momento, o índice do incentivo é 10. Como tal, o número de  if you have a non-zero Nebulas Rank you are elligible to receive voting incentives. Currently, the incentive index is set at 10. Thus, the number of voting incentives you will receive is equal to 10 times your Nebulas Rank that week, or 10 times the number of NAT that was sent out of that address for the week, whichever is lower.
 
 ## Aprenda Mais 
 ### Onde Votar
