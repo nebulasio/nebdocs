@@ -14,14 +14,15 @@ We are excited to devote ourselves to blockchain and to see how blockchain techn
 
 Learn more:
 
-Our github: [github.com/nebulasio/go-nebulas](https://github.com/nebulasio/go-nebulas)
+* Our github: [github.com/nebulasio/go-nebulas](https://github.com/nebulasio/go-nebulas)
 
-Our Roadmap: [nebulas.io/roadmap.html](https://nebulas.io/roadmap.html) (Stay tuned!)
+* Our Roadmap: [nebulas.io/roadmap.html](https://nebulas.io/roadmap.html) (Stay tuned!)
 
 ### 1.2. Bug Reporting
 We have always valued bug reporting!
 
 If you find a bug, please report it to the Nebulas community. You will be rewarded for it. Check [the Nebulas Bounty Program here](http://wiki.nebulas.io/en/latest/bounty-program.html) for more details.
+
 Bugs may be found on the Nebulas testnet, mainnet, nebPay, neb.js, web wallet, as well as other tools and documentation. We will follow the [OWASP Risk Assessment System](https://www.owasp.org/index.php/OWASP_Risk_Rating_Methodology) to calculate the corresponding bounty/reward based on the risk degree of the bug. More TBA.
 
 <!--Every time we launch a new function, we will first deploy it on our testnet. Currently, we have launched our first new function on the Nebulas testnet and everyone is welcome to try it, report any bugs discovered and receive the corresponding reward. The first of many new functions in public beta on the testnet is the inter-contract function.-->
