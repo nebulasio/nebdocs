@@ -1,5 +1,5 @@
 # Programa de Recompensas
-Hoy en día casi todos los proyectos son publicados en la [Página de Proyecto de Nebulas](go.nebulas.io) junto con sus recompensas correspondientes, y se espera que los usuarios apliquen para reclamar un proyecto o partes de él. Este proceso se aplica a la wiki y al Programa de recompensas de errores de NAT. Por ahora, el Programa de recompensas de errores de Nebulas solo requiere que envíes un [formulario](https://docs.google.com/forms/d/e/1FAIpQLScaCeODU26maPJIuyCkX6Lsa0A5Xi2AZ_z-mvklHmd89_CaXQ/viewform) con la información relevante.
+Hoy en día casi todos los proyectos son publicados en la [Página de Proyecto de Nebulas](https://go.nebulas.io) junto con sus recompensas correspondientes, y se espera que los usuarios apliquen para reclamar un proyecto o partes de él. Este proceso se aplica a la wiki y al Programa de recompensas de errores de NAT. Por ahora, el Programa de recompensas de errores de Nebulas solo requiere que envíes un [formulario](https://docs.google.com/forms/d/e/1FAIpQLScaCeODU26maPJIuyCkX6Lsa0A5Xi2AZ_z-mvklHmd89_CaXQ/viewform) con la información relevante.
 
 ## Programa de Recompensas de la Wiki de Nebulas
 Anteriormente, los usuarios que creaban o modificaban el contenido de la Wiki de Nebulas tenían derecho a ganar una recompensa en forma de NAS. Hoy en día, el proceso es muy diferente.
