@@ -4,6 +4,8 @@
 
 Estas colaboraciones no se limitan sólo al desarrollo del código, sino también a reportar errores, traducir documentos, difundir los principios de Nebulas y responder preguntas de usuarios novatos.
 
+La lista de proyectos se puede ver [aquí](http://go.nebulas.io/).
+
 ## 1. Código y documentación
 
 ### 1.1. Desarrollo sobre _mainnet_
@@ -20,6 +22,8 @@ Para más información al respecto, consulta los siguientes recursos:
 ¡Valoramos siempre cualquier reporte de errores!
 
 Si encuentras un error en nuestro código, por favor, repórtalo inmediatamente a la comunidad de Nebulas a través de [este formulario](https://goo.gl/forms/5ysl61Mjpn6yDEuN2). Puedes reportar errores en la _testnet_ de Nebulas, como así también en nuestra _mainnet_, en nebPay, en neb.js, en nuestra cartera y también en otras herramientas y documentos.
+
+Consulta el [programa de recompensas aquí](https://wiki.nebulas.io/es/latest/bounty-program.html).
 
 En Nebulas seguimos el [Sistema de Valoración de Riesgos OWASP](https://www.owasp.org/index.php/OWASP_Risk_Rating_Methodology) para calcular la recompensa correspondiente en base al grado de severidad del error encontrado. Puedes encontrar más información al respecto [en el artículo correspondiente de nuestra wiki](https://github.com/nebulasio/nebdocs/tree/es/docs/bug-bounty.md).
 
@@ -41,7 +45,7 @@ Agradecemos a todos los miembros de nuestra comunidad que, desde distintos punto
 
 Puedes traducir prácticamente cualquier documento disponible, incluyendo esta wiki, la documentación técnica de nuestra _mainnet_, la lista de preguntas frecuentes de nuestro sistema de DApps, el _whitepaper_ (o el _yellowpaper_), la introducción a los principios de diseño, y más. Tu contribución ayudará de forma significativa a los desarrolladores y a los demás miembros de la comunidad.
 
-Ten en cuenta que algunos documentos podrían requerir una formación profesional en matemáticas, ciencias de la computación, criptografía u otras especialidades.
+Ten en cuenta que algunos documentos podrían requerir una formación académica en matemáticas, ciencias de la computación, criptografía u otras especialidades.
 
 ### 1.4. Redacción de documentos
 
@@ -59,7 +63,7 @@ Todo aporte por parte de diseñadores cuyo fin sea el de optimizar y hacer más 
 
 [Descarga el material del logotipo >](https://nebulas.io/docs/NEBULAS-LOGO-SVG.zip)
 
-Si tienes alguna consulta o comentario, no dudes en contactarnos a través de nuestro [issue tracker en github](https://github.com/nebulasio/nebdocs/issues).
+Si tienes alguna consulta o comentario, no dudes en contactarnos a través de nuestro [issue tracker en GitHub](https://github.com/nebulasio/nebdocs/issues).
 
 ## 2. Grupos de usuarios
 La comunicación es clave para construir una comunidad vibrante, y para compartir ideas y comentarios acerca de Nebulas.
@@ -90,8 +94,7 @@ Agradeceremos a nuestra comunidad de desarrolladores la creación de un canal de
 
 ## 3. Recompensas
 
-
-Desde el equipo de Nebulas queremos expresar nuestra felicidad por el lanzamiento de una campaña de recompensas para los colaboradores pioneros. [Más detalles](https://medium.com/nebulasio/nebulas-wiki-bounty-program-32048077e16c)
+Desde el equipo de Nebulas queremos expresar nuestra felicidad por el lanzamiento de una campaña de recompensas para los colaboradores pioneros. [Más detalles](https://wiki.nebulas.io/es/latest/bounty-program.html)
 
 ## 4. Donaciones
 
