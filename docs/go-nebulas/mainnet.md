@@ -55,7 +55,7 @@ Endpoint principal:
 * [SendRawTransaction](./rpc/README.md#sendrawtransaction): Permite enviar una transacción firmada.
 * [GetTransactionReceipt](./rpc/README.md#gettransactionreceipt): Obtiene información del recibo de una transacción mediante su hash.
 
-Léase más sobre estos métodos [aquí](./rpc/README.md).
+Léase más sobre estos métodos [aquí](https://github.com/nebulasio/wiki/blob/master/rpc.md).
 
 ## Tutoriales
 
