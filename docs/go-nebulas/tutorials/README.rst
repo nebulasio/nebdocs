@@ -1,9 +1,9 @@
 Tutorials
 =========
 
-English 101
+Nebulas 101
 
--  `Installation <https://github.com/nebulasio/wiki/blob/master/tutorials/%5BEnglish%5D%20Nebulas%20101%20-%2001%20Installation.md>`__
+-  `Installation <>`__
    (credit: `Victor <https://github.com/victorychain>`__)
 -  `Sending a
    Transaction <https://github.com/nebulasio/wiki/blob/master/tutorials/%5BEnglish%5D%20Nebulas%20101%20-%2002%20Transaction.md>`__
