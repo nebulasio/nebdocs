@@ -32,7 +32,7 @@ Use Wiki
 `````````````````````````````````````
 
 `Cómo colaborar <how-to-contribute.html>`_
-`````````````````````````````````````````
+``````````````````````````````````````````
 
 
 .. toctree::
@@ -40,13 +40,14 @@ Use Wiki
     :titlesonly:
     :caption: Category:
 
-    whats-nebulas/README.rst
+    wiki-usage-guide.md
     how-to-contribute.md
     bounty-program.md
-    wiki-usage-guide.md
+    whats-nebulas/README.rst
     go-nebulas/README.rst
     roadmap.md
     dapp-development/README.rst
+    tutorials.md
     community/README.rst
     ecosystem/README.rst
     useful-links.md
