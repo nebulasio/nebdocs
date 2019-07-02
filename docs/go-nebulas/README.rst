@@ -6,7 +6,7 @@ Go-Nebulas
 
     Nebulas Technical Committee <nebulas-technical-committee/README.md>
     Papers <papers.md>
-    Design Overview <overview/README.md>
+    Design Overview <design-overview/README.md>
     Joining the Mainnet <mainnet.md>
     Joining the Testnet <testnet.md>
     Configuration files <config.md>
