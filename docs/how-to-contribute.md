@@ -68,15 +68,15 @@ Discord: Available to all community members. You can subscribe to Nebulas News, 
 
 Mailing lists: Discussion groups for core development and bug reporting. We welcome developers to subscribe.
 
-Forum: [Reddit/r/nebulas(for all)](https://reddit.com/r/nebulas), [Reddit/r/nasdev(for developers)](https://reddit.com/r/nasdev)
+Forum: [Reddit/r/nebulas (for all)](https://reddit.com/r/nebulas), [Reddit/r/nasdev (for developers)](https://reddit.com/r/nasdev)
 
-Communication: [Slack(for developers)](https://nebulasio.herokuapp.com/), [Telegram(for non-developers)](https://t.me/nebulasio)
+Communication: [Slack (for developers)](https://nebulasio.herokuapp.com/), [Telegram (for non-developers)](https://t.me/nebulasio)
 
 Community developers are welcome to create an IRC (Internet Relay Chat) channel for better communication among developers.
 
 ## 3. Bounties
 
-We, the Nebulas team, happily introduce several bounties to reward early contributors. You can check them out [here](http://wiki.nebulas.io/en/latest/bounty-program.html)
+We, the Nebulas team, happily introduce several bounties to reward early contributors. You can check them out [here](http://wiki.nebulas.io/en/latest/bounty-program.html).
 
 ## 4. Donations
 Donations to the Nebulas Foundation to further the development of Nebulas are greatly appreciated. Both NAS and ETH are accepted. We also welcome community members to support us in material terms. For instance, the donation of meetup locations/venues, local guides, photography, etcetera. We can also make your contribution known to the community if you would like. If you are an enthusiastic community member and are willing to contribute to our community, email [contact@nebulas.io](mailto:contact@nebulas.io) for more details.
