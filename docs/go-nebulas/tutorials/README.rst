@@ -4,7 +4,7 @@ Tutorials
 Nebulas 101
 
 -  `Installation <>https://github.com/nebulasio/nebdocs/blob/es/docs/go-nebulas/tutorials/espanol-nebulas-101-01-instalacion.md`__
-   (credit: `arielsbecker <https://github.com/arielsbecker>`__)
+   (credit: `arielsbecker <https://github.com/arielsbecker>`_)
 -  `Sending a
    Transaction <https://github.com/nebulasio/wiki/blob/master/tutorials/%5BEnglish%5D%20Nebulas%20101%20-%2002%20Transaction.md>`__
    (credit: `Victor <https://github.com/victorychain>`__)
@@ -21,7 +21,7 @@ Nebulas 101
 .. toctree::
     :titlesonly:
 
-    english-nebulas-101-01-installation.md
+    espanol-nebulas-101-01-instalacion.md
     english-nebulas-101-02-transaction.md
     english-nebulas-101-03-smart-contracts-javascript.md
     english-nebulas-101-04-smart-contract-storage.md
