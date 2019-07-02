@@ -3,7 +3,7 @@ Tutorials
 
 Nebulas 101
 
--  `Installation <https://github.com/nebulasio/nebdocs/blob/es/docs/go-nebulas/tutorials/%5BEspa%C3%B1ol%5D%20Nebulas%20101%20-%2001%20Instalacion.md>`__
+-  `Installation <>https://github.com/nebulasio/nebdocs/blob/es/docs/go-nebulas/tutorials/espanol-nebulas-101-01-instalacion.md`__
    (credit: `arielsbecker <https://github.com/arielsbecker>`__)
 -  `Sending a
    Transaction <https://github.com/nebulasio/wiki/blob/master/tutorials/%5BEnglish%5D%20Nebulas%20101%20-%2002%20Transaction.md>`__
