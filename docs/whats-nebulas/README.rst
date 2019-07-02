@@ -10,13 +10,7 @@ Nebulas visa construir um ecossistema de melhoria contínua.
 Nebulas é uma blockchain pública de próxima geração. Introduz o Nebulas 
 Rank (NR), uma nova medida de valor para qualquer unidade do universo 
 da blockchain, como endereços, DApps, e smart contracts. Baseado no NR,
-temos o Nebulas Incentive (NI), que motiva os desenvolvedores com o
- Developer Incentive Protocol, e os utilizadores com o algoritmo de 
-consenso Proof of Devotion. Adicionalmente, propõe o Nebulas Force (NF),
-o que atribui à blockchain e respectivos smart contracts uma capacidade 
-auto-evolutiva. Em uníssono, o NR, o NI, e o NF, produzem um ecossistema
-na blockchain em melhoria continua e expansão, usando os princípios 
-incluídos no artigo `Nebulas Governance <nebulas-governance/README.html>`_
+temos o Nebulas Incentive (NI), que motiva os desenvolvedores com o Developer Incentive Protocol, e os utilizadores com o algoritmo de consenso Proof of Devotion. Adicionalmente, propõe o Nebulas Force (NF), o que atribui à blockchain e respectivos smart contracts uma capacidade auto-evolutiva. Em uníssono, o NR, o NI, e o NF, produzem um ecossistema na blockchain em melhoria continua e expansão, usando os princípios incluídos no artigo `Nebulas Governance <nebulas-governance/README.html>`_
 como guias da sua evolução.
 
 Existem três características técnicas: classificação de valor, auto-evolução, 
