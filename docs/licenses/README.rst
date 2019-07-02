@@ -1,4 +1,4 @@
-Licensing
+Licenses
 =========
 
 Nebulas Open Source Project License
