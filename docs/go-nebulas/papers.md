@@ -10,4 +10,4 @@
 
 * [The Nebulas Orange Paper — Nebulas Governance](https://nebulas.io/docs/NebulasOrangepaper.pdf). You can access the repository [here](https://github.com/nebulasio/governance-paper).
 
-As always, translations and bug reports are always welcome. [Learn more](../../how-to-contribute.html) about how to contribute.
+As always, translations and bug reports are always welcome. [Learn more](https://wiki.nebulas.io/en/latest/how-to-contribute.html) about how to contribute.
