@@ -10,4 +10,4 @@
 
 * [O Livro Laranja da Nebulas — Nebulas Governance](https://nebulas.io/docs/NebulasOrangepaper.pdf). Pode aceder ao repositório [aqui](https://github.com/nebulasio/governance-paper).
 
-Como sempre, traduções e relatórios de bugs são sempre bem vindos. [Aprenda mais](../../how-to-contribute.html) sobre como contribuir.
+Como sempre, traduções e relatórios de bugs são sempre bem vindos. [Aprenda mais](https://wiki.nebulas.io/pt/latest/how-to-contribute.html) sobre como contribuir.
