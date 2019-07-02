@@ -4,6 +4,15 @@
 
 Puedes encontrar el código fuente de la mainnet de Nebulas en [nuestro repositorio github](https://github.com/nebulasio/go-nebulas/tree/master).
 
+## Compilacion
+
+El archivo ejecutable de la mainnet de Nebulas y las bibliotecas dependientes se deben compilar primero. Varios módulos importantes se enumeran a continuación:
+
+* **NBRE:** el Nebulas Blockchain Runtime Environment es la plataforma para ejecutar la Representación del Protocolo de Nebulas, como el DIP, el NR, etc.
+* **NEB:** el proceso principal de la mainnet de Nebulas. NEB y NBRE se ejecutan en procesos independientes y se comunican a través de IPC. 
+
+Las instrucciones sobre cómo compilar los módulos se pueden encontrar en los tutoriales.
+
 ## Configuración
 
 Podrás encontrar los archivos de configuración de la mainnet en [`mainnet/conf`](https://github.com/nebulasio/go-nebulas/tree/master/mainnet/conf).
@@ -24,7 +33,7 @@ Permite configurar los parámetros del bloque inicial (_genesis block_), incluye
 
 Permite configurar los parámetros del runtime.
 
-Para más información sobre este archivo, véase [`template.conf`](https://github.com/smalloranges/wiki/tree/887270957eb99d971309610bc1fdafb6a2d9d552/resources/conf/template.conf).
+Para más información sobre este archivo, véase [`template.conf`](https://github.com/nebulasio/nebdocs/blob/master/docs/resources/conf/template.conf).
 
 > **Nota**: la información del nodo semilla oficial debe verse tal como se muestra aquí debajo:
 
@@ -53,18 +62,10 @@ Léase más sobre estos métodos [aquí](./rpc/README.md).
 ### En inglés
 
 1. [Instalación](https://github.com/nebulasio/wiki/blob/master/tutorials/%5BEnglish%5D%20Nebulas%20101%20-%2001%20Installation.md), (contribución de [Victor](https://github.com/victorychain)).
-1. [Cómo enviar una transacción](https://github.com/nebulasio/wiki/blob/master/tutorials/%5BEnglish%5D%20Nebulas%20101%20-%2002%20Transaction.md), (contribución de [Victor](https://github.com/victorychain)).
-1. [Cómo escribir un contrato inteligente en Javascript](https://github.com/nebulasio/wiki/blob/master/tutorials/%5BEnglish%5D%20Nebulas%20101%20-%2003%20Smart%20Contracts%20JavaScript.md), (contribución de [otto](https://github.com/ottokafka)).
-1. [Introducción al almacenamiento de contratos inteligentes](https://github.com/nebulasio/wiki/blob/master/tutorials/%5BEnglish%5D%20Nebulas%20101%20-%2004%20Smart%20Contract%20Storage.md), (contribución de [Victor](https://github.com/victorychain)).
-1. [Interacción con Nebulas por medio de la API RPC](https://github.com/nebulasio/wiki/blob/master/tutorials/%5BEnglish%5D%20Nebulas%20101%20-%2005%20Interacting%20with%20Nebulas%20by%20RPC%20API.md), (contribución de [Victor](https://github.com/victorychain)).
-
-### 中文
-
-1. [编译安装及运行neb](https://github.com/nebulasio/wiki/blob/master/tutorials/%5B中文%5D%20Nebulas%20101%20-%2001%20编译安装.md).
-1. [在星云链上发送交易](https://github.com/nebulasio/wiki/blob/master/tutorials/%5B中文%5D%20Nebulas%20101%20-%2002%20发送交易.md).
-1. [使用JavaScript编写智能合约](https://github.com/nebulasio/wiki/blob/master/tutorials/%5B中文%5D%20Nebulas%20101%20-%2003%20编写智能合约.md)
-1. [智能合约存储区介绍](https://github.com/nebulasio/wiki/blob/master/tutorials/%5B中文%5D%20Nebulas%20101%20-%2004%20智能合约存储区.md).
-1. [通过RPC接口与星云链交互](https://github.com/nebulasio/wiki/blob/master/tutorials/%5B中文%5D%20Nebulas%20101%20-%2005%20通过RPC接口与星云链交互.md).
+2. [Cómo enviar una transacción](https://github.com/nebulasio/wiki/blob/master/tutorials/%5BEnglish%5D%20Nebulas%20101%20-%2002%20Transaction.md), (contribución de [Victor](https://github.com/victorychain)).
+3. [Cómo escribir un contrato inteligente en Javascript](https://github.com/nebulasio/wiki/blob/master/tutorials/%5BEnglish%5D%20Nebulas%20101%20-%2003%20Smart%20Contracts%20JavaScript.md), (contribución de [otto](https://github.com/ottokafka)).
+4. [Introducción al almacenamiento de contratos inteligentes](https://github.com/nebulasio/wiki/blob/master/tutorials/%5BEnglish%5D%20Nebulas%20101%20-%2004%20Smart%20Contract%20Storage.md), (contribución de [Victor](https://github.com/victorychain)).
+5. [Interacción con Nebulas por medio de la API RPC](https://github.com/nebulasio/wiki/blob/master/tutorials/%5BEnglish%5D%20Nebulas%20101%20-%2005%20Interacting%20with%20Nebulas%20by%20RPC%20API.md), (contribución de [Victor](https://github.com/victorychain)).
 
 ## Cómo contribuir
 
