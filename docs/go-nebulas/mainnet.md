@@ -61,15 +61,15 @@ Mais APIs Nebulas em [RPC](https://github.com/nebulasio/wiki/blob/master/rpc.md)
 
 ### Português
 
-1. [Instalação](https://github.com/nebulasio/wiki/blob/master/tutorials/%5BPortugues%5D%20Nebulas%20101%20-%2001%20Instalacao.md) \(obrigado [Cristiano](https://github.com/crisbrm)\)
-2. [Envio de Transacções](https://github.com/nebulasio/wiki/blob/master/tutorials/%5BPortugues%5D%20Nebulas%20101%20-%2002%20Transacao.md) \(obrigado [Cristiano](https://github.com/crisbrm)\)
-3. [Criar Smart Contract em JavaScript](https://github.com/nebulasio/wiki/blob/master/tutorials/%5BPortugues%5D%20Nebulas%20101%20-%2003%20Smart%20Contracts%20JavaScript.md) \(obrigado [Cristiano](https://github.com/crisbrm)\)
-4. [Introdução de Armazenamento em Smart Contracts](https://github.com/nebulasio/wiki/blob/master/tutorials/%5BPortugues%5D%20Nebulas%20101%20-%2004%20Armazenamento%20Smart%20Contract.md) \(obrigado [Cristiano](https://github.com/crisbrm)\)
-5. [Interacção com Nebulas através do API RPC](https://github.com/nebulasio/wiki/blob/master/tutorials/%5BPortugues%5D%20Nebulas%20101%20-%2005%20Interacao%20com%20Nebulas%20por%20API%20RPC.md) \(obrigado [Cristiano](https://github.com/crisbrm)\)
+1. [Instalação](https://github.com/nebulasio/wiki/blob/master/tutorials/%5BPortugues%5D%20Nebulas%20101%20-%2001%20Instalacao.md) \(crédito: [Cristiano](https://github.com/crisbrm)\)
+2. [Envio de Transacções](https://github.com/nebulasio/wiki/blob/master/tutorials/%5BPortugues%5D%20Nebulas%20101%20-%2002%20Transacao.md) \(crédito: [Cristiano](https://github.com/crisbrm)\)
+3. [Criar Smart Contract em JavaScript](https://github.com/nebulasio/wiki/blob/master/tutorials/%5BPortugues%5D%20Nebulas%20101%20-%2003%20Smart%20Contracts%20JavaScript.md) \(crédito: [Cristiano](https://github.com/crisbrm)\)
+4. [Introdução de Armazenamento em Smart Contracts](https://github.com/nebulasio/wiki/blob/master/tutorials/%5BPortugues%5D%20Nebulas%20101%20-%2004%20Armazenamento%20Smart%20Contract.md) \(crédito: [Cristiano](https://github.com/crisbrm)\)
+5. [Interacção com Nebulas através do API RPC](https://github.com/nebulasio/wiki/blob/master/tutorials/%5BPortugues%5D%20Nebulas%20101%20-%2005%20Interacao%20com%20Nebulas%20por%20API%20RPC.md) \(crédito: [Cristiano](https://github.com/crisbrm)\)
 
 
 ## Contribuição
 
-Sinta-se livre de se juntar à Mainnet Nebulas. Se encontrar algo errado, [submeta um relatório](https://github.com/nebulasio/go-nebulas/issues/new) ou [envie uma solicitação de recebimento](https://github.com/nebulasio/go-nebulas/pulls) para nos informar, e adicionaremos seu nome e seu URL a esta página o mais rápido possível.
+Sinta-se livre de se juntar à Mainnet Nebulas. Se encontrar algo errado, [submeta um relatório](https://github.com/nebulasio/go-nebulas/issues/new) ou [envie uma pull request](https://github.com/nebulasio/go-nebulas/pulls) para nos informar, e adicionaremos seu nome e seu URL a esta página o mais rápido possível.
 
 
