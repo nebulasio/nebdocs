@@ -1,36 +1,25 @@
 What’s Nebulas
 ==============
 
-Nebulas: Next Generation Public Blockchain
+Nebulas: La Nueva Generación de Blockchain Público
 ------------------------------------------
 
 Nebulas is aiming to build a continuously improving ecosystem.
 --------------------------------------------------------------
 
-Nebulas is a next-generation public blockchain. It introduces Nebulas
-Rank (NR), a new measure of value for every unit of the blockchain
-universe, like addresses, DApps and smart contracts. Based on NR, it
-involves Nebulas Incentive (NI), which motivates developers with
-Developer Incentive Protocol, and users with the Proof of Devotion
-consensus algorithm. Moreover, it proposes Nebulas Force (NF), which
-gives the blockchain and smart contracts within it a self-evolving
-capacity. In unison, NR, NI, and NF produce a continuously improving and
-expanding blockchain ecosystem, using the principles contained in the
-`Nebulas Governance <nebulas-governance/README.html>`_  
-article to guide its evolution. 
+Nebulas, la nueva generación de blockchain público, desarrolló Nebulas Rank (NR), un nuevo instrumento destinado a ponderar cualquier elemento del universo blockchain: direcciones, DApps y contratos inteligentes. Con base en esta nueva tecnología se creó el Incentivo Nebulas (Nebulas Incentive, NI), cuyo propósito es el de motivar a los desarrolladores —mediante el Protocolo de Incentivos para Desarrolladores (Developer Incentive Protocol, DIP)— y a los usuarios —a través del algoritmo de consenso llamado Prueba de Devoción (Proof of Devotion)—.
 
-There are three technical features: value ranking, self-evolution, and
-native incentive.
+Por otro lado, se ha propuesto la creación de Nebulas Force (NF), un instrumento que le otorga a los blockchains y contratos inteligentes contenidos en él la capacidad de auto-evolucionar. Al unísono, tanto Nebulas Rank, Nebulas Incentive y Nebulas Force logran un ecosistema en permanente expansión y mejora, utilizando los principios contenidos en Nebulas Governance <nebulas-governance/README.html>_ para guiar su evolución.
 
-Facing the opportunity and challenge as above, we aim to create a
-self-evolving blockchain system based on value incentive.
+La red autónoma Metanet provee tres características técnicas: ranking de valor, auto-evolución e incentivos innatos.
+
+Frente a estos desafíos y oportunidades, nuestro objetivo es el de crear un blockchain auto-evolutivo basado en incentivos innatos.
 
 |image0|
 
-Principles
+Principios
 ----------
-
-The Nebulas blockchain has three major principles:
+El blockchain de Nebulas se basa en tres principios fundamentales:
 
 .. toctree::
     :maxdepth: 2
@@ -41,35 +30,24 @@ The Nebulas blockchain has three major principles:
     nebulas-incentive-ni.md
     nebulas-governance/README.rst
 
-:doc:`Value ranking <nebulas-rank-nr>`
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+:doc:`Ranking de Valor <nebulas-rank-nr>`
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-To enable value discovery in blockchain, **Nebulas Rank** measures
-multidimensional data in the blockchain world and powers the
-decentralized search framework.
+Para lograr el descubrimiento de valor en los distintos blockchains, Nebulas Rank realiza una medición multidimensional de los datos almacenados en ellos, alimentando así el marco descentralizado de búsqueda.
 
-:doc:`Self-evolution <nebulas-force>`
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+:doc:`Auto-evolución <nebulas-force>`
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-To avoid the damage caused by forking to the blockchain, **Nebulas
-Force** enables rapid iteration and upgradability to its blockchain
-without the need for hard forks.
+Para evitar el daño causado por los forks, Nebulas Force permite una rápida iteración y escalabilidad en su blockchain.
 
-:doc:`Native incentives <nebulas-incentive-ni>`
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+:doc:`Incentivos Innatos <nebulas-incentive-ni>`
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-With forward-looking incentive and consensus mechanisms, the **Nebulas
-Incentive** rewards developers and users who contribute to the
-sustainability and growth of the ecosystem.
+Nuestro programa Nebulas Incentive recompensa a aquellos usuarios y desarrolladores que contribuyan a la sustentabilidad y al crecimiento de nuestro ecosistema.
 
-This is an excerpt of the Nebulas Non-technical Whitepaper.
+Si deseas conocer más acerca de Nebulas visita `o nuestro sitio web <https://nebulas.io/>`_, o suscríbete a nuestro `blog oficial en Medium <https://medium.com/nebulasio>`_. 
 
-If you want to know more about Nebulas, please subscribe to the official
-blog, or visit our website: `nebulas.io <https://nebulas.io/>`__. Read
-our Non-technical White Paper
-(`English <https://nebulas.io/docs/NebulasWhitepaper.pdf>`__), Technical
-White Paper
-(`English <https://nebulas.io/docs/NebulasTechnicalWhitepaper.pdf>`__).
+También puedes consultar nuestro `whitepaper para el público en general <https://nebulas.io/docs/NebulasWhitepaperEs.pdf>`_, o bien nuestro `whitepaper técnico <https://nebulas.io/docs/NebulasTechnicalWhitepaperEs.pdf>`_.
 
 .. |image0| image:: https://cdn-images-1.medium.com/max/1600/1*8YETuI_IvyjXvlvnzbBWnw.png
 
