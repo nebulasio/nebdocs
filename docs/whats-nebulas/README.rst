@@ -2,7 +2,7 @@ What’s Nebulas
 ==============
 
 Nebulas: La Nueva Generación de Blockchain Público
-------------------------------------------
+--------------------------------------------------
 
 Nebulas is aiming to build a continuously improving ecosystem.
 --------------------------------------------------------------
