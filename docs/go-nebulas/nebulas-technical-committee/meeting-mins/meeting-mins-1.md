@@ -1,18 +1,18 @@
-# Nebulas Nova Tech Tradeoffs(11.21.2018)
+# Nebulas Nova Tech Tradeoffs (11.21.2018)
 
 ## Summary
 1. The process to submit IR (LLVM Intermediate Representation) and who can submit IR  (LLVM Intermediate Representation)
 2. The time window for NR & DIP
 3. How much NAS for DIP & how to distribute NAS for DIP
 
-## Detailed minutes：
+## Detailed minutes:
 ### 1. The process to submit IR and who can submit IR 
 1. Nebulas Nova will use an auth_table to decide whose IR can be executed and the lifetime of each IR.
 2. auth_table is a set of tuples, and each tuple includes IR name, submitter’s address, the valid start and end height for the submitter.
 3. Only the auth_admin’s auth_table can update in Nebulas Nova. The auth_admin account should be created by a cold wallet. Each IR should be managed by different accounts. Nebulas Technical Committee will further discuss the community governance details with the community. Before the we finalized the governance details , the Nebulas team will not recklessly open the IR submission access.The NBRE only executes several predefined IRs, like checking the auth_table, and the IRs defined in auth_table. Other IRs will not be executed
 4. However, each node may change the code. And that could be the auth_admin account, and the auth_table. Consequently, it may change the behaviors in NBRE, and the node shall fail to sync data with the main-net
 
-### 2. The time window for NR &DIP
+### 2. The time window for NR & DIP
 1. In the yellow paper introducing Nebulas Rank, we have mentioned that to avoid the affect of loop attack, we will remove the forwarding loop before we calculate the In-and-Out degree for the transaction graph, thus the time-window is important for anti-manipulation.
 2. If the time-window is too short, there may be more cheating.
 3. For now, we suggest the time window in several days.
