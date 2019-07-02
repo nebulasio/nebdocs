@@ -2,7 +2,7 @@
 
 Nebulas, la nueva generación de blockchain público, desarrolló _Nebulas Rank_ (NR), un nuevo instrumento destinado a ponderar cualquier elemento del universo blockchain: direcciones, _DApps_ y contratos inteligentes. Con base en esta nueva tecnología se creó el Incentivo Nebulas (_Nebulas Incentive_, NI), cuyo propósito es el de motivar a los desarrolladores —mediante el Protocolo de Incentivos para Desarrolladores (_Developer Incentive Protocol_, DIP)— y a los usuarios —a través del algoritmo de consenso llamado Prueba de Devoción (_Proof of Devotion_)—.
 
-Por otro lado, se ha propuesto la creación de _Nebulas Force_ (NF), un instrumento que le otorga a los blockchains y contratos inteligentes contenidos en él la capacidad de auto-evolucionar. Al unísono, tanto _Nebulas Rank_, _Nebulas Incentive_ y _Nebulas Force_ logran un ecosistema en permanente expansión y mejora.
+Por otro lado, se ha propuesto la creación de _Nebulas Force_ (NF), un instrumento que le otorga a los blockchains y contratos inteligentes contenidos en él la capacidad de auto-evolucionar. Al unísono, tanto _Nebulas Rank_, _Nebulas Incentive_ y _Nebulas Force_ logran un ecosistema en permanente expansión y mejora, utilizando los principios contenidos en `Nebulas Governance <nebulas-governance/README.html>`_ para guiar su evolución.
 
 La red autónoma _Metanet_ provee tres características técnicas: **ranking de valor**, **auto-evolución** e **incentivos innatos**.
 
