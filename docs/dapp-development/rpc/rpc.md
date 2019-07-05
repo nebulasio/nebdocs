@@ -10,24 +10,24 @@ Nebulas fornece um APi [gRPC](https://grpc.io) e RESTful para que os utilizadore
 
 ## Endpoint
 
-Default endpoints:
+Endpoints padrão:
 
 | API | URL | Protocol |
 |-------|:------------:|:------------:|
 | gRPC |  http://localhost:8684 | Protobuf|
 | RESTful |http://localhost:8685 | HTTP |
 
-##### gRPC API
+##### API gRPC
 
-We can run the gRPC example [testing client code](https://github.com/nebulasio/go-nebulas/blob/develop/rpc/testing/client/main.go):
+Podemos executar o exemplo gRPC: [testing client code](https://github.com/nebulasio/go-nebulas/blob/develop/rpc/testing/client/main.go):
 
 ```bash
 go run main.go
 ```
 
-The testing client gets account state from sender address, makes a transaction from sender to receiver, and also checks the account state of receiver address.
+O cliente obtem o estado da conta do endereço do remetente, faz transacção entre remetente e destinatário, e verifica o estado da conta do endereço do remetente.
 
-We can see client log output like:
+Podemos ver o output do cliente da seguinte maneira:
 
 ```bash
 GetAccountState n1QZMXSZtW7BUerroSms4axNfyBGyFGkrh5 nonce 4 value 3142831039999999999992
@@ -37,10 +37,10 @@ GetAccountState n1Zn6iyyQRhqthmCfqGBzWfip1Wx8wEvtrJ nonce 0 value 10
 
 ##### HTTP
 
-Now we also provided HTTP to access the RPC API. The file that ends with **gw.go** is the mapping file.
-Now we can access the rpc API directly from our browser, you can update the **rpc_listen** and **http_listen** in **conf/default/config.conf** to change RPC/HTTP port.
+Agora também fornecemos HTTP para aceder ao API RPC. O ficheiro que termina com **gw.go** é o ficheiro de mapeamento.
+Podemos aceder ao API RPC directamente do nosso browser. Pode actualizar o **rpc_listen** e **http_listen** em **conf/default/config.conf** para mudar a porta do RPC/HTTP, respectivamente.
 
-###### Example:
+###### Exemplo:
 ```bash
 curl -i -H 'Content-Type: application/json' -X GET http://localhost:8685/v1/user/nebstate
 ```
@@ -84,18 +84,18 @@ Or, there is error form grpc, repose will carry the error message
 * [Subscribe](#subscribe)
 * [GetDynasty](#getdynasty)
 
-## RPC API Reference
+## Referência do API RPC
 
 #### GetNebState
 
-Return the state of the neb.
+Return o estado da neb.
 
 | Protocol | Method | API |
 |----------|--------|-----|
 | gRpc |  |  GetNebState |
 | HTTP | GET |  /v1/user/nebstate |
 
-###### Parameters
+###### Parametros
 
 none
 
@@ -106,19 +106,19 @@ none
 
 - `1001` : testnet
 
-`tail` Current neb tail hash
+`tail` neb tail hash actual.
 
-`lib` Current neb lib hash
+`lib` neb lib hash actual.
 
-`height` Current neb tail block height
+`height` neb tail block height actual.
 
-`protocol_version` The current neb protocol version.
+`protocol_version` a versão actual do protocolo neb.
 
-`synchronized` The peer sync status.
+`synchronized` o estado do peer sync.
 
-`version` neb version.
+`version` versão neb.
 
-###### HTTP Example
+###### Exemplo HTTP
 
 ```bash
 // Request
@@ -141,32 +141,32 @@ curl -i -H 'Content-Type: application/json' -X GET http://localhost:8685/v1/user
 
 #### GetAccountState
 
-Return the state of the account. Balance and nonce of the given address will be returned.
+Return o estado de uma conta. Balancete e nonce de um determinado endereço.
 
 | Protocol | Method | API |
 |----------|--------|-----|
 | gRpc |  |  GetAccountState |
 | HTTP | POST |  /v1/user/accountstate |
 
-###### Parameters
+###### Parametros
 
-`address` Hex string of the account addresss.
+`address` Hex string do endereço da conta.
 
-`height` block account state with height. If not specified, use 0 as tail height.
+`height` estado do block account com height. Se não for especificado, use 0 como tail height.
 
 ###### Returns
 
-`balance` Current balance in unit of 1/(10^18) nas.
+`balance` balanço actual em unidades 1/(10^18) de nas.
 
-`nonce` Current transaction count.
+`nonce` número de transacções actuais.
 
-`type` The type of address, 87 stands for normal address and 88 stands for contract address
+`type` o tipo de endereço. 87 significa endereços normais, e 88 endereços de contractos.
 
-`height` Current height of blockchain
+`height` height actual da blockchain.
 
-`pending` pending transactions of address in Tx pool
+`pending` transacções pendentes na pool de transacções.
 
-###### HTTP Example
+###### Exemplo HTTP
 
 ```bash
 // Request
@@ -188,56 +188,56 @@ curl -i -H 'Content-Type: application/json' -X POST http://localhost:8685/v1/use
 
 #### LatestIrreversibleBlock
 
-Return the latest irreversible block.
+Return o último bloco irreversível.
 
 | Protocol | Method | API |
 |----------|--------|-----|
 | gRpc |  |  LatestIrreversibleBlock |
 | HTTP | GET |  /v1/user/lib |
 
-##### Parameters
+##### Parametros
 
 none
 
 ###### Returns
 
-`hash` Hex string of block hash.
+`hash` Hex string do block hash.
 
-`parent_hash` Hex string of block parent hash.
+`parent_hash` Hex string do block parent hash.
 
 `height` block height.
 
 `nonce` block nonce.
 
-`coinbase` Hex string of coinbase address.
+`coinbase` Hex string do endereço da coinbase.
 
 `timestamp` block timestamp.
 
 `chain_id` block chain id.
 
-`state_root` Hex string of state root.
+`state_root` Hex string do state root.
 
-`txs_root` Hex string of txs root.
+`txs_root` Hex string do txs root.
 
-`events_root` Hex string of event root.
+`events_root` Hex string do event root.
 
 `consensus_root` 
 
--  `Timestamp` time of consensus state
+-  `Timestamp` tempo do estado de consenso.
 
--  `Proposer`  proposer of current consensus state
+-  `Proposer`  proponente do estado de consenso actual.
 
--  `DynastyRoot` Hex string of dynasty root
+-  `DynastyRoot` Hex string da dynasty root.
 
-    `miner` the miner of this block
+    `miner` o minerador deste bloco.
 
-    `is_finality` block is finality
+    `is_finality` block é finality
 
     `transactions` block transactions slice.
 
 - `transaction ` [GetTransactionReceipt](#gettransactionreceipt) response info.
 
-##### HTTP Example
+##### Exemplo HTTP
 
 ```bash
 // Request
@@ -271,16 +271,16 @@ curl -i -H 'Content-Type: application/json' -X GET http://localhost:8685/v1/user
 
 #### Call
 
-Call a smart contract function. The smart contract must have been submited. Method calls are run only on the current node, not broadcast.
+Chama uma função de um smart contract. O smart contract tem de ter sido submetido. Chamadas de métodos apenas podem ser executadas no nó actual.
 
 | Protocol | Method | API |
 |----------|--------|-----|
 | gRpc |  |  Call |
 | HTTP | POST |  /v1/user/call |
 
-###### Parameters
+###### Parametros
 
-The parameters of the `call` method is the same as the [SendTransaction](rpc_admin.md#sendtransaction) parameters. Special attention:
+Os parametros do método de `call` são os mesmo que os do [SendTransaction](rpc_admin.md#sendtransaction). Atenção especial:
 
 `to` Hex string of the receiver account addresss. **The value of `to` is a contract address.**
 
