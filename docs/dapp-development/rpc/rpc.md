@@ -1,12 +1,12 @@
 # Overview
 
-Remote Procedure Calls (RPCs) provide a useful abstraction for building distributed applications and services.
+Chamadas de Procedimento Remoto (RPCs) criam um abstração útil para a construção de aplicação distribuídas e serviços.
 
-Nebulas provides both [gRPC](https://grpc.io) and RESTful API for users to interact with Nebulas.
+Nebulas fornece um APi [gRPC](https://grpc.io) e RESTful para que os utilizadores interagirem com as Nebulas.
 
-[grpc](https://github.com/grpc/grpc-go) provides a concrete implementation of the gRPC protocol, layered over HTTP/2. These libraries enable communication between clients and servers using any combination of the supported languages.
+[gRPC](https://github.com/grpc/grpc-go) proporciona uma implementação concreta do protocolo gRPC, por cima de HTTP/2. Estas bibliotecas permitem comunicação entre clientes e servidores usando uma combinação das linguagens de programação suportadas.
 
-[grpc-gateway](https://github.com/grpc-ecosystem/grpc-gateway) is a plugin of protoc. It reads gRPC service definition, and generates a reverse-proxy server which translates a RESTful JSON API into gRPC. we use it to map gRPC to HTTP.
+[gRPC-gateway](https://github.com/grpc-ecosystem/grpc-gateway) é um plugin do protoc. Lê a definição do serviço gRPC, e gera um servidor reverse-proxy que traduz o API RESTful JSON para gRPC. É então usado para mapear gRPC para HTTP.
 
 ## Endpoint
 
