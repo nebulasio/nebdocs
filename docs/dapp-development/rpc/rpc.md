@@ -282,23 +282,23 @@ Chama uma função de um smart contract. O smart contract tem de ter sido submet
 
 Os parametros do método de `call` são os mesmo que os do [SendTransaction](rpc_admin.md#sendtransaction). Atenção especial:
 
-`to` Hex string of the receiver account addresss. **The value of `to` is a contract address.**
+`to` Hex string do endereço do destinatário. **O valor do `to` é o endereço de um contracto.**
 
-`contract` transaction contract object for call smart contract.
+`contract` objecto de transacção de contracto para chamada de smart contract.
 
-* Sub properties(**`source` and `sourceType` are not need**):
-* `function` the contract call function for call contarct function.
-* `args` the params of contract. The args content is JSON string of parameters array.
+* Sub properties(**`source` e `sourceType` não são precisos**):
+* `function` a função de chamada do contracto.
+* `args` os parametros do contracto. O conteúdo dos args é uma string JSON com um array de parametros.
 
 ###### Returns
 
-`result` result of smart contract method call
+`result` resultado do método da chamada do smart contract
 
-`execute_err` execute error
+`execute_err` erro de execução.
 
-`estimate_gas` estimate gas used
+`estimate_gas` estimativa de gas utilizado.
 
-###### HTTP Example
+###### Exemplo HTTP
 
 ```bash
 // Request
@@ -317,7 +317,7 @@ curl -i -H 'Content-Type: application/json' -X POST http://localhost:8685/v1/use
 
 #### SendRawTransaction
 
-Submit the signed transaction. The transaction signed value should be return by [SignTransactionWithPassphrase](rpc_admin.md#signtransactionwithpassphrase).
+Envia a transacção assinada. O valor da transacção assinada deve ser obtido por [SignTransactionWithPassphrase](rpc_admin.md#signtransactionwithpassphrase).
 
 | Protocol | Method | API |
 |----------|--------|-----|
@@ -326,15 +326,15 @@ Submit the signed transaction. The transaction signed value should be return by 
 
 ###### Parameters
 
-`data` Signed data of transaction
+`data` dados assinados da transacção.
 
 ###### Returns
 
-`txhash` Hex string of transaction hash.
+`txhash` Hex string do hash da transacção.
 
-`contract_address ` returns only for deploy contract transaction.
+`contract_address ` return apenas para transacção já lançada.
 
-###### HTTP Example
+###### Exemplo HTTP
 
 ```bash
 // Request
@@ -348,7 +348,7 @@ curl -i -H 'Content-Type: application/json' -X POST http://localhost:8685/v1/use
 }
 ```
 
-###### Deploy Contract Example
+###### Exemplo de Lançamento de Contracto
 
 ```bash
 // Request
@@ -366,24 +366,24 @@ curl -i -H 'Content-Type: application/json' -X POST http://localhost:8685/v1/use
 
 #### GetBlockByHash
 
-Get block header info by the block hash.
+Obtem informação do block header através da hash to bloco.
 
 | Protocol | Method | API |
 |----------|--------|-----|
 | gRpc |  | GetBlockByHash |
 | HTTP | POST |  /v1/user/getBlockByHash |
 
-###### Parameters
+###### Parametros
 
-`hash` Hex string of block hash.
+`hash` Hex string do block hash.
 
-`full_fill_transaction` If true it returns the full transaction objects, if false only the hashes of the transactions.
+`full_fill_transaction` se 'true' return os objectos da transacção. Se 'false' apenas as hashes das transacções.
 
 ###### Returns
 
-See [LatestIrreversibleBlock](#latestirreversibleblock) response.
+Ver [LatestIrreversibleBlock](#latestirreversibleblock) resposta.
 
-###### HTTP Example
+###### Exemplo HTTP
 
 ```bash
 // Request
@@ -431,24 +431,24 @@ curl -i -H 'Content-Type: application/json' -X POST http://localhost:8685/v1/use
 
 #### GetBlockByHeight
 
-Get block header info by the block height.
+Obtem a informação do block header através do block height.
 
 | Protocol | Method | API |
 |----------|--------|-----|
 | gRpc |  | GetBlockByHeight |
 | HTTP | POST |  /v1/user/getBlockByHeight |
 
-###### Parameters
+###### Parametros
 
-`height` Height of transaction hash.
+`height` height da hash da transacção.
 
-`full_fill_transaction` If true it returns the full transaction objects, if false only the hashes of the transactions.
+`full_fill_transaction` se 'true' return os objectos da transacção, se 'false' apenas faz return das hashes das transacções.
 
 ###### Returns
 
-See [LatestIrreversibleBlock](#latestirreversibleblock) response.
+Ver [LatestIrreversibleBlock](#latestirreversibleblock) resposta.
 
-###### HTTP Example
+###### Exemplo HTTP
 
 ```bash
 // Request
@@ -496,7 +496,7 @@ curl -i -H 'Content-Type: application/json' -X POST http://localhost:8685/v1/use
 
 #### GetTransactionReceipt
 
-Get transactionReceipt info by tansaction hash. If the transaction     not submit or only submit and not packaged on chain, it will reurn not found error.
+Get transactionReceipt info by tansaction hash. If the transaction not submit or only submit and not packaged on chain, it will reurn not found error.
 
 | Protocol | Method | API |
 |----------|--------|-----|
