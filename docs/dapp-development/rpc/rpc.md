@@ -37,14 +37,14 @@ GetAccountState n1Zn6iyyQRhqthmCfqGBzWfip1Wx8wEvtrJ nonce 0 value 10
 
 ##### HTTP
 
-Now we also provided HTTP to access the RPC API. The file that ends with **gw.go** is the mapping file.
-Now we can access the rpc API directly from our browser, you can update the **rpc_listen** and **http_listen** in **conf/default/config.conf** to change RPC/HTTP port.
+We have also provided HTTP to access the RPC API. The file that ends with **gw.go** is the mapping file.
+Now we can access the rpc API directly from our browser, you can update the **rpc_listen** and **http_listen** in **conf/default/config.conf** to change the RPC/HTTP ports, respectively.
 
 ###### Example:
 ```bash
 curl -i -H 'Content-Type: application/json' -X GET http://localhost:8685/v1/user/nebstate
 ```
-if success, response will be returned like this
+if successful, response will be returned like this
 ```json
 {
     "result":{
@@ -59,7 +59,7 @@ if success, response will be returned like this
 }
 ```
 
-Or, there is error form grpc, repose will carry the error message
+Or, there is an error from gRPC, and the reponse will carry the error message.
 
 ```json
 {
@@ -101,20 +101,20 @@ none
 
 ###### Returns
 
-`chain_id` Block chain id，
-* `1` : mainnet
+`chain_id` Block chain id:
+* `1`: mainnet.
 
-- `1001` : testnet
+- `1001`: testnet.
 
-`tail` Current neb tail hash
+`tail` current neb tail hash.
 
-`lib` Current neb lib hash
+`lib` current neb lib hash.
 
-`height` Current neb tail block height
+`height` current neb tail block height.
 
-`protocol_version` The current neb protocol version.
+`protocol_version` current neb protocol version.
 
-`synchronized` The peer sync status.
+`synchronized` peer sync status.
 
 `version` neb version.
 
@@ -160,11 +160,11 @@ Return the state of the account. Balance and nonce of the given address will be 
 
 `nonce` Current transaction count.
 
-`type` The type of address, 87 stands for normal address and 88 stands for contract address
+`type` The type of address, 87 stands for normal address and 88 stands for contract address.
 
-`height` Current height of blockchain
+`height` Current height of blockchain.
 
-`pending` pending transactions of address in Tx pool
+`pending` pending transactions of address in Tx pool.
 
 ###### HTTP Example
 
@@ -223,15 +223,15 @@ none
 
 `consensus_root` 
 
--  `Timestamp` time of consensus state
+-  `Timestamp` time of consensus state.
 
--  `Proposer`  proposer of current consensus state
+-  `Proposer`  proposer of current consensus state.
 
--  `DynastyRoot` Hex string of dynasty root
+-  `DynastyRoot` Hex string of dynasty root.
 
-    `miner` the miner of this block
+    `miner` the miner of this block.
 
-    `is_finality` block is finality
+    `is_finality` block is finality.
 
     `transactions` block transactions slice.
 
@@ -280,7 +280,7 @@ Call a smart contract function. The smart contract must have been submited. Meth
 
 ###### Parameters
 
-The parameters of the `call` method is the same as the [SendTransaction](rpc_admin.md#sendtransaction) parameters. Special attention:
+The parameters of the `call` method are the same as the [SendTransaction](rpc_admin.md#sendtransaction) parameters. Special attention:
 
 `to` Hex string of the receiver account addresss. **The value of `to` is a contract address.**
 
