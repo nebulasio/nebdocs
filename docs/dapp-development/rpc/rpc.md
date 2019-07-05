@@ -6,7 +6,7 @@ Nebulas provides both [gRPC](https://grpc.io) and RESTful API for users to inter
 
 [grpc](https://github.com/grpc/grpc-go) provides a concrete implementation of the gRPC protocol, layered over HTTP/2. These libraries enable communication between clients and servers using any combination of the supported languages.
 
-[grpc-gateway](https://github.com/grpc-ecosystem/grpc-gateway) is a plugin of protoc. It reads gRPC service definition, and generates a reverse-proxy server which translates a RESTful JSON API into gRPC. we use it to map gRPC to HTTP.
+[grpc-gateway](https://github.com/grpc-ecosystem/grpc-gateway) is a plugin of protoc. It reads gRPC service definition, and generates a reverse-proxy server which translates a RESTful JSON API into gRPC. We use it to map gRPC to HTTP.
 
 ## Endpoint
 
