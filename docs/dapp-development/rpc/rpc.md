@@ -287,7 +287,7 @@ The parameters of the `call` method are the same as the [SendTransaction](rpc_ad
 `contract` transaction contract object for call smart contract.
 
 * Sub properties(**`source` and `sourceType` are not need**):
-* `function` the contract call function for call contarct function.
+* `function` the contract call function for call contract function.
 * `args` the params of contract. The args content is JSON string of parameters array.
 
 ###### Returns
