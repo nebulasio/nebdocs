@@ -292,11 +292,11 @@ The parameters of the `call` method are the same as the [SendTransaction](rpc_ad
 
 ###### Returns
 
-`result` result of smart contract method call
+`result` result of smart contract method call.
 
-`execute_err` execute error
+`execute_err` execution error.
 
-`estimate_gas` estimate gas used
+`estimate_gas` estimate gas used.
 
 ###### HTTP Example
 
@@ -332,7 +332,7 @@ Submit the signed transaction. The transaction signed value should be return by 
 
 `txhash` Hex string of transaction hash.
 
-`contract_address ` returns only for deploy contract transaction.
+`contract_address ` returns only for deployed contract transaction.
 
 ###### HTTP Example
 
