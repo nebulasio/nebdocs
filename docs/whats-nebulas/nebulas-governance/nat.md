@@ -27,7 +27,7 @@ Existem várias maneiras para obter NAT.
 
 [Active nebulas.io Ballots](https://nebulas.io/nat-vote.html).
 
-### Links Uteis
+### Links Uteis (em Inglês)
 [nebulas.io NAT's Main Page](https://nebulas.io/nat.html).
 
 [Why NAT is a fundamental component of the Nebulas ecosystem](https://medium.com/nebulasio/why-nat-is-a-fundamental-component-of-the-nebulas-ecosystem-1a8b07c0cf58).
