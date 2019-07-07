@@ -537,7 +537,7 @@ Get transactionReceipt info by transaction hash. If the transaction is not submi
 
 `gas_used` transaction gas used
 
-`execute_error` the execute error of this transaction
+`execute_error` the execution error of this transaction
 
 `execute_result` return value of the smart-contract function
 
