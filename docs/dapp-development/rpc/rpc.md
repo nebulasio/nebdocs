@@ -575,7 +575,7 @@ curl -i -H 'Content-Type: application/json' -X POST http://localhost:8685/v1/use
 
 #### GetTransactionByContract
 
-Get transactionReceipt info by contract address. If contract not exists or packaged on chain, a not found error will be returned.
+Get transactionReceipt info by contract address. If contract does not exist or is not packaged on chain, a "not found" error will be returned.
 
 | Protocol | Method | API |
 |----------|--------|-----|
@@ -623,9 +623,9 @@ curl -i -H 'Content-Type: application/json' -X POST http://localhost:8685/v1/use
 
 #### Subscribe
 
-Return  the subscribed events of transaction & block. The request is a keep-alive connection.
+Return the subscribed events of transaction & block. The request is a keep-alive connection.
 
-**Note** that `subscribe` doesn't guarantee all the new events will be received successfully, it depends on the network condition, please run a local node to use `subscribe` api. 
+**Note** that `subscribe` doesn't guarantee all new events will be received successfully, it depends on the network condition. Please run a local node to use `subscribe` api. 
 
 | Protocol | Method | API |
 |----------|--------|-----|
