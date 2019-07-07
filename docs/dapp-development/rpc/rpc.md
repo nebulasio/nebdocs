@@ -728,14 +728,14 @@ Return the estimate gas of transaction.
 
 ##### Parameters
 
-The parameters of the `EstimateGas` method is the same as the
-[SendTransaction](rpc_admin.md/#sendtransaction)parameters.
+The parameters of the `EstimateGas` method are the same as the
+[SendTransaction](rpc_admin.md/#sendtransaction) parameters.
 
 ##### Returns
 
 `gas` the estimate gas.
 
-`err` error message of the transaction executing
+`err` error message of the transaction being executed.
 
 ##### HTTP Example
 
