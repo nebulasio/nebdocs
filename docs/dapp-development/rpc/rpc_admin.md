@@ -46,9 +46,9 @@ none
 
 `coninbase` coinbase 
 
-`peer_count` Number of peers currenly connected.
+`peer_count` Number of peers currently connected.
 
-`synchronized` the node synchronized status.
+`synchronized` the node synchronization status.
 
 `bucket_size` the node route table bucket size.
 
@@ -177,9 +177,9 @@ UnlockAccount unlock account with passphrase. After the default unlock time, the
 ###### Parameters
 `address` UnLock account address.
 
-`passphrase` UnLock account passphrase.
+`passphrase` Unlock account passphrase.
 
-`duration` Unlock accout duration. The unit is ns (10e-9 s).
+`duration` Unlock account duration. The unit is ns (10e-9 s).
 
 ###### Returns
 `result` UnLock account result, unit is ns.
@@ -230,7 +230,7 @@ curl -i -H 'Content-Type: application/json' -X POST http://localhost:8685/v1/adm
 ***
 
 #### SignTransactionWithPassphrase
-SignTransactionWithPassphrase sign transaction. The transaction's from addrees must be unlocked before sign call.
+SignTransactionWithPassphrase sign transaction. The transaction's `from` address must be unlocked before the 'sign' call.
 
 | Protocol | Method | API |
 |----------|--------|-----|
@@ -270,14 +270,14 @@ SendTransactionWithPassphrase send transaction with passphrase.
 
 
 ###### Parameters
-`transaction` transaction parameters, which is the same as the [SendTransaction](https://github.com/nebulasio/wiki/blob/master/rpc_admin.md#sendtransaction) parameters.
+`transaction` transaction parameters, which are the same as the [SendTransaction](https://github.com/nebulasio/wiki/blob/master/rpc_admin.md#sendtransaction) parameters.
 
-`passphrase` From address passphrase.
+`passphrase` `from` address passphrase.
 
 ###### Returns
 `txhash` transaction hash.
 
-`contract_address ` returns only for deploy contract transaction.
+`contract_address ` returns only for deployed contract transaction.
 
 ###### Example
 ```
@@ -316,18 +316,18 @@ Send the transaction. Parameters `from`, `to`, `value`, `nonce`, `gasPrice` and 
 
 `gas_limit` gasLimit sending with this transaction.
 
-`type` transaction payload type. If the type is specified, the transaction type is determined and the corresponding parameter needs to be passed in, otherwise the transaction type is determined according to the contract and binary data.  [optional]
+`type` transaction payload type. If the type is specified, the transaction type is determined and the corresponding parameter needs to be passed in, otherwise the transaction type is determined according to the contract and binary data. [optional]
 
 - type enum:
 	- `binary`: normal transaction with binary 
 	- `deploy`: deploy smart contract 
 	- `call`: call smart contract function
 
-`contract` transaction contract object for deploy/call smart contract. [optional]
+`contract` transaction contract object for deployed/calling smart contract. [optional]
 
 * Sub properties:
-	* `source` contract source code for deploy contract.
-	* `sourceType` contract source type for deploy contract. Currently support `js` and `ts`
+	* `source` contract source code for deployed contract.
+	* `sourceType` contract source type for deployed contract. Currently support `js` and `ts`
 		* `js` the contract source write with javascript.
 		* `ts` the contract source write with typescript. 
 	* `function` the contract call function for call contarct function.
@@ -337,11 +337,11 @@ Send the transaction. Parameters `from`, `to`, `value`, `nonce`, `gasPrice` and 
 
 Notice:
 
-* `from = to` when deploy a contract, the `to` address must be equal to `from` address.
+* `from = to` when deploying a contract, the `to` address must be equal to the `from` address.
 
-* `nonce` the value is **plus one**(+1) on the nonce value of the current from address. Current nonce can get from [GetAccountState](https://github.com/nebulasio/wiki/blob/master/rpc.md/#getaccountstate).
-* `gasPrice` and `gasLimit` need for every transaction. We recommend taking them use [GetGasPrice](https://github.com/nebulasio/wiki/blob/master/rpc.md/#getgasprice) and [EstimateGas](https://github.com/nebulasio/wiki/blob/master/rpc.md/#estimategas).
-* `contract` parameter only need for smart contract deploy and call. When a smart contract is deployed, the `source` and `sourceType` must be specified, the `args` is optional and passed in when the initialization function takes a parameter. The `function` field is used to call the contract method.
+* `nonce` the value is **plus one**(+1) on the nonce value of the current from address. Current nonce can be obtained from [GetAccountState](https://github.com/nebulasio/wiki/blob/master/rpc.md/#getaccountstate).
+* `gasPrice` and `gasLimit` needed for every transaction. We recommend using [GetGasPrice](https://github.com/nebulasio/wiki/blob/master/rpc.md/#getgasprice) and [EstimateGas](https://github.com/nebulasio/wiki/blob/master/rpc.md/#estimategas).
+* `contract` parameter only needed for smart contract deployment and calling. When a smart contract is deployed, the `source` and `sourceType` must be specified, the `args` are optional and passed when the initialization function takes a parameter. The `function` field is used to call the contract method.
 
 ###### Returns
 
@@ -363,7 +363,7 @@ curl -i -H 'Content-Type: application/json' -X POST http://localhost:8685/v1/adm
 }
 ```
 
-###### Deploy Smart Contract Example
+###### Smart Contract Deployment Example
 ```js
 // Request
 curl -i -H 'Content-Type: application/json' -X POST http://localhost:8685/v1/admin/transaction -d '{"from":"n1QZMXSZtW7BUerroSms4axNfyBGyFGkrh5","to":"n1QZMXSZtW7BUerroSms4axNfyBGyFGkrh5", "value":"0","nonce":2,"gasPrice":"1000000","gasLimit":"2000000","contract":{
