@@ -496,7 +496,7 @@ curl -i -H 'Content-Type: application/json' -X POST http://localhost:8685/v1/use
 
 #### GetTransactionReceipt
 
-Get transactionReceipt info by tansaction hash. If the transaction     not submit or only submit and not packaged on chain, it will reurn not found error.
+Get transactionReceipt info by transaction hash. If the transaction is not submitted or only submitted but is not packaged on chain, it will return "not found" error.
 
 | Protocol | Method | API |
 |----------|--------|-----|
