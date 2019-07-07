@@ -328,8 +328,8 @@ Send the transaction. Parameters `from`, `to`, `value`, `nonce`, `gasPrice` and 
 * Sub properties:
 	* `source` contract source code for deployed contract.
 	* `sourceType` contract source type for deployed contract. Currently support `js` and `ts`
-		* `js` the contract source write with javascript.
-		* `ts` the contract source write with typescript. 
+		* `js` the contract source written with javascript.
+		* `ts` the contract source written with typescript. 
 	* `function` the contract call function for call contarct function.
 	* `args` the params of contract. The args content is JSON string of parameters array.
 	
