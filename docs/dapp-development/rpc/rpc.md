@@ -496,7 +496,7 @@ curl -i -H 'Content-Type: application/json' -X POST http://localhost:8685/v1/use
 
 #### GetTransactionReceipt
 
-Get transactionReceipt info by tansaction hash. If the transaction not submit or only submit and not packaged on chain, it will reurn not found error.
+Obtem informação do transactionReceipt através da hash da transacção. Se a transacção não for submetida, ou apenas for submetida mas não empacotada na chain, vai fazer return do erro "not found".
 
 | Protocol | Method | API |
 |----------|--------|-----|
@@ -505,45 +505,45 @@ Get transactionReceipt info by tansaction hash. If the transaction not submit or
 
 ###### Parameters
 
-`hash` Hex string of transaction hash.
+`hash` Hex string da hash da transacção.
 
 ###### Returns
 
-`hash` Hex string of tx hash.
+`hash` Hex string da tx hash.
 
 `chainId` Transaction chain id.
 
-`from` Hex string of the sender account addresss.
+`from` Hex string do endereço do remetente.
 
-`to` Hex string of the receiver account addresss.
+`to` Hex string do endereço do destinatário.
 
-`value` Value of transaction.
+`value` Valor da transacção.
 
-`nonce` Transaction nonce.
+`nonce` Nonce da transacção.
 
-`timestamp` Transaction timestamp.
+`timestamp` Timestamp da transacção.
 
-`type` Transaction type.
+`type` Tipo da transacção.
 
-`data` Transaction data, return the payload data.
+`data` Dados da transacção, return os dados do payload.
 
-`gas_price` Transaction gas price.
+`gas_price` Preço do gas da transacção.
 
-`gas_limit` Transaction gas limit.
+`gas_limit` Limite de gas da transacção.
 
-`contract_address` Transaction contract address.
+`contract_address` Endereço do contracto da transacção.
 
-`status` Transaction status, 0 failed, 1 success, 2 pending.
+`status` Estado da transacção, 0 - não sucedida, 1 - sucesso, 2 - pendente.
 
-`gas_used` transaction gas used
+`gas_used` Gas usado na transacção.
 
-`execute_error` the execute error of this transaction
+`execute_error` Erro de execução da transacção.
 
-`execute_result` return value of the smart-contract function
+`execute_result` return o valor da função do smart contract.
 
-**Note:** the data length of `execute_result` is limited to 255 Bytes, if you want to receive a large return value from you smart-contract, please use  api `call` instead.
+**Observação:** o comprimento dos dados de `execute_result` está limitado a 255 Bytes, se quiser receber um valor superior do seu smart contract, por favor use o API `call`.
 
-###### HTTP Example
+###### Exemplo HTTP
 
 ```bash
 // Request
@@ -575,7 +575,7 @@ curl -i -H 'Content-Type: application/json' -X POST http://localhost:8685/v1/use
 
 #### GetTransactionByContract
 
-Get transactionReceipt info by contract address. If contract not exists or packaged on chain, a not found error will be returned.
+Obtem informação do transactionReceipt por endereço de contracto. Se o contracto não existir ou não estiver empacotado na chain, vai fazer return de erro "not found".
 
 | Protocol | Method | API |
 |----------|--------|-----|
@@ -584,13 +584,13 @@ Get transactionReceipt info by contract address. If contract not exists or packa
 
 ##### Parameters
 
-`address` Hex string of contract account address.
+`address` Hex string do endereço do contracto.
 
 ##### Returns
 
-The result is the same as that of [GetTransactionReceipt](rpc.md/#gettransactionbycontract)
+O resultado é o mesmo do [GetTransactionReceipt](rpc.md/#gettransactionbycontract)
 
-##### HTTP Example
+##### Exemplo HTTP
 
 ```bash
 // Request
@@ -623,9 +623,9 @@ curl -i -H 'Content-Type: application/json' -X POST http://localhost:8685/v1/use
 
 #### Subscribe
 
-Return  the subscribed events of transaction & block. The request is a keep-alive connection.
+Return os eventos subscritos da transacção & bloco. O pedido é um conexão "keep-alive".
 
-**Note** that `subscribe` doesn't guarantee all the new events will be received successfully, it depends on the network condition, please run a local node to use `subscribe` api. 
+**Note** que `subscribe` não garante a recepção bem-sucedida de todos os eventos, isso depende da condição da rede. Por favor crie um nó local para usar o API `subscribe`. 
 
 | Protocol | Method | API |
 |----------|--------|-----|
@@ -634,27 +634,27 @@ Return  the subscribed events of transaction & block. The request is a keep-aliv
 
 ##### Parameters
 
-`topics` repeated event topic name, string array.
+`topics` repetição do nome do tópico do evento, string array.
 
-The topic name list:
+A lista de nomes de tópicos:
 
-- `chain.pendingTransaction` The topic of pending a transaction in transaction_pool.
+- `chain.pendingTransaction` O tópico de um transacção pendente numa transaction_pool.
 
-- `chain.latestIrreversibleBlock` The topic of updating latest irreversible block.
+- `chain.latestIrreversibleBlock` O tópico da actualização do último bloco irreverssível.
 
-- `chain.transactionResult` The topic of executing & submitting tx.
+- `chain.transactionResult` O tópico de execução e lançamento da transacção.
 
-- `chain.newTailBlock` The topic of setting new tail block.
+- `chain.newTailBlock` O tópico de criação de um novo tail block.
 
-- `chain.revertBlock` The topic of reverting block.
+- `chain.revertBlock` O tópico de reverter um bloco.
 
 ##### Returns
 
-`topic` subscribed event topic name.
+`topic` Nome do tópico do evento subscrito.
 
-`data` subscribed event data.
+`data` dados do evento subscrito.
 
-##### HTTP Example
+##### Exemplo HTTP
 
 ```bash
 // Request
@@ -687,22 +687,22 @@ curl -i -H 'Content-Type: application/json' -X POST http://localhost:8685/v1/use
 
 #### GetGasPrice
 
-Return current gasPrice.
+Return o gasPrice actual.
 
 | Protocol | Method | API |
 |----------|--------|-----|
 | gRpc |  |  GetGasPrice |
 | HTTP | GET |  /v1/user/getGasPrice |
 
-##### Parameters
+##### Parametros
 
 none
 
 ##### Returns
 
-`gas_price` gas price. The unit is 10^-18 NAS.
+`gas_price` preço do gas. A unidade é 10^-18 NAS.
 
-##### HTTP Example
+##### Exemplo HTTP
 
 ```bash
 // Request
@@ -719,25 +719,24 @@ curl -i -H 'Content-Type: application/json' -X GET http://localhost:8685/v1/user
 
 #### EstimateGas
 
-Return the estimate gas of transaction.
+Return a estimativa de gas da transacção.
 
 | Protocol | Method | API |
 |----------|--------|-----|
 | gRpc |  |  EstimateGas |
 | HTTP | POST |  /v1/user/estimateGas |
 
-##### Parameters
+##### Parametros
 
-The parameters of the `EstimateGas` method is the same as the
-[SendTransaction](rpc_admin.md/#sendtransaction)parameters.
+Os parametros do método `EstimateGas` são os mesmos que os parametros de [SendTransaction](rpc_admin.md/#sendtransaction).
 
 ##### Returns
 
-`gas` the estimate gas.
+`gas` Estimativa do gas.
 
-`err` error message of the transaction executing
+`err` Mensagem de erro de execução da transacção.
 
-##### HTTP Example
+##### Exemplo HTTP
 
 ``` bash
 // Request
@@ -754,22 +753,22 @@ curl -i -H 'Content-Type: application/json' -X POST http://localhost:8685/v1/use
 ***
 
 #### GetEventsByHash
-Return the events list of transaction.
+Return a lista de eventos da transacção.
 
 | Protocol | Method | API |
 |----------|--------|-----|
 | gRpc |  |  GetEventsByHash |
 | HTTP | POST |  /v1/user/getEventsByHash |
 
-##### Parameters
-`hash` Hex string of transaction hash.
+##### Parametros
+`hash` Hex string da hash da transacção.
 
 ##### Returns
-`events` the events list.
-- `topic` event topic;
-- `data` event data.
+`events` a lista de eventos.
+- `topic` tópico dos eventos;
+- `data` dados do evento.
 
-##### HTTP Example
+##### Exemplo HTTP
 ``` bash
 // Request
 curl -i -H 'Content-Type: application/json' -X POST http://localhost:8685/v1/user/getEventsByHash -d '{"hash":"ec239d532249f84f158ef8ec9262e1d3d439709ebf4dd5f7c1036b26c6fe8073"}'
@@ -793,22 +792,22 @@ curl -i -H 'Content-Type: application/json' -X POST http://localhost:8685/v1/use
 
 #### GetDynasty
 
-GetDynasty get dpos dynasty.
+GetDynasty obtem a dpos dynasty.
 
 | Protocol | Method | API |
 |----------|--------|-----|
 | gRpc |  |  GetDynasty |
 | HTTP | POST |  /v1/user/dynasty |
 
-###### Parameters
+###### Parametros
 
 `height` block height
 
 ###### Returns
 
-`miners` repeated string of miner address.
+`miners` string repetida do endereço do minerador.
 
-###### HTTP Example
+###### Exemplo HTTP
 
 ``` bash
 // Request
