@@ -533,7 +533,7 @@ Get transactionReceipt info by transaction hash. If the transaction is not submi
 
 `contract_address` Transaction contract address.
 
-`status` Transaction status, 0 failed, 1 success, 2 pending.
+`status` Transaction status, 0 - failed, 1 - success, 2 - pending.
 
 `gas_used` transaction gas used
 
