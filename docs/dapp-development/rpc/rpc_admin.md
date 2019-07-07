@@ -1,8 +1,8 @@
-# Management RPC
+# RPC de Gestão
 
-Beside the [NEB API RPC](https://github.com/nebulasio/wiki/blob/master/rpc.md) interface nebulas provides additional management APIs. Neb console supports both API and management interfaces. Management RPC uses the same gRPC and HTTP port, which also binds [NEB API RPC](https://github.com/nebulasio/wiki/blob/master/rpc.md) interfaces.
+Além da interface do [NEB API RPC](https://github.com/nebulasio/wiki/blob/master/rpc.md), a Nebulas fornece APIs de gestão adicionais. A consola Neb suporta gestão de ambos APIs e interfaces de gestão. RPC de gestão usa a mesma porta para gRPC e HTTP, que também vincula as interfaces do [NEB API RPC](https://github.com/nebulasio/wiki/blob/master/rpc.md).
 
-Nebulas provide both [gRPC](https://grpc.io) and RESTful management APIs for users to interact with Nebulas. Our admin [proto](https://github.com/nebulasio/go-nebulas/blob/develop/rpc/pb/rpc.proto) file defines all admin APIs. **We recommend using the console access admin interfaces, or restricting the admin RPC to local access.**
+A Nebulas fornece ambos [gRPC](https://grpc.io) e APIs de gestão RESTful para permitir interacção dos utilizadores com a Nebulas. O nosso ficheiro administrativo [proto](https://github.com/nebulasio/go-nebulas/blob/develop/rpc/pb/rpc.proto) define todos os admin APIs. **Recomendamos o uso da consola para aceder a interfaces de administrador, ou restringir o RPC de admin ao acesso local.**
 
 Default management RPC Endpoint:
 
@@ -11,7 +11,7 @@ Default management RPC Endpoint:
 | gRPC | [http://localhost:8684](http://localhost:8684) | Protobuf |
 | RESTful | [http://localhost:8685](http://localhost:8685) | HTTP |
 
-## Management RPC methods
+## Métodos do Management RPC
 
 * [NodeInfo](rpc_admin.md#nodeinfo)
 * [Accounts](rpc_admin.md#accounts)
@@ -25,38 +25,38 @@ Default management RPC Endpoint:
 * [StartPprof](rpc_admin.md#startpprof)
 * [GetConfig](rpc_admin.md#getconfig)
 
-## Management RPC API Reference
+## Referência do Management RPC API
 
 ### NodeInfo
 
-Return the p2p node info.
+Return a informação do nó p2p.
 
 | Protocol | Method | API |
 | --- | --- | --- |
 | gRpc |  | NodeInfo |
 | HTTP | GET | /v1/user/nodeinfo |
 
-**Parameters**
+**Parametros**
 
 none
 
 **Returns**
 
-`id` the node ID.
+`id` o ID do nó.
 
-`chain_id` the block chainID.
+`chain_id` o block chainID.
 
-`coninbase` coinbase
+`coninbase` coinbase.
 
-`peer_count` Number of peers currenly connected.
+`peer_count` número de peers ligados.
 
-`synchronized` the node synchronized status.
+`synchronized` estado de sincronização do nó.
 
-`bucket_size` the node route table bucket size.
+`bucket_size` tamanho do bucket da tabela de roteamento. 
 
-`protocol_version` the network protocol version.
+`protocol_version` versão do protocolo da rede.
 
-`RouteTable*[] route_table` the network routeTable
+`RouteTable*[] route_table` a routeTable da rede.
 
 ```js
 message RouteTable {
@@ -65,7 +65,7 @@ message RouteTable {
 }
 ```
 
-**HTTP Example**
+**Exemplo HTTP**
 
 ```bash
 # Request
@@ -102,14 +102,14 @@ curl -i -H 'Content-Type: application/json' -X GET http://localhost:8685/v1/admi
 
 ### Accounts
 
-Return account list.
+Return lista de contas.
 
 | Protocol | Method | API |
 | --- | --- | --- |
 | gRpc |  | Accounts |
 | HTTP | GET | /v1/admin/accounts |
 
-#### Parameters
+#### Parametros
 
 none
 
@@ -117,7 +117,7 @@ none
 
 `addresses` account list
 
-#### HTTP Example
+#### Exemplo HTTP
 
 ```bash
 # Request
@@ -143,7 +143,7 @@ curl -i -H 'Content-Type: application/json' -X GET http://localhost:8685/v1/admi
 
 ### NewAccount
 
-NewAccount create a new account with passphrase.
+NewAccount cria uma nova conta com uma password.
 
 | Protocol | Method | API |
 | --- | --- | --- |
@@ -152,13 +152,13 @@ NewAccount create a new account with passphrase.
 
 **Parameters**
 
-`passphrase` New account passphrase.
+`passphrase` Password da nova conta.
 
 **Returns**
 
-`address` New Account address.
+`address` Endereço da nova conta.
 
-**HTTP Example**
+**Exemplo HTTP**
 
 ```bash
 # Request
@@ -175,26 +175,26 @@ curl -i -H 'Content-Type: application/json' -X POST http://localhost:8685/v1/adm
 
 ### UnLockAccount
 
-UnlockAccount unlock account with passphrase. After the default unlock time, the account will be locked.
+UnlockAccount desbloqueia uma conta com a password. Depois do tempo de desbloqueio passar, a conta será bloqueada outra vez.
 
 | Protocol | Method | API |
 | --- | --- | --- |
 | gRpc |  | UnLockAccount |
 | HTTP | POST | /v1/admin/account/unlock |
 
-**Parameters**
+**Parametros**
 
-`address` UnLock account address.
+`address` Endereço da conta desbloqueada.
 
-`passphrase` UnLock account passphrase.
+`passphrase` Password da conta desbloqueada.
 
-`duration` Unlock accoutn duration.
+`duration` Duração do desbloqueamento da conta.
 
 **Returns**
 
-`result` UnLock account result, unit is ns.
+`result` Resultado do desbloqueio da conta, a unidade é ns.
 
-**HTTP Example**
+**Exemplo HTTP**
 
 ```bash
 # Request
@@ -210,7 +210,7 @@ curl -i -H 'Content-Type: application/json' -X POST http://localhost:8685/v1/adm
 
 ### LockAccount
 
-LockAccount lock account.
+LockAccount bloqueia a conta.
 
 | Protocol | Method | API |
 | --- | --- | --- |
@@ -219,13 +219,13 @@ LockAccount lock account.
 
 **Parameters**
 
-`address` Lock account address.
+`address` Endereço da conta bloqueada.
 
 **Returns**
 
-`result` Lock account result.
+`result` Resultado da conta bloqueada.
 
-**HTTP Example**
+**Exemplo HTTP**
 
 ```bash
 # Request
@@ -241,24 +241,24 @@ curl -i -H 'Content-Type: application/json' -X POST http://localhost:8685/v1/adm
 
 ### SignTransactionWithPassphrase
 
-SignTransactionWithPassphrase sign transaction. The transaction's from addrees must be unlocked before sign call.
+SignTransactionWithPassphrase assina a transacção. O endereço `from` da conta tem de ser desbloqueado antes da chamada da assinatura.
 
 | Protocol | Method | API |
 | --- | --- | --- |
 | gRpc |  | SignTransactionWithPassphrase |
 | HTTP | POST | /v1/admin/sign |
 
-**Parameters**
+**Parametros**
 
-`transaction` this is the same as the [SendTransaction](https://github.com/nebulasio/wiki/blob/master/rpc_admin.md#sendtransaction) parameters.
+`transaction` usa os mesmos parametros que a [SendTransaction](https://github.com/nebulasio/wiki/blob/master/rpc_admin.md#sendtransaction).
 
-`passphrase` from account passphrase
+`passphrase` password da conta `from`.
 
 **Returns**
 
-`data` Signed transaction data.
+`data` Dados da transacção assinados.
 
-**sign normal transaction Example**
+**Exemplo de uma transacção assinada normal**
 
 ```bash
 # Request
@@ -274,26 +274,26 @@ curl -i -H 'Content-Type: application/json' -X POST http://localhost:8685/v1/adm
 
 ### SendTransactionWithPassphrase
 
-SendTransactionWithPassphrase send transaction with passphrase.
+SendTransactionWithPassphrase envia transacção com password.
 
 | Protocol | Method | API |
 | --- | --- | --- |
 | gRpc |  | SendTransactionWithPassphrase |
 | HTTP | POST | /v1/admin/transactionWithPassphrase |
 
-**Parameters**
+**Parametros**
 
-`transaction` transaction parameters, which is the same as the [SendTransaction](https://github.com/nebulasio/wiki/blob/master/rpc_admin.md#sendtransaction) parameters.
+`transaction` parametros da transacção, que são os mesmos da [SendTransaction](https://github.com/nebulasio/wiki/blob/master/rpc_admin.md#sendtransaction).
 
-`passphrase` From address passphrase.
+`passphrase` Password do endereço `from`.
 
 **Returns**
 
-`txhash` transaction hash.
+`txhash` hash da transacção.
 
-`contract_address` returns only for deploy contract transaction.
+`contract_address` return apenas para transacções de contracto lançadas.
 
-**Example**
+**Exemplo**
 
 ```bash
 # Request
@@ -310,60 +310,60 @@ curl -i -H 'Content-Type: application/json' -X POST http://localhost:8685/v1/adm
 
 ### SendTransaction
 
-Send the transaction. Parameters `from`, `to`, `value`, `nonce`, `gasPrice` and `gasLimit` are required. If the transaction is to send contract, you must specify the `contract`.
+Envia a transacção. Parametros `from`, `to`, `value`, `nonce`, `gasPrice` e `gasLimit` são necessários. Se a transacção for para enviar um contracto, tem de especificar o `contract`.
 
 | Protocol | Method | API |
 | --- | --- | --- |
 | gRpc |  | SendTransaction |
 | HTTP | POST | /v1/user/transaction |
 
-**Parameters**
+**Parametros**
 
-`from` Hex string of the sender account addresss.
+`from` Hex string do endereço da conta do remetente.
 
-`to` Hex string of the receiver account addresss.
+`to` Hex string do endereço da conta do destinatário.
 
-`value` Amount of value sending with this transaction.
+`value` Valor da quantidade a ser enviada com nesta transacção.
 
-`nonce` Transaction nonce.
+`nonce` Nonce da transacção.
 
-`gas_price` gasPrice sending with this transaction.
+`gas_price` gasPrice a ser usado nesta transacção.
 
-`gas_limit` gasLimit sending with this transaction.
+`gas_limit` gasLimit desta transacção.
 
-`type` transaction payload type. If the type is specified, the transaction type is determined and the corresponding parameter needs to be passed in, otherwise the transaction type is determined according to the contract and binary data. \[optional\]
+`type` tipo do payload da transacção. Se o tipo for especificado, o tipo de transacção é determinado e o parametro correspondente tem de ser passado, ou então o tipo de transacção será determinado de acordo com o contracto e dados binários. \[optional\]
 
 * type enum:
-  * `binary`: normal transaction with binary 
-  * `deploy`: deploy smart contract 
-  * `call`: call smart contract function
+  * `binary`: transacção normal com binário 
+  * `deploy`: lança smart contract
+  * `call`: chama função de smart contract
 
-`contract` transaction contract object for deploy/call smart contract. \[optional\]
+`contract` objecto de contrato de transacção para o lançamento/chamada de smart contract. \[optional\]
 
 * Sub properties:
-  * `source` contract source code for deploy contract.
-  * `sourceType` contract source type for deploy contract. Currently support `js` and `ts`
-    * `js` the contract source write with javascript.
-    * `ts` the contract source write with typescript. 
-  * `function` the contract call function for call contarct function.
-  * `args` the params of contract. The args content is JSON string of parameters array.
+  * `source` código do contracto para lançar do contracto.
+  * `sourceType` tipo da fonte do contracto para lançar contracto. De momento suporta `js` e `ts`
+    * `js` é a fonte do contracto programada em javascript.
+    * `ts` é a fonte do contracto programada em typescript. 
+  * `function` a função de chamada do contracto.
+  * `args` os parametros do contracto. O conteúdo dos args é uma string JSON de parametros num array.
 
-`binary` any binary data with a length limit = 64bytes. \[optional\]
+`binary` qualquer dado binário com um limite igual a 64bytes. \[optional\]
 
-Notice:
+Note:
 
-* `from = to` when deploy a contract, the `to` address must be equal to `from` address.
-* `nonce` the value is **plus one**\(+1\) on the nonce value of the current from address. Current nonce can get from [GetAccountState](https://github.com/nebulasio/wiki/blob/master/rpc.md/#getaccountstate).
+* `from = to` quando lançar um contracto, o endereço `to` tem de ser igual ao endereço `from`.
+* `nonce` o valor é **plus one**\(+1\) do valor actual do nonce do endereço `from`. O nonce actual pode ser obtido com o [GetAccountState](https://github.com/nebulasio/wiki/blob/master/rpc.md/#getaccountstate).
 * `gasPrice` and `gasLimit` need for every transaction. We recommend taking them use [GetGasPrice](https://github.com/nebulasio/wiki/blob/master/rpc.md/#getgasprice) and [EstimateGas](https://github.com/nebulasio/wiki/blob/master/rpc.md/#estimategas).
-* `contract` parameter only need for smart contract deploy and call. When a smart contract is deployed, the `source` and `sourceType` must be specified, the `args` is optional and passed in when the initialization function takes a parameter. The `function` field is used to call the contract method.
+* parametro `contract` apenas é preciso para o lançamento ou chamada de smart contracts. Quando um smart contract é lançado, a `source` e `sourceType` tem de ser especificada. Os `args` são opcionais e passados quando a inicialização da função leva um parametro. A field da `function` é usado no método de chamada.
 
 **Returns**
 
-`txhash` transaction hash.
+`txhash` hash da transacção.
 
-`contract_address` returns only for deploying contract transaction.
+`contract_address` return apenas para transacções de lançamento de contractos.
 
-**Normal Transaction Example**
+**Exemplo de uma Transacção Normal**
 
 ```bash
 # Request
@@ -378,7 +378,7 @@ curl -i -H 'Content-Type: application/json' -X POST http://localhost:8685/v1/adm
 }
 ```
 
-**Deploy Smart Contract Example**
+**Exemplo de Lançamento de um Smart Contract**
 
 ```bash
 # Request
@@ -396,7 +396,7 @@ curl -i -H 'Content-Type: application/json' -X POST http://localhost:8685/v1/adm
 
 ### SignHash
 
-SignHash sign the hash of a message.
+SignHash assina a hash de uma mensagem.
 
 | Protocol | Method | API |
 | --- | --- | --- |
@@ -405,17 +405,17 @@ SignHash sign the hash of a message.
 
 **Parameters**
 
-`address` Sign address
+`address` Endereço da assinatura.
 
-`hash` A sha3256 hash of the message
+`hash` Hash sha3256 da mensagem.
 
-`alg` Sign algorithm
+`alg` Algoritmo da assinatura.
 
 **Returns**
 
-`data` Signed transaction data.
+`data` Dados da transacção assinados.
 
-**sign normal transaction Example**
+**Exemplo de uma Transacção Assinada Normal**
 
 ```bash
 # Request
@@ -438,15 +438,15 @@ StartPprof starts pprof
 | gRpc |  | Pprof |
 | HTTP | POST | /v1/admin/pprof |
 
-**Parameters**
+**Parametros**
 
-`listen` the address to listen
+`listen` o endereço a escutar
 
 **Returns**
 
-`result` start pprof result
+`result` resultado da inicialização do pprof
 
-**Example**
+**Exemplo**
 
 ```bash
 # Request
@@ -462,22 +462,22 @@ curl -i -H 'Content-Type: application/json' -X POST http://localhost:8685/v1/adm
 
 ### GetConfig
 
-GetConfig return the config current neb is using
+GetConfig return a configuração actual que o neb está a utilizar.
 
 | Protocol | Method | API |
 | --- | --- | --- |
 | gRpc |  | GetConfig |
 | HTTP | GET | /v1/admin/getConfig |
 
-**Parameters**
+**Parametros**
 
 none
 
 **Returns**
 
-`config` neb config
+`config` configuração do neb.
 
-**Example**
+**Exemplo**
 
 ```bash
 # Request
