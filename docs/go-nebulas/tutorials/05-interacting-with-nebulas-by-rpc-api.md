@@ -135,5 +135,5 @@ Para mais interfaces, refira-se à documentação oficial:
 
 Bom trabalho! Vamos juntar-nos à Testnet ou Mainnet oficial para desfrutar de Nebulas agora!
 
- [Join to Testnet](https://github.com/nebulasio/wiki/blob/master/testnet.md)
- [Join to Mainnet](https://github.com/nebulasio/wiki/blob/master/mainnet.md)
+ [Join the Testnet](https://github.com/nebulasio/wiki/blob/master/testnet.md)
+ [Join the Mainnet](https://github.com/nebulasio/wiki/blob/master/mainnet.md)
