@@ -10,4 +10,4 @@
 
 * [El Papel Naranja de Nebulas — Nebulas Governance](https://nebulas.io/docs/NebulasOrangepaper.pdf). Puedes acceder al repositorio [aquí](https://github.com/nebulasio/governance-paper).
 
-Como siempre, las traducciones y los informes de errores son siempre bienvenidos. [Aprende más](../../how-to-contribute.html) sobre cómo contribuir.
+Como siempre, las traducciones y los informes de errores son siempre bienvenidos. [Aprende más](https://wiki.nebulas.io/es/es/how-to-contribute.html) sobre cómo contribuir.

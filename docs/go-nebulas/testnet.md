@@ -59,12 +59,11 @@ Léase más sobre estos APIs [aquí](https://github.com/nebulasio/wiki/blob/mast
 Cada email puede reclamar tokens todos los días [aquí](https://testnet.nebulas.io/claim).
 
 ## Tutoriales
-#### English
-1. [Installation](tutorials/01-installation.md) \(thanks [Victor](https://github.com/victorychain)\)
-2. [Sending a Transaction](tutorials/02-transaction.md) \(thanks [Victor](https://github.com/victorychain)\)
-3. [Writing Smart Contract in JavaScript](tutorials/03-smart-contracts-javascript.md) \(thanks [otto](https://github.com/ottokafka)\)
-4. [Introducing Smart Contract Storage](tutorials/04-smart-contract-storage.md) \(thanks [Victor](https://github.com/victorychain)\)
-5. [Interacting with Nebulas by RPC API](tutorials/05-interacting-with-nebulas-by-rpc-api.md) \(thanks [Victor](https://github.com/victorychain)\)
+1. [Installation](tutorials/espanol-nebulas-101-01-instalacion.md) \(thanks [Ariel](https://github.com/arielsbecker)\)
+2. [Sending a Transaction](tutorials/english-nebulas-101-02-transaction.md) \(thanks [Victor](https://github.com/victorychain)\)
+3. [Writing Smart Contract in JavaScript](tutorials/english-nebulas-101-03-smart-contracts-javascript.md) \(thanks [otto](https://github.com/ottokafka)\)
+4. [Introducing Smart Contract Storage](tutorials/english-nebulas-101-04-smart-contract-storage.md) \(thanks [Victor](https://github.com/victorychain)\)
+5. [Interacting with Nebulas by RPC API](tutorials/english-nebulas-101-05-interacting-with-nebulas-by-rpc-api.md) \(thanks [Victor](https://github.com/victorychain)\)
 
 
 ## Contributing
