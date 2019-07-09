@@ -1,8 +1,8 @@
 # Cómo unirse a la mainnet de Nebulas
+## Introducción
+The Nebulas Mainnet 2.0 (Nebulas Nova) ha sido recientemente lanzada. Este tutorial le enseñará cómo unirse y cómo trabajar con la  Mainnet de Nebulas.
 
-## Código fuente
-
-Puedes encontrar el código fuente de la mainnet de Nebulas en [nuestro repositorio github](https://github.com/nebulasio/go-nebulas/tree/master).
+> [https://github.com/nebulasio/go-nebulas/tree/master](https://github.com/nebulasio/go-nebulas/tree/master)
 
 ## Compilacion
 
@@ -58,9 +58,7 @@ Endpoint principal:
 Léase más sobre estos métodos [aquí](https://github.com/nebulasio/wiki/blob/master/rpc.md).
 
 ## Tutoriales
-
 ### En inglés
-
 1. [Instalación](https://github.com/nebulasio/wiki/blob/master/tutorials/%5BEnglish%5D%20Nebulas%20101%20-%2001%20Installation.md), (contribución de [Victor](https://github.com/victorychain)).
 2. [Cómo enviar una transacción](https://github.com/nebulasio/wiki/blob/master/tutorials/%5BEnglish%5D%20Nebulas%20101%20-%2002%20Transaction.md), (contribución de [Victor](https://github.com/victorychain)).
 3. [Cómo escribir un contrato inteligente en Javascript](https://github.com/nebulasio/wiki/blob/master/tutorials/%5BEnglish%5D%20Nebulas%20101%20-%2003%20Smart%20Contracts%20JavaScript.md), (contribución de [otto](https://github.com/ottokafka)).
@@ -68,5 +66,4 @@ Léase más sobre estos métodos [aquí](https://github.com/nebulasio/wiki/blob/
 5. [Interacción con Nebulas por medio de la API RPC](https://github.com/nebulasio/wiki/blob/master/tutorials/%5BEnglish%5D%20Nebulas%20101%20-%2005%20Interacting%20with%20Nebulas%20by%20RPC%20API.md), (contribución de [Victor](https://github.com/victorychain)).
 
 ## Cómo contribuir
-
 ¡Siéntete libre de unirte a la Mainnet de Nebulas! Si has encontrado un error, por favor [envía un aviso](https://github.com/nebulasio/go-nebulas/issues/new), o si eres desarrollador, [crea un pull request](https://github.com/nebulasio/go-nebulas/pulls); de ese modo podremos corregir los errores o añadir tu contribución a esta página lo antes posible.
