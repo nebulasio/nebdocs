@@ -193,6 +193,7 @@ man_pages = [
      [author], 1)
 ]
 
+suppress_warnings = ['misc.highlighting_failure']
 
 # -- Options for Texinfo output -------------------------------------------
 
