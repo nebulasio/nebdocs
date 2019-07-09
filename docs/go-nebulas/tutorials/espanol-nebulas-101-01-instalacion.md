@@ -1,23 +1,26 @@
 # Nebulas 101 - 01 Compilar e instalar Nebulas
 
-[Tutorial en Youtube](https://www.youtube.com/watch?v=qtjss2LzSI4&list=PLFipfN18ZQwsW1_dge4w7dfsVNdNZZ37R)
+La versión actual de Nebulas Mainnet es 2.0, que se llama Nebulas Nova.
 
-El código del proyecto [Nebulas](https://nebulas.io/) se ha lanzado en distintas versiones y está probado para uso local. Se puede descargar su código fuente para compilar el blockchain de forma local.
+Nebulas Nova pretende descubrir el valor de los datos de blockchain y también significa el futuro de la colaboración.
+
+Consulta nuestra [introducción](https://www.youtube.com/watch?v=jLIYkG35Ljo) en YouTube para más detalles.
+
+Puede descargar el código fuente de Nebulas para compilar la chain privada localmente.
 
 * Para saber más acerca de Nebulas, sírvase leer el [libro blanco no-técnico](https://nebulas.io/docs/NebulasWhitepaper.pdf).
 * Para aprender más acerca de su tecnología, léase el [libro blanco técnico](https://nebulas.io/docs/NebulasTechnicalWhitepaper.pdf) y el [código en github](https://github.com/nebulasio/go-nebulas).
 
-## Importante
-
-Por el momento, Nebulas sólo puede correr en entornos Mac y Linux. Estamos trabajando para lanzar la versión de Windows.
+> Por el momento, Nebulas sólo puede correr en entornos Mac y Linux. Estamos trabajando para lanzar la versión de Windows.
 
 ## Entorno Golang
 
-Actualmente, Nebulas está escrito en Golang.
+Actualmente, Nebulas está escrito en Golang y C++.
 
 | Componentes | Versión | Descriptión |
 |----------|-------------|-------------|
-|[Golang](https://golang.org) | >= 1.9.2| Lenguaje de programación Go |
+| [Golang](https://golang.org) | The Go Programming Language, version &gt;= 1.11 |
+| [C++](https://en.wikipedia.org/wiki/C%2B%2B) | The C++ programming language, based on c++14 standard |
 
 ### Mac OSX
 
@@ -31,18 +34,16 @@ brew install go
 export GOPATH=/path/to/workspace
 ```
 
-#### Importante
-
-GOPATH es una variable de entorno que apunta al directorio de trabajo local de golang, y que es personalizable. Luego de configurar GOPATH, es necesario guardar los proyectos GO en ese directorio.
+> **Importante:** GOPATH es una variable de entorno que apunta al directorio de trabajo local de golang, y que es personalizable. Luego de configurar GOPATH, es necesario guardar los proyectos GO en ese directorio.
 
 ### Linux
 
 ```bash
 # descarga
-wget https://dl.google.com/go/go1.9.3.linux-amd64.tar.gz
+wget https://dl.google.com/go/go1.11.linux-amd64.tar.gz
 
 # extracción
-tar -C /usr/local -xzf go1.9.3.linux-amd64.tar.gz
+tar -C /usr/local -xzf go1.11.linux-amd64.tar.gz
 
 # configuración de las variables de entorno
 export PATH=$PATH:/usr/local/go/bin
@@ -50,9 +51,7 @@ export GOPATH=/path/to/workspace
 ```
 
 ## Compilar Nebulas
-
 ### Descarga
-
 Es necesario clonar el código fuente mediante estos comandos de consola:
 
 ```bash
@@ -70,61 +69,39 @@ cd go-nebulas
 git checkout master
 ```
 
-### Instalar RocksDB
+### Instalar NBRE
+NBRE es la abreviatura de "Nebulas Blockchain Runtime Environment", que es la plataforma que ejecuta los protocolos y algoritmos principales.
 
-#### Mac OSX
-
-Instalar rocksdb mediante [Homebrew](https://brew.sh/)
-
-```bash
-brew install rocksdb
-```
-
-#### Ubuntu
-
-Instalar dependencias necesarias:
+Para compilar el NBRE:
 
 ```bash
-apt-get update
-apt-get -y install build-essential libgflags-dev libsnappy-dev zlib1g-dev libbz2-dev liblz4-dev libzstd-dev
+cd $GOPATH/src/github.com/nebulasio/go-nebulas/nbre
+
+# compilar dependencias
+# cambia tu shell a bash antes de ejecutar el script
+./prepare.sh
+
+# configurar variables de entorno
+source env.set.sh
+
+# compilar NBRE
+mkdir build
+cd build & cmake -DRelease=1 ..
+make
 ```
 
-Instalar rocksdb desde el código fuente
-
-```bash
-git clone https://github.com/facebook/rocksdb.git
-cd rocksdb && make shared_lib && make install-shared
-```
-
-#### CentOS
-
-Instalar dependencias necesarias:
-
-```bash
-yum -y install epel-release && yum -y update
-yum -y install gflags-devel snappy-devel zlib-devel bzip2-devel gcc-c++  libstdc++-devel
-```
-
-Instalar rocksdb desde el código fuente
-
-```bash
-git clone https://github.com/facebook/rocksdb.git
-cd rocksdb && make shared_lib && make install-shared
-```
+Los pasos de preparación enumerados anteriormente pueden tardar algún tiempo en completarse.
 
 ### Instalar las dependencias Go
-
 Las dependencias Go, en Go-Nebulas, se administran mediante [Dep](https://github.com/golang/dep).
 
 | Componentes | Versión | Descripción |
 |----------|-------------|-------------|
-[Dep](https://github.com/golang/dep) | >= 0.3.1 | Dep es una herramienta de administración de dependencias para Go. |
+[Dep](https://github.com/golang/dep) \| &gt;= 0.3.1 \| Dep es una herramienta de administración de dependencias para Go. |
 
 ### Instalar Dep
-
 #### Mac OSX
-
-* Instalar Dep mediante [Homebrew](https://brew.sh/)
+* Instalar Dep mediante [Homebrew](https://brew.sh/):
 
 ```bash
 brew install dep
@@ -132,8 +109,7 @@ brew upgrade dep
 ```
 
 #### Linux
-
-Instalar dep
+Instalar dep:
 
 ```bash
 cd /usr/local/bin/
@@ -142,7 +118,6 @@ ln -s dep-linux-amd64 dep
 ```
 
 ### Descargar las dependencias
-
 Es necesario subir hasta el directorio raíz del proyecto para, desde allí, descargar las dependencias necesarias para Go-Nebulas:
 
 ```bash
@@ -166,26 +141,28 @@ make deploy-v8
 ```
 
 ### Construcción de Neb
+- Configurar el entorno de ejecución
 
-Con todos los pasos previos correctamente realizados, es posible construir el ejecutable de Nebulas. Esto se debe hacer desde el directorio raíz del proyecto mediante la siguiente serie de comandos:
+```bash
+cd $GOPATH/src/github.com/nebulasio/go-nebulas
+source install-native-libs.sh
+```
+- Build NEB
+You can now build the executable for Nebulas:
 
 ```bash
 cd $GOPATH/src/github.com/nebulasio/go-nebulas
 make build
 ```
 
-Una vez que este proceso se completa, habrá un nuevo ejecutable, llamado `neb`, en el directorio raíz.
-
-![make build](resources/101-01-make-build.png)
+Una vez que este proceso se completa, habrá un nuevo ejecutable, llamado `neb`, en el directorio raíz. ![make build](resources/101-01-make-build.png)
 
 ## Iniciar neb
-
 ### Bloque inicial (Genesis Block)
 
 Antes de crear un nuevo _blockchain_ Nebulas, es necesario definir la configuración del bloque inicial, o génesis.
 
 #### Configuración del bloque inicial
-
 ```protobuf
 # Esquema definido en core/pb/genesis.proto.
 
@@ -222,7 +199,7 @@ Antes de poder lanzar un nodo neb, es necesario definir su configuración.
 
 #### Configuración del nodo Neb
 
-```protobuf
+```text
 
 # El esquema está definido en neblet/pb/config.proto:Config.
 
