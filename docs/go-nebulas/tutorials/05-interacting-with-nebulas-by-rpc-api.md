@@ -132,7 +132,7 @@ For more interfaces, please refer to the official documentation:
 
 ### Next
 
-Nice job! Let's join official Testnet or Mainnet to enjoy Nebulas now!
+Good job! Now let's join the official Testnet and/or Mainnet to experience Nebulas to the fullest!
 
-[Join to Testnet](../testnet.md) & [Join to Mainnet](../mainnet.md)
+[Join the Testnet](../testnet.md) & [Join the Mainnet](../mainnet.md)
 
