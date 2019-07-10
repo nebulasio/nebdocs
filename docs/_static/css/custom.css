@@ -1,5 +1,6 @@
+/* Global Default Settings */
 
-rt url('https://fonts.googleapis.com/css?family=Open+Sans:400,600');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600');
 
 body, h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend {
 	font-family: 'Open Sans', 'Helvetica Neue',Helvetica,arial,sans-serif;
