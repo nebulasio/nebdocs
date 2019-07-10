@@ -31,7 +31,7 @@ The directory structure of the document is defined in the README.rst file in the
 - zh-CN: Simplified Chinese version;
 - pt-PT: Portuguese version;
 - es-ES: Spanish version;
-- ko-KR: Korean version (very incomplete, pull requests welcome).
+- ko-KR: Korean version (non-existent, pull requests welcome).
 2. To facilitate document management, the document structure of different branches is as consistent as possible with the main branch;
 3. Each language is allowed to have its own temporary version. It is recommended to add the suffix version number to the version name, for example, en1.0, zh-CN1.1;
 
