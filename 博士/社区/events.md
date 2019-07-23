@@ -1,4 +1,5 @@
 # 动态
+- [对星云建设的意见建议](https://bihu.com/article/1765501040)
 - [部署智能合约，NAS奖励连周拿！](https://blog.nebulas.io/2019/05/27/deploy-smart-contracts-nas-rewards-for-weeks/)
 - [Go Nebulas首批优秀项目评选中](https://blog.nebulas.io/2019/05/22/go-nebulass-first-outstanding-project-selection/)
 - [链上自动化激励进入正轨，开发者入场正当时！](https://blog.nebulas.io/2019/05/21/weekly-data-report%EF%BC%885-13-5-19%EF%BC%89/)
