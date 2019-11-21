@@ -19,8 +19,8 @@ Actualmente, Nebulas está escrito en Golang y C++.
 
 | Componentes | Versión | Descriptión |
 |----------|-------------|-------------|
-| [Golang](https://golang.org) | The Go Programming Language, version &gt;= 1.11 |
-| [C++](https://en.wikipedia.org/wiki/C%2B%2B) | The C++ programming language, based on c++14 standard |
+| [Golang](https://golang.org) | The Go Programming Language, version &gt;= 1.12 |
+
 
 ### Mac OSX
 
@@ -40,10 +40,10 @@ export GOPATH=/path/to/workspace
 
 ```bash
 # descarga
-wget https://dl.google.com/go/go1.11.linux-amd64.tar.gz
+wget https://dl.google.com/go/go1.12.linux-amd64.tar.gz
 
 # extracción
-tar -C /usr/local -xzf go1.11.linux-amd64.tar.gz
+tar -C /usr/local -xzf go1.12.linux-amd64.tar.gz
 
 # configuración de las variables de entorno
 export PATH=$PATH:/usr/local/go/bin
@@ -56,8 +56,7 @@ Es necesario clonar el código fuente mediante estos comandos de consola:
 
 ```bash
 # ingresar al espacio de trabajo
-mkdir -p $GOPATH/src/github.com/nebulasio
-cd $GOPATH/src/github.com/nebulasio
+cd /path/to/workspace
 
 # descargar
 git clone https://github.com/nebulasio/go-nebulas.git
@@ -69,89 +68,18 @@ cd go-nebulas
 git checkout master
 ```
 
-### Instalar NBRE
-NBRE es la abreviatura de "Nebulas Blockchain Runtime Environment", que es la plataforma que ejecuta los protocolos y algoritmos principales.
-
-Para compilar el NBRE:
-
-```bash
-cd $GOPATH/src/github.com/nebulasio/go-nebulas/nbre
-
-# compilar dependencias
-# cambia tu shell a bash antes de ejecutar el script
-./prepare.sh
-
-# configurar variables de entorno
-source env.set.sh
-
-# compilar NBRE
-mkdir build
-cd build & cmake -DRelease=1 ..
-make
-```
-
-Los pasos de preparación enumerados anteriormente pueden tardar algún tiempo en completarse.
-
-### Instalar las dependencias Go
-Las dependencias Go, en Go-Nebulas, se administran mediante [Dep](https://github.com/golang/dep).
-
-| Componentes | Versión | Descripción |
-|----------|-------------|-------------|
-[Dep](https://github.com/golang/dep) \| &gt;= 0.3.1 \| Dep es una herramienta de administración de dependencias para Go. |
-
-### Instalar Dep
-#### Mac OSX
-* Instalar Dep mediante [Homebrew](https://brew.sh/):
-
-```bash
-brew install dep
-brew upgrade dep
-```
-
-#### Linux
-Instalar dep:
-
-```bash
-cd /usr/local/bin/
-wget https://github.com/golang/dep/releases/download/v0.3.2/dep-linux-amd64
-ln -s dep-linux-amd64 dep
-```
-
-### Descargar las dependencias
-Es necesario subir hasta el directorio raíz del proyecto para, desde allí, descargar las dependencias necesarias para Go-Nebulas:
-
-```bash
-cd $GOPATH/src/github.com/nebulasio/go-nebulas
-make dep
-```
-
-#### Nota importante
-El comando `make dep` provocará la descarga de una gran cantidad de dependencias, lo que podría tomar un tiempo considerable. Algunas de esas dependencias podrían no descargarse correctamente. Si tras varios intentos prosiguen esos errores, es posible intentar la descarga de un archivo ZIP que contiene todas las dependencias generadas mediante dep: [vendor.tar.gz](https://s3-us-west-1.amazonaws.com/develop-center/setup/vendor/vendor.tar.gz) y extraer el contenido de dicho ZIP al directorio raíz del proyecto.
-
-> ```bash
-> vendor.tar.gz
-> MD5: a8ff50c9c01c67e37300a062edf7949d
-> ```
-
-La máquina virtual de Nebulas (NVM) depende del motor V8 JavaScript. Para mayor comodidad, hemos procesado el _build_ de esas dependencias para MAC y linux. Ejecútese el siguiente comando para instalarlas:
-
-```bash
-cd $GOPATH/src/github.com/nebulasio/go-nebulas
-make deploy-v8
-```
-
 ### Construcción de Neb
 - Configurar el entorno de ejecución
 
 ```bash
-cd $GOPATH/src/github.com/nebulasio/go-nebulas
-source install-native-libs.sh
+cd /path/to/workspace
+source setup.sh
 ```
 - Build NEB
 You can now build the executable for Nebulas:
 
 ```bash
-cd $GOPATH/src/github.com/nebulasio/go-nebulas
+cd /path/to/workspace
 make build
 ```
 
