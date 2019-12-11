@@ -452,5 +452,11 @@ span#nebulas-wiki {
 .ethical-sidebar, .ethical-footer {
 	background-color: #fff;
 	border-color: #fff;
-	
+
+}
+
+
+.wy-nav-side .ethical-rtd {
+	width: auto;
+	padding: 0 3.236em;
 }
