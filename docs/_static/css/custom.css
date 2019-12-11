@@ -420,3 +420,37 @@ span#nebulas-wiki {
 	    background-size: 411px 190px;
 	}
 }
+
+
+
+/* version bar */
+.rst-versions {
+	width: 100%;
+	background: #fff;
+	border-top: 1px solid #e1e4e5;
+	color: #999;
+}
+
+.rst-versions .fa-book {
+	padding: 6px 0 0 0;
+}
+
+.rst-versions .rst-other-versions dd a {
+	padding: 6px 1rem 6px 0;
+	color: #3051F2;
+}
+
+
+/* ads */
+.ethical-dark-theme .ethical-sidebar {
+	background: #fff;
+	border-color: #fff;
+	color: #b3b3b3;
+}
+
+
+.ethical-sidebar, .ethical-footer {
+	background-color: #fff;
+	border-color: #fff;
+	
+}
