@@ -1,4 +1,4 @@
-# Nebulas 101 - 05 Interacting with Nebulas by RPC API
+# 05 Interacting with Nebulas by RPC API
 
 [YouTube Tutorial](https://www.youtube.com/watch?v=to3tkwFjVXo)
 
@@ -127,8 +127,8 @@ if err != nil {
 
 For more interfaces, please refer to the official documentation:
 
-* [API Module](../../dapp-development/rpc/rpc.md)
-* [Admin Module](../../dapp-development/rpc/rpc_admin.md).
+* [API Module](../dapp-development/rpc/rpc.md)
+* [Admin Module](../dapp-development/rpc/rpc_admin.md).
 
 ### Next
 

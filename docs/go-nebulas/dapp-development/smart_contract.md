@@ -13,7 +13,7 @@ They are supported by the integration of [Chrome V8](https://developers.google.c
 
 The diagram below is the Execution Model of the Smart Contract:
 
-![Smart Contract Execution Model](../resources/smart_contract_execution_model.png)
+![Smart Contract Execution Model](../../resources/smart_contract_execution_model.png)
 
 1. The whole src of the Smart Contract and its arguments are packaged in the Transaction and deployed on Nebulas.
 2. The execution of Smart Contract is divided in two phases:

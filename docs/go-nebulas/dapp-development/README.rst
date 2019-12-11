@@ -6,8 +6,7 @@ DApp Development
 
     smart_contract.md
     nrc20.md
+    nrc721.md
     tools.md
-    dapps-design-guide.md
-    learning-resources.md
     rpc/README.md
     console.md

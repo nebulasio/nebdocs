@@ -1,4 +1,4 @@
-# Nebulas 101 - 04 Smart Contract Storage
+# 04 Smart Contract Storage
 
 [YouTube Tutorial](https://www.youtube.com/watch?v=Ofs4AyRaSlw)
 

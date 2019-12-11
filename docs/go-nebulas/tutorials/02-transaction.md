@@ -1,4 +1,4 @@
-# Nebulas 101 - 02 Sending Transactions on Nebulas
+# 02 Sending Transactions on Nebulas
 
 [Youtube Tutorial](https://www.youtube.com/watch?v=_Njq8LX2r-4)
 

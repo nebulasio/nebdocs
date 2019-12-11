@@ -7,15 +7,12 @@
 Nebulas wiki
 ============
 
-Welcome to the open-source Nebulas wiki!
-----------------------------------------
-
 
 Nebulas is a next-generation public blockchain, aiming for a continuously improving ecosystem. Based on its blockchain valuation mechanism, Nebulas proposes future-oriented incentive and consensus systems, and the ability to self-evolve without forking.
 
 Nebulas community is open and everyone can be a contributor and build a decentralized world with us.
 
-The Nebulas wiki is a collaboration tool for the community to publish various documents in a collaborative manner. Include `usage guides <wiki-usage-guide.html>`_, `development guides <dapp-development/README.html>`_, `learning resources <dapp-development/learning-resources.html>`_, and other useful documents. 
+The Nebulas wiki is a collaboration tool for the community to publish various documents in a collaborative manner. 
 
  
 
@@ -23,14 +20,14 @@ Use Wiki
 --------
 
 
-`Mainnet <go-nebulas/README.html>`_
-````````````````````````````````````
-
-`Dapps <dapp-development/README.html>`_
+`Learn <whats-nebulas/README.html>`_
 ````````````````````````````````````````
 
-`Ecosystem <ecosystem/README.html>`_
-`````````````````````````````````````
+`Develop <go-nebulas/README.html>`_
+````````````````````````````````````
+
+`Use Nebulas <use.html>`_
+```````````````````````````
 
 `Get Involved <how-to-contribute.html>`_
 `````````````````````````````````````````
@@ -42,19 +39,14 @@ Use Wiki
     :titlesonly:
     :caption: Category:
 
-    wiki-usage-guide.md
+    whats-nebulas/README.rst
+    use.md
+    go-nebulas/README.rst
+    node-strategy/README.rst
     how-to-contribute.md
     bounty-program.md
-    whats-nebulas/README.rst
-    go-nebulas/README.rst
-    roadmap.md
-    dapp-development/README.rst
-    tutorials.md
-    community/README.rst
-    ecosystem/README.rst
-    useful-links.md
     frequently-asked-questions.md
-    licenses/README.rst
+    licenses.md
     
 
 * :ref:`genindex`

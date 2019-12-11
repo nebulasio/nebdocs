@@ -1,4 +1,4 @@
-# Nebulas 101 - 01 Compile and Install Nebulas
+# 01 Compile and Install Nebulas
 
 The current version of Nebulas Mainnet is 2.1.1, which is called Nebulas Nova. 
 

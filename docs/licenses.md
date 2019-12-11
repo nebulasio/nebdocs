@@ -1,4 +1,4 @@
-# Licensing
+# Licenses
 
 ## Nebulas Open Source Project License
 
@@ -10,5 +10,6 @@ In this way, we are still considering the license choice, which kind of license 
 
 ## Contributor License Agreement
 
-All contributions to Nebulas wikis are licensed under the (Creative Commons License SA 4.0)[https://creativecommons.org/licenses/by-nc-sa/4.0/].
+All contributions to Nebulas wikis are licensed under the [Creative Commons License SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
+For a complete list of everyone who contributed to the wiki, click [here](https://github.com/nebulasio/nebdocs/graphs/contributors).
