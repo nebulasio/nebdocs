@@ -130,7 +130,7 @@ html_favicon = 'resources/favicon.ico'
 html_static_path = ['_static']
 
 def setup(app):
-    app.add_stylesheet('css/custom.css')
+    app.add_stylesheet('css/custom.css?v=20191211')
 
 # -- Options for HTMLHelp output ------------------------------------------
 
