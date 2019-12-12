@@ -428,6 +428,8 @@ span#nebulas-wiki {
 	background: #fff;
 	border: none;
 	color: #999;
+	right: 0;
+	left: auto;
 }
 
 .rst-versions .fa-book {
