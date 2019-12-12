@@ -459,14 +459,14 @@ span#nebulas-wiki {
 }
 
 
-.ethical-sidebar, .ethical-footer {
+.ethical-sidebar, .ethical-footer, .wy-body-for-nav .ethical-sidebar, .wy-body-for-nav .ethical-footer {
 	background-color: #fff;
 	border-color: #fff;
     border-radius: 0;
 }
 
 
-.wy-nav-side .ethical-rtd {
+.wy-nav-side .ethical-rtd, .wy-body-for-nav .wy-nav-side .ethical-rtd {
 	width: auto;
 	padding: 0 3.236em;
 }
