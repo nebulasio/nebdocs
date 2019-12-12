@@ -1,30 +1,54 @@
 /* Global Default Settings */
 
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
 
-body, h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend {
+body, h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend, p {
 	font-family: 'Open Sans', 'Helvetica Neue',Helvetica,arial,sans-serif;
+    line-height: 1.8;
+    letter-spacing: 0.08rem;
+    font-size: 12px;
+    font-weight: 200;
 }
 
 h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend {
-	font-weight: 600;
+	font-weight: 500;
 }
 
+a,a:visited {
+	color: #3051F2;
+	border-bottom: 1px solid #fff;
+}
+a:hover {
+	color: #3051F2;
+	border-bottom: 1px solid  #3051F2;
+	transition: border-bottom-color 0.3s ease-in-out;
+}
+
+.wy-grid-for-nav {
+	max-width: 1100px;
+	position: relative;
+	margin: 0 auto;
+}
 
 /* two columns */
 /* left - sidebar */
 
 .wy-nav-side {
-	background: #fafafa;
-	border-right: 1px solid #e6e6e6;
+	background: #fff;
+	position: absolute;
 }
 
 /* left - logo & search bar */
 
+.wy-side-scroll {
+	width: auto;
+}
+
 .wy-side-nav-search {
 	margin-bottom: 0;
-	padding: 0.5em;
-	background: #fafafa;
+	padding: 1.618em 3.236em;
+	background: #fff;
+	width: auto;
 }
 
 .wy-side-nav-search>a, .wy-side-nav-search .wy-dropdown>a {
@@ -37,8 +61,9 @@ h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend {
 }
 
 .wy-side-nav-search input[type=text] {
-	border-color: #fafafa;
+	border-color: #e1e4e5;
 	border-radius: 0;
+	box-shadow: none;
 }
 
 /* left - menu */
@@ -50,11 +75,15 @@ h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend {
 
 .wy-menu-vertical a:hover {
 	color: #151515;
-	background: #ededed;
+	background: #fff
+}
+
+.wy-menu-vertical p.caption {
+	padding: 0 3.236em;
 }
 
 .wy-menu-vertical > ul {
-	padding: 0 1em;
+	padding: 0 3.236em;
 }
 
 .wy-menu-vertical li.current {
@@ -69,14 +98,22 @@ h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend {
 
 .wy-menu-vertical li.on a, .wy-menu-vertical li.current>a {
 	padding: 0.5em 1.618em;
+	border-color: #fff;
 }
 
 .wy-menu-vertical li.current a:hover {
-	background: #ededed;
+	background: #fff;
+}
+
+.wy-menu-vertical li.toctree-l1.current>a {
+	border-top-color: #fff;
+	border-bottom-color: #3051F2;
+	background: #fff;
 }
 
 .wy-menu-vertical li.toctree-l2.current>a {
     padding: 0.5em 2.427em;
+    border-color: #fff;
 }
 
 .wy-menu-vertical li.toctree-l2.current>a, .wy-menu-vertical li.toctree-l2.current li.toctree-l3>a {
@@ -102,29 +139,45 @@ h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend {
 /* right - top navbar */
 
 .wy-breadcrumbs {
-	padding: 0 1.618em 0.5em 1.618em;
+	padding: 0 0 0.5em 0;
 }
 
 .wy-nav-content {
-	padding: 0.5em 0 1.618em 0;
-	max-width: 100%;
+	padding: 1.618em 3.236em 1.618em 0;
+	
 }
+
+.wy-breadcrumbs li.wy-breadcrumbs-aside a.fa-github {
+	background:#3051f2;
+	color: #fff;
+	padding: 6px 14px;
+}
+.wy-breadcrumbs li.wy-breadcrumbs-aside a.fa-github:hover {
+	background: #000;
+}
+
 
 /* right - content */
 
+h1 {
+	padding: 1em 0 0 0;
+	font-size: 2rem;
+}
+h2 {
+	font-size: 1.5rem;
+	padding-top: 2.6rem;
+}
+h3 {
+	font-size: 1.25rem;
+	padding-top: 1rem;
+}
+h4 {
+	font-style: 1.15rem;
+	padding-top: 0.5rem;
+}
 hr {
 	margin: 0;
-}
-
-.section {
-	padding: 0 1.618em;
-}
-
-h1 {
-	background: #2c2c2c;
-	color: #fff;
-	padding: 0.8em 1em;
-	margin: 0 -1.618em 1rem -1.618rem;
+	margin-bottom: 1rem;
 }
 
 .wy-plain-list-disc, .rst-content .section ul, .rst-content .toctree-wrapper ul, article ul {
@@ -132,22 +185,31 @@ h1 {
 }
 
 .rst-content blockquote {
-	border: 1px solid #e6e6e6;
-	background: #f9fafa;
-	padding: 1em;
 	margin-left: 0;
+	color: #999;
+	padding: 0.5rem 0 0.5rem 3rem;
+	border-left: 2px solid #e1e4e5;
 }
 
 #search-results {
 	padding: 1em 1.618em;
 }
 
+.highlight  {
+	background:  #fcfcfc;
+}
+
+table td {
+	border: 1px solid #e1e4e5;
+	padding: 6px;
+}
+
 /* right - footer */
 
 footer {
-	padding: 1em;
 	font-size: 1rem;
 	font-size: 0.9em;
+	margin-top: 2.6rem;
 }
 footer p {
 	margin-bottom: 0;
@@ -157,6 +219,143 @@ footer p {
 .rst-footer-buttons {
 	padding-bottom: 1em;
 }
+
+.btn-neutral {
+	width: 49%;
+	padding: 1rem 0;
+	background: #fff !important;
+	border-radius: 0;
+	box-shadow: none;
+	border: 1px solid #e1e4e5;
+}
+a.btn-neutral {
+	border-bottom-color: #e1e4e5;
+}
+a.btn-neutral:hover {
+	background: #fff !important;
+	border-color: #3051F2;
+	transition: border-color 0.3s ease-in-out;
+	color: #3051F2;
+}
+
+
+
+
+
+/* homepage */
+#nebulas-wiki.section {
+	padding: 0;
+}
+
+span#nebulas-wiki {
+	display: none;
+}
+
+#nebulas-wiki h1 {
+
+}
+
+#welcome-to-the-open-source-nebulas-wiki.section {
+
+}
+
+#welcome-to-the-open-source-nebulas-wiki h2 {
+	padding-bottom: 3rem;
+}
+
+#use-wiki.section {
+	margin: 0 auto;
+	padding-top: 3rem;
+}
+
+#use-wiki.section #mainnet.section, #use-wiki.section #dapps.section, #use-wiki.section #ecosystem.section,
+#use-wiki.section #id1.section, #use-wiki.section #id2.section,
+#use-wiki.section #id3.section {
+    width: 30%;
+    display: block;
+    border: 1px solid #cbcbcb;
+    padding: 235px 0 30px 0;
+    float: left;
+    margin-right: 3%;
+    margin-bottom: 2rem;
+}
+
+#use-wiki.section .section:hover {
+	box-shadow: 0 0 45px 0 rgba(14,15,18,0.13);
+}
+
+#use-wiki.section .section h3 {
+	padding: 0 2rem;
+}
+
+#use-wiki.section .section a.reference {
+    display: block;
+    border: 1px solid #000;
+    height: 2.6rem;
+    line-height: 2.6rem;
+    text-align: center;
+    color: #000;
+    font-weight: normal;
+    font-size: 1rem;
+    background-size: 165px 165px;
+}
+
+#use-wiki.section .section a.reference:hover {
+	background: #000;
+	color: #fff;
+}
+
+#use-wiki.section .section a.headerlink {
+	display: none;
+}
+
+#use-wiki.section #mainnet.section,
+#use-wiki.section #id1.section {
+	background: #fff url(https://raw.githubusercontent.com/nebulasio/nebdocs/master/docs/resources/overview/icon-mainnet.png) no-repeat 50% 30px;
+}
+
+#use-wiki.section #dapps.section,
+#use-wiki.section #id2.section {
+	background: #fff url(https://raw.githubusercontent.com/nebulasio/nebdocs/master/docs/resources/overview/icon-dapps.png) no-repeat 50% 30px;
+}
+
+#use-wiki.section #ecosystem.section,
+#use-wiki.section #id3.section {
+	background: #fff url(https://raw.githubusercontent.com/nebulasio/nebdocs/master/docs/resources/overview/icon-eco.png) no-repeat 50% 30px;
+}
+
+#use-wiki.section #get-involved.section,
+#use-wiki.section #id4.section {
+    clear: left;
+    background: #f7f7f7 url(https://github.com/nebulasio/nebdocs/blob/master/docs/resources/overview/icon-contribute.png?raw=ture) no-repeat 100% 0;
+    padding: 2em 1.618em;
+    margin: 2em 0;
+}
+
+#use-wiki.section #get-involved.section:hover,
+#use-wiki.section #id4.section:hover
+ {
+	box-shadow: none;
+}
+
+#use-wiki.section #get-involved.section a.reference,
+#use-wiki.section #id4.section a.reference {
+	display: inline-block;
+	padding: 0 3rem;
+}
+
+#use-wiki.section #id4.section .toctree-wrapper,
+#use-wiki.section #id4.section ul.simple{
+	display: none;
+}
+
+
+@media screen and (min-width: 1100px) {
+	.wy-nav-content {
+		background: #fff;
+	}
+}
+
 
 
 /* mobile */
@@ -171,7 +370,93 @@ footer p {
 }
 
 @media screen and (max-width: 768px) {
+    .wy-nav-side {
+    	position: fixed;
+    }
+    .wy-grid-for-nav {
+    	position: absolute;
+    }
 	.wy-nav-content-wrap .wy-nav-content {
-		padding: 0.5em 0 1.618em 0;
+		
 	}
+	#use-wiki.section #mainnet.section, #use-wiki.section #dapps.section, #use-wiki.section #ecosystem.section,
+	#use-wiki.section #id1.section, #use-wiki.section #id2.section,
+	#use-wiki.section #id3.section {
+		width: 100%;
+		margin-right: 0;
+		float: none;
+	}
+	#welcome-to-the-open-source-nebulas-wiki h2 {
+		max-width: 100%;
+		padding-right: 0;
+		padding-bottom: 0;
+		float: none;
+	}
+}
+
+
+
+/* ratio 2 */
+
+@media (-webkit-min-device-pixel-ratio: 2) {
+	#use-wiki.section #mainnet.section,
+	#use-wiki.section #id1.section {
+		background-image: url(https://raw.githubusercontent.com/nebulasio/nebdocs/master/docs/resources/overview/icon-mainnet@2x.png);
+	    background-size: 165px 165px;
+	}
+	#use-wiki.section #dapps.section,
+	#use-wiki.section #id2.section {
+		background-image: url(https://raw.githubusercontent.com/nebulasio/nebdocs/master/docs/resources/overview/icon-dapps@2x.png);
+	    background-size: 165px 165px;
+	}
+	#use-wiki.section #ecosystem.section,
+	#use-wiki.section #id3.section {
+		background-image: url(https://raw.githubusercontent.com/nebulasio/nebdocs/master/docs/resources/overview/icon-eco@2x.png);
+	    background-size: 165px 165px;
+	}
+	#use-wiki.section #get-involved.section,
+	#use-wiki.section #id4.section {
+		background-image: url(https://raw.githubusercontent.com/nebulasio/nebdocs/master/docs/resources/overview/icon-contribute@2x.png?raw=ture);
+	    background-size: 411px 190px;
+	}
+}
+
+
+
+/* version bar */
+.rst-versions {
+	width: 100%;
+	background: #fff;
+	border-top: 1px solid #e1e4e5;
+	color: #999;
+}
+
+.rst-versions .fa-book {
+	padding: 6px 0 0 0;
+}
+
+.rst-versions .rst-other-versions dd a {
+	padding: 6px 1rem 6px 0;
+	color: #3051F2;
+}
+
+
+/* ads */
+.ethical-dark-theme .ethical-sidebar {
+	background: #fff;
+	border-color: #fff;
+	color: #b3b3b3;
+}
+
+
+.ethical-sidebar, .ethical-footer {
+	background-color: #fff;
+	border-color: #fff;
+
+}
+
+
+.wy-nav-side .ethical-rtd {
+	width: auto;
+	padding: 0 3.236em;
 }
