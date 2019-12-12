@@ -425,9 +425,8 @@ span#nebulas-wiki {
 
 /* version bar */
 .rst-versions {
-	width: 100%;
 	background: #fff;
-	border-top: 1px solid #e1e4e5;
+	border: none;
 	color: #999;
 }
 
@@ -441,6 +440,15 @@ span#nebulas-wiki {
 }
 
 
+.rst-versions .rst-current-version {
+	border-radius: 10px 10px 0 0;
+	border-left: 1px solid #272525;
+}
+
+.rst-versions .rst-other-versions {
+	border-left: 1px solid #e1e4e5;
+}
+
 /* ads */
 .ethical-dark-theme .ethical-sidebar {
 	background: #fff;
@@ -452,7 +460,7 @@ span#nebulas-wiki {
 .ethical-sidebar, .ethical-footer {
 	background-color: #fff;
 	border-color: #fff;
-
+    border-radius: 0;
 }
 
 
