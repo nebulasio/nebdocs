@@ -1,12 +1,12 @@
-# Wiki 使用指南
+# 中文编辑指南
 
 ![](https://blog.nebulas.io/wp-content/uploads/2018/12/medium-960x540.jpg)
 
-## 什么是星云Wiki：
+## 关于：
 
 星云Wiki是星云社区协作工具，星云社区成员以协作方式发布各种文档，包括技术文档、相关资料、社区动态等。每个社区成员都可根据自己兴趣参与到星云Wiki的维护中去，并受益于日益完善的星云Wiki。
 
-## 如何参与Wiki维护：
+## 如何参与维护：
 首先你得有个[GitHub账号](https://github.com/)。注册流程非常简单，1分钟内即可搞定。
 ![](https://blog.nebulas.io/wp-content/uploads/2018/12/%E6%9B%BF%E6%8D%A21-1200x642.jpg)
 ![](https://blog.nebulas.io/wp-content/uploads/2018/12/P6-1200x579.jpg)
@@ -73,7 +73,7 @@ https://www.mdeditor.com/
 ![](https://blog.nebulas.io/wp-content/uploads/2018/12/p20-1200x467.jpg)
 
 
-### 在星云Wiki上创建新页面
+## 创建新页面
 **更进一步，如果有社区小伙伴想创建新页面，那么具体该怎么操作呢？**
 
 
