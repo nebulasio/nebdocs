@@ -263,14 +263,14 @@ span#nebulas-wiki {
 	padding-bottom: 3rem;
 }
 
-#use-wiki.section {
+#wiki.section {
 	margin: 0 auto;
 	padding-top: 3rem;
 }
 
-#use-wiki.section #mainnet.section, #use-wiki.section #dapps.section, #use-wiki.section #ecosystem.section,
-#use-wiki.section #id1.section, #use-wiki.section #id2.section,
-#use-wiki.section #id3.section {
+#wiki.section #mainnet.section, #wiki.section #dapps.section, #wiki.section #ecosystem.section,
+#wiki.section #id3.section, #wiki.section #id5.section,
+#wiki.section #id7.section {
     width: 30%;
     display: block;
     border: 1px solid #cbcbcb;
@@ -280,15 +280,15 @@ span#nebulas-wiki {
     margin-bottom: 2rem;
 }
 
-#use-wiki.section .section:hover {
+#wiki.section .section:hover {
 	box-shadow: 0 0 45px 0 rgba(14,15,18,0.13);
 }
 
-#use-wiki.section .section h3 {
+#wiki.section .section h3 {
 	padding: 0 2rem;
 }
 
-#use-wiki.section .section a.reference {
+#wiki.section .section a.reference {
     display: block;
     border: 1px solid #000;
     height: 2.6rem;
@@ -300,52 +300,53 @@ span#nebulas-wiki {
     background-size: 165px 165px;
 }
 
-#use-wiki.section .section a.reference:hover {
+#wiki.section .section a.reference:hover {
 	background: #000;
 	color: #fff;
 }
 
-#use-wiki.section .section a.headerlink {
+#wiki.section .section a.headerlink {
 	display: none;
 }
 
-#use-wiki.section #mainnet.section,
-#use-wiki.section #id1.section {
+#wiki.section #mainnet.section,
+#wiki.section #id3.section {
 	background: #fff url(https://raw.githubusercontent.com/nebulasio/nebdocs/master/docs/resources/overview/icon-mainnet.png) no-repeat 50% 30px;
 }
 
-#use-wiki.section #dapps.section,
-#use-wiki.section #id2.section {
+#wiki.section #dapps.section,
+#wiki.section #id5.section {
 	background: #fff url(https://raw.githubusercontent.com/nebulasio/nebdocs/master/docs/resources/overview/icon-dapps.png) no-repeat 50% 30px;
 }
 
-#use-wiki.section #ecosystem.section,
-#use-wiki.section #id3.section {
+#wiki.section #ecosystem.section,
+#wiki.section #id7.section {
 	background: #fff url(https://raw.githubusercontent.com/nebulasio/nebdocs/master/docs/resources/overview/icon-eco.png) no-repeat 50% 30px;
 }
 
-#use-wiki.section #get-involved.section,
-#use-wiki.section #id4.section {
+#wiki.section #get-involved.section,
+#wiki.section #id9.section {
     clear: left;
     background: #f7f7f7 url(https://github.com/nebulasio/nebdocs/blob/master/docs/resources/overview/icon-contribute.png?raw=ture) no-repeat 100% 0;
     padding: 2em 1.618em;
     margin: 2em 0;
 }
 
-#use-wiki.section #get-involved.section:hover,
-#use-wiki.section #id4.section:hover
+#wiki.section #get-involved.section:hover,
+#wiki.section #id1.section:hover,
+#wiki.section #id9.section:hover
  {
 	box-shadow: none;
 }
 
-#use-wiki.section #get-involved.section a.reference,
-#use-wiki.section #id4.section a.reference {
+#wiki.section #get-involved.section a.reference,
+#wiki.section #id9.section a.reference {
 	display: inline-block;
 	padding: 0 3rem;
 }
 
-#use-wiki.section #id4.section .toctree-wrapper,
-#use-wiki.section #id4.section ul.simple{
+#wiki.section #id9.section .toctree-wrapper,
+#wiki.section #id9.section ul.simple{
 	display: none;
 }
 
@@ -379,9 +380,9 @@ span#nebulas-wiki {
 	.wy-nav-content-wrap .wy-nav-content {
 		
 	}
-	#use-wiki.section #mainnet.section, #use-wiki.section #dapps.section, #use-wiki.section #ecosystem.section,
-	#use-wiki.section #id1.section, #use-wiki.section #id2.section,
-	#use-wiki.section #id3.section {
+	#wiki.section #mainnet.section, #wiki.section #dapps.section, #wiki.section #ecosystem.section,
+	#wiki.section #id3.section, #wiki.section #id5.section,
+	#wiki.section #id7.section {
 		width: 100%;
 		margin-right: 0;
 		float: none;
@@ -399,23 +400,23 @@ span#nebulas-wiki {
 /* ratio 2 */
 
 @media (-webkit-min-device-pixel-ratio: 2) {
-	#use-wiki.section #mainnet.section,
-	#use-wiki.section #id1.section {
+	#wiki.section #mainnet.section,
+	#wiki.section #id3.section {
 		background-image: url(https://raw.githubusercontent.com/nebulasio/nebdocs/master/docs/resources/overview/icon-mainnet@2x.png);
 	    background-size: 165px 165px;
 	}
-	#use-wiki.section #dapps.section,
-	#use-wiki.section #id2.section {
+	#wiki.section #dapps.section,
+	#wiki.section #id5.section {
 		background-image: url(https://raw.githubusercontent.com/nebulasio/nebdocs/master/docs/resources/overview/icon-dapps@2x.png);
 	    background-size: 165px 165px;
 	}
-	#use-wiki.section #ecosystem.section,
-	#use-wiki.section #id3.section {
+	#wiki.section #ecosystem.section,
+	#wiki.section #id7.section {
 		background-image: url(https://raw.githubusercontent.com/nebulasio/nebdocs/master/docs/resources/overview/icon-eco@2x.png);
 	    background-size: 165px 165px;
 	}
-	#use-wiki.section #get-involved.section,
-	#use-wiki.section #id4.section {
+	#wiki.section #get-involved.section,
+	#wiki.section #id9.section {
 		background-image: url(https://raw.githubusercontent.com/nebulasio/nebdocs/master/docs/resources/overview/icon-contribute@2x.png?raw=ture);
 	    background-size: 411px 190px;
 	}
@@ -428,6 +429,8 @@ span#nebulas-wiki {
 	background: #fff;
 	border: none;
 	color: #999;
+	right: 0;
+	left: auto;
 }
 
 .rst-versions .fa-book {
@@ -457,14 +460,14 @@ span#nebulas-wiki {
 }
 
 
-.ethical-sidebar, .ethical-footer {
+.ethical-sidebar, .ethical-footer, .wy-body-for-nav .ethical-sidebar, .wy-body-for-nav .ethical-footer {
 	background-color: #fff;
 	border-color: #fff;
     border-radius: 0;
 }
 
 
-.wy-nav-side .ethical-rtd {
+.wy-nav-side .ethical-rtd, .wy-body-for-nav .wy-nav-side .ethical-rtd {
 	width: auto;
 	padding: 0 3.236em;
 }
