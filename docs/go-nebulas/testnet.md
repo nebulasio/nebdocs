@@ -13,7 +13,7 @@
 * **NBRE:** 星云区块链运行时环境，运行Nebulas Protocol Representation的平台，例如DIP，NR等。
 * **NEB:** 星云主网的主进程。 `NEB`和`NBRE`运行于独立进程中，两者通过IPC进行通信。
 
-有关编译的详细信息，请参阅 [tutorials](http://wiki.nebulas.io/en/latest/go-nebulas/tutorials/01-installation.html#compile-nebulas).
+有关编译的详细信息，请参阅 [tutorials](tutorials/01-installation.html#compile-nebulas).
 
 ### 配置文件
 
@@ -49,14 +49,14 @@ Test Endpoint:
 | --- | :---: | :---: |
 | RESTful | [https://testnet.nebulas.io/](https://testnet.nebulas.io/) | HTTP |
 
-* [GetNebState](https://github.com/nebulasio/wiki/blob/master/rpc.md#getnebstate) : returns nebulas client info.
-* [GetAccountState](https://github.com/nebulasio/wiki/blob/master/rpc.md#getaccountstate): returns the account balance and nonce.
-* [LatestIrreversibleBlock](https://github.com/nebulasio/wiki/blob/master/rpc.md#latestirreversibleblock): returns the lastest irreversible block.
-* [Call](https://github.com/nebulasio/wiki/blob/master/rpc.md#call): execute smart contract locally. the tx won't be submitted on chain.
-* [SendRawTransaction](https://github.com/nebulasio/wiki/blob/master/rpc.md#sendrawtransaction): submit signed transaction. The transaction must be signed before send.
-* [GetTransactionReceipt](https://github.com/nebulasio/wiki/blob/master/rpc.md#gettransactionreceipt): get transaction receipt info by tansaction hash.
+* [GetNebState](dapp-development/rpc/README.rst#getnebstate) : returns nebulas client info.
+* [GetAccountState](dapp-development/rpc/README.rst#getaccountstate): returns the account balance and nonce.
+* [LatestIrreversibleBlock](dapp-development/rpc/README.rst#latestirreversibleblock): returns the lastest irreversible block.
+* [Call](dapp-development/rpc/README.rst#call): execute smart contract locally. the tx won't be submitted on chain.
+* [SendRawTransaction](dapp-development/rpc/README.rst#sendrawtransaction): submit signed transaction. The transaction must be signed before send.
+* [GetTransactionReceipt](dapp-development/rpc/README.rst#gettransactionreceipt): get transaction receipt info by tansaction hash.
 
-更多的星云 APIs ： [RPC](https://github.com/nebulasio/wiki/blob/master/rpc.md).
+更多的星云 APIs ： [RPC](dapp-development/rpc/README.rst).
 
 #### 申领测试NAS币
 

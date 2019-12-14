@@ -1,6 +1,6 @@
-# debuging-with-gdb
+# GDB调试
 
-## OverView
+## 概览
 
 Last week we found a lot of “Failed to update latest irreversible block.” in neb log with Leon. The reference code \(nebulasio/go-nebulas/core/blockchain.go updateLatestIrreversibleBlock \) ， in the code we found the cur variable is not equal to the tail variable , why? to find the cause, we try to use tool to dynamically display variable information and facilitate single-step debugging.
 

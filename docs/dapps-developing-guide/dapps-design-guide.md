@@ -1,1 +1,0 @@
-# DApps Design Guide

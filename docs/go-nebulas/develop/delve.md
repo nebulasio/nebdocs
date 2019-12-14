@@ -1,4 +1,4 @@
-# How to debug Go-Nebulas project
+# 如何debug星云项目
 
 作者：Wenbo Liu [aries.lwb@gmail.com](mailto:aries.lwb@gmail.com), July 17, 2017
 

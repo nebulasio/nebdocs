@@ -13,7 +13,7 @@ Nebulas Mainnet 2.0（Nebulas Nova）已经发布。 本教程将教您如何加
 * **NBRE:** 星云区块链运行时环境，运行Nebulas Protocol Representation的平台，例如DIP，NR等。
 * **NEB:** 星云主网的主进程。 `NEB`和`NBRE`运行于独立进程中，两者通过IPC进行通信。
 
-有关编译的详细信息，请参阅 [tutorials](http://wiki.nebulas.io/en/latest/go-nebulas/tutorials/01-installation.html#compile-nebulas).
+有关编译的详细信息，请参阅 [tutorials](tutorials/01-installation.html#compile-nebulas).
 
 
 ### 配置文件
@@ -43,6 +43,48 @@ Mainnet配置文件位于文件夹 [`mainnet/conf`](https://github.com/nebulasio
 seed:["/ip4/52.2.205.12/tcp/8680/ipfs/QmQK7W8wrByJ6So7rf84sZzKBxMYmc1i4a7JZsne93ysz5","/ip4/52.56.55.238/tcp/8680/ipfs/QmVy9AHxBpd1iTvECDR7fvdZnqXeDhnxkZJrKsyuHNYKAh","/ip4/13.251.33.39/tcp/8680/ipfs/QmVm5CECJdPAHmzJWN2X7tP335L5LguGb9QLQ78riA9gw3"]
 ```
 
+#### Miner config 
+Nodes can participate in mining and share rewards after signing up for mining. The miner node needs to turn on the mine switch and configure both the miner address and reward address(coinbase).
+
+miner config example:
+
+```
+chain {
+  # mainnet chainID
+  chain_id: 1
+  # mainnet datadir, should be different with private chain
+  datadir: "mainnet/data.db"
+  keydir: "keydir"
+  # mainnet genesis.conf
+  genesis: "mainnet/conf/genesis.conf"
+  # mainnet dynasty.conf
+  dynasty: "mainnet/conf/dynasty.conf"
+  
+  # start mine
+  start_mine: true
+  # receive the mining award, must change to your address
+  coinbase: "n1XkoVVjswb5Gek3rRufqjKNpwrDdsnQ7Hq"
+  # block signature address, needs to be placed in the node's configuration `keydir`. Also make sure that the address is the node address at the time of registration
+  miner: "n1FF1nz6tarkDVwWQkMnnwFPuPKUaQTdptE"
+  # 
+  passphrase: "passphrase"
+
+  signature_ciphers: ["ECC_SECP256K1"]
+}
+```
+
+### Synchronization
+
+Since Nebulas mainnet is running there for certain period of time, it will take quite some time to sync all the mainnet data from scratch. 
+
+For developers' convenience, we provided a offline data package, which already includes the data of more than 1 million blocks, you can download the package directly by following either link below (choose whichever is faster for you):
+- [`download from AWS s3`](https://s3-us-west-1.amazonaws.com/develop-center/data/mainnet/data.db.tar.gz)
+- [`download from Aliyun oss`](http://develop-center.oss-cn-zhangjiakou.aliyuncs.com/data/mainnet/data.db.tar.gz)
+
+> Please note that, the data package should be put under the same path of "datadir" as specified in your `config.conf` file.
+
+
+
 ### API 列表
 
 Main Endpoint:
@@ -51,13 +93,13 @@ Main Endpoint:
 | --- | :---: | :---: |
 | RESTful | [https://mainnet.nebulas.io/](https://mainnet.nebulas.io/) | HTTP |
 
-* [GetNebState](https://github.com/nebulasio/wiki/blob/master/rpc.md#getnebstate) : returns nebulas client info.
-* [GetAccountState](https://github.com/nebulasio/wiki/blob/master/rpc.md#getaccountstate): returns the account balance and nonce.
-* [Call](https://github.com/nebulasio/wiki/blob/master/rpc.md#call): execute smart contract local, don't submit on chain.
-* [SendRawTransaction](https://github.com/nebulasio/wiki/blob/master/rpc.md#sendrawtransaction): submit the signed transaction.
-* [GetTransactionReceipt](https://github.com/nebulasio/wiki/blob/master/rpc.md#gettransactionreceipt): get transaction receipt info by tansaction hash.
+* [GetNebState](dapp-development/rpc/README.rst#getnebstate) : returns nebulas client info.
+* [GetAccountState](dapp-development/rpc/README.rst#getaccountstate): returns the account balance and nonce.
+* [Call](dapp-development/rpc/README.rst#call): execute smart contract local, don't submit on chain.
+* [SendRawTransaction](dapp-development/rpc/README.rst#sendrawtransaction): submit the signed transaction.
+* [GetTransactionReceipt](dapp-development/rpc/README.rst#gettransactionreceipt): get transaction receipt info by tansaction hash.
 
-更多的星云 APIs ： [RPC](https://github.com/nebulasio/wiki/blob/master/rpc.md).
+更多星云 APIs ： [RPC](dapp-development/rpc/README.rst).
 
 ## 教程
 
@@ -69,5 +111,5 @@ Main Endpoint:
 
 ## 作出贡献
 
-可随意加入Nebulas Mainnet。 如果你确实发现了什么问题，请 [submit a issue](https://github.com/nebulasio/go-nebulas/issues/new) or [submit a pull request](https://github.com/nebulasio/go-nebulas/pulls) 来让我们知道, 我们会尽快将您的姓名和网址添加到此页面。
+可随意加入星云主网。如果你发现了问题，请 [提交Bug](https://github.com/nebulasio/go-nebulas/issues/new) 或者 [提交改动](https://github.com/nebulasio/go-nebulas/pulls) 来帮助社区。
 

@@ -1,4 +1,4 @@
-# Nebulas 101 - 01 编译安装星云链
+# 01 编译安装星云链
 
 [星云链](https://nebulas.io/)的项目代码已经发布了几个版本，经过测试可以在本地运行，大家可以下载星云链源代码在本地编译私有链。
 
@@ -303,5 +303,5 @@ cd $GOPATH/src/github.com/nebulasio/go-nebulas
 
 ### 下一章
 
-[在星云链上发送交易](01-installation.md)
+[在星云链上发送交易](02-transaction.md)
 

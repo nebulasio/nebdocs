@@ -1,4 +1,4 @@
-# Contribution Guideline
+# 共建指南
 
 The go-nebulas project welcomes all contributors. The process of contributing to the Go project may be different than many projects you are used to. This document is intended as a guide to help you through the contribution process. This guide assumes you have a basic understanding of Git and Go.
 

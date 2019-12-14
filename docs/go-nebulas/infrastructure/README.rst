@@ -1,4 +1,4 @@
-Infrastructure
+基础设施
 ==============
 
 .. toctree::
@@ -6,9 +6,5 @@ Infrastructure
 
     network_protocol.md
     crypto/README.md
-    nebulas_v8.md
-    llvm_engine.md
     permission_control_in_smart_contract.md
-    NBRE-Overview.md
-    JIT.md
-    IPC.md
+    NBRE/README.md

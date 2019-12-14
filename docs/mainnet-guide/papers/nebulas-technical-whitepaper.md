@@ -1,1 +1,0 @@
-# Nebulas Technical Whitepaper
