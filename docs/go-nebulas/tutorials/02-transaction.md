@@ -2,7 +2,7 @@
 
 [Youtube Tutorial](https://www.youtube.com/watch?v=_Njq8LX2r-4)
 
-> For this portion of the tutorial we will pick up where we left off in the [Installation tutorial](https://github.com/nebulasio/nebdocs/blob/master/docs/go-nebulas/tutorials/01-installation.md).
+> For this portion of the tutorial we will pick up where we left off in the [Installation tutorial](01-installation.md).
 
 Nebulas provides three methods to send transactions：
 
@@ -34,7 +34,7 @@ Repeat passphrase:
 Address: n1SQe5d1NKHYFMKtJ5sNHPsSPVavGzW71Wy
 ```
 
-> When you run this command you will have a different wallet address with `n1FF1nz6tarkDVwWQkMnnwFPuPKUaQTdptE`. Please use your generated address as the receiver.
+When you run this command you will have a different wallet address with `n1FF1nz6tarkDVwWQkMnnwFPuPKUaQTdptE`. Please use your generated address as the receiver.
 
 The keystore file of the new wallet will be located in `$GOPATH/src/github.com/nebulasio/go-nebulas/keydir/`
 
@@ -56,8 +56,8 @@ Secondly, start a miner node connecting to the seed node. This node will generat
 ./neb -c conf/example/miner.conf
 ```
 
-> **How long a new block will be minted?**
->
+**How long a new block will be minted?**
+
 > In Nebulas, DPoS is chosen as the temporary consensus algorithm before Proof-of-Devotion\(PoD, described in [Technical White Paper](https://nebulas.io/docs/NebulasTechnicalWhitepaper.pdf)\) is ready. In this consensus algorithm, each miner will mint new block one by one every 15 seconds.
 >
 > In current context, we have to wait for 315\(=15\*21\) seconds to get a new block because there is only one miner among 21 miners defined in `conf/default/genesis.conf` working now.
@@ -66,9 +66,9 @@ Once a new block minted by the miner, the mining reward will be added to the coi
 
 ## Interact with Nodes
 
-Nebulas provides developers with HTTP API, gRPC API and CLI to interact with the running nodes. Here, we will share how to send a transaction in three methods with HTTP API \([API Module](https://github.com/nebulasio/wiki/blob/master/rpc.md) \| [Admin Module](https://github.com/nebulasio/wiki/blob/master/rpc_admin.md)\).
+Nebulas provides developers with HTTP API, gRPC API and CLI to interact with the running nodes. Here, we will share how to send a transaction in three methods with HTTP API \([API Module](../dapp-development/rpc/README.html) \| [Admin Module](../dapp-development/rpc/rpc_admin.md)\).
 
-> The Nebulas HTTP Lisenter is defined in the node configuration. The default port of our seed node is `8685`.
+The Nebulas HTTP Lisenter is defined in the node configuration. The default port of our seed node is `8685`.
 
 At first, check the sender's balance before sending a transaction.
 

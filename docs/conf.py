@@ -59,9 +59,9 @@ source_suffix = ['.rst', '.md']
 master_doc = 'index'
 
 # General information about the project.
-project = u'docs'
-copyright = u'2017-2019, nebulas'
-author = u'nebulas'
+project = u'Nebulas Wiki'
+copyright = u'2017-2019, Nebulas'
+author = u'Nebulas'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -130,7 +130,7 @@ html_favicon = 'resources/favicon.ico'
 html_static_path = ['_static']
 
 def setup(app):
-    app.add_stylesheet('css/custom.css?v=20191212')
+    app.add_stylesheet('css/custom.css?v=20191218')
 
 # -- Options for HTMLHelp output ------------------------------------------
 

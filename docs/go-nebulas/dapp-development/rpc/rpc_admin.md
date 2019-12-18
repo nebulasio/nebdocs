@@ -1,6 +1,6 @@
 # Management RPC
 
-Beside the [NEB API RPC](https://github.com/nebulasio/wiki/blob/master/rpc.md) interface nebulas provides additional management APIs. Neb console supports both API and management interfaces. Management RPC uses the same gRPC and HTTP port, which also binds [NEB API RPC](https://github.com/nebulasio/wiki/blob/master/rpc.md) interfaces.
+Beside the [NEB API RPC](README.html) interface nebulas provides additional management APIs. Neb console supports both API and management interfaces. Management RPC uses the same gRPC and HTTP port, which also binds [NEB API RPC](README.html) interfaces.
 
 Nebulas provide both [gRPC](https://grpc.io) and RESTful management APIs for users to interact with Nebulas. Our admin [proto](https://github.com/nebulasio/go-nebulas/blob/develop/rpc/pb/rpc.proto) file defines all admin APIs. **We recommend using the console access admin interfaces, or restricting the admin RPC to local access.**
 
@@ -239,7 +239,7 @@ SignTransactionWithPassphrase sign transaction. The transaction's `from` address
 
 
 ###### Parameters
-`transaction` this is the same as the [SendTransaction](https://github.com/nebulasio/wiki/blob/master/rpc_admin.md#sendtransaction) parameters.
+`transaction` this is the same as the [SendTransaction](#sendtransaction) parameters.
 
 `passphrase` from account passphrase
 
@@ -270,7 +270,7 @@ SendTransactionWithPassphrase send transaction with passphrase.
 
 
 ###### Parameters
-`transaction` transaction parameters, which are the same as the [SendTransaction](https://github.com/nebulasio/wiki/blob/master/rpc_admin.md#sendtransaction) parameters.
+`transaction` transaction parameters, which are the same as the [SendTransaction](#sendtransaction) parameters.
 
 `passphrase` `from` address passphrase.
 
@@ -339,8 +339,8 @@ Notice:
 
 * `from = to` when deploying a contract, the `to` address must be equal to the `from` address.
 
-* `nonce` the value is **plus one**(+1) on the nonce value of the current from address. Current nonce can be obtained from [GetAccountState](https://github.com/nebulasio/wiki/blob/master/rpc.md/#getaccountstate).
-* `gasPrice` and `gasLimit` needed for every transaction. We recommend using [GetGasPrice](https://github.com/nebulasio/wiki/blob/master/rpc.md/#getgasprice) and [EstimateGas](https://github.com/nebulasio/wiki/blob/master/rpc.md/#estimategas).
+* `nonce` the value is **plus one**(+1) on the nonce value of the current from address. Current nonce can be obtained from [GetAccountState](README.html#getaccountstate).
+* `gasPrice` and `gasLimit` needed for every transaction. We recommend using [GetGasPrice](README.html#getgasprice) and [EstimateGas](README.html#estimategas).
 * `contract` parameter only needed for smart contract deployment and calling. When a smart contract is deployed, the `source` and `sourceType` must be specified, the `args` are optional and passed when the initialization function takes a parameter. The `function` field is used to call the contract method.
 
 ###### Returns

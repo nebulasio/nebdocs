@@ -221,15 +221,15 @@ We have a convention that if `from` and `to` are the same address, `contract` is
 * `from`: the creator's address
 * `to`: the creator's address
 * `value`: it should be `"0"` when deploying the contract;
-* `nonce`: it should be 1 more than the current nonce in the creator's account state, which can ben obtained via [`GetAccountState`](https://github.com/nebulasio/wiki/blob/master/rpc.md#getaccountstate).
-* `gasPrice`: The gasPrice used to deploy the smart contract, which can be obtained via [`GetGasPrice`](https://github.com/nebulasio/wiki/blob/master/rpc.md#getgasprice), or using default values: `"20000000000"`;
-* `gasLimit`: The gasLimit for deploying the contract. You can get the estimated gas consumption for the deployment via [`EstimateGas`](https://github.com/nebulasio/wiki/blob/master/rpc.md#estimateGas), and cannot use the default value. And you could also set a larger value. The actual gas consumption is decided by the deployment execution.
+* `nonce`: it should be 1 more than the current nonce in the creator's account state, which can ben obtained via [`GetAccountState`](../dapp-development/rpc/README.html#getaccountstate).
+* `gasPrice`: The gasPrice used to deploy the smart contract, which can be obtained via [`GetGasPrice`](../dapp-development/rpc-README.html#getgasprice), or using default values: `"20000000000"`;
+* `gasLimit`: The gasLimit for deploying the contract. You can get the estimated gas consumption for the deployment via [`EstimateGas`](../dapp-development/rpc/README.html#estimateGas), and cannot use the default value. And you could also set a larger value. The actual gas consumption is decided by the deployment execution.
 * `contract`: the contract information, the parameters passed in when the contract is deployed
   * `source`: contract code
   * `sourceType`: Contract code type, `js` and `ts` \(corresponding to javaScript and typeScript code\)
   * `args`: parameters for the contract initialization method. Use empty string if there is no parameter, and use JSON array if there is a parameter.
 
-Detailed Interface Documentation [API](https://github.com/nebulasio/wiki/blob/master/rpc_admin.md#sendtransactionwithpassphrase).
+Detailed Interface Documentation [API](../dapp-development/rpc/rpc_admin.md#sendtransactionwithpassphrase).
 
 Example of deploying a smart contract using curl:
 
@@ -243,7 +243,7 @@ The return value for deploying a smart contract is the transaction's hash addres
 
 > **Verify the deployment of the contract is successful**
 >
-> Check the receipt of the deploy transaction via [`GetTransactionReceipt`](https://github.com/nebulasio/wiki/blob/master/rpc.md#gettransactionreceipt) to verify whether the contract has been deployed successfully.
+> Check the receipt of the deploy transaction via [`GetTransactionReceipt`](../dapp-development/rpc/README.html#gettransactionreceipt) to verify whether the contract has been deployed successfully.
 >
 > ```bash
 > > curl -i -H 'Content-Type: application/json' -X POST http://localhost:8685/v1/user/getTransactionReceipt -d '{"hash":"aaebb86d15ca30b86834efb600f82cbcaf2d7aaffbe4f2c8e70de53cbed17889"}'
@@ -265,9 +265,9 @@ sendTransactionWithPassphrase(transaction, passphrase)
 * `from`: the user's account address
 * `to`: the smart contract address
 * `value`: The amount of money used to transfer by smart contract.
-* `nonce`: it should be 1 more than the current nonce in the creator's account state, which can ben obtained via [`GetAccountState`](https://github.com/nebulasio/wiki/blob/master/rpc.md#getaccountstate).
-* `gasPrice`: The gasPrice used to deploy the smart contract, which can be obtained via [`GetGasPrice`](https://github.com/nebulasio/wiki/blob/master/rpc.md#getgasprice), or using default values `"20000000000"`;
-* `gasLimit`: The gasLimit for deploying the contract. You can get the estimated gas consumption for the deployment via [`EstimateGas`](https://github.com/nebulasio/wiki/blob/master/rpc.md#estimateGas), and cannot use the default value. And you could also set a larger value. The actual gas consumption is decided by the deployment execution.
+* `nonce`: it should be 1 more than the current nonce in the creator's account state, which can ben obtained via [`GetAccountState`](../dapp-development/rpc/README.html#getaccountstate).
+* `gasPrice`: The gasPrice used to deploy the smart contract, which can be obtained via [`GetGasPrice`](../dapp-development/rpc/README.html#getgasprice), or using default values `"20000000000"`;
+* `gasLimit`: The gasLimit for deploying the contract. You can get the estimated gas consumption for the deployment via [`EstimateGas`](../dapp-deevelopment/rpc/README.html#estimateGas), and cannot use the default value. And you could also set a larger value. The actual gas consumption is decided by the deployment execution.
 * `contract`: the contract information, the parameters passed in when the contract is deployed
   * `function`:the contract method to be called
   * `args`: parameters for the contract initialization method. Use empty string if there is no parameter, and use JSON array if there is a parameter.
@@ -280,7 +280,7 @@ For example, execute save\(\) method of the smart contract:
 {"result":{"txhash":"5337f1051198b8ac57033fec98c7a55e8a001dbd293021ae92564d7528de3f84","contract_address":""}}
 ```
 
-> **Verify the execution of the contract method **`save`** is successful** Executing a contract method is actually submitting a transaction on chain as well. We can verify the result through checking the receipt of the transaction via [`GetTransactionReceipt`](https://github.com/nebulasio/wiki/blob/master/rpc.md#gettransactionreceipt).
+> **Verify the execution of the contract method **`save`** is successful** Executing a contract method is actually submitting a transaction on chain as well. We can verify the result through checking the receipt of the transaction via [`GetTransactionReceipt`](../dapp-development/rpc/README.html#gettransactionreceipt).
 >
 > ```bash
 > > curl -i -H 'Content-Type: application/json' -X POST http://localhost:8685/v1/user/getTransactionReceipt -d '{"hash":"5337f1051198b8ac57033fec98c7a55e8a001dbd293021ae92564d7528de3f84"}'

@@ -121,7 +121,7 @@ Interviews with Members of the Community:
 Events
 ------
 
-Since June 2017, the Nebulas meetups and hackathons (more than 60 meetups) have been held in 20 cities, 9 countries around the world. We have visited the University of California, Berkeley, the New York University, Columbia University, Harvard University, the Singapore University of Social Sciences, Tsinghua University, Tongji University, and many others. View the `events history <https://medium.com/nebulasio/nebulas-events-7a8674690d77>`_ You are welcome to organize local meetups and participate in the history of Nebulas.
+Since June 2017, the Nebulas meetups and hackathons (more than 60 meetups) have been held in 20 cities, 9 countries around the world. We have visited the University of California, Berkeley, the New York University, Columbia University, Harvard University, the Singapore University of Social Sciences, Tsinghua University, Tongji University, and many others. View the `events history <https://medium.com/nebulasio/nebulas-events-7a8674690d77>`_ . You are welcome to organize local meetups and participate in the history of Nebulas.
 
 |Nebulas Community|
 

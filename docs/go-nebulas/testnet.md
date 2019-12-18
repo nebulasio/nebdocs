@@ -43,14 +43,13 @@ Test Endpoint:
 | --- | :---: | :---: |
 | RESTful | [https://testnet.nebulas.io/](https://testnet.nebulas.io/) | HTTP |
 
-* [GetNebState](https://github.com/nebulasio/wiki/blob/master/rpc.md#getnebstate): returns nebulas client info.
-* [GetAccountState](https://github.com/nebulasio/wiki/blob/master/rpc.md#getaccountstate): returns the account balance and nonce.
-* [LatestIrreversibleBlock](https://github.com/nebulasio/wiki/blob/master/rpc.md#latestirreversibleblock): returns the latest irreversible block.
-* [Call](https://github.com/nebulasio/wiki/blob/master/rpc.md#call): execute smart contract locally. The tx won't be submitted on chain.
-* [SendRawTransaction](https://github.com/nebulasio/wiki/blob/master/rpc.md#sendrawtransaction): submit signed transaction. The transaction must be signed before sending.
-* [GetTransactionReceipt](https://github.com/nebulasio/wiki/blob/master/rpc.md#gettransactionreceipt): get transaction receipt info from the transaction hash.
+* [GetNebState](dapp-development/rpc/README.html#getnebstate) : returns nebulas client info.
+* [GetAccountState](dapp-development/rpc/README.html#getaccountstate): returns the account balance and nonce.
+* [Call](dapp-development/rpc/README.html#call): execute smart contract local, don't submit on chain.
+* [SendRawTransaction](dapp-development/rpc/README.html#sendrawtransaction): submit the signed transaction.
+* [GetTransactionReceipt](dapp-development/rpc/README.html#gettransactionreceipt): get transaction receipt info by tansaction hash.
 
-More Nebulas APIs at [RPC](https://github.com/nebulasio/wiki/blob/master/rpc.md).
+More Nebulas APIs at [RPC](dapp-development/rpc/README.html).
 
 #### Claim Tokens
 Each email can claim tokens every day [here](https://testnet.nebulas.io/claim).

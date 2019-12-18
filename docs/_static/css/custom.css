@@ -358,6 +358,63 @@ span#nebulas-wiki {
 
 
 
+
+
+/* version bar */
+.rst-versions {
+	background: #fff;
+	border: none;
+	color: #999;
+	right: 0;
+	left: auto;
+}
+
+.rst-versions .fa-book {
+	padding: 6px 0 0 0;
+}
+
+.rst-versions .rst-other-versions dd a {
+	padding: 6px 1rem 6px 0;
+	color: #3051F2;
+}
+
+
+.rst-versions .rst-current-version {
+	border-radius: 10px 10px 0 0;
+	border-left: 1px solid #272525;
+}
+
+.rst-versions .rst-other-versions {
+	border-left: 1px solid #e1e4e5;
+}
+
+/* ads */
+.ethical-dark-theme .ethical-sidebar {
+	background: #fff;
+	border-color: #fff;
+	color: #b3b3b3;
+}
+
+
+
+.ethical-sidebar, .ethical-footer, .wy-body-for-nav .ethical-dark-theme .ethical-sidebar, .wy-body-for-nav .ethical-sidebar, .wy-body-for-nav .ethical-footer {
+	background-color: #fff;
+	border-color: #fff;
+    border-radius: 0;
+}
+
+
+.wy-nav-side .ethical-rtd, .wy-body-for-nav .wy-nav-side .ethical-rtd {
+	width: auto;
+	padding: 0 3.236em;
+}
+
+
+
+
+
+
+
 /* mobile */
 /* mobile menu */
 .wy-nav-top {
@@ -370,6 +427,10 @@ span#nebulas-wiki {
 }
 
 @media screen and (max-width: 768px) {
+	.rst-versions {
+		right: auto;
+		left: 0;
+	}
     .wy-nav-side {
     	position: fixed;
     }
@@ -419,54 +480,4 @@ span#nebulas-wiki {
 		background-image: url(https://raw.githubusercontent.com/nebulasio/nebdocs/master/docs/resources/overview/icon-contribute@2x.png?raw=ture);
 	    background-size: 411px 190px;
 	}
-}
-
-
-
-/* version bar */
-.rst-versions {
-	background: #fff;
-	border: none;
-	color: #999;
-	right: 0;
-	left: auto;
-}
-
-.rst-versions .fa-book {
-	padding: 6px 0 0 0;
-}
-
-.rst-versions .rst-other-versions dd a {
-	padding: 6px 1rem 6px 0;
-	color: #3051F2;
-}
-
-
-.rst-versions .rst-current-version {
-	border-radius: 10px 10px 0 0;
-	border-left: 1px solid #272525;
-}
-
-.rst-versions .rst-other-versions {
-	border-left: 1px solid #e1e4e5;
-}
-
-/* ads */
-.ethical-dark-theme .ethical-sidebar {
-	background: #fff;
-	border-color: #fff;
-	color: #b3b3b3;
-}
-
-
-.ethical-sidebar, .ethical-footer, .wy-body-for-nav .ethical-sidebar, .wy-body-for-nav .ethical-footer {
-	background-color: #fff;
-	border-color: #fff;
-    border-radius: 0;
-}
-
-
-.wy-nav-side .ethical-rtd, .wy-body-for-nav .wy-nav-side .ethical-rtd {
-	width: auto;
-	padding: 0 3.236em;
 }

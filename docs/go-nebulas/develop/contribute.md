@@ -6,9 +6,6 @@ The go-nebulas project welcomes all contributors. The process of contributing to
 
 Before you can contribute to the go-nebulas project you need to setup a few prerequisites.
 
-### Contributor License Agreement
-
-TBD.
 
 ## Preparing a Development Environment for Contributing
 
@@ -18,13 +15,13 @@ TBD.
 
 [dep](https://github.com/golang/dep) is an \(not-yet\) official dependency management tool for Go. go-nebulas project use it to management all dependencies.
 
-For more information, please visit [https://github.com/golang/dep](https://github.com/golang/dep)
+For more information, please visit [here](https://github.com/golang/dep)
 
 #### 2. Linter for Go source code
 
 [Golint](https://github.com/golang/lint) is official linter for Go source code. Every Go source file in go-nebulas must be satisfied the style guideline. The mechanically checkable items in style guideline are listed in [Effective Go](https://golang.org/doc/effective_go.html) and the [CodeReviewComments wiki page](https://golang.org/wiki/CodeReviewComments).
 
-For more information about Golint, please visit [https://github.com/golang/lint](https://github.com/golang/lint).
+For more information about Golint, please visit [here](https://github.com/golang/lint).
 
 #### 3. XUnit output for Go Test
 
@@ -36,11 +33,11 @@ For more information about Golint, please visit [https://github.com/golang/lint]
 
 The project welcomes submissions but please let everyone know what you're working on if you want to change or add to the go-nebulas project.
 
-Before undertaking to write something new for the go-nebulas, please [file an issue](https://github.com/nebulasio/go-nebulas/issues/new) \(or claim an [existing issue](https://github.com/nebulasio/go-nebulas/issues)\). Significant changes must go through the [change proposal process](https://github.com/nebulasio/wiki/blob/master/change_proposal_process.md) before they can be accepted.
+Before undertaking to write something new for the go-nebulas, please [file an issue](https://github.com/nebulasio/go-nebulas/issues/new) \(or claim an [existing issue](https://github.com/nebulasio/go-nebulas/issues)\). Significant changes must go through the change proposal process before they can be accepted.
 
 This process gives everyone a chance to validate the design, helps prevent duplication of effort, and ensures that the idea fits inside the goals for the language and tools. It also checks that the design is sound before code is written; the code review tool is not the place for high-level discussions.
 
-Besides that, you can have an instant discussion with core developers in **developers** channel of [Nebulas.IO on Slack](https://nebulasio.herokuapp.com).
+Besides that, you can have an instant discussion with core developers in **developers** channel of [Nebulas.IO on Community.nebulas.io](https://community.nebulas.io).
 
 ### Making a change
 
@@ -59,7 +56,7 @@ $ cd go-nebulas
 
 #### Contributing to the main repo
 
-Most Go installations project use a release branch, but new changes should only be made based on the **develop** branch. \(They may be applied later to a release branch as part of the [release process](https://github.com/nebulasio/wiki/blob/master/release_process.md), but most contributors won't do this themselves.\) Before making a change, make sure you start on the **develop** branch:
+Most Go installations project use a release branch, but new changes should only be made based on the **develop** branch. \(They may be applied later to a release branch as part of the release process, but most contributors won't do this themselves.\) Before making a change, make sure you start on the **develop** branch:
 
 ```text
 $ git checkout develop

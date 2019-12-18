@@ -30,7 +30,7 @@ A contract must be a Prototype Object or Class in JavaScript or TypeScript.
 
 A Contract must include an `init` function, it will be executed only once when deploying. Functions whose names start with `_` are `private` and can't be executed in a Transaction. The others are all `public` and can be executed in a Transaction.
 
-Since the Contract is executed on Chrome V8, all instance variables are in memory, it's not wise to save all of them to [state trie](https://github.com/nebulasio/wiki/blob/master/merkle_trie.md) in Nebulas. In Nebulas, we provide `LocalContractStorage` and `GlobalContractStorage` objects to help developers define fields needing to be saved to state trie. And those fields should be defined in `constructor` of the Contract, before other functions.
+Since the Contract is executed on Chrome V8, all instance variables are in memory, it's not wise to save all of them to [state trie](../design-overview/merkle_trie.md) in Nebulas. In Nebulas, we provide `LocalContractStorage` and `GlobalContractStorage` objects to help developers define fields needing to be saved to state trie. And those fields should be defined in `constructor` of the Contract, before other functions.
 
 The following is a sample contract:
 
@@ -338,45 +338,45 @@ module.exports = BankVaultContract;
 
 * `Math.random.seed(myseed)` if needed, you can use this method to reset the random seed. The argument `myseed` must be a **string**.
 
-  \`\`\`js
+```js
 
-  "use strict";
+"use strict";
 
 var BankVaultContract = function \(\) {};
 
 BankVaultContract.prototype = {
 
-```text
-init: function () {},
+  init: function () {},
 
-game:function(subscript, myseed){
+  game:function(subscript, myseed){
 
-    var arr =[1,2,3,4,5,6,7,8,9,10,11,12,13];
+      var arr =[1,2,3,4,5,6,7,8,9,10,11,12,13];
 
-    console.log(Math.random());
+      console.log(Math.random());
 
-    for(var i = 0;i < arr.length; i++){
+      for(var i = 0;i < arr.length; i++){
 
-        if (i == 8) {
-            // reset random seed with `myseed`
-            Math.random.seed(myseed);
-        }
+          if (i == 8) {
+              // reset random seed with `myseed`
+              Math.random.seed(myseed);
+          }
 
-        var rand = parseInt(Math.random()*arr.length);
-        var t = arr[rand];
-        arr[rand] =arr[i];
-        arr[i] = t;
-    }
-    return arr[parseInt(subscript)];
-},
-```
+          var rand = parseInt(Math.random()*arr.length);
+          var t = arr[rand];
+          arr[rand] =arr[i];
+          arr[i] = t;
+      }
+      return arr[parseInt(subscript)];
+  },
 
 };
 
 module.exports = BankVaultContract;
+```
 
-```text
+
 ### Date 
+
 ```js
 "use strict";
 

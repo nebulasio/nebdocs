@@ -9,9 +9,9 @@ NVM is one of the most important components in Nebulas. As the name implies, it 
 
 ## Nebulas V8 Engine
 
-In go-nebulas, we designed and implemented the [Nebulas V8 Engine](https://github.com/nebulasio/wiki/blob/master/nebulas_v8.md) based on Chrome V8.
+In go-nebulas, we designed and implemented the Nebulas V8 Engine based on Chrome V8.
 
-The Nebulas V8 Engine provides a high performance sandbox for [Smart Contract](https://github.com/nebulasio/wiki/blob/master/smart_contract.md) execution. It guarantees user deployed code is running in a managed environment, and prevents massive resource consumption on hosts. Owing to the use of Chrome V8, [JavaScript](https://en.wikipedia.org/wiki/JavaScript) and [TypeScript](https://en.wikipedia.org/wiki/TypeScript) are first-class languages for Nebulas [Smart Contracts](https://github.com/nebulasio/wiki/blob/master/smart_contract.md). Anyone familiar with JavaScript or TypeScript can write their own Smart Contract and run it in Nebulas V8.
+The Nebulas V8 Engine provides a high performance sandbox for [Smart Contract](../../dapp-development/smart_contract.md) execution. It guarantees user deployed code is running in a managed environment, and prevents massive resource consumption on hosts. Owing to the use of Chrome V8, [JavaScript](https://en.wikipedia.org/wiki/JavaScript) and [TypeScript](https://en.wikipedia.org/wiki/TypeScript) are first-class languages for Nebulas [Smart Contracts](../../dapp-development/smart_contract.md). Anyone familiar with JavaScript or TypeScript can write their own Smart Contract and run it in Nebulas V8.
 
 The following content is an example of Smart Contract written in JavaScript:
 
@@ -63,9 +63,9 @@ BankVaultContract.prototype = {
 module.exports = BankVaultContract;
 ```
 
-For more information about smart contracts in Nebulas, please go to [Smart Contract](https://github.com/nebulasio/wiki/blob/master/smart_contract.md).
+For more information about smart contracts in Nebulas, please go to [Smart Contract](../../dapp-development/smart_contract.md).
 
-For more information about the design of the Nebulas V8 Engine, please go to [Nebulas V8 Engine](https://github.com/nebulasio/wiki/blob/master/nebulas_v8.md).
+For more information about the design of the Nebulas V8 Engine, please go to Nebulas V8 Engine.
 
 ## LLVM
 

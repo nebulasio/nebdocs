@@ -82,7 +82,7 @@ admin.signTransactionWithPassphrase
 admin.sendTransactionWithPassphrase
 ```
 
-The command parameters of the command line are consistent with the parameters of the RPC interface. [NEB RPC](https://github.com/nebulasio/wiki/blob/master/rpc.md) and [NEB RPC\_Admin](https://github.com/nebulasio/wiki/blob/master/rpc_admin.md).
+The command parameters of the command line are consistent with the parameters of the RPC interface. [NEB RPC](rpc/README.html) and [NEB RPC\_Admin](rpc/rpc_admin.md).
 
 ## console exit
 

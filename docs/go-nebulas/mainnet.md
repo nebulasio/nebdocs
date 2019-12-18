@@ -91,13 +91,13 @@ Main Endpoint:
 | --- | :---: | :---: |
 | RESTful | [https://mainnet.nebulas.io/](https://mainnet.nebulas.io/) | HTTP |
 
-* [GetNebState](https://github.com/nebulasio/wiki/blob/master/rpc.md#getnebstate) : returns nebulas client info.
-* [GetAccountState](https://github.com/nebulasio/wiki/blob/master/rpc.md#getaccountstate): returns the account balance and nonce.
-* [Call](https://github.com/nebulasio/wiki/blob/master/rpc.md#call): execute smart contract local, don't submit on chain.
-* [SendRawTransaction](https://github.com/nebulasio/wiki/blob/master/rpc.md#sendrawtransaction): submit the signed transaction.
-* [GetTransactionReceipt](https://github.com/nebulasio/wiki/blob/master/rpc.md#gettransactionreceipt): get transaction receipt info by tansaction hash.
+* [GetNebState](dapp-development/rpc/README.html#getnebstate) : returns nebulas client info.
+* [GetAccountState](dapp-development/rpc/README.html#getaccountstate): returns the account balance and nonce.
+* [Call](dapp-development/rpc/README.html#call): execute smart contract local, don't submit on chain.
+* [SendRawTransaction](dapp-development/rpc/README.html#sendrawtransaction): submit the signed transaction.
+* [GetTransactionReceipt](dapp-development/rpc/README.html#gettransactionreceipt): get transaction receipt info by tansaction hash.
 
-More Nebulas APIs at [RPC](https://github.com/nebulasio/wiki/blob/master/rpc.md).
+More Nebulas APIs at [RPC](dapp-development/rpc/README.html).
 
 ## Tutorials
 

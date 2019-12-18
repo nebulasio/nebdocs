@@ -7,8 +7,8 @@ If you are a developer, here is all you need to dive into Nebulas. You can also 
 Go-Nebulas
 ----------
 
-- `Join the Testnet <https://github.com/nebulasio/wiki/blob/master/testnet.md>`_
-- `Join the Mainnet <https://github.com/nebulasio/wiki/blob/master/mainnet.md>`_
+- `Join the Testnet <../testnet.md>`_
+- `Join the Mainnet <../mainnet.md>`_
 - `Explorer <https://explorer.nebulas.io>`_
 
 Tutorials (Nebulas 101):
@@ -26,7 +26,7 @@ Tutorials (Nebulas 101):
 DApp Development
 ----------------
 
-- Tutorials [`PDF <https://github.com/nebulasio/wiki/blob/master/assets/dapp-hackthon.pdf>`_]
+- Tutorials [`PDF <../resources/dapp-hackthon.pdf>`_]
 - `Chrome Extension(Similar as MetaMask) <https://github.com/nebulasio/WebExtensionWallet>`_
 -  `Smart Contract <../dapp-development/smart_contract.md>`_
 
