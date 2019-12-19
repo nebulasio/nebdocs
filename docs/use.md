@@ -38,13 +38,13 @@ View recommend DApps [here](https://nebulas.io/dapps.html). You are welcome to s
 
 ## 2. 什么是NAS，如何获得？
 
-NAS is the native (utility) coin of Nebulas, viable for payment of transaction fees and the computing service charge. [Click here](https://nebulas.io/transparency.html) to view the distribution. The Nebulas blockchain provides native incentives to encourage developers and community members to build a healthy economy and ecosystem.
+星云币（NAS）为星云链唯一原生代币，用于支付星云链上的交易手续费和计算服务费。 [点击这里](https://nebulas.io/cn/transparency.html) 查看分发情况。星云社区提供原生激励，鼓励开发者和社区成员作出贡献，构建良性经济体和生态。
 
 ![](https://nebulas.io/assets/images/community/token-flow.gif)
 
-You can buy & sell NAS from exchanges, [click here](https://nebulas.io/nas.html) to view the exchanges list. You can also buy NAS from [CoinSwitch](https://exchange.nebulas.io) and [SWFT Blockchain](https://www.swft.pro/#/home).
+你可以在交易所买卖NAS， [点击这里](https://nebulas.io/nas.html) 查看交易所列表。你也可以通过 [CoinSwitch](https://exchange.nebulas.io) 和 [SWFT Blockchain](https://www.swft.pro/#/home) 币币兑换获得NAS。
 
-You can also be a community contributor and earn NAS. Please visit nebulas community collaboration platform: [Go.nebulas](https://go.nebulas.io).
+你可以通过成为社区贡献者获得NAS。请访问社区协作平台： [Go.nebulas](https://go.nebulas.io) 。
 
 ## 3. 什么是钱包，如何存储NAS？
 
@@ -68,7 +68,7 @@ The NAS nano pro wallet comes with four main features:
 ![](/resources/nano_app_capture_en.png)
 
 
-### Nebulas Web Wallet
+### 星云Web Wallet
 
 [Click here to download NAS Wallet (Chrome Extension version)](https://chrome.google.com/webstore/detail/nasextwallet/gehjkhmhclgnkkhpfamakecfgakkfkco). [Click here to download Nebulas web wallet (local version)](https://github.com/nebulasio/web-wallet). Nebulas web wallet tutorial is below:
 
@@ -85,7 +85,7 @@ The NAS nano pro wallet comes with four main features:
 
 ### 其他钱包
 
-These following wallets support NAS, you can select the one you liked:
+其他支持管理和存储星云币（NAS）的钱包如下：
 
 * [Wallet.io](https://wallet.io/)
 * [Kaiser Wallet](http://www.kisc.io/) (an affordable cold wallet in a smart card form)
@@ -94,7 +94,7 @@ These following wallets support NAS, you can select the one you liked:
 * [BEPAL Wallet](https://bepal.pro/) (with hardware wallet)
 * [Trust Wallet](https://trustwallet.com/) (a Secure Multi Coin Wallet, the official cryptocurrency wallet of Binance)
 
-[Click here](https://nebulas.io/wallets.html) to learn more details about these wallets.
+[点击这里](https://nebulas.io/wallets.html) 查看以上钱包详情。
 
 ## 4. 什么是NAX，如何获得？
 

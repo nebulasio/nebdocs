@@ -33,7 +33,7 @@ testnet 配置文件在 [`testnet/conf`](https://github.com/nebulasio/go-nebulas
 
 有关运行时的所有可配置信息都在config.conf中定义。
 
-请查看 [`template.conf`](../resources/conf/template.conf) 查找有关运行时配置的更多详细信息。
+请查看 [`template.conf`](https://github.com/nebulasio/nebdocs/blob/zh-CN/docs/resources/conf/template.conf) 查找有关运行时配置的更多详细信息。
 
 > _Tips_: 官方节点信息如下,
 

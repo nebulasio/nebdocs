@@ -35,7 +35,7 @@ Mainnet配置文件位于文件夹 [`mainnet/conf`](https://github.com/nebulasio
 
 有关运行时的所有可配置信息都在config.conf中定义。
 
-请查看 [`template.conf`](../resources/conf/template.conf) 查找有关运行时配置的更多详细信息。
+请查看 [`template.conf`](https://github.com/nebulasio/nebdocs/blob/zh-CN/docs/resources/conf/template.conf) 查找有关运行时配置的更多详细信息。
 
 > _Tips_: 官方种子节点信息如下,
 
