@@ -2,7 +2,7 @@
 
 ![](../../.gitbook/assets/overview.png)
 
-> TODO: More features described in our [whitepaper](https://nebulas.io/docs/NebulasTechnicalWhitepaper.pdf), such as NR, PoD, DIP and NF, will be integrated into the framework in later versions very soon.
+> TODO: More features described in our [whitepaper](https://nebulas.io/docs/NebulasTechnicalWhitepaperZh.pdf), such as NR, PoD, DIP and NF, will be integrated into the framework in later versions very soon.
 
 ## Core Dataflow
 

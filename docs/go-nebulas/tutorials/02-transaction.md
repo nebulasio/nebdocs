@@ -64,7 +64,7 @@ Address: n1SQe5d1NKHYFMKtJ5sNHPsSPVavGzW71Wy
 
 ## 星云链交互
 
-星云链提供给开发者HTTP API, RPC API和CLI来和运行中的星云节点交互。在教程中，我们将会基于HTTP API（[API Module](https://github.com/nebulasio/wiki/blob/master/rpc.md) \| [Admin Module](https://github.com/nebulasio/wiki/blob/master/rpc_admin.md)）来介绍三种发送交易的方法。
+星云链提供给开发者HTTP API, RPC API和CLI来和运行中的星云节点交互。在教程中，我们将会基于HTTP API（[API Module](../dapp-development/rpc/README.html) \| [Admin Module](../dapp-development/rpc/rpc_admin.md)）来介绍三种发送交易的方法。
 
 > 提示：星云链的HTTP服务默认端口号为8685。
 
@@ -74,13 +74,20 @@ Address: n1SQe5d1NKHYFMKtJ5sNHPsSPVavGzW71Wy
 
 每个交易如果需要上链，都需要给矿工缴纳一部分手续费，所以发送者账户中需要有一部分钱才能成功发送交易。一般一个普通转账交易，手续费在0.000000002NAS左右，非常少。
 
-我们可以通过[API Module](https://github.com/nebulasio/wiki/blob/master/rpc.md#getaccountstate)中的`/v1/user/accountstate`接口来获取发送者账户`n1FF1nz6tarkDVwWQkMnnwFPuPKUaQTdptE`的账户信息，检查下是否有足够的钱支付上链手续费。
+我们可以通过[API Module](../dapp-development/rpc/README.html#getaccountstate)中的`/v1/user/accountstate`接口来获取发送者账户`n1FF1nz6tarkDVwWQkMnnwFPuPKUaQTdptE`的账户信息，检查下是否有足够的钱支付上链手续费。
 
 ```bash
 > curl -i -H Accept:application/json -X POST http://localhost:8685/v1/user/accountstate -d '{"address":"n1FF1nz6tarkDVwWQkMnnwFPuPKUaQTdptE"}'
 
-{"result":{"balance":"5000000000000000000000000","nonce":"0","type":87,"height":"10","pending":"0"}}
-```
+{
+    "result": {
+        "balance": "5000000000000000000000000",
+        "nonce": "0",
+        "type": 87,
+        "height":"1",
+        "pending":"0"
+    }
+}
 
 > 提示：`Type`用于标记账户类型。88表示该账户为智能合约账户，部署一个合约之后，就可以得到一个合约账户。87表示非合约账户，我们通过`./neb account new`创建的账户就是非合约账户，用户存储链上资产。
 >
@@ -95,9 +102,18 @@ Address: n1SQe5d1NKHYFMKtJ5sNHPsSPVavGzW71Wy
 然后我们检查接受者账户的状态。
 
 ```bash
-> curl -i -H Accept:application/json -X POST http://localhost:8685/v1/user/accountstate -d '{"address":"n1SQe5d1NKHYFMKtJ5sNHPsSPVavGzW71Wy"}'
+> curl -i -H Accept:application/json -X POST http://localhost:8685/v1/user/accountstate -d '{"address":"your_address"}'
 
-{"result":{"balance":"0","nonce":"0","type":87,"height":"10","pending":"0"}}
+
+{
+    "result": {
+        "balance": "0",
+        "nonce": "0",
+        "type": 87,
+        "height":"1",
+        "pending":"0"
+    }
+}
 ```
 
 如我们期望的那样，新账户没有任何代币。
@@ -110,7 +126,7 @@ Address: n1SQe5d1NKHYFMKtJ5sNHPsSPVavGzW71Wy
 
 使用这种方式，我们可以在离线环境下先使用私钥签名好交易，然后把签好名的交易在联网的机器上发出。这是最安全的发送交易的方式，私钥可以完全离线保存，不触网。[Web-Wallet](https://github.com/nebulasio/web-wallet)正是基于[Neb.js](https://github.com/nebulasio/neb.js)采用这种方法发送的交易。
 
-首先，我们使用[Admin Module](https://github.com/nebulasio/wiki/blob/master/rpc_admin.md#signtransactionwithpassphrase)中的`v1/admin/sign`接口给准备发的交易签名，得到交易的二进制数据。
+首先，我们使用[Admin Module](../dapp-development/rpc/rpc_admin.md#signtransactionwithpassphrase)中的`v1/admin/sign`接口给准备发的交易签名，得到交易的二进制数据。
 
 ```bash
 > curl -i -H 'Content-Type: application/json' -X POST http://localhost:8685/v1/admin/sign -d '{"transaction":{"from":"n1FF1nz6tarkDVwWQkMnnwFPuPKUaQTdptE","to":"n1QZMXSZtW7BUerroSms4axNfyBGyFGkrh5", "value":"1000000000000000000","nonce":1,"gasPrice":"1000000","gasLimit":"2000000"}, "passphrase":"passphrase"}'
@@ -118,7 +134,7 @@ Address: n1SQe5d1NKHYFMKtJ5sNHPsSPVavGzW71Wy
 {"result":{"data":"CiAbjMP5dyVsTWILfXL1MbwZ8Q6xOgX/JKinks1dpToSdxIaGVcH+WT/SVMkY18ix7SG4F1+Z8evXJoA35caGhlXbip8PupTNxwV4SRM87r798jXWADXpWngIhAAAAAAAAAAAA3gtrOnZAAAKAEwuKuC1wU6CAoGYmluYXJ5QGRKEAAAAAAAAAAAAAAAAAAPQkBSEAAAAAAAAAAAAAAAAAAehIBYAWJBVVuRHWSNY1e3bigbVKd9i6ci4f1LruDC7AUtXDLirHlsmTDZXqjSMGLio1ziTmxYJiLj+Jht5RoZxFKqFncOIQA="}}
 ```
 
-> 提示：在发送交易时，对于同一个账户，只有当他`Nonce`为N的交易上链后，`Nonce`为N+1的交易才能上链，有严格的顺序，`Nonce`必须严格加1。可以通过[GetAccountState](https://github.com/nebulasio/wiki/blob/master/rpc.md#getaccountstate)接口查看最新的Nonce。
+> 提示：在发送交易时，对于同一个账户，只有当他`Nonce`为N的交易上链后，`Nonce`为N+1的交易才能上链，有严格的顺序，`Nonce`必须严格加1。可以通过[GetAccountState](../dapp-development/rpc/README.html#getaccountstate)接口查看最新的Nonce。
 
 然后，我们将签好名的交易原始数据提交到本地私有链里的星云节点。
 
@@ -138,10 +154,10 @@ Address: n1SQe5d1NKHYFMKtJ5sNHPsSPVavGzW71Wy
 cp /path/to/keystore.json /path/to/keydir/
 ```
 
-然后，我们发送交易的同时，带上我们keystore的密码，在被信任的节点使用[SendTransactionWithPassphrase](https://github.com/nebulasio/wiki/blob/master/rpc_admin.md#sendtransactionwithpassphrase)接口上一次性完成签名和发送过程。
+然后，我们发送交易的同时，带上我们keystore的密码，在被信任的节点使用[SendTransactionWithPassphrase](../dapp-development/rpc/rpc_admin.md#sendtransactionwithpassphrase)接口上一次性完成签名和发送过程。
 
 ```bash
-> curl -i -H 'Content-Type: application/json' -X POST http://localhost:8685/v1/admin/transactionWithPassphrase -d '{"transaction":{"from":"n1FF1nz6tarkDVwWQkMnnwFPuPKUaQTdptE","to":"n1QZMXSZtW7BUerroSms4axNfyBGyFGkrh5", "value":"1000000000000000000","nonce":2,"gasPrice":"1000000","gasLimit":"2000000"},"passphrase":"passphrase"}'
+> curl -i -H 'Content-Type: application/json' -X POST http://localhost:8685/v1/admin/transactionWithPassphrase -d '{"transaction":{"from":"n1FF1nz6tarkDVwWQkMnnwFPuPKUaQTdptE","to":"n1QZMXSZtW7BUerroSms4axNfyBGyFGkrh5", "value":"1000000000000000000","nonce":2,"gasPrice":"20000000000","gasLimit":"2000000"},"passphrase":"passphrase"}'
 
 {"result":{"txhash":"3cdd38a66c8f399e2f28134e0eb556b292e19d48439f6afde384ca9b60c27010","contract_address":""}}
 ```
@@ -158,7 +174,7 @@ cp /path/to/keystore.json /path/to/keydir/
 cp /path/to/keystore.json /path/to/keydir/
 ```
 
-然后，使用你的keystore文件的密码，在指定的时间范围来在被信任的节点上使用[Unlock](https://github.com/nebulasio/wiki/blob/master/rpc_admin.md#unlockaccount)接口解锁账户。时间单位为纳秒，300000000000为300s。
+然后，使用你的keystore文件的密码，在指定的时间范围来在被信任的节点上使用[Unlock](../dapp-development/rpc/rpc_admin.md#unlockaccount)接口解锁账户。时间单位为纳秒，300000000000为300s。
 
 ```bash
 > curl -i -H 'Content-Type: application/json' -X POST http://localhost:8685/v1/admin/account/unlock -d '{"address":"n1FF1nz6tarkDVwWQkMnnwFPuPKUaQTdptE","passphrase":"passphrase","duration":"300000000000"}'
@@ -166,24 +182,24 @@ cp /path/to/keystore.json /path/to/keydir/
 {"result":{"result":true}}
 ```
 
-一旦一个账户在节点上被解锁，任何可以访问该机器[SendTransaction](https://github.com/nebulasio/wiki/blob/master/rpc_admin.md#sendtransaction)接口的人，都可以直接使用该账户的身份发送交易。
+一旦一个账户在节点上被解锁，任何可以访问该机器[SendTransaction](../dapp-development/rpc/rpc_admin.md#sendtransaction)接口的人，都可以直接使用该账户的身份发送交易。
 
 ```bash
-> curl -i -H 'Content-Type: application/json' -X POST http://localhost:8685/v1/admin/transaction -d '{"from":"n1FF1nz6tarkDVwWQkMnnwFPuPKUaQTdptE","to":"n1QZMXSZtW7BUerroSms4axNfyBGyFGkrh5", "value":"1000000000000000000","nonce":3,"gasPrice":"1000000","gasLimit":"2000000"}'
+> curl -i -H 'Content-Type: application/json' -X POST http://localhost:8685/v1/admin/transaction -d '{"from":"n1FF1nz6tarkDVwWQkMnnwFPuPKUaQTdptE","to":"n1QZMXSZtW7BUerroSms4axNfyBGyFGkrh5", "value":"1000000000000000000","nonce":3,"gasPrice":"20000000000","gasLimit":"2000000"}'
 
 {"result":{"txhash":"8d69dea784f0edfb2ee678c464d99e155bca04b3d7e6cdba6c5c189f731110cf","contract_address":""}}⏎
 ```
 
 ## 交易收据
 
-不论使用的哪一种方法发送交易，我们都会得到两个返回值，`txhash`和`contract_address`。其中`txhash`为交易hash，是一个交易的唯一标识。如果当前交易是一个部署合约的交易，`contract_address`将会是合约地址，调用合约时都会使用这个地址，是合约的唯一标识。我们将在[编写并运行智能合约](https://github.com/nebulasio/wiki/blob/master/tutorials/[中文]%20Nebulas%20101%20-%2003%20编写智能合约.md)中介绍如何发送部署合约的交易。
+不论使用的哪一种方法发送交易，我们都会得到两个返回值，`txhash`和`contract_address`。其中`txhash`为交易hash，是一个交易的唯一标识。如果当前交易是一个部署合约的交易，`contract_address`将会是合约地址，调用合约时都会使用这个地址，是合约的唯一标识。我们将在[编写并运行智能合约](03-smart-contracts-javascrpit.md)中介绍如何发送部署合约的交易。
 
 使用`txhash`我们可以查看交易收据，知道当前交易的状态。
 
 ```bash
 > curl -i -H Accept:application/json -X POST http://localhost:8685/v1/user/getTransactionReceipt -d '{"hash":"8d69dea784f0edfb2ee678c464d99e155bca04b3d7e6cdba6c5c189f731110cf"}'
 
-{"result":{"hash":"8d69dea784f0edfb2ee678c464d99e155bca04b3d7e6cdba6c5c189f731110cf","chainId":100,"from":"n1FF1nz6tarkDVwWQkMnnwFPuPKUaQTdptE","to":"n1QZMXSZtW7BUerroSms4axNfyBGyFGkrh5","value":"1000000000000000000","nonce":"3","timestamp":"1524667888","type":"binary","data":null,"gas_price":"1000000","gas_limit":"2000000","contract_address":"","status":1,"gas_used":"20000"}}⏎
+{"result":{"hash":"8d69dea784f0edfb2ee678c464d99e155bca04b3d7e6cdba6c5c189f731110cf","chainId":100,"from":"n1FF1nz6tarkDVwWQkMnnwFPuPKUaQTdptE","to":"n1QZMXSZtW7BUerroSms4axNfyBGyFGkrh5","value":"1000000000000000000","nonce":"3","timestamp":"1524667888","type":"binary","data":null,"gas_price":"20000000000","gas_limit":"2000000","contract_address":"","status":1,"gas_used":"20000"}}⏎
 ```
 
 这里的`status`可能有三种状态值，0，1和2。

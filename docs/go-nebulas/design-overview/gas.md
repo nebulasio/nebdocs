@@ -5,7 +5,7 @@ In Nebulas, either a normal transaction which transfer balance or a smart contra
 * `gasPrice`: the price of per gas.
 * `gasLimit`: the limit of gas use.
 
-The actual gas consumption of a transaction is the value: `gasPrice` \* `gasUsed`, which will be the reward to the miner coinbase. The `gasUsed` value must less than or equal to the `gasLimit`. Transaction's `gasUsed` can be estimate by RPC interface [estimategas](https://github.com/nebulasio/wiki/blob/master/rpc.md#estimategas) and store in transaction's execution result event.
+The actual gas consumption of a transaction is the value: `gasPrice` \* `gasUsed`, which will be the reward to the miner coinbase. The `gasUsed` value must less than or equal to the `gasLimit`. Transaction's `gasUsed` can be estimate by RPC interface [estimategas](../dapp-development/rpc/README.html#estimategas) and store in transaction's execution result event.
 
 ## Design reason
 
@@ -107,7 +107,7 @@ In nebulas, the transaction pool of each node has a minimum and maximum `gasPric
 Transaction pool gasPrice and gasLimit configuration:
 
 * `gasPrice`
-  * minimum: The minimum gasPrice can be set in the configuration file. If the minimum value is not configured, the default value is `1000000`\(10^6\).
+  * minimum: The minimum gasPrice can be set in the configuration file. If the minimum value is not configured, the default value is `20000000000`\(2\*10^10\).
   * maximum: The maximum gasPrice is `1000000000000`\(10^12\), transaction pool's maximum configuration and transaction's `gasPrice` can't be overflow.
 * `gasLimit`
   * minimum: The transaction's minimum gasLimit must greater than zero.

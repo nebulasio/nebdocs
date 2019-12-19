@@ -27,7 +27,7 @@ Nebulas中的合约与面向对象语言中的类相似，包含状态变量和�
 
 合约必须包含一个init函数，只会在部署合约时执行。以_开头的函数是私有的，用户无法直接调用。其他都是公有的，用户可直接调用。
 
-由于合约是在Chrome V8中执行的，因此所有实例变量都在内存中，所以将它们全部保存为[state trie](https://github.com/nebulasio/wiki/blob/master/merkle_trie.md)并不明智。在Nebulas中，我们提供```LocalContractStorage```和```GlobalContractStorage```对象来帮助开发人员定义需要保存的状态字段。这些字段应该在合约构造函数中定义。
+由于合约是在Chrome V8中执行的，因此所有实例变量都在内存中，所以将它们全部保存为[state trie](../design-overview/merkle_trie.md)并不明智。在Nebulas中，我们提供```LocalContractStorage```和```GlobalContractStorage```对象来帮助开发人员定义需要保存的状态字段。这些字段应该在合约构造函数中定义。
 
 下面是一个简单的合约例子：
 ```javascript
@@ -320,7 +320,7 @@ module.exports = SampleContract;
 
 
 ### Event
-`Event`模块记录合约中的执行事件。记录的事件存储在链上的事件树中。用户可以使用[`GetEventsByHash`](https://github.com/nebulasio/wiki/blob/master/rpc.md#geteventsbyhash)通过当前交易哈希来获取该事件。所有合约事件的topic都会在合约代码中指定的topic前加上前缀`chain.contract.`作为最终存储的topic。
+`Event`模块记录合约中的执行事件。记录的事件存储在链上的事件树中。用户可以使用[`GetEventsByHash`](rpc/README.html#geteventsbyhash)通过当前交易哈希来获取该事件。所有合约事件的topic都会在合约代码中指定的topic前加上前缀`chain.contract.`作为最终存储的topic。
 
 ```js
 Event.Trigger(topic, obj);

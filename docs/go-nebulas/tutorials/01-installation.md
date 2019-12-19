@@ -10,9 +10,9 @@
 
 ## Golang环境搭建
 
-| Components | Version | Description |
-| --- | --- | --- |
-| [Golang](https://golang.org) | &gt;= 1.12 | The Go Programming Language |
+| Components | Description |
+| --- | --- |
+| [Golang](https://golang.org) | The Go Programming Language, version &gt;= 1.12 |
 
 我们会分别介绍Mac OSX和Linux两种系统下golang环境的搭建。
 

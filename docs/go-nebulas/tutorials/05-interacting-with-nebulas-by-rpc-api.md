@@ -51,7 +51,7 @@ rpc {
 
 **UnlockAccount**
 
-我们可以调用Admin模块中的[`UnlockAccount`](https://github.com/nebulasio/wiki/blob/master/rpc_admin.md#unlockaccount)接口来在节点内存中解锁一个账户。所有解锁的账户都可以被用来直接发送交易，而不需要密码。
+我们可以调用Admin模块中的[`UnlockAccount`](../dapp-development/rpc/rpc_admin.md#unlockaccount)接口来在节点内存中解锁一个账户。所有解锁的账户都可以被用来直接发送交易，而不需要密码。
 
 ```bash
 > curl -i -H 'Content-Type: application/json' -X POST http://localhost:8685/v1/admin/account/unlock -d '{"address":"n1NrMKTYESZRCwPFDLFKiKREzZKaN1nhQvz", "passphrase": "passphrase"}'
@@ -126,8 +126,8 @@ if err != nil {
 
 更多的接口列表请参考官方文档。
 
-* [API Module](../../dapp-development/rpc/rpc.md)
-* [Admin Module](../../dapp-development/rpc/rpc_admin.md).
+* [API Module](../dapp-development/rpc/README.html)
+* [Admin Module](../dapp-development/rpc/rpc_admin.md).
 
 ### 完成
 

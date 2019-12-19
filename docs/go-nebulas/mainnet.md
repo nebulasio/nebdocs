@@ -35,7 +35,7 @@ Mainnet配置文件位于文件夹 [`mainnet/conf`](https://github.com/nebulasio
 
 有关运行时的所有可配置信息都在config.conf中定义。
 
-请查看 [`template.conf`](https://github.com/smalloranges/wiki/tree/887270957eb99d971309610bc1fdafb6a2d9d552/resources/conf/template.conf) 查找有关运行时配置的更多详细信息。
+请查看 [`template.conf`](../resources/conf/template.conf) 查找有关运行时配置的更多详细信息。
 
 > _Tips_: 官方种子节点信息如下,
 
@@ -93,13 +93,13 @@ Main Endpoint:
 | --- | :---: | :---: |
 | RESTful | [https://mainnet.nebulas.io/](https://mainnet.nebulas.io/) | HTTP |
 
-* [GetNebState](dapp-development/rpc/README.rst#getnebstate) : returns nebulas client info.
-* [GetAccountState](dapp-development/rpc/README.rst#getaccountstate): returns the account balance and nonce.
-* [Call](dapp-development/rpc/README.rst#call): execute smart contract local, don't submit on chain.
-* [SendRawTransaction](dapp-development/rpc/README.rst#sendrawtransaction): submit the signed transaction.
-* [GetTransactionReceipt](dapp-development/rpc/README.rst#gettransactionreceipt): get transaction receipt info by tansaction hash.
+* [GetNebState](dapp-development/rpc/README.html#getnebstate) : returns nebulas client info.
+* [GetAccountState](dapp-development/rpc/README.html#getaccountstate): returns the account balance and nonce.
+* [Call](dapp-development/rpc/README.html#call): execute smart contract local, don't submit on chain.
+* [SendRawTransaction](dapp-development/rpc/README.html#sendrawtransaction): submit the signed transaction.
+* [GetTransactionReceipt](dapp-development/rpc/README.html#gettransactionreceipt): get transaction receipt info by tansaction hash.
 
-更多星云 APIs ： [RPC](dapp-development/rpc/README.rst).
+更多星云 APIs ： [RPC](dapp-development/rpc/README.html).
 
 ## 教程
 

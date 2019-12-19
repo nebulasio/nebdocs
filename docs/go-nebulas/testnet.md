@@ -33,7 +33,7 @@ testnet 配置文件在 [`testnet/conf`](https://github.com/nebulasio/go-nebulas
 
 有关运行时的所有可配置信息都在config.conf中定义。
 
-请查看 [`template.conf`](https://github.com/smalloranges/wiki/tree/887270957eb99d971309610bc1fdafb6a2d9d552/resources/conf/template.conf) 查找有关运行时配置的更多详细信息。
+请查看 [`template.conf`](../resources/conf/template.conf) 查找有关运行时配置的更多详细信息。
 
 > _Tips_: 官方节点信息如下,
 
@@ -49,14 +49,14 @@ Test Endpoint:
 | --- | :---: | :---: |
 | RESTful | [https://testnet.nebulas.io/](https://testnet.nebulas.io/) | HTTP |
 
-* [GetNebState](dapp-development/rpc/README.rst#getnebstate) : returns nebulas client info.
-* [GetAccountState](dapp-development/rpc/README.rst#getaccountstate): returns the account balance and nonce.
-* [LatestIrreversibleBlock](dapp-development/rpc/README.rst#latestirreversibleblock): returns the lastest irreversible block.
+* [GetNebState](dapp-development/rpc/README.html#getnebstate) : returns nebulas client info.
+* [GetAccountState](dapp-development/rpc/README.html#getaccountstate): returns the account balance and nonce.
+* [LatestIrreversibleBlock](dapp-development/rpc/README.html#latestirreversibleblock): returns the lastest irreversible block.
 * [Call](dapp-development/rpc/README.rst#call): execute smart contract locally. the tx won't be submitted on chain.
-* [SendRawTransaction](dapp-development/rpc/README.rst#sendrawtransaction): submit signed transaction. The transaction must be signed before send.
-* [GetTransactionReceipt](dapp-development/rpc/README.rst#gettransactionreceipt): get transaction receipt info by tansaction hash.
+* [SendRawTransaction](dapp-development/rpc/README.html#sendrawtransaction): submit signed transaction. The transaction must be signed before send.
+* [GetTransactionReceipt](dapp-development/rpc/README.html#gettransactionreceipt): get transaction receipt info by tansaction hash.
 
-更多的星云 APIs ： [RPC](dapp-development/rpc/README.rst).
+更多的星云 APIs ： [RPC](dapp-development/rpc/README.html).
 
 #### 申领测试NAS币
 
@@ -65,7 +65,7 @@ Test Endpoint:
 ## 教程
 
 
-1. [编译安装及运行neb](tutorials/01-instaallation.md)
+1. [编译安装及运行neb](tutorials/01-installation.md)
 2. [在星云链上发送交易](tutorials/02-transaction.md)
 3. [使用JavaScript编写智能合约](tutorials/03-smart-contracts-javascript.md)
 4. [智能合约存储区介绍](tutorials/04-smart-contract-storage.md)

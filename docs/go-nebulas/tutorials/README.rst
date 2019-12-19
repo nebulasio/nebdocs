@@ -27,7 +27,7 @@ Go-Nebulas
 DApp开发
 ---------
 
-- 教程 [`PDF <https://github.com/nebulasio/wiki/blob/master/assets/dapp-hackthon.pdf>`_]
+- 教程 [`PDF <../resources/dapp-hackthon.pdf>`_]
 - `Chrome插件（类似MetaMask) <https://github.com/nebulasio/WebExtensionWallet>`_
 -  `智能合约 <../dapp-development/smart_contract.md>`_
 
