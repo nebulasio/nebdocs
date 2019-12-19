@@ -4,9 +4,7 @@
 
 We are glad to release Nebulas Mainnet here. Please join and enjoy Nebulas Mainnet.
 
-```
-https://github.com/nebulasio/go-nebulas/tree/master
-```
+> [https://github.com/nebulasio/go-nebulas/tree/master](https://github.com/nebulasio/go-nebulas/tree/master)
 
 ## Hardware configuration
 
