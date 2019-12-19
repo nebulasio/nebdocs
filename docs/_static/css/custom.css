@@ -2,11 +2,14 @@
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
 
+html {
+	font-style: 14px;
+}
 body, h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend, p {
 	font-family: 'Open Sans', 'Helvetica Neue',Helvetica,arial,sans-serif;
     line-height: 1.8;
     letter-spacing: 0.08rem;
-    font-size: 12px;
+    font-size: 1rem;
     font-weight: 200;
 }
 
