@@ -36,6 +36,46 @@ Please check the [`template.conf`](https://github.com/nebulasio/nebdocs/blob/mas
 seed:["/ip4/47.92.203.173/tcp/8680/ipfs/QmfSJ7JUnCEDP6LFyKkBUbpuDMETPbqMVZvPQy4keeyBDP","/ip4/47.89.180.5/tcp/8680/ipfs/QmTmnd5KXm4UFUquAJEGdrwj1cbJCHsTfPWAp5aKrKoRJK"]
 ```
 
+#### Miner config 
+Nodes can participate in mining and share rewards after signing up for mining. The miner node needs to turn on the mine switch and configure both the miner address and reward address(coinbase).
+
+miner config example:
+
+```
+chain {
+  # testnet chainID
+  chain_id: 1001
+  # testnet datadir, should be different with private chain
+  datadir: "testnet/data.db"
+  keydir: "keydir"
+  # testnet genesis.conf
+  genesis: "testnet/conf/genesis.conf"
+  # testnet dynasty.conf
+  dynasty: "testnet/conf/dynasty.conf"
+  
+  # start mine
+  start_mine: true
+  # receive the mining award, must change to your address
+  coinbase: "n1XkoVVjswb5Gek3rRufqjKNpwrDdsnQ7Hq"
+  # block signature address, needs to be placed in the node's configuration `keydir`. Also make sure that the address is the node address at the time of registration
+  miner: "n1FF1nz6tarkDVwWQkMnnwFPuPKUaQTdptE"
+  # 
+  passphrase: "passphrase"
+
+  signature_ciphers: ["ECC_SECP256K1"]
+}
+```
+
+#### Synchronization
+
+Since Nebulas testnet is running there for certain period of time, it will take quite some time to sync all the testnet data from scratch. 
+
+For developers' convenience, we provided a offline data package, which already includes the data of more than 1.2 million blocks, you can download the package directly by following either link below (choose whichever is faster for you):
+- [`download from AWS s3`](https://s3-us-west-1.amazonaws.com/develop-center/testnet/data.db.tar.gz)
+- [`download from Aliyun oss`](http://develop-center.oss-cn-zhangjiakou.aliyuncs.com/data/testnet/data1540000.db.tar.gz)
+
+> Please note that, the data package should be put under the same path of "datadir" as specified in your `config.conf` file.
+
 #### API List
 Test Endpoint:
 
