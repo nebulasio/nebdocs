@@ -10,7 +10,6 @@
 
 需要首先构建Nebulas Mainnet的可执行文件和依赖库。 以下重点介绍几个重要模块：
 
-* **NBRE:** 星云区块链运行时环境，运行Nebulas Protocol Representation的平台，例如DIP，NR等。
 * **NEB:** 星云主网的主进程。 `NEB`和`NBRE`运行于独立进程中，两者通过IPC进行通信。
 
 有关编译的详细信息，请参阅 [tutorials](tutorials/01-installation.html#compile-nebulas).
