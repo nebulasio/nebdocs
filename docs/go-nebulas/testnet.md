@@ -3,17 +3,18 @@
 
 We are glad to release the Nebulas Testnet. It simulates the Nebulas network and NVM, and allows developers to interact with Nebulas without paying the cost of gas.
 
-> [https://github.com/nebulasio/go-nebulas](https://github.com/nebulasio/go-nebulas)
+> [https://github.com/nebulasio/go-nebulas/tree/testnet](https://github.com/nebulasio/go-nebulas/tree/testnet)
 
 ### Build
 The Nebulas Testnet's executable file and dependant libraries need to be built first. Several important modules are highlighted below:
 
-* **NEB:** The main process of the Nebulas Testnet. `NEB` run in standalone processes, and communicate through IPC.
+* **NBRE:** The Nebulas Blockchain Runtime Environment is the platform for running Nebulas Protocol Representation, such as the DIP, the NR, etcetera. 
+* **NEB:** The main process of the Nebulas Testnet. `NEB` and `NBRE` run in standalone processes, and communicate through IPC.
 
 Details of building the modules can be found in [tutorials](http://wiki.nebulas.io/en/latest/go-nebulas/tutorials/01-installation.html#compile-nebulas).
 
 ### Configuration
-The testnet configuration files are in the folder [`testnet/conf`](https://github.com/nebulasio/go-nebulas/tree/master/testnet/conf), including:
+The testnet configuration files are in the folder [`testnet/conf`](https://github.com/nebulasio/go-nebulas/tree/testnet/testnet/conf) under `testnet` branch, including:
 
 #### genesis.conf
 All configurable information about the genesis block is defined in genesis.conf, such as:
