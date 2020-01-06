@@ -8,7 +8,6 @@ We are glad to release the Nebulas Testnet. It simulates the Nebulas network and
 ### Build
 The Nebulas Testnet's executable file and dependant libraries need to be built first. Several important modules are highlighted below:
 
-* **NBRE:** The Nebulas Blockchain Runtime Environment is the platform for running Nebulas Protocol Representation, such as the DIP, the NR, etcetera. 
 * **NEB:** The main process of the Nebulas Testnet. `NEB` and `NBRE` run in standalone processes, and communicate through IPC.
 
 Details of building the modules can be found in [tutorials](http://wiki.nebulas.io/en/latest/go-nebulas/tutorials/01-installation.html#compile-nebulas).
