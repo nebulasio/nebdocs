@@ -88,7 +88,10 @@ git checkout master
 
   ```bash
     git clone https://github.com/facebook/rocksdb.git
-    cd rocksdb & make shared_lib && make install-shared
+    cd rocksdb 
+	 git checkout v5.18.3
+	 sudo make install-shared -j8
+	 sudo ldconfig
   ```
 
 **Centos**
@@ -104,7 +107,10 @@ git checkout master
 
   ```bash
     git clone https://github.com/facebook/rocksdb.git
-    cd rocksdb & make shared_lib && make install-shared
+    cd rocksdb 
+	 git checkout v5.18.3
+	 sudo make install-shared -j8
+	 sudo ldconfig
   ```
 
 ### 安装依赖库
