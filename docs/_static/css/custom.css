@@ -31,7 +31,9 @@ a:hover {
 	max-width: 1100px;
 	position: relative;
 	margin: 0 auto;
+	background-color: #fff;
 }
+
 
 /* two columns */
 /* left - sidebar */
