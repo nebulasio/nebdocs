@@ -63,24 +63,3 @@ Por favor, envíanos tu reporte a través de [este enlace](https://goo.gl/forms/
 > 5. Para evitar que los errores reportados puedan ser explotados por personas inescrupulosas, quienes reporten un error deben hacerlo únicamente a través del [formulario mencionado más arriba](https://goo.gl/forms/5ysl61Mjpn6yDEuN2).
 > 6. Quienes reporten errores deben mantener los mismos en total confidencialidad al menos hasta pasados 30 días luego de enviar el reporte a Nebulas, y no deben revelar su naturaleza a terceros. Tal periodo de confidencialidad podrá ser extendido de forma unilateral por el equipo de Nebulas. Si quien reporta el error lo revela a terceros, de tal suerte que Nebulas o sus usuarios se vean perjudicados, tal persona deberá costear los gastos derivados del perjuicio a cada una de las partes involucradas.
 > 7. El Comité Técnico de Nebulas alienta a los miembros de la comunidad a discutir cualquier otro tópico en el grupo público de discusión de Nebulas; asimismo, alentamos a la comunidad a unirse a nuestro esfuerzo por solucionar los problemas que se presenten. Siéntete libre de unirte a nuestra [lista de correo de Nebulas](https://lists.nebulas.io/cgi-bin/mailman/listinfo).
-
-## Programa de Recompensas para NAT Bug Hunters de Nebulas
-NAT tiene alrededor de 7 smart contracts diferentes.
-
-Para los errores relacionados con los smart contracts de NAT, haga clic [aquí](https://go.nebulas.io/project/147) para reclamar su recompensa. Tenga en cuenta que aún tendrá que completar el siguiente [formulario](https://docs.google.com/forms/d/e/1FAIpQLScaCeODU26maPJIuyCkX6Lsa0A5Xi2AZ_z-mvKlHmd89_CaXQ/viewform) que detalla su error, después de reclamarlo, para poder ser elegible para la recompensa.
-
-Los smart contracts se pueden actualizar en cualquier momento. Puedes encontrarlos abajo:
-
-> multisig: n1orrpFGmcQSvGrbKTD7RHweTPe61ut7svw
-
-> NAT NRC20: n1mpgNi6KKdSzr7i5Ma7JsG5yPY9knf9He7
-
-> distribute: n1uBbtFZK3Acs2T6JUMv6bSAvS6U6nnur6j
-
-> pledge_proxy: n1obU14f6Cp4Wv7zANVbtmXKNkpKCqQDgDM
-
-> pledge: n1zmbyLPCt2i8biKm1tNRwgAW3mhyKUtEpW
-
-> vote: n1pADU7jnrvpPzcWusGkaizZoWgUywMRGMY
-
-> NR_DATA: n21KaJxgFw7gTHR9A5VFYHsQrWdL61dCqvK
