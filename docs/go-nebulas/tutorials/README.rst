@@ -12,6 +12,7 @@ Go-Nebulas
 - `Explorer <https://explorer.nebulas.io>`_
 
 Tutorials (Nebulas 101):
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. toctree::
     :titlesonly:
@@ -66,6 +67,14 @@ Community Tools
 
 Official Nebulas Documents
 --------------------------
+
+-  Nebulas PoD Node Decentralization Strategy - Based on the Proof of Devotion (PoD) Mechanism:
+   `[PDF] <https://nebulas.io/docs/PoDNodeStrategy.pdf>`__,
+   `[GitHub] <../../node-strategy/README.html>`__
+
+-  NAX Whitepaper:
+   `[PDF] <https://nextdao.io/static/docs/nax_whitepaper.pdf>`__,
+   `[GitHub] <https://github.com/nebulasio/nax_whitepaper>`__
 
 -  Orange Paper - Nebulas Governance:
    `[PDF] <https://nebulas.io/docs/NebulasOrangepaper.pdf>`__,
@@ -136,10 +145,29 @@ How to build a DApp on Nebulas
    Developers <https://www.tooploox.com/blog/nebulas-javascript-meets-smart-contracts>`__
    by Michal Zalecki
 
-How to use Nebulas Wallet
--------------------------
 
-Web Wallet: https://github.com/nebulasio/web-wallet
+Smart Contracts for Rookies
+-----------------------------
+
+This tutorial is intended for beginners and will help you to understand the basics of smart contracts under Nebulas: you'll be assisted to download the core and run a node instance, to set up a development environment, and to write some basic examples of smart contracts. In addition, you will find a quick reference guide for more seasoned developers, and a FAQ containing all the common doubts about the subject.
+
+'[Github] <https://github.com/arielsbecker/smart-contracts-for-rookies>'___ by 'Arielsbecker <https://github.com/arielsbecker>'__
+
+1. `What is a smart contract? <https://github.com/arielsbecker/smart-contracts-for-rookies/blob/master/chapter1/README.md>`__
+2. `Installing the core <https://github.com/arielsbecker/smart-contracts-for-rookies/blob/master/chapter2/README.md>`__
+3. `Setting up a development environment <https://github.com/arielsbecker/smart-contracts-for-rookies/blob/master/chapter3/README.md>`__
+4. `Hello World, a barebones smart contract <https://github.com/arielsbecker/smart-contracts-for-rookies/blob/master/chapter4/README.md>`__
+5. `AddressMetadata, a smart contract with storage capabilities <https://github.com/arielsbecker/smart-contracts-for-rookies/blob/master/chapter5/README.md>`__
+6. `PiggyBank, a smart contract that moves money around <https://github.com/arielsbecker/smart-contracts-for-rookies/blob/master/chapter6/README.md>`__
+7. `Reference guide <https://github.com/arielsbecker/smart-contracts-for-rookies/blob/master/chapter7/README.md>`__
+8. 'FAQ <https://github.com/arielsbecker/smart-contracts-for-rookies/blob/master/chapter8/README.md>'__
+
+
+
+How to use Nebulas Web Wallet
+------------------------------
+
+Web Wallet: 'Github <https://github.com/nebulasio/web-wallet>'__
 
 1. `Creating A NAS Wallet Nebulas
    Wallet <https://medium.com/nebulasio/creating-a-nas-wallet-9d01b5fa2df6>`__

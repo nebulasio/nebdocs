@@ -127,7 +127,7 @@ if err != nil {
 
 For more interfaces, please refer to the official documentation:
 
-* [API Module](../dapp-development/rpc/rpc.md)
+* [API Module](../dapp-development/rpc/README.html)
 * [Admin Module](../dapp-development/rpc/rpc_admin.md).
 
 ### Next

@@ -414,7 +414,25 @@ span#nebulas-wiki {
 	padding: 0 3.236em;
 }
 
+.wy-body-for-nav .ethical-fixedfooter {
+	max-width: 1100px;
+	margin: 0 auto;
+}
 
+.ethical-fixedfooter {
+	position: normal;
+	left: auto;
+	bottom: auto;
+	border-top-color:  #eeee;
+	color: gray;
+	background-color: #fff;
+}
+
+@media (min-width: 769px) {
+	.ethical-fixedfooter {
+		font-size: 12px;
+	}
+}
 
 
 
