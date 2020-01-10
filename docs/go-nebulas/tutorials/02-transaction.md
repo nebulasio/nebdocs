@@ -64,7 +64,7 @@ Address: n1SQe5d1NKHYFMKtJ5sNHPsSPVavGzW71Wy
 
 ## 星云链交互
 
-星云链提供给开发者HTTP API, RPC API和CLI来和运行中的星云节点交互。在教程中，我们将会基于HTTP API（[API Module](../dapp-development/rpc/README.html) \| [Admin Module](../dapp-development/rpc/rpc_admin.md)）来介绍三种发送交易的方法。
+星云链提供给开发者HTTP API, RPC API和CLI来和运行中的星云节点交互。在教程中，我们将会基于HTTP API（[API Module](../dapp-development/rpc/README) \| [Admin Module](../dapp-development/rpc/rpc_admin.md)）来介绍三种发送交易的方法。
 
 > 提示：星云链的HTTP服务默认端口号为8685。
 

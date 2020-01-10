@@ -107,10 +107,10 @@ As the Nebulas community grows, NF and basic protocols’ update ability shall b
 
 **星云团队专访视频：**
 
--  我期待的星云 [`Youtube <https://youtu.be/OzyP-gaveCA>`_] [`Youku <https://v.youku.com/v_show/id_XMzk4MTI2OTE5Ng==.html>`_]
--  我为什么加入星云 by 陈聪明博士 [`Youtube <https://youtu.be/xYRFGSDVFyA>`_]，[`Youku <http://v.youku.com/v_show/id_XMzk2ODcxMzcxNg==.html>`_]
--  星云人眼中区块链的未来 [`Youtube <https://youtu.be/PNycEpiOBkE>`_]，[`Youku <https://v.youku.com/v_show/id_XMzk1ODE2MTY4MA==.html>`_ ] 
--  星云的一天 [`Youtube <https://www.youtube.com/watch?v=5NsNq1hehRA>`_] ，[`Youku <https://v.youku.com/v_show/id_XMzg1NzAzMDY0NA==>`_ ]
+-  我期待的星云 [`Youtube <https://youtu.be/OzyP-gaveCA>`_]， [`优酷 <https://v.youku.com/v_show/id_XMzk4MTI2OTE5Ng==.html>`_]
+-  我为什么加入星云 by 陈聪明博士 [`Youtube <https://youtu.be/xYRFGSDVFyA>`_]，[`优酷 <http://v.youku.com/v_show/id_XMzk2ODcxMzcxNg==.html>`_]
+-  星云人眼中区块链的未来 [`Youtube <https://youtu.be/PNycEpiOBkE>`_]，[`优酷 <https://v.youku.com/v_show/id_XMzk1ODE2MTY4MA==.html>`_ ] 
+-  星云的一天 [`Youtube <https://www.youtube.com/watch?v=5NsNq1hehRA>`_] ，[`优酷 <https://v.youku.com/v_show/id_XMzg1NzAzMDY0NA==>`_ ]
 
 -  `The Inspiration Behind the Nebulas NOVA Design <https://medium.com/nebulasio/the-inspiration-behind-the-nebulas-nova-design-5f8e327486e8>`__ by Mengggo Liu
 

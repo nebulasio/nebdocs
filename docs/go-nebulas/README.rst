@@ -57,7 +57,9 @@ repositories:
 
 `点击这里 <https://nebulas.io/cn/nova.html>`_  了解星云NOVA。相关文章：
 
--  `星云NOVA，发现区块链世界数据价值 <https://medium.com/nebulasio/nebulas-nova-to-discover-data-value-in-the-blockchain-world-83bbb5cde05c>`_, [ `Youtube <https://www.youtube.com/watch?v=jLIYkG35Ljo>`_ ]
+-  `星云NOVA，发现区块链世界数据价值 <https://medium.com/nebulasio/nebulas-nova-to-discover-data-value-in-the-blockchain-world-83bbb5cde05c>`_ 
+   [ `Youtube <https://www.youtube.com/watch?v=jLIYkG35Ljo>`_ ]
+
 - 6 Minutes Learning Nebulas NOVA with 92k Lines of Code by Joel Wang [ `Youtube <https://www.youtube.com/watch?v=lT0yKkNdO48>`_ ]
 
 第三个重要版本关于贡献度证明机制，将于2020年随节点计划发布。 `点击这里 <../node-strategy/README.rst>`_ 了解星云节点计划。
@@ -68,7 +70,7 @@ repositories:
 测试网
 -------
 
-功能完备的 `星云测试网 <https://testnet.nebulas.io>`_ 已经上线，方便开发者随时免费使用星云。了解： `加入星云测试网 <testnet>`_.
+功能完备的 `星云测试网 <https://testnet.nebulas.io>`_ 已经上线，方便开发者随时免费使用星云。了解： `加入星云测试网 <testnet>`_ 。
 
 路线图
 -------

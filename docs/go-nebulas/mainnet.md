@@ -13,7 +13,7 @@ Nebulas Mainnet 2.0（Nebulas Nova）已经发布。 本教程将教您如何加
 * **NBRE:** 星云区块链运行时环境，运行Nebulas Protocol Representation的平台，例如DIP，NR等。
 * **NEB:** 星云主网的主进程。 `NEB`和`NBRE`运行于独立进程中，两者通过IPC进行通信。
 
-有关编译的详细信息，请参阅 [tutorials](tutorials/01-installation.html#compile-nebulas).
+有关编译的详细信息，请参阅 [教程](tutorials/01-installation.html#compile-nebulas).
 
 
 ### 配置文件
@@ -99,7 +99,7 @@ Main Endpoint:
 * [SendRawTransaction](dapp-development/rpc/README.html#sendrawtransaction): submit the signed transaction.
 * [GetTransactionReceipt](dapp-development/rpc/README.html#gettransactionreceipt): get transaction receipt info by tansaction hash.
 
-更多星云 APIs ： [RPC](dapp-development/rpc/README.html).
+更多星云 APIs ： [RPC](dapp-development/rpc/README).
 
 ## 教程
 

@@ -126,7 +126,7 @@ if err != nil {
 
 更多的接口列表请参考官方文档。
 
-* [API Module](../dapp-development/rpc/README.html)
+* [API Module](../dapp-development/rpc/README)
 * [Admin Module](../dapp-development/rpc/rpc_admin.md).
 
 ### 完成

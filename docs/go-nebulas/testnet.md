@@ -95,7 +95,7 @@ Test Endpoint:
 * [SendRawTransaction](dapp-development/rpc/README.html#sendrawtransaction): submit signed transaction. The transaction must be signed before send.
 * [GetTransactionReceipt](dapp-development/rpc/README.html#gettransactionreceipt): get transaction receipt info by tansaction hash.
 
-更多的星云 APIs ： [RPC](dapp-development/rpc/README.html).
+更多的星云 APIs ： [RPC](dapp-development/rpc/README).
 
 #### 申领测试NAS币
 

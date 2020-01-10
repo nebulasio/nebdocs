@@ -1,6 +1,6 @@
 # 使用星云
 
-If you are a developer and want to develop a DApp or use the mainnet, please visit [the develop chapter](go-nebulas/README.html) and [toturials](go-nebulas/tutorials/README.html) to learn more about Nebulas technology and find develop resources. If you are an individual, there are four ways to use Nebulas:
+If you are a developer and want to develop a DApp or use the mainnet, please visit [the develop chapter](go-nebulas/README) and [toturials](go-nebulas/tutorials/README) to learn more about Nebulas technology and find develop resources. If you are an individual, there are four ways to use Nebulas:
 
 * [1. 使用在星云上的DApp](#id1)
 * [2. 什么是NAS，如何获得？](#id2)
