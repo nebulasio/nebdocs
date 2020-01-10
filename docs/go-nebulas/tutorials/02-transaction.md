@@ -192,7 +192,7 @@ cp /path/to/keystore.json /path/to/keydir/
 
 ## 交易收据
 
-不论使用的哪一种方法发送交易，我们都会得到两个返回值，`txhash`和`contract_address`。其中`txhash`为交易hash，是一个交易的唯一标识。如果当前交易是一个部署合约的交易，`contract_address`将会是合约地址，调用合约时都会使用这个地址，是合约的唯一标识。我们将在[编写并运行智能合约](03-smart-contracts-javascrpit.md)中介绍如何发送部署合约的交易。
+不论使用的哪一种方法发送交易，我们都会得到两个返回值，`txhash`和`contract_address`。其中`txhash`为交易hash，是一个交易的唯一标识。如果当前交易是一个部署合约的交易，`contract_address`将会是合约地址，调用合约时都会使用这个地址，是合约的唯一标识。我们将在[编写并运行智能合约](03-smart-contracts-javascript.md)中介绍如何发送部署合约的交易。
 
 使用`txhash`我们可以查看交易收据，知道当前交易的状态。
 

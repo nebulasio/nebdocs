@@ -18,7 +18,7 @@
 *   Disk: >= 600G SSD
 *   NTP: 安装NTP服务确保服务器时间同步
 
-节点安装教程参见[星云技术文档：Nebulas 101 - 01 编译安装](../go-nebulas/tutorials/01-installation.html)。
+节点安装教程参见[星云技术文档：Nebulas 101 - 01 编译安装](../go-nebulas/tutorials/01-installation.md)。
 
 推荐使用docker安装节点：
 

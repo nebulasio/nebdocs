@@ -23,7 +23,7 @@ Default endpoints:
 +-----------+-------------------------+------------+
 
 gRPC API
-''''''''
+--------
 
 We can run the gRPC example `testing client code <https://github.com/nebulasio/go-nebulas/blob/develop/rpc/testing/client/main.go>`__:
 
@@ -42,11 +42,11 @@ We can see client log output like:
     GetAccountState n1Zn6iyyQRhqthmCfqGBzWfip1Wx8wEvtrJ nonce 0 value 10
 
 HTTP
-''''
+-----
 
 We have also provided HTTP to access the RPC API. The file that ends with **gw.go** is the mapping file. Now we can access the rpc API directly from our browser, you can update the **rpc\_listen** and **http\_listen** in **conf/default/config.conf** to change the RPC/HTTP ports, respectively.
 
-Example:
+**Example:**
         
 
 .. code:: bash
@@ -111,12 +111,12 @@ Return the state of the neb.
 | HTTP       | GET      | /v1/user/nebstate   |
 +------------+----------+---------------------+
 
-Parameters
+**Parameters**
           
 
 none
 
-Returns
+**Returns**
        
 
 ``chain_id`` Block chain id: \* ``1``: mainnet.
@@ -135,7 +135,7 @@ Returns
 
 ``version`` neb version.
 
-HTTP Example
+**HTTP Example**
             
 
 .. code:: bash
@@ -156,6 +156,7 @@ HTTP Example
         }
     }
 
+
 --------------
 
 GetAccountState
@@ -171,14 +172,14 @@ Return the state of the account. Balance and nonce of the given address will be 
 | HTTP       | POST     | /v1/user/accountstate   |
 +------------+----------+-------------------------+
 
-Parameters
+**Parameters**
           
 
 ``address`` Hex string of the account addresss.
 
 ``height`` block account state with height. If not specified, use 0 as tail height.
 
-Returns
+**Returns**
        
 
 ``balance`` Current balance in unit of 1/(10^18) nas.
@@ -191,7 +192,7 @@ Returns
 
 ``pending`` pending transactions of address in Tx pool.
 
-HTTP Example
+**HTTP Example**
             
 
 .. code:: bash
@@ -225,12 +226,11 @@ Return the latest irreversible block.
 | HTTP       | GET      | /v1/user/lib              |
 +------------+----------+---------------------------+
 
-Parameters
-''''''''''
+**Parameters**
 
 none
 
-Returns
+**Returns**
        
 
 ``hash`` Hex string of block hash.
@@ -269,8 +269,7 @@ Returns
 
 -  ``transaction`` `GetTransactionReceipt <#gettransactionreceipt>`__ response info.
 
-HTTP Example
-''''''''''''
+**HTTP Example**
 
 .. code:: bash
 
@@ -304,7 +303,7 @@ HTTP Example
 --------------
 
 Call
-^^^^
+~~~~~
 
 Call a smart contract function. The smart contract must have been submited. Method calls are run only on the current node, not broadcast.
 
@@ -316,7 +315,7 @@ Call a smart contract function. The smart contract must have been submited. Meth
 | HTTP       | POST     | /v1/user/call   |
 +------------+----------+-----------------+
 
-Parameters
+**Parameters**
           
 
 The parameters of the ``call`` method are the same as the `SendTransaction <rpc_admin.md#sendtransaction>`__ parameters. Special attention:
@@ -329,7 +328,7 @@ The parameters of the ``call`` method are the same as the `SendTransaction <rpc_
 -  ``function`` the contract call function for call contract function.
 -  ``args`` the params of contract. The args content is JSON string of parameters array.
 
-Returns
+**Returns**
        
 
 ``result`` result of smart contract method call.
@@ -338,7 +337,7 @@ Returns
 
 ``estimate_gas`` estimate gas used.
 
-HTTP Example
+**HTTP Example**
             
 
 .. code:: bash
@@ -358,7 +357,7 @@ HTTP Example
 --------------
 
 SendRawTransaction
-^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~
 
 Submit the signed transaction. The transaction signed value should be return by `SignTransactionWithPassphrase <rpc_admin.md#signtransactionwithpassphrase>`__.
 
@@ -370,19 +369,19 @@ Submit the signed transaction. The transaction signed value should be return by 
 | HTTP       | POST     | /v1/user/rawtransaction   |
 +------------+----------+---------------------------+
 
-Parameters
+**Parameters**
           
 
 ``data`` Signed data of transaction
 
-Returns
+**Returns**
        
 
 ``txhash`` Hex string of transaction hash.
 
 ``contract_address`` returns only for deployed contract transaction.
 
-HTTP Example
+**HTTP Example**
             
 
 .. code:: bash
@@ -416,7 +415,7 @@ Deploy Contract Example
 --------------
 
 GetBlockByHash
-^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~
 
 Get block header info by the block hash.
 
@@ -428,19 +427,19 @@ Get block header info by the block hash.
 | HTTP       | POST     | /v1/user/getBlockByHash   |
 +------------+----------+---------------------------+
 
-Parameters
+**Parameters**
           
 
 ``hash`` Hex string of block hash.
 
 ``full_fill_transaction`` If true it returns the full transaction objects, if false only the hashes of the transactions.
 
-Returns
+**Returns**
        
 
 See `LatestIrreversibleBlock <#latestirreversibleblock>`__ response.
 
-HTTP Example
+**HTTP Example**
             
 
 .. code:: bash
@@ -489,7 +488,7 @@ HTTP Example
 --------------
 
 GetBlockByHeight
-^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~
 
 Get block header info by the block height.
 
@@ -501,19 +500,19 @@ Get block header info by the block height.
 | HTTP       | POST     | /v1/user/getBlockByHeight   |
 +------------+----------+-----------------------------+
 
-Parameters
+**Parameters**
           
 
 ``height`` Height of transaction hash.
 
 ``full_fill_transaction`` If true it returns the full transaction objects, if false only the hashes of the transactions.
 
-Returns
+**Returns**
        
 
 See `LatestIrreversibleBlock <#latestirreversibleblock>`__ response.
 
-HTTP Example
+**HTTP Example**
             
 
 .. code:: bash
@@ -562,7 +561,7 @@ HTTP Example
 --------------
 
 GetTransactionReceipt
-^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~
 
 Get transactionReceipt info by transaction hash. If the transaction is not submitted or only submitted but is not packaged on chain, it will return "not found" error.
 
@@ -574,12 +573,12 @@ Get transactionReceipt info by transaction hash. If the transaction is not submi
 | HTTP       | POST     | /v1/user/getTransactionReceipt   |
 +------------+----------+----------------------------------+
 
-Parameters
+**Parameters**
           
 
 ``hash`` Hex string of transaction hash.
 
-Returns
+**Returns**
        
 
 ``hash`` Hex string of tx hash.
@@ -616,7 +615,7 @@ Returns
 
 **Note:** the data length of ``execute_result`` is limited to 255 Bytes, if you want to receive a large return value from you smart-contract, please use api ``call`` instead.
 
-HTTP Example
+**HTTP Example**
             
 
 .. code:: bash
@@ -649,7 +648,7 @@ HTTP Example
 --------------
 
 GetTransactionByContract
-^^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Get transactionReceipt info by contract address. If contract does not exist or is not packaged on chain, a "not found" error will be returned.
 
@@ -661,18 +660,15 @@ Get transactionReceipt info by contract address. If contract does not exist or i
 | HTTP       | POST     | /v1/user/getTransactionByContract   |
 +------------+----------+-------------------------------------+
 
-Parameters
-''''''''''
+**Parameters**
 
 ``address`` Hex string of contract account address.
 
-Returns
-'''''''
+**Returns**
 
 The result is the same as that of `GetTransactionReceipt <rpc.md/#gettransactionbycontract>`__
 
-HTTP Example
-''''''''''''
+**HTTP Example**
 
 .. code:: bash
 
@@ -704,7 +700,7 @@ HTTP Example
 --------------
 
 Subscribe
-^^^^^^^^^
+~~~~~~~~~~~
 
 Return the subscribed events of transaction & block. The request is a keep-alive connection.
 
@@ -718,8 +714,7 @@ Return the subscribed events of transaction & block. The request is a keep-alive
 | HTTP       | POST     | /v1/user/subscribe   |
 +------------+----------+----------------------+
 
-Parameters
-''''''''''
+**Parameters**
 
 ``topics`` repeated event topic name, string array.
 
@@ -735,15 +730,13 @@ The topic name list:
 
 -  ``chain.revertBlock`` The topic of reverting block.
 
-Returns
-'''''''
+**Returns**
 
 ``topic`` subscribed event topic name.
 
 ``data`` subscribed event data.
 
-HTTP Example
-''''''''''''
+**HTTP Example**
 
 .. code:: bash
 
@@ -776,7 +769,7 @@ HTTP Example
 --------------
 
 GetGasPrice
-^^^^^^^^^^^
+~~~~~~~~~~~~
 
 Return current gasPrice.
 
@@ -788,18 +781,15 @@ Return current gasPrice.
 | HTTP       | GET      | /v1/user/getGasPrice   |
 +------------+----------+------------------------+
 
-Parameters
-''''''''''
+**Parameters**
 
 none
 
-Returns
-'''''''
+**Returns**
 
 ``gas_price`` gas price. The unit is 10^-18 NAS.
 
-HTTP Example
-''''''''''''
+**HTTP Example**
 
 .. code:: bash
 
@@ -816,7 +806,7 @@ HTTP Example
 --------------
 
 EstimateGas
-^^^^^^^^^^^
+~~~~~~~~~~~~
 
 Return the estimate gas of transaction.
 
@@ -828,20 +818,17 @@ Return the estimate gas of transaction.
 | HTTP       | POST     | /v1/user/estimateGas   |
 +------------+----------+------------------------+
 
-Parameters
-''''''''''
+**Parameters**
 
 The parameters of the ``EstimateGas`` method are the same as the `SendTransaction <rpc_admin.md/#sendtransaction>`__ parameters.
 
-Returns
-'''''''
+**Returns**
 
 ``gas`` the estimate gas.
 
 ``err`` error message of the transaction being executed.
 
-HTTP Example
-''''''''''''
+**HTTP Example**
 
 .. code:: bash
 
@@ -859,7 +846,7 @@ HTTP Example
 --------------
 
 GetEventsByHash
-^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~
 
 Return the events list of transaction.
 
@@ -871,18 +858,15 @@ Return the events list of transaction.
 | HTTP       | POST     | /v1/user/getEventsByHash   |
 +------------+----------+----------------------------+
 
-Parameters
-''''''''''
+**Parameters**
 
 ``hash`` Hex string of transaction hash.
 
-Returns
-'''''''
+**Returns**
 
 ``events`` the events list. - ``topic`` event topic; - ``data`` event data.
 
-HTTP Example
-''''''''''''
+**HTTP Example**
 
 .. code:: bash
 
@@ -907,7 +891,7 @@ HTTP Example
 --------------
 
 GetDynasty
-^^^^^^^^^^
+~~~~~~~~~~~
 
 GetDynasty get dpos dynasty.
 
@@ -919,17 +903,17 @@ GetDynasty get dpos dynasty.
 | HTTP       | POST     | /v1/user/dynasty   |
 +------------+----------+--------------------+
 
-Parameters
+**Parameters**
           
 
 ``height`` block height
 
-Returns
+**Returns**
        
 
 ``miners`` repeated string of miner address.
 
-HTTP Example
+**HTTP Example**
             
 
 .. code:: bash
