@@ -217,7 +217,6 @@ In order to maintain the security of the PoD system, the corresponding Penalties
 
 **The three block generation penalties for the consensus node are as follows:**
 
-
 <table>
   <tr>
    <td rowspan="2" ><strong>Security level</strong>
@@ -232,17 +231,17 @@ In order to maintain the security of the PoD system, the corresponding Penalties
   <tr>
    <td><strong>Limits</strong>
    </td>
-   <td><strong> Penalty</strong>
+   <td><strong>Penalty</strong>
    </td>
   </tr>
   <tr>
-   <td>low
+   <td>Low
    </td>
    <td>Causing instability to the network
    </td>
    <td>Intermittent participation in consensus such as failure to generate a block when expected.
    </td>
-   <td>Block stability index S<sub>(i) </sub>([2.2.1.2](#block-generation-stability-index)) decline; if reduced to 0.5 or less, the node cannot participate in the candidate node selection for 20 polling cycles (approximately 1 day).
+   <td>Block stability index S<sub>(i) </sub>(<a href="#block-generation-stability-index">2.2.1.2</a>) decline; if reduced to 0.5 or less, the node cannot participate in the candidate node selection for 20 polling cycles (approximately 1 day).
    </td>
    <td>No penalty
    </td>
