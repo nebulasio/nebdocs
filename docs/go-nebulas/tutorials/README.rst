@@ -69,9 +69,14 @@ Token标准
 ------------
 
 -  星云节点计划——基于贡献度证明机制（PoD）: 
-   [ `查看 <../../node-strategy/README.html>`_ ], 
-   [ `English PDF <https://nebulas.io/docs/PoDNodeStrategy.pdf>`__ ] , 
-   [ `中文 PDF <https://nebulas.io/docs/PoDNodeStrategyZh.pdf>`__ ]
+   `[查看] <../../node-strategy/README.html>`_, 
+   `[English PDF] <https://nebulas.io/docs/PoDNodeStrategy.pdf>`__, 
+   `[中文 PDF] <https://nebulas.io/docs/PoDNodeStrategyZh.pdf>`__
+
+-  星云NAX白皮书: 
+   `[Github] <https://github.com/nebulasio/nax_whitepaper>`_, 
+   `[English PDF] <https://nextdao.io/static/docs/nax_whitepaper_en.pdf>`__, 
+   `[中文 PDF] <https://nextdao.io/static/docs/nax_whitepaper_zh.pdf>`__
 
 -  星云治理橙皮书:
    `[English PDF] <https://nebulas.io/docs/NebulasOrangepaper.pdf>`__,
@@ -90,7 +95,7 @@ Token标准
    `[韩语 PDF] <https://nebulas.io/docs/NebulasYellowpaperKr.pdf>`__,
    `[葡萄牙语 PDF] <https://nebulas.io/docs/NebulasYellowpaperPt.pdf>`__,
    `[GitHub] <https://github.com/nebulasio/nr-report>`__,
-   `Official Interpretation <https://medium.com/nebulasio/official-interpretation-of-nebulas-rank-yellow-paper-dd18293cd9a9>`__
+   `官方介绍 <https://medium.com/nebulasio/official-interpretation-of-nebulas-rank-yellow-paper-dd18293cd9a9>`__
 
 -  技术白皮书:
    `[English PDF] <https://nebulas.io/docs/NebulasTechnicalWhitepaper.pdf>`__,
