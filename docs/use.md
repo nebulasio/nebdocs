@@ -4,7 +4,7 @@ If you are a developer and want to develop a DApp or use the mainnet, please vis
 
 * [1. Use an application built on Nebulas](#use-an-application-built-on-nebulas)
 * [2. What's NAS and how to get it?](#whats-nas-and-how-to-get-it)
-* [3. What's a wallet and how to hold NAS?](#whats-a-wallet-and-how-to-hold-nas)
+* [3. What's a wallet and how to hold NAS?](#what-s-a-wallet-and-how-to-hold-nas)
 * [4. What's NAX and how to get it?](#whats-nax-and-how-to-get-it)
 
 
