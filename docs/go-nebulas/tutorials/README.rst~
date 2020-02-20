@@ -1,13 +1,14 @@
 Tutorials
 =========
 
-If you are a developer, here is all you need to dive into Nebulas. You can also visit the `developer page <https://nebulas.io/developers.html>`_ to check all development tools.
+If you are a developer, here is all you need to dive into Nebulas. You can also visit the `developer page <https://nebulas.io/developers.html>`_ to check all develop tools.
+
 
 Go-Nebulas
 ----------
 
-- `Join the Testnet <../blockchain/testnet.md>`_
-- `Join the Mainnet <../blockchain/mainnet.md>`_
+- `Join the Testnet <../testnet.md>`_
+- `Join the Mainnet <../mainnet.md>`_
 - `Explorer <https://explorer.nebulas.io>`_
 
 Tutorials (Nebulas 101):

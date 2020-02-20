@@ -19,8 +19,8 @@ For getting started guides and documents, see here:
 
     Design <design-overview/README.md>
     Infrastructure <infrastructure/README.rst>
-    Tutorials <tutorials/README.rst>
     Joining the Blockchain <blockchain/README.rst>
+    Tutorials <tutorials/README.rst>
     DApp Development <dapp-development/README.rst>
     Developer Blog <develop/README.md>
 
