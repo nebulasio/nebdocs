@@ -1,4 +1,4 @@
-# Config
+# Configuration
 
 There are four types of configuration files in Nebulas.
 

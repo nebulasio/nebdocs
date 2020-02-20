@@ -1,5 +1,5 @@
-Develop 
-========
+Development on the Chain 
+========================
 
 
 
@@ -17,15 +17,15 @@ For getting started guides and documents, see here:
 .. toctree::
     :titlesonly:
 
-    Tutorials <tutorials/README.rst>
     Design <design-overview/README.md>
+    Infrastructure <infrastructure/README.rst>
+    Tutorials <tutorials/README.rst>
     Joining the Mainnet <mainnet.md>
     Joining the Testnet <testnet.md>
     Node Environment <environment.md>
+    Configuration Files <config.md>
     DApp Development <dapp-development/README.rst>
-    Configuration files <config.md>
-    Infrastructure <infrastructure/README.rst>
-    Develop Blog <develop/README.md>
+    Developer Blog <develop/README.md>
 
 
 Downloads
