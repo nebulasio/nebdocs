@@ -20,10 +20,7 @@ For getting started guides and documents, see here:
     Design <design-overview/README.md>
     Infrastructure <infrastructure/README.rst>
     Tutorials <tutorials/README.rst>
-    Joining the Mainnet <mainnet.md>
-    Joining the Testnet <testnet.md>
-    Node Environment <environment.md>
-    Configuration Files <config.md>
+    Joining the Blockchain <blockchain/README.rst>
     DApp Development <dapp-development/README.rst>
     Developer Blog <develop/README.md>
 
