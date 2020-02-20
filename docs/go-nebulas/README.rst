@@ -62,14 +62,13 @@ Nebulas NOVA launched in the end of 2018. There are three features:
 
 The third important version will be launch in 2020 with PoD consensus mechanism. `Click here <../node-strategy/README.rst>`_ to learn about the PoD Node Strategy.
 
-`Click here to learn how to join the mainnet <mainnet>`_.
+`Click here to learn how to join the mainnet <blockchain/mainnet>`_.
 
 
 Testnet
 -------
 
-A functional equivalent `Nebulas Testnet <https://testnet.nebulas.io>`_ is available now,allowing
-developers to interact with Nebulas freely. View: `How to join the testnet <testnet>`_.
+A functional equivalent `Nebulas Testnet <https://testnet.nebulas.io>`_ is available now, allowing developers to interact with Nebulas freely. View: `How to join the testnet <blockchain/testnet>`_.
 
 Roadmap
 -------

@@ -1,4 +1,4 @@
-# Management RPC
+# RPC Management
 
 Beside the [NEB API RPC](README.html) interface nebulas provides additional management APIs. Neb console supports both API and management interfaces. Management RPC uses the same gRPC and HTTP port, which also binds [NEB API RPC](README.html) interfaces.
 
@@ -12,7 +12,7 @@ Default management RPC Endpoint:
 | RESTful |http://localhost:8685 | HTTP |
 
 
-## Management RPC methods
+## RPC Management methods
 
 * [NodeInfo](#nodeinfo)
 * [Accounts](#accounts)
@@ -26,7 +26,7 @@ Default management RPC Endpoint:
 * [StartPprof](#startpprof)
 * [GetConfig](#getconfig)
 
-## Management RPC API Reference
+## RPC Management API Reference
 
 ### NodeInfo
 Return the p2p node info.
