@@ -27,11 +27,11 @@ Tutorials (Nebulas 101):
 DApp Development
 ----------------
 
-- Tutorials [`PDF <../resources/dapp-hackthon.pdf>`_]
-- `Chrome Extension(Similar as MetaMask) <https://github.com/nebulasio/WebExtensionWallet>`_
 -  `Smart Contract <../dapp-development/smart_contract.md>`_
+- Tutorials [`PDF <../resources/dapp-hackthon.pdf>`_]
+- `Chrome Extension (Similar to  MetaMask) <https://github.com/nebulasio/WebExtensionWallet>`_
 
-SDK
+SDKs
 ~~~~
 
 -  `Javascript SDK <https://github.com/nebulasio/neb.js>`_
@@ -42,7 +42,7 @@ SDK
 - `Android NebPay SDK <https://github.com/nebulasio/neb.android>`_
 - `iOS NebPay SDK <https://github.com/nebulasio/neb.iOS>`_
 
-Standard Token
+Standard Tokens
 ~~~~~~~~~~~~~~
 
 -  `NRC20 <../dapp-development/NRC20.md>`_
