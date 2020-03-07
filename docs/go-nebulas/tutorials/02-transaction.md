@@ -66,7 +66,7 @@ Once a new block minted by the miner, the mining reward will be added to the coi
 
 ## Interact with Nodes
 
-Nebulas provides developers with HTTP API, gRPC API and CLI to interact with the running nodes. Here, we will share how to send a transaction in three methods with HTTP API \([API Module](../dapp-development/rpc/README.html) \| [Admin Module](../dapp-development/rpc/rpc_admin.md)\).
+Nebulas provides developers with HTTP API, gRPC API and CLI to interact with the running nodes. Here, we will share how to send a transaction in three methods with HTTP API \([API Module](../dapp-development/rpc/README) \| [Admin Module](../dapp-development/rpc/rpc_admin.md)\).
 
 The Nebulas HTTP Lisenter is defined in the node configuration. The default port of our seed node is `8685`.
 

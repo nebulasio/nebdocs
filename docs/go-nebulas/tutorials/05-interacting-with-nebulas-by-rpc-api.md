@@ -127,12 +127,12 @@ if err != nil {
 
 For more interfaces, please refer to the official documentation:
 
-* [API Module](../dapp-development/rpc/README.html)
+* [API Module](../dapp-development/rpc/README)
 * [Admin Module](../dapp-development/rpc/rpc_admin.md).
 
 ### Next
 
 Good job! Now let's join the official Testnet and/or Mainnet to experience Nebulas to the fullest!
 
-[Join the Testnet](../testnet.md) & [Join the Mainnet](../mainnet.md)
+[Join the Testnet](../blockchain/testnet.md) & [Join the Mainnet](../blockchain/mainnet.md)
 

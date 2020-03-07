@@ -1,6 +1,6 @@
 # Using Nebulas
 
-If you are a developer and want to develop a DApp or use the mainnet, please visit [the develop chapter](go-nebulas/README.html) and [tutorials](go-nebulas/tutorials/README.html) to learn more about Nebulas technology and find develop resources. If you are an individual, there are four ways to use Nebulas:
+If you are a developer and want to develop a DApp or use the mainnet, please visit [the develop chapter](go-nebulas/README) and [tutorials](go-nebulas/tutorials/README) to learn more about Nebulas technology and find develop resources. If you are an individual, there are four ways to use Nebulas:
 
 * [1. Use an application built on Nebulas](#use-an-application-built-on-nebulas)
 * [2. What's NAS and how to get it?](#whats-nas-and-how-to-get-it)

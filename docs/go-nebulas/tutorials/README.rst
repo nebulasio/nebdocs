@@ -6,8 +6,8 @@ If you are a developer, here is all you need to dive into Nebulas. You can also 
 Go-Nebulas
 ----------
 
-- `Join the Testnet <../blockchain/testnet.md>`_
-- `Join the Mainnet <../blockchain/mainnet.md>`_
+- `Join the Testnet <../blockchain/testnet.html>`_
+- `Join the Mainnet <../blockchain/mainnet.html>`_
 - `Explorer <https://explorer.nebulas.io>`_
 
 Tutorials (Nebulas 101):
@@ -26,7 +26,7 @@ Tutorials (Nebulas 101):
 DApp Development
 ----------------
 
--  `Smart Contract <../dapp-development/smart_contract.md>`_
+-  `Smart Contract <../dapp-development/smart-contract/README.md>`_
 - Tutorials [`PDF <../resources/dapp-hackthon.pdf>`_]
 - `Chrome Extension (Similar to  MetaMask) <https://github.com/nebulasio/WebExtensionWallet>`_
 
@@ -42,7 +42,7 @@ SDKs
 - `iOS NebPay SDK <https://github.com/nebulasio/neb.iOS>`_
 
 Standard Tokens
-~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~
 
 -  `NRC20 <../dapp-development/NRC20.md>`_
 -  `NRC721 <../dapp-development/NRC721.md>`_

@@ -1,6 +1,6 @@
 # RPC Management
 
-Beside the [NEB API RPC](README.html) interface nebulas provides additional management APIs. Neb console supports both API and management interfaces. Management RPC uses the same gRPC and HTTP port, which also binds [NEB API RPC](README.html) interfaces.
+Beside the [NEB API RPC](README) interface nebulas provides additional management APIs. Neb console supports both API and management interfaces. Management RPC uses the same gRPC and HTTP port, which also binds [NEB API RPC](README.html) interfaces.
 
 Nebulas provide both [gRPC](https://grpc.io) and RESTful management APIs for users to interact with Nebulas. Our admin [proto](https://github.com/nebulasio/go-nebulas/blob/develop/rpc/pb/rpc.proto) file defines all admin APIs. **We recommend using the console access admin interfaces, or restricting the admin RPC to local access.**
 

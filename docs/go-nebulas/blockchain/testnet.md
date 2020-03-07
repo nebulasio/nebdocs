@@ -10,7 +10,7 @@ The Nebulas Testnet's executable file and dependant libraries need to be built f
 
 * **NEB:** The main process of the Nebulas Testnet. `NEB` and `NBRE` run in standalone processes, and communicate through IPC.
 
-Details of building the modules can be found in [tutorials](http://wiki.nebulas.io/en/latest/go-nebulas/tutorials/01-installation.html#compile-nebulas).
+Details of building the modules can be found in [tutorials](../tutorials/01-installation.html#compile-nebulas).
 
 ### Configuration
 The testnet configuration files are in the folder [`testnet/conf`](https://github.com/nebulasio/go-nebulas/tree/testnet/testnet/conf) under `testnet` branch, including:
@@ -82,23 +82,23 @@ Test Endpoint:
 | --- | :---: | :---: |
 | RESTful | [https://testnet.nebulas.io/](https://testnet.nebulas.io/) | HTTP |
 
-* [GetNebState](dapp-development/rpc/README.html#getnebstate) : returns nebulas client info.
-* [GetAccountState](dapp-development/rpc/README.html#getaccountstate): returns the account balance and nonce.
-* [Call](dapp-development/rpc/README.html#call): execute smart contract local, don't submit on chain.
-* [SendRawTransaction](dapp-development/rpc/README.html#sendrawtransaction): submit the signed transaction.
-* [GetTransactionReceipt](dapp-development/rpc/README.html#gettransactionreceipt): get transaction receipt info by tansaction hash.
+* [GetNebState](../dapp-development/rpc/README.html#getnebstate) : returns nebulas client info.
+* [GetAccountState](../dapp-development/rpc/README.html#getaccountstate): returns the account balance and nonce.
+* [Call](../dapp-development/rpc/README.html#call): execute smart contract local, don't submit on chain.
+* [SendRawTransaction](../dapp-development/rpc/README.html#sendrawtransaction): submit the signed transaction.
+* [GetTransactionReceipt](../dapp-development/rpc/README.html#gettransactionreceipt): get transaction receipt info by tansaction hash.
 
-More Nebulas APIs at [RPC](dapp-development/rpc/README.html).
+More Nebulas APIs at [RPC](../dapp-development/rpc/README).
 
 #### Claim Tokens
-Each email can claim tokens every day [here](https://testnet.nebulas.io/claim).
+[Each email can claim tokens every day here](https://testnet.nebulas.io/claim).
 
 ## Tutorials
-1. [Installation](tutorials/01-installation.md) \(thanks [Victor](https://github.com/victorychain)\)
-2. [Sending a Transaction](tutorials/02-transaction.md) \(thanks [Victor](https://github.com/victorychain)\)
-3. [Writing Smart Contract in JavaScript](tutorials/03-smart-contracts-javascript.md) \(thanks [otto](https://github.com/ottokafka)\)
-4. [Introducing Smart Contract Storage](tutorials/04-smart-contract-storage.md) \(thanks [Victor](https://github.com/victorychain)\)
-5. [Interacting with Nebulas by RPC API](tutorials/05-interacting-with-nebulas-by-rpc-api.md) \(thanks [Victor](https://github.com/victorychain)\)
+1. [Installation](../tutorials/01-installation.md) \(thanks [Victor](https://github.com/victorychain)\)
+2. [Sending a Transaction](../tutorials/02-transaction.md) \(thanks [Victor](https://github.com/victorychain)\)
+3. [Writing Smart Contract in JavaScript](../tutorials/03-smart-contracts-javascript.md) \(thanks [otto](https://github.com/ottokafka)\)
+4. [Introducing Smart Contract Storage](../tutorials/04-smart-contract-storage.md) \(thanks [Victor](https://github.com/victorychain)\)
+5. [Interacting with Nebulas by RPC API](../tutorials/05-interacting-with-nebulas-by-rpc-api.md) \(thanks [Victor](https://github.com/victorychain)\)
 
 
 ## Contributing

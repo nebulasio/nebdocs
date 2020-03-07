@@ -1,4 +1,4 @@
-# Nebulas node environment
+# Node Environment
 
 ## Introduction
 

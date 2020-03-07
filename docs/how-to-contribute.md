@@ -26,7 +26,7 @@ We are excited to devote ourselves to blockchain and to see how blockchain techn
 
 We are very glad that you are considering to help Nebulas Team or
 go-nebulas project, including but not limited to source code, documents
-or others. Read our [guideline](go-nebulas/develop/contribute.html) to learn more about development &
+or others. Read our [guideline](go-nebulas/develop/contribute.md) to learn more about development &
 contribution details.
 
 Our github: [github.com/nebulasio/go-nebulas](https://github.com/nebulasio/go-nebulas)
