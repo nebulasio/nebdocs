@@ -8,8 +8,8 @@ Go-Nebulas
 ----------
 
 - `星云链官网 <https://nebulas.io/cn/>`__
-- `加入星云测试网 <../testnet.md>`_ , `申请NAS测试币 <https://testnet.nebulas.io/claim/>`__
-- `加入星云主网 <../mainnet.md>`_
+- `加入星云测试网 <../blockchain/testnet.html>`_ , `申请NAS测试币 <https://testnet.nebulas.io/claim/>`__
+- `加入星云主网 <../blockchain/mainnet.html>`_
 - `区块浏览器 <https://explorer.nebulas.io>`_ , `Github <https://github.com/nebulasio/explorer>`__
 
 教程 (星云 101):
@@ -29,7 +29,7 @@ DApp开发
 
 - 教程 [`PDF <../resources/dapp-hackthon.pdf>`_]
 - `Chrome插件（类似MetaMask) <https://github.com/nebulasio/WebExtensionWallet>`_
--  `智能合约 <../dapp-development/smart_contract.md>`_
+-  `智能合约 <../dapp-development/smart-contract/README>`_
 
 SDK
 ~~~~

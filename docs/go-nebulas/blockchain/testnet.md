@@ -88,14 +88,14 @@ Test Endpoint:
 | --- | :---: | :---: |
 | RESTful | [https://testnet.nebulas.io/](https://testnet.nebulas.io/) | HTTP |
 
-* [GetNebState](dapp-development/rpc/README.html#getnebstate) : returns nebulas client info.
-* [GetAccountState](dapp-development/rpc/README.html#getaccountstate): returns the account balance and nonce.
-* [LatestIrreversibleBlock](dapp-development/rpc/README.html#latestirreversibleblock): returns the lastest irreversible block.
-* [Call](dapp-development/rpc/README.rst#call): execute smart contract locally. the tx won't be submitted on chain.
-* [SendRawTransaction](dapp-development/rpc/README.html#sendrawtransaction): submit signed transaction. The transaction must be signed before send.
-* [GetTransactionReceipt](dapp-development/rpc/README.html#gettransactionreceipt): get transaction receipt info by tansaction hash.
+* [GetNebState](../dapp-development/rpc/README.html#getnebstate) : returns nebulas client info.
+* [GetAccountState](../dapp-development/rpc/README.html#getaccountstate): returns the account balance and nonce.
+* [LatestIrreversibleBlock](../dapp-development/rpc/README.html#latestirreversibleblock): returns the lastest irreversible block.
+* [Call](../dapp-development/rpc/README.rst#call): execute smart contract locally. the tx won't be submitted on chain.
+* [SendRawTransaction](../dapp-development/rpc/README.html#sendrawtransaction): submit signed transaction. The transaction must be signed before send.
+* [GetTransactionReceipt](../dapp-development/rpc/README.html#gettransactionreceipt): get transaction receipt info by tansaction hash.
 
-更多的星云 APIs ： [RPC](dapp-development/rpc/README).
+更多的星云 APIs ： [RPC](../dapp-development/rpc/README).
 
 #### 申领测试NAS币
 
@@ -104,11 +104,11 @@ Test Endpoint:
 ## 教程
 
 
-1. [编译安装及运行neb](tutorials/01-installation.md)
-2. [在星云链上发送交易](tutorials/02-transaction.md)
-3. [使用JavaScript编写智能合约](tutorials/03-smart-contracts-javascript.md)
-4. [智能合约存储区介绍](tutorials/04-smart-contract-storage.md)
-5. [通过RPC接口与星云链交互](tutorials/05-interacting-with-nebulas-by-rpc-api.md)
+1. [编译安装及运行neb](../tutorials/01-installation.md)
+2. [在星云链上发送交易](../tutorials/02-transaction.md)
+3. [使用JavaScript编写智能合约](../tutorials/03-smart-contracts-javascript.md)
+4. [智能合约存储区介绍](../tutorials/04-smart-contract-storage.md)
+5. [通过RPC接口与星云链交互](../tutorials/05-interacting-with-nebulas-by-rpc-api.md)
 
 ## 作出贡献
 

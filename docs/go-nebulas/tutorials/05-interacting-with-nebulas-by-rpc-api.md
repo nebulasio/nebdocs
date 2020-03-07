@@ -133,5 +133,5 @@ if err != nil {
 
 恭喜你成功走完了整个教程! 欢迎阅读下列指南来加入官方的测试网和主网，探索更加广阔的区块链世界。
 
-[加入测试网](../testnet.md) & [加入主网](../mainnet.md)
+[加入测试网](../blockchain/testnet.md) & [加入主网](../blockchain/mainnet.md)
 

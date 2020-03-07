@@ -12,15 +12,13 @@
 .. toctree::
     :titlesonly:
 
-    tutorials/README.rst
-    design-overview/README.md
-    mainnet.md
-    testnet.md
-    environment.md
-    dapp-development/README.rst
-    config.md
+    
+    design-overview/README.rst
     infrastructure/README.rst
-    develop/README.md
+    blockchain/README.rst
+    tutorials/README.rst
+    dapp-development/README.rst
+    develop/README.rst
 
 
 下载
@@ -55,27 +53,27 @@ repositories:
 
 
 
-`点击这里 <https://nebulas.io/cn/nova.html>`_  了解星云NOVA。相关文章：
+`点击这里了解星云NOVA <https://nebulas.io/cn/nova.html>`_ 。相关文章：
 
 -  `星云NOVA，发现区块链世界数据价值 <https://medium.com/nebulasio/nebulas-nova-to-discover-data-value-in-the-blockchain-world-83bbb5cde05c>`_ 
    [ `Youtube <https://www.youtube.com/watch?v=jLIYkG35Ljo>`_ ]
 
 - 6 Minutes Learning Nebulas NOVA with 92k Lines of Code by Joel Wang [ `Youtube <https://www.youtube.com/watch?v=lT0yKkNdO48>`_ ]
 
-第三个重要版本关于贡献度证明机制，将于2020年随节点计划发布。 `点击这里 <../node-strategy/README.rst>`_ 了解星云节点计划。
+第三个重要版本关于贡献度证明机制，将于2020年随节点计划发布。 `点击这里了解星云节点计划 <../node-strategy/README.rst>`_ 。
 
-`点击这里加入星云主网 <mainnet>`_ 。
+`点击这里加入星云主网 <blockchain/mainnet.html>`_ 。
 
 
 测试网
 -------
 
-功能完备的 `星云测试网 <https://testnet.nebulas.io>`_ 已经上线，方便开发者随时免费使用星云。了解： `加入星云测试网 <testnet>`_ 。
+功能完备的 `星云测试网 <https://testnet.nebulas.io>`_ 已经上线，方便开发者随时免费使用星云。了解： `加入星云测试网 <blockchain/testnet.html>`_ 。
 
 路线图
 -------
 
-星云版本 `参见这里 <https://github.com/nebulasio/go-nebulas/releases>`_ ，路线图 `点击这里 <https://nebulas.io/cn/roadmap.html>`_ 。
+`星云版本参见这里 <https://github.com/nebulasio/go-nebulas/releases>`_ ，`路线图参见这里 <https://nebulas.io/cn/roadmap.html>`_ 。
 
 
 
