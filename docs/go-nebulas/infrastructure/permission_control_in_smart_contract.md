@@ -1,6 +1,6 @@
-# permission\_control\_in\_smart\_contract
+# Permission Control in Smart Contract
 
-## What Is Permission Control Of Smart Contract
+## What Is Permission Control of Smart Contract
 
 The permission control of a smart contract refers to whether the contract caller has permission to invoke the function in the contract. There are two types of permission control: owner permission control and other permission control.
 

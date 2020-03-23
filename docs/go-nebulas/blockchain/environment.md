@@ -18,6 +18,24 @@ Disk: >= 600G SSD
 
 ## Environment
 
+**Node Installation Tutorial** - review the [Nebulas Technical Documentation: Nebulas 101 - 01 Compile Installation](../tutorials/01-installation).
+
+
+It’s recommended to build and deploy nodes via docker:
+
+
+
+*   Install [docker](https://docs.docker.com/get-started/) and [docker-compose](https://docs.docker.com/compose/install/)
+*   Execute the following docker command via [root](https://github.com/nebulasio/go-nebulas)
+
+```
+sudo docker-compose build
+
+sudo docker-compose up -d
+
+```
+
+
 ```
 System: Ubuntu 18.04(recommand), other Linux is ok.
 NTP: Ensure machine time synchronization

@@ -28,14 +28,18 @@ V1.0 星云基金会，`中文PDF <https://nebulas.io/docs/PoDNodeStrategyZh.pdf
 相关报道：`The launch of Nebulas’ Proof of Devotion consensus protocol has begun <https://ambcrypto.com/the-launch-of-nebulas-proof-of-devotion-consensus-protocol-has-begun/>`_ on Ambcrypto.
 
 
-**路线图**
+**如何加入**
 
-为了更好地完成主网节点去中心化的过渡，星云节点计划将逐步开放节点申请。诚邀当前星云生态中活跃的项目方、合作伙伴和社区成员，提前搭建节点并体验治理流程，为测试和改进提供宝贵建议。路线图如下：
+包含PoD的新版主网Nebulas Voyager（航行者）将于3月30日发布。
 
-*   **2020.1月初** - 上线测试网，启动测试悬赏
-*   **2020.1月** - 节点申请开启邀请制，共识机制启动
-*   **2020.2月底** - 节点开放公开申请
-*   **2020.3月底** - 第一次治理投票，治理机制启动
+为了更好地完成主网节点去中心化，届时星云节点计划将开放节点申请。诚邀当前星云生态中活跃的项目方、合作伙伴和社区成员，搭建节点并体验治理流程。
+
+- 欢迎在节点平台申请节点： `node.nebulas.io <https://node.nebulas.io/apply/ready>`_。
+- `准备好硬件和环境 <appendix.html#a>`_，具体请参考 `节点环境 <../go-nebulas/blockchain/environment.html>`_。
+- 更新代码：`如何加入星云主网 <../go-nebulas/blockchain/mainnet.html>`_。
+
+Nebulas Community Collaboration Platform: `go.nebulas.io <https://go.nebulas.io>`_ 
+
 
 
 ----
