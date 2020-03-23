@@ -5,6 +5,7 @@
 * [Appendix B. Node Multi-User Participation](#appendix-b-node-multi-user-participation)
 * [Appendix C. Earnings Simulation](#appendix-c-earnings-simulation)
 * [Appendix D. Parameter Table](#appendix-d-parameter-table)
+* [Appendix E. Addresses](#appexdix-e-addresses)
 
 ## Appendix A. Recommended Hardware Configuration for Node Operation
 
@@ -17,7 +18,7 @@ Monthly recommended configuration server expenditure is approximately: $150 USDT
 *   Disk: 	>= 600G SSD
 *   NTP: NTP service is required on the server to ensure correct time synchronization for all operational nodes.
 
-**Node Installation Tutorial** - review the [Nebulas Technical Documentation: Nebulas 101 - 01 Compile Installation](https://wiki.nebulas.io/en/latest/go-nebulas/tutorials/01-installation.html).
+**Node Installation Tutorial** - review the [Nebulas Technical Documentation: Nebulas 101 - 01 Compile Installation](../go-nebulas/tutorials/01-installation).
 
 
 It’s recommended to build and deploy nodes via docker:
@@ -111,3 +112,14 @@ Assuming that all 51 governance nodes selected each month participate, the nodes
 *   Maximum amount of funds released per governance cycle: Cannot greater than $30,000 USDT
 
 
+## Appendix E. Addresses
+
+* **Sign-in address:** This address is the only one that you can sign in to the node platform with. Please use the Nebulas Chrome Extension to sign in and manage your node on this node platform.
+
+* **Minner address:** Only used for creating the block, signature, polling check. The keystore is on your server.
+
+* **Incentive address:** Your consensus incentive will be sent to this address. We recommend a cold storage wallet for security. The incentive address can be modified via the server configuration.
+
+* **Governance address:** If your node is selected as a governance node, your vote for proposals and projects will be via this address. In addition, your governance incentive will be sent to this address. To partake in governance and to vote, we recommend using a hot wallet such as NAS nano Pro.
+
+The default governance address is the same as the sign-in address. For security reasons, it is recommended to use a different address and allocate hot and cold wallets according to our recommendations.

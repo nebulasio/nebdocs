@@ -28,14 +28,19 @@ Learn more about the Node Strategy and PoD mechanism:
 
 Another post: `The launch of Nebulas’ Proof of Devotion consensus protocol has begun <https://ambcrypto.com/the-launch-of-nebulas-proof-of-devotion-consensus-protocol-has-begun/>`_ on Ambcrypto.
 
-**Roadmap**
+**How to Join**
 
-In order to best complete the decentralized transition of the mainnet nodes, the Nebulas PoD Node Decentralization Strategy will gradually open the node applications to all. Initially, we invite active project parties, partners and community members within the current Nebulas ecosystem to deploy nodes and explore the governance processes in advance to the public release to provide valuable advice for testing and improvement. The roadmap is as follows:
 
-*   **Early January 2020** - Launch of test bounty program on the testnet;
-*   **January 2020** - Node application by invitation, consensus mechanism initiated;
-*   **End of February 2020** - Open application for community nodes;
-*   **End of March 2020** - First governance vote, governance mechanism initiated.
+The new version mainnet Nebulas Voyager with PoD will be launched on Mar 30, 2020. 
+
+In order to best complete the decentralized transition of the mainnet nodes, the Nebulas PoD Node Decentralization Strategy will gradually open the node applications to all. We invite active project parties, partners and community members to deploy nodes and explore the governance processes.
+
+- Apply a node on Nebulas Node Platform: `node.nebulas.io <https://node.nebulas.io/apply/ready>`_
+- `Prepare your hardware <appendix.html#appendix-a-recommended-hardware-configuration-for-node-operation>`_, `Node environment <../go-nebulas/blockchain/environment.html>`_.
+- Update your code: `How to join the Nebulas mainnet <../go-nebulas/blockchain/mainnet.html>`_
+
+Nebulas Community Collaboration Platform: `go.nebulas.io <https://go.nebulas.io>`_ 
+
 
 
 ----

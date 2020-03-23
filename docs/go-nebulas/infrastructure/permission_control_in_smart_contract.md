@@ -1,4 +1,4 @@
-# permission\_control\_in\_smart\_contract
+# Permission Control in Smart Contract
 
 ## What Is Permission Control Of Smart Contract
 
