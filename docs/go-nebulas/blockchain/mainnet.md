@@ -2,16 +2,15 @@
 
 ## 介绍
 
-Nebulas Mainnet 2.0（Nebulas Nova）已经发布。 本教程将教您如何加入和使用星云主网。
+Nebulas Mainnet 3.0（Nebulas Voyager）已经发布。 本教程将教您如何加入和使用星云主网。
 
-> [https://github.com/nebulasio/go-nebulas/tree/master](https://github.com/nebulasio/go-nebulas/tree/master)
+> [https://github.com/nebulasio/go-nebulas/tree/v3.0.0](https://github.com/nebulasio/go-nebulas/tree/v3.0.0)
 
 ### 编译
 
 需要首先构建Nebulas Mainnet的可执行文件和依赖库。 以下重点介绍几个重要模块：
 
-* **NBRE:** 星云区块链运行时环境，运行Nebulas Protocol Representation的平台，例如DIP，NR等。
-* **NEB:** 星云主网的主进程。 `NEB`和`NBRE`运行于独立进程中，两者通过IPC进行通信。
+* **NEB:** 星云主网的主进程。
 
 有关编译的详细信息，请参阅 [教程](../tutorials/01-installation.html#compile-nebulas).
 
@@ -40,7 +39,7 @@ Mainnet配置文件位于文件夹 [`mainnet/conf`](https://github.com/nebulasio
 > _Tips_: 官方种子节点信息如下,
 
 ```javascript
-seed:["/ip4/52.2.205.12/tcp/8680/ipfs/QmQK7W8wrByJ6So7rf84sZzKBxMYmc1i4a7JZsne93ysz5","/ip4/52.56.55.238/tcp/8680/ipfs/QmVy9AHxBpd1iTvECDR7fvdZnqXeDhnxkZJrKsyuHNYKAh","/ip4/13.251.33.39/tcp/8680/ipfs/QmVm5CECJdPAHmzJWN2X7tP335L5LguGb9QLQ78riA9gw3"]
+seed:["/ip4/52.76.103.107/tcp/8680/ipfs/Qmbi1NVTYHkeuST2wS3B3aHiTLHDajHZpoZk5EDpAXt9H2","/ip4/52.56.55.238/tcp/8680/ipfs/QmVy9AHxBpd1iTvECDR7fvdZnqXeDhnxkZJrKsyuHNYKAh","/ip4/34.198.52.191/tcp/8680/ipfs/QmQK7W8wrByJ6So7rf84sZzKBxMYmc1i4a7JZsne93ysz5"]
 ```
 
 #### Miner config 

@@ -33,10 +33,10 @@ export GOPATH=/path/to/workspace
 
 ```bash
 # download
-wget https://dl.google.com/go/go1.12.linux-amd64.tar.gz
+wget https://dl.google.com/go/go1.14.1.linux-amd64.tar.gz
 
 # extract
-tar -C /usr/local -xzf go1.12.linux-amd64.tar.gz
+tar -C /usr/local -xzf go1.14.1.linux-amd64.tar.gz
 
 # environment variables
 export PATH=$PATH:/usr/local/go/bin
@@ -147,7 +147,7 @@ make build
 meta {
   # 每条链的唯一标识
   # 每个区块和交易只会属于一条唯一的链，保证安全性
-  chain_id: 100
+  chain_id: 1
 }
 
 consensus {
@@ -200,7 +200,7 @@ network {
 # 链配置
 chain {
   # 链的唯一标识
-  chain_id: 100
+  chain_id: 1
 
   # 数据存储地址
   datadir: "data.db"
