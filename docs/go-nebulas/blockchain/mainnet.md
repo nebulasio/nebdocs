@@ -29,7 +29,7 @@
 
 - genesis.conf
 - config.conf
-- Miner.conf
+- Miner config
 
 ### 1 genesis.conf
 
@@ -53,7 +53,7 @@
 seed:["/ip4/52.76.103.107/tcp/8680/ipfs/Qmbi1NVTYHkeuST2wS3B3aHiTLHDajHZpoZk5EDpAXt9H2","/ip4/52.56.55.238/tcp/8680/ipfs/QmVy9AHxBpd1iTvECDR7fvdZnqXeDhnxkZJrKsyuHNYKAh","/ip4/34.198.52.191/tcp/8680/ipfs/QmQK7W8wrByJ6So7rf84sZzKBxMYmc1i4a7JZsne93ysz5"]
 ```
 
-### 3 miner.conf 
+### 3 miner config 
 
 节点可以参与挖矿并获得奖励。挖矿节点需要允许访问出块地址和激励地址（coinbase）。
 
