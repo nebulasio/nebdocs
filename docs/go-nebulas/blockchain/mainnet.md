@@ -1,26 +1,37 @@
 # 加入星云主网
 
-## 介绍
 
-Nebulas Mainnet 3.0（Nebulas Voyager）已经发布。 本教程将教您如何加入和使用星云主网。
+星云主网 3.0（Nebulas Voyager）已经发布。 本教程将教您如何加入和使用星云主网。
 
 > [https://github.com/nebulasio/go-nebulas/tree/v3.0.0](https://github.com/nebulasio/go-nebulas/tree/v3.0.0)
 
-### 编译
+* [编译](#id1)
+* [配置文件](#id2)
+* [数据同步](#id3)
+* [教程](#id4)
+* [API列表](#id5)
+* [作出贡献](#id6)
 
-需要首先构建Nebulas Mainnet的可执行文件和依赖库。 以下重点介绍几个重要模块：
 
-* **NEB:** 星云主网的主进程。
+## 编译
 
-有关编译的详细信息，请参阅 [教程](../tutorials/01-installation.html#compile-nebulas).
+需要首先构建星云主网的可执行文件和依赖库：
+
+* **NEB:** 星云主网的主进程
+
+有关编译的详细信息，请参阅 [教程](../tutorials/01-installation.html#id2) 。
 
 
-### 配置文件
+## 配置文件
 
-Mainnet配置文件位于文件夹 [`mainnet/conf`](https://github.com/nebulasio/go-nebulas/tree/master/mainnet/conf),
+主网配置文件位于文件夹 [`mainnet/conf`](https://github.com/nebulasio/go-nebulas/tree/master/mainnet/conf)，
 包括：
 
-### genesis.conf
+- genesis.conf
+- config.conf
+- Miner.conf
+
+### 1 genesis.conf
 
 关于创世块的所有可配置信息都在genesis.conf中定义，包括：
 
@@ -28,24 +39,25 @@ Mainnet配置文件位于文件夹 [`mainnet/conf`](https://github.com/nebulasio
 * **consensus.dpos.dynasty:** the initial dynasty of validators
 * **token\_distribution:** the initial allocation of tokens
 
-> _注意_: 不要修改 genesis.conf.
+**_注意_**: 不要修改 genesis.conf。
 
-### config.conf
+### 2 config.conf
 
 有关运行时的所有可配置信息都在config.conf中定义。
 
 请查看 [`template.conf`](https://github.com/nebulasio/nebdocs/blob/zh-CN/docs/resources/conf/template.conf) 查找有关运行时配置的更多详细信息。
 
-> _Tips_: 官方种子节点信息如下,
+**_注意_**: 官方种子节点信息如下：
 
 ```javascript
 seed:["/ip4/52.76.103.107/tcp/8680/ipfs/Qmbi1NVTYHkeuST2wS3B3aHiTLHDajHZpoZk5EDpAXt9H2","/ip4/52.56.55.238/tcp/8680/ipfs/QmVy9AHxBpd1iTvECDR7fvdZnqXeDhnxkZJrKsyuHNYKAh","/ip4/34.198.52.191/tcp/8680/ipfs/QmQK7W8wrByJ6So7rf84sZzKBxMYmc1i4a7JZsne93ysz5"]
 ```
 
-#### Miner config 
-Nodes can participate in mining and share rewards after signing up for mining. The miner node needs to turn on the mine switch and configure both the miner address and reward address(coinbase).
+### 3 miner.conf 
 
-miner config example:
+节点可以参与挖矿并获得奖励。挖矿节点需要允许访问出块地址和激励地址（coinbase）。
+
+出块配置文件示例：
 
 ```
 chain {
@@ -72,19 +84,19 @@ chain {
 }
 ```
 
-### Synchronization
+## 数据同步
 
-Since Nebulas mainnet is running there for certain period of time, it will take quite some time to sync all the mainnet data from scratch. 
+因为星云主网2018年3月上线，已经运行了一段时间，需要一定时间来同步主网历史数据。为了方便开发者，我们提供离线数据包方便下载。该数据包已经包含了超过一百万的区块，你可以直接点击以下链接快速下载（选择对你来说最快的方法）：
 
-For developers' convenience, we provided a offline data package, which already includes the data of more than 1 million blocks, you can download the package directly by following either link below (choose whichever is faster for you):
-- [`download from AWS s3`](https://s3-us-west-1.amazonaws.com/develop-center/data/mainnet/data.db.tar)
-- [`download from Aliyun oss`](http://develop-center.oss-cn-zhangjiakou.aliyuncs.com/data/mainnet/data.db.tar.gz)
+- [`从亚马逊云服务 AWS s3 下载（位于美国）`](https://s3-us-west-1.amazonaws.com/develop-center/data/mainnet/data.db.tar)
+- [`从阿里云OSS下载（位于中国）`](http://develop-center.oss-cn-zhangjiakou.aliyuncs.com/data/mainnet/data.db.tar.gz)
 
-> Please note that, the data package should be put under the same path of "datadir" as specified in your `config.conf` file.
-
+**_注意_**：数据包必须放在你的config.conf文件里指定的datadir目录下。数据包更新于3.0发布前夕，缺失的块会自动追块。
 
 
-### API 列表
+
+
+## API 列表
 
 Main Endpoint:
 
@@ -92,13 +104,13 @@ Main Endpoint:
 | --- | :---: | :---: |
 | RESTful | [https://mainnet.nebulas.io/](https://mainnet.nebulas.io/) | HTTP |
 
-* [GetNebState](../dapp-development/rpc/README.html#getnebstate) : returns nebulas client info.
-* [GetAccountState](../dapp-development/rpc/README.html#getaccountstate): returns the account balance and nonce.
-* [Call](../dapp-development/rpc/README.html#call): execute smart contract local, don't submit on chain.
-* [SendRawTransaction](../dapp-development/rpc/README.html#sendrawtransaction): submit the signed transaction.
-* [GetTransactionReceipt](../dapp-development/rpc/README.html#gettransactionreceipt): get transaction receipt info by tansaction hash.
+* [GetNebState](../dapp-development/rpc/README.html#getnebstate) : 返回星云客户端信息。
+* [GetAccountState](../dapp-development/rpc/README.html#getaccountstate): 返回账户余额和随机数。
+* [Call](../dapp-development/rpc/README.html#call): 执行职能合约，不提交上链。
+* [SendRawTransaction](../dapp-development/rpc/README.html#sendrawtransaction): 提交已签名的转账。
+* [GetTransactionReceipt](../dapp-development/rpc/README.html#gettransactionreceipt): 通过hash获得转账返回信息。
 
-更多星云 APIs ： [RPC](../dapp-development/rpc/README).
+更多星云 APIs ： [RPC](../dapp-development/rpc/README) 。
 
 ## 教程
 
