@@ -1,6 +1,6 @@
 # 01 Compile and Install Nebulas
 
-The current version of Nebulas Mainnet is 2.1.1, which is called Nebulas Nova. 
+The current version of Nebulas Mainnet is 3.0.0, which is called Nebulas Nova. 
 
 Nebulas Nova aims to discover the value of blockchain data, and it also means the future of collaboration.
 
@@ -42,10 +42,10 @@ export GOPATH=/path/to/workspace
 
 ```bash
 # download
-wget https://dl.google.com/go/go1.12.linux-amd64.tar.gz
+wget https://dl.google.com/go/go1.14.1.linux-amd64.tar.gz
 
 # extract
-tar -C /usr/local -xzf go1.12.linux-amd64.tar.gz
+tar -C /usr/local -xzf go1.14.1.linux-amd64.tar.gz
 
 # environment variables
 export PATH=$PATH:/usr/local/go/bin
@@ -104,7 +104,7 @@ Before launching a new Nebulas chain, we have to define the configuration of gen
 
 meta {
     # Chain identity
-  chain_id: 100
+  chain_id: 1
 }
 
 consensus {

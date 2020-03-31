@@ -2,16 +2,15 @@
 
 ## Introduction
 
-The Nebulas Mainnet 2.0 (Nebulas Nova) has been released. This tutorial will teach you how to join and work with the Nebulas Mainnet.
+The Nebulas Mainnet 3.0.0 (Nebulas Voyager) has been released. This tutorial will teach you how to join and work with the Nebulas Mainnet.
 
-> [https://github.com/nebulasio/go-nebulas/tree/master](https://github.com/nebulasio/go-nebulas/tree/master)
+> [https://github.com/nebulasio/go-nebulas/tree/v3.0.0](https://github.com/nebulasio/go-nebulas/tree/v3.0.0)
 
 ### Build
 
 The Nebulas Mainnet's executable file and dependant libraries need to be built first. Several important modules are highlighted below:
 
-* **NBRE:** The Nebulas Blockchain Runtime Environment is the platform for running Nebulas Protocol Representation, such as the DIP, the NR, etcetera. 
-* **NEB:** The main process of the Nebulas Mainnet. `NEB` and `NBRE` run in standalone processes, and communicate through IPC.
+* **NEB:** The main process of the Nebulas Mainnet.
 
 Details of building the modules can be found in [tutorials](../tutorials/01-installation.html#compile-nebulas).
 
@@ -39,7 +38,7 @@ Please check the [`template.conf`](https://github.com/nebulasio/nebdocs/blob/mas
 > _Tips_: the official seed node info is as follows,
 
 ```javascript
-seed:["/ip4/52.2.205.12/tcp/8680/ipfs/QmQK7W8wrByJ6So7rf84sZzKBxMYmc1i4a7JZsne93ysz5","/ip4/52.56.55.238/tcp/8680/ipfs/QmVy9AHxBpd1iTvECDR7fvdZnqXeDhnxkZJrKsyuHNYKAh","/ip4/13.251.33.39/tcp/8680/ipfs/QmVm5CECJdPAHmzJWN2X7tP335L5LguGb9QLQ78riA9gw3"]
+seed:["/ip4/52.76.103.107/tcp/8680/ipfs/Qmbi1NVTYHkeuST2wS3B3aHiTLHDajHZpoZk5EDpAXt9H2","/ip4/52.56.55.238/tcp/8680/ipfs/QmVy9AHxBpd1iTvECDR7fvdZnqXeDhnxkZJrKsyuHNYKAh","/ip4/34.198.52.191/tcp/8680/ipfs/QmQK7W8wrByJ6So7rf84sZzKBxMYmc1i4a7JZsne93ysz5"]
 ```
 
 #### Miner config 
