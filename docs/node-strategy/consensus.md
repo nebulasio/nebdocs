@@ -14,7 +14,7 @@
 	* [2.3.3 On-chain Confirmation](#on-chain-confirmation)
 * [2.4 Exit Mechanism](#exit-mechanism)
 	* [2.4.1 Withdrawal of NAX Support for a Node (votes)](#withdrawal-of-nax-support-for-a-node-votes)
-	* [2.4.2 Exiting the Node Pool](#exiting-the-noode-pool)
+	* [2.4.2 Exiting the Node Pool](#exiting-the-node-pool)
 * [2.5 Penalties and Emergency Response](#penalties-and-emergency-response)
 	* [2.5.1 Penalties](#penalties)
 		* [2.5.1.1 Block Generation Penalties](#block-generation-penalties)
