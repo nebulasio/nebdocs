@@ -58,7 +58,7 @@ Secondly, start a miner node connecting to the seed node. This node will generat
 
 **How long a new block will be minted?**
 
-> In Nebulas, DPoS is chosen as the temporary consensus algorithm before Proof-of-Devotion\(PoD, described in [Technical White Paper](https://nebulas.io/docs/NebulasTechnicalWhitepaper.pdf)\) is ready. In this consensus algorithm, each miner will mint new block one by one every 15 seconds.
+> In Nebulas PoD consensus algorithm, each miner will mint new block one by one every 15 seconds.
 >
 > In current context, we have to wait for 315\(=15\*21\) seconds to get a new block because there is only one miner among 21 miners defined in `conf/default/genesis.conf` working now.
 
