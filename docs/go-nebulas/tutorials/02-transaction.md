@@ -56,7 +56,7 @@ Address: n1SQe5d1NKHYFMKtJ5sNHPsSPVavGzW71Wy
 
 > **多久会生成一个新的区块?**
 >
-> 在星云链上, 在贡献度证明（Proof-of-Devotion， [技术白皮书](https://nebulas.io/docs/NebulasTechnicalWhitepaper.pdf)中有详细描述）被充分验证前，DPoS被选择作为一个过渡方案。在我们采用DPoS共识算法中，总共有21个矿工，每个矿工会轮流每15s出一个新区块。
+> 在星云链上, 在贡献度证明（Proof-of-Devotion， [技术白皮书](https://nebulas.io/docs/NebulasTechnicalWhitepaper.pdf)中有详细描述）中，总共有21个矿工，每个矿工会轮流每15s出一个新区块。
 >
 > 在我们目前的测试环境中，由于我们只启动了21个矿工中的一个，所以需要等待15\*21s才会出一个新区块。
 
