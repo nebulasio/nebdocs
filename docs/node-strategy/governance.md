@@ -45,40 +45,36 @@ The proposal operation of the Nebulas community is an important part of the cont
 4. Development and maintenance of community eco-products;
 5. Community operations and market expansion.
 
-For a proposals to go from idea to implementation, it will go through multiple steps including: 
+For a proposal to go from idea to implementation, it will go through multiple steps including: 
 
 
 
-*   proposal;
-*   Project establishment;
-*   project execution;
-*   project acceptance.
+*   Proposal establishment;
+*   Project execution;
+*   Project acceptance.
 
 Each step needs to be voted for and approved by the Governance Committee. The Governance Committee has three types of voting tasks in each governance cycle:
 
 
 
-1. **Proposal voting:** Vote on the proposals submitted from the Nebulas community and decide whether to approve the project to the next phase.
-2. **Project establishment voting:** Vote on the establishment and budget of projects that have successfully passed the proposal process.  
-3. **Project acceptance voting:** Review and vote on projects that have been established, completed and issue funding.
+1. **Proposal establishment voting:** Vote on the proposals submitted from the Nebulas community and decide whether to approve the project and its budget.  
+2. **Project acceptance voting:** Review and vote on projects that have been established, completed and issue funding.
 
 **The Governance Committee process is as follows:**
 
 
 
-![](../resources/node/Nebulas-PoD-3-1.png "Figure 3.1 Governance Committee Voting Process")
+![](../resources/node/Nebulas-PoD-3-1.jpg "Figure 3.1 Governance Committee Voting Process")
 
 
 *Figure 3.1 Governance Committee Voting Process*
 
-**Proposal period:** All community members are welcome to create and share proposals on Go Nebulas ([go.nebulas.io](https://go.nebulas.io)).
-
-**Project establishment period:** Projects that successfully complete the proposal period will proceed to the establishment period. All projects are separated into two categories:
+**Proposal establishment period:** All community members are welcome to create and share proposals on Go Nebulas ([go.nebulas.io](https://go.nebulas.io)). For projects that are approved, the Nebulas Technical Committee will help to establish the project. All projects are separated into two categories:
 
 
 
 1. **No budget required for this project:** For example, proposals that include the discussion of improving existing Nebulas projects. These include suggestions on adjusting the structure of the governance organization and the adjustment of the mainnet parameters. After a proposal is voted on and approved, the relevant person in charge may accelerate the implementation of this proposal.
-2. **Proposals that require a budget:** This process is facilitated by the Go Nebulas Operations team, which handles project budgets and fund release. Project creators can submit budgets, project objectives, execution steps and expected duration. Creators can also apply to be the project owner or elect a community member to operate the project. Projects should be submitted in accordance with the standard template available on Go Nebulas.
+2. **Proposals that require a budget:** This process is facilitated by the Nebulas Technical Committee, which handles project budgets and fund release. Project creators can submit budgets, project objectives, execution steps and expected duration. Creators can also apply to be the project owner or elect a community member to operate the project. Projects should be submitted in accordance with the standard template available on Go Nebulas.
 
 **Project execution and acceptance period:** The execution and acceptance period is an internal operational process of Go Nebulas; the governance Committee does not directly participate in this process. The process is divided into three stages:
 
@@ -150,16 +146,6 @@ The adoption of a proposal or item requires the following conditions:
   </tr>
   <tr>
    <td>Proposal Voting
-   </td>
-   <td>Minimum of 26 nodes
-   </td>
-   <td>50% or greater
-   </td>
-   <td>Not-applicable 
-   </td>
-  </tr>
-  <tr>
-   <td>Project Establishment Voting
    </td>
    <td>Minimum of 26 nodes
    </td>

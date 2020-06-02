@@ -5,7 +5,8 @@
 * [Appendix B. Node Multi-User Participation](#appendix-b-node-multi-user-participation)
 * [Appendix C. Earnings Simulation](#appendix-c-earnings-simulation)
 * [Appendix D. Parameter Table](#appendix-d-parameter-table)
-* [Appendix E. Addresses](#appexdix-e-addresses)
+* [Appendix E. Addresses](#appendix-e-addresses)
+* [Appendix F. Changelog](#appendix-f-changelog)
 
 ## Appendix A. Recommended Hardware Configuration for Node Operation
 
@@ -123,3 +124,9 @@ Assuming that all 51 governance nodes selected each month participate, the nodes
 * **Governance address:** If your node is selected as a governance node, your vote for proposals and projects will be via this address. In addition, your governance incentive will be sent to this address. To partake in governance and to vote, we recommend using a hot wallet such as NAS nano Pro.
 
 The default governance address is the same as the sign-in address. For security reasons, it is recommended to use a different address and allocate hot and cold wallets according to our recommendations.
+
+
+## Appendix F. Changelog
+
+* Nov 20, 2019 - v1.0
+* June 2, 2020 - v1.0.1 - PoD Penalty Rule Adjustment. [View the project](https://go.nebulas.io/project/289).

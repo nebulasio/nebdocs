@@ -279,7 +279,11 @@ In order to maintain the security of the PoD system, the corresponding Penalties
 
 
 
-1. When security issues occur, restrictions are automatically executed and will freeze the NAS that is held in collateral to the corresponding penalty.
+1. Once a medium and severe penalty occurs, the node will be observed to see if it generates a minimum of one block within 200 polling cycles (approximately 7 days) after the incident.
+    1. If the node proceeds to generate at least one block, the penalty will be disregarded.
+    2. If there is still no block, it is deemed that the problem has not been resolved, the node will have about 1,000 NAS (5% of NAS deposit) frozen.
+    3. If after a penalty occurs, the node can choose to voluntarily exit the node program to avoid punishment. Afterward, NAX will be returned to the original address after 120 polling cycles (approximately 5 days) after the successful submission of the node exit application.
+
 2. During the voting phase of the next governance cycle, the governance committee votes to determine whether the node punishment is justified. 
     1. If the governance committee votes that the punishment is justified, the NAS that has been frozen will be donated to the Go Nebulas Community Collaboration Fund (See [3.2.2 Community Assets](governance.html#community-assets)).
     2. If the governance committee votes that the node did not cause intentional harm to the network, the block generation stability index S<sub>(i)</sub> of the node will be restored to the level prior to the punishment and the NAS will be unfrozen.
