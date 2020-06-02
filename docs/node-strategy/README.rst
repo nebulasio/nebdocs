@@ -4,7 +4,7 @@
 ——基于贡献度证明机制（PoD）
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-V1.0 星云基金会，`中文PDF <https://nebulas.io/docs/PoDNodeStrategyZh.pdf>`_
+V1.0.1 星云基金会，`中文PDF <https://nebulas.io/docs/PoDNodeStrategyZh.pdf>`_
 
 ----
 
