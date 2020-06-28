@@ -5,7 +5,7 @@ Node Strategy
 Nebulas PoD Node Decentralization Strategy - Based on the Proof of Devotion (PoD) Mechanism
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-V1.0.1 by Nebulas Foundation, `PDF version <https://nebulas.io/docs/PoDNodeStrategy.pdf>`_
+V1.0.2 by Nebulas Foundation, `PDF version <https://nebulas.io/docs/PoDNodeStrategy.pdf>`_
 
 ----
 

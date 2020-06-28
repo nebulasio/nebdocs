@@ -129,4 +129,5 @@ The default governance address is the same as the sign-in address. For security 
 ## Appendix F. Changelog
 
 * Nov 20, 2019 - v1.0
-* June 2, 2020 - v1.0.1 - PoD Penalty Rule Adjustment. [View the project](https://go.nebulas.io/project/289).
+* June 2, 2020 - v1.0.1 - PoD Penalty Rule Adjustment ([NP289](https://go.nebulas.io/project/289)).
+* June 26, 2020 - v1.0.2 -  Modification to the Stability Index for Nebulas Nodes ([NP294](https://go.nebulas.io/project/294)), Addition of a lucky node in the consensus node selection process([NP296](https://go.nebulas.io/project/296)), Node Governance: Remove "abstain" from calculations ([NP295](https://go.nebulas.io/project/295)).

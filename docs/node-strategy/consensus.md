@@ -71,7 +71,7 @@ The candidate node and the consensus node together constitute the consensus comm
 
 Under the premise of meeting the minimum requirements of becoming a candidate node ([2.1 Minimum requirements for node selection](#minimum-requirements-for-node-selection)), all nodes are ranked by the comprehensive candidate node ranking algorithm; the top 51 nodes selected via the ranking algorithm will be selected as candidate nodes. 
 
-The candidate node ranking algorithm references to two primary factors: NAX poll number V<sub>(i) </sub>and block stabilization index S<sub>(i)</sub>. The final candidate node ranking index “R<sub>(i)</sub>” is:
+The candidate node ranking algorithm references two primary factors: NAX poll number V<sub>(i) </sub>and block stabilization index S<sub>(i)</sub>. The final candidate node ranking index “R<sub>(i)</sub>” is:
 
 > R<sub>(i)</sub> = V<sub>(i)</sub> × S<sub>(i)</sub>
 
@@ -85,7 +85,7 @@ Assuming that S<sub>(i)</sub> is the same for multiple nodes and the NAX vote V<
 
 #### 2.2.1.2 Block Generation Stability Index
 
-**Block generation stability index S<sub>(i)</sub>:** This rating is determined by the ratio of successful block generation when it’s chosen as a consensus node. If this node has not yet had the chance to be a consensus node, initial value of S<sub>(i)</sub> is 0.8. During each polling cycle, a candidate node has three possible values: 
+**Block generation stability index S<sub>(i)</sub>:** This rating is determined by the ratio of successful block generation when it’s chosen as a consensus node. If this node has not yet had the chance to be a consensus node, the initial value of S<sub>(i)</sub> is 0.8. During each polling cycle, a candidate node has three possible values: 
 
 
 
@@ -99,8 +99,6 @@ The S<sub>(i+1) </sub>of the following cycle of candidate nodes that have not pa
 
 > S<sub>(i+1) </sub>= S<sub>(i) </sub>+ 0.01
 
-If the node continues to not participate in the generation of blocks, the S<sub>(i)</sub> rating is reduced to the initial value S=0.8 at its lowest level.
-
 **B. Successful block generation**
 
 Consensus nodes need to generate 10 blocks per polling cycle (polling cycles consist of 210 blocks). If a node generates 10 blocks successfully during the cycle, the S<sub>(i+1)</sub> of the next cycle is:
@@ -111,7 +109,7 @@ S<sub>(i)</sub> is gradually increased to the maximum level of 1. In general, fu
 
 **C. Invalid block generation**
 
-If the node generates a invalid block, the S<sub>(i+1) </sub> of the next cycle is:
+If the node generates an invalid block, the S<sub>(i+1) </sub> of the next cycle is:
 
 > S<sub>(i+1) </sub>= S<sub>(i) </sub>× (10 - C) / 10
 
@@ -125,7 +123,7 @@ Consensus nodes are selected from the 51 candidate nodes that are initially sele
 
 
 1. The top 6 candidate nodes are selected automatically as per their score (detailed above).
-2. The remaining 15 candidate nodes are selected from the candidate pool containing the 45 additional nodes according to the following formula:
+2. 14 consensus nodes are selected from the candidate pool containing the remaining 45 candidate nodes according to the following formula:
 
 > R<sub>Consensus</sub> = (R<sub>(i)</sub> / Sum(R)) × Random()
 
@@ -135,13 +133,15 @@ The formula explanation is as follows:
 **R<sub>Consensus</sub>**：Consensus node ranking index.
 
 
-**R<sub>(i)</sub>**：Candidate nodes ranking index. R<sub>(i)</sub> is the derived score of two primary factors: NAX poll number V<sub>(i)</sub> and block stabilization index S<sub>(i)</sub>; as a result, R<sub>(i)</sub> is treated as the community support rate of the node and its contribution of historical blocks generation.
+**R<sub>(i)</sub>**：Candidate nodes ranking index. R<sub>(i)</sub> is the derived score of two primary factors: NAX poll number V<sub>(i)</sub> and block stabilization index S<sub>(i)</sub>; as a result, R<sub>(i)</sub> is treated as the community support rate of the node and its contribution of historical block generation.
 
 
 **Sum(R)**: The sum score of 51 candidate nodes ranking index; as a result, R<sub>(i)</sub>/Sum(R) can be treated as an individual node contribution ratio within the 51 candidate nodes.
 
 
 **Random()**：A random probability.
+
+3.The last consensus node, lucky node, will be selected randomly from the 31 candidate nodes that were not selected.
 
 
 ## 2.3 Consensus Algorithm
@@ -187,7 +187,7 @@ Voting for PoD nodes is a fair and free service. All members of the community ca
 
 ### 2.4.1 Withdrawal of NAX Support for a Node (votes)
 
-All members or organizations within the community may at any time withdraw their support for a community operated node. When support/votes are withdrawn, the node operators NAX support level is immediately reduced ([2.2.1.1 NAX votes](#nax-votes), V<sub>(i)</sub>) and will affect their ranking in following rounds of node selection. As stated in the minimum requirements ([2.1 Minimum requirements for node selection](#minimum-requirements-for-node-selection)), if the total amount of NAX support for a node drops under 100,000 NAX, they cannot be selected as a consensus node.
+All members or organizations within the community may at any time withdraw their support for a community operated node. When support/votes are withdrawn, the node operators' NAX support level is immediately reduced ([2.2.1.1 NAX votes](#nax-votes), V<sub>(i)</sub>) and will affect their ranking in following rounds of node selection. As stated in the minimum requirements ([2.1 Minimum requirements for node selection](#minimum-requirements-for-node-selection)), if the total amount of NAX support for a node drops under 100,000 NAX, they cannot be selected as a consensus node.
 
 **Quantity of votes to withdraw:** The voters may choose how much NAX to withdraw for their support. Community members or organizations can only apply to revoke their own NAX.
 

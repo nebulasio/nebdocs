@@ -16,7 +16,7 @@
 	* [3.4.2 Governance Failure](#governance-failure)
 
 
-Nebulas focuses on the contribution of different roles to the diverse ecosystem via decentralized collaboration and the utilized governance mechanism is an important portion of PoD mechanism. 
+Nebulas' focus on the contribution of different roles to the diverse ecosystem via decentralized collaboration and the utilized governance mechanism is an important portion of PoD mechanism. 
 
 The governance mechanisms are a range of tools for community self-governmenance via the organization of community collaboration and management of community assets by the governance committee.
 
@@ -81,7 +81,7 @@ Each step needs to be voted for and approved by the Governance Committee. The Go
 
 1. **Set budget period:** The project creator or the Go Nebulas operation team can be set as the project creator. Project creators set the reward for successful completion of the project and members of the community are welcome to participate in projects;
 2. **Execution period:** The project creator confirms the project owner/manager. At this point, the project owner begins to execute the project and once progressing and upon completion, submits the project results;
-3. **Project Review Period:** Once a project is marked as completed, the project creator and the Go Nebulas Operations Team will review project and its results. Afterwords, a recommendation on whether the project has been successfully completed or not will be given to the Governance Committee. The committee then decides what further action, if any is required. If none is required, the project will receive its funding as decided in the budget period.
+3. **Project Review Period:** Once a project is marked as completed, the project creator and the Go Nebulas Operations Team will review the project and its results. Afterwards, a recommendation on whether the project has been successfully completed or not will be given to the Governance Committee. The committee then decides what further action, if any is required. If none is required, the project will receive its funding as decided in the budget period.
 
 
 ### 3.2.2 Community Assets
@@ -99,7 +99,7 @@ The use of public assets, changes to the allocation program, etc... will require
 
 ### 3.2.3 Penalties for Consensus Mechanism
 
-During the voting phase of governance cycle, the governance committee will also need to vote on the results of medium and severe security violations.
+During the voting phase of the governance cycle, the governance committee will also need to vote on the results of medium and severe security violations.
 
 
 
@@ -121,8 +121,8 @@ The voting of governance nodes is conducted on the public chain with the results
 
 
 
-*   For
-*   Against
+*   Support
+*   Oppose
 *   Abstain
 
 Each proposal can only be voted for once by each governance node by utilizing 1 NAX per item being voted. NAX used for voting is destroyed and will not be returned.
@@ -149,7 +149,7 @@ The adoption of a proposal or item requires the following conditions:
    </td>
    <td>Minimum of 26 nodes
    </td>
-   <td>67% or greater
+   <td>67% or greater <sup>***</sup>
    </td>
    <td>A single project budget must not exceed $15,000 USDT <sup>*</sup>;
 <p>
@@ -184,6 +184,8 @@ The total for all approved projects during the governance cycle must not exceed 
 \* If a single project budget will exceed the maximum dollar value, it is suggested to split the proposed project into a multi-phase project. 
 
 ** If the total amount of all approved projects during the governance cycle exceeds the maximum budget, projects are ranked by their support rate. Any proposal that is approved but funding is not available for the current governance cycle is deferred to the next governance cycle.
+
+*** Approval rate = Support votes / (Support votes + Oppose votes)
 
 
 ## 3.4 Penalty Mechanism
