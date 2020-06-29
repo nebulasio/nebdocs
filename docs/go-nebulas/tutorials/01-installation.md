@@ -24,9 +24,6 @@
 # 安装
 brew install go
 
-# 配置环境变量
-export GOPATH=/path/to/workspace
-```
 
 > 提示: 在golang的开发中，GOPATH是必须的，它指定了我们使用golang开发的工作空间。
 ### Linux
@@ -40,7 +37,6 @@ tar -C /usr/local -xzf go1.14.1.linux-amd64.tar.gz
 
 # environment variables
 export PATH=$PATH:/usr/local/go/bin
-export GOPATH=/path/to/workspace
 ```
 
 ## 编译星云链
