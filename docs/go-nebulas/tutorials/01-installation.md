@@ -23,9 +23,8 @@
 ```bash
 # 安装
 brew install go
+```
 
-
-> 提示: 在golang的开发中，GOPATH是必须的，它指定了我们使用golang开发的工作空间。
 ### Linux
 
 ```bash
