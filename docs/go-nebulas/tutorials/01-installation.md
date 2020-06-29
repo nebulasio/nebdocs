@@ -32,8 +32,6 @@ Nebulas is implemented in Golang and C++.
 # install
 brew install go
 
-# environment variables
-export GOPATH=/path/to/workspace
 ```
 
 > Note: GOPATH is a local golang working directory which could be decided by youself. After GOPATH is configured, your go projects need to be placed in GOPATH directory.
@@ -49,7 +47,6 @@ tar -C /usr/local -xzf go1.14.1.linux-amd64.tar.gz
 
 # environment variables
 export PATH=$PATH:/usr/local/go/bin
-export GOPATH=/path/to/workspace
 ```
 
 ## Compile Nebulas
