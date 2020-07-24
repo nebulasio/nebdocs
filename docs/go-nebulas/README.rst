@@ -21,6 +21,7 @@ For getting started guides and documents, see here:
     Infrastructure <infrastructure/README.rst>
     Joining the Blockchain <blockchain/README.rst>
     Tutorials <tutorials/README.rst>
+    Data Center API <data-center/api.md>
     DApp Development <dapp-development/README.rst>
     Developer Blog <develop/README.rst>
 
