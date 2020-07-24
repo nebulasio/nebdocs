@@ -17,6 +17,7 @@
     infrastructure/README.rst
     blockchain/README.rst
     tutorials/README.rst
+    data-center/api.md
     dapp-development/README.rst
     develop/README.rst
 

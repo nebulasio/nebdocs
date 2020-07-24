@@ -41,6 +41,7 @@
     go-nebulas/README.rst
     node-strategy/README.rst
     how-to-contribute.md
+    wiki-using-guide.md
     bounty-program.md
     frequently-asked-questions.md
     licenses.md
