@@ -1,42 +1,42 @@
 # Data Center API
 
->数据中心对外提供了价格及链上数据查询接口，为浏览器及钱包等星云链生态应用提供底层数据支持。
+> The data center provides external price and on-chain data query interfaces, and provides underlying data support for Nebulas ecosystem applications such as browsers and wallets.
 
-## 节点访问
-主网节点访问:
+## Node
+Mainnet Node:
 
 | API | URL | Protocol |
 |-------|:------------:|:------------:|
 | RESTful |https://data.nebulas.io | HTTP |
 
 
-## 接口列表
+## API List
 
-* [NRC20交易列表](#NRC20交易列表)
-* [交易详情](#交易详情)
-* [交易列表](#交易列表)
-* [未上链（pending）交易列表](#未上链交易列表)
-* [历史交易统计](#历史交易统计)
-* [区块列表](#区块列表)
-* [区块详情](#区块详情)
-* [最高区块](#最高区块)
-* [合约列表](#合约列表)
-* [token列表](#token列表)
-* [token详情](#token详情)
-* [token交易列表](#token交易列表)
-* [token持有列表](#token持有列表)
-* [NAS持有列表](#NAS持有列表)
-* [NAX分发历史](#NAX分发历史)
-* [NAX统计](#NAX统计)
-* [NAX地址分发历史](#NAX地址分发历史)
-* [地址信息](#地址信息)
-* [地址统计](#地址统计)
-* [公链统计信息](#公链统计信息)
+* [NRC20 transaction list](#nrc20-transaction-list)
+* [Transaction Details](#transaction-details)
+* [Transaction List](#transaction-list)
+* [Off-chain (Pending) Transaction List](#off-chain-pending-transaction-list)
+* [History Transaction Statistics](#history-transaction-statistics)
+* [Block List](#block-list)
+* [Block Details](#block-details)
+* [Highest Block](#highest-block)
+* [Contract List](#contract-list)
+* [Token List](#token-list)
+* [Token Details](#token-details)
+* [Token Transaction List](#token-transaction-list)
+* [Token Holders List](#token-holders-list)
+* [NAS Holders List](#has-holders-list)
+* [NAX Distribution History](#nax-distribution-history)
+* [NAX Statistics](#nax-statistics)
+* [NAX Address Distribution History](#nax-address-distribution-history)
+* [Address Information](#address-information)
+* [Address Statistics](#address-statistics)
+* [Public Chain Statistics Information](#public-chain-statistics-information)
 
-## 接口详情
+## API Details
 
-### NRC20交易列表
-> 按地址查询获取NRC20交易列表【分页】。
+### NRC20 Transaction List
+> Query by address to obtain the NRC20 transaction list [paged].
 
 | Protocol | Method | API |
 |----------|--------|-----|
@@ -44,23 +44,23 @@
 
 #### Parameters
 
-`address` 地址
+`address` address
 
-`page`	页码；可选参数，默认1
+`page`	page number; optional parameter, default 1
 
-`page_size` 分页大小；可选参数，默认20
+`page_size` page size; optional parameter, default 20
 
 #### Return
 
-`txnList` 交易列表
+`txnList` transaction list
 
-`totalPage` 总页码
+`totalPage` total page number
 
-`maxDisplayCnt` 最大显示数量
+`maxDisplayCnt` maximum number of displays
 
-`currentPage` 当前页码
+`currentPage` current page number
 
-`txnCnt` 总数
+`txnCnt` total
 
 #### Example
 ```
@@ -73,8 +73,8 @@ curl -X GET https://data.nebulas.io/tx/nrc20?address="n1zJjyWVKr8HiL1b6dN7JGBtCZ
 ```
 ***
 
-### 交易详情
-> 按地址查询交易详情。
+### Transaction Details
+> Query transaction details by address.
 
 | Protocol | Method | API |
 |----------|--------|-----|
@@ -82,41 +82,41 @@ curl -X GET https://data.nebulas.io/tx/nrc20?address="n1zJjyWVKr8HiL1b6dN7JGBtCZ
 
 #### Parameters
 
-`hash` 交易哈希
+`hash` transaction hash
 
 #### Return
 
-`tx_hash` 交易哈希
+`tx_hash` transaction hash
 
-`address_main` 交易发起地址
+`address_main` transaction origination address
 
-`address_supporting` 交易接受地址
+`address_supporting` transaction acceptance address
 
-`direction` 交易方向
+`direction` transaction acceptance address
 
-`tx_type` 交易类型
+`tx_type` transaction type
 
-`timestamp` 时间戳
+`timestamp` timestamp
 
-`block_timestamp` 交易时间戳
+`block_timestamp` transaction timestamp
 
-`contract_address` 合约地址
+`contract_address` contract address
 
-`tx_value` 交易金额
+`tx_value` transaction amount
 
-`real_value` 金额
+`real_value` amount
 
-`gas_price` 交易手续费价格
+`gas_price` transaction fee price
 
-`gas_limit` 交易手续费上限
+`gas_limit` transaction fee limit
 
-`gas_used` 交易使用量
+`gas_used` transaction usage
 
-`statue` 交易状态 0失败，1成功，2pending
+`statue` transaction status: 0 failed, 1 successful, 2 pending
 
-`block_height` 交易区块高度
+`block_height` transaction block height
 
-`is_nrc20` 是否为nrc20交易
+`is_nrc20` if it's a NRC20 transaction
 
 #### Example
 ```
@@ -128,8 +128,8 @@ curl -X GET https://data.nebulas.io/tx/detail?hash="eb3c8d848679ad1786d5986da48b
 ```
 ***
 
-### 交易列表
-> 查询交易列表。
+### Transaction List
+> Query the transaction list.
 
 | Protocol | Method | API |
 |----------|--------|-----|
@@ -137,25 +137,25 @@ curl -X GET https://data.nebulas.io/tx/detail?hash="eb3c8d848679ad1786d5986da48b
 
 #### Parameters
 
-`block_height` 区块高度，可选参数
+`block_height` block height, optional parameter
 
-`page`	页码；可选参数，默认1
+`page`	page number; optional parameter, default 1
 
-`page_size` 分页大小；可选参数，默认20
+`page_size` page size; optional parameter, default 20
 
 #### Return
 
-`next` 下一页请求URL
+`next` next page request URL
 
-`count` 交易总数
+`count` transactiontotal
 
-`total_page` 总页数
+`total_page` total number of pages
 
-`current_page` 当前页数
+`current_page` current page number
 
-`list` 交易列表
+`list` transaction list
 
-`server_timestamp` 时间戳
+`server_timestamp` Timestamp
 
 #### Example
 ```
@@ -168,8 +168,8 @@ curl -X GET https://data.nebulas.io/tx/list?page=1&page_size=2
 ```
 ***
 
-### 未上链交易列表
-> 查询未上链的交易列表。
+### Off-chain (Pending) Transaction List
+> Quary the off-chain transaction list.
 
 | Protocol | Method | API |
 |----------|--------|-----|
@@ -177,23 +177,23 @@ curl -X GET https://data.nebulas.io/tx/list?page=1&page_size=2
 
 #### Parameters
 
-`page`	页码；可选参数，默认1
+`page`	page number; optional parameter, default 1
 
-`page_size` 分页大小；可选参数，默认20
+`page_size` page size; optional parameter, default 20
 
 #### Return
 
-`next` 下一页请求URL
+`next` next page requestURL
 
-`count` 交易总数
+`count` transactiontotal
 
-`total_page` 总页数
+`total_page` total number of pages
 
-`current_page` 当前页数
+`current_page` current page number
 
-`list` 交易列表
+`list` transaction list
 
-`server_timestamp` 时间戳
+`server_timestamp` Timestamp
 
 #### Example
 ```
@@ -206,8 +206,8 @@ curl -X GET https://data.nebulas.io/tx/list/pending?page=1&page_size=2
 ```
 ***
 
-### 按地址查询交易列表
-> 按地址查询交易列表。
+### Query the Transaction List by Addresses
+> Query the transaction list by addresses
 
 | Protocol | Method | API |
 |----------|--------|-----|
@@ -215,27 +215,27 @@ curl -X GET https://data.nebulas.io/tx/list/pending?page=1&page_size=2
 
 #### Parameters
 
-`address` 地址
+`address` address
 
-`is_nrc20` 是否为nrc20交易
+`is_nrc20` If it's a NRC20 transaction
 
-`page`	页码；可选参数，默认1
+`page`	page number; optional parameter, default 1
 
-`page_size` 分页大小；可选参数，默认20
+`page_size` page size; optional parameter, default 20
 
 #### Return
 
-`next` 下一页请求URL
+`next` next page requestURL
 
-`count` 交易总数
+`count` transactiontotal
 
-`total_page` 总页数
+`total_page` total number of pages
 
-`current_page` 当前页数
+`current_page` current page number
 
-`list` 交易列表
+`list` transaction list
 
-`server_timestamp` 时间戳
+`server_timestamp` Timestamp
 
 #### Example
 ```
@@ -248,8 +248,8 @@ curl -X GET https://data.nebulas.io/tx/listByAddress?address=n1Gfg8uqtFsvGKZn6Xt
 ```
 ***
 
-### 历史交易统计
-> 历史交易统计。
+### History Transaction Statics
+> History transaction statics
 
 | Protocol | Method | API |
 |----------|--------|-----|
@@ -257,15 +257,15 @@ curl -X GET https://data.nebulas.io/tx/listByAddress?address=n1Gfg8uqtFsvGKZn6Xt
 
 #### Parameters
 
-`days` 统计天数，可选参数，默认为15
+`days` statistical days, optional parameter, default is 15
 
 #### Return
 
-`price` nas价格
+`price` NAS price
 
-`date` 日期
+`date` date
 
-`transaction_count` 交易数量
+`transaction_count` transaction amount
 
 #### Example
 ```
@@ -277,8 +277,8 @@ curl -X GET https://data.nebulas.io/tx/count/history?days=2
 ```
 ***
 
-### 当日交易统计
-> 当日交易统计。
+### Current Transaction Statics
+> Current (24 hours) transaction statics
 
 | Protocol | Method | API |
 |----------|--------|-----|
@@ -290,7 +290,7 @@ None
 
 #### Return
 
-`count` 交易数
+`count` transaction数
 
 #### Example
 ```
@@ -302,8 +302,8 @@ curl -X GET https://data.nebulas.io/tx/count/today
 ```
 ***
 
-### 区块列表
-> 区块列表。
+### Block List
+> Block list.
 
 | Protocol | Method | API |
 |----------|--------|-----|
@@ -311,21 +311,21 @@ curl -X GET https://data.nebulas.io/tx/count/today
 
 #### Parameters
 
-`page`	页码；可选参数，默认1
+`page`	page number; optional parameter, default 1
 
-`page_size` 分页大小；可选参数，默认20
+`page_size` page size; optional parameter, default 20
 
 #### Return
 
-`next` 下一页请求URL
+`next` next page requestURL
 
-`count` 交易总数
+`count` transactiontotal
 
-`total_page` 总页数
+`total_page` total number of pages
 
-`current_page` 当前页数
+`current_page` current page number
 
-`list` 区块列表
+`list` block list
 
 #### Example
 ```
@@ -337,8 +337,8 @@ curl -X GET https://data.nebulas.io/block/list?page=1&page_size=2
 ```
 ***
 
-### 区块详情
-> 查询区块详情。
+### Block Details
+> Query the block details
 
 | Protocol | Method | API |
 |----------|--------|-----|
@@ -346,35 +346,35 @@ curl -X GET https://data.nebulas.io/block/list?page=1&page_size=2
 
 #### Parameters
 
-`h`	区块哈希或高度
+`h`	block hash or height
 
 #### Return
 
-`gas_info` gas信息
+`gas_info` gas infomation
 
-`dynasty` 出块地址列表
+`dynasty` miner address list
 
-`node` 出块节点信息
+`node` miner node information
 
-`block_hash` 区块哈希
+`block_hash` block hash
 
-`parent_hash` 父亲区块哈希
+`parent_hash` parent block hash
 
-`height` 区块高度
+`height` block height
 
-`tx_count` 交易数量
+`tx_count` transaction amount
 
-`nonce` 序列
+`nonce` nonce
 
-`coinbase` 奖励地址
+`coinbase` coinbase address
 
-`timestamp` 时间戳
+`timestamp` Timestamp
 
-`chain_id` 链ID
+`chain_id` Chain ID
 
-`miner` 出块地址
+`miner` miner address
 
-`is_finality` 是否为不可逆区块
+`is_finality` If it's finality
 
 #### Example
 ```
@@ -386,8 +386,8 @@ curl -X GET https://data.nebulas.io/block/detail?h=4820298
 ```
 ***
 
-### 最高区块
-> 查询最高区块。
+### Highest Block
+> Query the highest block.
 
 | Protocol | Method | API |
 |----------|--------|-----|
@@ -399,9 +399,9 @@ None
 
 #### Return
 
-`height` 高度
+`height` height
 
-`server_timestamp` 时间戳
+`server_timestamp` Timestamp
 
 #### Example
 ```
@@ -413,8 +413,8 @@ curl -X GET https://data.nebulas.io/block/max
 ```
 ***
 
-### 合约列表
-> 查询合约列表。
+### Contract List
+> Query the contract list.
 
 | Protocol | Method | API |
 |----------|--------|-----|
@@ -422,21 +422,21 @@ curl -X GET https://data.nebulas.io/block/max
 
 #### Parameters
 
-`page`	页码；可选参数，默认1
+`page`	page number; optional parameter, default 1
 
-`page_size` 分页大小；可选参数，默认20
+`page_size` page size; optional parameter, default 20
 
 #### Return
 
-`next` 下一页请求URL
+`next` next page requestURL
 
-`count` 总数
+`count` total
 
-`total_page` 总页数
+`total_page` total number of pages
 
-`current_page` 当前页数
+`current_page` current page number
 
-`list` 合约列表
+`list` contract list
 
 #### Example
 ```
@@ -448,8 +448,8 @@ curl -X GET https://data.nebulas.io/contracts?page=1&page_size=2
 ```
 ***
 
-### token列表
-> 查询token列表。
+### token list
+> QUery the token list.
 
 | Protocol | Method | API |
 |----------|--------|-----|
@@ -461,15 +461,15 @@ None
 
 #### Return list
 
-`token_name` token名称
+`token_name` token name
 
-`description` token描述
+`description` token description
 
-`contract` 合约地址
+`contract` contractaddress
 
-`total` 总数
+`total` total
 
-`token_decimals` token位数
+`token_decimals` token decimals
 
 #### Example
 ```
@@ -481,8 +481,8 @@ curl -X GET https://data.nebulas.io/token/list
 ```
 ***
 
-### token详情
-> 查询token详情。
+### Token Details
+> Query the token details
 
 | Protocol | Method | API |
 |----------|--------|-----|
@@ -490,21 +490,21 @@ curl -X GET https://data.nebulas.io/token/list
 
 #### Parameters
 
-`token` token名称
+`token` token name
 
-`contract` 合约地址，和token二选一请求
+`contract` select one between contract address and token
 
 #### Return
 
-`token_name` token名称
+`token_name` token name
 
-`description` token描述
+`description` token description
 
-`contract` 合约地址
+`contract` contract address
 
-`total` 总数
+`total` total
 
-`token_decimals` token位数
+`token_decimals` token decimals
 
 #### Example
 ```
@@ -516,8 +516,8 @@ curl -X GET https://data.nebulas.io/token/detail?token=NAX
 ```
 ***
 
-### token交易列表
-> 查询token详情。
+### Token Transaction List
+> Query token dettails
 
 | Protocol | Method | API |
 |----------|--------|-----|
@@ -525,27 +525,27 @@ curl -X GET https://data.nebulas.io/token/detail?token=NAX
 
 #### Parameters
 
-`token` token名称
+`token` token name
 
-`contract` 合约地址，和token二选一请求
+`contract` select one between the contract address and token
 
-`page`	页码；可选参数，默认1
+`page`	page number; optional parameter, default 1
 
-`page_size` 分页大小；可选参数，默认20
+`page_size` page size; optional parameter, default 20
 
 #### Return
 
-`next` 下一页请求URL
+`next` next page request URL
 
-`count` 总数
+`count` total
 
-`total_page` 总页数
+`total_page` total number of pages
 
-`current_page` 当前页数
+`current_page` current page number
 
-`list` 交易列表
+`list` transaction list
 
-`token` token信息
+`token` token information
 
 #### Example
 ```
@@ -557,8 +557,8 @@ curl -X GET https://data.nebulas.io/token/tx/list?token=NAX&page=1&page_size=2
 ```
 ***
 
-### token持有列表
-> 查询token持有列表。
+### Token Holders List
+> Query token holders list.
 
 | Protocol | Method | API |
 |----------|--------|-----|
@@ -566,25 +566,25 @@ curl -X GET https://data.nebulas.io/token/tx/list?token=NAX&page=1&page_size=2
 
 #### Parameters
 
-`token` token名称
+`token` token name
 
-`contract` 合约地址，和token二选一请求
+`contract` contract address，和token二选一请求
 
-`page`	页码；可选参数，默认1
+`page`	page number; optional parameter, default 1
 
-`page_size` 分页大小；可选参数，默认20
+`page_size` page size; optional parameter, default 20
 
 #### Return
 
-`next` 下一页请求URL
+`next` next page requestURL
 
-`count` 总数
+`count` total
 
-`total_page` 总页数
+`total_page` total number of pages
 
-`current_page` 当前页数
+`current_page` current page number
 
-`list` 地址列表
+`list` address list
 
 
 #### Example
@@ -597,8 +597,8 @@ curl -X GET https://data.nebulas.io/token/holders?token=NAX&page=1&page_size=2
 ```
 ***
 
-### NAS持有列表
-> 查询NAS持有列表。
+### NAS Holders List
+> Query NAS holders list。
 
 | Protocol | Method | API |
 |----------|--------|-----|
@@ -606,21 +606,21 @@ curl -X GET https://data.nebulas.io/token/holders?token=NAX&page=1&page_size=2
 
 #### Parameters
 
-`page`	页码；可选参数，默认1
+`page`	page number; optional parameter, default 1
 
-`page_size` 分页大小；可选参数，默认20
+`page_size` page size; optional parameter, default 20
 
 #### Return
 
-`next` 下一页请求URL
+`next` next page requestURL
 
-`count` 总数
+`count` total
 
-`total_page` 总页数
+`total_page` total number of pages
 
-`current_page` 当前页数
+`current_page` current page number
 
-`list` 地址列表
+`list` address list
 
 
 #### Example
@@ -633,8 +633,8 @@ curl -X GET https://data.nebulas.io/holders?page=1&page_size=2
 ```
 ***
 
-### NAX分发历史
-> 查询NAX分发历史。
+### NAX Distribution History
+> Query NAX distribution history.
 
 | Protocol | Method | API |
 |----------|--------|-----|
@@ -642,21 +642,21 @@ curl -X GET https://data.nebulas.io/holders?page=1&page_size=2
 
 #### Parameters
 
-`page`	页码；可选参数，默认1
+`page`	page number; optional parameter, default 1
 
-`page_size` 分页大小；可选参数，默认20
+`page_size` page size; optional parameter, default 20
 
 #### Return
 
-`next` 下一页请求URL
+`next` next page requestURL
 
-`count` 总数
+`count` total
 
-`total_page` 总页数
+`total_page` total number of pages
 
-`current_page` 当前页数
+`current_page` current page number
 
-`list` 历史列表
+`list` history list
 
 #### Example
 ```
@@ -668,8 +668,8 @@ curl -X GET https://data.nebulas.io/nax/history?page=1&page_size=2
 ```
 ***
 
-### NAX统计
-> 查询NAX统计。
+### NAX Static
+> Query NAX static.
 
 | Protocol | Method | API |
 |----------|--------|-----|
@@ -681,15 +681,15 @@ None
 
 #### Return
 
-`last_distributed_nax` 上次nax分发金额
+`last_distributed_nax` last distributed NAX
 
-`total_distributed_nax` nax总分发金额
+`total_distributed_nax` total distributed NAX
 
-`current_pledged_nas` 当前质押nas
+`current_pledged_nas` current dstaking nas
 
-`current_total_nas` 当前流通nas
+`current_total_nas` corrent total NAS
 
-`list` 历史分发列表
+`list` distribution history list
 
 #### Example
 ```
@@ -702,8 +702,8 @@ curl -X GET https://data.nebulas.io/nax/summary
 ```
 ***
 
-### NAX地址分发历史
-> 查询NAX地址分发历史。
+### NAX Address Distribution History
+> Query NAX address distribution history
 
 | Protocol | Method | API |
 |----------|--------|-----|
@@ -711,23 +711,23 @@ curl -X GET https://data.nebulas.io/nax/summary
 
 #### Parameters
 
-`address` 地址
+`address` address
 
-`page`	页码；可选参数，默认1
+`page`	page number; optional parameter, default 1
 
-`page_size` 分页大小；可选参数，默认20
+`page_size` page size; optional parameter, default 20
 
 #### Return
 
-`next` 下一页请求URL
+`next` next page requestURL
 
-`count` 总数
+`count` total
 
-`total_page` 总页数
+`total_page` total number of pages
 
-`current_page` 当前页数
+`current_page` current page number
 
-`list` 数据列表
+`list` data list
 
 #### Example
 ```
@@ -739,8 +739,8 @@ curl -X GET https://data.nebulas.io/nax/profits?address=n1d4wXxTVmK4rzyiN1vxhMuz
 ```
 ***
 
-### 地址信息
-> 查询地址信息。
+### Address Information
+> Query address information
 
 | Protocol | Method | API |
 |----------|--------|-----|
@@ -748,19 +748,19 @@ curl -X GET https://data.nebulas.io/nax/profits?address=n1d4wXxTVmK4rzyiN1vxhMuz
 
 #### Parameters
 
-`address` 地址
+`address` address
 
 #### Return
 
-`address` 地址
+`address` address
 
-`nonce` 交易数
+`nonce` transaction nonce
 
-`type` 类型，87普通地址，88合约地址
+`type` type: 87 normal address, 88 contract address
 
-`balance` 余额
+`balance` balance
 
-`date_of_found ` 创建日期
+`date_of_found ` created date
 
 #### Example
 ```
@@ -772,8 +772,8 @@ curl -X GET https://data.nebulas.io/address/info?address=n1d4wXxTVmK4rzyiN1vxhMu
 ```
 ***
 
-### 地址统计
-> 查询地址统计。
+### Address Statistics
+> Query address statistics
 
 | Protocol | Method | API |
 |----------|--------|-----|
@@ -781,19 +781,19 @@ curl -X GET https://data.nebulas.io/address/info?address=n1d4wXxTVmK4rzyiN1vxhMu
 
 #### Parameters
 
-`days` 日期，可选参数，默认30
+`days` days, optional parameter, default is 30
 
 #### Return
 
-`created_at` 创建时间
+`created_at` created date
 
-`updated_at` 更新时间
+`updated_at` updated date
 
-`date` 日期
+`date` date
 
-`all_address_count` 地址数
+`all_address_count` address count
 
-`contract_count` 合约数
+`contract_count` contract count
 
 #### Example
 ```
@@ -805,8 +805,8 @@ curl -X GET https://data.nebulas.io/address/count/history?days=5
 ```
 ***
 
-### 公链统计信息
-> 查询公链统计信息。
+### Public Chain Statistics Informations
+> Query public chain statistics information.
 
 | Protocol | Method | API |
 |----------|--------|-----|
@@ -818,13 +818,13 @@ None
 
 #### Return
 
-`block_count` 区块数
+`block_count` block count
 
-`tx_count` 交易数
+`tx_count` transaction count
 
-`contract_count` 合约数量
+`contract_count` contract count
 
-`normal_address_count` 地址数量
+`normal_address_count` address count
 
 #### Example
 ```
