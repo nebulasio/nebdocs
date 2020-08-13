@@ -44,8 +44,8 @@ SDKs
 Standard Tokens
 ~~~~~~~~~~~~~~~~~~
 
--  `NRC20 <../dapp-development/NRC20.html>`_
--  `NRC721 <../dapp-development/NRC721.html>`_
+-  `NRC20 <../dapp-development/nrc20.html>`_
+-  `NRC721 <../dapp-development/nrc721.html>`_
 
 
 
