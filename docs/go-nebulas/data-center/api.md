@@ -18,7 +18,7 @@ Mainnet Node:
 * [Off-chain (Pending) Transaction List](#off-chain-pending-transaction-list)
 * [Query the Transaction List by Addresses](#query-the-transaction-list-by-addresses)
 * [History Transaction Statistics](#history-transaction-statistics)
-* [Current Transaction Statics](#current-transaction-statics)
+* [Current Transaction Statistics](#current-transaction-statistics)
 * [Block List](#block-list)
 * [Block Details](#block-details)
 * [Highest Block](#highest-block)
@@ -250,8 +250,8 @@ curl -X GET https://data.nebulas.io/tx/listByAddress?address=n1Gfg8uqtFsvGKZn6Xt
 ```
 ***
 
-### History Transaction Statics
-> History transaction statics
+### History Transaction Statistics
+> History transaction statistics
 
 | Protocol | Method | API |
 |----------|--------|-----|
@@ -570,7 +570,7 @@ curl -X GET https://data.nebulas.io/token/tx/list?token=NAX&page=1&page_size=2
 
 `token` token name
 
-`contract` contract address，和token二选一请求
+`contract` contract address，and token (select one)
 
 `page`	page number; optional parameter, default 1
 
@@ -670,8 +670,8 @@ curl -X GET https://data.nebulas.io/nax/history?page=1&page_size=2
 ```
 ***
 
-### NAX Static
-> Query NAX static.
+### NAX Statistics
+> Query NAX statistics.
 
 | Protocol | Method | API |
 |----------|--------|-----|
@@ -689,7 +689,7 @@ None
 
 `current_pledged_nas` current dstaking nas
 
-`current_total_nas` corrent total NAS
+`current_total_nas` current total NAS
 
 `list` distribution history list
 
