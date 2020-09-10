@@ -8,7 +8,7 @@
 ## 漏洞评定标准
 基于影响和可能性的[OWASP](https://www.owasp.org/index.php/OWASP_Risk_Rating_Methodology)风险评级模型计算的严重程度，星云技术委员会将根据漏洞的危害程度和可能的辐射范围两个维度评估奖励金额。最终奖励金额由星云技术委员会自行确定。
 
-![](https://blog.nebulas.io/wp-content/uploads/2018/11/%E5%AE%89%E5%85%A8%E7%AD%89%E7%BA%A7.png)
+![](resources/bug-bounty-zh.png)
 
 **危害程度：**
 - 高：影响资产安全的漏洞
