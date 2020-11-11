@@ -145,5 +145,5 @@ NAX返还时间：撤销投票或节点退出申请成功提交后120个轮询�
 ## 附录F 改动记录
 * 2019.11.20 - v1.0
 * 2020.06.02 - v1.0.1 PoD惩罚规则调整。[NP289](https://go.nebulas.io/project/289)。
-* 2020.06.26 - v1.0.2 调整出块稳定指数初始上限([NP294](https://go.nebulas.io/project/294)）、PoD治理投票通过率统计不计入弃权项([NP296](https://go.nebulas.io/project/296))、PoD治理投票通过率统计不计入弃权项([NP295](https://go.nebulas.io/project/295))
+* 2020.06.26 - v1.0.2 调整出块稳定指数初始上限([NP294](https://go.nebulas.io/project/294)）、增加幸运节点([NP296](https://go.nebulas.io/project/296))、PoD治理投票通过率统计不计入弃权项([NP295](https://go.nebulas.io/project/295))
 
