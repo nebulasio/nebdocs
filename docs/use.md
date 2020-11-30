@@ -1,6 +1,6 @@
 # 使用星云
 
-If you are a developer and want to develop a DApp or use the mainnet, please visit [the develop chapter](go-nebulas/README) and [toturials](go-nebulas/tutorials/README) to learn more about Nebulas technology and find develop resources. If you are an individual, there are four ways to use Nebulas:
+如果你是开发者，想要开发DApp或者使用主网进行开发，欢迎访问 [开发者中心](http://nebulas.io/cn/developers.html)，在本wiki中，可以访问 [开发章节](go-nebulas/README)，特别是 [开发教程](go-nebulas/tutorials/README) 了解更多星云技术，查找开发资源。如果你是普通用户，有4种方法使用星云：
 
 * [1. 使用在星云上的DApp](#id1)
 * [2. 什么是NAS，如何获得？](#id2)
@@ -10,7 +10,7 @@ If you are a developer and want to develop a DApp or use the mainnet, please vis
 
 ## 1. 使用在星云上的DApp
 
-View recommend DApps [here](https://nebulas.io/dapps.html). You are welcome to submit the [form](https://www.wenjuan.com/s/iEb2UnS/) to recommend more DApps. And you can find more DApps in the [The Nebulas DApps Store](https://www.nebulasdapps.com/) by the community member m5j.
+你可以在 [星云 DApps 商店](https://www.nebulasdapps.com/) （社区用户m5j开发）查找更多DApp。
 
 **DApp列表**
 
@@ -58,26 +58,24 @@ NAS nano 是一款安全、好用的钱包，可以帮助你更好的管理数�
 注：iOS版NAS nano请使用中国大陆以外的Apple账户在App store中下载
 
 
-The NAS nano pro wallet comes with four main features:
+NAS nano pro钱包有4大特点：
 
-* Quickly and easily create, import, and manage wallets.
-* Check the transaction progress in your wallet at a glance.
-* Provide three kinds of wallet backups, including mnemonic, Keystore, private key backups, to minimize loss and theft of assets.
-* Support NAS, as well as other NRC20 tokens, such as NAX and ATP. If you want to list your token on NAS nano pro, please [click here](http://va.mikecrm.com/OXmbhsJ).
+* 创建、导入和管理钱包快捷方便。
+* 快速查询转帐交易记录。
+* 提供三种钱包备份方式：助记词、Keystore、私钥备份，确保资产安全。
+* 支持NAS和其他NRC20代币，比如NAX、ATP。如果你想把你的币列在NAS nano pro上，请 [点击这里](http://va.mikecrm.com/OXmbhsJ)。
 
 ![](/resources/nano_app_capture_en.png)
 
 
-### 星云Web Wallet
+### 星云Web钱包
 
-[Click here to download NAS Wallet (Chrome Extension version)](https://chrome.google.com/webstore/detail/nasextwallet/gehjkhmhclgnkkhpfamakecfgakkfkco). [Click here to download Nebulas web wallet (local version)](https://github.com/nebulasio/web-wallet). Nebulas web wallet tutorial is below:
+[点击这里下载 NAS 钱包 (Chrome 插件版本)](https://chrome.google.com/webstore/detail/nasextwallet/gehjkhmhclgnkkhpfamakecfgakkfkco). [点击这里下载星云Web钱包 (本地版本)](https://github.com/nebulasio/web-wallet)。星云Web钱包教程如下：
 
-钱包教程 星云Web钱包教程:
-
-1.  [创建NAS钱包](https://blog.nebulas.io/2018/04/12/creating-a-nas-wallet/)
-2.  [发起转账](https://blog.nebulas.io/2018/04/17/sending-nas-from-your-wallet/)
-3.  [离线签名交易](https://blog.nebulas.io/2018/04/18/signing-a-transaction-offline/)
-4.  [查看钱包信息](https://blog.nebulas.io/2018/04/19/view-wallet-information/)
+1.  [创建NAS钱包](https://mp.weixin.qq.com/s/7XPhHKvqDZvByQW9EfbAwA)
+2.  [发起转账](https://mp.weixin.qq.com/s/bNQwO3o-F17OsW8k6yxKLA)
+3.  [离线签名交易](https://mp.weixin.qq.com/s/xowcLDE-BHZqu5ESTvyrqQ)
+4.  [查看钱包信息](https://mp.weixin.qq.com/s/5HgduzEQ_broUgN1na9S6g)
 5.  [查看交易状态](https://blog.nebulas.io/2018/04/28/check-tx-status/)
 6.  [部署智能合约](https://blog.nebulas.io/2018/04/28/deploy-a-smart-contract/)
 7.  [Call a Smart Contract on Nebulas Wallet](https://medium.com/nebulasio/call-a-smart-contract-on-nebulas-3522038aec18)
